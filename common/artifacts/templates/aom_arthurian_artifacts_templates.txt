@@ -1,0 +1,181 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Excalibur (Caledfwlch)
+aom_excalibur_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 10
+		martial = 2
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+# Carnwennan (Arthur's Dagger)
+aom_carnwennan_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 6
+	}
+	unique = yes
+}
+
+# Rhongomyniad (Arthur's Spear)
+aom_rhongomyniad_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 6
+	}
+	unique = yes
+}
+
+# Pridwen (Arthur's Shield)
+aom_pridwen_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 4
+	}
+	unique = yes
+}
+
+# Merlin's Staff
+aom_merlins_staff_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		learning = 6
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Clarent (The Sword in the Stone)
+aom_clarent_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 7
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+## Secace (Sir Lancelot's Sword)
+aom_secace_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Courechouse (King Ban's Sword)
+aom_courechouse_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Galatine (Sir Gawain's Sword)
+aom_galatine_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Sword Of The Red Hilt (Sir Galahad's Sword)
+aom_sword_of_the_red_hilt_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# The Round Table 
+aom_throne_round_table_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_brythonic }
+        }
+	}
+	fallback = {
+		diplomacy = 4
+		court_grandeur_baseline_add = 7
+		vassal_opinion = 10
+		knight_effectiveness_mult = 0.05
+	}
+	unique = yes
+}

@@ -1,0 +1,833 @@
+﻿l_simp_chinese:
+# 神器类型
+  artifact_bow_simple: "弓"
+  artifact_armor_simple: "盔甲"
+  artifact_sculpture_simple: "雕塑"
+  artifact_weapon_simple: "武器"
+  artifact_pedestal_simple: "基座"
+
+# 调试决定
+  aom_debug_transfer_all_artifacts: "召唤神话神器"
+  aom_debug_transfer_all_artifacts_desc: "召唤远古神话的力量，将所有现存的神话神器召唤到你的物品栏。"
+  aom_debug_transfer_all_artifacts_tooltip: "所有已知的神话神器都将转移到你的手中。"
+  aom_debug_transfer_all_artifacts_confirm: "是的，把它们带给我!"
+
+  aom_debug_create_all_artifacts: "创造所有神话神器"
+  aom_debug_create_all_artifacts_desc: "召唤所有传说神器，凝聚神力，成就神器。"
+  aom_debug_create_all_artifacts_tooltip: "所有传说神器都将全新创造并添加到您的物品栏。"
+  aom_debug_create_all_artifacts_confirm: "是的，全部帮我创造!"
+
+# 神器生成决策
+  aom_spawn_artifacts_decision: "生成神话神器"
+  aom_spawn_artifacts_decision_desc: "凭借灰颅之力!"
+  aom_spawn_artifacts_decision_tooltip: "打开此菜单即可生成各种神话神器。"
+  aom_spawn_artifacts_decision_confirm: "确认"
+  aom_spawn_artifacts_decision_tt: "打开决策，选择要生成的神器。"
+
+  aom_spawn_norse_artifacts: "北欧神器"
+  aom_spawn_norse_artifacts_tooltip: "例如: 雷神之锤、布里辛加门、格拉姆"
+
+  aom_spawn_greco_roman_artifacts: "希腊罗马神器"
+  aom_spawn_greco_roman_artifacts_tooltip: "例如: 宙斯的闪电、哈莫尼亚项链、丰饶之角"
+
+  aom_spawn_abrahamic_artifacts: "打开亚伯拉罕神器菜单"
+  aom_spawn_abrahamic_artifacts_tooltip: "例如: 圣枪、佐勒菲卡尔、摩西权杖"
+
+  aom_spawn_celtic_artifacts: "打开凯尔特神器菜单"
+  aom_spawn_celtic_artifacts_tooltip: "示例: 卢格的投石索、杜班、布兰·加莱德之角"
+
+  aom_spawn_arthurian_artifacts: "打开亚瑟王神器菜单"
+  aom_spawn_arthurian_artifacts_tooltip: "示例: 王者之剑、圆桌、塞卡斯"
+
+  aom_spawn_finno_ugric_artifacts: "打开芬兰-乌戈尔神器菜单"
+  aom_spawn_finno_ugric_artifacts_tooltip: "示例: 乌孔瓦萨拉、塔恩头盔、桑波"
+
+  aom_spawn_slavic_artifacts: "打开斯拉夫神器菜单"
+  aom_spawn_slavic_artifacts_tooltip: "示例: 佩伦之斧、科斯切伊之针、芭芭雅嘎的研钵和杵
+
+  aom_spawn_lovecraftian_artifacts: "打开洛夫克拉夫特式神器菜单"
+  aom_spawn_lovecraftian_artifacts_tooltip: "示例: 《死灵之书》、《闪耀偏方三八面体》、《银色钥匙》"
+
+  aom_disable_artifact_spawning: "禁用神器刷新菜单"
+  aom_disable_artifact_spawning_tooltip: "#R 警告: #!这将禁用神器刷新菜单"
+
+# 饮圣杯
+  aom_drink_from_holy_grail_decision: "饮圣杯"
+  aom_drink_from_holy_grail_decision_desc: "圣杯中充满了神圣的力量。饮下它，便能品尝永恒的恩典。这是百年难得的机会。"
+  aom_drink_from_holy_grail_decision_tooltip: "饮下圣杯，获得其神奇功效。"
+  aom_drink_from_holy_grail_decision_confirm: "饮下"
+  aom_drink_from_holy_grail_decision_tt: "你将饮下圣杯。"
+  aom_drink_from_holy_grail_decision_effect_tt_1: "作为 [GetPietyLevelName( '(int32)3' )]，饮下圣杯将治愈你的伤口。"
+  aom_drink_from_holy_grail_decision_effect_tt_2: "作为 [GetPietyLevelName( '(int32)4' )]，饮下圣杯将治愈你的伤口，驱除你的疾病。"
+  aom_drink_from_holy_grail_decision_effect_tt_3: "作为 [GetPietyLevelName( '(int32)5' )]，饮下圣杯将治愈你的伤口，永远摆脱疾病，治愈你的畸形。"
+  aom_has_holy_grail: "你拥有圣杯。"
+  aom_has_drunk_from_holy_grail: "你在过去 100 年里#bold not#! 饮过圣杯。"
+
+# 宣称不列颠尼亚
+  aom_claim_britannia_decision: "宣称不列颠尼亚。"
+  aom_claim_britannia_decision_desc: "凭着克拉伦特之权，石中之剑，宣称不列颠尼亚的全部王国。揭开王者之剑，将使人们为真正的国王而奋起。"
+  aom_claim_britannia_decision_tooltip: "宣称不列颠尼亚全部王国。"
+  aom_claim_britannia_decision_confirm: "宣示你的主权"
+  aom_has_clarent: "你拥有石中剑克拉伦特"
+  aom_claim_britannia_decision_effect_tt: "你的军事才能决定了有多少精锐士兵 #italic (武装士兵)#! 会响应你的号召，而你的文化进步 #italic (文化时代)#! 则决定了有多少农民兵会聚集在你的旗帜下。"
+
+  britannia_claim_army: "真正的国王之军，为不列颠尼亚而战"
+
+# 阅读《死灵之书》
+  aom_read_necronomicon_decision: "阅读《死灵之书》"
+  aom_read_necronomicon_decision_desc: "深入探究被人类皮肤束缚、被疯狂书写的禁忌知识。谁知道隐藏在背后的真相是什么？"
+  aom_read_necronomicon_decision_tooltip: "你将冒着失去理智的风险，从这本被诅咒的巨著中获取超自然的知识。"
+  aom_read_necronomicon_decision_confirm: "翻页"
+  aom_has_necronomicon: "你拥有可怕的《死灵之书》"
+  aom_has_read_necronomicon: "你在过去20年里从未读过《死灵之书》"
+
+# 凝视尼托克丽丝之镜
+  aom_gaze_into_mirror_of_nitocris_decision: "凝视尼托克丽丝之镜"
+  aom_gaze_into_mirror_of_nitocris_decision_desc: "这面古老的镜子，据说映照的不是容颜，而是灵魂。你所看到的，可能会永远改变你。"
+  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "凝视尼托克丽丝之镜，揭开秘密……或许还能唤醒你内心深处的某种东西。"
+  aom_gaze_into_mirror_of_nitocris_decision_confirm: "审视内心"
+  aom_has_mirror_of_nitocris: "你拥有尼托克丽丝之镜"
+  aom_has_gazed_into_mirror_of_nitocris: "你在过去15年内从未凝视过尼托克丽丝之镜"
+  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "这面镜子可能会揭示你的对手、封臣或廷臣所隐藏的秘密。"
+
+# 神器要求 游戏规则
+  rule_aom_artifact_requirements: "神器要求"
+
+  setting_aom_artifact_requirements_enabled: "#P 已启用#!"
+  setting_aom_artifact_requirements_enabled_desc: "角色需要满足特定要求才能充分利用特定神器。"
+
+  setting_aom_artifact_requirements_disabled: "#R 已禁用#!"
+  setting_aom_artifact_requirements_disabled_desc: "角色将能够充分利用任何神器。"
+
+# 北欧神器游戏规则
+  rule_aom_generate_norse_artifacts: "北欧神器生成"
+
+  setting_aom_generate_norse_artifacts_all: "#P 所有神器#!"
+  setting_aom_generate_norse_artifacts_all_desc: "所有北欧神话神器都将被植入游戏。"
+
+  setting_aom_generate_norse_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_norse_artifacts_only_god_desc: "只有与北欧神话相关的魔法神器才会被植入。"
+
+  setting_aom_generate_norse_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_norse_artifacts_only_legend_desc: "除魔法神器外的所有北欧神器都将被植入。"
+
+  setting_aom_generate_norse_artifacts_with_descision: "#V 有决定权#!"
+  setting_aom_generate_norse_artifacts_with_descision_desc: "北欧神器只能通过特殊决策生成。"
+
+  setting_aom_generate_norse_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_norse_artifacts_disabled_desc: "北欧神器将不会生成或植入。"
+
+# 希腊罗马神器游戏规则
+  rule_aom_generate_greco_roman_artifacts: "希腊罗马神器生成"
+
+  setting_aom_generate_greco_roman_artifacts_all: "#P 所有神器#!"
+  setting_aom_generate_greco_roman_artifacts_all_desc: "所有希腊罗马神话神器都将植入游戏。"
+
+  setting_aom_generate_greco_roman_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_greco_roman_artifacts_only_god_desc: "仅与希腊罗马神话相关的炫彩神器将被植入。"
+
+  setting_aom_generate_greco_roman_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "除炫彩神器外的所有希腊罗马神器都将被植入。"
+
+  setting_aom_generate_greco_roman_artifacts_with_descision: "#V 有决定权#!"
+  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "希腊罗马文物只能通过特殊决策生成。"
+
+  setting_aom_generate_greco_roman_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_greco_roman_artifacts_disabled_desc: "希腊罗马文物将无法生成或植入。"
+
+# 亚伯拉罕文物游戏规则
+  rule_aom_generate_abrahamic_artifacts: "亚伯拉罕文物生成"
+
+  setting_aom_generate_abrahamic_artifacts_all: "#P 所有文物#!"
+  setting_aom_generate_abrahamic_artifacts_all_desc: "所有亚伯拉罕神话文物都将植入游戏。"
+
+  setting_aom_generate_abrahamic_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_abrahamic_artifacts_only_god_desc: "只有与亚伯拉罕神话相关的辉煌神器才会被播种。"
+
+  setting_aom_generate_abrahamic_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "除辉煌神器外，所有亚伯拉罕神器都将被播种。"
+
+  setting_aom_generate_abrahamic_artifacts_with_descision: "#V 需决议#!"
+  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "亚伯拉罕神器只能通过特殊决议创建。"
+
+  setting_aom_generate_abrahamic_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_abrahamic_artifacts_disabled_desc: "亚伯拉罕神器将不会生成或植入。"
+
+# 凯尔特神器游戏规则
+  rule_aom_generate_celtic_artifacts: "凯尔特神器生成"
+
+  setting_aom_generate_celtic_artifacts_all: "#P 所有神器#!"
+  setting_aom_generate_celtic_artifacts_all_desc: "所有凯尔特神话神器都将植入游戏。"
+
+  setting_aom_generate_celtic_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_celtic_artifacts_only_god_desc: "只有与凯尔特神话相关的 illistrious 神器才会被植入。"
+
+  setting_aom_generate_celtic_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_celtic_artifacts_only_legend_desc: "除 illistrious 神器外，所有凯尔特神器都将被植入。"
+
+  setting_aom_generate_celtic_artifacts_with_descision: "#V 需经过决策#!"
+  setting_aom_generate_celtic_artifacts_with_descision_desc: "凯尔特神器只能通过特殊决策来创造。"
+
+  setting_aom_generate_celtic_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_celtic_artifacts_disabled_desc: "凯尔特文物将不会被生成或植入。"
+
+# 亚瑟王文物游戏规则
+  rule_aom_generate_arthurian_artifacts: "亚瑟王文物生成"
+
+  setting_aom_generate_arthurian_artifacts_all: "#P 所有文物#!"
+  setting_aom_generate_arthurian_artifacts_all_desc: "所有亚瑟王神话文物将被植入游戏。"
+
+  setting_aom_generate_arthurian_artifacts_only_god: "#M 仅限神文#!"
+  setting_aom_generate_arthurian_artifacts_only_god_desc: "只有与亚瑟王神话相关的杰出文物才会被植入。"
+
+  setting_aom_generate_arthurian_artifacts_only_legend: "#仅限传奇神器#!"
+  setting_aom_generate_arthurian_artifacts_only_legend_desc: "除亚瑟王传奇神器外，所有亚瑟王传奇神器都将被播种。"
+
+  setting_aom_generate_arthurian_artifacts_with_descision: "#V 有决策#!"
+  setting_aom_generate_arthurian_artifacts_with_descision_desc: "亚瑟王神器只能通过特殊决策生成。"
+
+  setting_aom_generate_arthurian_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_arthurian_artifacts_disabled_desc: "亚瑟王神器将无法生成或播种。"
+
+# 芬兰-乌戈尔神器游戏规则
+  rule_aom_generate_finno_ugric_artifacts: "芬兰-乌戈尔神器生成"
+
+  setting_aom_generate_finno_ugric_artifacts_all: "#P 所有神器#!"
+  setting_aom_generate_finno_ugric_artifacts_all_desc: "所有芬兰-乌戈尔神话神器都将被植入游戏。"
+
+  setting_aom_generate_finno_ugric_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "只有与芬兰-乌戈尔神话相关的魔法神器才会被植入。"
+
+  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "除魔法神器外，所有芬兰-乌戈尔神话神器都将被植入。"
+
+  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V 已决定#!"
+  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "芬兰-乌戈尔文物只能通过特殊决定生成。"
+
+  setting_aom_generate_finno_ugric_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "芬兰-乌戈尔文物将无法生成或播种。"
+
+# 斯拉夫文物游戏规则
+  rule_aom_generate_slavic_artifacts: "斯拉夫文物生成"
+
+  setting_aom_generate_slavic_artifacts_all: "#P 所有文物#!"
+  setting_aom_generate_slavic_artifacts_all_desc: "所有斯拉夫神话神器都将被植入游戏。"
+
+  setting_aom_generate_slavic_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_slavic_artifacts_only_god_desc: "只有与斯拉夫神话相关的炫彩神器才会被植入。"
+
+  setting_aom_generate_slavic_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_slavic_artifacts_only_legend_desc: "除炫彩神器外，所有斯拉夫神器都将被植入。"
+
+  setting_aom_generate_slavic_artifacts_with_descision: "#V 有决定权#!"
+  setting_aom_generate_slavic_artifacts_with_descision_desc: "斯拉夫神器只能通过特殊决议生成。"
+
+  setting_aom_generate_slavic_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_slavic_artifacts_disabled_desc: "斯拉夫神器将无法生成或植入。"
+
+# 洛夫克拉夫特神器游戏规则
+  rule_aom_generate_lovecraftian_artifacts: "洛夫克拉夫特神器生成"
+
+  setting_aom_generate_lovecraftian_artifacts_all: "#P 所有神器#!"
+  setting_aom_generate_lovecraftian_artifacts_all_desc: "所有洛夫克拉夫特神话神器都将被植入游戏。"
+
+  setting_aom_generate_lovecraftian_artifacts_only_god: "#M 仅限神器#!"
+  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "只有与洛夫克拉夫特神话相关的炫彩神器才会被播种。"
+
+  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M 仅限传奇神器#!"
+  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "除炫彩神器外，所有洛夫克拉夫特神器都将被播种。"
+
+  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V 需决议#!"
+  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "洛夫克拉夫特神器只能通过特殊决议创造。"
+
+  setting_aom_generate_lovecraftian_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "洛夫克拉夫特式文物将无法生成或播种。"
+
+# 通用术语
+  aom_event_option.next: "下一个"
+  aom_event_option.previous: "上一个"
+  aom_event_option.close: "关闭"
+  SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "选择神器万神殿"
+
+  aom_artifact_spawning.1001.t: "北欧神器菜单"
+  aom_artifact_spawning.1011.t: "希腊罗马神器菜单"
+  aom_artifact_spawning.1021.t: "亚伯拉罕神器菜单"
+  aom_artifact_spawning.1031.t: "凯尔特神器菜单"
+  aom_artifact_spawning.1041.t: "亚瑟王神器菜单"
+  aom_artifact_spawning.1051.t: "芬兰-乌戈尔神器菜单"
+  aom_artifact_spawning.1061.t: "斯拉夫神器菜单"
+  aom_artifact_spawning.1071.t: "洛夫克拉夫特式神器菜单"
+  aom_artifact_spawning.desc: "选择要生成的神器: "
+
+  game_rule_category_aom: "神话神器"
+
+# 技能修正
+  read_necronomicon_decision_learning_gain: "阅读《死灵之书》"
+  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "凝视尼托克里斯之镜"
+
+# 特色
+  dyn_Alhazred: "阿尔哈兹雷德"
+  dynn_Alhazred_motto: "永恒长眠的并非死亡，在奇异的岁月中，甚至死亡也随之消逝。"
+  克利萨努斯: "克利萨努斯"
+
+  nick_the_mad_arab: "疯狂的阿拉伯人"
+  nick_the_mad_arab_desc: "阿尔哈兹莱德声称瞥见了现实的真正主宰者，并发誓要找到他们，人们因此称他为疯子。"
+
+  nick_the_mad_monk: "疯狂的僧侣"
+  nick_the_mad_monk_desc: "在深入海德斯塔尔地下的禁地墓穴后，克利萨努斯化身为变人；他狂热的胡言乱语让他在那些敢于倾听的人眼中赢得了疯僧的称号。"
+
+# 北欧神器
+  # 物品栏神器
+  aom_gungnir_name: "冈尼尔"
+  aom_gungnir_desc: "奥丁之矛。冈尼尔由矮人铁匠锻造，由众神之父亲自挥舞，它从未失手。它散发着神圣的力量，激励着伟大的思想家和战士。
+
+  aom_mjolnir_name: "雷神之锤"
+  aom_mjolnir_desc: "雷神之锤。雷神托尔的强大之锤，一击便可夷平高山，击溃众神的敌人。
+
+  aom_jarngreipr_name: "贾恩格雷普"
+  aom_jarngreipr_desc: "力量手套。这副铁手套能让佩戴者拥有难以想象的力量，这对于握住雷神之锤至关重要。
+
+  aom_megingjord_name: "雷神之锤"
+  aom_megingjord_desc: "力量腰带。这条腰带能让佩戴者的力量加倍，并注入神圣的活力。"
+
+  aom_brisingamen_name: "布里辛加门"
+  aom_brisingamen_desc: "弗蕾亚项链。这条传奇项链散发着空灵的光芒，提升佩戴者的魅力和影响力。"
+
+  aom_draupnir_name: "德拉普尼尔"
+  aom_draupnir_desc: "繁荣之戒。奥丁的金戒指，每九个夜晚都会自我复制一次，象征着无尽的财富和神圣的权威。"
+
+  aom_eldhrimnir_name: "Eldhrímnir"
+  aom_eldhrimnir_desc: "永恒之锅。众神用这口魔法锅,从野猪Sæhrímnir中汲取无尽的养分。"
+
+  aom_andvaranaut_name: "Andvaranaut"
+  aom_andvaranaut_desc: "诅咒之戒。这枚戒指既赐予财富，也赐予厄运，与贪婪和复仇的悲剧故事息息相关。"
+
+  aom_helm_of_awe_name: "敬畏之盔"
+  aom_helm_of_awe_desc: "一件令人恐惧的圣物，据说能让所有凝视它的人都心生恐惧，赋予佩戴者超自然的恐惧。"
+
+  aom_odrerir_name: "奥德瑞尔"
+  aom_odrerir_desc: "智慧之草甸。盛放诗歌之草甸的三件圣器之一，赋予神圣的灵感和洞察力。"
+
+  aom_bodn_name: "博德"
+  aom_bodn_desc: "知识之草甸。盛满诗意智慧精髓的容器，开启心灵，激发创造力，净化心灵。"
+
+  aom_son_name: "Són"
+  aom_son_desc: "雄辩蜜酒。诗歌蜜酒的最后一杯，饮下它，将赋予您雄辩的才华和学术的智慧。
+
+  aom_svalinn_name: "Svalinn"
+  aom_svalinn_desc: "太阳之盾。这面神秘的盾牌置于太阳前方，防止其灼烧世界，保护持有者免受毁灭。
+
+  aom_gjallarhorn_name: "Gjallarhorn"
+  aom_gjallarhorn_desc: "海姆达尔号角。这神圣的号角将在末日吹响。它的回音预示着即将到来的厄运，唤醒了神圣的警惕。
+
+  aom_gram_name: "格拉姆"
+  aom_gram_desc: "西格德之剑。一把由神圣铁匠打造的宝剑，注定要屠龙，书写传奇。"
+
+  aom_tyrfing_name: "提尔锋"
+  aom_tyrfing_desc: "诅咒之剑。一把锋利无比的武器，每一次拔剑都带来厄运。"
+
+  aom_skofnung_name: "剑"
+  aom_skofnung_desc: "王者之剑。据说它蕴含着古代统治者的灵魂，令人敬畏。"
+
+  aom_mistilteinn_name: "米斯蒂尔泰恩"
+  aom_mistilteinn_desc: "魔法之剑。这把剑蕴藏着神秘与符文魔法，低语着秘密。"
+
+  aom_laevateinn_name: "洛基之剑"
+  aom_laevateinn_desc: "洛基之剑。这件混沌而炽烈的神器，其真正的力量在于诡计与毁灭。
+
+  aom_hrotti_name: "赫罗蒂"
+  aom_hrotti_desc: "龙之宝藏之剑。这把剑取自巨龙的宝藏，闪耀着贪婪与力量的光芒。
+
+  aom_hofud_name: "霍夫德"
+  aom_hofud_desc: "海姆达尔之剑。警惕守护者的武器，锋利到足以劈开现实本身。
+
+  aom_dainsleif_name: "达因斯莱夫"
+  aom_dainsleif_desc: "亡灵之剑。一旦拔出，必将杀戮。永恒之战的诅咒遗物。
+
+  aom_tarnkappe_name: "塔恩卡佩"
+  aom_tarnkappe_desc: "隐形斗篷。赋予穿戴者超越凡人理解的隐身能力。"
+
+  aom_fjadrhamr_name: "弗雷之剑"
+  aom_fjadrhamr_desc: "羽毛斗篷。一件神圣的服装，让穿戴者如风般移动。"
+
+  aom_sword_of_freyr_name: "弗雷之剑"
+  aom_sword_of_freyr_desc: "孤军奋战的利刃。此剑由矮人锻造，无需双手便可守护其主人。"
+
+  # 宫廷神器
+  aom_throne_hlidskjalf_name: "Hlidskjalf"
+  aom_throne_hlidskjalf_desc: "奥丁的王座。众神之父在此高高坐下，俯瞰万界。它的存在令人肃然起敬，并赋予那些配得上其智慧的人神圣的守护。
+
+  aom_gleipnir_name: "Gleipnir"
+  aom_gleipnir_desc: "野兽的束缚。一条由不可能之力锻造而成的丝链，坚固到足以束缚住可怕的芬里尔。
+
+  aom_mimirs_skull_name: "密米尔的头骨"
+  aom_mimirs_skull_desc: "智慧之神的断头，仍在彼岸低语着他的忠告。"
+
+  aom_bragis_harp_name: "布拉吉的竖琴"
+  aom_bragis_harp_desc: "一件能够迷惑宫廷、震撼人心、鼓舞人心的魔法乐器。"
+
+# 希腊罗马神器
+  # 物品栏神器
+  aom_achilles_armor_name: "阿喀琉斯铠甲"
+  aom_achilles_armor_desc: "赫菲斯托斯为阿喀琉斯打造的神圣铠甲，赋予其无与伦比的守护和荣耀。"
+
+  aom_aegis_name: "埃圭斯之盾"
+  aom_aegis_desc: "与宙斯和雅典娜相关的可怕盾牌，在敌人心中植入恐惧。"
+
+  aom_ambrosia_name: "仙饮"
+  aom_ambrosia_desc: "众神的神圣甘露，据说能赋予服用者永生和永恒的青春。"
+
+  aom_apollos_bow_name: "阿波罗之弓"
+  aom_apollos_bow_desc: "一把能随着太阳神之声歌唱的弓，拥有神圣的精准。
+
+  aom_caduceus_name: 双蛇杖
+  aom_caduceus_desc: 赫尔墨斯的权杖，缠绕着蛇，这根带翼的权杖象征着和平、商业和外交。
+
+  aom_eros_bow_name: 厄洛斯之弓
+  aom_eros_bow_desc: 一把弓，其箭矢激发爱与欲望，迷惑凡人和众神的心。
+
+  aom_apple_of_discord_name: 不和的金苹果
+  aom_apple_of_discord_desc: 刻有"献给最美丽的人"的苹果，是神争斗和凡人战争的根源。
+
+  aom_rod_of_asclepius_name: 阿斯克勒庇俄斯之杖
+  aom_rod_of_asclepius_desc: 医药和治愈的象征，由神明携带医治者阿斯克勒庇俄斯。
+
+  aom_poseidons_trident_name: "波塞冬的三叉戟"
+  aom_poseidons_trident_desc: "由独眼巨人锻造，这件海神威力强大的武器足以搅动海洋，粉碎大地。"
+
+  aom_shield_of_achilleus_name: "阿喀琉斯之盾"
+  aom_shield_of_achilleus_desc: "一个微缩的宇宙，由众神为希腊最伟大的战士锻造。"
+
+  aom_spear_of_achilles_name: "阿喀琉斯之矛"
+  aom_spear_of_achilles_desc: "一件传给阿喀琉斯的无与伦比的武器，平衡地击倒巨人和英雄。"
+
+  aom_thyrsus_name: "酒神杖"
+  aom_thyrsus_desc: "酒神杖，包裹着常春藤，头戴王冠一颗松果。
+
+  aom_talaria_name: "塔拉里亚"
+  aom_talaria_desc: "赫尔墨斯的带翼凉鞋，赋予佩戴者速度与优雅。"
+
+  aom_zeus_lightning_bolt_name: "宙斯的闪电"
+  aom_zeus_lightning_bolt_desc: "这件神圣的武器由独眼巨人锻造，引导雷电，是宙斯愤怒的终极象征。"
+
+  aom_hades_bident_name: "哈迪斯的双叉戟"
+  aom_hades_bident_desc: "这把黑暗长矛是宙斯闪电的阴森对应物，是哈迪斯在冥界指挥和审判的工具。"
+
+  aom_helm_of_darkness_name: "黑暗之盔"
+  aom_helm_of_darkness_desc: "这把哈迪斯的隐形头盔由独眼巨人锻造，将佩戴者笼罩在阴影之中，神与凡人皆不可视。
+
+  aom_harpe_name: "哈珀"
+  aom_harpe_desc: "珀尔修斯的镰刀，用于斩杀怪兽，斩断命运。"
+
+  aom_necklace_of_harmonia_name: "哈莫尼亚项链"
+  aom_necklace_of_harmonia_desc: "一份被悲剧诅咒的礼物，美丽与危险并存。"
+
+  aom_kronos_scythe_name: "克洛诺斯的镰刀"
+  aom_kronos_scythe_desc: "这把古老的镰刀由盖亚锻造，斩杀了乌拉诺斯，并回荡着反抗与预言的力量。"
+
+  aom_zeus_labrys_name: "宙斯的双刃斧"
+  aom_zeus_labrys_desc: "一把强大的双头斧众神之王所持，曾劈开宙斯的头颅，诞生了雅典娜。
+
+  aom_artemis_bow_name: "阿尔忒弥斯之弓"
+  aom_artemis_bow_desc: "一把为狩猎女神打造的弓，迅捷而致命。"
+
+  aom_eurytus_bow_name: "欧律托斯之弓"
+  aom_eurytus_bow_desc: "一把传奇之弓，曾为欧律托斯所有，后传给奥德修斯，象征着无与伦比的凡人枪法。"
+
+  aom_panacea_name: "万能药"
+  aom_panacea_desc: "这把神秘的药以阿斯克勒庇俄斯的女儿命名，据说可以治愈所有疾病，堪称神圣炼金术的奇迹。"
+
+  aom_bag_of_wind_name: "风之袋"
+  aom_bag_of_wind_desc: "埃俄罗斯的风被封存在一个袋子里，使人能够快速通行或抵御风暴。"
+
+  aom_tritons_conch_name: "特里同的海螺"
+  aom_tritons_conch_desc: "特里同的海螺壳，他是波塞冬之子，他的声音可以掌控海浪。"
+
+  aom_nemean_lion_hide_name: "涅墨亚狮皮"
+  aom_nemean_lion_hide_desc: "这张毛皮取自刀枪不入的涅墨亚雄狮，曾是赫拉克勒斯的盔甲，也是他第一个功绩的象征。"
+
+  aom_girdle_of_hippolyta_name: "希波吕忒的腰带"
+  aom_girdle_of_hippolyta_desc: "这条腰带是阿瑞斯赠予亚马逊女王的，象征着神圣的力量和不屈不挠的精神。女性气质。"
+
+  # 宫廷神器
+  aom_apollos_kithara_name: "阿波罗的基萨拉琴"
+  aom_apollos_kithara_desc: "阿波罗的七弦琴，天体的和谐由此而生。"
+
+  aom_cornucopia_name: "丰饶之角"
+  aom_cornucopia_desc: "丰饶之角，永远充满恩惠。"
+
+  aom_golden_fleece_name: "金羊毛"
+  aom_golden_fleece_desc: "闪闪发光的羊毛，由巨龙守护，伊阿宋和阿尔戈英雄的战利品。"
+
+  aom_scale_of_justice_name: "正义天平"
+  aom_scale_of_justice_desc: "法律与公平的神圣仲裁者忒弥斯手中的天平。"
+
+  aom_icarus_feather_name: "伊卡洛斯的羽毛"
+  aom_icarus_feather_desc: "飞得太靠近太阳的翅膀上的一根羽毛。"
+
+  aom_prometheus_chains_name: "普罗米修斯的锁链"
+  aom_prometheus_chains_desc: "束缚着为人类带来火种的泰坦的枷锁。"
+
+  aom_medusas_head_name: "美杜莎的头颅"
+  aom_medusas_head_desc: "被砍下的蛇发女妖的头颅，依然以其令人恐惧的凝视而致命。"
+
+  aom_throne_zeus_name: "宙斯的王座"
+  aom_throne_zeus_desc: "众神之王的威严宝座，散发着神圣的权威和敬畏。"
+
+# 亚伯拉罕神器
+  # 物品栏神器 (基督教)
+  # 征服之冠 (天启骑士)
+  aom_conquests_crown_name: "征服之冠"
+  aom_conquests_crown_desc: "征服骑士的光辉王冠，神圣统治与胜利的象征。"
+
+  # 战争巨剑 (天启骑士)
+  aom_wars_greatsword_name: "战争巨剑"
+  aom_wars_greatsword_desc: "一把蕴含天启骑士战争狂怒的巨剑，为正义之战而打造。"
+
+  # 十二星冠 (圣母玛利亚之冠)
+  aom_crown_of_twelve_stars_name: "十二星冠"
+  aom_crown_of_twelve_stars_desc: "一顶光芒四射的王冠，象征着圣母玛利亚的神圣力量。女王之位。"
+
+  # 耶稣的无缝长袍
+  aom_seamless_robe_of_jesus_name: "耶稣的无缝长袍"
+  aom_seamless_robe_of_jesus_desc: "耶稣所穿的神圣圣布遗物，以其神奇的织法而闻名。"
+
+  # 死神镰刀 (天启四骑士)
+  aom_deaths_scythe_name: "死神镰刀"
+  aom_deaths_scythe_desc: "这把冰冷的镰刀由死神骑士挥舞，将灵魂与肉体分离。"
+
+  # 阿斯卡隆 (圣乔治之剑)
+  aom_ascalon_name: "阿斯卡隆"
+  aom_ascalon_desc: "圣乔治的传奇之剑，相传曾斩杀过一条强大的恶龙。"
+
+  # 布拉达曼特之枪
+  aom_bradamantes_lance_name: "布拉达曼特之枪"
+  aom_bradamantes_lance_desc: "基督教骑士的长枪，迅捷而坚定地彰显其正义。"
+
+  # 圣枪 (朗基努斯之矛)
+  aom_holy_lance_name: "圣枪"
+  aom_holy_lance_desc: "也被称为朗基努斯之矛，它在耶稣受难时刺穿了他的肋旁。#italic 这是真的吗？#!"
+
+  # 征服之弓 (天启骑士)
+  aom_conquests_bow_name: "征服之弓"
+  aom_conquests_bow_desc: "天启骑士之弓，标志着神圣征服的开始。"
+
+  # 所罗门印章
+  aom_seal_of_solomon_name: "所罗门印章"
+  aom_seal_of_solomon_desc: "一枚神秘的戒指，赋予其掌控灵魂和超越凡人界限的智慧。"
+
+  # 宫廷神器 (基督教)
+  # 饥荒天平 (天启骑士)
+  aom_famines_scale_name: "饥荒天平"
+  aom_famines_scale_desc: "饥荒骑士用它来测量全国的饥饿和匮乏程度。"
+
+  # 碎片诺亚方舟
+  aom_piece_of_noahs_ark_name: "诺亚方舟碎片"
+  aom_piece_of_noahs_ark_desc: "一块来自经受了审判大洪水的方舟的神圣碎片。"
+
+  # 奥维耶多的裹布
+  aom_sudarium_of_oviedo_name: "奥维耶多的裹布"
+  aom_sudarium_of_oviedo_desc: "一块受人尊敬的布，据信在基督死后曾盖在他的脸上。"
+
+  # 圣杯 (圣杯)
+  aom_holy_grail_name: "圣杯"
+  aom_holy_grail_desc: "基督在最后的晚餐中饮水的圣杯，奇迹的承载者。"
+
+  # 圣包皮
+  aom_holy_prepuce_name: "圣包皮"
+  aom_holy_prepuce_desc: "一件备受争议的遗物，据称是基督本人的包皮。"
+
+  # 生命之书
+  aom_book_of_life_name: "生命之书"
+  aom_book_of_life_desc: "据说这是一本神圣的巨著，记载着得救之人的名字，对那些被诅咒的人隐藏。"
+
+  # 禁果
+  aom_forbidden_fruit_name: "禁果"
+  aom_forbidden_fruit_desc: "伊甸园诱惑的残留，带着原罪的回响。"
+
+  # 加百列之角
+  aom_horn_of_gabriel_name: "加百列之角"
+  aom_horn_of_gabriel_desc: "在末日吹响，宣告死者复活。"
+
+  # 基督之血
+  aom_blood_of_christ_name: "基督之血"
+  aom_blood_of_christ_desc: "神圣的精华为人类的救赎而流淌，并保存在神圣的器皿中。"
+
+  # 犹太文物清单
+  # 摩西之杖
+  aom_moses_staff_name: "摩西之杖"
+  aom_moses_staff_desc: "这根分开红海、击碎石头的杖。"
+
+  # 大卫之剑
+  aom_davids_sword_name: "大卫之剑"
+  aom_davids_sword_desc: "牧羊人之王的传奇之剑，战胜了歌利亚。"
+
+  # 五彩外衣 (约瑟的外衣)
+  aom_coat_of_many_colors_name: "五彩外衣"
+  aom_coat_of_many_colors_desc: "送给约瑟的礼物，充满恩惠和预言之梦。"
+
+  # 亚伦之杖 (摩西的兄弟之杖)
+  aom_aarons_rod_name: "亚伦之杖"
+  aom_aarons_rod_desc: "祭司权柄和神迹的象征。"
+
+  # 所罗门之杖
+  aom_solomons_shamir_name: "所罗门之杖"
+  aom_solomons_shamir_desc: "它并非一件工具，而是一件奇迹——如同上帝的低语。它能切开石头如同切纸，悄无声息，未曾见过。"
+
+  # 所罗门大钥匙
+  aom_greater_key_of_solomon_name: "所罗门大钥匙"
+  aom_greater_key_of_solomon_desc: "一本记载着仪式和神圣知识的古代书籍，据说可以揭示天地的秘密。"
+
+  # 所罗门小钥匙
+  aom_lesser_key_of_solomon_name: "所罗门小钥匙"
+  aom_lesser_key_of_solomon_desc: "一本记载着仪式和神圣知识的古代书籍，据说可以揭示天地的秘密。"
+
+  # 歌利亚之剑
+  aom_goliaths_sword_name: "歌利亚之剑"
+  aom_goliaths_sword_desc: "非利士勇士的巨型武器，被斩杀他的大卫夺走。"
+
+  # 犹太宫廷文物
+  # 约柜芦苇 (摩西的篮子)
+  aom_ark_of_bulrushes_name: "芦苇柜"
+  aom_ark_of_bulrushes_desc: "载着婴儿摩西穿越尼罗河芦苇的篮子。"
+
+  # 石板 (十诫)
+  aom_tablets_of_stone_name: "石板"
+  aom_tablets_of_stone_desc: "在西奈山顶上交给摩西的神圣诫命。"
+
+  # 约书亚的羊角号
+  aom_joshuas_shofars_name: "约书亚的羊角号"
+  aom_joshuas_shofars_desc: "凭借信仰和声音，公羊的号角推倒了耶利哥城墙。"
+
+  # 利维坦的皮
+  aom_leviathans_hide_name: "利维坦的皮"
+  aom_leviathans_hide_desc: "坚如铁，是被神灵斩杀的巨兽的碎片。"
+
+  # 神之宝座 (耶和华的宝座)
+  aom_throne_of_god_name: "神之宝座"
+  aom_throne_of_god_desc: "耶和华的圣座，威严而绝对。"
+
+  # 物品清单 (伊斯兰)
+  # 佐勒菲卡尔 (阿里·本·阿比·塔利卜的宝剑)
+  aom_zulfiqar_name: "佐勒菲卡尔"
+  aom_zulfiqar_desc: "阿里的双叉剑，象征着伊斯兰的勇气和正义。"
+
+  # 先知的圣袍
+  aom_sacred_cloak_of_the_prophet_name: "先知的圣袍先知"
+  aom_sacred_cloak_of_the_prophet_desc: "先知穆罕默德曾穿着的一件受祝福的服装。"
+
+  # 宫廷文物 (伊斯兰)
+  # 天房之钥
+  aom_key_to_the_kaaba_name: "天房之钥"
+  aom_key_to_the_kaaba_desc: "守护伊斯兰教最神圣圣地大门的尊贵圣物。"
+
+# 凯尔特文物
+  # 库存文物
+  # 斯莱格 (鲁格之矛)
+  aom_sleg_name: "斯莱格"
+  aom_sleg_desc: "鲁格的强大长矛，据说能保证其使用者获得胜利。"
+
+  # 鲁格的投石索
+  aom_lughs_sling_name: "鲁格的投石索"
+  aom_lughs_sling_desc: "一把传奇的投石索由卢格神以光速攻击。"
+
+  # Claíomh Solais (光之剑)
+  aom_claiomh_solais_name: "克莱奥姆·索莱"
+  aom_claiomh_solais_desc: "光之剑，燃烧着神圣之火，由神话英雄挥舞。"
+
+  # 弗拉加拉克 (努阿达之剑)
+  aom_fragarach_name: "弗拉加拉"
+  aom_fragarach_desc: "努阿达的斩风剑，据说可以迫使真理并刺穿任何防御。"
+
+  # Gáe Bulg (斯卡哈的矛)
+  aom_gae_bulg_name: "盖伊布尔格"
+  aom_gae_bulg_desc: "库丘林挥舞的可怕长矛，从内部撕裂。这是他的老师斯卡哈给他的。"
+
+  # 卡拉博格
+  aom_caladbolg_name: "卡拉博格"
+  aom_caladbolg_desc: "一把强大的剑，如同彩虹，能够劈开山丘。"
+
+  # Móralltach (大怒)
+  aom_moralltach_name: "道德"
+  aom_moralltach_desc: "大怒，海神赐予的审判之剑。"
+
+  # Beagalltach (小愤怒)
+  aom_beagalltach_name: "比格尔塔赫"
+  aom_beagalltach_desc: "小愤怒，莫拉尔塔赫的双胞胎，像毒蛇一样敏捷而锋利。"
+
+  # Dubán (库丘林的黑盾)
+  aom_duban_name: "杜班"
+  aom_duban_desc: "黑色盾牌库丘林，充满恐惧的黑暗守护。
+
+  # 迪恩温 (白色剑柄)
+  aom_dyrnwyn_name: "迪恩温"
+  aom_dyrnwyn_desc: "白色剑柄，在贤者手中闪耀，是贵族的考验。"
+
+  # 宫廷神器
+  # 尤艾斯尼 (达格达竖琴)
+  aom_uaithne_name: "尤艾斯尼"
+  aom_uaithne_desc: "达格达竖琴，能够唤起人们的喜悦、悲伤或沉睡。"
+
+  # 布兰·加雷德之号角
+  aom_horn_of_bran_galed_name: "布兰·加雷德之号角"
+  aom_horn_of_bran_galed_desc: "一支能够提供持有者任何所需饮品的号角。"
+
+  # 格威德诺之礼篮加兰希尔
+  aom_hamper_of_gwyddno_name: "加兰希尔加兰希尔礼篮"
+  aom_hamper_of_gwyddno_desc: "一个神秘的篮子，为有德之人提供源源不断的食物。"
+
+  # 双达德尼 (重生之锅)
+  aom_pair_dadeni_name: "双达德尼"
+  aom_pair_dadeni_desc: "重生之锅，在古代传说中用于复活阵亡的战士。"
+
+  # 灵感之锅
+  aom_cauldron_of_inspiration_name: "灵感之锅"
+  aom_cauldron_of_inspiration_desc: "一个承载神圣洞察力的容器，赋予探寻者智慧。"
+
+# 亚瑟王遗物
+  # 物品栏遗物
+  # 亚瑟王之剑 (Caledfwlch)
+  aom_excalibur_name: "王者之剑"
+  aom_excalibur_desc: "真正的王者之剑，传说中曾经的亚瑟王之剑，由湖中仙子赐予。"
+
+  # Carnwennan (亚瑟王匕首)
+  aom_carnwennan_name: "Carnwennan"
+  aom_carnwennan_desc: "亚瑟王的匕首，据说可以隐藏它的持有者隐藏在阴影中。"
+
+  # 朗奥米尼亚德 (亚瑟之矛)
+  aom_rhongomyniad_name: "朗奥米尼亚德"
+  aom_rhongomyniad_desc: "亚瑟之矛，一件精准无误、勇猛无比的武器。"
+
+  # 普里德温 (亚瑟之盾)
+  aom_pridwen_name: "普里德温"
+  aom_pridwen_desc: "一面闪耀的盾牌，饰有潘德拉贡家族的徽记。"
+
+  # 梅林权杖
+  aom_merlins_staff_name: "梅林权杖"
+  aom_merlins_staff_desc: "大法师梅林的权杖，蕴含着奥术力量。"
+
+  # 克拉伦特 (石中剑)
+  aom_clarent_name: "克拉伦特"
+  aom_clarent_desc: "石中剑，阿瓦隆王权的合法象征。"
+
+  # 塞卡斯 (兰斯洛特爵士之剑)
+  aom_secace_name: "塞卡斯"
+  aom_secace_desc: "兰斯洛特爵士之剑，一位无与伦比的骑士和悲剧英雄。"
+
+  # 库雷豪斯 (班国王之剑)
+  aom_courechouse_name: "库雷豪斯"
+  aom_courechouse_desc: "班国王之剑，为忠诚和传承而铸就。"
+
+  # 加拉廷 (高文爵士之剑)
+  aom_galatine_name: "加拉廷"
+  aom_galatine_desc: "高文爵士之剑，闪耀着太阳的力量。"
+
+  # 红柄之剑 (加拉哈德爵士之剑)
+  aom_sword_of_the_red_hilt_name: "红柄之剑"
+  aom_sword_of_the_red_hilt_desc: "这把神圣的宝剑，由最纯洁的骑士加拉哈德爵士所挥舞。"
+
+  # 宫廷神器
+  # 圆桌
+  aom_throne_round_table_name: "圆桌"
+  aom_throne_round_table_desc: "亚瑟王宫廷中传奇的圆桌，象征着团结与骑士精神。"
+
+# 芬兰-乌戈尔神器
+  # 库存神器
+  # 乌孔瓦萨拉 (乌科之锤)
+  aom_ukonvasara_name: "乌孔瓦萨拉"
+  aom_ukonvasara_desc: "天空之神乌科的雷霆之锤，迸发出神圣的能量。"
+
+  # 塔恩头盔
+  aom_tarnhelm_name: "塔恩头盔"
+  aom_tarnhelm_desc: "这顶神奇的头盔赋予佩戴者隐身和变身的力量。"
+
+  #卡莱万·米耶卡
+  aom_kalevan_miekka_name: "卡莱万·米耶卡"
+  aom_kalevan_miekka_desc: "卡莱瓦的巨剑，由神话中的矿石锻造而成，由巨人传承下来。"
+
+  # 宫廷神器
+  # 桑波
+  aom_sampo_name: "桑波"
+  aom_sampo_desc: "一座带来财富的神秘磨坊，源源不断地磨出谷物、盐和黄金。"
+
+  # 坎特勒 (魔法竖琴)
+  aom_kantele_name: "坎特勒"
+  aom_kantele_desc: "一把用巨型长矛下颌骨雕刻而成的魔法竖琴，能够迷惑所有听到它的人。"
+
+  # 斯拉夫神器
+  # 库存神器
+  # 克拉德涅茨 (自动挥舞之剑)
+  aom_kladenets_name: "克拉德涅茨"
+  aom_kladenets_desc: "据说，这把剑一旦拔出，便能释放出无比强大的威力。"
+
+  # 佩伦之斧
+  aom_peruns_axe_name: "佩伦之斧"
+  aom_peruns_axe_desc: "雷神佩伦的武器，能够劈山斩石，召唤风暴。"
+
+  # 拉斯科夫尼克 (魔法草药)
+  aom_raskovnik_name: "拉斯科夫尼克"
+  aom_raskovnik_desc: "一种传说中的草药，可以打开任何锁，找到隐藏的宝藏。"
+
+  # 火鸟羽毛
+  aom_firebird_feather_name: "火鸟羽毛"
+  aom_firebird_feather_desc: "神话中的火鸟的光芒四射的羽毛，闪耀着异域的光芒。"
+
+  # 宫廷神器
+  # 科斯切伊之针
+  aom_koscheis_needle_name: "科斯切伊之针"
+  aom_koscheis_needle_desc: "不死者科斯切伊永生的秘密，隐藏在层层魔法防御之下。"
+
+  # 阿拉提尔 (神圣之石)
+  aom_alatyr_name: "阿拉提尔"
+  aom_alatyr_desc: "神话中的世界中心，象征神圣知识和虔诚的石头。"
+
+  # 蕨花
+  aom_fern_flower_name: "蕨花"
+  aom_fern_flower_desc: "一种稀有而神奇的花朵，据说能赐予发现者健康和繁荣。"
+
+  # 芭芭雅嘎的研钵和研杵
+  aom_baba_yagas_mortar_name: "芭芭雅嘎的研钵和研杵"
+  aom_baba_yagas_mortar_desc: "女巫芭芭的魔法飞行器雅嘎，在天空和秘密中滑翔。#italic 这难道不是简单的研钵和研杵吗？#!"
+
+# 洛夫克拉夫特式文物
+  # 物品栏文物
+  # 死灵之书
+  aom_necronomicon_name: "死灵之书"
+  aom_necronomicon_desc: "一本亵渎神明、充满禁忌知识的巨著，由阿卜杜勒·'疯狂的阿拉伯人'阿尔哈兹莱德撰写。"
+
+  # 艾波恩之书
+  aom_book_of_eibon_name: "艾波恩之书"
+  aom_book_of_eibon_desc: "据说这是一本古老的典籍，蕴含着巫师艾波恩的神秘秘密，充满了来自 Hyperborea 的禁忌知识。"
+
+  # 深海者冠冕
+  aom_deep_ones_tiara_name: "深海者冠冕"
+  aom_deep_ones_tiara_desc: "一顶由深海者打造的奇异而奇异的头饰。佩戴它会唤起人们对水下城市和怪诞圣歌的遐想。"
+
+  # 猎犬护身符
+  aom_hound_amulet_name: "猎犬护身符"
+  aom_hound_amulet_desc: "这件护身符上刻有冷原食人教派的恐怖印记，它的存在唤起了一种恐惧感，来自远方的低语暗示着它召唤着某种不该被提及的东西。"
+
+  # 宫廷神器
+  # 闪耀的偏方三面体
+  aom_shining_trapezohedron_name: "闪耀的偏方三面体"
+  aom_shining_trapezohedron_desc: "一块黑色的多面水晶，散发着内在的光芒。那些凝视它的人可以与奈亚拉托提普对话。"
+
+  # 克苏鲁神像
+  aom_cthulhu_idol_name: "克苏鲁神像"
+  aom_cthulhu_idol_desc: "一座怪诞的旧日支配者克苏鲁雕像。拥有它会导致令人不安的梦境和夜空中的低语。"
+
+  # 银钥匙
+  aom_sliver_key_name: "银钥匙"
+  aom_sliver_key_desc: "一把神秘的钥匙，据说可以打开通往梦境和凡人无法理解的维度的入口。它揭示了即使是最经验丰富的旅行者也难以发现的道路。"
+
+  # 克利萨努斯的忏悔录
+  aom_confessions_of_clithanus_name: "克利萨努斯的忏悔录"
+  aom_confessions_of_clithanus_desc: "一份罕见而危险的手稿，记载了古代邪教的可怕仪式和难以言喻的崇拜。"
+
+  # 纳科特手稿
+  aom_pnakotic_manuscripts_name: "纳科特手稿"
+  aom_pnakotic_manuscripts_desc: "记载伊斯伟大种族生活和知识的远古文献。解读它们会危及一个人的理智。"
+
+  # 尼托克里斯之镜
+  aom_mirror_of_nitocris_name: "尼托克里斯之镜"
+  aom_mirror_of_nitocris_desc: "这是一件曾属于黑法老女王的魔法神器。从中看到的倒影永远不会真正属于你。"

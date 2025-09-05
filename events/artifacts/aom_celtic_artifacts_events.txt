@@ -1,0 +1,399 @@
+﻿namespace = aom_celtic_artifacts
+############################
+# Generate God Tier Artifacts
+############################
+aom_celtic_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Inventory Artifacts
+		# Sleg (Spear of Lugh)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_sleg
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_sleg_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Lughs Sling
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_lughs_sling
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_lughs_sling_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Gáe Bulg (Scáthach's Spear)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_gae_bulg
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_gae_bulg_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Court Artifacts
+		# Uaithne (The Dagda's Harp)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_uaithne
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_uaithne_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Pair Dadeni (Cauldron of Rebirth)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_pair_dadeni
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_pair_dadeni_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Cauldron Of Inspiration
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_cauldron_of_inspiration
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_cauldron_of_inspiration_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_celtic_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Inventory Artifacts
+		# Claíomh Solais (Sword of Light)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_claiomh_solais
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_claiomh_solais_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Fragarach (Sword of Nuada)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_fragarach
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_fragarach_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Caladbolg
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_caladbolg
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_caladbolg_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Móralltach (the Great Fury)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_moralltach
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_moralltach_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Beagalltach (the Little Fury)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_beagalltach
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_beagalltach_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Dubán (Cu Chulainn's Black Shield)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_duban
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_duban_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Dyrnwyn (White Hilt)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_dyrnwyn
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_dyrnwyn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Court Artifacts
+		# Horn Of Bran Galed
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_horn_of_bran_galed
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_horn_of_bran_galed_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Hamper Of Gwyddno
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_hamper_of_gwyddno
+						}
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_goidelic }
+				}
+				create_artifact_aom_hamper_of_gwyddno_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+	}
+}

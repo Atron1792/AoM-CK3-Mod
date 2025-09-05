@@ -1,0 +1,1080 @@
+﻿############################
+# Norse Artifacts
+############################
+# Inventory Artifacts
+# Gungnir (Odin’s Spear)
+aom_gungnir_modifier = {
+	prowess = 15
+	learning = 10
+	martial = 8
+	intrigue = 5
+	zealot_opinion = 10
+}
+
+# Mjolnir (Thor's Hammer)
+aom_mjolnir_modifier = {
+	prowess = 18
+	martial = 8
+	different_faith_opinion = -10
+	zealot_opinion = 10
+}
+
+# Járngreipr (Thor’s Gauntlet)
+aom_jarngreipr_modifier = {
+	prowess = 10
+	martial = 5
+	stress_loss_mult = 0.1
+	zealot_opinion = 6
+}
+
+# Megingjörð (Thor’s Belt)
+aom_megingjord_modifier = {
+	prowess = 8
+	health = 1
+	martial = 5
+	supply_limit_mult = 0.15
+	zealot_opinion = 6
+}
+
+# Brísingamen (Freyja’s Necklace)
+aom_brisingamen_modifier = {
+	personal_scheme_phase_duration_add = -20
+	attraction_opinion = 25
+	diplomacy = 5
+	general_opinion = 15
+}
+
+# Draupnir (Odin’s Gold Ring)
+aom_draupnir_modifier = {
+	stewardship = 8
+	monthly_income_mult = 0.15
+	vassal_tax_contribution_mult = 0.1
+	domain_limit = 1
+	zealot_opinion = 4
+}
+
+# Andvaranaut (Cursed Ring of Wealth)
+aom_andvaranaut_modifier = {
+	stewardship = 5
+	stress_gain_mult = 0.25
+	monthly_income_mult = 0.3
+	monthly_income = 4
+}
+
+# Helm of Awe / Helm of Terror
+aom_helm_of_awe_modifier = {
+	prowess = 10
+	dread_baseline_add = 10
+	dread_gain_mult = 0.3
+	same_faith_opinion = -10
+	tyranny_loss_mult = -0.2
+}
+
+# Svalinn (Shield that protects from the sun)
+aom_svalinn_modifier = {
+	supply_limit_mult = 0.2
+	controlled_province_advantage = 5
+	defender_advantage = 5
+}
+
+# Gram (Sigurd’s Sword)
+aom_gram_modifier = {
+	prowess = 10
+	martial = 3
+	monthly_prestige = 0.4
+}
+
+# Tyrfing (Cursed Blade)
+aom_tyrfing_modifier = {
+	prowess = 10
+	martial = 3
+	stress_gain_mult = 0.2
+	health = -0.1
+}
+
+# Skofnung (Blade of Kings)
+aom_skofnung_modifier = {
+	prowess = 10
+	dread_gain_mult = 0.2
+	same_culture_opinion = 10
+	independent_ruler_opinion = 10
+}
+
+# Mistilteinn (Sword of Sorcery)
+aom_mistilteinn_modifier = {
+	intrigue = 3
+	prowess = 8
+}
+
+# Lævateinn (Weapon of Loki)
+aom_laevateinn_modifier = {
+	prowess = 10
+	learning = 3
+	intrigue = 4
+}
+
+# Hrotti (Dragon Hoard Blade)
+aom_hrotti_modifier = {
+	prowess = 8
+	monthly_prestige = 0.5
+}
+
+# Hǫfuð (Heimdall’s Sword)
+aom_hofud_modifier = {
+	prowess = 11
+	martial = 4
+}
+
+# Dáinsleif (Sword of the Dead)
+aom_dainsleif_modifier = {
+	prowess = 8
+	dread_gain_mult = 0.3
+}
+
+# Tarnkappe (Cloak of Invisibility)
+aom_tarnkappe_modifier = {
+	intrigue = 7
+	owned_hostile_scheme_success_chance_add = 10
+	owned_scheme_secrecy_add = 10
+	enemy_hostile_scheme_success_chance_add = -10
+}
+
+# Fjaðrhamr (Feathered Cloak)
+aom_fjadrhamr_modifier = {
+	diplomacy = 5
+	attraction_opinion = 15
+	character_travel_speed = 20
+}
+
+# Sword of Freyr 
+aom_sword_of_freyr_modifier = {
+	prowess = 10
+	fertility = 0.2
+	vassal_opinion = 10
+}
+
+# Court Artifacts
+# Hlidskjalf (Odin's Throne)
+aom_throne_hlidskjalf_modifier = {
+	diplomacy = 10
+	monthly_prestige = 0.6
+	enemy_hostile_scheme_success_chance_add = -10
+	legitimacy_gain_mult = 0.15
+	diplomatic_range_mult = 0.5
+	court_grandeur_baseline_add = 10
+}
+
+# Gleipnir (Binding Chain)
+aom_gleipnir_modifier = {
+	monthly_county_control_growth_add = 1
+	enemy_hostile_scheme_success_chance_add = -20
+}
+
+# Eldhrímnir (Cooking Cauldron of the Gods)
+aom_eldhrimnir_modifier = {
+	supply_capacity_mult = 0.2
+	epidemic_resistance = 10
+	levy_reinforcement_rate = 0.15
+}
+
+# Mead of Suttungr / Mead of Poetry
+# Óðrerir
+aom_odrerir_modifier = {
+	learning = 6
+	development_growth = 0.1
+	learn_language_scheme_phase_duration_add = -20
+	monthly_learning_lifestyle_xp_gain_mult = 0.15
+}
+
+# Boðn
+aom_bodn_modifier = {
+	learning = 6
+	development_growth = 0.1
+	learn_language_scheme_phase_duration_add = -20
+	monthly_learning_lifestyle_xp_gain_mult = 0.15
+}
+
+# Són
+aom_son_modifier = {
+	learning = 6
+	learn_language_scheme_phase_duration_add = -10
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+}
+
+# Gjallarhorn (Horn of Heimdallr)
+aom_gjallarhorn_modifier = {
+	dread_gain_mult = 0.3
+	enemy_hostile_scheme_success_chance_add = -10
+}
+
+# Mímir’s Skull
+aom_mimirs_skull_modifier = {
+	learning = 12
+	monthly_piety = 0.6
+	learn_language_scheme_phase_duration_add = -20
+}
+
+# Bragi’s Harp
+aom_bragis_harp_modifier = {
+	diplomacy = 8
+	monthly_prestige = 0.5
+	court_grandeur_baseline_add = 15
+	courtier_and_guest_opinion = 10
+}
+
+############################
+# Greco-Roman Artifacts
+############################
+# Inventory Artifacts
+# Achilles' Armor
+aom_achilles_armor_modifier = {
+	prowess = 8
+	knight_effectiveness_mult = 0.15
+}
+
+# Aegis
+aom_aegis_modifier = {
+	dread_gain_mult = 0.15
+	owned_personal_scheme_success_chance_add = 0.1
+}
+
+# Ambrosia
+aom_ambrosia_modifier = {
+	health = 1
+	fertility = 0.25
+	years_of_fertility = 15
+}
+
+# Apollo's Bow
+aom_apollos_bow_modifier = {
+	prowess = 10
+	diplomacy = 4
+	monthly_prestige = 0.5
+}
+
+# Caduceus
+aom_caduceus_modifier = {
+	stewardship = 6
+	diplomacy = 4
+	diplomatic_range_mult = 0.25
+}
+
+# Eros' Bow
+aom_eros_bow_modifier = {
+	seduce_scheme_phase_duration_add = -25
+	personal_scheme_phase_duration_add = -15
+	diplomacy = 4
+	attraction_opinion = 10
+}
+
+# Apple of Discord
+aom_apple_of_discord_modifier = {
+	diplomacy = 6
+	owned_personal_scheme_success_chance_add = 10
+	county_opinion_add = -15
+	general_opinion = -15
+}
+
+# Rod of Asclepius
+aom_rod_of_asclepius_modifier = {
+	learning = 6
+	health = 0.5
+	epidemic_resistance = 15
+}
+
+# Poseidon's Trident
+aom_poseidons_trident_modifier = {
+	prowess = 12
+	naval_movement_speed_mult = 0.25
+	embarkation_cost_mult = -0.25
+	diplomacy = 5
+}
+
+# Shield of Achilleus
+aom_shield_of_achilleus_modifier = {
+	prowess = 5
+	enemy_hostile_scheme_success_chance_add = -10
+}
+
+# Spear of Achilles
+aom_spear_of_achilles_modifier = {
+	prowess = 8
+	knight_effectiveness_mult = 0.15
+}
+
+# Thyrsus
+aom_thyrsus_modifier = {
+	diplomacy = 6
+	attraction_opinion = 10
+}
+
+# Talaria
+aom_talaria_modifier = {
+	character_travel_speed = 20
+	diplomacy = 4
+}
+
+# Zeus' Lightning Bolt
+aom_zeus_lightning_bolt_modifier = {
+	prowess = 15
+	monthly_prestige = 0.3
+	dread_gain_mult = 0.1
+	diplomacy = 8
+}
+
+# Hades' Bident
+aom_hades_bident_modifier = {
+	prowess = 10
+	dread_gain_mult = 0.15
+	monthly_county_control_growth_add = 0.1
+}
+
+# Helm of Darkness
+aom_helm_of_darkness_modifier = {
+	prowess = 5
+	intrigue = 6
+	owned_hostile_scheme_success_chance_add = 10
+	owned_scheme_secrecy_add = 10
+	enemy_hostile_scheme_success_chance_add = -10
+}
+
+# Harpe
+aom_harpe_modifier = {
+	prowess = 8
+	monthly_prestige = 0.3
+}
+
+# Necklace of Harmonia
+aom_necklace_of_harmonia_modifier = {
+	diplomacy = 8
+	courtier_and_guest_opinion = -10
+	county_opinion_add = -20
+}
+
+# Kronos' Scythe
+aom_kronos_scythe_modifier = {
+	prowess = 12
+	dread_gain_mult = 0.2
+}
+
+# Zeus' Labrys
+aom_zeus_labrys_modifier = {
+	prowess = 10
+	knight_effectiveness_mult = 0.25
+}
+
+# Artemis's Bow
+aom_artemis_bow_modifier = {
+	prowess = 10
+	martial = 4
+	monthly_prestige = 0.5
+}
+
+# Eurytus' Bow (Odysseus' Bow)
+aom_eurytus_bow_modifier = {
+	prowess = 8
+	martial = 2
+}
+
+# Panacea
+aom_panacea_modifier = {
+	health = 0.75
+	epidemic_resistance = 20
+}
+
+# Bag of Wind
+aom_bag_of_wind_modifier = {
+	character_travel_speed_mult = 0.2
+	movement_speed = 0.2
+	naval_movement_speed_mult = 0.2
+}
+
+# Triton's Conch
+aom_tritons_conch_modifier = {
+	naval_movement_speed_mult = 0.2
+	embarkation_cost_mult = -0.2
+}
+
+# Nemean Lion Hide
+aom_nemean_lion_hide_modifier = {
+	prowess = 8
+	martial = 4
+	enemy_hostile_scheme_success_chance_add = -10
+	character_travel_safety = 15
+}
+
+# Girdle of Hippolyta
+aom_girdle_of_hippolyta_modifier = {
+	prowess = 5
+	martial = 3
+	attraction_opinion = 10
+}
+
+# Court Artifacts
+# Apollo's Kithara (Apollo's Lyre)
+aom_apollos_kithara_modifier = {
+	diplomacy = 6
+	monthly_prestige = 0.3
+	court_grandeur_baseline_add = 10
+}
+
+# Cornucopia
+aom_cornucopia_modifier = {
+	domain_tax_mult = 0.1
+	levy_reinforcement_rate = 0.15
+	county_opinion_add = 10
+}
+
+# Golden Fleece
+aom_golden_fleece_modifier = {
+	monthly_prestige = 0.75
+	court_grandeur_baseline_add = 5
+	health = 0.5
+}
+
+# Scale of Justice (Themis' Scale)
+aom_scale_of_justice_modifier = {
+	monthly_influence = 2
+	vassal_opinion = 10
+	monthly_piety = 0.5
+}
+
+# Icarus' Feather (Icarus' Wings)
+aom_icarus_feather_modifier = {
+	character_travel_speed = 20
+	same_culture_opinion = 20
+}
+
+# Prometheus's Chains
+aom_prometheus_chains_modifier = {
+	dread_baseline_add = 10
+	monthly_county_control_growth_add = 0.1
+}
+
+# Medusa's Head
+aom_medusas_head_modifier = {
+	dread_baseline_add = 25
+	dread_gain_mult = 0.2
+}
+
+# Zeus' Throne
+aom_throne_zeus_modifier = {
+	monthly_prestige = 1
+	court_grandeur_baseline_add = 20
+	dread_gain_mult = 0.25
+	diplomacy = 8
+	legitimacy_gain_mult = 0.15
+}
+
+############################
+# Abrahamic Artifacts
+############################
+# Inventory Artifacts (Christian)
+# Conquest's Crown (Horsemen of the Apocalypse)
+aom_conquests_crown_modifier = {
+	martial = 4
+	prowess = 5
+	monthly_prestige = 0.5
+	dread_baseline_add = 10
+}
+
+# War's Greatsword (Horsemen of the Apocalypse)
+aom_wars_greatsword_modifier = {
+	prowess = 13
+	martial = 5
+	dread_gain_mult = 0.15
+}
+
+# Crown of Twelve Stars (Mary's Crown)
+aom_crown_of_twelve_stars_modifier = {
+	diplomacy = 5
+	attraction_opinion = 10
+	monthly_piety = 0.3
+}
+
+# Seamless Robe of Jesus
+aom_seamless_robe_of_jesus_modifier = {
+	diplomacy = 4
+	monthly_piety = 0.5
+}
+
+# Death's Scythe (Horsemen of the Apocalypse)
+aom_deaths_scythe_modifier = {
+	prowess = 13
+	intrigue = 4
+	dread_gain_mult = 0.2
+}
+
+# Ascalon (Saint George's Sword)
+aom_ascalon_modifier = {
+	prowess = 8
+	monthly_prestige = 0.4
+}
+
+# Bradamante's Lance
+aom_bradamantes_lance_modifier = {
+	prowess = 8
+	martial = 3
+}
+
+# Holy Lance (Spear of Longinus)
+aom_holy_lance_modifier = {
+	learning = 4
+	prowess = 10
+	monthly_piety = 0.5
+}
+
+# Conquest's Bow (Horsemen of the Apocalypse)
+aom_conquests_bow_modifier = {
+	prowess = 13
+	martial = 3
+	monthly_prestige = 0.3
+}
+
+# Seal of Solomon
+aom_seal_of_solomon_modifier = {
+	learning = 5
+	intrigue = 3
+	diplomacy = 5
+	monthly_county_control_growth_add = 0.1
+}
+
+# Court Artifacts (Christian)
+# Famine's Scale (Horsemen of the Apocalypse)
+aom_famines_scale_modifier = {
+	stewardship = 5
+	supply_capacity_mult = 0.3
+	monthly_county_control_growth_add = -0.3
+	county_opinion_add = -15
+}
+
+# Piece of Noah's Ark
+aom_piece_of_noahs_ark_modifier = {
+	monthly_piety = 0.75
+	same_faith_opinion = 15
+}
+
+# Sudarium of Oviedo
+aom_sudarium_of_oviedo_modifier = {
+	learning = 2
+	monthly_piety = 0.5
+	same_faith_opinion = 10
+}
+
+# Holy Grail (Holy Chalice)
+aom_holy_grail_modifier = {
+	health = 1
+	monthly_piety = 0.5
+	epidemic_resistance = 15
+}
+
+# Holy Prepuce
+aom_holy_prepuce_modifier = {
+	fertility = 0.2
+	monthly_piety = 0.3
+	same_faith_opinion = 10
+}
+
+# Book of Life
+aom_book_of_life_modifier = {
+	learning = 5
+	monthly_piety = 0.5
+	same_faith_opinion = 15
+}
+
+# Forbidden Fruit
+aom_forbidden_fruit_modifier = {
+	learning = 15
+	stress_gain_mult = 2
+}
+
+# Horn of Gabriel
+aom_horn_of_gabriel_modifier = {
+	martial = 4
+	monthly_piety = 0.4
+	dread_baseline_add = 10
+}
+
+# Blood of Christ
+aom_blood_of_christ_modifier = {
+	learning = 5
+	health = 0.5
+	monthly_piety = 0.5
+}
+
+# Inventory Artifacts (Jewish)
+# Moses' Staff
+aom_moses_staff_modifier = {
+	learning = 4
+	diplomacy = 2
+	monthly_piety = 0.5
+}
+
+# David's Sword
+aom_davids_sword_modifier = {
+	prowess = 8
+	martial = 4
+}
+
+# Coat of Many Colors (Joseph's Coat)
+aom_coat_of_many_colors_modifier = {
+	diplomacy = 3
+	general_opinion = 15
+}
+
+# Aaron's Rod (Moses' Brother's Staff)
+aom_aarons_rod_modifier = {
+	learning = 3
+	monthly_piety = 0.25
+}
+
+# Solomon's Shamir
+aom_solomons_shamir_modifier = {
+	build_gold_cost = -0.15
+	build_speed = -0.25
+}
+
+# Greater Key of Solomon
+aom_greater_key_of_solomon_modifier = {
+	learning = 7
+}
+
+# Lesser Key of Solomon
+aom_lesser_key_of_solomon_modifier = {
+	learning = 5
+}
+
+# Goliath's Sword
+aom_goliaths_sword_modifier = {
+	prowess = 9
+	dread_baseline_add = 15
+}
+
+# Court Artifacts (Jewish)
+# Ark of Bulrushes (Moses' Basket)
+aom_ark_of_bulrushes_modifier = {
+	diplomacy = 3
+	monthly_piety = 0.3
+}
+
+# Tablets of Stone (The 10 Commandments)
+aom_tablets_of_stone_modifier = {
+	learning = 5
+	monthly_piety = 0.75
+}
+
+# Joshua's Shofars
+aom_joshuas_shofars_modifier = {
+	martial = 3
+	levy_reinforcement_rate = 0.15
+	monthly_piety = 0.3
+}
+
+# Leviathan's Hide
+aom_leviathans_hide_modifier = {
+	monthly_piety = 0.5
+	monthly_prestige = 0.3
+	dread_baseline_add = 15
+}
+
+# Throne of God (YHWH's Throne)
+aom_throne_of_god_modifier = {
+	diplomacy = 8
+	monthly_prestige = 0.5
+	monthly_piety = 0.75
+	legitimacy_gain_mult = 0.15
+	court_grandeur_baseline_add = 15
+	same_faith_opinion = 10
+}
+
+# Inventory Artifacts (Islamic)
+# Zulfiqar (Ali ibn Abi Talib's Sword)
+aom_zulfiqar_modifier = {
+	prowess = 10
+	monthly_piety = 0.3
+	same_faith_opinion = 10
+}
+
+# Sacred Cloak of the Prophet
+aom_sacred_cloak_of_the_prophet_modifier = {
+	diplomacy = 3
+	monthly_piety = 0.5
+	same_faith_opinion = 15
+}
+
+# Court Artifacts (Islamic)
+# Key to the Kaaba
+aom_key_to_the_kaaba_modifier = {
+	monthly_piety = 0.5
+	diplomacy = 3
+	court_grandeur_baseline_add = 7
+	same_faith_opinion = 10
+}
+
+############################
+# Celtic Artifacts
+############################
+# Inventory Artifacts
+# Sleg (Spear of Lugh)
+aom_sleg_modifier = {
+	prowess = 12
+	martial = 4
+	monthly_prestige = 0.4
+}
+
+# Lugh’s Sling
+aom_lughs_sling_modifier = {
+	prowess = 10
+	martial = 3
+	monthly_piety = 0.4
+}
+
+# Claíomh Solais (Sword of Light)
+aom_claiomh_solais_modifier = {
+	prowess = 8
+	martial = 2
+}
+
+# Fragarach (Sword of Nuada)
+aom_fragarach_modifier = {
+	prowess = 8
+	intrigue = 2
+}
+
+# Gáe Bulg (Scáthach's Spear)
+aom_gae_bulg_modifier = {
+	prowess = 10
+	martial = 3
+	skirmishers_damage_mult = 0.15
+}
+
+# Caladbolg
+aom_caladbolg_modifier = {
+	prowess = 8
+	dread_gain_mult = 0.2
+	monthly_piety = 0.4
+}
+
+# Móralltach (the Great Fury)
+aom_moralltach_modifier = {
+	prowess = 9
+	martial = 2
+}
+
+# Beagalltach (the Little Fury)
+aom_beagalltach_modifier = {
+	prowess = 7
+	intrigue = 2
+}
+
+# Dubán (Cu Chulainn's Black Shield)
+aom_duban_modifier = {
+	defender_advantage = 5
+	prowess = 6
+}
+
+# Dyrnwyn (White Hilt)
+aom_dyrnwyn_modifier = {
+	prowess = 8
+	monthly_prestige = 0.4
+	vassal_opinion = 5
+}
+
+# Court Artifacts
+# Uaithne (The Dagda's Harp)
+aom_uaithne_modifier = {
+	diplomacy = 8
+	monthly_piety = 0.4
+	court_grandeur_baseline_add = 12
+	health = 0.3
+}
+
+# Horn of Brân Galed
+aom_horn_of_bran_galed_modifier = {
+	monthly_piety = 0.3
+	monthly_prestige = 0.3
+	learning = 4
+}
+
+# Hamper of Gwyddno Garanhir
+aom_hamper_of_gwyddno_modifier = {
+	county_opinion_add = 10
+	levy_reinforcement_rate = 0.15
+	supply_capacity_mult = 0.2
+}
+
+# Pair Dadeni (Cauldron of Rebirth)
+aom_pair_dadeni_modifier = {
+	health = 0.5
+	epidemic_resistance = 10
+	monthly_income_mult = 0.2
+}
+
+# Cauldron of Inspiration
+aom_cauldron_of_inspiration_modifier = {
+	learning = 5
+	monthly_learning_lifestyle_xp_gain_mult = 0.15
+	learn_language_scheme_phase_duration_add = -10
+}
+
+############################
+# Arthurian Artifacts
+############################
+# Inventory Artifacts
+# Excalibur (Caledfwlch)
+aom_excalibur_modifier = {
+	prowess = 12
+	martial = 3
+	diplomacy = 2
+	monthly_prestige = 0.75
+	knight_effectiveness_mult = 0.15
+}
+
+# Carnwennan (Arthur's Dagger)
+aom_carnwennan_modifier = {
+	intrigue = 2
+	prowess = 8
+}
+
+# Rhongomyniad (Arthur's Spear)
+aom_rhongomyniad_modifier = {
+	prowess = 8
+	monthly_prestige = 0.2
+}
+
+# Pridwen (Arthur's Shield)
+aom_pridwen_modifier = {
+	defender_advantage = 5
+	prowess = 4
+}
+
+# Merlin's Staff
+aom_merlins_staff_modifier = {
+	learning = 6
+	intrigue = 2
+	monthly_piety = 0.5
+}
+
+# Clarent (The Sword in the Stone)
+aom_clarent_modifier = {
+	prowess = 9
+	legitimacy_gain_mult = 0.2
+	monthly_prestige = 0.5
+	monthly_dynasty_prestige = 0.05
+}
+
+## Secace (Sir Lancelot's Sword)
+aom_secace_modifier = {
+	prowess = 8
+	diplomacy = 2
+	monthly_prestige = 0.2
+}
+
+# Courechouse (King Ban's Sword)
+aom_courechouse_modifier = {
+	prowess = 8
+	stewardship = 2
+	monthly_prestige = 0.2
+}
+
+# Galatine (Sir Gawain's Sword)
+aom_galatine_modifier = {
+	prowess = 8
+	diplomacy = 2
+	monthly_prestige = 0.2
+}
+
+# Sword Of The Red Hilt (Sir Galahad's Sword)
+aom_sword_of_the_red_hilt_modifier = {
+	prowess = 8
+	martial = 2
+	monthly_prestige = 0.2
+}
+
+# Court Artifacts
+# The Round Table
+aom_throne_round_table_modifier = {
+	diplomacy = 6
+	court_grandeur_baseline_add = 13
+	vassal_opinion = 10
+	knight_limit = 3
+	knight_effectiveness_mult = 0.1
+}
+
+############################
+# Finno-Ugric Artifacts
+############################
+# Inventory Artifacts
+# Ukonvasara (Hammer of Ukko)
+aom_ukonvasara_modifier = {
+	prowess = 15
+	martial = 6
+	monthly_income_mult = 0.15
+}
+
+# Tarnhelm
+aom_tarnhelm_modifier = {
+	prowess = 5
+	intrigue = 4
+	owned_hostile_scheme_success_chance_add = 8
+	owned_scheme_secrecy_add = 8
+	enemy_hostile_scheme_success_chance_add = -8
+}
+
+# Kalevan Miekka
+aom_kalevan_miekka_modifier = {
+	prowess = 11
+	martial = 3
+	dread_gain_mult = 0.15
+}
+
+# Court Artifacts
+# Sampo
+aom_sampo_modifier = {
+	domain_tax_mult = 0.15
+	domain_limit = 2
+	county_opinion_add = 5
+}
+
+# Kantele (Magical Harp)
+aom_kantele_modifier = {
+	diplomacy = 5
+	court_grandeur_baseline_add = 8
+	vassal_opinion = 10
+}
+
+############################
+# Slavic Artifacts
+############################
+# Inventory Artifacts
+# Kladenets (Self-Swinging Sword)
+aom_kladenets_modifier = {
+	prowess = 10
+	martial = 4
+}
+
+# Perun's Axe
+aom_peruns_axe_modifier = {
+	prowess = 15
+	martial = 8
+	monthly_prestige = 0.75
+}
+
+# Raskovnik (Magic Herb)
+aom_raskovnik_modifier = {
+	intrigue = 4
+	owned_hostile_scheme_success_chance_add = 15
+}
+
+# The Firebird’s Feather
+aom_firebird_feather_modifier = {
+	monthly_prestige = 0.75
+	diplomacy = 3
+	character_travel_speed_mult = 0.2
+}
+
+# Court Artifacts
+# Koschei's Needle
+aom_koscheis_needle_modifier = {
+	enemy_hostile_scheme_success_chance_add = -15
+	intrigue = 4
+	health = 0.2
+}
+
+# Alatyr (Sacred Stone)
+aom_alatyr_modifier = {
+	monthly_piety = 1
+	learning = 5
+}
+
+# Fern Flower
+aom_fern_flower_modifier = {
+	fertility = 0.2
+	stewardship = 3
+	health = 0.2
+}
+
+# Baba Yaga’s Mortar and Pestle
+aom_baba_yagas_mortar_modifier = {
+	intrigue = 4
+	learning = 3
+	owned_hostile_scheme_success_chance_add = 7
+	enemy_hostile_scheme_success_chance_add = -7
+}
+
+############################
+# Lovecraftian Artifacts
+############################
+# Inventory Artifacts
+# Necronomicon 
+aom_necronomicon_modifier = {
+    learning = 12
+	stress_gain_mult = 0.3
+}
+
+# Book Of Eibon 
+aom_book_of_eibon_modifier = {
+    learning = 9
+    intrigue = 2
+	monthly_prestige = 0.5
+}
+
+# Deep One's Tiara
+aom_deep_ones_tiara_modifier = {
+    diplomacy = 4
+    attraction_opinion = 15
+	general_opinion = 10
+    stress_gain_mult = 0.4
+}
+
+# Hound Amulet 
+aom_hound_amulet_modifier = {
+    intrigue = 4
+    enemy_hostile_scheme_success_chance_add = -10
+	stress_gain_mult = 0.2
+}
+
+# Court Artifacts
+# The Shining Trapezohedron 
+aom_shining_trapezohedron_modifier = {
+    diplomacy = 2
+    martial = 2
+    stewardship = 2
+    intrigue = 2
+    learning = 2
+    stress_gain_mult = 0.4
+}
+
+# Cthulhu Idol 
+aom_cthulhu_idol_modifier = {
+    dread_baseline_add = 15
+    general_opinion = -10
+    stress_gain_mult = 0.5
+}
+
+# The Sliver Key 
+aom_sliver_key_modifier = {
+	character_travel_speed = 25
+	learning = 2
+}
+
+# Confessions of Clithanus
+aom_confessions_of_clithanus_modifier = {
+    learning = 2
+    monthly_learning_lifestyle_xp_gain_mult = 0.1
+	stress_gain_mult = 0.2
+}
+
+# Pnakotic Manuscripts 
+aom_pnakotic_manuscripts_modifier = {
+    learning = 4
+    monthly_learning_lifestyle_xp_gain_mult = 0.2
+    stress_gain_mult = 0.3
+}
+
+# The Mirror Of Nitocris 
+aom_mirror_of_nitocris_modifier = {
+    intrigue = 3
+	stress_gain_mult = 0.5
+}

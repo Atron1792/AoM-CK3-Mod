@@ -1,0 +1,130 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Ukonvasara (Hammer of Ukko)
+create_artifact_aom_ukonvasara_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_ukonvasara_name
+		description = aom_ukonvasara_desc
+		type = weapon_simple
+		visuals = aom_ukonvasara
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_ukonvasara_template
+		history = { type = created_before_history }
+		modifier = aom_ukonvasara_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_ukonvasara
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Tarnhelm
+create_artifact_aom_tarnhelm_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_tarnhelm_name
+		description = aom_tarnhelm_desc
+		type = helmet_simple
+		visuals = aom_tarnhelm
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_tarnhelm_template
+		history = { type = created_before_history }
+		modifier = aom_tarnhelm_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_tarnhelm
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Kalevan Miekka
+create_artifact_aom_kalevan_miekka_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_kalevan_miekka_name
+		description = aom_kalevan_miekka_desc
+		type = weapon_simple
+		visuals = aom_kalevan_miekka
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_kalevan_miekka_template
+		history = { type = created_before_history }
+		modifier = aom_kalevan_miekka_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_kalevan_miekka
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Sampo
+create_artifact_aom_sampo_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_sampo_name
+		description = aom_sampo_desc
+		type = sculpture_simple
+		visuals = aom_sampo
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sampo_template
+		history = { type = created_before_history }
+		modifier = aom_sampo_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_sampo
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Kantele
+create_artifact_aom_kantele_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_kantele_name
+		description = aom_kantele_desc
+		type = pedestal_simple
+		visuals = aom_kantele
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_kantele_template
+		history = { type = created_before_history }
+		modifier = aom_kantele_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_kantele
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

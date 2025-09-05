@@ -1,0 +1,16 @@
+﻿############################
+# Inventory Artifacts
+############################
+armor_simple = { slot = armor }
+
+weapon_simple = { slot = primary_armament }
+
+bow_simple = { slot = primary_armament }
+
+############################
+# Court Artifacts
+############################
+
+sculpture_simple = { slot = sculpture }
+
+pedestal_simple = { slot = pedestal }

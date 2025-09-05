@@ -1,0 +1,205 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Sharur (Ninurta's Mace)
+create_artifact_aom_sharur_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_sharur_name
+		description = aom_sharur_desc
+		type = weapon_simple
+		visuals = aom_sharur
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sharur_template
+		history = { type = created_before_history }
+		modifier = aom_sharur_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_sharur
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Imhullu (Marduk's Weapon)
+create_artifact_aom_imhullu_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_imhullu_name
+		description = aom_imhullu_desc
+		type = weapon_simple
+		visuals = aom_imhullu
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_imhullu_template
+		history = { type = created_before_history }
+		modifier = aom_imhullu_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_imhullu
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Marduk’s Net
+create_artifact_aom_marduks_net_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_marduks_net_name
+		description = aom_marduks_net_desc
+		type = trinket
+		visuals = aom_marduks_net
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_marduks_net_template
+		history = { type = created_before_history }
+		modifier = aom_marduks_net_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_marduks_net
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Tablets of Destinies
+create_artifact_aom_tablets_of_destinies_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_tablets_of_destinies_name
+		description = aom_tablets_of_destinies_desc
+		type = book
+		visuals = aom_tablets_of_destinies
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_tablets_of_destinies_template
+		history = { type = created_before_history }
+		modifier = aom_tablets_of_destinies_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_tablets_of_destinies
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Bull of Heaven’s Horns
+create_artifact_aom_bull_of_heaven_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_bull_of_heaven_name
+		description = aom_bull_of_heaven_desc
+		type = trinket
+		visuals = aom_bull_of_heaven
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_bull_of_heaven_template
+		history = { type = created_before_history }
+		modifier = aom_bull_of_heaven_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_bull_of_heaven
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Lyre of Ur
+create_artifact_aom_lyre_of_ur_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_lyre_of_ur_name
+		description = aom_lyre_of_ur_desc
+		type = trinket
+		visuals = aom_lyre_of_ur
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_lyre_of_ur_template
+		history = { type = created_before_history }
+		modifier = aom_lyre_of_ur_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_lyre_of_ur
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Mul Zibanu (Shamash's Scales)
+create_artifact_aom_mul_zibanu_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_mul_zibanu_name
+		description = aom_mul_zibanu_desc
+		type = trinket
+		visuals = aom_mul_zibanu
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mul_zibanu_template
+		history = { type = created_before_history }
+		modifier = aom_mul_zibanu_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_mul_zibanu
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Ereshkigal's Throne
+create_artifact_aom_throne_ereshkigal_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_throne_ereshkigal_name
+		description = aom_throne_ereshkigal_desc
+		type = throne
+		visuals = aom_throne_ereshkigal
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_throne_ereshkigal_template
+		history = { type = created_before_history }
+		modifier = aom_throne_ereshkigal_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_throne_ereshkigal
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

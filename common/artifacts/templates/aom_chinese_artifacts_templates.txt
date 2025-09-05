@@ -1,0 +1,252 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Pangu’s Axe
+aom_pangu_axe_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 4 }
+	unique = yes
+}
+
+# Ruyi Jingu Bang (Sun Wukong’s Staff)
+aom_ruyi_jingu_bang_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 5 }
+	unique = yes
+}
+
+# Sun Wukong’s Boots
+aom_wukong_boots_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 2 }
+	unique = yes
+}
+
+# Peach of Immortality
+aom_peach_of_immortality_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 1 }
+	unique = yes
+}
+
+# Xuan Yuan Sword
+aom_xuan_yuan_sword_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 5 }
+	unique = yes
+}
+
+# Erlang Shen's Spear
+aom_erlang_spear_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 3 }
+	unique = yes
+}
+
+# Kenkonken (Nezha's Chakram)
+aom_kenkonken_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 2 }
+	unique = yes
+}
+
+# Qiankun Dai (Universe Bag)
+aom_qiankun_dai_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 1 }
+	unique = yes
+}
+
+# Sword of Goujian
+aom_sword_of_goujian_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 3 }
+	unique = yes
+}
+
+# Green Dragon Crescent Blade (Guan Yu's Weapon)
+aom_green_dragon_blade_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 6 }
+	unique = yes
+}
+
+# Zhang Fei's Spear
+aom_zhang_fei_spear_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 5 }
+	unique = yes
+}
+
+# Hou Yi’s Bow
+aom_hou_yi_bow_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 4 }
+	unique = yes
+}
+
+# Gan Jiang
+aom_gan_jiang_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 3 }
+	unique = yes
+}
+
+# Mo Ye
+aom_mo_ye_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 3 }
+	unique = yes
+}
+
+# Mianguan
+aom_mianguan_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 2 }
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Heirloom Seal of the Realm
+aom_heirloom_seal_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 1 }
+	unique = yes
+}
+
+# Nieh-ching-t'ai (Mirror of Retribution)
+aom_mirror_of_retribution_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 1 }
+	unique = yes
+}
+
+# Jade Books
+aom_jade_books_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 1 }
+	unique = yes
+}
+
+# Jiuding (Nine-Tripod Cauldrons)
+aom_jiuding_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+	fallback = { prowess = 1 }
+	unique = yes
+}

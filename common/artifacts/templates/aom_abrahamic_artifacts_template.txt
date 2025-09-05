@@ -1,0 +1,756 @@
+﻿############################
+# Christian Artifacts
+############################
+# Inventory Artifacts
+# Conquest's Crown (Horsemen of the Apocalypse)
+aom_conquests_crown_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 5
+		monthly_prestige = 0.25
+		dread_baseline_add = 5
+	}
+	unique = yes
+}
+
+# War's Greatsword (Horsemen of the Apocalypse)
+aom_wars_greatsword_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 2
+		dread_gain_mult = 0.05
+	}
+	unique = yes
+}
+
+# Crown of Twelve Stars (Mary's Crown)
+aom_crown_of_twelve_stars_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		diplomacy = 3
+		attraction_opinion = 10
+	}
+	unique = yes
+}
+
+# Seamless Robe of Jesus
+aom_seamless_robe_of_jesus_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		diplomacy = 2
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Death's Scythe (Horsemen of the Apocalypse)
+aom_deaths_scythe_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 9
+		dread_gain_mult = 0.1
+	}
+	unique = yes
+}
+
+# Ascalon (Saint George's Sword)
+aom_ascalon_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Bradamante's Lance
+aom_bradamantes_lance_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 6
+		martial = 1
+	}
+	unique = yes
+}
+
+# Holy Lance (Spear of Longinus)
+aom_holy_lance_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 8
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Conquest's Bow (Horsemen of the Apocalypse)
+aom_conquests_bow_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 9
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Seal of Solomon
+aom_seal_of_solomon_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 3
+		diplomacy = 3
+		monthly_prestige = 0.25
+	}
+	unique = yes
+}
+
+# Court Artifacts
+# Famine's Scale (Horsemen of the Apocalypse)
+aom_famines_scale_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		stewardship = 3
+		monthly_county_control_growth_add = -0.5
+		county_opinion_add = -30
+	}
+	unique = yes
+}
+
+# Piece of Noah's Ark
+aom_piece_of_noahs_ark_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+# Sudarium of Oviedo
+aom_sudarium_of_oviedo_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Holy Grail
+aom_holy_grail_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		health = 0.3
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Holy Prepuce
+aom_holy_prepuce_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		fertility = 0.1
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Book of Life
+aom_book_of_life_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 3
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Forbidden Fruit
+aom_forbidden_fruit_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 8
+		stress_gain_mult = 3
+	}
+	unique = yes
+}
+
+# Horn of Gabriel
+aom_horn_of_gabriel_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.3
+		dread_baseline_add = 5
+	}
+	unique = yes
+}
+
+# Blood of Christ
+aom_blood_of_christ_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		health = 0.2
+		monthly_prestige = 0.4
+	}
+	unique = yes
+}
+
+############################
+# Jewish Artifacts
+############################
+# Inventory Artifacts
+# Moses' Staff
+aom_moses_staff_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 3
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# David's Sword
+aom_davids_sword_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		prowess = 6
+		martial = 2
+	}
+	unique = yes
+}
+
+# Coat of Many Colors (Joseph's Coat)
+aom_coat_of_many_colors_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		general_opinion = 10
+	}
+	unique = yes
+}
+
+# Aaron's Rod (Moses' Brother's Staff)
+aom_aarons_rod_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		learning = 1
+		monthly_prestige = 0.1
+	}
+	unique = yes
+}
+
+# Solomon's Shamir
+aom_solomons_shamir_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.25
+		build_speed = -0.1
+	}
+	unique = yes
+}
+
+# Greater Key of Solomon
+aom_greater_key_of_solomon_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 5
+	}
+	unique = yes
+}
+
+# Lesser Key of Solomon
+aom_lesser_key_of_solomon_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 3
+	}
+	unique = yes
+}
+
+# Goliath's Sword
+aom_goliaths_sword_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 7
+		dread_baseline_add = 5
+	}
+	unique = yes
+}
+
+# Court Artifacts
+# Ark of Bulrushes (Moses' Basket)
+aom_ark_of_bulrushes_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		diplomacy = 1
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Tablets of Stone (The 10 Commandments)
+aom_tablets_of_stone_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		learning = 3
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+# Joshua's Shofars
+aom_joshuas_shofars_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		levy_reinforcement_rate = 0.05
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Leviathan's Hide
+aom_leviathans_hide_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.3
+		dread_baseline_add = 10
+	}
+	unique = yes
+}
+
+# Throne of God (YHWH's Throne)
+aom_throne_of_god_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				judaism_or_syncretic_with_judaism_trigger = { CHARACTER = root }
+				christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+				islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+			}
+		}
+	}
+	fallback = {
+		diplomacy = 5
+		monthly_prestige = 0.5
+		legitimacy_gain_mult = 0.15
+		court_grandeur_baseline_add = 15
+	}
+	unique = yes
+}
+
+############################
+# Islamic Artifacts
+############################
+# Inventory Artifacts
+# Zulfiqar (Ali ibn Abi Talib's Sword)
+aom_zulfiqar_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		prowess = 8
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Sacred Cloak of the Prophet
+aom_sacred_cloak_of_the_prophet_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		diplomacy = 1
+		monthly_prestige = 0.4
+	}
+	unique = yes
+}
+
+# Court Artifacts
+# Key to the Kaaba
+aom_key_to_the_kaaba_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			islam_or_syncretic_with_islam_trigger = { CHARACTER = root }
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.3
+		diplomacy = 1
+		court_grandeur_baseline_add = 5
+	}
+	unique = yes
+}
+
+# # Sandals of Jesus Christ
+# aom_sandals_of_jesus_christ_template = {
+# 	can_equip = {
+# 		always = yes
+# 	}
+# 	can_benefit = {
+# 		trigger_if = {
+#     		limit = { has_game_rule = aom_artifact_requirements_enabled }
+# 			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+# 		}
+# 	}
+# 	fallback = {
+# 		learning = 3
+# 		prowess = 2
+# 	}
+# 	unique = yes
+# }
+# # Crown of Thorns
+# aom_crown_of_thorns_template = {
+# 	can_equip = {
+# 		always = yes
+# 	}
+# 	can_benefit = {
+# 		trigger_if = {
+#     		limit = { has_game_rule = aom_artifact_requirements_enabled }
+# 			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+# 		}
+# 	}
+# 	fallback = {
+# 		learning = 3
+# 		prowess = 2
+# 	}
+# 	unique = yes
+# }
+# # David's Harp
+# aom_davids_harp_template = {
+# 	can_equip = {
+# 		always = yes
+# 	}
+# 	can_benefit = {
+# 		trigger_if = {
+#     		limit = { has_game_rule = aom_artifact_requirements_enabled }
+# 			christianity_or_syncretic_with_christianity_trigger = { CHARACTER = root }
+# 		}
+# 	}
+# 	fallback = {
+# 		learning = 3
+# 		prowess = 2
+# 	}
+# 	unique = yes
+# }

@@ -1,0 +1,1140 @@
+﻿############################
+# Abrahamic Artifacts
+############################
+# Inventory Artifacts (Christian)
+# Conquest's Crown (Horsemen of the Apocalypse)
+create_artifact_aom_conquests_crown_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_conquests_crown_name
+		description = aom_conquests_crown_desc
+		type = helmet_simple
+		visuals = aom_conquests_crown
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_conquests_crown_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_conquests_crown_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_conquests_crown
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# War's Greatsword (Horsemen of the Apocalypse)
+create_artifact_aom_wars_greatsword_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_wars_greatsword_name
+		description = aom_wars_greatsword_desc
+		type = weapon_simple
+		visuals = aom_wars_greatsword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_wars_greatsword_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_wars_greatsword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_wars_greatsword
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Crown of Twelve Stars (Mary's Crown)
+create_artifact_aom_crown_of_twelve_stars_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_crown_of_twelve_stars_name
+		description = aom_crown_of_twelve_stars_desc
+		type = helmet_simple
+		visuals = aom_crown_of_twelve_stars
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_crown_of_twelve_stars_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_crown_of_twelve_stars_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_crown_of_twelve_stars
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Seamless Robe of Jesus
+create_artifact_aom_seamless_robe_of_jesus_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_seamless_robe_of_jesus_name
+		description = aom_seamless_robe_of_jesus_desc
+		type = armor_simple
+		visuals = aom_seamless_robe_of_jesus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_seamless_robe_of_jesus_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_seamless_robe_of_jesus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_seamless_robe_of_jesus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Death's Scythe (Horsemen of the Apocalypse)
+create_artifact_aom_deaths_scythe_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_deaths_scythe_name
+		description = aom_deaths_scythe_desc
+		type = weapon_simple
+		visuals = aom_deaths_scythe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_deaths_scythe_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_deaths_scythe_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_deaths_scythe
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Ascalon (Saint George's Sword)
+create_artifact_aom_ascalon_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_ascalon_name
+		description = aom_ascalon_desc
+		type = weapon_simple
+		visuals = aom_ascalon
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_ascalon_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_ascalon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_ascalon
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Bradamante's Lance
+create_artifact_aom_bradamantes_lance_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_bradamantes_lance_name
+		description = aom_bradamantes_lance_desc
+		type = weapon_simple
+		visuals = aom_bradamantes_lance
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_bradamantes_lance_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_bradamantes_lance_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_bradamantes_lance
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Holy Lance (Spear of Longinus)
+create_artifact_aom_holy_lance_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_holy_lance_name
+		description = aom_holy_lance_desc
+		type = weapon_simple
+		visuals = aom_holy_lance
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_holy_lance_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_holy_lance_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_holy_lance
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Conquest's Bow (Horsemen of the Apocalypse)
+create_artifact_aom_conquests_bow_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_conquests_bow_name
+		description = aom_conquests_bow_desc
+		type = bow_simple
+		visuals = aom_conquests_bow
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_conquests_bow_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_conquests_bow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_conquests_bow
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Seal of Solomon
+create_artifact_aom_seal_of_solomon_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_seal_of_solomon_name
+		description = aom_seal_of_solomon_desc
+		type = miscellaneous
+		visuals = aom_seal_of_solomon
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_seal_of_solomon_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_seal_of_solomon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_seal_of_solomon
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Court Artifacts (Christian)
+# Famine's Scale (Horsemen of the Apocalypse)
+create_artifact_aom_famines_scale_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_famines_scale_name
+		description = aom_famines_scale_desc
+		type = pedestal_simple
+		visuals = aom_famines_scale
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_famines_scale_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_famines_scale_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_famines_scale
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Piece of Noah's Ark
+create_artifact_aom_piece_of_noahs_ark_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_piece_of_noahs_ark_name
+		description = aom_piece_of_noahs_ark_desc
+		type = sculpture_simple
+		visuals = aom_piece_of_noahs_ark
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_piece_of_noahs_ark_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_piece_of_noahs_ark_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_piece_of_noahs_ark
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Sudarium of Oviedo
+create_artifact_aom_sudarium_of_oviedo_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_sudarium_of_oviedo_name
+		description = aom_sudarium_of_oviedo_desc
+		type = wall_small
+		visuals = aom_sudarium_of_oviedo
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sudarium_of_oviedo_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_sudarium_of_oviedo_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_sudarium_of_oviedo
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Holy Grail (Holy Chalice)
+create_artifact_aom_holy_grail_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_holy_grail_name
+		description = aom_holy_grail_desc
+		type = pedestal_simple
+		visuals = aom_holy_grail
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_holy_grail_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_holy_grail_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_holy_grail
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Holy Prepuce
+create_artifact_aom_holy_prepuce_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_holy_prepuce_name
+		description = aom_holy_prepuce_desc
+		type = pedestal_simple
+		visuals = aom_holy_prepuce
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_holy_prepuce_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_holy_prepuce_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_holy_prepuce
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Book of Life
+create_artifact_aom_book_of_life_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_book_of_life_name
+		description = aom_book_of_life_desc
+		type = book
+		visuals = aom_book_of_life
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_book_of_life_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_book_of_life_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_book_of_life
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Forbidden Fruit
+create_artifact_aom_forbidden_fruit_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_forbidden_fruit_name
+		description = aom_forbidden_fruit_desc
+		type = pedestal_simple
+		visuals = aom_forbidden_fruit
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_forbidden_fruit_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_forbidden_fruit_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_forbidden_fruit
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Horn of Gabriel
+create_artifact_aom_horn_of_gabriel_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_horn_of_gabriel_name
+		description = aom_horn_of_gabriel_desc
+		type = pedestal_simple
+		visuals = aom_horn_of_gabriel
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_horn_of_gabriel_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_horn_of_gabriel_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_horn_of_gabriel
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Blood of Christ
+create_artifact_aom_blood_of_christ_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_blood_of_christ_name
+		description = aom_blood_of_christ_desc
+		type = pedestal_simple
+		visuals = aom_blood_of_christ
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_blood_of_christ_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_blood_of_christ_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_blood_of_christ
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Inventory Artifacts (Jewish)
+# Moses' Staff
+create_artifact_aom_moses_staff_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_moses_staff_name
+		description = aom_moses_staff_desc
+		type = regalia_simple
+		visuals = aom_moses_staff
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_moses_staff_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_moses_staff_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_moses_staff
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# David's Sword
+create_artifact_aom_davids_sword_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_davids_sword_name
+		description = aom_davids_sword_desc
+		type = weapon_simple
+		visuals = aom_davids_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_davids_sword_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_davids_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_davids_sword
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Coat of Many Colors (Joseph's Coat)
+create_artifact_aom_coat_of_many_colors_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_coat_of_many_colors_name
+		description = aom_coat_of_many_colors_desc
+		type = armor_simple
+		visuals = aom_coat_of_many_colors
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_coat_of_many_colors_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_coat_of_many_colors_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_coat_of_many_colors
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Aaron's Rod (Moses' Brother's Staff)
+create_artifact_aom_aarons_rod_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_aarons_rod_name
+		description = aom_aarons_rod_desc
+		type = regalia_simple
+		visuals = aom_aarons_rod
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_aarons_rod_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_aarons_rod_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_aarons_rod
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Solomon's Shamir
+create_artifact_aom_solomons_shamir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_solomons_shamir_name
+		description = aom_solomons_shamir_desc
+		type = miscellaneous
+		visuals = aom_solomons_shamir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_solomons_shamir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_solomons_shamir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_solomons_shamir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Greater Key of Solomon
+create_artifact_aom_greater_key_of_solomon_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_greater_key_of_solomon_name
+		description = aom_greater_key_of_solomon_desc
+		type = miscellaneous
+		visuals = aom_greater_key_of_solomon
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_greater_key_of_solomon_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_greater_key_of_solomon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_greater_key_of_solomon
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Lesser Key of Solomon
+create_artifact_aom_lesser_key_of_solomon_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_lesser_key_of_solomon_name
+		description = aom_lesser_key_of_solomon_desc
+		type = miscellaneous
+		visuals = aom_lesser_key_of_solomon
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_lesser_key_of_solomon_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_lesser_key_of_solomon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_lesser_key_of_solomon
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Goliath's Sword
+create_artifact_aom_goliaths_sword_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_goliaths_sword_name
+		description = aom_goliaths_sword_desc
+		type = weapon_simple
+		visuals = aom_goliaths_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_goliaths_sword_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_goliaths_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_goliaths_sword
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Court Artifacts (Jewish)
+# Ark of Bulrushes (Moses' Basket)
+create_artifact_aom_ark_of_bulrushes_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_ark_of_bulrushes_name
+		description = aom_ark_of_bulrushes_desc
+		type = sculpture_simple
+		visuals = aom_ark_of_bulrushes
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_ark_of_bulrushes_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_ark_of_bulrushes_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_ark_of_bulrushes
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Tablets of Stone (The 10 Commandments)
+create_artifact_aom_tablets_of_stone_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_tablets_of_stone_name
+		description = aom_tablets_of_stone_desc
+		type = book
+		visuals = aom_tablets_of_stone
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_tablets_of_stone_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_tablets_of_stone_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_tablets_of_stone
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Joshua's Shofars
+create_artifact_aom_joshuas_shofars_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_joshuas_shofars_name
+		description = aom_joshuas_shofars_desc
+		type = pedestal_simple
+		visuals = aom_joshuas_shofars
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_joshuas_shofars_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_joshuas_shofars_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_joshuas_shofars
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Leviathan's Hide
+create_artifact_aom_leviathans_hide_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_leviathans_hide_name
+		description = aom_leviathans_hide_desc
+		type = animal_hide_big
+		visuals = aom_leviathans_hide
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_leviathans_hide_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_leviathans_hide_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_leviathans_hide
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Throne of God (YHWH's Throne)
+create_artifact_aom_throne_of_god_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_throne_of_god_name
+		description = aom_throne_of_god_desc
+		type = throne_special
+		visuals = aom_throne_of_god
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_throne_of_god_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_throne_of_god_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_throne_of_god
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Inventory Artifacts (Islamic)
+# Zulfiqar (Ali ibn Abi Talib's Sword)
+create_artifact_aom_zulfiqar_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_zulfiqar_name
+		description = aom_zulfiqar_desc
+		type = weapon_simple
+		visuals = aom_zulfiqar
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_zulfiqar_template
+		history = {
+			type = created
+			recipient = character:33922 # Muhammad the Prophet
+			date = 610.1.1
+			location = province:6223 # Makka
+		}
+		modifier = aom_zulfiqar_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_zulfiqar
+		set_variable = aom_artifact
+		save_scope_as = epic
+		add_artifact_history = {
+			type = given
+			actor = character:33922 # Muhammad the Prophet
+			date = 627.3.1
+			recipient = character:33911 # Ali
+		}
+	}
+}
+
+# Sacred Cloak of the Prophet
+create_artifact_aom_sacred_cloak_of_the_prophet_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_sacred_cloak_of_the_prophet_name
+		description = aom_sacred_cloak_of_the_prophet_desc
+		type = armor_simple
+		visuals = aom_sacred_cloak_of_the_prophet
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sacred_cloak_of_the_prophet_template
+		history = {
+			type = created
+			recipient = character:33922 # Muhammad the Prophet
+			date = 610.1.1
+			location = province:6223 # Makka
+		}
+		modifier = aom_sacred_cloak_of_the_prophet_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_sacred_cloak_of_the_prophet
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Court Artifacts (Islamic)
+# Key to the Kaaba
+create_artifact_aom_key_to_the_kaaba_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_key_to_the_kaaba_name
+		description = aom_key_to_the_kaaba_desc
+		type = pedestal_simple
+		visuals = aom_key_to_the_kaaba
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_key_to_the_kaaba_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_key_to_the_kaaba_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_key_to_the_kaaba
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

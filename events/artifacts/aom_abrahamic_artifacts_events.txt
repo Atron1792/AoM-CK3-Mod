@@ -1,0 +1,918 @@
+﻿namespace = aom_abrahamic_artifacts
+
+############################
+# Generate God Tier Artifacts (Christian)
+############################
+aom_abrahamic_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # Famine's Scale (Horsemen of the Apocalypse)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_famines_scale } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_famines_scale_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Holy Prepuce
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_holy_prepuce } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_holy_prepuce_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Book of Life
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_book_of_life } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_book_of_life_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Forbidden Fruit
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_forbidden_fruit } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_forbidden_fruit_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Horn of Gabriel
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_horn_of_gabriel } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    OR = { 
+                        faith.religion = religion:christianity_religion 
+                        faith.religion = religion:islam_religion 
+                    }
+                }
+                create_artifact_aom_horn_of_gabriel_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Blood of Christ
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_blood_of_christ } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_blood_of_christ_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # Conquest's Crown (Horsemen of the Apocalypse)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_conquests_crown } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_conquests_crown_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # War's Greatsword (Horsemen of the Apocalypse)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_wars_greatsword } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_wars_greatsword_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Death's Scythe (Horsemen of the Apocalypse)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_deaths_scythe } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_deaths_scythe_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+
+        # Conquest's Bow (Horsemen of the Apocalypse)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_conquests_bow } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_conquests_bow_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Seal of Solomon
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_seal_of_solomon } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_seal_of_solomon_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate Legend Tier Artifacts (Christian)
+############################
+aom_abrahamic_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # Piece of Noah's Ark
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_piece_of_noahs_ark } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_piece_of_noahs_ark_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Sudarium of Oviedo
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_sudarium_of_oviedo } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_sudarium_of_oviedo_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Holy Grail (Holy Chalice)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_holy_grail } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_holy_grail_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # Ascalon (Saint George's Sword)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_ascalon } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_ascalon_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Crown of Twelve Stars (Mary's Crown)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_crown_of_twelve_stars } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_crown_of_twelve_stars_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Seamless Robe of Jesus
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_seamless_robe_of_jesus } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_seamless_robe_of_jesus_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Bradamante's Lance
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_bradamantes_lance } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_bradamantes_lance_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+
+        # Holy Lance (Spear of Longinus)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_holy_lance } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:christianity_religion
+                }
+                create_artifact_aom_holy_lance_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate God Tier Artifacts (Jewish)
+############################
+aom_abrahamic_artifacts.003 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # Tablets of Stone (The 10 Commandments)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_tablets_of_stone } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_tablets_of_stone_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Leviathan's Hide
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_leviathans_hide } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:judaism_religion
+                }
+                create_artifact_aom_leviathans_hide_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Throne of God (YHWH's Throne)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_throne_of_god } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_throne_of_god_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # Moses' Staff
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_moses_staff } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_moses_staff_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Aaron's Rod (Moses' Brother's Staff)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_aarons_rod } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:judaism_religion
+                }
+                create_artifact_aom_aarons_rod_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate Legend Tier Artifacts (Jewish)
+############################
+aom_abrahamic_artifacts.004 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # Ark of Bulrushes (Moses' Basket)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_ark_of_bulrushes } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_ark_of_bulrushes_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Joshua's Shofars
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_joshuas_shofars } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    OR = { 
+                        faith.religion = religion:judaism_religion
+                        faith.religion = religion:christianity_religion
+                    }
+                    
+                }
+                create_artifact_aom_joshuas_shofars_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # David's Sword
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_davids_sword } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_davids_sword_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Coat of Many Colors (Joseph's Coat)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_coat_of_many_colors } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_coat_of_many_colors_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Solomon's Shamir
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_solomons_shamir } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_solomons_shamir_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Greater Key of Solomon
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_greater_key_of_solomon } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_greater_key_of_solomon_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Lesser Key of Solomon
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_lesser_key_of_solomon } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_lesser_key_of_solomon_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Goliath's Sword
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_goliaths_sword } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = { is_in_family = rf_abrahamic }
+                }
+                create_artifact_aom_goliaths_sword_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate God Tier Artifacts (Islamic)
+############################
+aom_abrahamic_artifacts.005 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Inventory Artifacts
+        # Zulfiqar (Ali ibn Abi Talib's Sword)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_zulfiqar } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:islam_religion
+                }
+                create_artifact_aom_zulfiqar_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate Legend Tier Artifacts (Islamic)
+############################
+aom_abrahamic_artifacts.006 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # Key to the Kaaba
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_key_to_the_kaaba } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:islam_religion
+                }
+                create_artifact_aom_key_to_the_kaaba_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # Sacred Cloak of the Prophet
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_sacred_cloak_of_the_prophet } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:islam_religion
+                }
+                create_artifact_aom_sacred_cloak_of_the_prophet_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+
+

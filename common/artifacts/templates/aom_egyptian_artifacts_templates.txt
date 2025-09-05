@@ -1,0 +1,170 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Book of Thoth
+aom_book_of_thoth_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Spear of Ra
+aom_spear_of_ra_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Knife of Isis
+aom_knife_of_isis_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Scythe of Horus
+aom_scythe_of_horus_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Eye of Horus
+aom_eye_of_horus_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Pschent (Double Crown of Egypt)
+aom_pschent_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Hedjet (White Crown of Upper Egypt)
+aom_hedjet_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Deshret (Red Crown of Lower Egypt)
+aom_deshret_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Neith’s Loom
+aom_neiths_loom_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Feather of Ma’at
+aom_feather_of_maat_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Anubis’ Scales
+aom_anubis_scales_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_egyptian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}

@@ -1,0 +1,5 @@
+﻿2222000 = {
+	name = dyn_Alhazred
+	culture = yemeni
+	motto = dynn_Alhazred_motto
+}

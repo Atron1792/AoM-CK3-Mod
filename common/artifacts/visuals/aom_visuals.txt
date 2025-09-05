@@ -1,0 +1,966 @@
+﻿############################
+# Norse Artifacts
+############################
+# Inventory Artifacts
+# Gungnir (Odin’s Spear)
+aom_gungnir = {
+	icon = "norse/aom_gungnir.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Mjölnir (Thor’s Hammer)
+aom_mjolnir = {
+	icon = "norse/aom_mjolnir.dds"
+	asset = ep1_western_mace_01_a_portrait_entity
+}
+
+# Járngreipr (Thor’s Gauntlets)
+aom_jarngreipr = {
+	icon = "norse/aom_jarngreipr.dds"
+	asset = ep1_generic_animal_hide_small_01_a_entity
+}
+
+# Megingjörð (Thor’s Belt)
+aom_megingjord = {
+	icon = "norse/aom_megingjord.dds"
+	asset = ep1_generic_animal_hide_small_01_a_entity
+}
+
+# Brísingamen (Freyja’s Necklace)
+aom_brisingamen = {
+	icon = "norse/aom_brisingamen.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Draupnir (Odin’s Ring)
+aom_draupnir = {
+	icon = "norse/aom_draupnir.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Andvaranaut (Cursed Ring)
+aom_andvaranaut = {
+	icon = "norse/aom_andvaranaut.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Helm of Awe (Terror Helm)
+aom_helm_of_awe = {
+	icon = "norse/aom_helm_of_awe.dds"
+	asset = male_headgear_secular_fp1_imperial_01_artifact_entity
+}
+
+# Svalinn (Sun Shield)
+aom_svalinn = {
+	icon = "norse/aom_svalinn.dds"
+	asset = ep1_mena_shield_01_a_entity
+}
+
+# Gram (Sigurd’s Sword)
+aom_gram = {
+	icon = "norse/aom_gram.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Tyrfing (Cursed Blade)
+aom_tyrfing = {
+	icon = "norse/aom_norse_sword.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Skofnung (Blade of Kings)
+aom_skofnung = {
+	icon = "norse/aom_norse_sword.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Mistilteinn (Sword of Sorcery)
+aom_mistilteinn = {
+	icon = "norse/aom_norse_sword.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Lævateinn (Weapon of Loki)
+aom_laevateinn = {
+	icon = "norse/aom_laevateinn.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Hrotti (Dragon Hoard Blade)
+aom_hrotti = {
+	icon = "norse/aom_norse_sword.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Hǫfuð (Heimdall’s Sword)
+aom_hofud = {
+	icon = "norse/aom_hofuo.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Dáinsleif (Sword of the Dead)
+aom_dainsleif = {
+	icon = "norse/aom_dainsleif.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Tarnkappe (Cloak of Invisibility)
+aom_tarnkappe = {
+	icon = "norse/aom_tarnkappe.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Fjaðrhamr (Feathered Cloak)
+aom_fjadrhamr = {
+	icon = "norse/aom_fjaorhamr.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Sword of Freyr 
+aom_sword_of_freyr = {
+	icon = "norse/aom_sword_of_freyr.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Court Artifacts
+# Hlidskjalf (Odin's Throne)
+aom_throne_hlidskjalf = {
+	icon = "norse/aom_hlidskjalf.dds"
+	asset = ep1_western_throne_fancy_01_a_entity
+}
+
+# Gleipnir (Binding Chain)
+aom_gleipnir = {
+	icon = "norse/aom_gleipnir.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Eldhrímnir (Cooking Cauldron of the Gods)
+aom_eldhrimnir = {
+	icon = "norse/aom_eldhrimnir.dds"
+	asset = ep2_western_tun_barrel_01_a_entity
+}
+
+# Óðrerir (Mead of Poetry)
+aom_odrerir = {
+	icon = "norse/aom_poetry_mead.dds"
+	pedestal = "tall"
+	asset = fp3_artifact_persian_drinking_vessel_01_a_entity
+}
+
+# Boðn (Mead of Poetry)
+aom_bodn = {
+	icon = "norse/aom_poetry_mead.dds"
+	pedestal = "tall"
+	asset = fp3_artifact_persian_drinking_vessel_01_a_entity
+}
+
+# Són (Mead of Poetry)
+aom_son = {
+	icon = "norse/aom_poetry_mead.dds"
+	pedestal = "tall"
+	asset = fp3_artifact_persian_drinking_vessel_01_a_entity
+}
+
+# Gjallarhorn (Horn of Heimdallr)
+aom_gjallarhorn = {
+	icon = "norse/aom_gjallarhorn.dds"
+	pedestal = "tall_pillow"
+	asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+}
+
+# Mímir’s Skull
+aom_mimirs_skull = {
+	icon = "norse/aom_mimirs_skull.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_trophy_human_01_entity
+}
+
+# Bragi’s Harp
+aom_bragis_harp = {
+	icon = "norse/aom_bragis_harp.dds"
+	support_type = "tall"
+	asset = ep1_generic_king_davids_harp_entity
+}
+
+############################
+# Greco-Roman Artifacts
+############################
+# Inventory Artifacts
+# Achilles' Armor
+aom_achilles_armor = {
+	icon = "greco_roman/aom_achilles_armor.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Aegis
+aom_aegis = {
+	icon = "greco_roman/aom_aegis.dds"
+	asset = ep1_mena_shield_01_a_entity
+}
+
+# Ambrosia
+aom_ambrosia = {
+	icon = "greco_roman/aom_ambrosia.dds"
+	asset = ep1_western_goblet_basic_01_a_entity
+}
+
+# Apollo's Bow
+aom_apollos_bow = {
+	icon = "greco_roman/aom_apollos_bow.dds"
+	asset = ep2_mediterranean_bow_01_a_portrait_entity
+}
+
+# Caduceus
+aom_caduceus = {
+	icon = "greco_roman/aom_caduceus.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Eros' Bow
+aom_eros_bow = {
+	icon = "greco_roman/aom_eros_bow.dds"
+	asset = ep2_mediterranean_bow_01_a_portrait_entity
+}
+
+# Apple of Discord
+aom_apple_of_discord = {
+	icon = "greco_roman/aom_apple_of_discord.dds"
+	asset = ep1_western_goblet_basic_01_a_entity
+}
+
+# Rod of Asclepius
+aom_rod_of_asclepius = {
+	icon = "greco_roman/aom_rod_of_asclepius.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Poseidon's Trident
+aom_poseidons_trident = {
+	icon = "greco_roman/aom_poseidons_trident.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Shield of Achilleus
+aom_shield_of_achilleus = {
+	icon = "greco_roman/aom_shield_of_achilleus.dds"
+	asset = ep1_mena_shield_01_a_entity
+}
+
+# Spear of Achilles
+aom_spear_of_achilles = {
+	icon = "greco_roman/aom_spear_of_achilles.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Thyrsus
+aom_thyrsus = {
+	icon = "greco_roman/aom_thyrsus.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Talaria
+aom_talaria = {
+	icon = "greco_roman/aom_talaria.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Zeus' Lightning Bolt
+aom_zeus_lightning_bolt = {
+	icon = "greco_roman/aom_zeus_lightning_bolt.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Hades' Bident
+aom_hades_bident = {
+	icon = "greco_roman/aom_hades_bident.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Helm of Darkness
+aom_helm_of_darkness = {
+	icon = "greco_roman/aom_helm_of_darkness.dds"
+	asset = male_headgear_secular_fp1_imperial_01_artifact_entity
+}
+
+# Harpe
+aom_harpe = {
+	icon = "greco_roman/aom_harpe.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Necklace of Harmonia
+aom_necklace_of_harmonia = {
+	icon = "greco_roman/aom_necklace_of_harmonia.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Kronos' Scythe
+aom_kronos_scythe = {
+	icon = "greco_roman/aom_kronos_scythe.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Zeus' Labrys
+aom_zeus_labrys = {
+	icon = "greco_roman/aom_zeus_labrys.dds"
+	asset = ep1_western_axe_01_a_portrait_entity
+}
+
+# Artemis's Bow
+aom_artemis_bow = {
+	icon = "greco_roman/aom_artemis_bow.dds"
+	asset = ep2_mediterranean_bow_01_a_portrait_entity
+}
+
+# Eurytus' Bow (Odysseus' Bow)
+aom_eurytus_bow = {
+	icon = "greco_roman/aom_eurytus_bow.dds"
+	asset = ep2_mediterranean_bow_01_a_portrait_entity
+}
+
+# Panacea
+aom_panacea = {
+	icon = "greco_roman/aom_panacea.dds"
+	asset = ep1_western_goblet_basic_01_a_entity
+}
+
+# Bag of Wind
+aom_bag_of_wind = {
+	icon = "greco_roman/aom_bag_of_wind.dds"
+	asset = ep1_western_pouch_basic_01_a_entity
+}
+
+# Triton's Conch
+aom_tritons_conch = {
+	icon = "greco_roman/aom_tritons_conch.dds"
+	asset = ep1_western_pouch_basic_01_a_entity
+}
+
+# Nemean Lion Hide
+aom_nemean_lion_hide = {
+	icon = "greco_roman/aom_nemean_lion_hide.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Girdle of Hippolyta
+aom_girdle_of_hippolyta = {
+	icon = "greco_roman/aom_girdle_of_hippolyta.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Court Artifacts
+# Apollo's Kithara (Apollo's Lyre)
+aom_apollos_kithara = {
+	icon = "greco_roman/aom_apollos_kithara.dds"
+	support_type = "tall"
+	asset = ep1_generic_king_davids_harp_entity
+}
+
+# Cornucopia
+aom_cornucopia = {
+	icon = "greco_roman/aom_cornucopia.dds"
+	pedestal = "tall_pillow"
+	asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+}
+
+# Golden Fleece
+aom_golden_fleece = {
+	icon = "greco_roman/aom_golden_fleece.dds"
+	asset = ep1_generic_animal_hide_medium_01_b_entity
+}
+
+# Scale of Justice (Themis' Scale)
+aom_scale_of_justice = {
+	icon = "greco_roman/aom_scale_of_justice.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_fancy_01_a_entity
+}
+
+# Icarus' Feather (Icarus' Wings)
+aom_icarus_feather = {
+	icon = "greco_roman/aom_icarus_feather.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+# Prometheus's Chains
+aom_prometheus_chains = {
+	icon = "greco_roman/aom_prometheus_chains.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Medusa's Head
+aom_medusas_head = {
+	icon = "greco_roman/aom_medusas_head.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_trophy_human_01_entity
+}
+
+# Zeus' Throne
+aom_throne_zeus = {
+	icon = "greco_roman/aom_throne_zeus.dds"
+	asset = ep1_mediterranean_throne_basic_01_a_entity
+}
+
+############################
+# Abrahamic Artifacts
+############################
+# Inventory Artifacts (Christian)
+# Conquest's Crown (Horsemen of the Apocalypse)
+aom_conquests_crown = {
+	icon = "abrahamic/aom_conquests_crown.dds"
+	asset = male_headgear_secular_western_royalty_01_artifact_entity
+}
+
+# War's Greatsword (Horsemen of the Apocalypse)
+aom_wars_greatsword = {
+	icon = "abrahamic/aom_wars_greatsword.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Crown of Twelve Stars (Mary's Crown)
+aom_crown_of_twelve_stars = {
+	icon = "abrahamic/aom_crown_of_twelve_stars.dds"
+	asset = male_headgear_secular_western_royalty_01_artifact_entity
+}
+
+# Seamless Robe of Jesus
+aom_seamless_robe_of_jesus = {
+	icon = "abrahamic/aom_seamless_robe_of_jesus.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Death's Scythe (Horsemen of the Apocalypse)
+aom_deaths_scythe = {
+	icon = "abrahamic/aom_deaths_scythe.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Ascalon (Saint George's Sword)
+aom_ascalon = {
+	icon = "abrahamic/aom_ascalon.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Bradamante's Lance
+aom_bradamantes_lance = {
+	icon = "abrahamic/aom_bradamantes_lance.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Holy Lance (Spear of Longinus)
+aom_holy_lance = {
+	icon = "abrahamic/aom_holy_lance.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Conquest's Bow (Horsemen of the Apocalypse)
+aom_conquests_bow = {
+	icon = "abrahamic/aom_conquests_bow.dds"
+	asset = ep2_mediterranean_bow_01_a_portrait_entity
+}
+
+# Seal of Solomon
+aom_seal_of_solomon = {
+	icon = "abrahamic/aom_seal_of_solomon.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Court Artifacts (Christian)
+# Famine's Scale (Horsemen of the Apocalypse)
+aom_famines_scale = {
+	icon = "abrahamic/aom_famines_scale.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_fancy_01_a_entity
+}
+
+# Piece of Noah's Ark
+aom_piece_of_noahs_ark = {
+	icon = "abrahamic/aom_piece_of_noahs_ark.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Sudarium of Oviedo
+aom_sudarium_of_oviedo = {
+	icon = "abrahamic/aom_sudarium_of_oviedo.dds"
+	asset = ep3_byzantine_icon_01_a_entity
+}
+
+# Holy Grail (Holy Chalice)
+aom_holy_grail = {
+	icon = "abrahamic/aom_holy_grail.dds"
+	pedestal = "tall"
+	asset = ep1_western_goblet_basic_01_a_entity
+}
+
+# Holy Prepuce
+aom_holy_prepuce = {
+	icon = "abrahamic/aom_holy_prepuce.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+# Book of Life
+aom_book_of_life = {
+	icon = "abrahamic/aom_book_of_life.dds"
+	support_type = "lectern"
+	asset = ep1_western_book_verybig_01_b_entity
+}
+
+# Forbidden Fruit
+aom_forbidden_fruit = {
+	icon = "abrahamic/aom_forbidden_fruit.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_mena_box_small_fancy_01_a_entity
+}
+
+# Horn of Gabriel
+aom_horn_of_gabriel = {
+	icon = "abrahamic/aom_horn_of_gabriel.dds"
+	pedestal = "tall"
+	asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+}
+
+# Blood of Christ
+aom_blood_of_christ = {
+	icon = "abrahamic/aom_blood_of_christ.dds"
+	pedestal = "tall"
+	asset = ep1_western_goblet_basic_01_a_entity
+}
+
+# Inventory Artifacts (Jewish)
+# Moses' Staff
+aom_moses_staff = {
+	icon = "abrahamic/aom_moses_staff.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# David's Sword
+aom_davids_sword = {
+	icon = "abrahamic/aom_davids_sword.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Coat of Many Colors (Joseph's Coat)
+aom_coat_of_many_colors = {
+	icon = "abrahamic/aom_coat_of_many_colors.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Aaron's Rod (Moses' Brother's Staff)
+aom_aarons_rod = {
+	icon = "abrahamic/aom_aarons_rod.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Solomon's Shamir
+aom_solomons_shamir = {
+	icon = "abrahamic/aom_solomons_shamir.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Greater Key of Solomon
+aom_greater_key_of_solomon = {
+	icon = "abrahamic/aom_greater_key_of_solomon.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Lesser Key of Solomon
+aom_lesser_key_of_solomon = {
+	icon = "abrahamic/aom_lesser_key_of_solomon.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Goliath's Sword
+aom_goliaths_sword = {
+	icon = "abrahamic/aom_goliaths_sword.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Court Artifacts (Jewish)
+# Ark of Bulrushes (Moses' Basket)
+aom_ark_of_bulrushes = {
+	icon = "abrahamic/aom_ark_of_bulrushes.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Tablets of Stone (The 10 Commandments)
+aom_tablets_of_stone = {
+	icon = "abrahamic/aom_tablets_of_stone.dds"
+	support_type = "lectern"
+	asset = ep1_mena_book_verybig_01_a_entity
+}
+
+# Joshua's Shofars
+aom_joshuas_shofars = {
+	icon = "abrahamic/aom_joshuas_shofars.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Leviathan's Hide
+aom_leviathans_hide = {
+	icon = "abrahamic/aom_leviathans_hide.dds"
+	asset = ep1_generic_animal_hide_big_01_b_entity
+}
+
+# Throne of God (YHWH's Throne)
+aom_throne_of_god = {
+	icon = "abrahamic/aom_throne_of_god.dds"
+	asset = ep1_mediterranean_throne_basic_01_a_entity
+}
+
+# Inventory Artifacts (Islamic)
+# Zulfiqar (Ali ibn Abi Talib's Sword)
+aom_zulfiqar = {
+	icon = "abrahamic/aom_zulfiqar.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Sacred Cloak of the Prophet
+aom_sacred_cloak_of_the_prophet = {
+	icon = "abrahamic/aom_sacred_cloak_of_the_prophet.dds"
+	asset = m_clothes_sec_fp1_war_nob_01_artifact_entity
+}
+
+# Court Artifacts (Islamic)
+# Key to the Kaaba
+aom_key_to_the_kaaba = {
+	icon = "abrahamic/aom_key_to_the_kaaba.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+############################
+# Celtic Artifacts
+############################
+# Inventory Artifacts
+# Sleg (Spear of Lugh)
+aom_sleg = {
+	icon = "celtic/aom_sleg.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Lugh’s Sling
+aom_lughs_sling = {
+	icon = "celtic/aom_lughs_sling.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Claíomh Solais (Sword of Light)
+aom_claiomh_solais = {
+	icon = "celtic/aom_claiomh_solais.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Fragarach (Sword of Nuada)
+aom_fragarach = {
+	icon = "celtic/aom_fragarach.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Gáe Bulg
+aom_gae_bulg = {
+	icon = "celtic/aom_gae_bulg.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Caladbolg
+aom_caladbolg = {
+	icon = "celtic/aom_caladbolg.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Móralltach (the Great Fury)
+aom_moralltach = {
+	icon = "celtic/aom_moralltach.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Beagalltach (the Little Fury)
+aom_beagalltach = {
+	icon = "celtic/aom_beagalltach.dds"
+	asset = ep1_western_dagger_01_a_portrait_entity
+}
+
+# Dubán (Cu Chulainn's Black Shield)
+aom_duban = {
+	icon = "celtic/aom_duban.dds"
+	asset = ep1_mena_shield_01_a_entity
+}
+
+# Dyrnwyn (White Hilt)
+aom_dyrnwyn = {
+	icon = "celtic/aom_dyrnwyn.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Court Artifacts
+# Uaithne (The Dagda's Harp)
+aom_uaithne = {
+	icon = "celtic/aom_uaithne.dds"
+	support_type = "tall"
+	asset = ep1_generic_king_davids_harp_entity
+}
+
+# Horn of Brân Galed
+aom_horn_of_bran_galed = {
+	icon = "celtic/aom_horn_of_bran_galed.dds"
+	pedestal = "tall"
+	asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+}
+
+# Hamper of Gwyddno Garanhir
+aom_hamper_of_gwyddno = {
+	icon = "celtic/aom_hamper_of_gwyddno.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Pair Dadeni (Cauldron of Rebirth)
+aom_pair_dadeni = {
+	icon = "celtic/aom_pair_dadeni.dds"
+	asset = ep2_western_tun_barrel_01_a_entity
+}
+
+# Cauldron of Inspiration
+aom_cauldron_of_inspiration = {
+	icon = "celtic/aom_cauldron_of_inspiration.dds"
+	asset = ep2_western_tun_barrel_01_a_entity
+}
+
+############################
+# Arthurian Artifacts
+############################
+# Inventory Artifacts
+# Excalibur (Caledfwlch)
+aom_excalibur = {
+	icon = "arthurian/aom_excalibur.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Carnwennan (Arthur's Dagger)
+aom_carnwennan = {
+	icon = "arthurian/aom_carnwennan.dds"
+	asset = ep1_western_dagger_01_a_portrait_entity
+}
+
+# Rhongomyniad (Arthur's Spear)
+aom_rhongomyniad = {
+	icon = "arthurian/aom_rhongomyniad.dds"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+# Pridwen (Arthur's Shield)
+aom_pridwen = {
+	icon = "arthurian/aom_pridwen.dds"
+	asset = ep1_mena_shield_01_a_entity
+}
+
+# Merlin's Staff
+aom_merlins_staff = {
+	icon = "arthurian/aom_merlins_staff.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Clarent (The Sword in the Stone)
+aom_clarent = {
+	icon = "arthurian/aom_clarent.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+## Secace (Sir Lancelot's Sword)
+aom_secace = {
+	icon = "arthurian/aom_secace.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Courechouse (King Ban's Sword)
+aom_courechouse = {
+	icon = "arthurian/aom_courechouse.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Galatine (Sir Gawain's Sword)
+aom_galatine = {
+	icon = "arthurian/aom_galatine.dds"
+	asset = ep1_western_sword_01_b_portrait_entity
+}
+
+# Sword Of The Red Hilt (Sir Galahad's Sword)
+aom_sword_of_the_red_hilt = {
+	icon = "arthurian/aom_sword_of_the_red_hilt.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Court Artifacts
+# The Round Table
+aom_throne_round_table = {
+	icon = "arthurian/aom_throne_round_table.dds"
+	asset = ep1_mediterranean_throne_basic_01_a_entity
+}
+
+############################
+# Finno-Ugric Artifacts
+############################
+# Inventory Artifacts
+# Ukonvasara (Hammer of Ukko)
+aom_ukonvasara = {
+	icon = "finno_ugric/aom_ukonvasara.dds"
+	asset = ep1_western_mace_01_a_portrait_entity
+}
+
+# Tarnhelm
+aom_tarnhelm = {
+	icon = "finno_ugric/aom_tarnhelm.dds"
+	asset = male_headgear_secular_fp1_imperial_01_artifact_entity
+}
+
+# Kalevan Miekka
+aom_kalevan_miekka = {
+	icon = "finno_ugric/aom_kalevan_miekka.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Court Artifacts
+# Sampo
+aom_sampo = {
+	icon = "finno_ugric/aom_sampo.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Kantele (Magical Harp)
+aom_kantele = {
+	icon = "finno_ugric/aom_kantele.dds"
+	pedestal = "tall"
+	asset = ep1_generic_king_davids_harp_entity
+}
+
+############################
+# Slavic Artifacts
+############################
+# Inventory Artifacts
+# Kladenets (Self-Swinging Sword)
+aom_kladenets = {
+	icon = "slavic/aom_kladenets.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+# Perun's Axe
+aom_peruns_axe = {
+	icon = "slavic/aom_peruns_axe.dds"
+	asset = ep1_western_axe_01_a_portrait_entity
+}
+
+# Raskovnik (Magic Herb)
+aom_raskovnik = {
+	icon = "slavic/aom_raskovnik.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# The Firebird’s Feather
+aom_firebird_feather = {
+	icon = "slavic/aom_firebird_feather.dds"
+	asset = ep1_generic_animal_hide_small_01_a_entity
+}
+
+# Court Artifacts
+# Koschei's Needle
+aom_koscheis_needle = {
+	icon = "slavic/aom_koscheis_needle.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+# Alatyr (Sacred Stone)
+aom_alatyr = {
+	icon = "slavic/aom_alatyr.dds"
+	pedestal = "short"
+	asset = ep1_mena_box_reliquary_01_a_entity
+}
+
+# Fern Flower
+aom_fern_flower = {
+	icon = "slavic/aom_fern_flower.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+# Baba Yaga’s Mortar and Pestle
+aom_baba_yagas_mortar = {
+	icon = "slavic/aom_baba_yagas_mortar.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+############################
+# Lovecraftian Artifacts
+############################
+# Inventory Artifacts
+# Necronomicon 
+aom_necronomicon = {
+    icon = "lovecraftian/aom_necronomicon.dds"
+    asset = ep1_mediterranean_book_big_01_a_entity
+}
+
+# Book Of Eibon 
+aom_book_of_eibon = {
+    icon = "lovecraftian/aom_book_of_eibon.dds"
+    asset = ep1_mediterranean_book_big_01_a_entity
+}
+
+# Deep One's Tiara
+aom_deep_ones_tiara = {
+    icon = "lovecraftian/aom_deep_ones_tiara.dds"
+    asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Hound Amulet 
+aom_hound_amulet = {
+    icon = "lovecraftian/aom_hound_amulet.dds"
+    asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Court Artifacts
+# The Shining Trapezohedron 
+aom_shining_trapezohedron = {
+    icon = "lovecraftian/aom_shining_trapezohedron.dds"
+    asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+}
+
+# Cthulhu Idol 
+aom_cthulhu_idol = {
+    icon = "lovecraftian/aom_cthulhu_idol.dds"
+    asset = ep1_trophy_human_01_entity
+}
+
+# The Sliver Key 
+aom_sliver_key = {
+    icon = "lovecraftian/aom_sliver_key.dds"
+    asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Confessions of Clithanus
+aom_confessions_of_clithanus = {
+    icon = "lovecraftian/aom_confessions_of_clithanus.dds"
+	support_type = "lectern"
+    asset = ep1_mediterranean_book_big_01_a_entity
+}
+
+# Pnakotic Manuscripts 
+aom_pnakotic_manuscripts = {
+    icon = "lovecraftian/aom_pnakotic_manuscripts.dds"
+	support_type = "lectern"
+    asset = ep1_mediterranean_book_big_01_a_entity
+}
+
+# The Mirror Of Nitocris 
+aom_mirror_of_nitocris = {
+    icon = "lovecraftian/aom_mirror_of_nitocris.dds"
+    asset = ep1_mena_box_small_fancy_01_a_entity
+}

@@ -1,0 +1,205 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Kladenets (Self-Swinging Sword)
+create_artifact_aom_kladenets_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_kladenets_name
+        description = aom_kladenets_desc
+        type = weapon_simple
+        visuals = aom_kladenets
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_kladenets_template
+        history = { type = created_before_history }
+        modifier = aom_kladenets_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_kladenets
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Perun's Axe
+create_artifact_aom_peruns_axe_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_peruns_axe_name
+        description = aom_peruns_axe_desc
+        type = weapon_simple
+        visuals = aom_peruns_axe
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_peruns_axe_template
+        history = { type = created_before_history }
+        modifier = aom_peruns_axe_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_peruns_axe
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Raskovnik (Magic Herb)
+create_artifact_aom_raskovnik_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_raskovnik_name
+        description = aom_raskovnik_desc
+        type = miscellaneous
+        visuals = aom_raskovnik
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_raskovnik_template
+        history = { type = created_before_history }
+        modifier = aom_raskovnik_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_raskovnik
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# The Firebird’s Feather
+create_artifact_aom_firebird_feather_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_firebird_feather_name
+        description = aom_firebird_feather_desc
+        type = miscellaneous
+        visuals = aom_firebird_feather
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_firebird_feather_template
+        history = { type = created_before_history }
+        modifier = aom_firebird_feather_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_firebird_feather
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+############################
+# Court Artifacts
+############################
+# Koschei's Needle
+create_artifact_aom_koscheis_needle_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_koscheis_needle_name
+        description = aom_koscheis_needle_desc
+        type = pedestal_simple
+        visuals = aom_koscheis_needle
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_koscheis_needle_template
+        history = { type = created_before_history }
+        modifier = aom_koscheis_needle_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_koscheis_needle
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Alatyr (Sacred Stone)
+create_artifact_aom_alatyr_effect = {
+    $OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_alatyr_name
+        description = aom_alatyr_desc
+        type = sculpture_simple
+        visuals = aom_alatyr
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_alatyr_template
+        history = { type = created_before_history }
+        modifier = aom_alatyr_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_alatyr
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Fern Flower
+create_artifact_aom_fern_flower_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_fern_flower_name
+        description = aom_fern_flower_desc
+        type = pedestal_simple
+        visuals = aom_fern_flower
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_fern_flower_template
+        history = { type = created_before_history }
+        modifier = aom_fern_flower_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_fern_flower
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Baba Yaga’s Mortar and Pestle
+create_artifact_aom_baba_yagas_mortar_effect = {
+    $OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_baba_yagas_mortar_name
+        description = aom_baba_yagas_mortar_desc
+        type = pedestal_simple
+        visuals = aom_baba_yagas_mortar
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_baba_yagas_mortar_template
+        history = { type = created_before_history }
+        modifier = aom_baba_yagas_mortar_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_baba_yagas_mortar
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}

@@ -1,0 +1,835 @@
+﻿l_spanish:
+# Tipos de artefactos
+  artifact_bow_simple: "Arco"
+  artifact_armor_simple: "Armadura"
+  artifact_sculpture_simple: "Escultura"
+  artifact_weapon_simple: "Arma"
+  artifact_pedestal_simple: "Pedestal"
+
+# Decisiones de depuración
+  aom_debug_transfer_all_artifacts: "Invoca los artefactos del mito"
+  aom_debug_transfer_all_artifacts_desc: "Invoca el poder de los mitos antiguos e invoca todos los artefactos mitológicos existentes en tu inventario."
+  aom_debug_transfer_all_artifacts_tooltip: "Todos los artefactos mitológicos conocidos serán transferidos a tu posesión."
+  aom_debug_transfer_all_artifacts_confirm: "Sí, tráemelos!"
+
+  aom_debug_create_all_artifacts: "Crear todos los artefactos míticos"
+  aom_debug_create_all_artifacts_desc: "Conjurar todos los artefactos legendarios, canalizando la artesanía divina."
+  aom_debug_create_all_artifacts_tooltip: "Todos los artefactos legendarios se crearán y se añadirán a tu inventario."
+  aom_debug_create_all_artifacts_confirm: "Sí, créalos todos!"
+
+# Decisiones para generar artefactos
+  aom_spawn_artifacts_decision: "Generar artefactos míticos"
+  aom_spawn_artifacts_decision_desc: "Por el poder de Grayskull!"
+  aom_spawn_artifacts_decision_tooltip: "Abre este menú para generar varios artefactos mitológicos."
+
+  aom_spawn_artifacts_decision_confirm: "Confirmar"
+  aom_spawn_artifacts_decision_tt: "Abrir una decisión para elegir qué artefacto generar."
+
+  aom_spawn_norse_artifacts: "Artefactos Nórdicos"
+  aom_spawn_norse_artifacts_tooltip: "Ejemplos: Mjölnir, Brisingamen, Gram"
+
+  aom_spawn_greco_roman_artifacts: "Artefactos Grecorromanos"
+  aom_spawn_greco_roman_artifacts_tooltip: "Ejemplos: Rayo de Zeus, Collar de Harmonía, la Cornucopia"
+
+  aom_spawn_abrahamic_artifacts: "Abrir Menú de Artefactos Abrahámicos"
+  aom_spawn_abrahamic_artifacts_tooltip: "Ejemplos: La Lanza Sagrada, Zulfiqar, Bastón de Moisés"
+
+  aom_spawn_celtic_artifacts: "Abrir Menú de Artefactos Celtas"
+  aom_spawn_celtic_artifacts_tooltip: "Ejemplos: Honda de Lugh, Dubán, el Cuerno de Brân Galed
+
+  aom_spawn_arthurian_artifacts: "Abrir menú de artefactos artúricos"
+  aom_spawn_arthurian_artifacts_tooltip: "Ejemplos: Excalibur, la Mesa Redonda, Secace"
+
+  aom_spawn_finno_ugric_artifacts: "Abrir menú de artefactos finougrios"
+  aom_spawn_finno_ugric_artifacts_tooltip: "Ejemplos: Ukonvasara, Tarnhelm, Sampo"
+
+  aom_spawn_slavic_artifacts: "Abrir menú de artefactos eslavos"
+  aom_spawn_slavic_artifacts_tooltip: "Ejemplos: Hacha de Perun, Aguja de Koschei, Mortero y maja de Baba Yaga"
+
+  aom_spawn_lovecraftian_artifacts: "Abrir Menú de Artefactos Lovecraftianos
+  aom_spawn_lovecraftian_artifacts_tooltip: "Ejemplos: Necronomicón, El Trapezoedro Brillante, La Llave Astillada"
+
+  aom_disable_artifact_spawning: "Desactivar el Menú de Generación de Artefactos"
+  aom_disable_artifact_spawning_tooltip: "#R Advertencia!:#! Esto desactiva el menú de generación de artefactos"
+
+# Beber del Santo Grial
+  aom_drink_from_holy_grail_decision: "Beber del Santo Grial"
+  aom_drink_from_holy_grail_decision_desc: "El Santo Grial rebosa de poder divino. Beber de él es saborear la gracia eterna. Es una oportunidad única en el siglo."
+  aom_drink_from_holy_grail_decision_tooltip: "Bebe del Santo Grial y obtén sus beneficios milagrosos". 
+  aom_drink_from_holy_grail_decision_confirm: "Bebe"
+  aom_drink_from_holy_grail_decision_tt: "Beberás del Santo Grial."
+  aom_drink_from_holy_grail_decision_effect_tt_1: "Como [GetPietyLevelName( '(int32)3' )], beber curará tus heridas."
+  aom_drink_from_holy_grail_decision_effect_tt_2: "Como [GetPietyLevelName( '(int32)4' )], beber curará tus heridas y te librará de enfermedades."
+  aom_drink_from_holy_grail_decision_effect_tt_3: "Como [GetPietyLevelName( '(int32)5' )], beber curará tus heridas, te librará de enfermedades para siempre y sanará tus deformidades." 
+  aom_has_holy_grail: "Posees el Santo Grial"
+  aom_has_drunk_from_holy_grail: "Has #absurdo!#! bebido del Santo Grial en los últimos 100 años"
+
+# Reclama Britannia
+  aom_claim_britannia_decision: "Reclama Britannia"
+  aom_claim_britannia_decision_desc: "Por el derecho de Clarent, la espada en la piedra, reclama la totalidad de los reinos de Britania. Revelar Excalibur hará que los hombres se levanten por el verdadero rey."
+  aom_claim_britannia_decision_tooltip: "Reclama todos los reinos de Britannia."
+  aom_claim_britannia_decision_confirm: "Reclama tu derecho"
+  aom_has_clarent: "Posees el Clarent, la Espada en la Piedra"
+  aom_claim_britannia_decision_effect_tt: "Tu habilidad marcial determina cuántos soldados de élite #italic (Hombres de Armas)#! responderán a tu llamada, mientras que el avance de tu cultura #italic (Era Cultural)#! determina el tamaño de la leva campesina que se une a tu estandarte."
+
+  britannia_claim_army: "El Ejército del Verdadero Rey para Britania"
+
+# Lee el Necronomicón
+  aom_read_necronomicon_decision: "Lee el Necronomicón"
+  aom_read_necronomicon_decision_desc: "Adéntrate en el conocimiento prohibido envuelto en piel humana y teñido de locura. ¿Quién sabe qué verdades se esconden más allá?"
+  aom_read_necronomicon_decision_tooltip: "Arriesgarás tu cordura para obtener conocimiento sobrenatural del tomo maldito."
+
+  aom_read_necronomicon_decision_confirm: "Pasa página"
+  aom_has_necronomicon: "Posees el temido Necronomicón"
+  aom_has_read_necronomicon: "No has leído el Necronomicón en los últimos 20 años"
+
+# Mírate en el Espejo de Nitocris
+  aom_gaze_into_mirror_of_nitocris_decision: "Mírate en el Espejo de Nitocris"
+  aom_gaze_into_mirror_of_nitocris_decision_desc: "El espejo antiguo, que se dice que no refleja el rostro, sino el alma. Lo que ves puede cambiarte para siempre."
+  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "Mírate en el Espejo de Nitocris para descubrir secretos... y quizás despertar algo en tu interior."
+  aom_gaze_into_mirror_of_nitocris_decision_confirm: "Mira en tu interior"
+  aom_has_mirror_of_nitocris: "Posees el Espejo de Nitocris"
+  aom_has_gazed_into_mirror_of_nitocris: "No te has mirado en el Espejo de Nitocris en los últimos 15 años"
+  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "El espejo podría revelar un secreto oculto de uno de tus rivales, vasallos o cortesanos."
+
+# Regla del juego de Requisitos de artefactos
+  rule_aom_artifact_requirements: "Requisitos de artefactos"
+
+  setting_aom_artifact_requirements_enabled: "#P habilitado#!"
+  setting_aom_artifact_requirements_enabled_desc: "Los personajes deberán cumplir ciertos requisitos para utilizar plenamente artefactos específicos."
+
+  setting_aom_artifact_requirements_disabled: "#R deshabilitado#!"
+  setting_aom_artifact_requirements_disabled_desc: "Los personajes podrán utilizar plenamente cualquier artefacto."
+
+# Regla del juego de Artefactos nórdicos
+  rule_aom_generate_norse_artifacts: "Generación de artefactos nórdicos"
+
+  setting_aom_generate_norse_artifacts_all: "#P todos los artefactos#!" 
+  setting_aom_generate_norse_artifacts_all_desc: "Todos los artefactos mitológicos nórdicos se incluirán en el juego."
+
+  setting_aom_generate_norse_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_norse_artifacts_only_god_desc: "Solo se incluirán los artefactos ilustres asociados con la mitología nórdica."
+
+  setting_aom_generate_norse_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_norse_artifacts_only_legend_desc: "Todos los artefactos nórdicos, excepto los ilustres, se incluirán."
+
+  setting_aom_generate_norse_artifacts_with_descision: "#V Con Decisión#!" 
+  setting_aom_generate_norse_artifacts_with_descision_desc: "Los artefactos nórdicos se crean solo mediante una decisión especial."
+
+  setting_aom_generate_norse_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_norse_artifacts_disabled_desc: "Los artefactos nórdicos no se generarán ni sembrarán."
+
+# Regla del juego de artefactos grecorromanos
+  rule_aom_generate_greco_roman_artifacts: "Generación de artefactos grecorromanos"
+
+  setting_aom_generate_greco_roman_artifacts_all: "#P Todos los artefactos#!"
+  setting_aom_generate_greco_roman_artifacts_all_desc: "Todos los artefactos mitológicos grecorromanos se sembrarán en el juego."
+
+  setting_aom_generate_greco_roman_artifacts_only_god: "#M Solo artefactos de Dios#!"
+  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Solo se incluirán artefactos ilustres asociados con el mito grecorromano."
+
+  setting_aom_generate_greco_roman_artifacts_only_legend: "#M Solo artefactos legendarios#!"
+  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "Se incluirán todos los artefactos grecorromanos, excepto los ilustres."
+
+  setting_aom_generate_greco_roman_artifacts_with_descision: "#V Con decisión#!"
+  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "Los artefactos grecorromanos solo se crean mediante una decisión especial."
+
+  setting_aom_generate_greco_roman_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_greco_roman_artifacts_disabled_desc: "Los artefactos grecorromanos no se generarán ni sembrarán."
+
+# Regla del juego de artefactos abrahámicos
+  rule_aom_generate_abrahamic_artifacts: "Generación de artefactos abrahámicos"
+
+  setting_aom_generate_abrahamic_artifacts_all: "#P Todos los artefactos#!"
+  setting_aom_generate_abrahamic_artifacts_all_desc: "Todos los artefactos mitológicos abrahámicos se sembrarán en el juego."
+
+  setting_aom_generate_abrahamic_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Solo se crearán artefactos ilustres asociados con el mito abrahámico."
+
+  setting_aom_generate_abrahamic_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "Se crearán todos los artefactos abrahámicos, excepto los ilustres."
+
+  setting_aom_generate_abrahamic_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "Los artefactos abrahámicos se crean solo mediante una decisión especial."
+
+  setting_aom_generate_abrahamic_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_abrahamic_artifacts_disabled_desc: "Los artefactos abrahámicos no se generarán ni sembrarán."
+
+# Regla del juego de artefactos celtas
+  rule_aom_generate_celtic_artifacts: "Generación de artefactos celtas"
+
+  setting_aom_generate_celtic_artifacts_all: "#P Todos los artefactos#!"
+  setting_aom_generate_celtic_artifacts_all_desc: "Todos los artefactos mitológicos celtas se sembrarán en el juego."
+
+  setting_aom_generate_celtic_artifacts_only_god: "#M Solo artefactos divinos#!"
+  setting_aom_generate_celtic_artifacts_only_god_desc: "Solo se crearán artefactos ilustres asociados con la mitología celta."
+
+  setting_aom_generate_celtic_artifacts_only_legend: "#M Solo artefactos legendarios#!"
+  setting_aom_generate_celtic_artifacts_only_legend_desc: "Se crearán todos los artefactos celtas, excepto los ilustres."
+
+  setting_aom_generate_celtic_artifacts_with_descision: "#V Con decisión#!"
+  setting_aom_generate_celtic_artifacts_with_descision_desc: "Los artefactos celtas solo se crean mediante una decisión especial."
+
+  setting_aom_generate_celtic_artifacts_disabled: "Desactivado #R!" 
+  setting_aom_generate_celtic_artifacts_disabled_desc: "Los artefactos celtas no se generarán ni sembrarán."
+
+# Regla del juego de artefactos artúricos
+  rule_aom_generate_arthurian_artifacts: "Generación de artefactos artúricos"
+
+  setting_aom_generate_arthurian_artifacts_all: "#P Todos los artefactos#!"
+  setting_aom_generate_arthurian_artifacts_all_desc: "Todos los artefactos mitológicos Artúricos se incluirán en el juego."
+
+  setting_aom_generate_arthurian_artifacts_only_god: "#M Solo artefactos de Dios#!"
+  setting_aom_generate_arthurian_artifacts_only_god_desc: "Solo se incluirán los artefactos ilustres asociados con el mito Artúrico."
+
+  setting_aom_generate_arthurian_artifacts_only_legend: "#M Solo artefactos legendarios#!"
+  setting_aom_generate_arthurian_artifacts_only_legend_desc: "Se incluirán todos los artefactos Artúricos, excepto los ilustres."
+
+  setting_aom_generate_arthurian_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_arthurian_artifacts_with_descision_desc: "Los artefactos artúricos solo se crean mediante una decisión especial."
+
+  setting_aom_generate_arthurian_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_arthurian_artifacts_disabled_desc: "Los artefactos artúricos no se generarán ni sembrarán."
+
+# Regla del juego de artefactos ugrofineses
+  rule_aom_generate_finno_ugric_artifacts: "Generación de artefactos ugrofineses"
+
+  setting_aom_generate_finno_ugric_artifacts_all: "#P Todos los artefactos#!" 
+  setting_aom_generate_finno_ugric_artifacts_all_desc: "Todos los artefactos mitológicos ugrofineses se incluirán en el juego."
+
+  setting_aom_generate_finno_ugric_artifacts_only_god: "#M Solo artefactos divinos M!"
+  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Solo se incluirán los artefactos ilustres asociados con el mito ugrofineses."
+
+  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M Solo artefactos legendarios M!"
+  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "Se incluirán todos los artefactos ugrofineses, excepto los ilustres."
+
+  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "Los artefactos ugrofineses solo se crean mediante una decisión especial."
+
+  setting_aom_generate_finno_ugric_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "Los artefactos ugrofineses no se generarán ni sembrarán."
+
+# Regla de Juego de Artefactos Eslavos
+  rule_aom_generate_slavic_artifacts: "Generación de Artefactos Eslavos"
+
+  setting_aom_generate_slavic_artifacts_all: "#P Todos los Artefactos#!" 
+  setting_aom_generate_slavic_artifacts_all_desc: "Todos los artefactos mitológicos eslavos se incluirán en el juego."
+
+  setting_aom_generate_slavic_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_slavic_artifacts_only_god_desc: "Solo se incluirán los artefactos ilustres asociados con la mitología eslava."
+
+  setting_aom_generate_slavic_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_slavic_artifacts_only_legend_desc: "Se incluirán todos los artefactos eslavos, excepto los ilustres."
+
+  setting_aom_generate_slavic_artifacts_with_descision: "#V Con Decisión#!" 
+  setting_aom_generate_slavic_artifacts_with_descision_desc: "Los artefactos eslavos solo se crean mediante una decisión especial."
+
+  setting_aom_generate_slavic_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_slavic_artifacts_disabled_desc: "Los artefactos eslavos no se generarán ni sembrarán."
+
+# Regla del juego de artefactos lovecraftianos
+  rule_aom_generate_lovecraftian_artifacts: "Generación de artefactos lovecraftianos"
+
+  setting_aom_generate_lovecraftian_artifacts_all: "#P Todos los artefactos#!"
+  setting_aom_generate_lovecraftian_artifacts_all_desc: "Todos los artefactos mitológicos lovecraftianos se sembrarán en el juego."
+
+  setting_aom_generate_lovecraftian_artifacts_only_god: "#M Solo artefactos divinos#!"
+  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Solo se crearán artefactos ilustres asociados con el mito lovecraftiano."
+
+  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M Solo artefactos legendarios#!"
+  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "Se crearán todos los artefactos lovecraftianos, excepto los ilustres."
+
+  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "Los artefactos lovecraftianos se crean solo mediante una decisión especial."
+
+  setting_aom_generate_lovecraftian_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "Los artefactos lovecraftianos no se generarán ni sembrarán."
+
+# Términos genéricos
+  aom_event_option.next: "Siguiente"
+  aom_event_option.previous: "Anterior"
+  aom_event_option.close: "Cerrar"
+  SPWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "Elegir Panteón de Artefactos"
+
+  aom_artifact_spawning.1001.t: "Menú de Artefactos Nórdicos"
+  aom_artifact_spawning.1011.t: "Menú de Artefactos Grecorromanos"
+  aom_artifact_spawning.1021.t: "Menú de Artefactos Abrahámicos"
+  aom_artifact_spawning.1031.t: "Menú de Artefactos Celtas"
+  aom_artifact_spawning.1041.t: "Menú de Artefactos Artúricos"
+  aom_artifact_spawning.1051.t: "Menú de artefactos finougrios"
+  aom_artifact_spawning.1061.t: "Menú de artefactos eslavos"
+  aom_artifact_spawning.1071.t: "Menú de Artefactos Lovecraftianos"
+  aom_artifact_spawning.desc: "Elige un Artefacto para Generar:"
+
+  game_rule_category_aom: "Artefactos del Mito"
+
+# Modificadores de Perk
+  read_necronomicon_decision_learning_gain: "Lee el Necronomicón"
+  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "Mirado en el Espejo de Nitocris"
+
+# Ambientación
+  dyn_Alhazred: "Alhazred"
+  dynn_Alhazred_motto: "No está muerto lo que yace eternamente, y con extraños eones incluso la muerte puede morir."
+  Clithanus: "Clithanus"
+
+  nick_the_mad_arab: "El Árabe Loco"
+  nick_the_mad_arab_desc: "Alhazred afirmó haber vislumbrado a los verdaderos maestros de la realidad y juró buscarlos; lo llamaron loco por hacerlo."
+
+  nick_the_mad_monk: "el Monje Loco"
+  nick_the_mad_monk_desc: "Tras adentrarse en las catacumbas prohibidas bajo Hydestall, Clithanus emergió como un hombre cambiado; sus febriles delirios le valieron el apodo de 'el Monje Loco' entre quienes se atrevieron a escucharlo."
+
+# Artefactos Nórdicos
+  # Artefactos de Inventario
+  aom_gungnir_name: "Gungnir"
+  aom_gungnir_desc: "Lanza de Odín. Forjada por herreros enanos y blandida por el mismísimo Padre de Todo, Gungnir nunca falla. Irradia poder divino, inspirando tanto a grandes mentes como a guerreros."
+
+  aom_mjolnir_name: "Mjölnir"
+  aom_mjolnir_desc: "Martillo del Trueno. El poderoso martillo de Thor, capaz de arrasar montañas y aniquilar a los enemigos de los dioses de un solo golpe."
+
+  aom_jarngreipr_name: "Járngreipr"
+  aom_jarngreipr_desc: "Guanteletes de Fuerza. Estos guantes de hierro permiten a su portador ejercer un poder inimaginable, esencial para empuñar el mismísimo Mjölnir."
+
+  aom_megingjord_name: "Megingjörð"
+  aom_megingjord_desc: "Cinturón de Poder. Un cinturón que duplica la fuerza de quien lo porta, infundiéndole vigor divino."
+
+  aom_brisingamen_name: "Brísingamen"
+  aom_brisingamen_desc: "Collar de Freyja. Este legendario collar resplandece con una belleza etérea, realzando el atractivo y la influencia de quien lo porta."
+
+  aom_draupnir_name: "Draupnir"
+  aom_draupnir_desc: "Anillo de la Prosperidad. El anillo dorado de Odín que se replica cada novena noche, símbolo de riqueza inagotable y autoridad divina."
+
+  aom_eldhrimnir_name: "Eldhrímnir"
+  aom_eldhrimnir_desc: "Caldero de la Eternidad. El caldero encantado usado por los dioses para preparar el sustento infinito del jabalí Sæhrímnir."
+
+  aom_andvaranaut_name: "Andvaranaut"
+  aom_andvaranaut_desc: "El Anillo Maldito. Otorgante de riquezas y desgracias por igual, este anillo está ligado a la trágica historia de avaricia y venganza."
+
+  aom_helm_of_awe_name: "Yelmo del Asombro"
+  aom_helm_of_awe_desc: "Una reliquia temible que, según se dice, infunde terror en todo aquel que la contempla, otorgando a su portador un terror sobrenatural."
+
+  aom_odrerir_name: "Óðrerir"
+  aom_odrerir_desc: "Hidromiel de la Sabiduría. Uno de los tres vasos sagrados que contienen el Hidromiel de la Poesía, que otorga inspiración y perspicacia divinas."
+
+  aom_bodn_name: "Boðn"
+  aom_bodn_desc: "Hidromiel del Conocimiento. Un vaso lleno de la esencia de la sabiduría poética, que abre la mente a la creatividad y la claridad."
+
+  aom_son_name: "Són"
+  aom_son_desc: "Hidromiel de la Elocuencia. La copa final del Hidromiel de la Poesía; su bebida otorga el don de la palabra y la brillantez académica."
+
+  aom_svalinn_name: "Svalinn"
+  aom_svalinn_desc: "Escudo del Sol. Un escudo místico colocado ante el sol para evitar que queme el mundo, protege a su portador de la devastación."
+
+  aom_gjallarhorn_name: "Gjallarhorn"
+  aom_gjallarhorn_desc: "Cuerno de Heimdallr. Este cuerno divino sonará al final de los días. Su eco advierte de la inminente fatalidad y despierta la vigilancia divina."
+
+  aom_gram_name: "Gram"
+  aom_gram_desc: "Espada de Sigurd. Una hoja forjada por herreros divinos, destinada a aniquilar dragones y forjar leyendas."
+
+  aom_tyrfing_name: "Tyrfing"
+  aom_tyrfing_desc: "Hoja Maldita. Un arma de filo inigualable que acarrea la fatalidad con cada desenvaine." aom_skofnung_name: "Skofnung"
+  aom_skofnung_desc: "Espada de los Reyes. Se dice que contiene los espíritus de antiguos gobernantes; inspira respeto y temor."
+
+  aom_mistilteinn_name: "Mistilteinn"
+  aom_mistilteinn_desc: "Espada de la Hechicería. Impregnada de misterio y magia rúnica, esta espada susurra secretos."
+
+  aom_laevateinn_name: "Lævateinn"
+  aom_laevateinn_desc: "Arma de Loki. Un artefacto caótico y ardiente, cuyo verdadero poder reside en el engaño y la destrucción."
+
+  aom_hrotti_name: "Hrotti"
+  aom_hrotti_desc: "Espada del Tesoro del Dragón. Tomada del tesoro de un wyrm, esta espada resplandece con codicia y poder."
+
+  aom_hofud_name: "Hofuð"
+  aom_hofud_desc: "Espada de Heimdall. El arma del guardián vigilante, tan afilada que puede desgarrar la realidad misma."
+
+  aom_dainsleif_name: "Dáinsleif"
+  aom_dainsleif_desc: "Espada de los Muertos. Una vez desenvainada, debe matar. Una reliquia maldita de la batalla eterna."
+
+  aom_tarnkappe_name: "Tarnkappe"
+  aom_tarnkappe_desc: "Capa de Invisibilidad. Otorga a quien la porta un sigilo incomprensible."
+
+  aom_fjadrhamr_name: "Fjaðrhamr"
+  aom_fjadrhamr_desc: "Capa Emplumada. Una prenda divina que permite a su portador moverse como el viento."
+
+  aom_sword_of_freyr_name: "Espada de Freyr"
+  aom_sword_of_freyr_desc: "Espada que lucha sola. Forjada por enanos, esta espada defiende a su dueño sin usar una sola mano."
+
+  # Artefactos de la Corte
+  aom_throne_hlidskjalf_name: "Hlidskjalf"
+  aom_throne_hlidskjalf_desc: "El Trono de Odín. Desde este alto asiento, el Padre de Todo observa todos los reinos. Su presencia inspira reverencia y otorga protección divina a quienes merecen su sabiduría."
+
+  aom_gleipnir_name: "Gleipnir"
+  aom_gleipnir_desc: "Atadura de la Bestia. Una cadena de seda forjada a partir de imposibilidades, lo suficientemente fuerte como para contener incluso al monstruoso Fenrir."
+
+  aom_mimirs_skull_name: "Cráneo de Mímir"
+  aom_mimirs_skull_desc: "La cabeza cercenada del sabio dios, que aún susurra consejos desde el más allá."
+
+  aom_bragis_harp_name: "Arpa de Bragi"
+  aom_bragis_harp_desc: "Un instrumento mágico que cautiva a las cortes, conmueve corazones e inspira grandeza."
+
+# Artefactos Grecorromanos
+  # Artefactos de Inventario
+  aom_achilles_armor_name: "Armadura de Aquiles"
+  aom_achilles_armor_desc: "La armadura divina forjada por Hefesto para Aquiles, que ofrece protección y gloria inigualables."
+
+  aom_aegis_name: "Égida"
+  aom_aegis_desc: "El temible escudo asociado con Zeus y Atenea, que infunde terror en los corazones de los enemigos."
+
+  aom_ambrosia_name: "Ambrosía"
+  aom_ambrosia_desc: "El néctar divino de los dioses, del que se dice que otorga inmortalidad y eterna juventud a quienes lo consumen."
+
+  aom_apollos_bow_name: "Arco de Apolo"
+  aom_apollos_bow_desc: "Un arco que canta con la voz del dios del sol, golpeando con precisión divina."
+
+  aom_caduceus_name: "Caduceo"
+  aom_caduceus_desc: "El bastón de Hermes, entrelazado con serpientes, la vara alada es símbolo de paz, comercio y diplomacia."
+
+  aom_eros_bow_name: "Arco de Eros"
+  aom_eros_bow_desc: "Un arco cuyas flechas inspiran amor y deseo, hechizando los corazones de mortales y dioses."
+
+  aom_apple_of_discord_name: "Manzana Dorada de la Discordia"
+  aom_apple_of_discord_desc: "La manzana con la inscripción 'A la más bella', fuente de rivalidad divina y guerras mortales."
+
+  aom_rod_of_asclepius_name: "Vara de Asclepio"
+  aom_rod_of_asclepius_desc: "Un símbolo de medicina y sanación, portado por el divino sanador Asclepio."
+
+  aom_poseidons_trident_name: "Tridente de Poseidón"
+  aom_poseidons_trident_desc: "Forjado por los Cíclopes, el arma poderosa de este dios del mar es capaz de agitar los océanos y destrozar la tierra."
+
+  aom_shield_of_achilleus_name: "Escudo de Aquiles"
+  aom_shield_of_achilleus_desc: "Un cosmos en miniatura, forjado por los dioses para el mayor guerrero de Grecia."
+
+  aom_spear_of_achilles_name: "Lanza de Aquiles"
+  aom_spear_of_achilles_desc: "Un arma incomparable heredada de Aquiles, equilibrada para abatir gigantes y héroes."
+
+  aom_thyrsus_name: "Tirro"
+  aom_thyrsus_desc: "El bastón sagrado de Dioniso, envuelto en hiedra y coronado con una piña."
+
+  aom_talaria_name: "Talaria"
+  aom_talaria_desc: "Las sandalias aladas de Hermes, que otorgan velocidad y gracia a quien las porta."
+
+  aom_zeus_lightning_bolt_name: "Rayo de Zeus"
+  aom_zeus_lightning_bolt_desc: "Forjada por los Cíclopes, esta arma divina canaliza el trueno y el relámpago, el símbolo supremo de la ira de Zeus."
+
+  aom_hades_bident_name: "Bidente de Hades"
+  aom_hades_bident_desc: "La siniestra contraparte del rayo de Zeus, esta lanza oscura es la herramienta de Hades para mandar y juzgar en el inframundo."
+
+  aom_helm_of_darkness_name: "Yelmo de la Oscuridad"
+  aom_helm_of_darkness_desc: "Forjado por los Cíclopes, este yelmo invisible de Hades envuelve a quien lo porta en la sombra, invisible para dioses y mortales."
+
+  aom_harpe_name: "Harpe"
+  aom_harpe_desc: "La espada-hoz de Perseo, usada para aniquilar monstruos y segar el destino."
+
+  aom_necklace_of_harmonia_name: "Collar de Harmonía"
+  aom_necklace_of_harmonia_desc: "Un don maldito por la tragedia, hermoso y peligroso a partes iguales."
+
+  aom_kronos_scythe_name: "Guadaña de Cronos"
+  aom_kronos_scythe_desc: "Forjada por Gea, esta antigua guadaña derribó a Urano y resuena con el poder de la rebelión y la profecía."
+
+  aom_zeus_labrys_name: "Labris de Zeus"
+  aom_zeus_labrys_desc: "Una poderosa hacha de doble filo, blandida por el rey de los dioses, utilizada para partir la cabeza de Zeus y dar a luz a Atenea."
+
+  aom_artemis_bow_name: "Arco de Artemisa"
+  aom_artemis_bow_desc: "Un arco forjado para la diosa de la caza, veloz y mortal."
+
+  aom_eurytus_bow_name: "Arco de Eurito"
+  aom_eurytus_bow_desc: "Un arco legendario que perteneció a Eurito y que luego pasó a manos de Odiseo, símbolo de una puntería mortal inigualable."
+
+  aom_panacea_name: "Panacea"
+  aom_panacea_desc: "Nombrado en honor a la hija de Asclepio, se dice que este remedio mítico cura todas las dolencias, una maravilla de la alquimia divina."
+
+  aom_bag_of_wind_name: "Bolsa de Viento"
+  aom_bag_of_wind_desc: "Los vientos de Eolo, sellados en un saco, garantizan un paso rápido o la tempestad."
+
+  aom_tritons_conch_name: "Caracola de Tritón"
+  aom_tritons_conch_desc: "La caracola de Tritón, hijo de Poseidón, cuyo sonido domina las olas."
+
+  aom_nemean_lion_hide_name: "Piel de León de Nemea"
+  aom_nemean_lion_hide_desc: "Desollada del invulnerable león de Nemea, esta piel sirvió como armadura de Heracles y como insignia de su primer trabajo." 
+
+  aom_girdle_of_hippolyta_name: "Cinturón de Hipólita"
+  aom_girdle_of_hippolyta_desc: "Regalado por Ares a la reina amazona, el Este cinturón encarna la fuerza divina y el espíritu inquebrantable de la feminidad.
+
+  # Artefactos de la Corte
+  aom_apollos_kithara_name: "La Cítara de Apolo"
+  aom_apollos_kithara_desc: "La lira de Apolo, de la que brotaba la armonía de las esferas."
+
+  aom_cornucopia_name: "Cornucopia"
+  aom_cornucopia_desc: "El cuerno de la abundancia, siempre rebosante de abundancia."
+
+  aom_golden_fleece_name: "Vellocino de Oro"
+  aom_golden_fleece_desc: "El vellocino brillante custodiado por un dragón, premio de Jasón y los Argonautas."
+
+  aom_scale_of_justice_name: "Balanza de la Justicia"
+  aom_scale_of_justice_desc: "La balanza sostenida por Temis, árbitro divino de la ley y la equidad."
+
+  aom_icarus_feather_name: "Pluma de Ícaro"
+  aom_icarus_feather_desc: "Una pluma de las alas que volaron demasiado cerca del sol."
+
+  aom_prometheus_chains_name: "Cadenas de Prometeo"
+  aom_prometheus_chains_desc: "Grilletes que ataron al titán que otorgó el fuego a la humanidad."
+
+  aom_medusas_head_name: "Cabeza de Medusa"
+  aom_medusas_head_desc: "La cabeza cercenada de una gorgona, aún mortal con su mirada petrificante."
+
+  aom_throne_zeus_name: "Trono de Zeus"
+  aom_throne_zeus_desc: "El majestuoso trono del rey de los dioses, que irradia autoridad divina y asombro."
+
+# Artefactos Abrahámicos
+  # Artefactos de Inventario (Cristianos)
+  # Corona de la Conquista (Jinetes del Apocalipsis)
+  aom_conquests_crown_name: "Corona de la Conquista"
+  aom_conquests_crown_desc: "La gloriosa corona del Jinete de la Conquista, un ícono del dominio divino y la victoria."
+
+  # Espadón de la Guerra (Jinetes del Apocalipsis)
+  aom_wars_greatsword_name: "Espadón de la Guerra"
+  aom_wars_greatsword_desc: "Una espada enorme imbuida de la furia del Jinete de la Guerra, forjada para la batalla justa."
+
+  # Corona de Doce Estrellas (Corona de María)
+  aom_crown_of_twelve_stars_name: "Corona de Doce Estrellas"
+  aom_crown_of_twelve_stars_desc: "Una corona radiante que simboliza la realeza celestial de la Virgen María."
+
+  # Túnica sin Costuras de Jesús
+  aom_seamless_robe_of_jesus_name: "Túnica sin costuras de Jesús"
+  aom_seamless_robe_of_jesus_desc: "Una reliquia de tela divina que usó Jesús, conocida por su tejido milagroso."
+
+  # Guadaña de la Muerte (Jinetes del Apocalipsis)
+  aom_deaths_scythe_name: "Guadaña de la Muerte"
+  aom_deaths_scythe_desc: "Empuñada por el Jinete de la Muerte, esta escalofriante guadaña separa el alma de la carne."
+
+  # Ascalón (Espada de San Jorge)
+  aom_ascalon_name: "Ascalón"
+  aom_ascalon_desc: "La legendaria espada de San Jorge, de quien se dice que mató a un poderoso dragón."
+
+  # Lanza de Bradamante
+  aom_bradamantes_lance_name: "Lanza de Bradamante"
+  aom_bradamantes_lance_desc: "La lanza de un caballero cristiano, veloz e inquebrantable en su justicia."
+
+  # Lanza Sagrada (Lanza de Longino)
+  aom_holy_lance_name: "Lanza Sagrada"
+  aom_holy_lance_desc: "También conocida como la Lanza de Longino, atravesó el costado de Cristo durante la crucifixión. #italic ¿Es esta la verdadera?#!"
+
+  # Arco de la Conquista (Jinetes del Apocalipsis)
+  aom_conquests_bow_name: "Arco de la Conquista"
+  aom_conquests_bow_desc: "El arco del jinete apocalíptico, que marca el inicio de la conquista sagrada."
+
+  # Sello de Salomón
+  aom_seal_of_solomon_name: "Sello de Salomón"
+  aom_seal_of_solomon_desc: "Un anillo místico que otorga dominio sobre los espíritus y sabiduría más allá de los límites mortales."
+
+  # Artefactos de la Corte (Cristianos)
+  # Balanza del Hambre (Jinetes del Apocalipsis)
+  aom_famines_scale_name: "Balanza del Hambre"
+  aom_famines_scale_desc: "Usada por el Jinete del Hambre para medir el hambre y la escasez en toda la tierra."
+
+  # Fragmento del Arca de Noé
+  aom_piece_of_noahs_ark_name: "Fragmento del Arca de Noé"
+  aom_piece_of_noahs_ark_desc: "Un fragmento sagrado de la vasija que resistió el diluvio del juicio."
+
+  # Sudario de Oviedo
+  aom_sudarium_of_oviedo_name: "Sudario de Oviedo"
+  aom_sudarium_of_oviedo_desc: "Un paño venerado que se cree cubrió el rostro de Cristo tras su muerte."
+
+  # Santo Grial (Santo Cáliz)
+  aom_holy_grail_name: "Santo Grial"
+  aom_holy_grail_desc: "El cáliz del que Cristo bebió en la Última Cena, portador de milagros."
+
+  # Santo Prepucio
+  aom_holy_prepuce_name: "Santo Prepucio"
+  aom_holy_prepuce_desc: "Una reliquia controvertida que se afirma que es Prepucio de Cristo mismo.
+
+  # Libro de la Vida
+  aom_book_of_life_name: "Libro de la Vida"
+  aom_book_of_life_desc: "Un tomo sagrado que, según se dice, contiene los nombres de los salvados, ocultos a los condenados."
+
+  # Fruto Prohibido
+  aom_forbidden_fruit_name: "Fruto Prohibido"
+  aom_forbidden_fruit_desc: "Un remanente de la tentación del Edén, con ecos del pecado original."
+
+  # Cuerno de Gabriel
+  aom_horn_of_gabriel_name: "Cuerno de Gabriel"
+  aom_horn_of_gabriel_desc: "Para ser tocado al final de los días, anunciando la resurrección de los muertos."
+
+  # Sangre de Cristo
+  aom_blood_of_christ_name: "Sangre de Cristo"
+  aom_blood_of_christ_desc: "Esencia divina derramada para la redención de la humanidad, preservada en vasos sagrados."
+
+  # Artefactos de inventario (judíos)
+  # Bastón de Moisés
+  aom_moses_staff_name: "Bastón de Moisés"
+  aom_moses_staff_desc: "El bastón que partió el Mar Rojo y separó el agua de la piedra."
+
+  # Espada de David
+  aom_davids_sword_name: "DaviEspada de David
+  aom_davids_sword_desc: "La legendaria espada del rey pastor, victorioso sobre Goliat."
+
+  # Túnica de Muchos Colores (Túnica de José)
+  aom_coat_of_many_colors_name: "Túnica de Muchos Colores"
+  aom_coat_of_many_colors_desc: "Un regalo para José, vibrante de favor y sueños proféticos."
+
+  # Vara de Aarón (Báculo del Hermano de Moisés)
+  aom_aarons_rod_name: "Vara de Aarón"
+  aom_aarons_rod_desc: "Un símbolo de autoridad sacerdotal y milagros divinos."
+
+  # Shamir de Salomón
+  aom_solomons_shamir_name: "Shamir de Salomón"
+  aom_solomons_shamir_desc: "No es una herramienta, sino una maravilla, como el susurro de Dios. Corta la piedra como papel, silenciosa e invisible."
+
+  # Llave Mayor de Salomón
+  aom_greater_key_of_solomon_name: "Llave Mayor de Salomón"
+  aom_greater_key_of_solomon_desc: "Un antiguo libro de rituales y conocimiento divino, que se dice revela los secretos del cielo y la tierra."
+
+  # Llave Menor de Salomón
+  aom_lesser_key_of_solomon_name: "Llave Menor de Salomón"
+  aom_lesser_key_of_solomon_desc: "Un antiguo libro de rituales y conocimiento divino, que se dice revela los secretos del cielo y la tierra."
+
+  # Espada de Goliat
+  aom_goliaths_sword_name: "Espada de Goliat"
+  aom_goliaths_sword_desc: "El arma imponente del campeón filisteo, tomada por su asesino David."
+
+  # Artefactos de la Corte (Judíos)
+  # Arca de Juncos (La Cesta de Moisés)
+  aom_ark_of_bulrushes_name: "Arca de Juncos"
+  aom_ark_of_bulrushes_desc: "La cesta que llevó al niño Moisés a través de los juncos del Nilo."
+
+  # Tablas de Piedra (Los Diez Mandamientos)
+  aom_tablets_of_stone_name: "Tablas de Piedra"
+  aom_tablets_of_stone_desc: "Los mandamientos divinos entregados a Moisés en la cima del Monte Sinaí."
+
+  # Shofars de Josué
+  aom_joshuas_shofars_name: "Los Shofars de Josué"
+  aom_joshuas_shofars_desc: "Los cuernos de carnero que derribaron los muros de Jericó mediante la fe y la fuerza."
+
+  # Piel de Leviatán
+  aom_leviathans_hide_name: "Piel de Leviatán"
+  aom_leviathans_hide_desc: "Resistente Como el hierro, un fragmento de la gran bestia marina abatida por lo divino."
+
+  # Trono de Dios (Trono de YHWH)
+  aom_throne_of_god_name: "Trono de Dios"
+  aom_throne_of_god_desc: "El asiento celestial de YHWH, imponente y absoluto."
+
+  # Artefactos de inventario (islámicos)
+  # Zulfiqar (Espada de Alí ibn Abi Talib)
+  aom_zulfiqar_name: "Zulfiqar"
+  aom_zulfiqar_desc: "La espada bifurcada de Alí, símbolo del valor y la justicia islámicos."
+
+  # Manto sagrado del Profeta
+  aom_sacred_cloak_of_the_prophet_name: "Manto sagrado del Profeta"
+  aom_sacred_cloak_of_the_prophet_desc: "Una prenda bendita que una vez usó el Profeta Mahoma.
+
+  # Artefactos de la Corte (Islámicos)
+  # Llave de la Kaaba
+  aom_key_to_the_kaaba_name: "Llave de la Kaaba"
+  aom_key_to_the_kaaba_desc: "Una reliquia venerada que custodia la puerta del santuario más sagrado del Islam."
+
+  # Artefactos Celtas
+  # Artefactos de Inventario
+  # Sleg (Lanza de Lugh)
+  aom_sleg_name: "Sleg"
+  aom_sleg_desc: "La poderosa lanza de Lugh, que se dice garantiza la victoria a su portador."
+
+  # Honda de Lugh
+  aom_lughs_sling_name: "Honda de Lugh"
+  aom_lughs_sling_desc: "Una honda legendaria usada por el dios Lugh, que golpea a la velocidad de la luz."
+
+  # Claíomh Solais (Espada de Luz) 
+  aom_claiomh_solais_name: "Claíomh Solais" 
+  aom_claiomh_solais_desc: "La Espada de Luz, resplandeciente con fuego divino, empuñada por héroes del mito." 
+
+  # Fragarach (Espada de Nuada) 
+  aom_fragarach_name: "Fragarach" 
+  aom_fragarach_desc: "La espada cortavientos de Nuada, se dice que obliga a la verdad y atraviesa cualquier defensa." 
+
+  # Gáe Bulg (Lanza de Scáthach) 
+  aom_gae_bulg_name: "Gae Bulg" 
+  aom_gae_bulg_desc: "Una lanza aterradora empuñada por Cú Chulainn, que desgarra desde dentro. Se lo entregó su maestro Scáthach." 
+
+  # Caladbolg 
+  aom_caladbolg_name: "Caladbolg" 
+  aom_caladbolg_desc: "Una espada poderosa parecida a un arco iris, capaz de partir colinas." 
+
+  # Móralltach (la Gran Furia) 
+  aom_moralltach_name: "Móralltach" 
+  aom_moralltach_desc: "La Gran Furia, una espada de juicio regalada por un dios del mar." 
+
+  # Beagalltach (la pequeña furia) 
+  aom_beagalltach_name: "Beagalltach" 
+  aom_beagalltach_desc: "La Pequeña Furia, gemela de Móralltach, veloz y afilada como una víbora." 
+
+  # Dubán (Escudo Negro de Cu Chulainn) 
+  aom_duban_name: "Dubán" 
+  aom_duban_desc: "El escudo negro de Cú Chulainn, un oscuro Égida imbuida de terror.
+
+  # Dyrnwyn (Empuñadura Blanca)
+  aom_dyrnwyn_name: "Dyrnwyn"
+  aom_dyrnwyn_desc: "La Empuñadura Blanca, llameante en manos de los dignos, una prueba de nobleza."
+
+  # Artefactos de la Corte
+  # Uaithne (El Arpa de Dagda)
+  aom_uaithne_name: "Uaithne"
+  aom_uaithne_desc: "El Arpa de Dagda, capaz de conmover corazones a la alegría, la tristeza o el sueño."
+
+  # Cuerno de Brân Galed
+  aom_horn_of_bran_galed_name: "Cuerno de Brân Galed"
+  aom_horn_of_bran_galed_desc: "Un cuerno que puede proporcionar cualquier bebida que desee quien la lleve."
+
+  # Cesta de Gwyddno Garanhir 
+  aom_hamper_of_gwyddno_name: "Cesta de Gwyddno Garanhir" 
+  aom_hamper_of_gwyddno_desc: "Una canasta mística que proporciona alimento sin fin a los virtuosos." 
+
+  # Par Dadeni (Caldero del Renacimiento) 
+  aom_pair_dadeni_name: "Pareja Dadeni" 
+  aom_pair_dadeni_desc: "ElEl Caldero del Renacimiento, usado para revivir a los guerreros caídos en las leyendas antiguas.
+
+  # Caldero de la Inspiración
+  aom_cauldron_of_inspiration_name: "Caldero de la Inspiración"
+  aom_cauldron_of_inspiration_desc: "Un recipiente de perspicacia divina, que otorga sabiduría al buscador."
+
+# Artefactos Artúricos
+  # Artefactos de Inventario
+  # Excalibur (Caledfwlch)
+  aom_excalibur_name: "Excalibur"
+  aom_excalibur_desc: "La verdadera Excalibur, la legendaria espada del antiguo y futuro Rey Arturo, que le fue otorgada por la Dama del Lago."
+
+  # Carnwennan (Daga de Arturo)
+  aom_carnwennan_name: "Carnwennan"
+  aom_carnwennan_desc: "Daga de Arturo, que se dice oculta a su portador en las sombras."
+
+  # Rhongomyniad (Daga de Arturo) Lanza)
+  aom_rhongomyniad_name: "Rhongomyniad"
+  aom_rhongomyniad_desc: "La lanza de Arturo, un arma de precisión y valor infalibles."
+
+  # Pridwen (Escudo de Arturo)
+  aom_pridwen_name: "Pridwen"
+  aom_pridwen_desc: "Un escudo radiante adornado con el sigilo de la Casa Pendragon."
+
+  # Bastón de Merlín
+  aom_merlins_staff_name: "Bastón de Merlín"
+  aom_merlins_staff_desc: "El bastón del archimago Merlín, rebosante de poder arcano."
+
+  # Clarent (La Espada en la Piedra)
+  aom_clarent_name: "Clarent"
+  aom_clarent_desc: "La Espada en la Piedra, símbolo de la legítima realeza sobre Ávalon."
+
+  # Secace (Espada de Sir Lancelot)
+  aom_secace_name: "Secace"
+  aom_secace_desc: "La espada de Sir Lancelot, un caballero incomparable y héroe trágico."
+
+  # Courechouse (Espada del Rey Ban)
+  aom_courechouse_name: "Courechouse"
+  aom_courechouse_desc: "La espada del Rey Ban, forjada para la lealtad y el legado."
+
+  # Galatine (Espada de Sir Gawain)
+  aom_galatine_name: "Galatine"
+  aom_galatine_desc: "La espada de Sir Gawain, que brilla con el poder del sol."
+
+  # Espada de la Empuñadura Roja (Espada de Sir Galahad)
+  aom_sword_of_the_red_hilt_name: "Espada de la Empuñadura Roja"
+  aom_sword_of_the_red_hilt_desc: "La espada sagrada empuñada por Sir Galahad, el más puro de los caballeros."
+
+  # Artefactos de la Corte
+  # El Mesa Redonda
+  aom_throne_round_table_name: "La Mesa Redonda"
+  aom_throne_round_table_desc: "La legendaria mesa de la corte de Arturo, que simboliza la unidad y la caballerosidad."
+
+# Artefactos Ugrofineses
+  # Artefactos de Inventario
+  # Ukonvasara (Martillo de Ukko)
+  aom_ukonvasara_name: "Ukonvasara"
+  aom_ukonvasara_desc: "El atronador martillo de Ukko, dios del cielo, crepitando con energía divina."
+
+  # Tarnhelm
+  aom_tarnhelm_name: "Tarnhelm"
+  aom_tarnhelm_desc: "Un yelmo mágico que otorga a su portador el poder de la invisibilidad y la transformación."
+
+  # Kalevan Miekka
+  aom_kalevan_miekka_name: "Kalevan Miekka"
+  aom_kalevan_miekka_desc: "La enorme espada de Kaleva, Forjado a partir de mineral mítico y transmitido de generación en generación por gigantes.
+
+  # Artefactos de la Corte
+  # Sampo
+  aom_sampo_name: "Sampo"
+  aom_sampo_desc: "Un molino místico que trae fortuna, moliendo grano, sal y oro sin cesar."
+
+  # Kantele (Arpa Mágica)
+  aom_kantele_name: "Kantele"
+  aom_kantele_desc: "Un arpa de encantamiento tallada en la quijada de una gran pica, capaz de hechizar a todo aquel que la oye."
+
+# Artefactos Eslavos
+  # Artefactos de Inventario
+  # Kladenets (Espada Autobalanceable)
+  aom_kladenets_name: "Kladenets"
+  aom_kladenets_desc: "Una espada autoempuñable que, según se dice, golpea con un poder infalible una vez desenvainada."
+
+  # Hacha de Perun
+  aom_peruns_axe_name: "De Perun Hacha
+  aom_peruns_axe_desc: "El arma del dios del trueno Perun, capaz de desgarrar montañas y convocar tormentas."
+
+  # Raskovnik (Hierba Mágica)
+  aom_raskovnik_name: "Raskovnik"
+  aom_raskovnik_desc: "Una hierba legendaria que abre cualquier cerradura y revela tesoros ocultos."
+
+  # La Pluma del Pájaro de Fuego
+  aom_firebird_feather_name: "Pluma del Pájaro de Fuego"
+  aom_firebird_feather_desc: "Un penacho radiante del mítico Pájaro de Fuego, que brilla con una luz sobrenatural."
+
+  # Artefactos de la Corte
+  # Aguja de Koschei
+  aom_koscheis_needle_name: "Aguja de Koschei"
+  aom_koscheis_needle_desc: "El secreto de la inmortalidad de Koschei el Inmortal, oculto en defensas mágicas."
+
+  # Alatyr (Sagrado Piedra)
+  aom_alatyr_name: "Alatyr"
+  aom_alatyr_desc: "El ombligo mítico del mundo, una piedra de conocimiento divino y piedad."
+
+  # Flor de Helecho
+  aom_fern_flower_name: "Flor de Helecho"
+  aom_fern_flower_desc: "Una flor rara y mágica que, según se dice, otorga salud y prosperidad a quien la encuentra."
+
+  # Mortero y Maja de Baba Yaga
+  aom_baba_yagas_mortar_name: "Mortero y Maja de Baba Yaga"
+  aom_baba_yagas_mortar_desc: "La nave voladora encantada de la bruja Baba Yaga, que surca los cielos y los secretos por igual. #italic Seguro que este sencillo mortero y majadero no lo es!#!"
+
+# Artefactos Lovecraftianos
+  # Artefactos de Inventario
+  # Necronomicón
+  aom_necronomicon_name: "Necronomicón"
+  aom_necronomicon_desc: "Un tomo blasfemo de conocimiento prohibido escrito por Abdul 'el Árabe Loco' Alhazred."
+
+  # Libro de Eibon
+  aom_book_of_eibon_name: "Libro de Eibon"
+  aom_book_of_eibon_desc: "Un antiguo tomo que se dice contiene los secretos arcanos del hechicero Eibon, lleno de conocimiento prohibido de Hiperbórea."
+
+  # Tiara del Profundo
+  aom_deep_ones_tiara_name: "Tiara del Profundo"
+  aom_deep_ones_tiara_desc: "Un tocado extraño y alienígena, creado por los Profundos. Llevarlo evoca sueños de ciudades submarinas y cánticos sobrenaturales."
+
+  # Amuleto del Sabueso
+  aom_hound_amulet_name: "Amuleto del Sabueso"
+  aom_hound_amulet_desc: "Un talismán grabado con el aborrecible sello de los cultos caníbales de Leng. Su presencia evoca una sensación de terror, susurra desde el más allá e insinúa que invoca algo innombrable."
+
+  # Artefactos de la Corte
+  # El Trapezoedro Resplandeciente
+  aom_shining_trapezohedron_name: "El Trapezoedro Resplandeciente"
+  aom_shining_trapezohedron_desc: "Un cristal negro facetado que late con una luz interior. Quienes lo contemplan pueden hablar con Nyarlathotep."
+
+  # Ídolo de Cthulhu
+  aom_cthulhu_idol_name: "Ídolo de Cthulhu"
+  aom_cthulhu_idol_desc: "Una estatua grotesca del Gran Antiguo, Cthulhu. Su simple posesión provoca sueños inquietantes y susurros en la noche."
+
+  # La Llave Astilla
+  aom_sliver_key_name: "La Llave de Plata"
+  aom_sliver_key_desc: "Una llave mística que, según se dice, abre portales a las Tierras del Sueño y dimensiones más allá de la comprensión mortal. Revela caminos ocultos incluso para el viajero más experimentado."
+
+  # Confesiones de Clithanus
+  aom_confessions_of_clithanus_name: "Confesiones de Clithanus"
+  aom_confessions_of_clithanus_desc: "Un manuscrito raro y peligroso que relata ritos terribles y cultos indescriptibles de cultos antiguos."
+
+  # Manuscritos Pnakóticos
+  aom_pnakotic_manuscripts_name: "Manuscritos Pnakóticos"
+  aom_pnakotic_manuscripts_desc: "Textos antediluvianos que narran las vidas y el conocimiento de la Gran Raza de Yith. Descifrarlos pone en riesgo la cordura."
+
+  # El Espejo de Nitocris
+  aom_mirror_of_nitocris_name: "Espejo de Nitocris"
+  aom_mirror_of_nitocris_desc: "Un artefacto encantado que perteneció a la Reina del Faraón Negro. Los reflejos que se ven en él nunca son realmente tuyos."
+
+  

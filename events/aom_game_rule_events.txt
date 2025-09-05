@@ -1,0 +1,177 @@
+﻿namespace = aom_game_rule
+
+# Generate Norse Artifacts
+aom_game_rule.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_norse_artifacts_all }
+			trigger_event = aom_norse_artifacts.001
+			trigger_event = aom_norse_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_norse_artifacts_only_god }
+			trigger_event = aom_norse_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_norse_artifacts_only_legend }
+			trigger_event = aom_norse_artifacts.002
+		}
+	}
+}
+
+# Generate Greco-Roman Artifacts
+aom_game_rule.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_greco_roman_artifacts_all }
+			trigger_event = aom_greco_roman_artifacts.001
+			trigger_event = aom_greco_roman_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_greco_roman_artifacts_only_god }
+			trigger_event = aom_greco_roman_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_greco_roman_artifacts_only_legend }
+			trigger_event = aom_greco_roman_artifacts.002
+		}
+	}
+}
+
+# Generate Abrahamic Artifacts
+aom_game_rule.003 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_abrahamic_artifacts_all }
+			trigger_event = aom_abrahamic_artifacts.001
+			trigger_event = aom_abrahamic_artifacts.002
+			trigger_event = aom_abrahamic_artifacts.003
+			trigger_event = aom_abrahamic_artifacts.004
+			trigger_event = aom_abrahamic_artifacts.005
+			trigger_event = aom_abrahamic_artifacts.006
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_abrahamic_artifacts_only_god }
+			trigger_event = aom_abrahamic_artifacts.001
+			trigger_event = aom_abrahamic_artifacts.003
+			trigger_event = aom_abrahamic_artifacts.005
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_abrahamic_artifacts_only_legend }
+			trigger_event = aom_abrahamic_artifacts.002
+			trigger_event = aom_abrahamic_artifacts.004
+			trigger_event = aom_abrahamic_artifacts.006
+		}
+	}
+}
+
+# Generate Celtic Artifacts
+aom_game_rule.004 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_celtic_artifacts_all }
+			trigger_event = aom_celtic_artifacts.001
+			trigger_event = aom_celtic_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_celtic_artifacts_only_god }
+			trigger_event = aom_celtic_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_celtic_artifacts_only_legend }
+			trigger_event = aom_celtic_artifacts.002
+		}
+	}
+}
+
+# Generate Arthurian Artifacts
+aom_game_rule.005 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_arthurian_artifacts_all }
+			trigger_event = aom_arthurian_artifacts.001
+			trigger_event = aom_arthurian_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_arthurian_artifacts_only_god }
+			trigger_event = aom_arthurian_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_arthurian_artifacts_only_legend }
+			trigger_event = aom_arthurian_artifacts.002
+		}
+	}
+}
+
+# Generate Finno-Ugric Artifacts
+aom_game_rule.006 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_finno_ugric_artifacts_all }
+			trigger_event = aom_finno_ugric_artifacts.001
+			trigger_event = aom_finno_ugric_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_finno_ugric_artifacts_only_god }
+			trigger_event = aom_finno_ugric_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_finno_ugric_artifacts_only_legend }
+			trigger_event = aom_finno_ugric_artifacts.002
+		}
+	}
+}
+
+# Generate Slavic Artifacts
+aom_game_rule.007 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_slavic_artifacts_all }
+			trigger_event = aom_slavic_artifacts.001
+			trigger_event = aom_slavic_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_slavic_artifacts_only_god }
+			trigger_event = aom_slavic_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_slavic_artifacts_only_legend }
+			trigger_event = aom_slavic_artifacts.002
+		}
+	}
+}
+
+# Generate Lovecraftian Artifacts
+aom_game_rule.008 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_lovecraftian_artifacts_all }
+			trigger_event = aom_lovecraftian_artifacts.001
+			trigger_event = aom_lovecraftian_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_lovecraftian_artifacts_only_god }
+			trigger_event = aom_lovecraftian_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_lovecraftian_artifacts_only_legend }
+			trigger_event = aom_lovecraftian_artifacts.002
+		}
+	}
+}

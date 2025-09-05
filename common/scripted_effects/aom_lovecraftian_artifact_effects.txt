@@ -1,0 +1,333 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Necronomicon 
+create_artifact_aom_necronomicon_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_necronomicon_name
+		description = aom_necronomicon_desc
+		type = journal
+		visuals = aom_necronomicon
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_necronomicon_template
+		history = {
+			type = created
+			actor = character:1111000 # Abdul Alhazred
+			recipient = character:1111000 # Abdul Alhazred
+			date = 733.10.31
+			location = province:5924 # Damascus 
+		}
+		modifier = aom_necronomicon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_necronomicon
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Book Of Eibon 
+create_artifact_aom_book_of_eibon_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_book_of_eibon_name
+		description = aom_book_of_eibon_desc
+		type = journal
+		visuals = aom_book_of_eibon
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_book_of_eibon_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_book_of_eibon_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_book_of_eibon
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Deep One's Tiara
+create_artifact_aom_deep_ones_tiara_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_deep_ones_tiara_name
+		description = aom_deep_ones_tiara_desc
+		type = helmet_simple
+		visuals = aom_deep_ones_tiara
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_deep_ones_tiara_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_deep_ones_tiara_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_deep_ones_tiara
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hound Amulet 
+create_artifact_aom_hound_amulet_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_hound_amulet_name
+		description = aom_hound_amulet_desc
+		type = miscellaneous
+		visuals = aom_hound_amulet
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hound_amulet_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_hound_amulet_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_hound_amulet
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# The Shining Trapezohedron 
+create_artifact_aom_shining_trapezohedron_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_shining_trapezohedron_name
+		description = aom_shining_trapezohedron_desc
+		type = pedestal_simple
+		visuals = aom_shining_trapezohedron
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_shining_trapezohedron_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_shining_trapezohedron_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_shining_trapezohedron
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Cthulhu Idol 
+create_artifact_aom_cthulhu_idol_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_cthulhu_idol_name
+		description = aom_cthulhu_idol_desc
+		type = pedestal_simple
+		visuals = aom_cthulhu_idol
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_cthulhu_idol_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_cthulhu_idol_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_cthulhu_idol
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# The Sliver Key 
+create_artifact_aom_sliver_key_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_sliver_key_name
+		description = aom_sliver_key_desc
+		type = pedestal_simple
+		visuals = aom_sliver_key
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sliver_key_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_sliver_key_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_sliver_key
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Confessions of Clithanus
+create_artifact_aom_confessions_of_clithanus_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = aom_confessions_of_clithanus_name
+		description = aom_confessions_of_clithanus_desc
+		type = book
+		visuals = aom_confessions_of_clithanus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_confessions_of_clithanus_template
+		history = {
+			type = created
+			actor = character:1111001 # Clithanus
+			recipient = character:1111001 # Clithanus
+			date = 400.7.18 # My cat's birthday 
+			location = province:1503 # Canterbury
+		}
+		modifier = aom_confessions_of_clithanus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_confessions_of_clithanus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Pnakotic Manuscripts  
+create_artifact_aom_pnakotic_manuscripts_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_pnakotic_manuscripts_name
+		description = aom_pnakotic_manuscripts_desc
+		type = book
+		visuals = aom_pnakotic_manuscripts
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_pnakotic_manuscripts_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_pnakotic_manuscripts_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_pnakotic_manuscripts
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# The Mirror Of Nitocris   
+create_artifact_aom_mirror_of_nitocris_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_mirror_of_nitocris_name
+		description = aom_mirror_of_nitocris_desc
+		type = pedestal_simple
+		visuals = aom_mirror_of_nitocris
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mirror_of_nitocris_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_mirror_of_nitocris_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_mirror_of_nitocris
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

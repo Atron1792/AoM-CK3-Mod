@@ -1,0 +1,898 @@
+﻿namespace = aom_greco_roman_artifacts
+
+############################
+# Generate God Tier Artifacts
+############################
+aom_greco_roman_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+		# Apollo's Kithara (Apollo's Lyre)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_apollos_kithara } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_apollos_kithara_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}
+			}
+		}
+
+		# Cornucopia (Horn of Plenty)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_cornucopia } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_cornucopia_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}			
+			}
+		}
+
+		# Golden Fleece
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_golden_fleece } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_golden_fleece_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}			
+			}
+		}
+
+		# Scale of Justice (Themis' Scale)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_scale_of_justice } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_scale_of_justice_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Prometheus's Chains
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_prometheus_chains } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_prometheus_chains_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Medusa's Head
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_medusas_head } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_medusas_head_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Zeus' Throne
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_throne_zeus } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_throne_zeus_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Inventory Artifacts
+		# Aegis (Zeus' Shield)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_aegis } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_aegis_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Ambrosia (Nectar of the Gods)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_ambrosia } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_ambrosia_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Apollo's Bow
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_apollos_bow } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_apollos_bow_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Caduceus (Hermes' Staff)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_caduceus } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_caduceus_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Eros' Bow
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_eros_bow } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_eros_bow_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Apple of Discord
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_apple_of_discord } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_apple_of_discord_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Rod of Asclepius
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_rod_of_asclepius } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_rod_of_asclepius_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Poseidon's Trident
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_poseidons_trident } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_poseidons_trident_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Thyrsus (Staff of Dionysus)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_thyrsus } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_thyrsus_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Talaria (Hermes's Winged Sandals)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_talaria } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_talaria_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Zeus' Lightning Bolt
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_zeus_lightning_bolt } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_zeus_lightning_bolt_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Hades' Bident
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_hades_bident }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_hades_bident_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Helm of Darkness (Hades' Helm)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_helm_of_darkness } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_helm_of_darkness_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Kronos' Scythe
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_kronos_scythe } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_kronos_scythe_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Zeus' Labrys (Zues' Axe)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_zeus_labrys } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_zeus_labrys_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Artemis's Bow
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_artemis_bow }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_artemis_bow_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Panacea
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_panacea } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_panacea_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Bag of Wind
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_bag_of_wind } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_bag_of_wind_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Triton's Conch
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_tritons_conch } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_tritons_conch_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Nemean Lion Hide
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_nemean_lion_hide } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_nemean_lion_hide_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Necklace of Harmonia
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_necklace_of_harmonia }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_necklace_of_harmonia_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+	}
+}
+
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_greco_roman_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+		# Icarus' Feather (Icarus' Wings)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_icarus_feather } 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_icarus_feather_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Inventory Artifacts
+		# Achilles' Armor
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_achilles_armor } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_achilles_armor_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Shield of Achilleus
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_shield_of_achilleus } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_shield_of_achilleus_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Spear of Achilles
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_spear_of_achilles } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_spear_of_achilles_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Harpe (Perseus' Sword)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_harpe } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_harpe_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Eurytus' Bow (Odysseus' Bow)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_eurytus_bow } 
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_eurytus_bow_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}				
+			}
+		}
+
+		# Girdle of Hippolyta
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = { 
+						has_government = tribal_government 
+						has_government = feudal_government 
+						has_government = administrative_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_girdle_of_hippolyta} 
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				create_artifact_aom_girdle_of_hippolyta_effect = { OWNER = this }
+				add_character_flag = { 
+					flag = aom_seeded_relic 
+					days = 1 
+				}			
+			}
+		}
+	}			
+}

@@ -1,0 +1,156 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Soul Edge (Soul Calibur)
+create_artifact_aom_soul_edge_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_soul_edge_name
+		description = aom_soul_edge_desc
+		type = weapon_simple
+		visuals = aom_soul_edge
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_soul_edge_template
+		history = { type = created_before_history }
+		modifier = aom_soul_edge_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_soul_edge
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Blackfyre (AGOT)
+create_artifact_aom_blackfyre_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_blackfyre_name
+		description = aom_blackfyre_desc
+		type = weapon_simple
+		visuals = aom_blackfyre
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_blackfyre_template
+		history = { type = created_before_history }
+		modifier = aom_blackfyre_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_blackfyre
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# One Ring (LotR)
+create_artifact_aom_one_ring_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_one_ring_name
+		description = aom_one_ring_desc
+		type = trinket
+		visuals = aom_one_ring
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_one_ring_template
+		history = { type = created_before_history }
+		modifier = aom_one_ring_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_one_ring
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Elder Wand (Harry Potter)
+create_artifact_aom_elder_wand_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_elder_wand_name
+		description = aom_elder_wand_desc
+		type = trinket
+		visuals = aom_elder_wand
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_elder_wand_template
+		history = { type = created_before_history }
+		modifier = aom_elder_wand_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_elder_wand
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+
+# Lightsaber (Star Wars)
+create_artifact_aom_lightsaber_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_lightsaber_name
+		description = aom_lightsaber_desc
+		type = weapon_simple
+		visuals = aom_lightsaber
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_lightsaber_template
+		history = { type = created_before_history }
+		modifier = aom_lightsaber_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_lightsaber
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Palantír (LotR)
+create_artifact_aom_palantir_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_palantir_name
+		description = aom_palantir_desc
+		type = trinket
+		visuals = aom_palantir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_palantir_template
+		history = { type = created_before_history }
+		modifier = aom_palantir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_palantir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

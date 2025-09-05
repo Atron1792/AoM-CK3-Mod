@@ -1,0 +1,415 @@
+﻿namespace = aom_slavic_artifacts
+
+############################
+# Generate God Tier Artifacts
+############################
+aom_slavic_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+		# Alatyr (Sacred Stone)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_alatyr }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_alatyr_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_alatyr }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_alatyr_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # Baba Yaga’s Mortar and Pestle
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_baba_yagas_mortar }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_baba_yagas_mortar_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_baba_yagas_mortar }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_baba_yagas_mortar_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+		# Inventory Artifacts
+		# Perun's Axe
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_peruns_axe }
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_peruns_axe_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_peruns_axe }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_peruns_axe_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # The Firebird’s Feather
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_firebird_feather }
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_firebird_feather_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_firebird_feather }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_firebird_feather_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # Koschei's Needle
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_koscheis_needle }
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_koscheis_needle_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_koscheis_needle }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_koscheis_needle_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+	}
+}
+		
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_slavic_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+        # Fern Flower
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_fern_flower }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_fern_flower_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_fern_flower }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_fern_flower_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+		
+		# Inventory Artifacts
+        # Kladenets
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_kladenets }
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_kladenets_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_kladenets }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_kladenets_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # Raskovnik (Magic Herb)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_raskovnik }
+                    }
+                    highest_held_title_tier >= tier_county
+                    faith.religion = religion:slavic_religion
+                }
+                create_artifact_aom_raskovnik_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+
+            random_ruler = {
+                limit = {
+                    OR = {
+                        has_government = tribal_government
+                        has_government = feudal_government
+                    }
+                    NOT = {
+                        has_character_flag = aom_seeded_relic
+                        any_artifact = { has_variable = aom_raskovnik }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = {
+                        OR = {
+                            has_cultural_pillar = heritage_west_slavic
+                            has_cultural_pillar = heritage_east_slavic
+                        }
+                    }
+                }
+                create_artifact_aom_raskovnik_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+	}
+}

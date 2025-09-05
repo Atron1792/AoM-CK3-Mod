@@ -1,0 +1,12 @@
+﻿on_game_start = {
+	events = {
+		aom_game_rule.001
+		aom_game_rule.002
+		aom_game_rule.003
+		aom_game_rule.004
+		aom_game_rule.005
+		aom_game_rule.006 
+		aom_game_rule.007 
+		aom_game_rule.008
+	}
+}

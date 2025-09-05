@@ -1,0 +1,1124 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Achilles' Armor
+create_artifact_aom_achilles_armor_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_achilles_armor_name
+		description = aom_achilles_armor_desc
+		type = armor_simple
+		visuals = aom_achilles_armor
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_achilles_armor_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_achilles_armor_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_achilles_armor
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Aegis (Zeus' Shield)
+create_artifact_aom_aegis_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_aegis_name
+		description = aom_aegis_desc
+		type = regalia_simple
+		visuals = aom_aegis
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_aegis_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_aegis_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_aegis
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Ambrosia (Nectar of the Gods)
+create_artifact_aom_ambrosia_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_ambrosia_name
+		description = aom_ambrosia_desc
+		type = miscellaneous
+		visuals = aom_ambrosia
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_ambrosia_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_ambrosia_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_ambrosia
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Apollo's Bow
+create_artifact_aom_apollos_bow_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_apollos_bow_name
+		description = aom_apollos_bow_desc
+		type = bow_simple
+		visuals = aom_apollos_bow
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_apollos_bow_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_apollos_bow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_apollos_bow
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Caduceus (Hermes' Staff)
+create_artifact_aom_caduceus_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_caduceus_name
+		description = aom_caduceus_desc
+		type = regalia_simple
+		visuals = aom_caduceus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_caduceus_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_caduceus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_caduceus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Eros' Bow
+create_artifact_aom_eros_bow_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_eros_bow_name
+		description = aom_eros_bow_desc
+		type = bow_simple
+		visuals = aom_eros_bow
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_eros_bow_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_eros_bow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_eros_bow
+		save_scope_as = epic
+	}
+}
+
+# Apple of Discord
+create_artifact_aom_apple_of_discord_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_apple_of_discord_name
+		description = aom_apple_of_discord_desc
+		type = miscellaneous
+		visuals = aom_apple_of_discord
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_apple_of_discord_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_apple_of_discord_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_apple_of_discord
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Rod of Asclepius
+create_artifact_aom_rod_of_asclepius_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_rod_of_asclepius_name
+		description = aom_rod_of_asclepius_desc
+		type = regalia_simple
+		visuals = aom_rod_of_asclepius
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_rod_of_asclepius_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_rod_of_asclepius_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_rod_of_asclepius
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Poseidon's Trident
+create_artifact_aom_poseidons_trident_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_poseidons_trident_name
+		description = aom_poseidons_trident_desc
+		type = weapon_simple
+		visuals = aom_poseidons_trident
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_poseidons_trident_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_poseidons_trident_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_poseidons_trident
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Shield of Achilleus
+create_artifact_aom_shield_of_achilleus_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_shield_of_achilleus_name
+		description = aom_shield_of_achilleus_desc
+		type = regalia_simple
+		visuals = aom_shield_of_achilleus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_shield_of_achilleus_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_shield_of_achilleus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_shield_of_achilleus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Spear of Achilles
+create_artifact_aom_spear_of_achilles_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_spear_of_achilles_name
+		description = aom_spear_of_achilles_desc
+		type = weapon_simple
+		visuals = aom_spear_of_achilles
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_spear_of_achilles_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_spear_of_achilles_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_spear_of_achilles
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Thyrsus (Staff of Dionysus)
+create_artifact_aom_thyrsus_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_thyrsus_name
+		description = aom_thyrsus_desc
+		type = regalia_simple
+		visuals = aom_thyrsus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_thyrsus_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_thyrsus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_thyrsus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Talaria (Hermes's Winged Sandals)
+create_artifact_aom_talaria_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_talaria_name
+		description = aom_talaria_desc
+		type = miscellaneous
+		visuals = aom_talaria
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_talaria_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_talaria_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_talaria
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Zeus' Lightning Bolt
+create_artifact_aom_zeus_lightning_bolt_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_zeus_lightning_bolt_name
+		description = aom_zeus_lightning_bolt_desc
+		type = weapon_simple
+		visuals = aom_zeus_lightning_bolt
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_zeus_lightning_bolt_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_zeus_lightning_bolt_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_zeus_lightning_bolt
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hades' Bident
+create_artifact_aom_hades_bident_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_hades_bident_name
+		description = aom_hades_bident_desc
+		type = weapon_simple
+		visuals = aom_hades_bident
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hades_bident_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_hades_bident_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_hades_bident
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Helm of Darkness (Hades' Helm)
+create_artifact_aom_helm_of_darkness_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_helm_of_darkness_name
+		description = aom_helm_of_darkness_desc
+		type = helmet_simple
+		visuals = aom_helm_of_darkness
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_helm_of_darkness_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_helm_of_darkness_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_helm_of_darkness
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Harpe (Perseus' Sword)
+create_artifact_aom_harpe_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_harpe_name
+		description = aom_harpe_desc
+		type = weapon_simple
+		visuals = aom_harpe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_harpe_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_harpe_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_harpe
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Necklace of Harmonia
+create_artifact_aom_necklace_of_harmonia_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_necklace_of_harmonia_name
+		description = aom_necklace_of_harmonia_desc
+		type = miscellaneous
+		visuals = aom_necklace_of_harmonia
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_necklace_of_harmonia_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_necklace_of_harmonia_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_necklace_of_harmonia
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Kronos' Scythe
+create_artifact_aom_kronos_scythe_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_kronos_scythe_name
+		description = aom_kronos_scythe_desc
+		type = weapon_simple
+		visuals = aom_kronos_scythe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_kronos_scythe_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_kronos_scythe_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_kronos_scythe
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Zeus' Labrys (Zues' Axe)
+create_artifact_aom_zeus_labrys_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_zeus_labrys_name
+		description = aom_zeus_labrys_desc
+		type = weapon_simple
+		visuals = aom_zeus_labrys
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_zeus_labrys_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_zeus_labrys_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_zeus_labrys
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Artemis's Bow
+create_artifact_aom_artemis_bow_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_artemis_bow_name
+		description = aom_artemis_bow_desc
+		type = bow_simple
+		visuals = aom_artemis_bow
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_artemis_bow_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_artemis_bow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_artemis_bow
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Eurytus' Bow (Odysseus' Bow)
+create_artifact_aom_eurytus_bow_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_eurytus_bow_name
+		description = aom_eurytus_bow_desc
+		type = bow_simple
+		visuals = aom_eurytus_bow
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_eurytus_bow_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_eurytus_bow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_eurytus_bow
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Panacea
+create_artifact_aom_panacea_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_panacea_name
+		description = aom_panacea_desc
+		type = miscellaneous
+		visuals = aom_panacea
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_panacea_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_panacea_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_panacea
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Bag of Wind
+create_artifact_aom_bag_of_wind_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_bag_of_wind_name
+		description = aom_bag_of_wind_desc
+		type = miscellaneous
+		visuals = aom_bag_of_wind
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_bag_of_wind_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_bag_of_wind_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_bag_of_wind
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Triton's Conch
+create_artifact_aom_tritons_conch_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_tritons_conch_name
+		description = aom_tritons_conch_desc
+		type = miscellaneous
+		visuals = aom_tritons_conch
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_tritons_conch_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_tritons_conch_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_tritons_conch
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Nemean Lion Hide
+create_artifact_aom_nemean_lion_hide_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_nemean_lion_hide_name
+		description = aom_nemean_lion_hide_desc
+		type = armor_simple
+		visuals = aom_nemean_lion_hide
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_nemean_lion_hide_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_nemean_lion_hide_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_nemean_lion_hide
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Girdle of Hippolyta
+create_artifact_aom_girdle_of_hippolyta_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_girdle_of_hippolyta_name
+		description = aom_girdle_of_hippolyta_desc
+		type = armor_simple
+		visuals = aom_girdle_of_hippolyta
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_girdle_of_hippolyta_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_girdle_of_hippolyta_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_girdle_of_hippolyta
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Apollo's Kithara (Apollo's Lyre)
+create_artifact_aom_apollos_kithara_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_apollos_kithara_name
+		description = aom_apollos_kithara_desc
+		type = pedestal_simple
+		visuals = aom_apollos_kithara
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_apollos_kithara_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_apollos_kithara_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_apollos_kithara
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Cornucopia (Horn of Plenty)
+create_artifact_aom_cornucopia_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_cornucopia_name
+		description = aom_cornucopia_desc
+		type = pedestal_simple
+		visuals = aom_cornucopia
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_cornucopia_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_cornucopia_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_cornucopia
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Golden Fleece
+create_artifact_aom_golden_fleece_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_golden_fleece_name
+		description = aom_golden_fleece_desc
+		type = animal_hide
+		visuals = aom_golden_fleece
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_golden_fleece_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_golden_fleece_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_golden_fleece
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Scale of Justice (Themis' Scale)
+create_artifact_aom_scale_of_justice_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_scale_of_justice_name
+		description = aom_scale_of_justice_desc
+		type = pedestal_simple
+		visuals = aom_scale_of_justice
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_scale_of_justice_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_scale_of_justice_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_scale_of_justice
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Icarus' Feather (Icarus' Wings)
+create_artifact_aom_icarus_feather_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_icarus_feather_name
+		description = aom_icarus_feather_desc
+		type = pedestal_simple
+		visuals = aom_icarus_feather
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_icarus_feather_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_icarus_feather_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_icarus_feather
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Prometheus's Chains
+create_artifact_aom_prometheus_chains_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_prometheus_chains_name
+		description = aom_prometheus_chains_desc
+		type = sculpture_simple
+		visuals = aom_prometheus_chains
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_prometheus_chains_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_prometheus_chains_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_prometheus_chains
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Medusa's Head
+create_artifact_aom_medusas_head_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_medusas_head_name
+		description = aom_medusas_head_desc
+		type = pedestal_simple
+		visuals = aom_medusas_head
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_medusas_head_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_medusas_head_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_medusas_head
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Zeus' Throne
+create_artifact_aom_throne_zeus_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_throne_zeus_name
+		description = aom_throne_zeus_desc
+		type = throne_special
+		visuals = aom_throne_zeus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_throne_zeus_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_throne_zeus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_throne_zeus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

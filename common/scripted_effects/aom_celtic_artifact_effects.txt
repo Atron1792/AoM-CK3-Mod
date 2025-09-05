@@ -1,0 +1,485 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Sleg (Spear of Lugh) 
+create_artifact_aom_sleg_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_sleg_name
+		description = aom_sleg_desc
+		type = weapon_simple
+		visuals = aom_sleg
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sleg_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_sleg_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_sleg
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Lughs Sling
+create_artifact_aom_lughs_sling_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_lughs_sling_name
+		description = aom_lughs_sling_desc
+		type = bow_simple
+		visuals = aom_lughs_sling
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_lughs_sling_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_lughs_sling_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_lughs_sling
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Claíomh Solais (Sword of Light)
+create_artifact_aom_claiomh_solais_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_claiomh_solais_name
+		description = aom_claiomh_solais_desc
+		type = weapon_simple
+		visuals = aom_claiomh_solais
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_claiomh_solais_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_claiomh_solais_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_claiomh_solais
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Fragarach (Sword of Nuada)
+create_artifact_aom_fragarach_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_fragarach_name
+		description = aom_fragarach_desc
+		type = weapon_simple
+		visuals = aom_fragarach
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_fragarach_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_fragarach_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_fragarach
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Gáe Bulg (Scáthach's Spear)
+create_artifact_aom_gae_bulg_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_gae_bulg_name
+		description = aom_gae_bulg_desc
+		type = weapon_simple
+		visuals = aom_gae_bulg
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_gae_bulg_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_gae_bulg_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_gae_bulg
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Caladbolg
+create_artifact_aom_caladbolg_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_caladbolg_name
+		description = aom_caladbolg_desc
+		type = weapon_simple
+		visuals = aom_caladbolg
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_caladbolg_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_caladbolg_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_caladbolg
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Móralltach (the Great Fury)
+create_artifact_aom_moralltach_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_moralltach_name
+		description = aom_moralltach_desc
+		type = weapon_simple
+		visuals = aom_moralltach
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_moralltach_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_moralltach_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_moralltach
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Beagalltach (the Little Fury)
+create_artifact_aom_beagalltach_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_beagalltach_name
+		description = aom_beagalltach_desc
+		type = weapon_simple
+		visuals = aom_beagalltach
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_beagalltach_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_beagalltach_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_beagalltach
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Dubán (Cu Chulainn's Black Shield)
+create_artifact_aom_duban_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_duban_name
+		description = aom_duban_desc
+		type = regalia_simple
+		visuals = aom_duban
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_duban_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_duban_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_duban
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Dyrnwyn (White Hilt)
+create_artifact_aom_dyrnwyn_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_dyrnwyn_name
+		description = aom_dyrnwyn_desc
+		type = weapon_simple
+		visuals = aom_dyrnwyn
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_dyrnwyn_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_dyrnwyn_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_dyrnwyn
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Uaithne (The Dagda's Harp)
+create_artifact_aom_uaithne_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_uaithne_name
+		description = aom_uaithne_desc
+		type = pedestal_simple
+		visuals = aom_uaithne
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_uaithne_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_uaithne_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_uaithne
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Horn Of Bran Galed
+create_artifact_aom_horn_of_bran_galed_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_horn_of_bran_galed_name
+		description = aom_horn_of_bran_galed_desc
+		type = pedestal_simple
+		visuals = aom_horn_of_bran_galed
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_horn_of_bran_galed_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_horn_of_bran_galed_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_horn_of_bran_galed
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hamper Of Gwyddno
+create_artifact_aom_hamper_of_gwyddno_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_hamper_of_gwyddno_name
+		description = aom_hamper_of_gwyddno_desc
+		type = sculpture_simple
+		visuals = aom_hamper_of_gwyddno
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hamper_of_gwyddno_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_hamper_of_gwyddno_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_hamper_of_gwyddno
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Pair Dadeni (Cauldron of Rebirth)
+create_artifact_aom_pair_dadeni_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_pair_dadeni_name
+		description = aom_pair_dadeni_desc
+		type = sculpture_simple
+		visuals = aom_pair_dadeni
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_pair_dadeni_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_pair_dadeni_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_pair_dadeni
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Cauldron Of Inspiration
+create_artifact_aom_cauldron_of_inspiration_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_cauldron_of_inspiration_name
+		description = aom_cauldron_of_inspiration_desc
+		type = sculpture_simple
+		visuals = aom_cauldron_of_inspiration
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_cauldron_of_inspiration_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_cauldron_of_inspiration_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_cauldron_of_inspiration
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

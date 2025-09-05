@@ -1,0 +1,842 @@
+﻿l_russian:
+# Типы артефактов
+  artifact_bow_simple: "Лук"
+  artifact_armor_simple: "Броня"
+  artifact_sculpture_simple: "Скульптура"
+  artifact_weapon_simple: "Оружие"
+  artifact_pedestal_simple: "Пьедестал"
+
+# Отладочные решения
+  aom_debug_transfer_all_artifacts: "Призовите артефакты мифов"
+  aom_debug_transfer_all_artifacts_desc: "Призовите силу древних мифов и призовите все существующие мифологические артефакты в свой инвентарь."
+  aom_debug_transfer_all_artifacts_tooltip: "Все известные мифологические артефакты будут переданы вам."
+  aom_debug_transfer_all_artifacts_confirm: "Да, принесите их мне!"
+
+  aom_debug_create_all_artifacts: "Создать все мифические артефакты"
+  aom_debug_create_all_artifacts_desc: "Создайте все легендарные артефакты, используя божественное мастерство."
+  aom_debug_create_all_artifacts_tooltip: "Все легендарные артефакты будут созданы заново и добавлены в ваш инвентарь."
+  aom_debug_create_all_artifacts_confirm: "Да, создайте их все для меня!"
+
+# Решения о создании артефактов
+  aom_spawn_artifacts_decision: "Создать мифические артефакты"
+  aom_spawn_artifacts_decision_desc: "Силой Серого Черепа!"
+  aom_spawn_artifacts_decision_tooltip: "Откройте это меню, чтобы создать различные мифологические артефакты."
+  aom_spawn_artifacts_decision_confirm: "Подтвердить"
+  aom_spawn_artifacts_decision_tt: "Открыть решение, чтобы выбрать артефакт для создания."
+
+  aom_spawn_norse_artifacts: "Скандинавские артефакты"
+  aom_spawn_norse_artifacts_tooltip: "Примеры: Мьёльнир, Брисингамен, Грам"
+
+  aom_spawn_greco_roman_artifacts: "Греко-римские артефакты"
+  aom_spawn_greco_roman_artifacts_tooltip: "Примеры: Молния Зевса, Ожерелье Гармонии, Рог изобилия"
+
+  aom_spawn_abrahamic_artifacts: "Открыть меню артефактов Авраама"
+  aom_spawn_abrahamic_artifacts_tooltip: "Примеры: Священное копье, Зульфикар, Посох Моисея"
+
+  aom_spawn_celtic_artifacts: "Открыть меню артефактов кельтов"
+  aom_spawn_celtic_artifacts_tooltip: "Примеры: Праща Луга, Дубан, Рог Брана Галеда"
+
+  aom_spawn_arthurian_artifacts: "Открыть меню артефактов Артура"
+  aom_spawn_arthurian_artifacts_tooltip: "Примеры: Экскалибур, Круглый стол, Секасе"
+
+  aom_spawn_finno_ugric_artifacts: "Открыть меню артефактов финно-угорской культуры"
+  aom_spawn_finno_ugric_artifacts_tooltip: "Примеры: Уконвасара, Тарнхельм, Сампо"
+
+  aom_spawn_slavic_artifacts: "Открыть меню артефактов славянской культуры"
+  aom_spawn_slavic_artifacts_tooltip: "Примеры: Перуна Топор, Игла Кощея, Ступка и Пестик Бабы Яги"
+
+  aom_spawn_lovecraftian_artifacts: "Открыть меню артефактов Лавкрафта"
+  aom_spawn_lovecraftian_artifacts_tooltip: "Примеры: Некрономикон, Сияющий трапецоэдр, Щепочный ключ"
+
+  aom_disable_artifact_spawning: "Отключить меню появления артефактов"
+  aom_disable_artifact_spawning_tooltip: "#R Внимание:#! Это отключит меню появления артефактов"
+
+# Испей из Святого Грааля
+  aom_drink_from_holy_grail_decision: "Испей из Святого Грааля"
+  aom_drink_from_holy_grail_decision_desc: "Святой Грааль полон божественной силы. Испить из него — значит вкусить вечную благодать. Он Это возможность, которая появляется раз в столетие."
+
+  aom_drink_from_holy_grail_decision_tooltip: "Испей из Святого Грааля и ощути его чудесные дары."
+
+  aom_drink_from_holy_grail_decision_confirm: "Испей"
+
+  aom_drink_from_holy_grail_decision_tt: "Ты будешь пить из Святого Грааля."
+
+  aom_drink_from_holy_grail_effect_tt_1: "Как [GetPietyLevelName('(int32)3')], питье исцелит твои раны."
+
+  aom_drink_from_holy_grail_effect_tt_2: "Как [GetPietyLevelName('(int32)4')], питье исцелит твои раны и избавит тебя от болезней."
+  aom_drink_from_holy_grail_effect_tt_3: "Как [GetPietyLevelName( '(int32)5' )], питьё залечит твои раны, навсегда избавит тебя от болезней и исцелит твои уродства."
+  aom_has_holy_grail: "Ты владеешь Святым Граалем"
+  aom_has_drunk_from_holy_grail: "Ты #дерзкий нет#! пил из Святого Грааля последние 100 лет"
+
+# Заявите права на Британию
+  aom_claim_britannia_decision: "Заявите права на Британию"
+  aom_claim_britannia_decision_desc: "По праву Кларента, меча в камне, завоюйте все королевства Британии. Явление Экскалибура побудит людей восстать за истинного короля."
+  aom_claim_britannia_decision_tooltip: "Заявите права на все королевства Британии."
+  aom_claim_britannia_decision_confirm: "Заявите свои права"
+  aom_has_clarent: "Вы владеете Кларентом, Мечом в камне"
+  aom_claim_britannia_decision_effect_tt: "Ваше боевое мастерство определяет, сколько элитных воинов #italic (Воины)#! откликнутся на ваш призыв, а развитие вашей культуры #italic (Культурная эпоха)#! определяет размер крестьянского ополчения, которое сплотится под вашими знаменами"
+
+  britannia_claim_army: "Армия истинного короля для Британии"
+
+# Читать Некрономикон
+  aom_read_necronomicon_decision: "Прочитать Некрономикон"
+  aom_read_necronomicon_decision_desc: "Погрузитесь в запретные знания, заключённые в человеческую кожу и начертанные чернилами безумия. Кто знает, какие истины таятся за ними?"
+  aom_read_necronomicon_decision_tooltip: "Вы рискуете своим рассудком, чтобы получить сверхъестественные знания из проклятого фолианта."
+  aom_read_necronomicon_decision_confirm: "Переверните страницу"
+  aom_has_necronomicon: "Вы владеете ужасающим Некрономиконом"
+  aom_has_read_necronomicon: "Вы ещё не читали Некрономикон последние 20 лет"
+
+# Загляните в Зеркало Нитокрис
+  aom_gaze_into_mirror_of_nitocris_decision: "Загляните в Зеркало Нитокрис"
+  aom_gaze_into_mirror_of_nitocris_decision_desc: "Древнее зеркало, которое, как говорят, отражает не лицо, а душу. То, что вы увидите, может изменить вас навсегда."
+  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "Загляните в Зеркало Нитокрис, чтобы раскрыть тайны... и, возможно, пробудить что-то в себе."
+  aom_gaze_into_mirror_of_nitocris_decision_confirm: "Загляни внутрь"
+  aom_has_mirror_of_nitocris: "Ты владеешь Зеркалом Нитокрис"
+  aom_has_gazed_into_mirror_of_nitocris: "Вы не смотрели в Зеркало Нитокрис последние 15 лет"
+  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "Зеркало может раскрыть тайну, хранимую одним из твоих соперников, вассалов или придворных."
+
+# Требования к артефактам Gamerule
+  rule_aom_artifact_requirements: "Требования к артефактам"
+
+  setting_aom_artifact_requirements_enabled: "#P Enabled#!"
+  setting_aom_artifact_requirements_enabled_desc: "Персонажи должны будут выполнить определённые требования для полного использования определённых артефактов."
+
+  setting_aom_artifact_requirements_disabled: "#R Disabled#!"
+  setting_aom_artifact_requirements_disabled_desc: "Персонажи смогут полностью использовать любой артефакт."
+
+# Игровое правило "Скандинавские артефакты"
+  rule_aom_generate_norse_artifacts: "Генерация скандинавских артефактов"
+
+  setting_aom_generate_norse_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_norse_artifacts_all_desc: "Все артефакты скандинавской мифологии будут добавлены в игру."
+
+  setting_aom_generate_norse_artifacts_only_god: "#M Только божественные артефакты#!"
+  setting_aom_generate_norse_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные со скандинавской мифологией."
+
+  setting_aom_generate_norse_artifacts_only_legend: "#M Только легендарные артефакты#!"
+  setting_aom_generate_norse_artifacts_only_legend_desc: "Все артефакты скандинавской мифологии, кроме артефактов божественных, будут добавлены в игру."
+
+  setting_aom_generate_norse_artifacts_with_descision: "#V С решением#!"
+  setting_aom_generate_norse_artifacts_with_descision_desc: "Скандинавские артефакты создаются только по особому решению."
+
+  setting_aom_generate_norse_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_norse_artifacts_disabled_desc: "Скандинавские артефакты не будут созданы или добавлены в игру."
+
+# Греко-римское правило артефактов
+  rule_aom_generate_greco_roman_artifacts: "Генерация греко-римских артефактов"
+
+  setting_aom_generate_greco_roman_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_greco_roman_artifacts_all_desc: "Все греко-римские мифологические артефакты будут добавлены в игру."
+
+  setting_aom_generate_greco_roman_artifacts_only_god: "#M Только божественные артефакты#!"
+
+  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные с греко-римской мифологией."
+
+  setting_aom_generate_greco_roman_artifacts_only_legend: "#M Только легендарные артефакты#!"
+  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "Будут добавлены все артефакты греко-римской мифологии, кроме артефактов, связанных с религией#!"
+
+  setting_aom_generate_greco_roman_artifacts_with_descision: "#V С решением#!"
+  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "Греко-римские артефакты создаются только по особому решению."
+
+  setting_aom_generate_greco_roman_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_greco_roman_artifacts_disabled_desc: "Греко-римские артефакты не будут созданы или добавлены в игру."
+
+# Правило игры "Авраамические артефакты"
+  setting_aom_generate_abrahamic_artifacts: "Генерация авраамических артефактов"
+
+  setting_aom_generate_abrahamic_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_abrahamic_artifacts_all_desc: "Все авраамические мифологические артефакты будут добавлены в игру."
+
+  setting_aom_generate_abrahamic_artifacts_only_god: "#M Только артефакты Бога#!"
+
+  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные с авраамическими мифами."
+
+  setting_aom_generate_abrahamic_artifacts_only_legend: "#M Только легендарные артефакты#!"
+  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "Все артефакты Авраама, кроме артефактов Бога#!"
+
+  setting_aom_generate_abrahamic_artifacts_with_descision: "#V С решением#!"
+  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "Авраамические артефакты создаются только по особому решению."
+
+  setting_aom_generate_abrahamic_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_abrahamic_artifacts_disabled_desc: "Авраамические артефакты не будут созданы или добавлены в игру."
+
+# Игровое правило "Кельтские артефакты"
+  setting_aom_generate_celtic_artifacts: "Генерация кельтских артефактов"
+
+  setting_aom_generate_celtic_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_celtic_artifacts_all_desc: "Все кельтские мифологические артефакты будут добавлены в игру."
+
+  setting_aom_generate_celtic_artifacts_only_god: "#M Только божественные артефакты#!"
+  setting_aom_generate_celtic_artifacts_only_god_desc: "Будут созданы только артефакты, связанные с кельтскими мифами."
+
+  setting_aom_generate_celtic_artifacts_only_legend: "#M Только легендарные артефакты#!"
+  setting_aom_generate_celtic_artifacts_only_legend_desc: "Все кельтские артефакты, кроме артефактов, связанных с божественными артефактами, будут созданы."
+
+  setting_aom_generate_celtic_artifacts_with_descision: "#V С решением#!"
+  setting_aom_generate_celtic_artifacts_with_descision_desc: "Кельтские артефакты создаются только по особому решению."
+
+  setting_aom_generate_celtic_artifacts_disabled: "#R Отключено#!"
+
+  setting_aom_generate_celtic_artifacts_disabled_desc: "Кельтские артефакты не будут генерироваться или добавляться."
+
+# Игровое правило "Артурианские артефакты"
+  rule_aom_generate_arthurian_artifacts: "Генерация артурианских артефактов"
+
+  setting_aom_generate_arthurian_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_arthurian_artifacts_all_desc: "Все артурианские мифологические артефакты будут добавлены в игру."
+
+  setting_aom_generate_arthurian_artifacts_only_god: "#M Только божественные артефакты#!"
+  setting_aom_generate_arthurian_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные с мифами о короле Артуре."
+
+  setting_aom_generate_arthurian_artifacts_only_legend: "#M Только легендарные артефакты#!"
+  setting_aom_generate_arthurian_artifacts_only_legend_desc: "Все артефакты о короле Артуре, кроме артефактов, связанных с королем Артуром, будут добавлены."
+
+  setting_aom_generate_arthurian_artifacts_with_descision: "#V С решением#!"
+  setting_aom_generate_arthurian_artifacts_with_descision_desc: "Артурианские артефакты создаются только по особому решению."
+
+  setting_aom_generate_arthurian_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_arthurian_artifacts_disabled_desc: "Артурианские артефакты не будут создаваться или раздаваться."
+
+# Игровое правило "Финно-угорские артефакты"
+  rule_aom_generate_finno_ugric_artifacts: "Генерация финно-угорских артефактов"
+
+  setting_aom_generate_finno_ugric_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_finno_ugric_artifacts_all_desc: "Все финно-угорские мифологические артефакты будут добавлены в игру."
+
+  setting_aom_generate_finno_ugric_artifacts_only_god: "#M Только божественные артефакты#!"
+  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные с финно-угорской мифологией."
+
+  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M Только легендарные артефакты#!"
+  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "Будут добавлены все финно-угорские артефакты, кроме артефактов, связанных с божественными артефактами."
+
+  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V С решением#!"
+
+  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "Финно-угорские артефакты создаются только по особому решению."
+
+  setting_aom_generate_finno_ugric_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "Финно-угорские артефакты не будут генерироваться или раздаваться."
+
+# Игровое правило славянских артефактов
+  rule_aom_generate_slavic_artifacts: "Генерация славянских артефактов"
+
+  setting_aom_generate_slavic_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_slavic_artifacts_all_desc: "Все славянские мифологические артефакты будут добавлены в игру."
+
+  setting_aom_generate_slavic_artifacts_only_god: "#M Только Божественные Артефакты#!"
+  setting_aom_generate_slavic_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные со славянской мифологией."
+
+  setting_aom_generate_slavic_artifacts_only_legend: "#M Только Легендарные Артефакты#!"
+  setting_aom_generate_slavic_artifacts_only_legend_desc: "Все славянские артефакты, кроме артефактов, связанных с Божественным Решением#!"
+
+  setting_aom_generate_slavic_artifacts_with_descision: "#V С Решением#!"
+  setting_aom_generate_slavic_artifacts_with_descision_desc: "Славянские артефакты создаются только по особому решению."
+
+  setting_aom_generate_slavic_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_slavic_artifacts_disabled_desc: "Славянские артефакты не будут генерироваться или добавляться в игру."
+
+# Игровое правило для артефактов Лавкрафта
+  rule_aom_generate_lovecraftian_artifacts: "Генерация артефактов Лавкрафта"
+
+  setting_aom_generate_lovecraftian_artifacts_all: "#P Все артефакты#!"
+  setting_aom_generate_lovecraftian_artifacts_all_desc: "Все мифологические артефакты Лавкрафта будут добавлены в игру."
+
+  setting_aom_generate_lovecraftian_artifacts_only_god: "#M Только Божественные Артефакты#!"
+  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Будут добавлены только артефакты, связанные с мифами Лавкрафта."
+
+  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M Только Легендарные Артефакты#!"
+  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "Все артефакты Лавкрафта, кроме артефактов, связанных с мифами, будут добавлены."
+
+  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V С Решением#!"
+  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "Артефакты Лавкрафта создаются только по особому решению."
+
+  setting_aom_generate_lovecraftian_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "Артефакты Лавкрафта не будут генерироваться или раздаваться."
+
+# Общие термины
+  aom_event_option.next: "Далее"
+  aom_event_option.previous: "Предыдущая"
+  aom_event_option.close: "Закрыть"
+  SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "Выбрать пантеон артефактов"
+
+  aom_artifact_spawning.1001.t: "Меню скандинавских артефактов"
+  aom_artifact_spawning.1011.t: "Меню греко-римских артефактов"
+  aom_artifact_spawning.1021.t: "Меню авраамических артефактов"
+  aom_artifact_spawning.1031.t: "Меню кельтских артефактов"
+  aom_artifact_spawning.1041.t: "Меню артурианских артефактов"
+  aom_artifact_spawning.1051.t: "Меню финно-угорских артефактов"
+  aom_artifact_spawning.1061.t: "Меню славянских артефактов"
+  aom_artifact_spawning.1071.t: "Меню лавкрафтовских артефактов"
+  aom_artifact_spawning.desc: "Выберите артефакт для создания:"
+
+  game_rule_category_aom: "Артефакты мифов"
+
+# Модификаторы перков
+  read_necronomicon_decision_learning_gain: "Прочитать Некрономикон"
+  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "Заглянул в Зеркало Нитокрис"
+
+# Flavor
+  dyn_Alhazred: "Альхазред"
+  dynn_Alhazred_motto: "Не мёртво то, что может лежать вечно, И в странных эонах даже смерть может умереть."
+  Клитанус: "Клитанус"
+
+  nick_the_mad_arab: "Безумный Араб"
+  nick_the_mad_arab_desc: "Альхазред утверждал, что увидел истинных повелителей реальности, и поклялся найти их. За это его называли безумным."
+
+  nick_the_mad_monk: "Безумный Монах"
+  nick_the_mad_monk_desc: "Спустившись в запретные катакомбы под Хайдестоллом, КлиТанус вышел из него другим человеком; его пылкие бредни заслужили ему прозвище 'Безумный Монах' среди тех, кто осмеливался его слушать."
+
+# Скандинавские Артефакты
+  # Артефакты Инвентаря
+  aom_gungnir_name: "Гунгнир"
+  aom_gungnir_desc: "Копье Одина. Выкованное гномами-кузнецами и принадлежащее самому Всеотцу, Гунгнир никогда не промахивается. Оно излучает божественную силу, вдохновляя великие умы и воинов."
+
+  aom_mjolnir_name: "Мьёльнир"
+  aom_mjolnir_desc: "Молот Грома. Могучий молот Тора, способный сравнять горы с землёй и сразить врагов богов одним ударом."
+
+  aom_jarngreipr_name: "Ярнгрейпр"
+  aom_jarngreipr_desc: "Рукавицы Силы. Эти железные перчатки позволяют владельцу владеть невообразимой силой, необходимой для удержания самого Мьёльнира.
+
+  aom_megingjord_name: "Мегингьёрд"
+  aom_megingjord_desc: "Пояс могущества. Пояс, удваивающий силу того, кто его носит, наполняя его божественной энергией."
+
+  aom_brisingamen_name: "Брисингамен"
+  aom_brisingamen_desc: "Ожерелье Фрейи. Это легендарное ожерелье сияет неземной красотой, усиливая очарование и влияние своего владельца."
+
+  aom_draupnir_name: "Драупнир"
+  aom_draupnir_desc: "Кольцо процветания. Золотое кольцо Одина, воспроизводящее себя каждую девятую ночь, символ бесконечного богатства и божественной власти.
+
+  aom_eldhrimnir_name: "Эльдхримнир"
+  aom_eldhrimnir_desc: "Котёл Вечности. Зачарованный котёл, в котором боги готовили неиссякаемую пищу из кабана Сэримнира."
+
+  aom_andvaranaut_name: "Андваранаут"
+  aom_andvaranaut_desc: "Проклятое кольцо. Это кольцо, дарующее как богатства, так и несчастья, связано с трагической историей жадности и мести.
+
+  aom_helm_of_awe_name: "Шлем Благоговения"
+  aom_helm_of_awe_desc: "Устрашающая реликвия, которая, как говорят, вселяет ужас в каждого, кто на неё взглянет, наделяя своего носителя сверхъестественным страхом."
+
+  aom_odrerir_name: "Óðrerir"
+  aom_odrerir_desc: "Мёд Мудрости. Один из трёх священных сосудов, содержащих Мёд Поэзии, дарующий божественное вдохновение и прозрение."
+
+  aom_bodn_name: "Boðn"
+  aom_bodn_desc: "Мёд Знания. Сосуд, наполненный квинтэссенцией поэтической мудрости, открывающий разум творчеству и ясности.
+
+  aom_son_name: "Сон"
+  aom_son_desc: "Мёд Красноречия. Последний кубок Мёда Поэзии, его напиток дарует дар речи и учёный блеск."
+
+  aom_svalinn_name: "Свалинн"
+  aom_svalinn_desc: "Щит Солнца. Мистический щит, воздвигнутый перед солнцем, чтобы не дать ему сжечь мир, он защищает своего носителя от разрушения."
+
+  aom_gjallarhorn_name: "Гьяллархорн"
+  aom_gjallarhorn_desc: "Рог Хеймдалля. Этот божественный рог прозвучит в конце дней. Его эхо предупреждает о надвигающейся гибели и пробуждает божественную бдительность.
+
+  aom_gram_name: "Грам"
+  aom_gram_desc: "Меч Сигурда. Клинок, выкованный божественными кузнецами, предназначенный для уничтожения драконов и создания легенд."
+
+  aom_tyrfing_name: "Тюрфинг"
+  aom_tyrfing_desc: "Проклятый клинок. Оружие непревзойденной остроты, каждое прикосновение которого несёт гибель."
+
+  aom_skofnung_name: "Скофнунг"
+  aom_skofnung_desc: "Клинок Королей. Говорят, что в нём заключены духи древних правителей, он внушает уважение и страх."
+
+  aom_mistilteinn_name: "Мистильтейнн"
+  aom_mistilteinn_desc: "Меч Колдовства. Этот клинок, окутанный тайнами и рунической магией, шепчет тайны.
+
+  aom_laevateinn_name: "Лэватейнн"
+  aom_laevateinn_desc: "Оружие Локи. Хаотичный и огненный артефакт, чья истинная сила кроется в хитрости и разрушении."
+
+  aom_hrotti_name: "Хротти"
+  aom_hrotti_desc: "Клинок Драконьей Сокровищницы. Извлеченный из сокровищницы змея, этот клинок сияет жадностью и силой."
+
+  aom_hofud_name: "Хофуд"
+  aom_hofud_desc: "Меч Хеймдалля. Оружие бдительного стража, достаточно острое, чтобы рассечь саму реальность."
+
+  aom_dainsleif_name: "Дайнслейф"
+  aom_dainsleif_desc: "Меч Мёртвых. Будучи обнажённым, он должен убивать. Проклятая реликвия вечной битвы."
+
+  aom_tarnkappe_name: "Тарнкаппе"
+  aom_tarnkappe_desc: "Плащ невидимости. Дарует носителю скрытность, превосходящую смертное понимание."
+
+  aom_fjadrhamr_name: "Фьядрхамр"
+  aom_fjadrhamr_desc: "Пернатый плащ. Божественное одеяние, позволяющее своему носителю двигаться подобно ветру."
+
+  aom_sword_of_freyr_name: "Меч Фрейра"
+  aom_sword_of_freyr_desc: "Клинок, сражающийся в одиночку. Выкованный гномами, этот меч защищает своего хозяина без помощи руки.
+
+  # Придворные артефакты
+  aom_throne_hlidskjalf_name: "Хлидскьялф"
+  aom_throne_hlidskjalf_desc: "Трон Одина. С этого высокого места Всеотец взирает на все миры. Его присутствие внушает почтение и дарует божественный надзор тем, кто достоин его мудрости."
+
+  aom_gleipnir_name: "Глейпнир"
+  aom_gleipnir_desc: "Связывание Зверя. Шёлковая цепь, выкованная из невозможного, достаточно прочная, чтобы удержать даже чудовищного Фенрира.
+
+  aom_mimirs_skull_name: "Череп Мимира"
+  aom_mimirs_skull_desc: "Отрубленная голова мудрого бога, всё ещё шепчущая советы из потустороннего мира."
+
+  aom_bragis_harp_name: "Арфа Браги"
+  aom_bragis_harp_desc: "Волшебный инструмент, очаровывающий придворных, волнующий сердца и вдохновляющийвеличие."
+
+# Греко-римские артефакты
+  # Артефакты инвентаря
+  aom_achilles_armor_name: "Доспехи Ахиллеса"
+  aom_achilles_armor_desc: "Божественные доспехи, выкованные Гефестом для Ахиллеса, дарующие непревзойденную защиту и славу."
+
+  aom_aegis_name: "Эгида"
+  aom_aegis_desc: "Устрашающий щит, связанный с Зевсом и Афиной, вселяющий ужас в сердца врагов."
+
+  aom_ambrosia_name: "Амброзия"
+  aom_ambrosia_desc: "Божественный нектар богов, дарующий бессмертие и вечную молодость тем, кто его отведает."
+
+  aom_apollos_bow_name: "Лук Аполлона"
+  aom_apollos_bow_desc: "Лук, поющий голосом Бог солнца, поражающий с божественной точностью.
+
+  aom_caduceus_name: "Кадуцей"
+  aom_caduceus_desc: "Посох Гермеса, обвитый змеями, крылатый жезл — символ мира, торговли и дипломатии."
+
+  aom_eros_bow_name: "Лук Эроса"
+  aom_eros_bow_desc: "Лук, стрелы которого вселяют любовь и желание, очаровывая сердца смертных и богов."
+
+  aom_apple_of_discord_name: "Золотое яблоко раздора"
+  aom_apple_of_discord_desc: "Яблоко с надписью „Прекраснейшей“ — источник божественного соперничества и смертных войн."
+
+  aom_rod_of_asclepius_name: "Жезл Асклепия"
+  aom_rod_of_asclepius_desc: "Символ медицины и исцеления, который носит божественный целитель. Асклепий."
+
+  aom_poseidons_trident_name: "Трезубец Посейдона"
+  aom_poseidons_trident_desc: "Выкованное циклопами, это могущественное оружие морского бога способно взволновать океаны и сотрясти землю."
+
+  aom_shield_of_achilleus_name: "Щит Ахилла"
+  aom_shield_of_achilleus_desc: "Космос в миниатюре, выкованный богами для величайшего воина Греции."
+
+  aom_spear_of_achilles_name: "Копье Ахилла"
+  aom_spear_of_achilles_desc: "Непревзойденное оружие, переданное Ахиллу, уравновешенное, чтобы сокрушать гигантов и героев."
+
+  aom_thyrsus_name: "Тирс"
+  aom_thyrsus_desc: "Священный посох Диониса, увитый плющом и увенчанный короной' с сосновой шишкой."
+
+  aom_talaria_name: "Талария"
+  aom_talaria_desc: "Крылатые сандалии Гермеса, дарующие владельцу скорость и грацию."
+
+  aom_zeus_lightning_bolt_name: "Молния Зевса"
+  aom_zeus_lightning_bolt_desc: "Это божественное оружие, выкованное циклопами, повелевает громом и молниями, являясь высшим символом гнева Зевса."
+
+  aom_hades_bident_name: "Двузубец Аида"
+  aom_hades_bident_desc: "Мрачный аналог молний Зевса, это тёмное копьё — инструмент Аида для управления и суда в подземном мире."
+
+  aom_helm_of_darkness_name: "Шлем Тьмы"
+  aom_helm_of_darkness_desc: "Этот невидимый шлем Аида, выкованный циклопами, скрывает Носитель, скрытый в тени, невидимый ни богам, ни смертным."
+
+  aom_harpe_name: "Гарпа"
+  aom_harpe_desc: "Серповидный меч Персея, используемый для уничтожения чудовищ и искажающий судьбы."
+
+  aom_necklace_of_harmonia_name: "Ожерелье Гармонии"
+  aom_necklace_of_harmonia_desc: "Дар, проклятый трагедией, прекрасный и опасный в равной степени."
+
+  aom_kronos_scythe_name: "Коса Кроноса"
+  aom_kronos_scythe_desc: "Выкованная Геей, эта древняя коса сразила Уран и наполнена силой мятежа и пророчества."
+
+  aom_zeus_labrys_name: "Лабрис Зевса"
+  aom_zeus_labrys_desc: "Мощный двусторонний топор Им владел царь богов, им он расколол голову Зевсу и породил Афину.
+
+  aom_artemis_bow_name: "Лук Артемиды"
+  aom_artemis_bow_desc: "Лук, созданный для богини охоты, быстрый и смертоносный."
+
+  aom_eurytus_bow_name: "Лук Эврита"
+  aom_eurytus_bow_desc: "Легендарный лук, когда-то принадлежавший Эвриту, а затем перешедший к Одиссею, символ непревзойденной меткости смертных."
+
+  aom_panacea_name: "Панацея"
+  aom_panacea_desc: "Названное в честь дочери Асклепия, это мифическое средство, как говорят, излечивает все недуги, чудо божественной алхимии."
+
+  aom_bag_of_wind_name: "Мешок Ветра"
+  aom_bag_of_wind_desc: " Ветры Эола, запечатанные в мешок, даруют быстрый проход или бурю.
+
+  aom_tritons_conch_name: "Раковина Тритона"
+  aom_tritons_conch_desc: "Раковина Тритона, сына Посейдона, чей звук повелевает волнами."
+
+  aom_nemean_lion_hide_name: "Шкура Немейского льва"
+  aom_nemean_lion_hide_desc: "Эта шкура, снятая с неуязвимого Немейского льва, служила доспехами Геракла и символом его первого подвига."
+
+  aom_girdle_of_hippolyta_name: "Пояс Ипполиты"
+  aom_girdle_of_hippolyta_desc: "Этот пояс, подаренный Аресом царице амазонок, воплощает божественную силу и непреклонный дух женственности."
+
+  # Придворные артефакты
+  aom_apollos_kithara_name: "Кифара Аполлона"
+  aom_apollos_kithara_desc: "Лира Аполлона, из которой возникла гармония сфер."
+
+  aom_cornucopia_name: "Рог изобилия"
+  aom_cornucopia_desc: "Рог изобилия, вечно полный щедрот."
+
+  aom_golden_fleece_name: "Золотое руно"
+  aom_golden_fleece_desc: "Сияющее руно, охраняемое драконом, трофей Ясона и аргонавтов."
+
+  aom_scale_of_justice_name: "Весы Правосудия"
+  aom_scale_of_justice_desc: "Весы Фемиды, божественной вершительницы закона и справедливости."
+
+  aom_icarus_feather_name: "Перо Икара"
+  aom_icarus_feather_desc: "Перо из крыльев, подлетевших слишком близко к солнцу."
+
+  aom_prometheus_chains_name: "Цепи Прометея"
+  aom_prometheus_chains_desc: "Оковы, сковавшие титана, даровавшего человечеству огонь."
+
+  aom_medusas_head_name: "Голова Медузы"
+  aom_medusas_head_desc: "Отрубленная голова горгоны, всё ещё смертоносная своим окаменяющим взглядом."
+
+  aom_throne_zeus_name: "Трон Зевса"
+  aom_throne_zeus_desc: "Величественное трон царя богов, излучающее божественную власть и благоговение."
+
+# Авраамические артефакты
+  # Артефакты инвентаря (Христианский)
+  # Корона Завоевания (Всадники Апокалипсиса)
+  aom_conquests_crown_name: "Корона Завоевания"
+  aom_conquests_crown_desc: "Славная корона Всадника Завоевания, символ божественного владычества и победы."
+
+  # Большой меч Войны (Всадники Апокалипсиса)
+  aom_wars_greatsword_name: "Большой меч Войны"
+  aom_wars_greatsword_desc: "Массивный меч, пропитанный яростью Всадников Войны, выкованный для праведной битвы."
+
+  # Корона Двенадцати Звёзд (Корона Марии)
+  aom_crown_of_twelve_stars_name: "Корона Двенадцати Звёзд"
+  aom_crown_of_twelve_stars_desc: "Сияющая корона, символизирующая небесное величие Девы Марии Королевство."
+
+  # Бесшовное одеяние Иисуса
+  aom_seamless_robe_of_jesus_name: "Бесшовное одеяние Иисуса"
+  aom_seamless_robe_of_jesus_desc: "Реликвия божественной ткани, которую носил Иисус, известная своим чудесным плетением."
+
+  # Коса Смерти (Всадники Апокалипсиса)
+  aom_deaths_scythe_name: "Коса Смерти"
+  aom_deaths_scythe_desc: "Эта леденящая душу коса, которой владеет Всадник Смерти, отделяет душу от плоти."
+
+  # Аскалон (Меч Святого Георгия)
+  aom_ascalon_name: "Аскалон"
+  aom_ascalon_desc: "Легендарный меч Святого Георгия, по преданию, сразивший могучего дракона."
+
+  # Копье Брадаманты
+  aom_bradamantes_lance_name: "Копье Брадаманта"
+  aom_bradamantes_lance_desc: "Копье христианского рыцаря, стремительное и непоколебимое в своей справедливости."
+
+  # Святое Копье (Копье Лонгина)
+  aom_holy_lance_name: "Святое Копье"
+  aom_holy_lance_desc: "Также известное как Копьё Лонгина, оно пронзило бок Христа во время распятия. #italic Это настоящее?#!"
+
+  # Лук Завоевания (Всадники Апокалипсиса)
+  aom_conquests_bow_name: "Лук Завоевания"
+  aom_conquests_bow_desc: "Лук всадника Апокалипсиса, знаменующий начало священного завоевания."
+
+  # Печать Соломона
+  aom_seal_of_solomon_name: "Печать Соломона"
+  aom_seal_of_solomon_desc: "Мистическое кольцо, дарующее власть над духами и мудрость за пределами смертных."
+
+  # Придворные артефакты (христианские)
+  # Весы Голода (Всадники Апокалипсиса)
+  aom_famines_scale_name: "Весы Голода"
+  aom_famines_scale_desc: "Использовался Всадником Голода для измерения голода и дефицита по всей стране."
+
+  # Часть Ноев ковчег
+  aom_piece_of_noahs_ark_name: "Часть Ноева ковчега"
+  aom_piece_of_noahs_ark_desc: "Священный осколок от сосуда, выдержавшего потоп Страшного суда."
+
+  # Сударий из Овьедо
+  aom_sudarium_of_oviedo_name: "Сударий из Овьедо"
+  aom_sudarium_of_oviedo_desc: "Почитаемый плат, которым, как считается, покрывали лицо Христа после его смерти."
+
+  # Святой Грааль (Святая Чаша)
+  aom_holy_grail_name: "Святой Грааль"
+  aom_holy_grail_desc: "Чаша, из которой пил Христос на Тайной Вечере, творившая чудеса."
+
+  # Святой Препуций
+  aom_holy_prepuce_name: "Святая Препуция"
+  aom_holy_prepuce_desc: "Спорная реликвия, которую считают крайней плотью самого Христа".
+
+  # Книга Жизни
+  aom_book_of_life_name: "Книга Жизни"
+  aom_book_of_life_desc: "Священный фолиант, в котором, как говорят, записаны имена спасённых, сокрытые от проклятых".
+
+  # Запретный Плод
+  aom_forbidden_fruit_name: "Запретный Плод"
+  aom_forbidden_fruit_desc: "Остаток искушения Эдема, несущий отголоски первородного греха".
+
+  # Рог Гавриила
+  aom_horn_of_gabriel_name: "Рог Гавриила"
+  aom_horn_of_gabriel_desc: "Будет протрублен в конце дней, возвещая воскресение мёртвых".
+
+  # Кровь Христа
+  aom_blood_of_christ_name: "Кровь Христа"
+  aom_blood_of_christ_desc: "Божественная сущность, пролитая ради искупления человечества, сохранённая в священных сосудах".
+
+  # Артефакты инвентаря (еврейские)
+  # Посох Моисея
+  aom_moses_staff_name: "Посох Моисея"
+  aom_moses_staff_desc: "Посох, разделивший Красное море и высекший воду из камня".
+
+  # Меч Давида
+  aom_davids_sword_name: "Меч Давида"
+  aom_davids_sword_desc: "Легендарный клинок царя-пастуха, победившего Голиафа".
+
+  # Разноцветная риза (риза Иосифа)
+  aom_coat_of_many_colors_name: "Разноцветная риза"
+  aom_coat_of_many_colors_desc: "Дар Иосифу, исполненный благодати и пророческих снов".
+
+  # Жезл Аарона (риза Моисея) (Посох Брата)
+  aom_aarons_rod_name: "Жезл Аарона"
+  aom_aarons_rod_desc: "Символ священнической власти и божественных чудес."
+
+  # Шамир Соломона
+  aom_solomons_shamir_name: "Шамир Соломона"
+  aom_solomons_shamir_desc: "Это не инструмент, а чудо — словно шёпот Бога. Он режет камень, как бумагу, бесшумно иневидимый."
+
+  # Большой Ключ Соломона
+  aom_greater_key_of_solomon_name: "Большой Ключ Соломона"
+  aom_greater_key_of_solomon_desc: "Древняя книга ритуалов и божественного знания, которая, как говорят, открывает тайны неба и земли."
+
+  # Малый Ключ Соломона
+  aom_lesser_key_of_solomon_name: "Малый Ключ Соломона"
+  aom_lesser_key_of_solomon_desc: "Древняя книга ритуалов и божественного знания, которая, как говорят, открывает тайны неба и земли."
+
+  # Меч Голиафа
+  aom_goliaths_sword_name: "Меч Голиафа"
+  aom_goliaths_sword_desc: "Массивное оружие филистимского воина, захваченное его убийцей Давидом."
+
+  # Придворные артефакты (еврейские)
+  # Ковчег Камыш (Корзина Моисея)
+  aom_ark_of_bulrushes_name: "Ковчег из камыша"
+  aom_ark_of_bulrushes_desc: "Корзина, в которой младенца Моисея несли через нильские тростники".
+
+  # Каменные скрижали (Десять заповедей)
+  aom_tablets_of_stone_name: "Каменные скрижали"
+  aom_tablets_of_stone_desc: "Божественные заповеди, данные Моисею на вершине горы Синай".
+
+  # Шофары Иисуса Навина
+  aom_joshuas_shofars_name: "Шофары Иисуса Навина"
+  aom_joshuas_shofars_desc: "Рог барана, который верой и силой слова обрушил стены Иерихона".
+
+  # Шкура Левиафана
+  aom_leviathans_hide_name: "Шкура Левиафана"
+  aom_leviathans_hide_desc: "Крепкий, как железо, фрагмент огромного морского зверя, убитого божеством".
+
+  # Трон Бога (Трон Яхве)
+  aom_throne_of_god_name: "Трон Бога"
+  aom_throne_of_god_desc: "Небесное престол Яхве, внушающее благоговение и абсолютное".
+
+  # Артефакты инвентаря (исламские)
+  # Зульфикар (меч Али ибн Аби Талиба)
+  aom_zulfiqar_name: "Зульфикар"
+  aom_zulfiqar_desc: "Раздвоенный меч Али, символ исламской доблести и справедливости".
+
+  # Священный плащ Пророка
+  aom_sacred_cloak_of_the_prophet_name: "Священный плащ Пророка"
+  aom_sacred_cloak_of_the_prophet_desc: "Благословенная одежда, которую когда-то носил Пророк Мухаммед."
+
+  # Придворные артефакты (исламские)
+  # Ключ от Каабы
+  aom_key_to_the_kaaba_name: "Ключ от Каабы"
+  aom_key_to_the_kaaba_desc: "Почитаемая реликвия, охраняющая дверь в святейшее святилище ислама."
+
+# Кельтские артефакты
+  # Артефакты инвентаря
+  # Слег (Копье Луга)
+  aom_sleg_name: "Слег"
+  aom_sleg_desc: "Мощное копье Луга, которое, как говорят, гарантирует победу своему владельцу."
+
+  # Праща Луга
+  aom_lughs_sling_name: "Праща Луга"
+  aom_lughs_sling_desc: "Легендарная праща, используемая богом Лугом, поражающая скорость света". 
+
+  # Claíomh Solais (Меч Света) 
+  aom_claiomh_solais_name: "Клайом Соле" 
+  aom_claiomh_solais_desc: "Меч Света, пылающий божественным огнём, которым владеют герои мифов." 
+
+  # Фрагарач (Меч Нуады) 
+  aom_fragarach_name: "Фрагарач" 
+  aom_fragarach_desc: "Разрубающий ветер меч Нуады, который, как говорят, заставляет говорить правду и пробивает любую защиту." 
+
+  # Гаэ Булг (Копье Скэтаха) 
+  aom_gae_bulg_name: "Гэй Булг" 
+  aom_gae_bulg_desc: "Ужасающее копье Кухулина, разрывающее изнутри. Подаренный ему его учителем Скатахом". 
+
+  # Каладболг 
+  aom_caladbolg_name: "Каладболг" 
+  aom_caladbolg_desc: "Могучий клинок, похожий на радугу, способный рассечь холмы." 
+
+  # Мораллтах (Великая Ярость) 
+  aom_moralltach_name: "Мораллтах" 
+  aom_moralltach_desc: "Великая ярость, меч правосудия, подаренный морским богом." 
+
+  # Beagalltach (Маленькая ярость) 
+  aom_beagalltach_name: "Бегаллтач" 
+  aom_beagalltach_desc: "Маленькая ярость, близнец Мораллтаха, быстрая и острая, как гадюка." 
+
+  # Дубан (Черный щит Кухулина) 
+  aom_duban_name: "Дубан"
+  aom_duban_desc: "Чёрный щит Кухулина, тёмная эгида, пропитанная ужасом."
+
+  # Дирнвин (Белая Рукоять)
+  aom_dyrnwyn_name: "Дирнвин"
+  aom_dyrnwyn_desc: "Белая Рукоять, пылающая в руках достойных, – испытание благородства."
+
+# Придворные артефакты
+  # Уайтне (Арфа Дагды)
+  aom_uaithne_name: "Уайтне"
+  aom_uaithne_desc: "Арфа Дагды, способная пробуждать сердца к радости, печали или сну."
+
+  # Рог Брана Галеда
+  aom_horn_of_bran_galed_name: "Рог Брана Галеда"
+  aom_horn_of_bran_galed_desc: "Рог, способный напоить любого носителя желаний."
+
+  # Корзина Гвиддно Гаранхира
+  aom_hamper_of_gwyddno_name: "Корзина Гвиддно Гаранхира"
+  aom_hamper_of_gwyddno_desc: "Мистическая корзина, бесконечно снабжающая пищей добродетельных людей."
+
+  # Пара Дадени (Котел Возрождения)
+  aom_pair_dadeni_name: "Пара Дадени"
+  aom_pair_dadeni_desc: "Котел Возрождения, используемый в древних легендах для воскрешения павших воинов."
+
+  # Котел Вдохновения
+  aom_cauldron_of_inspiration_name: "Котел Вдохновения"
+  aom_cauldron_of_inspiration_desc: "Сосуд божественного прозрения, дарующий мудрость ищущему."
+
+# Артефакты Артурианской эпохи
+  # Артефакты инвентаря
+  # Экскалибур (Каледфвлх)
+  aom_excalibur_name: "Экскалибур"
+  aom_excalibur_desc: "Настоящий Экскалибур, легендарный меч Короля Былого и Грядущего Артура, подаренный ему Владычицей Озера."
+
+  # Карнвеннан (Кинжал Артура)
+  aom_carnwennan_name: "Карнвеннан"
+  aom_carnwennan_desc: "Кинжал Артура, который, как говорят, скрывалего носитель в тени."
+
+  # Ронгоминиад (Копье Артура)
+  aom_rhongomyniad_name: "Ронгоминиад"
+  aom_rhongomyniad_desc: "Копье Артура, оружие неизменной точности и доблести."
+
+  # Придвен (Щит Артура)
+  aom_pridwen_name: "Придвен"
+  aom_pridwen_desc: "Сияющий щит, украшенный символом дома Пендрагонов."
+
+  # Посох Мерлина
+  aom_merlins_staff_name: "Посох Мерлина"
+  aom_merlins_staff_desc: "Посох архимага Мерлина, исполненный магической силы."
+
+  # Кларент (Меч в камне)
+  aom_clarent_name: "Кларент"
+  aom_clarent_desc: "Меч в Камень, символ законного владычества над Авалоном.
+
+  # Секас (Меч сэра Ланселота)
+  aom_secace_name: "Секас"
+  aom_secace_desc: "Меч сэра Ланселота, несравненного рыцаря и трагического героя."
+
+  # Курехаус (Меч короля Бана)
+  aom_courechouse_name: "Куехаус"
+  aom_courechouse_desc: "Клинок короля Бана, выкованный для верности и наследия."
+
+  # Галатин (Меч сэра Гавейна)
+  aom_galatine_name: "Галатин"
+  aom_galatine_desc: "Меч сэра Гавейна, сияющий силой солнца."
+
+  # Меч Красной Рукояти (Меч сэра Галахада)
+  aom_sword_of_the_red_hilt_name: "Меч Красной Рукояти"
+  aom_sword_of_the_red_hilt_desc: "Священный клинок, которым владел сэр Галахад, чистейший из рыцарей."
+
+  # Придворные артефакты
+  # Круглый стол
+  aom_throne_round_table_name: "Круглый стол"
+  aom_throne_round_table_desc: "Легендарный стол двора Артура, символизирующий единство и рыцарство."
+
+# Финно-угорские артефакты
+  # Артефакты инвентаря
+  # Уконвасара (Молот Укко)
+  aom_ukonvasara_name: "Уконвасара"
+  aom_ukonvasara_desc: "Громовой молот Укко, бога неба, потрескивающий божественной энергией."
+
+  # Тарнхельм
+  aom_tarnhelm_name: "Тарнхельм"
+  aom_tarnhelm_desc: "Магический шлем, дарующий своему владельцу силу невидимости и трансформации."
+
+  # Калеван Миекка
+  aom_kalevan_miekka_name: "Калеван Миекка"
+  aom_kalevan_miekka_desc: "Огромный меч Калевы, выкованный из мифической руды и переданный великанами."
+
+  # Придворные артефакты
+  # Сампо
+  aom_sampo_name: "Сампо"
+  aom_sampo_desc: "Мистическая мельница, приносящая удачу, бесконечно перемалывающая зерно, соль и золото."
+
+  # Кантеле (Волшебная арфа)
+  aom_kantele_name: "Кантеле"
+  aom_kantele_desc: "Арфа чар, вырезанная из челюсти огромной щуки, способная очаровать всех, кто ее слышит."
+
+  # Славянские артефакты
+  # Артефакты инвентаря
+  # Кладенец (Самораскачивающийся меч)
+  aom_kladenets_name: "Кладенец"
+  aom_kladenets_desc: "Самооружный меч, который, как говорят, поражает с непогрешимой силой, будучи обнажённым."
+
+  # Топор Перуна
+  aom_peruns_axe_name: "Топор Перуна"
+  aom_peruns_axe_desc: "Оружие бога грома Перуна, способное раздвигать горы и вызывать бури."
+
+  # Расковник (волшебная трава)
+  aom_raskovnik_name: "Расковник"
+  aom_raskovnik_desc: "Легендарная трава, открывающая любые замки и открывающая скрытые сокровища."
+
+  # Перо Жар-птицы
+  aom_firebird_feather_name: "Перо Жар-птицы"
+  aom_firebird_feather_desc: "Сияющее оперение мифической Жар-птицы, сияющее потусторонним светом."
+
+  # Придворные артефакты
+  # Игла Кощея
+  aom_koscheis_needle_name: "Игла Кощея"
+  aom_koscheis_needle_desc: "Секрет бессмертия Кощея Бессмертного, сокрытый во вложенных магических защитах."
+
+  # Алатырь (Священный камень)
+  aom_alatyr_name: "Алатырь"
+  aom_alatyr_desc: "Мифический пуп мира, камень божественного знания и благочестия."
+
+  # Цветок папоротника
+  aom_fern_flower_name: "Цветок папоротника"
+  aom_fern_flower_desc: "Редкий волшебный цветок, который, как говорят, дарует нашедшему здоровье и процветание."
+
+  # Ступка и пестик Бабы-Яги
+  aom_baba_yagas_mortar_name: "Ступка и пестик Бабы-Яги"
+  aom_baba_yagas_mortar_desc: "Зачарованный летающий корабль ведьмы Бабы-Яги, паря в небесах и тайнах. #курсив Не правда ли, эта простая ступка с пестиком? #!"
+
+# Артефакты Лавкрафта
+  # Артефакты инвентаря
+  # Некрономикон
+  aom_necronomicon_name: "Некрономикон"
+  aom_necronomicon_desc: "Богохульный фолиант запретных знаний, написанный Абдулом 'Безумным Арабом' Альхазредом. "
+
+  # Книга Эйбона
+  aom_book_of_eibon_name: "Книга Эйбона"
+  aom_book_of_eibon_desc: "Древний фолиант, который, как говорят, хранит тайные тайны колдуна Эйбона, наполненные запретными знаниями из Гипербореи."
+
+  # Тиара Глубоководного
+  aom_deep_ones_tiara_name: "Тиара Глубоководного"
+  aom_deep_ones_tiara_desc: "Странный и инопланетный головной убор, созданный Глубоководными. Ношение его вызывает сны о подводных городах и жуткие песнопения."
+
+  # Амулет Гончей
+  aom_hound_amulet_name: "Амулет Гончей"
+  aom_hound_amulet_desc: "Талисман с выгравированным отвратительным символом культов каннибалов Ленга. Его присутствие вселяет ужас, а шёпоты извне намекают, что он призывает нечто, чему нельзя дать имени."
+
+  # Артефакты Двора
+  # Сияющий Трапецоэдр
+  aom_shining_trapezohedron_name: "Сияющий Трапецоэдр"
+  aom_shining_trapezohedron_desc: "Чёрный гранёный кристалл, пульсирующий внутренним светом. ЭтиТот, кто взглянет в него, сможет говорить с Ньярлатотепом."
+
+  # Идол Ктулху
+  aom_cthulhu_idol_name: "Идол Ктулху"
+  aom_cthulhu_idol_desc: "Гротескная статуя Великого Древнего, Ктулху. Одно лишь обладание ею вызывает тревожные сны и шёпот в ночи."
+
+  # Серебряный Ключ
+  aom_sliver_key_name: "Серебряный Ключ"
+  aom_sliver_key_desc: "Мистический ключ, который, как говорят, открывает порталы в Страну Снов и измерения, недоступные пониманию смертных. Он открывает пути, скрытые даже от самого опытного путешественника."
+
+  # Исповедь Клитана
+  aom_confessions_of_clithanus_name: "Исповедь Клитана"
+  aom_confessions_of_clithanus_desc: "Редкая и опасная рукопись, повествующая об ужасных обрядах и невыразимых культах древних культов."
+
+  # Пнакотические рукописи
+  aom_pnakotic_manuscripts_name: "Пнакотические рукописи"
+  aom_pnakotic_manuscripts_desc: "Древние тексты, повествующие о жизни и знаниях Великой Расы Йит. Расшифровка их ставит под угрозу рассудок."
+
+  # Зеркало Нитокрис
+  aom_mirror_of_nitocris_name: "Зеркало Нитокрис"
+  aom_mirror_of_nitocris_desc: "Зачарованный артефакт, некогда принадлежавший Королеве Чёрного Фараона. Отражения в нём никогда не будут по-настоящему твоими."

@@ -1,0 +1,125 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Sharur (Ninurta's Mace)
+aom_sharur_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+		prowess = 10
+	}
+	unique = yes
+}
+
+# Imhullu (Marduk's Weapon)
+aom_imhullu_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = { 
+        prowess = 6 
+    }
+	unique = yes
+}
+
+# Marduk’s Net
+aom_marduks_net_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Tablets of Destinies
+aom_tablets_of_destinies_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Bull of Heaven’s Horns
+aom_bull_of_heaven_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Lyre of Ur
+aom_lyre_of_ur_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Mul Zibanu (Shamash's Scales)
+aom_mul_zibanu_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}
+
+# Ereshkigal's Throne
+aom_throne_ereshkigal_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_mesopotamian }
+		}
+	}
+	fallback = {
+        prowess = 4
+    }
+	unique = yes
+}

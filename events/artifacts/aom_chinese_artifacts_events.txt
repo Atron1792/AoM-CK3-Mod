@@ -1,0 +1,31 @@
+﻿namespace = aom_chinese_artifacts
+
+############################
+# Generate God Tier Artifacts
+############################
+aom_chinese_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+		
+
+		# Inventory Artifacts
+		
+	}
+}
+		
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_chinese_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+        
+		
+		# Inventory Artifacts
+        
+	}
+}

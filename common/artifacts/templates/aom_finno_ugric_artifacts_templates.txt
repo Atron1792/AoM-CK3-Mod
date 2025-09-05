@@ -1,0 +1,126 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Ukonvasara (Hammer of Ukko)
+aom_ukonvasara_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = {
+				has_game_rule = aom_artifact_requirements_enabled
+			}
+			faith.religion = religion:finno_ugric_religion
+		}
+	}
+	fallback = {
+		prowess = 13
+		monthly_prestige = 0.5
+		monthly_income_mult = 0.05
+	}
+	unique = yes
+}
+
+# Tarnhelm
+aom_tarnhelm_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = {
+				has_game_rule = aom_artifact_requirements_enabled
+			}
+			faith.religion = religion:finno_ugric_religion
+		}
+	}
+	fallback = {
+		prowess = 4
+		intrigue = 2
+	}
+	unique = yes
+}
+
+# Kalevan Miekka
+aom_kalevan_miekka_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = {
+				has_game_rule = aom_artifact_requirements_enabled
+			}
+			faith.religion = religion:finno_ugric_religion
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 2
+		dread_gain_mult = 0.05
+	}
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Sampo
+aom_sampo_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = {
+				has_game_rule = aom_artifact_requirements_enabled
+			}
+			faith.religion = religion:finno_ugric_religion
+		}
+	}
+	fallback = {
+		domain_tax_mult = 0.1
+		domain_limit = 1
+	}
+	unique = yes
+}
+
+# Kantele (Magical Harp)
+aom_kantele_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = {
+				has_game_rule = aom_artifact_requirements_enabled
+			}
+			faith.religion = religion:finno_ugric_religion
+		}
+	}
+	fallback = {
+		diplomacy = 3
+		court_grandeur_baseline_add = 6
+	}
+	unique = yes
+}
+
+# # Branch of Világfa (World Tree)
+# aom_branch_of_vilagfa_template = {
+# 	can_equip = {
+# 		always = yes
+# 	}
+# 	can_benefit = {
+# 		trigger_if = {
+# 			limit = { has_game_rule = aom_artifact_requirements_enabled }
+# 			faith.religion = religion:finno_ugric_religion
+# 		}
+# 	}
+# 	fallback = {
+# 		learning = 4
+# 		monthly_piety = 0.3
+# 		epidemic_resistance = 5
+# 	}
+# 	unique = yes
+# }

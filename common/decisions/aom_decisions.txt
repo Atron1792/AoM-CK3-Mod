@@ -1,0 +1,644 @@
+﻿# Spawn Artifacts Decision
+aom_spawn_artifacts_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_legend.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_spawn_artifacts_decision_desc
+	is_shown = {
+		NOT = {
+			has_global_variable = aom_artifact_spawning_disabled
+		}
+		OR = {
+			has_game_rule = aom_generate_norse_artifacts_with_descision
+			has_game_rule = aom_generate_greco_roman_artifacts_with_descision
+			has_game_rule = aom_generate_abrahamic_artifacts_with_descision
+			has_game_rule = aom_generate_celtic_artifacts_with_descision
+			has_game_rule = aom_generate_arthurian_artifacts_with_descision
+			has_game_rule = aom_generate_finno_ugric_artifacts_with_descision
+			has_game_rule = aom_generate_slavic_artifacts_with_descision
+			has_game_rule = aom_generate_lovecraftian_artifacts_with_descision
+		}
+	}
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	ai_check_interval = 0
+	widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON
+		show_from_start = yes
+		item = {
+			value = aom_spawn_norse_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_norse_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_norse_artifacts
+			icon = "gfx/interface/icons/faith/norse.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_greco_roman_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_greco_roman_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_greco_roman_artifacts
+			icon = "gfx/interface/icons/faith/greco_roman.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_abrahamic_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_abrahamic_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_abrahamic_artifacts
+			icon = "gfx/interface/icons/faith/abrahamic.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_celtic_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_celtic_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_celtic_artifacts
+			icon = "gfx/interface/icons/faith/celtic.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_arthurian_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_arthurian_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_arthurian_artifacts
+			icon = "gfx/interface/icons/faith/arthurian.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_finno_ugric_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_finno_ugric_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_finno_ugric_artifacts
+			icon = "gfx/interface/icons/faith/finno_ugric.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_slavic_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_slavic_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_slavic_artifacts
+			icon = "gfx/interface/icons/faith/slavic.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_lovecraftian_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_lovecraftian_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_lovecraftian_artifacts
+			icon = "gfx/interface/icons/faith/lovecraftian.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_disable_artifact_spawning
+			is_shown = {
+				always = yes
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_disable_artifact_spawning
+			icon = "gfx/interface/icons/faith/artifact.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = aom_spawn_artifacts_decision_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					scope:aom_spawn_norse_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1001
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_greco_roman_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1011
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_abrahamic_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1021
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_celtic_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1031
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_arthurian_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1041
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_finno_ugric_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1051
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_slavic_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1061
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_lovecraftian_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1071
+			}
+			else_if = {
+				limit = {
+					scope:aom_disable_artifact_spawning = yes
+				}
+				set_global_variable = {
+					name = aom_artifact_spawning_disabled
+					value = yes
+				}
+			}
+		}
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# Drink from the Holy Grail
+aom_drink_from_holy_grail_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_drink_from_holy_grail_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_holy_grail
+		}
+	}
+	is_valid = {
+		piety_level >= 3
+		custom_description = {
+			text = aom_has_drunk_from_holy_grail
+			NOT = {
+				has_character_flag = aom_has_drunk_from_holy_grail
+			}
+		}
+		custom_description = {
+			text = aom_has_holy_grail
+			any_character_artifact = {
+				has_variable = aom_holy_grail
+			}
+		}
+	}
+	cost = {
+		piety = 5000
+	}
+	effect = {
+		custom_tooltip = aom_drink_from_holy_grail_decision_effect_tt_1
+		custom_tooltip = aom_drink_from_holy_grail_decision_effect_tt_2
+		custom_tooltip = aom_drink_from_holy_grail_decision_effect_tt_3
+		add_stress = -300
+		if = {
+			limit = {
+				piety_level >= 5
+			}
+			remove_trait = beauty_bad_1
+			remove_trait = beauty_bad_2
+			remove_trait = beauty_bad_3
+			remove_trait = physique_bad_1
+			remove_trait = physique_bad_2
+			remove_trait = physique_bad_3
+			remove_trait = intellect_bad_1
+			remove_trait = intellect_bad_2
+			remove_trait = intellect_bad_3
+			remove_trait = clubfooted
+			remove_trait = hunchbacked
+			remove_trait = lisping
+			remove_trait = stuttering
+			remove_trait = inbred
+			remove_trait = weak
+			remove_trait = dull
+			remove_trait = impotent
+			remove_trait = spindly
+			remove_trait = scaly
+			remove_trait = wheezing
+			remove_trait = bleeder
+			remove_trait = infertile
+			remove_trait = depressed_1
+			remove_trait = depressed_genetic
+			remove_trait = lunatic_1
+			remove_trait = lunatic_genetic
+			remove_trait = possessed_1
+			remove_trait = possessed_genetic
+			add_character_flag = immune_to_disease
+			remove_trait = ill
+			remove_trait = pneumonic
+			remove_trait = great_pox
+			remove_trait = early_great_pox
+			remove_trait = lovers_pox
+			remove_trait = leper
+			remove_trait = gout_ridden
+			remove_trait = consumption
+			remove_trait = cancer
+			remove_trait = typhus
+			remove_trait = bubonic_plague
+			remove_trait = smallpox
+			remove_trait = measles
+			remove_trait = dysentery
+			remove_trait = ergotism
+			remove_trait = sickly
+			remove_trait = wounded_1
+			remove_trait = wounded_2
+			remove_trait = wounded_3
+			remove_trait = maimed
+			remove_trait = one_eyed
+			remove_trait = one_legged
+			remove_trait = disfigured
+			remove_trait = infirm
+			remove_trait = eunuch_1
+			remove_trait = beardless_eunuch
+			remove_trait = blind
+		}
+		else_if = {
+			limit = {
+				piety_level >= 4
+			}
+			remove_trait = ill
+			remove_trait = pneumonic
+			remove_trait = great_pox
+			remove_trait = early_great_pox
+			remove_trait = lovers_pox
+			remove_trait = leper
+			remove_trait = gout_ridden
+			remove_trait = consumption
+			remove_trait = cancer
+			remove_trait = typhus
+			remove_trait = bubonic_plague
+			remove_trait = smallpox
+			remove_trait = measles
+			remove_trait = dysentery
+			remove_trait = ergotism
+			remove_trait = sickly
+			remove_trait = wounded_1
+			remove_trait = wounded_2
+			remove_trait = wounded_3
+			remove_trait = maimed
+			remove_trait = one_eyed
+			remove_trait = one_legged
+			remove_trait = disfigured
+			remove_trait = infirm
+			remove_trait = eunuch_1
+			remove_trait = beardless_eunuch
+			remove_trait = blind
+		}
+		else_if = {
+			limit = {
+				piety_level >= 3
+			}
+			remove_trait = wounded_1
+			remove_trait = wounded_2
+			remove_trait = wounded_3
+			remove_trait = maimed
+			remove_trait = one_eyed
+			remove_trait = one_legged
+			remove_trait = disfigured
+			remove_trait = infirm
+			remove_trait = eunuch_1
+			remove_trait = beardless_eunuch
+			remove_trait = blind
+		}
+		add_character_flag = {
+			flag = aom_has_drunk_from_holy_grail
+			years = 100
+		}
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# Claim Britannia
+aom_claim_britannia_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_claim_britannia_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_clarent
+		}
+	}
+	is_valid = {
+		prestige_level >= 4
+		custom_description = {
+			text = aom_has_clarent
+			any_character_artifact = {
+				has_variable = aom_clarent
+			}
+		}
+	}
+	cost = {
+		prestige = 5000
+		renown = 500
+	}
+	effect = {
+		add_unpressed_claim = title:k_england
+		add_unpressed_claim = title:k_wales
+		add_unpressed_claim = title:k_scotland
+		add_unpressed_claim = title:k_ireland
+		if = {
+			limit = {
+				any_character_artifact = {
+					has_variable = aom_excalibur
+				}
+				NOT = {
+					has_character_flag = aom_claimed_britannia_army
+				}
+			}
+			custom_tooltip = aom_claim_britannia_decision_effect_tt
+			spawn_army = {
+				men_at_arms = {
+					type = armored_footmen
+					stacks = {
+						value = 1
+						add = {
+							value = this.martial
+							divide = 5
+						}
+					}
+				}
+				men_at_arms = {
+					type = longbowmen
+					stacks = {
+						value = 1
+						add = {
+							value = this.martial
+							divide = 4
+						}
+					}
+				}
+				levies = {
+					add = {
+						value = 2000
+						multiply = activity_cost_scale_by_era
+					}
+				}
+				inheritable = no
+				location = capital_province
+				origin = capital_province
+				name = britannia_claim_army
+			}
+			add_character_flag = {
+				flag = aom_claimed_britannia_army
+			}
+		}
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# Read the Necronomicon
+aom_read_necronomicon_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_read_necronomicon_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_necronomicon
+		}
+	}
+	is_valid = {
+		learning >= 15
+		custom_description = {
+			text = aom_has_read_necronomicon
+			NOT = {
+				has_character_flag = aom_has_read_necronomicon
+			}
+		}
+		custom_description = {
+			text = aom_has_necronomicon
+			any_character_artifact = {
+				has_variable = aom_necronomicon
+			}
+		}
+	}
+	cost = {
+		piety = 1000
+	}
+	effect = {
+		random = {
+			chance = 30
+			if = {
+				limit = {
+					has_trait = lifestyle_mystic
+				}
+				add_trait_xp = {
+					trait = lifestyle_mystic
+					value = lifestyle_mystic_xp_gain_minor_value
+				}
+			}
+			else = {
+				add_trait = lifestyle_mystic
+			}
+			add_stress = 100
+		}
+		random = {
+			chance = 50
+			add_trait = possessed_1
+			add_stress = 50
+		}
+		random = {
+			chance = 20
+			add_trait = lunatic_1
+			add_stress = 50
+		}
+		random = {
+			chance = 10
+			death = {
+				death_reason = death_mysterious
+			}
+		}
+		add_character_modifier = {
+			modifier = read_necronomicon_decision_learning_gain
+		}
+		add_character_flag = {
+			flag = aom_has_read_necronomicon
+			years = 20
+		}
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# Gaze into the Mirror of Nitocris
+aom_gaze_into_mirror_of_nitocris_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_gaze_into_mirror_of_nitocris_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_mirror_of_nitocris
+		}
+	}
+	is_valid = {
+		custom_description = {
+			text = aom_has_gazed_into_mirror_of_nitocris
+			NOT = { has_character_flag = aom_has_gazed_into_mirror_of_nitocris }
+		}
+		custom_description = {
+			text = aom_has_mirror_of_nitocris
+			any_character_artifact = {
+				has_variable = aom_mirror_of_nitocris
+			}
+		}
+	}
+	cost = {
+		piety = 750
+	}
+	effect = {
+		random = {
+			chance = 50
+			add_trait = possessed_1
+			add_stress = 50
+		}
+		random = {
+			chance = 20
+			add_trait = lunatic_1
+			add_stress = 50
+		}
+		random = {
+			chance = 5
+			death = {
+				death_reason = death_mysterious
+			}
+		}
+		add_character_modifier = {
+			modifier = gaze_into_mirror_of_nitocris_decision_intrigue_gain
+		}
+		custom_tooltip = aom_gaze_into_mirror_of_nitocris_decision_effect_tt
+		hidden_effect = {
+			# Build list of valid characters with secrets
+			add_to_list = aom_gaze_into_mon_targets
+			every_relation = {
+				type = rival
+				limit = {
+					has_any_secrets = yes
+				}
+				add_to_list = aom_gaze_into_mon_targets
+			}
+			every_vassal = {
+				limit = {
+					has_any_secrets = yes
+				}
+				add_to_list = aom_gaze_into_mon_targets
+			}
+			every_courtier = {
+				limit = {
+					has_any_secrets = yes
+				}
+				add_to_list = aom_gaze_into_mon_targets
+			}
+			# Reveal a secret not yet known by the player
+			random_in_list = {
+				list = aom_gaze_into_mon_targets
+				limit = {
+					any_secret = {
+						NOT = {
+							is_known_by = root
+						}
+					}
+				}
+				random_secret = {
+					limit = {
+						NOT = {
+							is_known_by = root
+						}
+					}
+					reveal_to = root
+				}
+			}
+		}
+		add_character_flag = {
+			flag = aom_has_gazed_into_mirror_of_nitocris
+			years = 15
+		}
+	}
+	ai_potential = {
+		always = no
+	}
+}

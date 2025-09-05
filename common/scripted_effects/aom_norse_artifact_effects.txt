@@ -1,0 +1,933 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Gungnir (Odin’s Spear)
+create_artifact_aom_gungnir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_gungnir_name
+		description = aom_gungnir_desc
+		type = weapon_simple
+		visuals = aom_gungnir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_gungnir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_gungnir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_gungnir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Mjölnir (Thor’s Hammer)
+create_artifact_aom_mjolnir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_mjolnir_name
+		description = aom_mjolnir_desc
+		type = weapon_simple
+		visuals = aom_mjolnir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mjolnir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_mjolnir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_mjolnir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Járngreipr (Thor’s Gauntlet)
+create_artifact_aom_jarngreipr_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_jarngreipr_name
+		description = aom_jarngreipr_desc
+		type = miscellaneous
+		visuals = aom_jarngreipr
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_jarngreipr_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_jarngreipr_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_jarngreipr
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Megingjörð (Thor’s Belt)
+create_artifact_aom_megingjord_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_megingjord_name
+		description = aom_megingjord_desc
+		type = miscellaneous
+		visuals = aom_megingjord
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_megingjord_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_megingjord_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_megingjord
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Brísingamen (Freyja’s Necklace)
+create_artifact_aom_brisingamen_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_brisingamen_name
+		description = aom_brisingamen_desc
+		type = miscellaneous
+		visuals = aom_brisingamen
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_brisingamen_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_brisingamen_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_brisingamen
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Draupnir (Odin’s Ring)
+create_artifact_aom_draupnir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_draupnir_name
+		description = aom_draupnir_desc
+		type = miscellaneous
+		visuals = aom_draupnir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_draupnir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_draupnir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_draupnir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Andvaranaut (Cursed Ring)
+create_artifact_aom_andvaranaut_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_andvaranaut_name
+		description = aom_andvaranaut_desc
+		type = miscellaneous
+		visuals = aom_andvaranaut
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_andvaranaut_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_andvaranaut_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_andvaranaut
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Helm of Awe (Terror Helm)
+create_artifact_aom_helm_of_awe_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_helm_of_awe_name
+		description = aom_helm_of_awe_desc
+		type = helmet_simple
+		visuals = aom_helm_of_awe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_helm_of_awe_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_helm_of_awe_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_helm_of_awe
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Svalinn (Sun Shield)
+create_artifact_aom_svalinn_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_svalinn_name
+		description = aom_svalinn_desc
+		type = regalia_simple
+		visuals = aom_svalinn
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_svalinn_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_svalinn_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_svalinn
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Gram (Sigurd’s Sword)
+create_artifact_aom_gram_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_gram_name
+		description = aom_gram_desc
+		type = weapon_simple
+		visuals = aom_gram
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_gram_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_gram_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_gram
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Tyrfing (Cursed Blade)
+create_artifact_aom_tyrfing_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_tyrfing_name
+		description = aom_tyrfing_desc
+		type = weapon_simple
+		visuals = aom_tyrfing
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_tyrfing_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_tyrfing_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_tyrfing
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Skofnung (Blade of Kings)
+create_artifact_aom_skofnung_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_skofnung_name
+		description = aom_skofnung_desc
+		type = weapon_simple
+		visuals = aom_skofnung
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_skofnung_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_skofnung_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_skofnung
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Mistilteinn (Sword of Sorcery)
+create_artifact_aom_mistilteinn_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_mistilteinn_name
+		description = aom_mistilteinn_desc
+		type = weapon_simple
+		visuals = aom_hrotti
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mistilteinn_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_mistilteinn_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_mistilteinn
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Lævateinn (Weapon of Loki)
+create_artifact_aom_laevateinn_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_laevateinn_name
+		description = aom_laevateinn_desc
+		type = weapon_simple
+		visuals = aom_laevateinn
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_laevateinn_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_laevateinn_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_laevateinn
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hrotti (Dragon Hoard Blade)
+create_artifact_aom_hrotti_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_hrotti_name
+		description = aom_hrotti_desc
+		type = weapon_simple
+		visuals = aom_hrotti
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hrotti_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_hrotti_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_hrotti
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hǫfuð (Heimdall’s Sword)
+create_artifact_aom_hofud_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_hofud_name
+		description = aom_hofud_desc
+		type = weapon_simple
+		visuals = aom_hofud
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hofud_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_hofud_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_hofud
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Dáinsleif (Sword of the Dead)
+create_artifact_aom_dainsleif_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_dainsleif_name
+		description = aom_dainsleif_desc
+		type = weapon_simple
+		visuals = aom_dainsleif
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_dainsleif_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_dainsleif_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_dainsleif
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Tarnkappe (Cloak of Invisibility)
+create_artifact_aom_tarnkappe_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_tarnkappe_name
+		description = aom_tarnkappe_desc
+		type = armor_simple
+		visuals = aom_tarnkappe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_tarnkappe_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_tarnkappe_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_tarnkappe
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Fjaðrhamr (Feathered Cloak)
+create_artifact_aom_fjadrhamr_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_fjadrhamr_name
+		description = aom_fjadrhamr_desc
+		type = armor_simple
+		visuals = aom_fjadrhamr
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_fjadrhamr_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_fjadrhamr_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_fjadrhamr
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Sword of Freyr 
+create_artifact_aom_sword_of_freyr_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_sword_of_freyr_name
+		description = aom_sword_of_freyr_desc
+		type = weapon_simple
+		visuals = aom_sword_of_freyr
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sword_of_freyr_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_sword_of_freyr_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_sword_of_freyr
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Hlidskjalf (Odin's Throne)
+create_artifact_aom_throne_hlidskjalf_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_throne_hlidskjalf_name
+		description = aom_throne_hlidskjalf_desc
+		type = throne_special
+		visuals = aom_throne_hlidskjalf
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_throne_hlidskjalf_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_throne_hlidskjalf_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_throne_hlidskjalf
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Gleipnir (Binding Chain)
+create_artifact_aom_gleipnir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_gleipnir_name
+		description = aom_gleipnir_desc
+		type = sculpture_simple
+		visuals = aom_gleipnir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_gleipnir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_gleipnir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_gleipnir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Eldhrímnir (Cooking Cauldron of the Gods)
+create_artifact_aom_eldhrimnir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_eldhrimnir_name
+		description = aom_eldhrimnir_desc
+		type = sculpture_simple
+		visuals = aom_eldhrimnir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_eldhrimnir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_eldhrimnir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_eldhrimnir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Óðrerir (Mead of Poetry)
+create_artifact_aom_odrerir_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_odrerir_name
+		description = aom_odrerir_desc
+		type = pedestal_simple
+		visuals = aom_odrerir
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_odrerir_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_odrerir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_odrerir
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Boðn (Mead of Poetry)
+create_artifact_aom_bodn_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_bodn_name
+		description = aom_bodn_desc
+		type = pedestal_simple
+		visuals = aom_bodn
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_bodn_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_bodn_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_bodn
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Són (Mead of Poetry)
+create_artifact_aom_son_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_son_name
+		description = aom_son_desc
+		type = pedestal_simple
+		visuals = aom_son
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_son_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_son_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_son
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Gjallarhorn (Horn of Heimdallr)
+create_artifact_aom_gjallarhorn_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_gjallarhorn_name
+		description = aom_gjallarhorn_desc
+		type = pedestal_simple
+		visuals = aom_gjallarhorn
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_gjallarhorn_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_gjallarhorn_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_gjallarhorn
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Mímir’s Skull
+create_artifact_aom_mimirs_skull_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_mimirs_skull_name
+		description = aom_mimirs_skull_desc
+		type = pedestal_simple
+		visuals = aom_mimirs_skull
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mimirs_skull_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_mimirs_skull_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_mimirs_skull
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Bragi’s Harp
+create_artifact_aom_bragis_harp_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_bragis_harp_name
+		description = aom_bragis_harp_desc
+		type = pedestal_simple
+		visuals = aom_bragis_harp
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_bragis_harp_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_bragis_harp_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_bragis_harp
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

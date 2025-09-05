@@ -1,0 +1,137 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Kladenets (Self-Swinging Sword)
+aom_kladenets_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
+
+# Perun's Axe
+aom_peruns_axe_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		prowess = 12
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+# Raskovnik (Magic Herb)
+aom_raskovnik_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		intrigue = 2
+
+	}
+	unique = yes
+}
+
+# The Firebird’s Feather
+aom_firebird_feather_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.5
+		diplomacy = 2
+	}
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Koschei's Needle
+aom_koscheis_needle_template = {
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		enemy_hostile_scheme_success_chance_add = -5
+		intrigue = 3
+	}
+	unique = yes
+}
+
+# Alatyr (Sacred Stone)
+aom_alatyr_template = {
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		learning = 3
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+# Fern Flower
+aom_fern_flower_template = {
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		stewardship = 2
+		fertility = 0.1
+	}
+	unique = yes
+}
+
+# Baba Yaga’s Mortar and Pestle
+aom_baba_yagas_mortar_template = {
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			faith.religion = religion:slavic_religion
+		}
+	}
+	fallback = {
+		intrigue = 2
+		learning = 2
+	}
+	unique = yes
+}

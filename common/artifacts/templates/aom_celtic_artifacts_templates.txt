@@ -1,0 +1,321 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Sleg (Spear of Lugh)
+aom_sleg_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 10
+		martial = 2
+	}
+	unique = yes
+}
+
+# Lugh’s Sling
+aom_lughs_sling_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 1
+	}
+	unique = yes
+}
+
+# Claíomh Solais (Sword of Light)
+aom_claiomh_solais_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 6
+		martial = 1
+	}
+	unique = yes
+}
+
+# Fragarach (Sword of Nuada) (Sword of Nuada)
+aom_fragarach_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 6
+		intrigue = 1
+	}
+	unique = yes
+}
+
+# Gáe Bulg (Scáthach's Spear)
+aom_gae_bulg_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
+
+# Caladbolg
+aom_caladbolg_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Móralltach (the Great Fury)
+aom_moralltach_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 7
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Beagalltach (the Little Fury)
+aom_beagalltach_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 5
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+# Dubán (Cu Chulainn's Black Shield)
+aom_duban_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 6
+	}
+	unique = yes
+}
+
+# Dyrnwyn (White Hilt)
+aom_dyrnwyn_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.2
+	}
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Uaithne (The Dagda's Harp)
+aom_uaithne_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		diplomacy = 6
+		monthly_prestige = 0.2
+		court_grandeur_baseline_add = 12
+	}
+	unique = yes
+}
+
+# Horn of Brân Galed
+aom_horn_of_bran_galed_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.2
+		learning = 2
+	}
+	unique = yes
+}
+
+# Hamper of Gwyddno Garanhir
+aom_hamper_of_gwyddno_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		county_opinion_add = 5
+		levy_reinforcement_rate = 0.05
+		supply_capacity_mult = 0.1
+	}
+	unique = yes
+}
+
+# Pair Dadeni (Cauldron of Rebirth)
+aom_pair_dadeni_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		epidemic_resistance = 5
+		monthly_income_mult = 0.1
+	}
+	unique = yes
+}
+
+# Cauldron of Inspiration
+aom_cauldron_of_inspiration_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_goidelic
+				}
+			}
+		}
+	}
+	fallback = {
+		learning = 4
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+	}
+	unique = yes
+}

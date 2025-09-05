@@ -1,0 +1,33 @@
+﻿# Transfer All Artifacts
+aom_debug_transfer_all_artifacts = {
+	decision_group_type = debug
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_legend.dds"
+	}
+	desc = aom_debug_transfer_all_artifacts_desc
+	is_shown = { debug_only = yes }
+	is_valid_showing_failures_only = { is_available_adult_or_is_commanding = yes }
+	ai_check_interval = 0
+	effect = {
+		every_living_character = {
+			every_character_artifact = {
+				limit = { has_variable = aom_artifact }
+				set_owner = ROOT
+			}
+		}
+	}
+}
+
+# Create All Artifacts
+aom_debug_create_all_artifacts = {
+	decision_group_type = debug
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_legend.dds"
+	}
+	desc = aom_debug_create_all_artifacts_desc
+	is_shown = { debug_only = yes }
+	is_valid_showing_failures_only = { is_available_adult_or_is_commanding = yes }
+	ai_check_interval = 0
+	effect = {
+	}
+}

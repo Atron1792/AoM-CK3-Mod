@@ -1,0 +1,131 @@
+﻿#  Artifact Requirements
+aom_artifact_requirements = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_artifact_requirements_enabled
+
+	aom_artifact_requirements_enabled = {}
+	aom_artifact_requirements_disabled = {}
+}
+
+# Generate Norse Artifacts
+aom_generate_norse_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_norse_artifacts_all
+
+	aom_generate_norse_artifacts_all = {}
+	aom_generate_norse_artifacts_only_god = {}
+	aom_generate_norse_artifacts_only_legend = {}
+	aom_generate_norse_artifacts_with_descision = {}
+	aom_generate_norse_artifacts_disabled = {}
+}
+
+# Generate Greco-Roman Artifacts
+aom_generate_greco_roman_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_greco_roman_artifacts_all
+
+	aom_generate_greco_roman_artifacts_all = {}
+	aom_generate_greco_roman_artifacts_only_god = {}
+	aom_generate_greco_roman_artifacts_only_legend = {}
+	aom_generate_greco_roman_artifacts_with_descision = {}
+	aom_generate_greco_roman_artifacts_disabled = {}
+}
+
+# Generate Abrahamic Artifacts
+aom_generate_abrahamic_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_abrahamic_artifacts_all
+
+	aom_generate_abrahamic_artifacts_all = {}
+	aom_generate_abrahamic_artifacts_only_god = {}
+	aom_generate_abrahamic_artifacts_only_legend = {}
+	aom_generate_abrahamic_artifacts_with_descision = {}
+	aom_generate_abrahamic_artifacts_disabled = {}
+}
+
+# Generate Celtic Artifacts
+aom_generate_celtic_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_celtic_artifacts_all
+
+	aom_generate_celtic_artifacts_all = {}
+	aom_generate_celtic_artifacts_only_god = {}
+	aom_generate_celtic_artifacts_only_legend = {}
+	aom_generate_celtic_artifacts_with_descision = {}
+	aom_generate_celtic_artifacts_disabled = {}
+}
+
+# Generate Arthurian Artifacts
+aom_generate_arthurian_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_arthurian_artifacts_all
+
+	aom_generate_arthurian_artifacts_all = {}
+	aom_generate_arthurian_artifacts_only_god = {}
+	aom_generate_arthurian_artifacts_only_legend = {}
+	aom_generate_arthurian_artifacts_with_descision = {}
+	aom_generate_arthurian_artifacts_disabled = {}
+}
+
+# Generate Finno-Ugric Artifacts
+aom_generate_finno_ugric_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_finno_ugric_artifacts_all
+
+	aom_generate_finno_ugric_artifacts_all = {}
+	aom_generate_finno_ugric_artifacts_only_god = {}
+	aom_generate_finno_ugric_artifacts_only_legend = {}
+	aom_generate_finno_ugric_artifacts_with_descision = {}
+	aom_generate_finno_ugric_artifacts_disabled = {}
+}
+
+# Generate Slavic Artifacts
+aom_generate_slavic_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_slavic_artifacts_all
+
+	aom_generate_slavic_artifacts_all = {}
+	aom_generate_slavic_artifacts_only_god = {}
+	aom_generate_slavic_artifacts_only_legend = {}
+	aom_generate_slavic_artifacts_with_descision = {}
+	aom_generate_slavic_artifacts_disabled = {}
+}
+
+# Generate Lovecraftian Artifacts
+aom_generate_lovecraftian_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_lovecraftian_artifacts_all
+
+	aom_generate_lovecraftian_artifacts_all = {}
+	aom_generate_lovecraftian_artifacts_only_god = {}
+	aom_generate_lovecraftian_artifacts_only_legend = {}
+	aom_generate_lovecraftian_artifacts_with_descision = {}
+	aom_generate_lovecraftian_artifacts_disabled = {}
+}

@@ -1,0 +1,5 @@
+﻿2222000 ={
+	pattern = "pattern_solid.dds"
+	color1 = white
+	color2 = black
+}

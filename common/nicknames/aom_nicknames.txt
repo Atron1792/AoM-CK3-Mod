@@ -1,0 +1,2 @@
+﻿nick_the_mad_arab = { is_bad = yes }
+nick_the_mad_monk = { is_bad = yes }

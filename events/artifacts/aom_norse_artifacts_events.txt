@@ -1,0 +1,1298 @@
+﻿namespace = aom_norse_artifacts
+
+############################
+# Generate God Tier Artifacts
+############################
+aom_norse_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Court Artifacts
+		# Hlidskjalf (Odin's Throne)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_throne_hlidskjalf }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_throne_hlidskjalf_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_throne_hlidskjalf }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_throne_hlidskjalf_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Gleipnir (Binding Chain)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gleipnir }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_gleipnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gleipnir }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_gleipnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Eldhrímnir (Cooking Cauldron of the Gods)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_eldhrimnir }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_eldhrimnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_eldhrimnir }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_eldhrimnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+			
+		# Óðrerir (Mead of Poetry)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_odrerir }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_odrerir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_odrerir }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_odrerir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Boðn (Mead of Poetry)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_bodn }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_bodn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_bodn }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_bodn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Són (Mead of Poetry)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_son }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_son_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_son }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_son_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Gjallarhorn (Horn of Heimdallr)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gjallarhorn }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_gjallarhorn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gjallarhorn }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_gjallarhorn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Mímir’s Skull
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mimirs_skull }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_mimirs_skull_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mimirs_skull }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_mimirs_skull_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Bragi’s Harp
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_bragis_harp }
+					}
+					highest_held_title_tier >= tier_duchy
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_bragis_harp_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_bragis_harp }
+					}
+					highest_held_title_tier >= tier_duchy
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_bragis_harp_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Inventory Artifacts
+		# Gungnir (Odin’s Spear)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gungnir }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_gungnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gungnir }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_gungnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Mjölnir (Thor’s Hammer)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mjolnir }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_mjolnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mjolnir }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_mjolnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Járngreipr (Thor’s Gauntlet)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_jarngreipr }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_jarngreipr_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_jarngreipr }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_jarngreipr_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+			
+		# Megingjörð (Thor’s Belt)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_megingjord }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_megingjord_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_megingjord }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_megingjord_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Brísingamen (Freyja’s Necklace)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_brisingamen }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_brisingamen_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_brisingamen }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_brisingamen_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Draupnir (Odin’s Ring)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_draupnir }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_draupnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_draupnir }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_draupnir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Andvaranaut (Cursed Ring)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_andvaranaut }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_andvaranaut_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_andvaranaut }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_andvaranaut_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Helm of Awe (Terror Helm)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_helm_of_awe }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_helm_of_awe_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_helm_of_awe }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_helm_of_awe_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Svalinn (Sun Shield)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_svalinn }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_svalinn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_svalinn }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_svalinn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+			
+		# Lævateinn (Weapon of Loki)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_laevateinn }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_laevateinn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_laevateinn }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_laevateinn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Hǫfuð (Heimdall’s Sword)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_hofud }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_hofud_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_hofud }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_hofud_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Tarnkappe (Cloak of Invisibility)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_tarnkappe }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_tarnkappe_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_tarnkappe }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_tarnkappe_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Fjaðrhamr (Feathered Cloak)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_fjadrhamr }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_fjadrhamr_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_fjadrhamr }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_fjadrhamr_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Sword of Freyr 
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_sword_of_freyr }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_sword_of_freyr_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_sword_of_freyr }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_sword_of_freyr_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+	}			
+}
+
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_norse_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		# Inventory Artifacts
+		# Gram (Sigurd’s Sword)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gram }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_gram_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_gram }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_gram_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Tyrfing (Cursed Blade)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_tyrfing }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_tyrfing_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_tyrfing }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_tyrfing_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Skofnung (Blade of Kings)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_skofnung }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_skofnung_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_skofnung }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_skofnung_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Mistilteinn (Sword of Sorcery)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mistilteinn }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_mistilteinn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mistilteinn }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_mistilteinn_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Hrotti (Dragon Hoard Blade)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_hrotti }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_hrotti_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_hrotti }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_hrotti_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+
+		# Dáinsleif (Sword of the Dead)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_dainsleif }
+					}
+					highest_held_title_tier >= tier_county
+					faith.religion = religion:germanic_religion
+				}
+				create_artifact_aom_dainsleif_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		
+			random_ruler = {
+				limit = {
+					OR = {
+						has_government = tribal_government
+						has_government = feudal_government
+					}
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_dainsleif }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_north_germanic }
+				}
+				create_artifact_aom_dainsleif_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+	}
+}

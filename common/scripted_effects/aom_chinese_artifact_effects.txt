@@ -1,0 +1,480 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Pangu’s Axe
+create_artifact_aom_pangu_axe_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_pangu_axe_name
+		description = aom_pangu_axe_desc
+		type = weapon_simple
+		visuals = aom_pangu_axe
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_pangu_axe_template
+		history = { type = created_before_history }
+		modifier = aom_pangu_axe_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_pangu_axe
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Ruyi Jingu Bang (Sun Wukong’s Staff)
+create_artifact_aom_ruyi_jingu_bang_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_ruyi_jingu_bang_name
+		description = aom_ruyi_jingu_bang_desc
+		type = weapon_simple
+		visuals = aom_ruyi_jingu_bang
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_ruyi_jingu_bang_template
+		history = { type = created_before_history }
+		modifier = aom_ruyi_jingu_bang_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_ruyi_jingu_bang
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Sun Wukong’s Boots
+create_artifact_aom_wukong_boots_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_wukong_boots_name
+		description = aom_wukong_boots_desc
+		type = trinket
+		visuals = aom_wukong_boots
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_wukong_boots_template
+		history = { type = created_before_history }
+		modifier = aom_wukong_boots_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_wukong_boots
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Peach of Immortality
+create_artifact_aom_peach_of_immortality_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_peach_of_immortality_name
+		description = aom_peach_of_immortality_desc
+		type = trinket
+		visuals = aom_peach_of_immortality
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_peach_of_immortality_template
+		history = { type = created_before_history }
+		modifier = aom_peach_of_immortality_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_peach_of_immortality
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Xuan Yuan Sword
+create_artifact_aom_xuan_yuan_sword_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_xuan_yuan_sword_name
+		description = aom_xuan_yuan_sword_desc
+		type = weapon_simple
+		visuals = aom_xuan_yuan_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_xuan_yuan_sword_template
+		history = { type = created_before_history }
+		modifier = aom_xuan_yuan_sword_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_xuan_yuan_sword
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Erlang Shen's Spear
+create_artifact_aom_erlang_spear_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_erlang_spear_name
+		description = aom_erlang_spear_desc
+		type = weapon_simple
+		visuals = aom_erlang_spear
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_erlang_spear_template
+		history = { type = created_before_history }
+		modifier = aom_erlang_spear_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_erlang_spear
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Kenkonken (Nezha's Chakram)
+create_artifact_aom_kenkonken_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_kenkonken_name
+		description = aom_kenkonken_desc
+		type = weapon_simple
+		visuals = aom_kenkonken
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_kenkonken_template
+		history = { type = created_before_history }
+		modifier = aom_kenkonken_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_kenkonken
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Qiankun Dai (Universe Bag)
+create_artifact_aom_qiankun_dai_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_qiankun_dai_name
+		description = aom_qiankun_dai_desc
+		type = trinket
+		visuals = aom_qiankun_dai
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_qiankun_dai_template
+		history = { type = created_before_history }
+		modifier = aom_qiankun_dai_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_qiankun_dai
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Sword of Goujian
+create_artifact_aom_sword_of_goujian_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_sword_of_goujian_name
+		description = aom_sword_of_goujian_desc
+		type = weapon_simple
+		visuals = aom_sword_of_goujian
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sword_of_goujian_template
+		history = { type = created_before_history }
+		modifier = aom_sword_of_goujian_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_sword_of_goujian
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Green Dragon Crescent Blade (Guan Yu's Weapon)
+create_artifact_aom_green_dragon_blade_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_green_dragon_blade_name
+		description = aom_green_dragon_blade_desc
+		type = weapon_simple
+		visuals = aom_green_dragon_blade
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_green_dragon_blade_template
+		history = { type = created_before_history }
+		modifier = aom_green_dragon_blade_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_green_dragon_blade
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Zhang Fei's Spear
+create_artifact_aom_zhang_fei_spear_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_zhang_fei_spear_name
+		description = aom_zhang_fei_spear_desc
+		type = weapon_simple
+		visuals = aom_zhang_fei_spear
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_zhang_fei_spear_template
+		history = { type = created_before_history }
+		modifier = aom_zhang_fei_spear_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_zhang_fei_spear
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hou Yi’s Bow
+create_artifact_aom_hou_yi_bow_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_hou_yi_bow_name
+		description = aom_hou_yi_bow_desc
+		type = weapon_simple
+		visuals = aom_hou_yi_bow
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hou_yi_bow_template
+		history = { type = created_before_history }
+		modifier = aom_hou_yi_bow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_hou_yi_bow
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Gan Jiang
+create_artifact_aom_gan_jiang_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_gan_jiang_name
+		description = aom_gan_jiang_desc
+		type = weapon_simple
+		visuals = aom_gan_jiang
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_gan_jiang_template
+		history = { type = created_before_history }
+		modifier = aom_gan_jiang_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_gan_jiang
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Mo Ye
+create_artifact_aom_mo_ye_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_mo_ye_name
+		description = aom_mo_ye_desc
+		type = weapon_simple
+		visuals = aom_mo_ye
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mo_ye_template
+		history = { type = created_before_history }
+		modifier = aom_mo_ye_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_mo_ye
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Mianguan
+create_artifact_aom_mianguan_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_mianguan_name
+		description = aom_mianguan_desc
+		type = regalia
+		visuals = aom_mianguan
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mianguan_template
+		history = { type = created_before_history }
+		modifier = aom_mianguan_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_mianguan
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Heirloom Seal of the Realm
+create_artifact_aom_heirloom_seal_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_heirloom_seal_name
+		description = aom_heirloom_seal_desc
+		type = trinket
+		visuals = aom_heirloom_seal
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_heirloom_seal_template
+		history = { type = created_before_history }
+		modifier = aom_heirloom_seal_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_heirloom_seal
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Nieh-ching-t'ai (Mirror of Retribution)
+create_artifact_aom_mirror_of_retribution_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_mirror_of_retribution_name
+		description = aom_mirror_of_retribution_desc
+		type = trinket
+		visuals = aom_mirror_of_retribution
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_mirror_of_retribution_template
+		history = { type = created_before_history }
+		modifier = aom_mirror_of_retribution_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_mirror_of_retribution
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Jade Books
+create_artifact_aom_jade_books_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_jade_books_name
+		description = aom_jade_books_desc
+		type = book
+		visuals = aom_jade_books
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_jade_books_template
+		history = { type = created_before_history }
+		modifier = aom_jade_books_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_jade_books
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Jiuding (Nine-Tripod Cauldrons)
+create_artifact_aom_jiuding_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_jiuding_name
+		description = aom_jiuding_desc
+		type = trinket
+		visuals = aom_jiuding
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_jiuding_template
+		history = { type = created_before_history }
+		modifier = aom_jiuding_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_jiuding
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

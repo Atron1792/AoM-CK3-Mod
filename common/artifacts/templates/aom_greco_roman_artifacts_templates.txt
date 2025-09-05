@@ -1,0 +1,634 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Achilles' Armor
+aom_achilles_armor_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 5
+	}
+	unique = yes
+}
+
+# Aegis (Zeus' Shield)
+aom_aegis_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		dread_gain_mult = 0.5
+		monthly_prestige = 0.1
+	}
+	unique = yes
+}
+
+# Ambrosia (Nectar of the Gods)
+aom_ambrosia_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		health = 0.5
+		years_of_fertility = 5
+	}
+	unique = yes
+}
+
+# Apollo's Bow
+aom_apollos_bow_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 8
+		monthly_prestige = 0.25
+	}
+	unique = yes
+}
+
+# Caduceus (Hermes' Staff)
+aom_caduceus_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		stewardship = 4
+		diplomacy = 2
+	}
+	unique = yes
+}
+
+# Eros' Bow
+aom_eros_bow_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		seduce_scheme_phase_duration_add = -10
+		attraction_opinion = 10
+	}
+	unique = yes
+}
+
+# Apple of Discord
+aom_apple_of_discord_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		diplomacy = 3
+		county_opinion_add = -25
+		general_opinion = -25
+	}
+	unique = yes
+}
+
+# Rod of Asclepius
+aom_rod_of_asclepius_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		learning = 3
+		epidemic_resistance = 5
+	}
+	unique = yes
+}
+
+# Poseidon's Trident
+aom_poseidons_trident_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 10
+		monthly_prestige = 0.5
+	}
+	unique = yes
+}
+
+# Shield of Achilleus
+aom_shield_of_achilleus_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 5
+	}
+	unique = yes
+}
+
+# Spear of Achilles
+aom_spear_of_achilles_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 6
+	}
+	unique = yes
+}
+
+# Thyrsus (Staff of Dionysus)
+aom_thyrsus_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		diplomacy = 3asa
+	}
+	unique = yes
+}
+
+# Talaria (Hermes's Winged Sandals)
+aom_talaria_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		character_travel_speed = 10
+		diplomacy = 2
+	}
+	unique = yes
+}
+
+# Zeus' Lightning Bolt
+aom_zeus_lightning_bolt_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 10
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Hades' Bident
+aom_hades_bident_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 8
+		dread_gain_mult = 0.05
+	}
+	unique = yes
+}
+
+# Helm of Darkness (Hades' Helm)
+aom_helm_of_darkness_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 5
+		intrigue = 3
+	}
+	unique = yes
+}
+
+# Harpe (Perseus' Sword)
+aom_harpe_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 6
+		monthly_prestige = 0.1
+	}
+	unique = yes
+}
+
+# Necklace of Harmonia
+aom_necklace_of_harmonia_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		diplomacy = 6
+		courtier_and_guest_opinion = -20
+		county_opinion_add = -40
+	}
+	unique = yes
+}
+
+# Kronos' Scythe
+aom_kronos_scythe_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 9
+		dread_gain_mult = 0.1
+	}
+	unique = yes
+}
+
+# Zeus' Labrys (Zues' Axe)
+aom_zeus_labrys_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 8
+		knight_effectiveness_mult = 0.15
+	}
+	unique = yes
+}
+
+# Artemis's Bow
+aom_artemis_bow_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 8
+		monthly_prestige = 0.25
+	}
+	unique = yes
+}
+
+# Eurytus' Bow (Odysseus' Bow)
+aom_eurytus_bow_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 6
+		martial = 1
+	}
+	unique = yes
+}
+
+# Panacea
+aom_panacea_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		health = 0.5
+		epidemic_resistance = 10
+	}
+	unique = yes
+}
+
+# Bag of Wind
+aom_bag_of_wind_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		character_travel_speed_mult = 0.1
+		movement_speed = 0.1
+		naval_movement_speed_mult = 0.1
+	}
+	unique = yes
+}
+
+# Triton's Conch
+aom_tritons_conch_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		naval_movement_speed_mult = 0.1
+		embarkation_cost_mult = -0.1
+	}
+	unique = yes
+}
+
+# Nemean Lion Hide
+aom_nemean_lion_hide_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 6
+		enemy_hostile_scheme_success_chance_add = -5
+	}
+	unique = yes
+}
+
+# Girdle of Hippolyta
+aom_girdle_of_hippolyta_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		prowess = 5
+		attraction_opinion = 5
+	}
+	unique = yes
+}
+
+############################
+# Court Artifacts
+############################
+# Apollo's Kithara (Apollo's Lyre)
+aom_apollos_kithara_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		diplomacy = 3
+		monthly_prestige = 0.3
+	}
+	unique = yes
+}
+
+# Cornucopia (Horn of Plenty)
+aom_cornucopia_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		levy_reinforcement_rate = 0.05
+		county_opinion_add = 10
+	}
+	unique = yes
+}
+
+# Golden Fleece
+aom_golden_fleece_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.5
+		court_grandeur_baseline_add = 5
+	}
+	unique = yes
+}
+
+# Scale of Justice (Themis' Scale)
+aom_scale_of_justice_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		parochial_opinion = 10
+		monthly_piety = 0.2
+	}
+	unique = yes
+}
+
+# Icarus' Feather (Icarus' Wings)
+aom_icarus_feather_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		character_travel_speed = 10
+	}
+	unique = yes
+}
+
+# Prometheus's Chains
+aom_prometheus_chains_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		dread_baseline_add = 10
+	}
+	unique = yes
+}
+
+# Medusa's Head
+aom_medusas_head_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		dread_baseline_add = 15
+		dread_gain_mult = 0.1
+	}
+	unique = yes
+}
+
+# Zeus' Throne
+aom_throne_zeus_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+	}
+	fallback = {
+		monthly_prestige = 0.5
+		court_grandeur_baseline_add = 10
+		dread_gain_mult = 0.15
+		diplomacy = 6
+	}
+	unique = yes
+}

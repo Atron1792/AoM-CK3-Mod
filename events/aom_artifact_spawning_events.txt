@@ -1,0 +1,1019 @@
+﻿namespace = aom_artifact_spawning
+# Spawn Norse Artifacts
+aom_artifact_spawning.1001 = {
+	type = character_event
+	title = aom_artifact_spawning.1001.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_gungnir_name
+		create_artifact_aom_gungnir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_mjolnir_name
+		create_artifact_aom_mjolnir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_jarngreipr_name
+		create_artifact_aom_jarngreipr_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_megingjord_name
+		create_artifact_aom_megingjord_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_brisingamen_name
+		create_artifact_aom_brisingamen_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_draupnir_name
+		create_artifact_aom_draupnir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_andvaranaut_name
+		create_artifact_aom_andvaranaut_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_helm_of_awe_name
+		create_artifact_aom_helm_of_awe_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1002
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1002 = {
+	type = character_event
+	title = aom_artifact_spawning.1001.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_gram_name
+		create_artifact_aom_gram_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_tyrfing_name
+		create_artifact_aom_tyrfing_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_skofnung_name
+		create_artifact_aom_skofnung_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_mistilteinn_name
+		create_artifact_aom_mistilteinn_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_laevateinn_name
+		create_artifact_aom_laevateinn_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_hrotti_name
+		create_artifact_aom_hrotti_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_hofud_name
+		create_artifact_aom_hofud_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1001
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1003
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1003 = {
+	type = character_event
+	title = aom_artifact_spawning.1001.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_svalinn_name
+		create_artifact_aom_svalinn_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_dainsleif_name
+		create_artifact_aom_dainsleif_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_tarnkappe_name
+		create_artifact_aom_tarnkappe_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_fjadrhamr_name
+		create_artifact_aom_fjadrhamr_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_sword_of_freyr_name
+		create_artifact_aom_sword_of_freyr_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_throne_hlidskjalf_name
+		create_artifact_aom_throne_hlidskjalf_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_gleipnir_name
+		create_artifact_aom_gleipnir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1002
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1004
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1004 = {
+	type = character_event
+	title = aom_artifact_spawning.1001.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_eldhrimnir_name
+		create_artifact_aom_eldhrimnir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_odrerir_name
+		create_artifact_aom_odrerir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_bodn_name
+		create_artifact_aom_bodn_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_son_name
+		create_artifact_aom_son_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_gjallarhorn_name
+		create_artifact_aom_gjallarhorn_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_mimirs_skull_name
+		create_artifact_aom_mimirs_skull_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_bragis_harp_name
+		create_artifact_aom_bragis_harp_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1003
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Greco-Roman Artifact
+aom_artifact_spawning.1011 = {
+	type = character_event
+	title = aom_artifact_spawning.1011.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_achilles_armor_name
+		create_artifact_aom_achilles_armor_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_aegis_name
+		create_artifact_aom_aegis_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_ambrosia_name
+		create_artifact_aom_ambrosia_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_apollos_bow_name
+		create_artifact_aom_apollos_bow_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_caduceus_name
+		create_artifact_aom_caduceus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_eros_bow_name
+		create_artifact_aom_eros_bow_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_apple_of_discord_name
+		create_artifact_aom_apple_of_discord_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_rod_of_asclepius_name
+		create_artifact_aom_rod_of_asclepius_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1012
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1012 = {
+	type = character_event
+	title = aom_artifact_spawning.1011.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_poseidons_trident_name
+		create_artifact_aom_poseidons_trident_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_shield_of_achilleus_name
+		create_artifact_aom_shield_of_achilleus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_spear_of_achilles_name
+		create_artifact_aom_spear_of_achilles_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_thyrsus_name
+		create_artifact_aom_thyrsus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_talaria_name
+		create_artifact_aom_talaria_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_zeus_lightning_bolt_name
+		create_artifact_aom_zeus_lightning_bolt_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_hades_bident_name
+		create_artifact_aom_hades_bident_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1011
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1013
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1013 = {
+	type = character_event
+	title = aom_artifact_spawning.1011.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_helm_of_darkness_name
+		create_artifact_aom_helm_of_darkness_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_harpe_name
+		create_artifact_aom_harpe_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_necklace_of_harmonia_name
+		create_artifact_aom_necklace_of_harmonia_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_kronos_scythe_name
+		create_artifact_aom_kronos_scythe_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_zeus_labrys_name
+		create_artifact_aom_zeus_labrys_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_artemis_bow_name
+		create_artifact_aom_artemis_bow_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_eurytus_bow_name
+		create_artifact_aom_eurytus_bow_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1012
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1014
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1014 = {
+	type = character_event
+	title = aom_artifact_spawning.1011.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_panacea_name
+		create_artifact_aom_panacea_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_bag_of_wind_name
+		create_artifact_aom_bag_of_wind_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_tritons_conch_name
+		create_artifact_aom_tritons_conch_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_nemean_lion_hide_name
+		create_artifact_aom_nemean_lion_hide_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_girdle_of_hippolyta_name
+		create_artifact_aom_girdle_of_hippolyta_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_apollos_kithara_name
+		create_artifact_aom_apollos_kithara_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_cornucopia_name
+		create_artifact_aom_cornucopia_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1013
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1015
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1015 = {
+	type = character_event
+	title = aom_artifact_spawning.1011.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_golden_fleece_name
+		create_artifact_aom_golden_fleece_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_scale_of_justice_name
+		create_artifact_aom_scale_of_justice_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_icarus_feather_name
+		create_artifact_aom_icarus_feather_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_prometheus_chains_name
+		create_artifact_aom_prometheus_chains_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_medusas_head_name
+		create_artifact_aom_medusas_head_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_throne_zeus_name
+		create_artifact_aom_throne_zeus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1014
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Abrahamic Artifact
+aom_artifact_spawning.1021 = {
+	type = character_event
+	title = aom_artifact_spawning.1021.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_conquests_crown_name
+		create_artifact_aom_conquests_crown_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_wars_greatsword_name
+		create_artifact_aom_wars_greatsword_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_crown_of_twelve_stars_name
+		create_artifact_aom_crown_of_twelve_stars_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_seamless_robe_of_jesus_name
+		create_artifact_aom_seamless_robe_of_jesus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_deaths_scythe_name
+		create_artifact_aom_deaths_scythe_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_ascalon_name
+		create_artifact_aom_ascalon_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_bradamantes_lance_name
+		create_artifact_aom_bradamantes_lance_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_holy_lance_name
+		create_artifact_aom_holy_lance_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1022
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1022 = {
+	type = character_event
+	title = aom_artifact_spawning.1021.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_conquests_bow_name
+		create_artifact_aom_conquests_bow_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_seal_of_solomon_name
+		create_artifact_aom_seal_of_solomon_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_famines_scale_name
+		create_artifact_aom_famines_scale_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_piece_of_noahs_ark_name
+		create_artifact_aom_piece_of_noahs_ark_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_sudarium_of_oviedo_name
+		create_artifact_aom_sudarium_of_oviedo_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_holy_grail_name
+		create_artifact_aom_holy_grail_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_holy_prepuce_name
+		create_artifact_aom_holy_prepuce_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1022
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1023
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1023 = {
+	type = character_event
+	title = aom_artifact_spawning.1021.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_book_of_life_name
+		create_artifact_aom_book_of_life_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_forbidden_fruit_name
+		create_artifact_aom_forbidden_fruit_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_horn_of_gabriel_name
+		create_artifact_aom_horn_of_gabriel_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_blood_of_christ_name
+		create_artifact_aom_blood_of_christ_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_moses_staff_name
+		create_artifact_aom_moses_staff_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_davids_sword_name
+		create_artifact_aom_davids_sword_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_coat_of_many_colors_name
+		create_artifact_aom_coat_of_many_colors_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1023
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1024
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1024 = {
+	type = character_event
+	title = aom_artifact_spawning.1021.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_aarons_rod_name
+		create_artifact_aom_aarons_rod_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_solomons_shamir_name
+		create_artifact_aom_solomons_shamir_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_greater_key_of_solomon_name
+		create_artifact_aom_greater_key_of_solomon_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_lesser_key_of_solomon_name
+		create_artifact_aom_lesser_key_of_solomon_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_goliaths_sword_name
+		create_artifact_aom_goliaths_sword_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_ark_of_bulrushes_name
+		create_artifact_aom_ark_of_bulrushes_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_tablets_of_stone_name
+		create_artifact_aom_tablets_of_stone_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1023
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1025
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1025 = {
+	type = character_event
+	title = aom_artifact_spawning.1021.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_joshuas_shofars_name
+		create_artifact_aom_joshuas_shofars_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_leviathans_hide_name
+		create_artifact_aom_leviathans_hide_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_throne_of_god_name
+		create_artifact_aom_throne_of_god_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_zulfiqar_name
+		create_artifact_aom_zulfiqar_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_sacred_cloak_of_the_prophet_name
+		create_artifact_aom_sacred_cloak_of_the_prophet_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_key_to_the_kaaba_name
+		create_artifact_aom_key_to_the_kaaba_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1024
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Celtic Artifacts
+aom_artifact_spawning.1031 = {
+	type = character_event
+	title = aom_artifact_spawning.1031.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_sleg_name
+		create_artifact_aom_sleg_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_lughs_sling_name
+		create_artifact_aom_lughs_sling_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_claiomh_solais_name
+		create_artifact_aom_claiomh_solais_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_fragarach_name
+		create_artifact_aom_fragarach_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_gae_bulg_name
+		create_artifact_aom_gae_bulg_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_caladbolg_name
+		create_artifact_aom_caladbolg_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_moralltach_name
+		create_artifact_aom_moralltach_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_beagalltach_name
+		create_artifact_aom_beagalltach_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1032
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1032 = {
+	type = character_event
+	title = aom_artifact_spawning.1031.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_duban_name
+		create_artifact_aom_duban_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_dyrnwyn_name
+		create_artifact_aom_dyrnwyn_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_uaithne_name
+		create_artifact_aom_uaithne_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_horn_of_bran_galed_name
+		create_artifact_aom_horn_of_bran_galed_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_hamper_of_gwyddno_name
+		create_artifact_aom_hamper_of_gwyddno_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_pair_dadeni_name
+		create_artifact_aom_pair_dadeni_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_cauldron_of_inspiration_name
+		create_artifact_aom_cauldron_of_inspiration_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1031
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Arthurian Artifacts
+aom_artifact_spawning.1041 = {
+	type = character_event
+	title = aom_artifact_spawning.1041.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_excalibur_name
+		create_artifact_aom_excalibur_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_carnwennan_name
+		create_artifact_aom_carnwennan_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_rhongomyniad_name
+		create_artifact_aom_rhongomyniad_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_pridwen_name
+		create_artifact_aom_pridwen_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_merlins_staff_name
+		create_artifact_aom_merlins_staff_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_clarent_name
+		create_artifact_aom_clarent_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_secace_name
+		create_artifact_aom_secace_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_courechouse_name
+		create_artifact_aom_courechouse_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1042
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1042 = {
+	type = character_event
+	title = aom_artifact_spawning.1041.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_galatine_name
+		create_artifact_aom_galatine_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_sword_of_the_red_hilt_name
+		create_artifact_aom_sword_of_the_red_hilt_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_throne_round_table_name
+		create_artifact_aom_throne_round_table_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1041
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Finno-Ugric Artifacts
+aom_artifact_spawning.1051 = {
+	type = character_event
+	title = aom_artifact_spawning.1051.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_ukonvasara_name
+		create_artifact_aom_ukonvasara_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_tarnhelm_name
+		create_artifact_aom_tarnhelm_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_kalevan_miekka_name
+		create_artifact_aom_kalevan_miekka_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_sampo_name
+		create_artifact_aom_sampo_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_kantele_name
+		create_artifact_aom_kantele_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+# Spawn Slavic Artifacts
+aom_artifact_spawning.1061 = {
+	type = character_event
+	title = aom_artifact_spawning.1061.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_kladenets_name
+		create_artifact_aom_kladenets_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_peruns_axe_name
+		create_artifact_aom_peruns_axe_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_raskovnik_name
+		create_artifact_aom_raskovnik_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_firebird_feather_name
+		create_artifact_aom_firebird_feather_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_koscheis_needle_name
+		create_artifact_aom_koscheis_needle_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_alatyr_name
+		create_artifact_aom_alatyr_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_fern_flower_name
+		create_artifact_aom_fern_flower_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_baba_yagas_mortar_name
+		create_artifact_aom_baba_yagas_mortar_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Lovecraftian Artifact
+aom_artifact_spawning.1071 = {
+	type = character_event
+	title = aom_artifact_spawning.1071.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_necronomicon_name
+		create_artifact_aom_necronomicon_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_book_of_eibon_name
+		create_artifact_aom_book_of_eibon_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_deep_ones_tiara_name
+		create_artifact_aom_deep_ones_tiara_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_hound_amulet_name
+		create_artifact_aom_hound_amulet_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_shining_trapezohedron_name
+		create_artifact_aom_shining_trapezohedron_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_cthulhu_idol_name
+		create_artifact_aom_cthulhu_idol_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_sliver_key_name
+		create_artifact_aom_sliver_key_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_confessions_of_clithanus_name
+		create_artifact_aom_confessions_of_clithanus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1072
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+aom_artifact_spawning.1072 = {
+	type = character_event
+	title = aom_artifact_spawning.1071.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_pnakotic_manuscripts_name
+		create_artifact_aom_pnakotic_manuscripts_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_mirror_of_nitocris_name
+		create_artifact_aom_mirror_of_nitocris_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_event_option.previous
+		trigger_event = aom_artifact_spawning.1071
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}

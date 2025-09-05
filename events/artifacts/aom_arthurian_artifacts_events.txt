@@ -1,0 +1,287 @@
+﻿namespace = aom_arthurian_artifacts
+
+############################
+# Generate God Tier Artifacts
+############################
+aom_arthurian_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Inventory Artifacts
+        # Excalibur (Caledfwlch)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_excalibur } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_excalibur_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_arthurian_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # The Round Table
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_throne_round_table } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_throne_round_table_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # Carnwennan (Arthur's Dagger)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_carnwennan } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_carnwennan_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Rhongomyniad (Arthur's Spear)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_rhongomyniad } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_rhongomyniad_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Pridwen (Arthur's Shield)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_pridwen } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_pridwen_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Merlin's Staff
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_merlins_staff } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_merlins_staff_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Clarent (The Sword in the Stone)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_clarent } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_clarent_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Secace (Sir Lancelot's Sword)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_secace } 
+                    }
+                    highest_held_title_tier >= tier_barony
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_secace_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Courechouse (King Ban's Sword)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_courechouse } 
+                    }
+                    highest_held_title_tier >= tier_barony
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_courechouse_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Galatine (Sir Gawain's Sword)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_galatine } 
+                    }
+                    highest_held_title_tier >= tier_barony
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_galatine_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Sword Of The Red Hilt (Sir Galahad's Sword)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_sword_of_the_red_hilt } 
+                    }
+                    highest_held_title_tier >= tier_barony
+                    culture = { has_cultural_pillar = heritage_brythonic }
+                }
+                create_artifact_aom_sword_of_the_red_hilt_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+

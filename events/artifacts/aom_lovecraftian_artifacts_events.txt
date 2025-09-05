@@ -1,0 +1,324 @@
+﻿namespace = aom_lovecraftian_artifacts
+
+############################
+# Generate God Tier Artifacts
+############################
+aom_lovecraftian_artifacts.001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # The Shining Trapezohedron 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_shining_trapezohedron } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_shining_trapezohedron_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Cthulhu Idol 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_cthulhu_idol } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_cthulhu_idol_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        
+        # The Sliver Key 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_sliver_key } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_sliver_key_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Pnakotic Manuscripts  
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_pnakotic_manuscripts } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_pnakotic_manuscripts_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Inventory Artifacts
+        # Necronomicon 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_necronomicon } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_necronomicon_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+            random_ruler = {
+				limit = {
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_necronomicon }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_arabic }
+				}
+				create_artifact_aom_necronomicon_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+        }
+
+        # Book Of Eibon 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_book_of_eibon } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_book_of_eibon_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+
+        # Deep One's Tiara
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_deep_ones_tiara } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_deep_ones_tiara_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+
+############################
+# Generate Legend Tier Artifacts
+############################
+aom_lovecraftian_artifacts.002 = {
+	scope = none
+	hidden = yes
+	immediate = {
+        # Court Artifacts
+        # Confessions of Clithanus
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_confessions_of_clithanus } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_confessions_of_clithanus_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+            random_ruler = {
+				limit = {
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_confessions_of_clithanus }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_latin }
+				}
+				create_artifact_aom_confessions_of_clithanus_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+        }
+
+        # The Mirror Of Nitocris 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_mirror_of_nitocris } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_mirror_of_nitocris_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+            random_ruler = {
+				limit = {
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_mirror_of_nitocris }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_east_african }
+				}
+				create_artifact_aom_mirror_of_nitocris_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+        }
+
+        # Inventory Artifacts
+        # Hound Amulet 
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_hound_amulet } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						has_trait = lunatic
+						has_trait = possessed
+						has_trait = eccentric
+					}
+                }
+                create_artifact_aom_hound_amulet_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+            random_ruler = {
+				limit = {
+					NOT = { 
+						has_character_flag = aom_seeded_relic 
+						any_artifact = { has_variable = aom_hound_amulet }
+					}
+					highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_tibetan }
+				}
+				create_artifact_aom_hound_amulet_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+        }
+    }
+}
+

@@ -1,0 +1,357 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Excalibur (Caledfwlch)
+create_artifact_aom_excalibur_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = aom_excalibur_name
+		description = aom_excalibur_desc
+		type = weapon_simple
+		visuals = aom_excalibur
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_excalibur_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_excalibur_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_excalibur
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Carnwennan (Arthur's Dagger)
+create_artifact_aom_carnwennan_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_carnwennan_name
+		description = aom_carnwennan_desc
+		type = weapon_simple
+		visuals = aom_carnwennan
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_carnwennan_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_carnwennan_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_carnwennan
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Rhongomyniad (Arthur's Spear)
+create_artifact_aom_rhongomyniad_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_rhongomyniad_name
+		description = aom_rhongomyniad_desc
+		type = weapon_simple
+		visuals = aom_rhongomyniad
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_rhongomyniad_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_rhongomyniad_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_rhongomyniad
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Pridwen (Arthur's Shield)
+create_artifact_aom_pridwen_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_pridwen_name
+		description = aom_pridwen_desc
+		type = regalia_simple
+		visuals = aom_pridwen
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_pridwen_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_pridwen_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_pridwen
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Merlin's Staff
+create_artifact_aom_merlins_staff_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_merlins_staff_name
+		description = aom_merlins_staff_desc
+		type = weapon_simple
+		visuals = aom_merlins_staff
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_merlins_staff_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_merlins_staff_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_merlins_staff
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Clarent (The Sword in the Stone)
+create_artifact_aom_clarent_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_clarent_name
+		description = aom_clarent_desc
+		type = weapon_simple
+		visuals = aom_clarent
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_clarent_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_clarent_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_clarent
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+## Secace (Sir Lancelot's Sword)
+create_artifact_aom_secace_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = aom_secace_name
+		description = aom_secace_desc
+		type = weapon_simple
+		visuals = aom_secace
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_secace_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_secace_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_secace
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Courechouse (King Ban's Sword)
+create_artifact_aom_courechouse_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = aom_courechouse_name
+		description = aom_courechouse_desc
+		type = weapon_simple
+		visuals = aom_courechouse
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_courechouse_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_courechouse_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_courechouse
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Galatine (Sir Gawain's Sword)
+create_artifact_aom_galatine_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = aom_galatine_name
+		description = aom_galatine_desc
+		type = weapon_simple
+		visuals = aom_galatine
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_galatine_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_galatine_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_galatine
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Sword Of The Red Hilt (Sir Galahad's Sword)
+create_artifact_aom_sword_of_the_red_hilt_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = aom_sword_of_the_red_hilt_name
+		description = aom_sword_of_the_red_hilt_desc
+		type = weapon_simple
+		visuals = aom_sword_of_the_red_hilt
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_sword_of_the_red_hilt_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_sword_of_the_red_hilt_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_sword_of_the_red_hilt
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# The Round Table
+create_artifact_aom_throne_round_table_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_throne_round_table_name
+		description = aom_throne_round_table_desc
+		type = throne_special
+		visuals = aom_throne_round_table
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_throne_round_table_template
+		history = {
+			type = created_before_history
+		}
+		modifier = aom_throne_round_table_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = aom_throne_round_table
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}

@@ -1,0 +1,280 @@
+﻿############################
+# Inventory Artifacts
+############################
+# Book of Thoth
+create_artifact_aom_book_of_thoth_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_book_of_thoth_name
+		description = aom_book_of_thoth_desc
+		type = book
+		visuals = aom_book_of_thoth
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_book_of_thoth_template
+		history = { type = created_before_history }
+		modifier = aom_book_of_thoth_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_book_of_thoth
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Spear of Ra
+create_artifact_aom_spear_of_ra_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_spear_of_ra_name
+		description = aom_spear_of_ra_desc
+		type = weapon_simple
+		visuals = aom_spear_of_ra
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_spear_of_ra_template
+		history = { type = created_before_history }
+		modifier = aom_spear_of_ra_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_spear_of_ra
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Knife of Isis
+create_artifact_aom_knife_of_isis_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_knife_of_isis_name
+		description = aom_knife_of_isis_desc
+		type = weapon_simple
+		visuals = aom_knife_of_isis
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_knife_of_isis_template
+		history = { type = created_before_history }
+		modifier = aom_knife_of_isis_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_knife_of_isis
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Scythe of Horus
+create_artifact_aom_scythe_of_horus_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_scythe_of_horus_name
+		description = aom_scythe_of_horus_desc
+		type = weapon_simple
+		visuals = aom_scythe_of_horus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_scythe_of_horus_template
+		history = { type = created_before_history }
+		modifier = aom_scythe_of_horus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_scythe_of_horus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Eye of Horus
+create_artifact_aom_eye_of_horus_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_eye_of_horus_name
+		description = aom_eye_of_horus_desc
+		type = trinket
+		visuals = aom_eye_of_horus
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_eye_of_horus_template
+		history = { type = created_before_history }
+		modifier = aom_eye_of_horus_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_eye_of_horus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Pschent (Double Crown of Egypt)
+create_artifact_aom_pschent_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_pschent_name
+		description = aom_pschent_desc
+		type = regalia
+		visuals = aom_pschent
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_pschent_template
+		history = { type = created_before_history }
+		modifier = aom_pschent_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_pschent
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Hedjet (White Crown of Upper Egypt)
+create_artifact_aom_hedjet_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_hedjet_name
+		description = aom_hedjet_desc
+		type = regalia
+		visuals = aom_hedjet
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_hedjet_template
+		history = { type = created_before_history }
+		modifier = aom_hedjet_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_hedjet
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Deshret (Red Crown of Lower Egypt)
+create_artifact_aom_deshret_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_deshret_name
+		description = aom_deshret_desc
+		type = regalia
+		visuals = aom_deshret
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_deshret_template
+		history = { type = created_before_history }
+		modifier = aom_deshret_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_deshret
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+############################
+# Court Artifacts
+############################
+# Neith's Loom
+create_artifact_aom_neiths_loom_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_neiths_loom_name
+		description = aom_neiths_loom_desc
+		type = trinket
+		visuals = aom_neiths_loom
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_neiths_loom_template
+		history = { type = created_before_history }
+		modifier = aom_neiths_loom_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_neiths_loom
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Feather of Ma’at
+create_artifact_aom_feather_of_maat_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_feather_of_maat_name
+		description = aom_feather_of_maat_desc
+		type = trinket
+		visuals = aom_feather_of_maat
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_feather_of_maat_template
+		history = { type = created_before_history }
+		modifier = aom_feather_of_maat_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_feather_of_maat
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Anubis’ Scales
+create_artifact_aom_anubis_scales_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_anubis_scales_name
+		description = aom_anubis_scales_desc
+		type = trinket
+		visuals = aom_anubis_scales
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_anubis_scales_template
+		history = { type = created_before_history }
+		modifier = aom_anubis_scales_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_anubis_scales
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
