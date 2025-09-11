@@ -7,7 +7,7 @@ aom_soul_edge_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			trait = sadistic
+
 		}
 	}
 	fallback = { prowess = 8 }
@@ -20,7 +20,7 @@ aom_blackfyre_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			dynasty_prestige_level >= 3
+
 		}
 	}
 	fallback = { prowess = 5 }
@@ -33,7 +33,6 @@ aom_one_ring_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			trait = deceitful
 		}
 	}
 	fallback = { prowess = 2 }
@@ -46,7 +45,6 @@ aom_elder_wand_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			trait = wise
 		}
 	}
 	fallback = { prowess = 1 }
@@ -62,7 +60,6 @@ aom_lightsaber_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			trait = ambitious
 		}
 	}
 	fallback = { prowess = 6 }
@@ -75,7 +72,6 @@ aom_palantir_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			trait = paranoid
 		}
 	}
 	fallback = { prowess = 1 }

@@ -7,7 +7,10 @@ aom_book_of_thoth_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -22,7 +25,10 @@ aom_spear_of_ra_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -37,7 +43,10 @@ aom_knife_of_isis_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -52,7 +61,10 @@ aom_scythe_of_horus_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -67,7 +79,10 @@ aom_eye_of_horus_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -82,7 +97,10 @@ aom_pschent_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -97,7 +115,10 @@ aom_hedjet_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -112,7 +133,10 @@ aom_deshret_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -130,7 +154,10 @@ aom_neiths_loom_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -145,7 +172,10 @@ aom_feather_of_maat_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {
@@ -160,7 +190,10 @@ aom_anubis_scales_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_egyptian }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				culture = egyptian
+			}
 		}
 	}
 	fallback = {

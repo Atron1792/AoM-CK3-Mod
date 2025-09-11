@@ -7,7 +7,12 @@ aom_sharur_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
@@ -22,7 +27,12 @@ aom_imhullu_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = { 
@@ -37,7 +47,12 @@ aom_marduks_net_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
@@ -55,7 +70,12 @@ aom_tablets_of_destinies_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
@@ -70,7 +90,12 @@ aom_bull_of_heaven_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
@@ -85,7 +110,12 @@ aom_lyre_of_ur_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
@@ -100,7 +130,12 @@ aom_mul_zibanu_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
@@ -115,7 +150,12 @@ aom_throne_ereshkigal_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_mesopotamian }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_syriac
+				}
+			}
 		}
 	}
 	fallback = {
