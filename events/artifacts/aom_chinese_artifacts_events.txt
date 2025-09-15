@@ -8,7 +8,62 @@ aom_chinese_artifacts.001 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
-		
+		# Nieh-ching-t'ai (Mirror of Retribution)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_mirror_of_retribution } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_mirror_of_retribution_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Jiuding (Nine-Tripod Cauldrons)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_jiuding } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_jiuding_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 
 		# Inventory Artifacts
 		# Pangu’s Axe
@@ -67,6 +122,118 @@ aom_chinese_artifacts.001 = {
                 }
             }
         }
+        # Sun Wukong’s Boots
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_wukong_boots } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_wukong_boots_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Peach of Immortality
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_peach_of_immortality } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_peach_of_immortality_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Kenkonken (Nezha's Chakram)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_kenkonken } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_kenkonken_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Qiankun Dai (Spatial Bag)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_qiankun_dai } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_qiankun_dai_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 	}
 }
 		
@@ -78,9 +245,315 @@ aom_chinese_artifacts.002 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
-        
+        # Heirloom Seal of the Realm
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_heirloom_seal } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_heirloom_seal_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Jade Books
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_jade_books } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_jade_books_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 		
 		# Inventory Artifacts
-        
+        # Xuan Yuan Sword
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_xuan_yuan_sword } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_xuan_yuan_sword_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Erlang Shen's Spear
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_erlang_spear } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_erlang_spear_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Sword of Goujian
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_sword_of_goujian } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_sword_of_goujian_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Green Dragon Crescent Blade (Guan Yu's Weapon)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_green_dragon_blade } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_green_dragon_blade_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Zhang Fei's Spear
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_zhang_fei_spear } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_zhang_fei_spear_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Hou Yi’s Bow
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_hou_yi_bow } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_hou_yi_bow_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Gan Jiang
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_gan_jiang } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_gan_jiang_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Mo Ye
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_mo_ye } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_mo_ye_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Mianguan
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_mianguan } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_chinese
+					        has_cultural_pillar = heritage_qiangic
+				        }
+				    }
+                }
+                create_artifact_aom_mianguan_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 	}
 }

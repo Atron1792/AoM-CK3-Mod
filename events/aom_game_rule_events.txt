@@ -247,15 +247,6 @@ aom_game_rule.012 = {
 		if = {
 			limit = { has_game_rule = aom_generate_easter_egg_artifacts_all }
 			trigger_event = aom_easter_egg_artifacts.001
-			trigger_event = aom_easter_egg_artifacts.002
-		}
-		if = {
-			limit = { has_game_rule = aom_generate_easter_egg_artifacts_only_god }
-			trigger_event = aom_easter_egg_artifacts.001
-		}
-		if = {
-			limit = { has_game_rule = aom_generate_easter_egg_artifacts_only_legend }
-			trigger_event = aom_easter_egg_artifacts.002
 		}
 	}
 }

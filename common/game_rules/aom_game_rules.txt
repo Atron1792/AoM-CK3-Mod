@@ -1,8 +1,6 @@
 ﻿#  Artifact Requirements
 aom_artifact_requirements = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_artifact_requirements_enabled
 
@@ -12,9 +10,7 @@ aom_artifact_requirements = {
 
 # Generate Norse Artifacts
 aom_generate_norse_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_norse_artifacts_all
 
@@ -27,9 +23,7 @@ aom_generate_norse_artifacts = {
 
 # Generate Greco-Roman Artifacts
 aom_generate_greco_roman_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_greco_roman_artifacts_all
 
@@ -42,9 +36,7 @@ aom_generate_greco_roman_artifacts = {
 
 # Generate Abrahamic Artifacts
 aom_generate_abrahamic_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_abrahamic_artifacts_all
 
@@ -57,9 +49,7 @@ aom_generate_abrahamic_artifacts = {
 
 # Generate Celtic Artifacts
 aom_generate_celtic_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_celtic_artifacts_all
 
@@ -72,9 +62,7 @@ aom_generate_celtic_artifacts = {
 
 # Generate Arthurian Artifacts
 aom_generate_arthurian_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_arthurian_artifacts_all
 
@@ -87,9 +75,7 @@ aom_generate_arthurian_artifacts = {
 
 # Generate Finno-Ugric Artifacts
 aom_generate_finno_ugric_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_finno_ugric_artifacts_all
 
@@ -102,9 +88,7 @@ aom_generate_finno_ugric_artifacts = {
 
 # Generate Slavic Artifacts
 aom_generate_slavic_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_slavic_artifacts_all
 
@@ -117,9 +101,7 @@ aom_generate_slavic_artifacts = {
 
 # Generate Lovecraftian Artifacts
 aom_generate_lovecraftian_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_lovecraftian_artifacts_all
 
@@ -132,9 +114,7 @@ aom_generate_lovecraftian_artifacts = {
 
 # Generate Mesopotamian Artifacts
 aom_generate_mesopotamian_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_mesopotamian_artifacts_all
 
@@ -147,9 +127,7 @@ aom_generate_mesopotamian_artifacts = {
 
 # Generate Egyptian Artifacts
 aom_generate_egyptian_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_egyptian_artifacts_all
 
@@ -162,9 +140,7 @@ aom_generate_egyptian_artifacts = {
 
 # Generate Chinese Artifacts
 aom_generate_chinese_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
 	default = aom_generate_chinese_artifacts_all
 
@@ -177,15 +153,11 @@ aom_generate_chinese_artifacts = {
 
 # Generate Easter Egg Artifacts
 aom_generate_easter_egg_artifacts = {
-	categories = {
-		historicity aom
-	}
+	categories = { aom }
 
-	default = aom_generate_easter_egg_artifacts_all
+	default = aom_generate_easter_egg_artifacts_disabled
 
 	aom_generate_easter_egg_artifacts_all = {}
-	aom_generate_easter_egg_artifacts_only_god = {}
-	aom_generate_easter_egg_artifacts_only_legend = {}
 	aom_generate_easter_egg_artifacts_with_descision = {}
 	aom_generate_easter_egg_artifacts_disabled = {}
 }

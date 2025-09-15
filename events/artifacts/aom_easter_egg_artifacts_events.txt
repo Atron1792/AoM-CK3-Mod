@@ -8,24 +8,7 @@ aom_easter_egg_artifacts.001 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
-		
 
 		# Inventory Artifacts
-		
-	}
-}
-		
-############################
-# Generate Legend Tier Artifacts
-############################
-aom_easter_egg_artifacts.002 = {
-	scope = none
-	hidden = yes
-	immediate = {
-		# Court Artifacts
-        
-		
-		# Inventory Artifacts
-        
 	}
 }
