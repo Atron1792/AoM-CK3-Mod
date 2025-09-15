@@ -29,5 +29,6 @@ aom_debug_create_all_artifacts = {
 	is_valid_showing_failures_only = { is_available_adult_or_is_commanding = yes }
 	ai_check_interval = 0
 	effect = {
+		create_artifact_aom_sharur_effect = { OWNER = this }
 	}
 }

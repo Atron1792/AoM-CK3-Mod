@@ -49,8 +49,12 @@
 - Added Egyptian artifacts with gamerule control
 - Added Chinese artifacts with gamerule control
 - Added Easter Egg artifacts with gamerule control
+
+Planned:
 - Decisions tied to specific artifacts
     - Convert to Hellenism (has Greco-Roman artifacts)
     - Convert to Celtic (has Celtic artifacts)
+- Artifact search
+- Cultural/religious artifact acquisition
 
 - custom models?

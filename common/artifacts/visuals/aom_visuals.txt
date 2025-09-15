@@ -1011,7 +1011,7 @@ aom_mul_zibanu = {
 
 # Ereshkigal's Throne
 aom_throne_ereshkigal = {
-    icon = "mesopotamian/aom_ereshkigal_throne.dds"
+    icon = "mesopotamian/aom_throne_ereshkigal.dds"
     asset = ep1_mediterranean_throne_basic_01_a_entity
 }
 
@@ -1068,7 +1068,6 @@ aom_deshret = {
 }
 
 # Court Artifacts
-
 # Neith's Loom
 aom_neiths_loom = {
     icon = "egyptian/aom_neiths_loom.dds"
@@ -1100,7 +1099,7 @@ aom_pangu_axe = {
     asset = ep1_western_axe_01_a_portrait_entity
 }
 
-# Ruyi Jingu Bang
+# Ruyi Jingu Bang (Sun Wukong’s Staff)
 aom_ruyi_jingu_bang = {
     icon = "chinese/aom_ruyi_jingu_bang.dds"
     asset = ep1_western_spear_01_a_portrait_entity
@@ -1214,43 +1213,43 @@ aom_jiuding = {
 }
 
 ############################
-# Mesopotamian Artifacts
+# Easter Egg Artifacts
 ############################
 # Inventory Artifacts
 # Soul Edge (Soul Calibur)
 aom_soul_edge = {
-    icon = "easteregg/aom_soul_edge.dds"
+    icon = "easter_egg/aom_soul_edge.dds"
     asset = ep1_western_sword_01_b_portrait_entity
 }
 
 # Blackfyre (AGOT)  
 aom_blackfyre = {
-    icon = "easteregg/aom_blackfyre.dds"
+    icon = "easter_egg/aom_blackfyre.dds"
     asset = ep1_western_sword_01_b_portrait_entity
 }
 
 # One Ring (LotR)
 aom_one_ring = {
-    icon = "easteregg/aom_one_ring.dds"
+    icon = "easter_egg/aom_one_ring.dds"
     asset = ep1_generic_jewelry_01_a_entity
 }
 
 # Elder Wand (Harry Potter)
 aom_elder_wand = {
-    icon = "easteregg/aom_elder_wand.dds"
+    icon = "easter_egg/aom_elder_wand.dds"
     asset = ep1_western_spear_01_a_portrait_entity
 }
 
 # Court Artifacts
 # Lightsaber (Starwars)
 aom_lightsaber = {
-    icon = "easteregg/aom_lightsaber.dds"
+    icon = "easter_egg/aom_lightsaber.dds"
     asset = ep1_western_sword_01_b_portrait_entity
 }
 
 # Palantír (LotR)
 aom_palantir = {
-    icon = "easteregg/aom_palantir.dds"
+    icon = "easter_egg/aom_palantir.dds"
     pedestal = "tall"
     asset = fp3_artifact_persian_drinking_vessel_01_c_entity
 }

@@ -177,7 +177,7 @@ aom_game_rule.008 = {
 }
 
 # Generate Mesopotamian Artifacts
-aom_game_rule.008 = {
+aom_game_rule.009 = {
 	scope = none
 	hidden = yes
 	immediate = {
@@ -198,7 +198,7 @@ aom_game_rule.008 = {
 }
 
 # Generate Egyptian Artifacts
-aom_game_rule.008 = {
+aom_game_rule.010 = {
 	scope = none
 	hidden = yes
 	immediate = {
@@ -219,7 +219,7 @@ aom_game_rule.008 = {
 }
 
 # Generate Chinese Artifacts
-aom_game_rule.008 = {
+aom_game_rule.011 = {
 	scope = none
 	hidden = yes
 	immediate = {
@@ -240,7 +240,7 @@ aom_game_rule.008 = {
 }
 
 # Generate Easter Egg Artifacts
-aom_game_rule.008 = {
+aom_game_rule.012 = {
 	scope = none
 	hidden = yes
 	immediate = {

@@ -1061,3 +1061,133 @@ aom_artifact_spawning.1081 = {
 		name = aom_event_option.close
 	}
 }
+
+# Spawn Egyptian Artifacts
+aom_artifact_spawning.1091 = {
+	type = character_event
+	title = aom_artifact_spawning.1091.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_sharur_name
+		create_artifact_aom_sharur_effect = { OWNER = this }
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+		name = aom_event_option.next
+		# trigger_event = aom_artifact_spawning.1092
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Chinese Artifacts
+aom_artifact_spawning.1101 = {
+	type = character_event
+	title = aom_artifact_spawning.1101.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+		name = aom_event_option.next
+		# trigger_event = aom_artifact_spawning.1102
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
+
+# Spawn Easter Egg Artifacts
+aom_artifact_spawning.1111 = {
+	type = character_event
+	title = aom_artifact_spawning.1111.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+		name = aom_event_option.next
+		# trigger_event = aom_artifact_spawning.1112
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}
