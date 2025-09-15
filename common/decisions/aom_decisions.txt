@@ -18,6 +18,10 @@ aom_spawn_artifacts_decision = {
 			has_game_rule = aom_generate_finno_ugric_artifacts_with_descision
 			has_game_rule = aom_generate_slavic_artifacts_with_descision
 			has_game_rule = aom_generate_lovecraftian_artifacts_with_descision
+			has_game_rule = aom_generate_mesopotamian_artifacts_with_descision
+			has_game_rule = aom_generate_egyptian_artifacts_with_descision
+			has_game_rule = aom_generate_chinese_artifacts_with_descision
+			has_game_rule = aom_generate_easter_egg_artifacts_with_descision
 		}
 	}
 	is_valid_showing_failures_only = {
@@ -142,6 +146,62 @@ aom_spawn_artifacts_decision = {
 			}
 		}
 		item = {
+			value = aom_spawn_mesopotamian_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_mesopotamian_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_mesopotamian_artifacts
+			icon = "gfx/interface/icons/faith/mesopotamian.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_egyptian_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_egyptian_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_egyptian_artifacts
+			icon = "gfx/interface/icons/faith/egyptian.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_chinese_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_chinese_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_chinese_artifacts
+			icon = "gfx/interface/icons/faith/chinese.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
+			value = aom_spawn_easter_egg_artifacts
+			is_shown = {
+				has_game_rule = aom_generate_easter_egg_artifacts_with_descision
+			}
+			is_valid = {
+				always = yes
+			}
+			localization = aom_spawn_easter_egg_artifacts
+			icon = "gfx/interface/icons/faith/easter_egg.dds"
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {
 			value = aom_disable_artifact_spawning
 			is_shown = {
 				always = yes
@@ -206,6 +266,30 @@ aom_spawn_artifacts_decision = {
 					scope:aom_spawn_lovecraftian_artifacts = yes
 				}
 				trigger_event = aom_artifact_spawning.1071
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_mesopotamian_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1081
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_egyptian_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1091
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_chinese_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1101
+			}
+			else_if = {
+				limit = {
+					scope:aom_spawn_easter_egg_artifacts = yes
+				}
+				trigger_event = aom_artifact_spawning.1111
 			}
 			else_if = {
 				limit = {

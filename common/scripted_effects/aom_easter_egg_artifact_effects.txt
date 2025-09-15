@@ -58,7 +58,7 @@ create_artifact_aom_one_ring_effect = {
 	create_artifact = {
 		name = aom_one_ring_name
 		description = aom_one_ring_desc
-		type = trinket
+		type = miscellaneous
 		visuals = aom_one_ring
 		wealth = scope:wealth
 		quality = scope:quality
@@ -83,7 +83,7 @@ create_artifact_aom_elder_wand_effect = {
 	create_artifact = {
 		name = aom_elder_wand_name
 		description = aom_elder_wand_desc
-		type = trinket
+		type = regalia
 		visuals = aom_elder_wand
 		wealth = scope:wealth
 		quality = scope:quality
@@ -104,7 +104,6 @@ create_artifact_aom_elder_wand_effect = {
 ############################
 # Court Artifacts
 ############################
-
 # Lightsaber (Star Wars)
 create_artifact_aom_lightsaber_effect = {
 	$OWNER$ = { save_scope_as = owner }
@@ -112,7 +111,7 @@ create_artifact_aom_lightsaber_effect = {
 	create_artifact = {
 		name = aom_lightsaber_name
 		description = aom_lightsaber_desc
-		type = weapon_simple
+		type = pedestal_simple
 		visuals = aom_lightsaber
 		wealth = scope:wealth
 		quality = scope:quality
@@ -137,7 +136,7 @@ create_artifact_aom_palantir_effect = {
 	create_artifact = {
 		name = aom_palantir_name
 		description = aom_palantir_desc
-		type = trinket
+		type = pedestal_simple
 		visuals = aom_palantir
 		wealth = scope:wealth
 		quality = scope:quality

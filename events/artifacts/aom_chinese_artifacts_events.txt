@@ -11,7 +11,29 @@ aom_chinese_artifacts.001 = {
 		
 
 		# Inventory Artifacts
-		
+		# Pangu’s Axe
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_pangu_axe } 
+                    }
+                    highest_held_title_tier >= tier_county
+					culture = { has_cultural_pillar = heritage_chinese }
+                }
+                create_artifact_aom_pangu_axe_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 	}
 }
 		

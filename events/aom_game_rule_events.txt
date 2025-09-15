@@ -175,3 +175,87 @@ aom_game_rule.008 = {
 		}
 	}
 }
+
+# Generate Mesopotamian Artifacts
+aom_game_rule.008 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_mesopotamian_artifacts_all }
+			trigger_event = aom_mesopotamian_artifacts.001
+			trigger_event = aom_mesopotamian_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_mesopotamian_artifacts_only_god }
+			trigger_event = aom_mesopotamian_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_mesopotamian_artifacts_only_legend }
+			trigger_event = aom_mesopotamian_artifacts.002
+		}
+	}
+}
+
+# Generate Egyptian Artifacts
+aom_game_rule.008 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_egyptian_artifacts_all }
+			trigger_event = aom_egyptian_artifacts.001
+			trigger_event = aom_egyptian_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_egyptian_artifacts_only_god }
+			trigger_event = aom_egyptian_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_egyptian_artifacts_only_legend }
+			trigger_event = aom_egyptian_artifacts.002
+		}
+	}
+}
+
+# Generate Chinese Artifacts
+aom_game_rule.008 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_chinese_artifacts_all }
+			trigger_event = aom_chinese_artifacts.001
+			trigger_event = aom_chinese_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_chinese_artifacts_only_god }
+			trigger_event = aom_chinese_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_chinese_artifacts_only_legend }
+			trigger_event = aom_chinese_artifacts.002
+		}
+	}
+}
+
+# Generate Easter Egg Artifacts
+aom_game_rule.008 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_easter_egg_artifacts_all }
+			trigger_event = aom_easter_egg_artifacts.001
+			trigger_event = aom_easter_egg_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_easter_egg_artifacts_only_god }
+			trigger_event = aom_easter_egg_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_easter_egg_artifacts_only_legend }
+			trigger_event = aom_easter_egg_artifacts.002
+		}
+	}
+}

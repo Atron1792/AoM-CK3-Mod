@@ -21,7 +21,7 @@ create_artifact_aom_pangu_axe_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_pangu_axe
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -46,7 +46,7 @@ create_artifact_aom_ruyi_jingu_bang_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_ruyi_jingu_bang
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -58,7 +58,7 @@ create_artifact_aom_wukong_boots_effect = {
 	create_artifact = {
 		name = aom_wukong_boots_name
 		description = aom_wukong_boots_desc
-		type = trinket
+		type = miscellaneous
 		visuals = aom_wukong_boots
 		wealth = scope:wealth
 		quality = scope:quality
@@ -71,7 +71,7 @@ create_artifact_aom_wukong_boots_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_wukong_boots
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -83,7 +83,7 @@ create_artifact_aom_peach_of_immortality_effect = {
 	create_artifact = {
 		name = aom_peach_of_immortality_name
 		description = aom_peach_of_immortality_desc
-		type = trinket
+		type = miscellaneous
 		visuals = aom_peach_of_immortality
 		wealth = scope:wealth
 		quality = scope:quality
@@ -96,7 +96,7 @@ create_artifact_aom_peach_of_immortality_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_peach_of_immortality
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -121,7 +121,7 @@ create_artifact_aom_xuan_yuan_sword_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_xuan_yuan_sword
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -146,7 +146,7 @@ create_artifact_aom_erlang_spear_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_erlang_spear
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -171,19 +171,19 @@ create_artifact_aom_kenkonken_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_kenkonken
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
 
-# Qiankun Dai (Universe Bag)
+# Qiankun Dai (Spatial Bag)
 create_artifact_aom_qiankun_dai_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_qiankun_dai_name
 		description = aom_qiankun_dai_desc
-		type = trinket
+		type = miscellaneous
 		visuals = aom_qiankun_dai
 		wealth = scope:wealth
 		quality = scope:quality
@@ -196,7 +196,7 @@ create_artifact_aom_qiankun_dai_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_qiankun_dai
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -221,7 +221,7 @@ create_artifact_aom_sword_of_goujian_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_sword_of_goujian
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -246,7 +246,7 @@ create_artifact_aom_green_dragon_blade_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_green_dragon_blade
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -271,7 +271,7 @@ create_artifact_aom_zhang_fei_spear_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_zhang_fei_spear
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -283,7 +283,7 @@ create_artifact_aom_hou_yi_bow_effect = {
 	create_artifact = {
 		name = aom_hou_yi_bow_name
 		description = aom_hou_yi_bow_desc
-		type = weapon_simple
+		type = bow_simple
 		visuals = aom_hou_yi_bow
 		wealth = scope:wealth
 		quality = scope:quality
@@ -296,7 +296,7 @@ create_artifact_aom_hou_yi_bow_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_hou_yi_bow
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -321,7 +321,7 @@ create_artifact_aom_gan_jiang_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_gan_jiang
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -346,7 +346,7 @@ create_artifact_aom_mo_ye_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_mo_ye
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -358,7 +358,7 @@ create_artifact_aom_mianguan_effect = {
 	create_artifact = {
 		name = aom_mianguan_name
 		description = aom_mianguan_desc
-		type = regalia
+		type = helmet_simple
 		visuals = aom_mianguan
 		wealth = scope:wealth
 		quality = scope:quality
@@ -371,7 +371,7 @@ create_artifact_aom_mianguan_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_mianguan
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -386,7 +386,7 @@ create_artifact_aom_heirloom_seal_effect = {
 	create_artifact = {
 		name = aom_heirloom_seal_name
 		description = aom_heirloom_seal_desc
-		type = trinket
+		type = sculpture_simple
 		visuals = aom_heirloom_seal
 		wealth = scope:wealth
 		quality = scope:quality
@@ -399,7 +399,7 @@ create_artifact_aom_heirloom_seal_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_heirloom_seal
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -411,7 +411,7 @@ create_artifact_aom_mirror_of_retribution_effect = {
 	create_artifact = {
 		name = aom_mirror_of_retribution_name
 		description = aom_mirror_of_retribution_desc
-		type = trinket
+		type = sculpture_simple
 		visuals = aom_mirror_of_retribution
 		wealth = scope:wealth
 		quality = scope:quality
@@ -424,7 +424,7 @@ create_artifact_aom_mirror_of_retribution_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_mirror_of_retribution
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -449,7 +449,7 @@ create_artifact_aom_jade_books_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_jade_books
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }
@@ -461,7 +461,7 @@ create_artifact_aom_jiuding_effect = {
 	create_artifact = {
 		name = aom_jiuding_name
 		description = aom_jiuding_desc
-		type = trinket
+		type = sculpture_simple
 		visuals = aom_jiuding
 		wealth = scope:wealth
 		quality = scope:quality
@@ -474,7 +474,7 @@ create_artifact_aom_jiuding_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_jiuding
-		set_variable = aom_artifact
+		set_variable = aom_chinese_artifact
 		save_scope_as = epic
 	}
 }

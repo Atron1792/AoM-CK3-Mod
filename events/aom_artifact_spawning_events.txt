@@ -1017,3 +1017,47 @@ aom_artifact_spawning.1072 = {
 		name = aom_event_option.close
 	}
 }
+
+# Spawn Mesopotamian Artifacts
+aom_artifact_spawning.1081 = {
+	type = character_event
+	title = aom_artifact_spawning.1081.t
+	desc = aom_artifact_spawning.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_sharur_name
+		create_artifact_aom_sharur_effect = { OWNER = this }
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+
+	}
+	option = {
+		name = aom_event_option.next
+		trigger_event = aom_artifact_spawning.1082
+	}
+	option = {
+		name = aom_event_option.close
+	}
+}

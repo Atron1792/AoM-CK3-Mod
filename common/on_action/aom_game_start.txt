@@ -8,5 +8,9 @@
 		aom_game_rule.006 
 		aom_game_rule.007 
 		aom_game_rule.008
+		aom_game_rule.009
+		aom_game_rule.010
+		aom_game_rule.011
+		aom_game_rule.012
 	}
 }

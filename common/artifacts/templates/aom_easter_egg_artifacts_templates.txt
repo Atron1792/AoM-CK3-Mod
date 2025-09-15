@@ -7,7 +7,6 @@ aom_soul_edge_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-
 		}
 	}
 	fallback = { prowess = 8 }
@@ -20,7 +19,6 @@ aom_blackfyre_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-
 		}
 	}
 	fallback = { prowess = 5 }

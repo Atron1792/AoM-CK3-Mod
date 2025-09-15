@@ -92,7 +92,7 @@ aom_kenkonken_template = {
 	unique = yes
 }
 
-# Qiankun Dai (Universe Bag)
+# Qiankun Dai (Spatial Bag)
 aom_qiankun_dai_template = {
 	can_equip = { always = yes }
 	can_benefit = {

@@ -129,3 +129,63 @@ aom_generate_lovecraftian_artifacts = {
 	aom_generate_lovecraftian_artifacts_with_descision = {}
 	aom_generate_lovecraftian_artifacts_disabled = {}
 }
+
+# Generate Mesopotamian Artifacts
+aom_generate_mesopotamian_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_mesopotamian_artifacts_all
+
+	aom_generate_mesopotamian_artifacts_all = {}
+	aom_generate_mesopotamian_artifacts_only_god = {}
+	aom_generate_mesopotamian_artifacts_only_legend = {}
+	aom_generate_mesopotamian_artifacts_with_descision = {}
+	aom_generate_mesopotamian_artifacts_disabled = {}
+}
+
+# Generate Egyptian Artifacts
+aom_generate_egyptian_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_egyptian_artifacts_all
+
+	aom_generate_egyptian_artifacts_all = {}
+	aom_generate_egyptian_artifacts_only_god = {}
+	aom_generate_egyptian_artifacts_only_legend = {}
+	aom_generate_egyptian_artifacts_with_descision = {}
+	aom_generate_egyptian_artifacts_disabled = {}
+}
+
+# Generate Chinese Artifacts
+aom_generate_chinese_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_chinese_artifacts_all
+
+	aom_generate_chinese_artifacts_all = {}
+	aom_generate_chinese_artifacts_only_god = {}
+	aom_generate_chinese_artifacts_only_legend = {}
+	aom_generate_chinese_artifacts_with_descision = {}
+	aom_generate_chinese_artifacts_disabled = {}
+}
+
+# Generate Easter Egg Artifacts
+aom_generate_easter_egg_artifacts = {
+	categories = {
+		historicity aom
+	}
+
+	default = aom_generate_easter_egg_artifacts_all
+
+	aom_generate_easter_egg_artifacts_all = {}
+	aom_generate_easter_egg_artifacts_only_god = {}
+	aom_generate_easter_egg_artifacts_only_legend = {}
+	aom_generate_easter_egg_artifacts_with_descision = {}
+	aom_generate_easter_egg_artifacts_disabled = {}
+}
