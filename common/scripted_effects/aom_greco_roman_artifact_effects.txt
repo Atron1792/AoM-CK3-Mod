@@ -13,9 +13,7 @@ create_artifact_aom_achilles_armor_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_achilles_armor_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_achilles_armor_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -26,7 +24,7 @@ create_artifact_aom_achilles_armor_effect = {
 			value = yes
 		}
 		set_variable = aom_achilles_armor
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -43,9 +41,7 @@ create_artifact_aom_aegis_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_aegis_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_aegis_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -56,7 +52,7 @@ create_artifact_aom_aegis_effect = {
 			value = yes
 		}
 		set_variable = aom_aegis
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -73,9 +69,7 @@ create_artifact_aom_ambrosia_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_ambrosia_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_ambrosia_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -86,7 +80,7 @@ create_artifact_aom_ambrosia_effect = {
 			value = yes
 		}
 		set_variable = aom_ambrosia
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -103,9 +97,7 @@ create_artifact_aom_apollos_bow_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_apollos_bow_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_apollos_bow_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -116,7 +108,7 @@ create_artifact_aom_apollos_bow_effect = {
 			value = yes
 		}
 		set_variable = aom_apollos_bow
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -133,9 +125,7 @@ create_artifact_aom_caduceus_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_caduceus_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_caduceus_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -146,7 +136,7 @@ create_artifact_aom_caduceus_effect = {
 			value = yes
 		}
 		set_variable = aom_caduceus
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -163,9 +153,7 @@ create_artifact_aom_eros_bow_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_eros_bow_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_eros_bow_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -192,9 +180,7 @@ create_artifact_aom_apple_of_discord_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_apple_of_discord_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_apple_of_discord_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -205,7 +191,7 @@ create_artifact_aom_apple_of_discord_effect = {
 			value = yes
 		}
 		set_variable = aom_apple_of_discord
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -222,9 +208,7 @@ create_artifact_aom_rod_of_asclepius_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_rod_of_asclepius_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_rod_of_asclepius_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -235,7 +219,7 @@ create_artifact_aom_rod_of_asclepius_effect = {
 			value = yes
 		}
 		set_variable = aom_rod_of_asclepius
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -252,9 +236,7 @@ create_artifact_aom_poseidons_trident_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_poseidons_trident_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_poseidons_trident_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -265,7 +247,7 @@ create_artifact_aom_poseidons_trident_effect = {
 			value = yes
 		}
 		set_variable = aom_poseidons_trident
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -282,9 +264,7 @@ create_artifact_aom_shield_of_achilleus_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_shield_of_achilleus_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_shield_of_achilleus_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -295,7 +275,7 @@ create_artifact_aom_shield_of_achilleus_effect = {
 			value = yes
 		}
 		set_variable = aom_shield_of_achilleus
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -312,9 +292,7 @@ create_artifact_aom_spear_of_achilles_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_spear_of_achilles_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_spear_of_achilles_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -325,7 +303,7 @@ create_artifact_aom_spear_of_achilles_effect = {
 			value = yes
 		}
 		set_variable = aom_spear_of_achilles
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -342,9 +320,7 @@ create_artifact_aom_thyrsus_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_thyrsus_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_thyrsus_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -355,7 +331,7 @@ create_artifact_aom_thyrsus_effect = {
 			value = yes
 		}
 		set_variable = aom_thyrsus
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -372,9 +348,7 @@ create_artifact_aom_talaria_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_talaria_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_talaria_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -385,7 +359,7 @@ create_artifact_aom_talaria_effect = {
 			value = yes
 		}
 		set_variable = aom_talaria
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -402,9 +376,7 @@ create_artifact_aom_zeus_lightning_bolt_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_zeus_lightning_bolt_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_zeus_lightning_bolt_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -415,7 +387,7 @@ create_artifact_aom_zeus_lightning_bolt_effect = {
 			value = yes
 		}
 		set_variable = aom_zeus_lightning_bolt
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -432,9 +404,7 @@ create_artifact_aom_hades_bident_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_hades_bident_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_hades_bident_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -445,7 +415,7 @@ create_artifact_aom_hades_bident_effect = {
 			value = yes
 		}
 		set_variable = aom_hades_bident
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -462,9 +432,7 @@ create_artifact_aom_helm_of_darkness_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_helm_of_darkness_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_helm_of_darkness_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -475,7 +443,7 @@ create_artifact_aom_helm_of_darkness_effect = {
 			value = yes
 		}
 		set_variable = aom_helm_of_darkness
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -492,9 +460,7 @@ create_artifact_aom_harpe_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_harpe_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_harpe_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -505,7 +471,7 @@ create_artifact_aom_harpe_effect = {
 			value = yes
 		}
 		set_variable = aom_harpe
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -522,9 +488,7 @@ create_artifact_aom_necklace_of_harmonia_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_necklace_of_harmonia_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_necklace_of_harmonia_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -535,7 +499,7 @@ create_artifact_aom_necklace_of_harmonia_effect = {
 			value = yes
 		}
 		set_variable = aom_necklace_of_harmonia
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -552,9 +516,7 @@ create_artifact_aom_kronos_scythe_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_kronos_scythe_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_kronos_scythe_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -565,7 +527,7 @@ create_artifact_aom_kronos_scythe_effect = {
 			value = yes
 		}
 		set_variable = aom_kronos_scythe
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -582,9 +544,7 @@ create_artifact_aom_zeus_labrys_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_zeus_labrys_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_zeus_labrys_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -595,7 +555,7 @@ create_artifact_aom_zeus_labrys_effect = {
 			value = yes
 		}
 		set_variable = aom_zeus_labrys
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -612,9 +572,7 @@ create_artifact_aom_artemis_bow_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_artemis_bow_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_artemis_bow_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -625,7 +583,7 @@ create_artifact_aom_artemis_bow_effect = {
 			value = yes
 		}
 		set_variable = aom_artemis_bow
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -642,9 +600,7 @@ create_artifact_aom_eurytus_bow_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_eurytus_bow_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_eurytus_bow_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -655,7 +611,7 @@ create_artifact_aom_eurytus_bow_effect = {
 			value = yes
 		}
 		set_variable = aom_eurytus_bow
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -672,9 +628,7 @@ create_artifact_aom_panacea_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_panacea_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_panacea_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -685,7 +639,7 @@ create_artifact_aom_panacea_effect = {
 			value = yes
 		}
 		set_variable = aom_panacea
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -702,9 +656,7 @@ create_artifact_aom_bag_of_wind_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_bag_of_wind_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_bag_of_wind_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -715,7 +667,7 @@ create_artifact_aom_bag_of_wind_effect = {
 			value = yes
 		}
 		set_variable = aom_bag_of_wind
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -732,9 +684,7 @@ create_artifact_aom_tritons_conch_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_tritons_conch_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_tritons_conch_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -745,7 +695,7 @@ create_artifact_aom_tritons_conch_effect = {
 			value = yes
 		}
 		set_variable = aom_tritons_conch
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -762,9 +712,7 @@ create_artifact_aom_nemean_lion_hide_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_nemean_lion_hide_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_nemean_lion_hide_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -775,7 +723,7 @@ create_artifact_aom_nemean_lion_hide_effect = {
 			value = yes
 		}
 		set_variable = aom_nemean_lion_hide
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -792,9 +740,7 @@ create_artifact_aom_girdle_of_hippolyta_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_girdle_of_hippolyta_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_girdle_of_hippolyta_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -805,7 +751,7 @@ create_artifact_aom_girdle_of_hippolyta_effect = {
 			value = yes
 		}
 		set_variable = aom_girdle_of_hippolyta
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -825,9 +771,7 @@ create_artifact_aom_apollos_kithara_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_apollos_kithara_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_apollos_kithara_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -838,7 +782,7 @@ create_artifact_aom_apollos_kithara_effect = {
 			value = yes
 		}
 		set_variable = aom_apollos_kithara
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -855,9 +799,7 @@ create_artifact_aom_cornucopia_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_cornucopia_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_cornucopia_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -868,7 +810,7 @@ create_artifact_aom_cornucopia_effect = {
 			value = yes
 		}
 		set_variable = aom_cornucopia
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -885,9 +827,7 @@ create_artifact_aom_golden_fleece_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_golden_fleece_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_golden_fleece_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -898,7 +838,7 @@ create_artifact_aom_golden_fleece_effect = {
 			value = yes
 		}
 		set_variable = aom_golden_fleece
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -915,9 +855,7 @@ create_artifact_aom_scale_of_justice_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_scale_of_justice_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_scale_of_justice_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -928,7 +866,7 @@ create_artifact_aom_scale_of_justice_effect = {
 			value = yes
 		}
 		set_variable = aom_scale_of_justice
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -945,9 +883,7 @@ create_artifact_aom_icarus_feather_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_icarus_feather_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_icarus_feather_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -958,7 +894,7 @@ create_artifact_aom_icarus_feather_effect = {
 			value = yes
 		}
 		set_variable = aom_icarus_feather
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -975,9 +911,7 @@ create_artifact_aom_prometheus_chains_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_prometheus_chains_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_prometheus_chains_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -988,7 +922,7 @@ create_artifact_aom_prometheus_chains_effect = {
 			value = yes
 		}
 		set_variable = aom_prometheus_chains
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -1005,9 +939,7 @@ create_artifact_aom_medusas_head_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_medusas_head_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_medusas_head_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -1018,7 +950,7 @@ create_artifact_aom_medusas_head_effect = {
 			value = yes
 		}
 		set_variable = aom_medusas_head
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }
@@ -1035,9 +967,7 @@ create_artifact_aom_throne_zeus_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_throne_zeus_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_throne_zeus_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -1048,7 +978,7 @@ create_artifact_aom_throne_zeus_effect = {
 			value = yes
 		}
 		set_variable = aom_throne_zeus
-		set_variable = aom_artifact
+		set_variable = aom_greco_roman_artifact
 		save_scope_as = epic
 	}
 }

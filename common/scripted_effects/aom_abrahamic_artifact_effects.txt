@@ -14,9 +14,7 @@ create_artifact_aom_conquests_crown_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_conquests_crown_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_conquests_crown_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -44,9 +42,7 @@ create_artifact_aom_wars_greatsword_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_wars_greatsword_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_wars_greatsword_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -74,9 +70,7 @@ create_artifact_aom_crown_of_twelve_stars_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_crown_of_twelve_stars_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_crown_of_twelve_stars_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -104,9 +98,7 @@ create_artifact_aom_seamless_robe_of_jesus_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_seamless_robe_of_jesus_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_seamless_robe_of_jesus_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -134,9 +126,7 @@ create_artifact_aom_deaths_scythe_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_deaths_scythe_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_deaths_scythe_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -164,9 +154,7 @@ create_artifact_aom_ascalon_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_ascalon_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_ascalon_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -194,9 +182,7 @@ create_artifact_aom_bradamantes_lance_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_bradamantes_lance_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_bradamantes_lance_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -224,9 +210,7 @@ create_artifact_aom_holy_lance_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_holy_lance_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_holy_lance_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -254,9 +238,7 @@ create_artifact_aom_conquests_bow_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_conquests_bow_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_conquests_bow_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -284,9 +266,7 @@ create_artifact_aom_seal_of_solomon_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_seal_of_solomon_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_seal_of_solomon_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -315,9 +295,7 @@ create_artifact_aom_famines_scale_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_famines_scale_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_famines_scale_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -345,9 +323,7 @@ create_artifact_aom_piece_of_noahs_ark_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_piece_of_noahs_ark_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_piece_of_noahs_ark_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -375,9 +351,7 @@ create_artifact_aom_sudarium_of_oviedo_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_sudarium_of_oviedo_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_sudarium_of_oviedo_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -405,9 +379,7 @@ create_artifact_aom_holy_grail_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_holy_grail_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_holy_grail_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -435,9 +407,7 @@ create_artifact_aom_holy_prepuce_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_holy_prepuce_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_holy_prepuce_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -465,9 +435,7 @@ create_artifact_aom_book_of_life_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_book_of_life_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_book_of_life_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -495,9 +463,7 @@ create_artifact_aom_forbidden_fruit_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_forbidden_fruit_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_forbidden_fruit_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -525,9 +491,7 @@ create_artifact_aom_horn_of_gabriel_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_horn_of_gabriel_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_horn_of_gabriel_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -555,9 +519,7 @@ create_artifact_aom_blood_of_christ_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_blood_of_christ_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_blood_of_christ_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -586,9 +548,7 @@ create_artifact_aom_moses_staff_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_moses_staff_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_moses_staff_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -616,9 +576,7 @@ create_artifact_aom_davids_sword_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_davids_sword_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_davids_sword_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -646,9 +604,7 @@ create_artifact_aom_coat_of_many_colors_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_coat_of_many_colors_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_coat_of_many_colors_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -676,9 +632,7 @@ create_artifact_aom_aarons_rod_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_aarons_rod_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_aarons_rod_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -706,9 +660,7 @@ create_artifact_aom_solomons_shamir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_solomons_shamir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_solomons_shamir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -736,9 +688,7 @@ create_artifact_aom_greater_key_of_solomon_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_greater_key_of_solomon_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_greater_key_of_solomon_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -766,9 +716,7 @@ create_artifact_aom_lesser_key_of_solomon_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_lesser_key_of_solomon_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_lesser_key_of_solomon_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -796,9 +744,7 @@ create_artifact_aom_goliaths_sword_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_goliaths_sword_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_goliaths_sword_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -827,9 +773,7 @@ create_artifact_aom_ark_of_bulrushes_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_ark_of_bulrushes_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_ark_of_bulrushes_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -857,9 +801,7 @@ create_artifact_aom_tablets_of_stone_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_tablets_of_stone_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_tablets_of_stone_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -887,9 +829,7 @@ create_artifact_aom_joshuas_shofars_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_joshuas_shofars_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_joshuas_shofars_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -917,9 +857,7 @@ create_artifact_aom_leviathans_hide_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_leviathans_hide_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_leviathans_hide_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -947,9 +885,7 @@ create_artifact_aom_throne_of_god_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_throne_of_god_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_throne_of_god_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -1051,9 +987,7 @@ create_artifact_aom_key_to_the_kaaba_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_key_to_the_kaaba_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_key_to_the_kaaba_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no

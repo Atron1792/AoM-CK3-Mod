@@ -13,9 +13,7 @@ create_artifact_aom_sleg_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_sleg_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_sleg_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -26,7 +24,7 @@ create_artifact_aom_sleg_effect = {
 			value = yes
 		}
 		set_variable = aom_sleg
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -43,9 +41,7 @@ create_artifact_aom_lughs_sling_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_lughs_sling_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_lughs_sling_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -56,7 +52,7 @@ create_artifact_aom_lughs_sling_effect = {
 			value = yes
 		}
 		set_variable = aom_lughs_sling
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -73,9 +69,7 @@ create_artifact_aom_claiomh_solais_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_claiomh_solais_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_claiomh_solais_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -86,7 +80,7 @@ create_artifact_aom_claiomh_solais_effect = {
 			value = yes
 		}
 		set_variable = aom_claiomh_solais
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -103,9 +97,7 @@ create_artifact_aom_fragarach_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_fragarach_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_fragarach_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -116,7 +108,7 @@ create_artifact_aom_fragarach_effect = {
 			value = yes
 		}
 		set_variable = aom_fragarach
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -133,9 +125,7 @@ create_artifact_aom_gae_bulg_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_gae_bulg_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_gae_bulg_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -146,7 +136,7 @@ create_artifact_aom_gae_bulg_effect = {
 			value = yes
 		}
 		set_variable = aom_gae_bulg
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -163,9 +153,7 @@ create_artifact_aom_caladbolg_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_caladbolg_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_caladbolg_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -176,7 +164,7 @@ create_artifact_aom_caladbolg_effect = {
 			value = yes
 		}
 		set_variable = aom_caladbolg
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -193,9 +181,7 @@ create_artifact_aom_moralltach_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_moralltach_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_moralltach_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -206,7 +192,7 @@ create_artifact_aom_moralltach_effect = {
 			value = yes
 		}
 		set_variable = aom_moralltach
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -223,9 +209,7 @@ create_artifact_aom_beagalltach_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_beagalltach_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_beagalltach_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -236,7 +220,7 @@ create_artifact_aom_beagalltach_effect = {
 			value = yes
 		}
 		set_variable = aom_beagalltach
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -253,9 +237,7 @@ create_artifact_aom_duban_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_duban_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_duban_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -266,7 +248,7 @@ create_artifact_aom_duban_effect = {
 			value = yes
 		}
 		set_variable = aom_duban
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -283,9 +265,7 @@ create_artifact_aom_dyrnwyn_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_dyrnwyn_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_dyrnwyn_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -296,7 +276,7 @@ create_artifact_aom_dyrnwyn_effect = {
 			value = yes
 		}
 		set_variable = aom_dyrnwyn
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -316,9 +296,7 @@ create_artifact_aom_uaithne_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_uaithne_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_uaithne_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -329,7 +307,7 @@ create_artifact_aom_uaithne_effect = {
 			value = yes
 		}
 		set_variable = aom_uaithne
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -346,9 +324,7 @@ create_artifact_aom_horn_of_bran_galed_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_horn_of_bran_galed_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_horn_of_bran_galed_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -359,7 +335,7 @@ create_artifact_aom_horn_of_bran_galed_effect = {
 			value = yes
 		}
 		set_variable = aom_horn_of_bran_galed
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -376,9 +352,7 @@ create_artifact_aom_hamper_of_gwyddno_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_hamper_of_gwyddno_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_hamper_of_gwyddno_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -389,7 +363,7 @@ create_artifact_aom_hamper_of_gwyddno_effect = {
 			value = yes
 		}
 		set_variable = aom_hamper_of_gwyddno
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -406,9 +380,7 @@ create_artifact_aom_pair_dadeni_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_pair_dadeni_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_pair_dadeni_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -419,7 +391,7 @@ create_artifact_aom_pair_dadeni_effect = {
 			value = yes
 		}
 		set_variable = aom_pair_dadeni
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }
@@ -436,9 +408,7 @@ create_artifact_aom_cauldron_of_inspiration_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_cauldron_of_inspiration_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_cauldron_of_inspiration_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -449,7 +419,7 @@ create_artifact_aom_cauldron_of_inspiration_effect = {
 			value = yes
 		}
 		set_variable = aom_cauldron_of_inspiration
-		set_variable = aom_artifact
+		set_variable = aom_celtic_artifact
 		save_scope_as = epic
 	}
 }

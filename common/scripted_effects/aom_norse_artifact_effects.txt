@@ -13,9 +13,7 @@ create_artifact_aom_gungnir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_gungnir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_gungnir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -26,7 +24,7 @@ create_artifact_aom_gungnir_effect = {
 			value = yes
 		}
 		set_variable = aom_gungnir
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -43,9 +41,7 @@ create_artifact_aom_mjolnir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_mjolnir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_mjolnir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -56,7 +52,7 @@ create_artifact_aom_mjolnir_effect = {
 			value = yes
 		}
 		set_variable = aom_mjolnir
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -73,9 +69,7 @@ create_artifact_aom_jarngreipr_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_jarngreipr_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_jarngreipr_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -86,7 +80,7 @@ create_artifact_aom_jarngreipr_effect = {
 			value = yes
 		}
 		set_variable = aom_jarngreipr
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -103,9 +97,7 @@ create_artifact_aom_megingjord_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_megingjord_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_megingjord_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -116,7 +108,7 @@ create_artifact_aom_megingjord_effect = {
 			value = yes
 		}
 		set_variable = aom_megingjord
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -133,9 +125,7 @@ create_artifact_aom_brisingamen_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_brisingamen_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_brisingamen_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -146,7 +136,7 @@ create_artifact_aom_brisingamen_effect = {
 			value = yes
 		}
 		set_variable = aom_brisingamen
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -163,9 +153,7 @@ create_artifact_aom_draupnir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_draupnir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_draupnir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -176,7 +164,7 @@ create_artifact_aom_draupnir_effect = {
 			value = yes
 		}
 		set_variable = aom_draupnir
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -193,9 +181,7 @@ create_artifact_aom_andvaranaut_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_andvaranaut_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_andvaranaut_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -206,7 +192,7 @@ create_artifact_aom_andvaranaut_effect = {
 			value = yes
 		}
 		set_variable = aom_andvaranaut
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -223,9 +209,7 @@ create_artifact_aom_helm_of_awe_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_helm_of_awe_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_helm_of_awe_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -236,7 +220,7 @@ create_artifact_aom_helm_of_awe_effect = {
 			value = yes
 		}
 		set_variable = aom_helm_of_awe
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -253,9 +237,7 @@ create_artifact_aom_svalinn_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_svalinn_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_svalinn_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -266,7 +248,7 @@ create_artifact_aom_svalinn_effect = {
 			value = yes
 		}
 		set_variable = aom_svalinn
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -283,9 +265,7 @@ create_artifact_aom_gram_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_gram_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_gram_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -296,7 +276,7 @@ create_artifact_aom_gram_effect = {
 			value = yes
 		}
 		set_variable = aom_gram
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -313,9 +293,7 @@ create_artifact_aom_tyrfing_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_tyrfing_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_tyrfing_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -326,7 +304,7 @@ create_artifact_aom_tyrfing_effect = {
 			value = yes
 		}
 		set_variable = aom_tyrfing
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -343,9 +321,7 @@ create_artifact_aom_skofnung_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_skofnung_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_skofnung_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -356,7 +332,7 @@ create_artifact_aom_skofnung_effect = {
 			value = yes
 		}
 		set_variable = aom_skofnung
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -373,9 +349,7 @@ create_artifact_aom_mistilteinn_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_mistilteinn_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_mistilteinn_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -386,7 +360,7 @@ create_artifact_aom_mistilteinn_effect = {
 			value = yes
 		}
 		set_variable = aom_mistilteinn
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -403,9 +377,7 @@ create_artifact_aom_laevateinn_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_laevateinn_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_laevateinn_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -416,7 +388,7 @@ create_artifact_aom_laevateinn_effect = {
 			value = yes
 		}
 		set_variable = aom_laevateinn
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -433,9 +405,7 @@ create_artifact_aom_hrotti_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_hrotti_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_hrotti_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -446,7 +416,7 @@ create_artifact_aom_hrotti_effect = {
 			value = yes
 		}
 		set_variable = aom_hrotti
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -463,9 +433,7 @@ create_artifact_aom_hofud_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_hofud_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_hofud_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -476,7 +444,7 @@ create_artifact_aom_hofud_effect = {
 			value = yes
 		}
 		set_variable = aom_hofud
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -493,9 +461,7 @@ create_artifact_aom_dainsleif_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_dainsleif_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_dainsleif_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -506,7 +472,7 @@ create_artifact_aom_dainsleif_effect = {
 			value = yes
 		}
 		set_variable = aom_dainsleif
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -523,9 +489,7 @@ create_artifact_aom_tarnkappe_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_tarnkappe_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_tarnkappe_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -536,7 +500,7 @@ create_artifact_aom_tarnkappe_effect = {
 			value = yes
 		}
 		set_variable = aom_tarnkappe
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -553,9 +517,7 @@ create_artifact_aom_fjadrhamr_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_fjadrhamr_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_fjadrhamr_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -566,7 +528,7 @@ create_artifact_aom_fjadrhamr_effect = {
 			value = yes
 		}
 		set_variable = aom_fjadrhamr
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -583,9 +545,7 @@ create_artifact_aom_sword_of_freyr_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_sword_of_freyr_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_sword_of_freyr_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -596,7 +556,7 @@ create_artifact_aom_sword_of_freyr_effect = {
 			value = yes
 		}
 		set_variable = aom_sword_of_freyr
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -616,9 +576,7 @@ create_artifact_aom_throne_hlidskjalf_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_throne_hlidskjalf_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_throne_hlidskjalf_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -629,7 +587,7 @@ create_artifact_aom_throne_hlidskjalf_effect = {
 			value = yes
 		}
 		set_variable = aom_throne_hlidskjalf
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -646,9 +604,7 @@ create_artifact_aom_gleipnir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_gleipnir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_gleipnir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -659,7 +615,7 @@ create_artifact_aom_gleipnir_effect = {
 			value = yes
 		}
 		set_variable = aom_gleipnir
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -676,9 +632,7 @@ create_artifact_aom_eldhrimnir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_eldhrimnir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_eldhrimnir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -689,7 +643,7 @@ create_artifact_aom_eldhrimnir_effect = {
 			value = yes
 		}
 		set_variable = aom_eldhrimnir
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -706,9 +660,7 @@ create_artifact_aom_odrerir_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_odrerir_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_odrerir_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -719,7 +671,7 @@ create_artifact_aom_odrerir_effect = {
 			value = yes
 		}
 		set_variable = aom_odrerir
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -736,9 +688,7 @@ create_artifact_aom_bodn_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_bodn_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_bodn_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -749,7 +699,7 @@ create_artifact_aom_bodn_effect = {
 			value = yes
 		}
 		set_variable = aom_bodn
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -766,9 +716,7 @@ create_artifact_aom_son_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_son_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_son_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -779,7 +727,7 @@ create_artifact_aom_son_effect = {
 			value = yes
 		}
 		set_variable = aom_son
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -796,9 +744,7 @@ create_artifact_aom_gjallarhorn_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_gjallarhorn_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_gjallarhorn_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -809,7 +755,7 @@ create_artifact_aom_gjallarhorn_effect = {
 			value = yes
 		}
 		set_variable = aom_gjallarhorn
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -826,9 +772,7 @@ create_artifact_aom_mimirs_skull_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_mimirs_skull_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_mimirs_skull_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -839,7 +783,7 @@ create_artifact_aom_mimirs_skull_effect = {
 			value = yes
 		}
 		set_variable = aom_mimirs_skull
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }
@@ -856,9 +800,7 @@ create_artifact_aom_bragis_harp_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_bragis_harp_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_bragis_harp_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -869,7 +811,7 @@ create_artifact_aom_bragis_harp_effect = {
 			value = yes
 		}
 		set_variable = aom_bragis_harp
-		set_variable = aom_artifact
+		set_variable = aom_norse_artifact
 		save_scope_as = epic
 	}
 }

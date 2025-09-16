@@ -13,9 +13,7 @@ create_artifact_aom_excalibur_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_excalibur_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_excalibur_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -43,9 +41,7 @@ create_artifact_aom_carnwennan_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_carnwennan_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_carnwennan_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -73,9 +69,7 @@ create_artifact_aom_rhongomyniad_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_rhongomyniad_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_rhongomyniad_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -103,9 +97,7 @@ create_artifact_aom_pridwen_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_pridwen_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_pridwen_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -133,9 +125,7 @@ create_artifact_aom_merlins_staff_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_merlins_staff_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_merlins_staff_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -163,9 +153,7 @@ create_artifact_aom_clarent_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_clarent_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_clarent_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -193,9 +181,7 @@ create_artifact_aom_secace_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_secace_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_secace_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -223,9 +209,7 @@ create_artifact_aom_courechouse_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_courechouse_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_courechouse_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -253,9 +237,7 @@ create_artifact_aom_galatine_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_galatine_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_galatine_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -283,9 +265,7 @@ create_artifact_aom_sword_of_the_red_hilt_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_sword_of_the_red_hilt_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_sword_of_the_red_hilt_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -316,9 +296,7 @@ create_artifact_aom_throne_round_table_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_throne_round_table_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_throne_round_table_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no

@@ -728,3 +728,186 @@ aom_gaze_into_mirror_of_nitocris_decision = {
 }
 
 # TODO: merge white and red crowns (egyptian)
+aom_combine_white_and_red_crowns_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_combine_white_and_red_crowns_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			OR = {
+				has_variable = aom_hedjet
+				has_variable = aom_deshret
+			}
+		}
+	}
+	is_valid = {
+		prestige_level >= 3
+		custom_description = {
+			text = aom_has_hedjet
+			any_character_artifact = {
+				has_variable = aom_hedjet
+			}
+		}
+		custom_description = {
+			text = aom_has_deshret
+			any_character_artifact = {
+				has_variable = aom_deshret
+			}
+		}
+	}
+	cost = {
+		prestige = 3000
+		renown = 100
+	}
+	effect = {
+		# TODO destroy aom_hedjet and aom_deshret
+		# TODO create aom_pschent
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# TODO: Convert to Hellenism
+aom_convert_to_hellenism_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_convert_to_hellenism_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_greco_roman_artifact
+		}
+		NOT = { faith.religion = religion:hellenic_religion }
+	}
+	is_valid = {
+		custom_description = {
+			text = aom_has_greco_roman_artifact
+			any_character_artifact = {
+				has_variable = aom_greco_roman_artifact
+			}
+		}
+		NOT = { has_trait = zealous }
+	}
+	cost = {
+		piety = 3000
+	}
+	effect = {
+		# TODO convert character and family to Hellenism
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# TODO: Convert to Celtic
+aom_convert_to_celtic_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_convert_to_celtic_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_celtic_artifact
+		}
+		NOT = { faith.religion = religion:pagan_religion }
+	}
+	is_valid = {
+		custom_description = {
+			text = aom_has_celtic_artifact
+			any_character_artifact = {
+				has_variable = aom_celtic_artifact
+			}
+		}
+		NOT = { has_trait = zealous }
+	}
+	cost = {
+		piety = 3000
+	}
+	effect = {
+		# TODO convert character and family to Celtic
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# TODO: Convert to Norse
+aom_convert_to_norse_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_convert_to_norse_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_norse_artifact
+		}
+		NOT = { faith.religion = religion:germanic_religion }
+	}
+	is_valid = {
+		custom_description = {
+			text = aom_has_norse_artifact
+			any_character_artifact = {
+				has_variable = aom_norse_artifact
+			}
+		}
+		NOT = { has_trait = zealous }
+	}
+	cost = {
+		piety = 3000
+	}
+	effect = {
+		# TODO convert character and family to norse
+	}
+	ai_potential = {
+		always = no
+	}
+}
+
+# TODO: Convert to Finno Ugric
+aom_convert_to_finno_ugric_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_convert_to_finno_ugric_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_finno_ugric_artifact
+		}
+		NOT = { faith.religion = religion:finno_ugric_religion }
+	}
+	is_valid = {
+		custom_description = {
+			text = aom_has_finno_ugric_artifact
+			any_character_artifact = {
+				has_variable = aom_finno_ugric_artifact
+			}
+		}
+		NOT = { has_trait = zealous }
+	}
+	cost = {
+		piety = 3000
+	}
+	effect = {
+		# TODO convert character and family to finno_ugric
+	}
+	ai_potential = {
+		always = no
+	}
+}

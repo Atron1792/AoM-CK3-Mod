@@ -47,9 +47,7 @@ create_artifact_aom_book_of_eibon_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_book_of_eibon_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_book_of_eibon_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -77,9 +75,7 @@ create_artifact_aom_deep_ones_tiara_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_deep_ones_tiara_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_deep_ones_tiara_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -107,9 +103,7 @@ create_artifact_aom_hound_amulet_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_hound_amulet_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_hound_amulet_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -140,9 +134,7 @@ create_artifact_aom_shining_trapezohedron_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_shining_trapezohedron_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_shining_trapezohedron_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -170,9 +162,7 @@ create_artifact_aom_cthulhu_idol_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_cthulhu_idol_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_cthulhu_idol_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -200,9 +190,7 @@ create_artifact_aom_sliver_key_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_sliver_key_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_sliver_key_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -264,9 +252,7 @@ create_artifact_aom_pnakotic_manuscripts_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_pnakotic_manuscripts_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_pnakotic_manuscripts_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
@@ -294,9 +280,7 @@ create_artifact_aom_mirror_of_nitocris_effect = {
 		wealth = scope:wealth
 		quality = scope:quality
 		template = aom_mirror_of_nitocris_template
-		history = {
-			type = created_before_history
-		}
+		history = { type = created_before_history }
 		modifier = aom_mirror_of_nitocris_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
