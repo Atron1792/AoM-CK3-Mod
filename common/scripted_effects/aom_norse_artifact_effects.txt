@@ -3,9 +3,7 @@
 ############################
 # Gungnir (Odin’s Spear)
 create_artifact_aom_gungnir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_gungnir_name
@@ -35,9 +33,7 @@ create_artifact_aom_gungnir_effect = {
 
 # Mjölnir (Thor’s Hammer)
 create_artifact_aom_mjolnir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_mjolnir_name
@@ -67,9 +63,7 @@ create_artifact_aom_mjolnir_effect = {
 
 # Járngreipr (Thor’s Gauntlet)
 create_artifact_aom_jarngreipr_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_jarngreipr_name
@@ -99,9 +93,7 @@ create_artifact_aom_jarngreipr_effect = {
 
 # Megingjörð (Thor’s Belt)
 create_artifact_aom_megingjord_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_megingjord_name
@@ -131,9 +123,7 @@ create_artifact_aom_megingjord_effect = {
 
 # Brísingamen (Freyja’s Necklace)
 create_artifact_aom_brisingamen_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_brisingamen_name
@@ -163,9 +153,7 @@ create_artifact_aom_brisingamen_effect = {
 
 # Draupnir (Odin’s Ring)
 create_artifact_aom_draupnir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_draupnir_name
@@ -195,9 +183,7 @@ create_artifact_aom_draupnir_effect = {
 
 # Andvaranaut (Cursed Ring)
 create_artifact_aom_andvaranaut_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_andvaranaut_name
@@ -227,9 +213,7 @@ create_artifact_aom_andvaranaut_effect = {
 
 # Helm of Awe (Terror Helm)
 create_artifact_aom_helm_of_awe_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_helm_of_awe_name
@@ -259,9 +243,7 @@ create_artifact_aom_helm_of_awe_effect = {
 
 # Svalinn (Sun Shield)
 create_artifact_aom_svalinn_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_svalinn_name
@@ -291,9 +273,7 @@ create_artifact_aom_svalinn_effect = {
 
 # Gram (Sigurd’s Sword)
 create_artifact_aom_gram_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_gram_name
@@ -323,9 +303,7 @@ create_artifact_aom_gram_effect = {
 
 # Tyrfing (Cursed Blade)
 create_artifact_aom_tyrfing_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_tyrfing_name
@@ -355,9 +333,7 @@ create_artifact_aom_tyrfing_effect = {
 
 # Skofnung (Blade of Kings)
 create_artifact_aom_skofnung_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_skofnung_name
@@ -387,9 +363,7 @@ create_artifact_aom_skofnung_effect = {
 
 # Mistilteinn (Sword of Sorcery)
 create_artifact_aom_mistilteinn_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_mistilteinn_name
@@ -419,9 +393,7 @@ create_artifact_aom_mistilteinn_effect = {
 
 # Lævateinn (Weapon of Loki)
 create_artifact_aom_laevateinn_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_laevateinn_name
@@ -451,9 +423,7 @@ create_artifact_aom_laevateinn_effect = {
 
 # Hrotti (Dragon Hoard Blade)
 create_artifact_aom_hrotti_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_hrotti_name
@@ -483,9 +453,7 @@ create_artifact_aom_hrotti_effect = {
 
 # Hǫfuð (Heimdall’s Sword)
 create_artifact_aom_hofud_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_hofud_name
@@ -515,9 +483,7 @@ create_artifact_aom_hofud_effect = {
 
 # Dáinsleif (Sword of the Dead)
 create_artifact_aom_dainsleif_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_dainsleif_name
@@ -547,9 +513,7 @@ create_artifact_aom_dainsleif_effect = {
 
 # Tarnkappe (Cloak of Invisibility)
 create_artifact_aom_tarnkappe_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_tarnkappe_name
@@ -579,9 +543,7 @@ create_artifact_aom_tarnkappe_effect = {
 
 # Fjaðrhamr (Feathered Cloak)
 create_artifact_aom_fjadrhamr_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_fjadrhamr_name
@@ -611,9 +573,7 @@ create_artifact_aom_fjadrhamr_effect = {
 
 # Sword of Freyr 
 create_artifact_aom_sword_of_freyr_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_sword_of_freyr_name
@@ -646,9 +606,7 @@ create_artifact_aom_sword_of_freyr_effect = {
 ############################
 # Hlidskjalf (Odin's Throne)
 create_artifact_aom_throne_hlidskjalf_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_throne_hlidskjalf_name
@@ -678,9 +636,7 @@ create_artifact_aom_throne_hlidskjalf_effect = {
 
 # Gleipnir (Binding Chain)
 create_artifact_aom_gleipnir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_gleipnir_name
@@ -710,9 +666,7 @@ create_artifact_aom_gleipnir_effect = {
 
 # Eldhrímnir (Cooking Cauldron of the Gods)
 create_artifact_aom_eldhrimnir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_eldhrimnir_name
@@ -742,9 +696,7 @@ create_artifact_aom_eldhrimnir_effect = {
 
 # Óðrerir (Mead of Poetry)
 create_artifact_aom_odrerir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_odrerir_name
@@ -774,9 +726,7 @@ create_artifact_aom_odrerir_effect = {
 
 # Boðn (Mead of Poetry)
 create_artifact_aom_bodn_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_bodn_name
@@ -806,9 +756,7 @@ create_artifact_aom_bodn_effect = {
 
 # Són (Mead of Poetry)
 create_artifact_aom_son_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_son_name
@@ -838,9 +786,7 @@ create_artifact_aom_son_effect = {
 
 # Gjallarhorn (Horn of Heimdallr)
 create_artifact_aom_gjallarhorn_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_gjallarhorn_name
@@ -870,9 +816,7 @@ create_artifact_aom_gjallarhorn_effect = {
 
 # Mímir’s Skull
 create_artifact_aom_mimirs_skull_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_mimirs_skull_name
@@ -902,9 +846,7 @@ create_artifact_aom_mimirs_skull_effect = {
 
 # Bragi’s Harp
 create_artifact_aom_bragis_harp_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_bragis_harp_name

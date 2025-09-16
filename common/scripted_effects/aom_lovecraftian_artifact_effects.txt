@@ -3,9 +3,7 @@
 ############################
 # Necronomicon 
 create_artifact_aom_necronomicon_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_necronomicon_name
@@ -39,9 +37,7 @@ create_artifact_aom_necronomicon_effect = {
 
 # Book Of Eibon 
 create_artifact_aom_book_of_eibon_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_book_of_eibon_name
@@ -71,9 +67,7 @@ create_artifact_aom_book_of_eibon_effect = {
 
 # Deep One's Tiara
 create_artifact_aom_deep_ones_tiara_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_deep_ones_tiara_name
@@ -103,9 +97,7 @@ create_artifact_aom_deep_ones_tiara_effect = {
 
 # Hound Amulet 
 create_artifact_aom_hound_amulet_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_hound_amulet_name
@@ -138,9 +130,7 @@ create_artifact_aom_hound_amulet_effect = {
 ############################
 # The Shining Trapezohedron 
 create_artifact_aom_shining_trapezohedron_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_shining_trapezohedron_name
@@ -170,9 +160,7 @@ create_artifact_aom_shining_trapezohedron_effect = {
 
 # Cthulhu Idol 
 create_artifact_aom_cthulhu_idol_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_cthulhu_idol_name
@@ -202,9 +190,7 @@ create_artifact_aom_cthulhu_idol_effect = {
 
 # The Sliver Key 
 create_artifact_aom_sliver_key_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_sliver_key_name
@@ -234,9 +220,7 @@ create_artifact_aom_sliver_key_effect = {
 
 # Confessions of Clithanus
 create_artifact_aom_confessions_of_clithanus_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_confessions_of_clithanus_name
@@ -270,9 +254,7 @@ create_artifact_aom_confessions_of_clithanus_effect = {
 
 # Pnakotic Manuscripts  
 create_artifact_aom_pnakotic_manuscripts_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_pnakotic_manuscripts_name
@@ -302,9 +284,7 @@ create_artifact_aom_pnakotic_manuscripts_effect = {
 
 # The Mirror Of Nitocris   
 create_artifact_aom_mirror_of_nitocris_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_mirror_of_nitocris_name

@@ -726,3 +726,5 @@ aom_gaze_into_mirror_of_nitocris_decision = {
 		always = no
 	}
 }
+
+# TODO: merge white and red crowns (egyptian)

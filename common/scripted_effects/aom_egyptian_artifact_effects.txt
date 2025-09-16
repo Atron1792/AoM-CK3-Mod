@@ -4,7 +4,7 @@
 # Book of Thoth
 create_artifact_aom_book_of_thoth_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_book_of_thoth_name
 		description = aom_book_of_thoth_desc
@@ -29,7 +29,7 @@ create_artifact_aom_book_of_thoth_effect = {
 # Spear of Ra
 create_artifact_aom_spear_of_ra_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_spear_of_ra_name
 		description = aom_spear_of_ra_desc
@@ -54,7 +54,7 @@ create_artifact_aom_spear_of_ra_effect = {
 # Knife of Isis
 create_artifact_aom_knife_of_isis_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_knife_of_isis_name
 		description = aom_knife_of_isis_desc
@@ -79,7 +79,7 @@ create_artifact_aom_knife_of_isis_effect = {
 # Scythe of Horus
 create_artifact_aom_scythe_of_horus_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_scythe_of_horus_name
 		description = aom_scythe_of_horus_desc
@@ -104,7 +104,7 @@ create_artifact_aom_scythe_of_horus_effect = {
 # Eye of Horus
 create_artifact_aom_eye_of_horus_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_eye_of_horus_name
 		description = aom_eye_of_horus_desc
@@ -207,7 +207,7 @@ create_artifact_aom_deshret_effect = {
 # Neith's Loom
 create_artifact_aom_neiths_loom_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_neiths_loom_name
 		description = aom_neiths_loom_desc
@@ -232,7 +232,7 @@ create_artifact_aom_neiths_loom_effect = {
 # Feather of Ma’at
 create_artifact_aom_feather_of_maat_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_feather_of_maat_name
 		description = aom_feather_of_maat_desc
@@ -257,7 +257,7 @@ create_artifact_aom_feather_of_maat_effect = {
 # Anubis’ Scales
 create_artifact_aom_anubis_scales_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_anubis_scales_name
 		description = aom_anubis_scales_desc

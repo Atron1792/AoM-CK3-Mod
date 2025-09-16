@@ -4,7 +4,7 @@
 # Pangu’s Axe
 create_artifact_aom_pangu_axe_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_pangu_axe_name
 		description = aom_pangu_axe_desc
@@ -29,7 +29,7 @@ create_artifact_aom_pangu_axe_effect = {
 # Ruyi Jingu Bang (Sun Wukong’s Staff)
 create_artifact_aom_ruyi_jingu_bang_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_ruyi_jingu_bang_name
 		description = aom_ruyi_jingu_bang_desc
@@ -54,7 +54,7 @@ create_artifact_aom_ruyi_jingu_bang_effect = {
 # Sun Wukong’s Boots
 create_artifact_aom_wukong_boots_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_wukong_boots_name
 		description = aom_wukong_boots_desc
@@ -79,7 +79,7 @@ create_artifact_aom_wukong_boots_effect = {
 # Peach of Immortality
 create_artifact_aom_peach_of_immortality_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_peach_of_immortality_name
 		description = aom_peach_of_immortality_desc
@@ -154,7 +154,7 @@ create_artifact_aom_erlang_spear_effect = {
 # Kenkonken (Nezha's Chakram)
 create_artifact_aom_kenkonken_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_kenkonken_name
 		description = aom_kenkonken_desc
@@ -179,7 +179,7 @@ create_artifact_aom_kenkonken_effect = {
 # Qiankun Dai (Spatial Bag)
 create_artifact_aom_qiankun_dai_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_qiankun_dai_name
 		description = aom_qiankun_dai_desc
@@ -304,7 +304,7 @@ create_artifact_aom_hou_yi_bow_effect = {
 # Gan Jiang
 create_artifact_aom_gan_jiang_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_gan_jiang_name
 		description = aom_gan_jiang_desc
@@ -329,7 +329,7 @@ create_artifact_aom_gan_jiang_effect = {
 # Mo Ye
 create_artifact_aom_mo_ye_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_mo_ye_name
 		description = aom_mo_ye_desc
@@ -407,7 +407,7 @@ create_artifact_aom_heirloom_seal_effect = {
 # Nieh-ching-t'ai (Mirror of Retribution)
 create_artifact_aom_mirror_of_retribution_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_mirror_of_retribution_name
 		description = aom_mirror_of_retribution_desc
@@ -457,7 +457,7 @@ create_artifact_aom_jade_books_effect = {
 # Jiuding (Nine-Tripod Cauldrons)
 create_artifact_aom_jiuding_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_jiuding_name
 		description = aom_jiuding_desc

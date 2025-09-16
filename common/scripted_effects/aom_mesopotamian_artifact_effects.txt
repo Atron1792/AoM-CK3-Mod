@@ -4,7 +4,7 @@
 # Sharur (Ninurta's Mace)
 create_artifact_aom_sharur_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_sharur_name
 		description = aom_sharur_desc
@@ -29,7 +29,7 @@ create_artifact_aom_sharur_effect = {
 # Imhullu (Marduk's Weapon)
 create_artifact_aom_imhullu_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_imhullu_name
 		description = aom_imhullu_desc
@@ -54,7 +54,7 @@ create_artifact_aom_imhullu_effect = {
 # Marduk’s Net
 create_artifact_aom_marduks_net_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_marduks_net_name
 		description = aom_marduks_net_desc
@@ -82,7 +82,7 @@ create_artifact_aom_marduks_net_effect = {
 # Tablets of Destinies
 create_artifact_aom_tablets_of_destinies_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_tablets_of_destinies_name
 		description = aom_tablets_of_destinies_desc
@@ -107,7 +107,7 @@ create_artifact_aom_tablets_of_destinies_effect = {
 # Bull of Heaven’s Horns
 create_artifact_aom_bull_of_heaven_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_bull_of_heaven_name
 		description = aom_bull_of_heaven_desc
@@ -157,7 +157,7 @@ create_artifact_aom_lyre_of_ur_effect = {
 # Mul Zibanu (Shamash's Scales)
 create_artifact_aom_mul_zibanu_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_mul_zibanu_name
 		description = aom_mul_zibanu_desc
@@ -182,7 +182,7 @@ create_artifact_aom_mul_zibanu_effect = {
 # Ereshkigal's Throne
 create_artifact_aom_throne_ereshkigal_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_throne_ereshkigal_name
 		description = aom_throne_ereshkigal_desc

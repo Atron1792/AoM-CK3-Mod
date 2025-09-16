@@ -3,9 +3,7 @@
 ############################
 # Achilles' Armor
 create_artifact_aom_achilles_armor_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_achilles_armor_name
@@ -35,9 +33,7 @@ create_artifact_aom_achilles_armor_effect = {
 
 # Aegis (Zeus' Shield)
 create_artifact_aom_aegis_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_aegis_name
@@ -67,9 +63,7 @@ create_artifact_aom_aegis_effect = {
 
 # Ambrosia (Nectar of the Gods)
 create_artifact_aom_ambrosia_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_ambrosia_name
@@ -99,9 +93,7 @@ create_artifact_aom_ambrosia_effect = {
 
 # Apollo's Bow
 create_artifact_aom_apollos_bow_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_apollos_bow_name
@@ -131,9 +123,7 @@ create_artifact_aom_apollos_bow_effect = {
 
 # Caduceus (Hermes' Staff)
 create_artifact_aom_caduceus_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_caduceus_name
@@ -163,9 +153,7 @@ create_artifact_aom_caduceus_effect = {
 
 # Eros' Bow
 create_artifact_aom_eros_bow_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_eros_bow_name
@@ -194,9 +182,7 @@ create_artifact_aom_eros_bow_effect = {
 
 # Apple of Discord
 create_artifact_aom_apple_of_discord_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_apple_of_discord_name
@@ -226,9 +212,7 @@ create_artifact_aom_apple_of_discord_effect = {
 
 # Rod of Asclepius
 create_artifact_aom_rod_of_asclepius_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_rod_of_asclepius_name
@@ -258,9 +242,7 @@ create_artifact_aom_rod_of_asclepius_effect = {
 
 # Poseidon's Trident
 create_artifact_aom_poseidons_trident_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_poseidons_trident_name
@@ -290,9 +272,7 @@ create_artifact_aom_poseidons_trident_effect = {
 
 # Shield of Achilleus
 create_artifact_aom_shield_of_achilleus_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_shield_of_achilleus_name
@@ -322,9 +302,7 @@ create_artifact_aom_shield_of_achilleus_effect = {
 
 # Spear of Achilles
 create_artifact_aom_spear_of_achilles_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_spear_of_achilles_name
@@ -354,9 +332,7 @@ create_artifact_aom_spear_of_achilles_effect = {
 
 # Thyrsus (Staff of Dionysus)
 create_artifact_aom_thyrsus_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_thyrsus_name
@@ -386,9 +362,7 @@ create_artifact_aom_thyrsus_effect = {
 
 # Talaria (Hermes's Winged Sandals)
 create_artifact_aom_talaria_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_talaria_name
@@ -418,9 +392,7 @@ create_artifact_aom_talaria_effect = {
 
 # Zeus' Lightning Bolt
 create_artifact_aom_zeus_lightning_bolt_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_zeus_lightning_bolt_name
@@ -450,9 +422,7 @@ create_artifact_aom_zeus_lightning_bolt_effect = {
 
 # Hades' Bident
 create_artifact_aom_hades_bident_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_hades_bident_name
@@ -482,9 +452,7 @@ create_artifact_aom_hades_bident_effect = {
 
 # Helm of Darkness (Hades' Helm)
 create_artifact_aom_helm_of_darkness_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_helm_of_darkness_name
@@ -514,9 +482,7 @@ create_artifact_aom_helm_of_darkness_effect = {
 
 # Harpe (Perseus' Sword)
 create_artifact_aom_harpe_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_harpe_name
@@ -546,9 +512,7 @@ create_artifact_aom_harpe_effect = {
 
 # Necklace of Harmonia
 create_artifact_aom_necklace_of_harmonia_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_necklace_of_harmonia_name
@@ -578,9 +542,7 @@ create_artifact_aom_necklace_of_harmonia_effect = {
 
 # Kronos' Scythe
 create_artifact_aom_kronos_scythe_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_kronos_scythe_name
@@ -610,9 +572,7 @@ create_artifact_aom_kronos_scythe_effect = {
 
 # Zeus' Labrys (Zues' Axe)
 create_artifact_aom_zeus_labrys_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_zeus_labrys_name
@@ -642,9 +602,7 @@ create_artifact_aom_zeus_labrys_effect = {
 
 # Artemis's Bow
 create_artifact_aom_artemis_bow_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_artemis_bow_name
@@ -674,9 +632,7 @@ create_artifact_aom_artemis_bow_effect = {
 
 # Eurytus' Bow (Odysseus' Bow)
 create_artifact_aom_eurytus_bow_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_eurytus_bow_name
@@ -706,9 +662,7 @@ create_artifact_aom_eurytus_bow_effect = {
 
 # Panacea
 create_artifact_aom_panacea_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_panacea_name
@@ -738,9 +692,7 @@ create_artifact_aom_panacea_effect = {
 
 # Bag of Wind
 create_artifact_aom_bag_of_wind_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_bag_of_wind_name
@@ -770,9 +722,7 @@ create_artifact_aom_bag_of_wind_effect = {
 
 # Triton's Conch
 create_artifact_aom_tritons_conch_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_tritons_conch_name
@@ -802,9 +752,7 @@ create_artifact_aom_tritons_conch_effect = {
 
 # Nemean Lion Hide
 create_artifact_aom_nemean_lion_hide_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_nemean_lion_hide_name
@@ -834,9 +782,7 @@ create_artifact_aom_nemean_lion_hide_effect = {
 
 # Girdle of Hippolyta
 create_artifact_aom_girdle_of_hippolyta_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_girdle_of_hippolyta_name
@@ -869,9 +815,7 @@ create_artifact_aom_girdle_of_hippolyta_effect = {
 ############################
 # Apollo's Kithara (Apollo's Lyre)
 create_artifact_aom_apollos_kithara_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_apollos_kithara_name
@@ -901,9 +845,7 @@ create_artifact_aom_apollos_kithara_effect = {
 
 # Cornucopia (Horn of Plenty)
 create_artifact_aom_cornucopia_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_cornucopia_name
@@ -933,9 +875,7 @@ create_artifact_aom_cornucopia_effect = {
 
 # Golden Fleece
 create_artifact_aom_golden_fleece_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_golden_fleece_name
@@ -965,9 +905,7 @@ create_artifact_aom_golden_fleece_effect = {
 
 # Scale of Justice (Themis' Scale)
 create_artifact_aom_scale_of_justice_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_scale_of_justice_name
@@ -997,9 +935,7 @@ create_artifact_aom_scale_of_justice_effect = {
 
 # Icarus' Feather (Icarus' Wings)
 create_artifact_aom_icarus_feather_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_icarus_feather_name
@@ -1029,9 +965,7 @@ create_artifact_aom_icarus_feather_effect = {
 
 # Prometheus's Chains
 create_artifact_aom_prometheus_chains_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_prometheus_chains_name
@@ -1061,9 +995,7 @@ create_artifact_aom_prometheus_chains_effect = {
 
 # Medusa's Head
 create_artifact_aom_medusas_head_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_medusas_head_name
@@ -1093,9 +1025,7 @@ create_artifact_aom_medusas_head_effect = {
 
 # Zeus' Throne
 create_artifact_aom_throne_zeus_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_throne_zeus_name

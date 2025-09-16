@@ -4,9 +4,7 @@
 # Inventory Artifacts (Christian)
 # Conquest's Crown (Horsemen of the Apocalypse)
 create_artifact_aom_conquests_crown_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_conquests_crown_name
@@ -36,9 +34,7 @@ create_artifact_aom_conquests_crown_effect = {
 
 # War's Greatsword (Horsemen of the Apocalypse)
 create_artifact_aom_wars_greatsword_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_wars_greatsword_name
@@ -68,9 +64,7 @@ create_artifact_aom_wars_greatsword_effect = {
 
 # Crown of Twelve Stars (Mary's Crown)
 create_artifact_aom_crown_of_twelve_stars_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_crown_of_twelve_stars_name
@@ -100,9 +94,7 @@ create_artifact_aom_crown_of_twelve_stars_effect = {
 
 # Seamless Robe of Jesus
 create_artifact_aom_seamless_robe_of_jesus_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_seamless_robe_of_jesus_name
@@ -132,9 +124,7 @@ create_artifact_aom_seamless_robe_of_jesus_effect = {
 
 # Death's Scythe (Horsemen of the Apocalypse)
 create_artifact_aom_deaths_scythe_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_deaths_scythe_name
@@ -164,9 +154,7 @@ create_artifact_aom_deaths_scythe_effect = {
 
 # Ascalon (Saint George's Sword)
 create_artifact_aom_ascalon_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_ascalon_name
@@ -196,9 +184,7 @@ create_artifact_aom_ascalon_effect = {
 
 # Bradamante's Lance
 create_artifact_aom_bradamantes_lance_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_bradamantes_lance_name
@@ -228,9 +214,7 @@ create_artifact_aom_bradamantes_lance_effect = {
 
 # Holy Lance (Spear of Longinus)
 create_artifact_aom_holy_lance_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_holy_lance_name
@@ -260,9 +244,7 @@ create_artifact_aom_holy_lance_effect = {
 
 # Conquest's Bow (Horsemen of the Apocalypse)
 create_artifact_aom_conquests_bow_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_conquests_bow_name
@@ -292,9 +274,7 @@ create_artifact_aom_conquests_bow_effect = {
 
 # Seal of Solomon
 create_artifact_aom_seal_of_solomon_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_seal_of_solomon_name
@@ -325,9 +305,7 @@ create_artifact_aom_seal_of_solomon_effect = {
 # Court Artifacts (Christian)
 # Famine's Scale (Horsemen of the Apocalypse)
 create_artifact_aom_famines_scale_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_famines_scale_name
@@ -357,9 +335,7 @@ create_artifact_aom_famines_scale_effect = {
 
 # Piece of Noah's Ark
 create_artifact_aom_piece_of_noahs_ark_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_piece_of_noahs_ark_name
@@ -389,9 +365,7 @@ create_artifact_aom_piece_of_noahs_ark_effect = {
 
 # Sudarium of Oviedo
 create_artifact_aom_sudarium_of_oviedo_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_sudarium_of_oviedo_name
@@ -421,9 +395,7 @@ create_artifact_aom_sudarium_of_oviedo_effect = {
 
 # Holy Grail (Holy Chalice)
 create_artifact_aom_holy_grail_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_holy_grail_name
@@ -453,9 +425,7 @@ create_artifact_aom_holy_grail_effect = {
 
 # Holy Prepuce
 create_artifact_aom_holy_prepuce_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_holy_prepuce_name
@@ -485,9 +455,7 @@ create_artifact_aom_holy_prepuce_effect = {
 
 # Book of Life
 create_artifact_aom_book_of_life_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_book_of_life_name
@@ -517,9 +485,7 @@ create_artifact_aom_book_of_life_effect = {
 
 # Forbidden Fruit
 create_artifact_aom_forbidden_fruit_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_forbidden_fruit_name
@@ -549,9 +515,7 @@ create_artifact_aom_forbidden_fruit_effect = {
 
 # Horn of Gabriel
 create_artifact_aom_horn_of_gabriel_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_horn_of_gabriel_name
@@ -581,9 +545,7 @@ create_artifact_aom_horn_of_gabriel_effect = {
 
 # Blood of Christ
 create_artifact_aom_blood_of_christ_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_blood_of_christ_name
@@ -614,9 +576,7 @@ create_artifact_aom_blood_of_christ_effect = {
 # Inventory Artifacts (Jewish)
 # Moses' Staff
 create_artifact_aom_moses_staff_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_moses_staff_name
@@ -646,9 +606,7 @@ create_artifact_aom_moses_staff_effect = {
 
 # David's Sword
 create_artifact_aom_davids_sword_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_davids_sword_name
@@ -678,9 +636,7 @@ create_artifact_aom_davids_sword_effect = {
 
 # Coat of Many Colors (Joseph's Coat)
 create_artifact_aom_coat_of_many_colors_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_coat_of_many_colors_name
@@ -710,9 +666,7 @@ create_artifact_aom_coat_of_many_colors_effect = {
 
 # Aaron's Rod (Moses' Brother's Staff)
 create_artifact_aom_aarons_rod_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_aarons_rod_name
@@ -742,9 +696,7 @@ create_artifact_aom_aarons_rod_effect = {
 
 # Solomon's Shamir
 create_artifact_aom_solomons_shamir_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_solomons_shamir_name
@@ -774,9 +726,7 @@ create_artifact_aom_solomons_shamir_effect = {
 
 # Greater Key of Solomon
 create_artifact_aom_greater_key_of_solomon_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_greater_key_of_solomon_name
@@ -806,9 +756,7 @@ create_artifact_aom_greater_key_of_solomon_effect = {
 
 # Lesser Key of Solomon
 create_artifact_aom_lesser_key_of_solomon_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_lesser_key_of_solomon_name
@@ -838,9 +786,7 @@ create_artifact_aom_lesser_key_of_solomon_effect = {
 
 # Goliath's Sword
 create_artifact_aom_goliaths_sword_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_goliaths_sword_name
@@ -871,9 +817,7 @@ create_artifact_aom_goliaths_sword_effect = {
 # Court Artifacts (Jewish)
 # Ark of Bulrushes (Moses' Basket)
 create_artifact_aom_ark_of_bulrushes_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_ark_of_bulrushes_name
@@ -903,9 +847,7 @@ create_artifact_aom_ark_of_bulrushes_effect = {
 
 # Tablets of Stone (The 10 Commandments)
 create_artifact_aom_tablets_of_stone_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_tablets_of_stone_name
@@ -935,9 +877,7 @@ create_artifact_aom_tablets_of_stone_effect = {
 
 # Joshua's Shofars
 create_artifact_aom_joshuas_shofars_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_joshuas_shofars_name
@@ -967,9 +907,7 @@ create_artifact_aom_joshuas_shofars_effect = {
 
 # Leviathan's Hide
 create_artifact_aom_leviathans_hide_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_leviathans_hide_name
@@ -999,9 +937,7 @@ create_artifact_aom_leviathans_hide_effect = {
 
 # Throne of God (YHWH's Throne)
 create_artifact_aom_throne_of_god_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_throne_of_god_name
@@ -1032,9 +968,7 @@ create_artifact_aom_throne_of_god_effect = {
 # Inventory Artifacts (Islamic)
 # Zulfiqar (Ali ibn Abi Talib's Sword)
 create_artifact_aom_zulfiqar_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_zulfiqar_name
@@ -1073,9 +1007,7 @@ create_artifact_aom_zulfiqar_effect = {
 
 # Sacred Cloak of the Prophet
 create_artifact_aom_sacred_cloak_of_the_prophet_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_sacred_cloak_of_the_prophet_name
@@ -1109,9 +1041,7 @@ create_artifact_aom_sacred_cloak_of_the_prophet_effect = {
 # Court Artifacts (Islamic)
 # Key to the Kaaba
 create_artifact_aom_key_to_the_kaaba_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_key_to_the_kaaba_name

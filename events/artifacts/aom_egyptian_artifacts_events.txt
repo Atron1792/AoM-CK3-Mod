@@ -8,10 +8,215 @@ aom_egyptian_artifacts.001 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
-		
-
+		# Neith's Loom
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_neiths_loom } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_neiths_loom_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Feather of Ma’at
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_feather_of_maat } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_feather_of_maat_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Anubis’ Scales
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_anubis_scales } 
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_anubis_scales_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 		# Inventory Artifacts
-		
+		# Book of Thoth
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_book_of_thoth } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_book_of_thoth_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Spear of Ra
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_spear_of_ra } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_spear_of_ra_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Knife of Isis
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_knife_of_isis } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_knife_of_isis_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Scythe of Horus
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_scythe_of_horus } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_scythe_of_horus_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Eye of Horus
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_eye_of_horus } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_eye_of_horus_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 	}
 }
 		
@@ -22,10 +227,61 @@ aom_egyptian_artifacts.002 = {
 	scope = none
 	hidden = yes
 	immediate = {
-		# Court Artifacts
-        
-		
 		# Inventory Artifacts
-        
+        # Pschent (Double Crown of Egypt) 
+		# Does not spawn must be created with white and red crowns
+
+		# Hedjet (White Crown of Upper Egypt)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_hedjet } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_hedjet_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+		# Deshret (Red Crown of Lower Egypt)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_deshret } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						culture = egyptian
+					}
+                }
+                create_artifact_aom_deshret_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 	}
 }

@@ -8,7 +8,120 @@ aom_easter_egg_artifacts.001 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
-
+		# Soul Edge (Soul Calibur)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_soul_edge
+						}
+					}
+				}
+				create_artifact_aom_soul_edge_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Blackfyre (AGOT)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_blackfyre
+						}
+					}
+				}
+				create_artifact_aom_blackfyre_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# One Ring (LotR)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_one_ring
+						}
+					}
+				}
+				create_artifact_aom_one_ring_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Elder Wand (Harry Potter)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_elder_wand
+						}
+					}
+				}
+				create_artifact_aom_elder_wand_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
 		# Inventory Artifacts
+		# Lightsaber (Star Wars)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_lightsaber
+						}
+					}
+				}
+				create_artifact_aom_lightsaber_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
+		# Palantír (LotR)
+		while = {
+			count = 1
+			random_ruler = {
+				limit = {
+					NOT = {
+						has_character_flag = aom_seeded_relic
+						any_artifact = {
+							has_variable = aom_palantir
+						}
+					}
+				}
+				create_artifact_aom_palantir_effect = { OWNER = this }
+				add_character_flag = {
+					flag = aom_seeded_relic
+					days = 1
+				}
+			}
+		}
 	}
 }

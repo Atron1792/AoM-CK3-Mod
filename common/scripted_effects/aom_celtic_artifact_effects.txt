@@ -3,9 +3,7 @@
 ############################
 # Sleg (Spear of Lugh) 
 create_artifact_aom_sleg_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_sleg_name
@@ -35,9 +33,7 @@ create_artifact_aom_sleg_effect = {
 
 # Lughs Sling
 create_artifact_aom_lughs_sling_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_lughs_sling_name
@@ -67,9 +63,7 @@ create_artifact_aom_lughs_sling_effect = {
 
 # Claíomh Solais (Sword of Light)
 create_artifact_aom_claiomh_solais_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_claiomh_solais_name
@@ -99,9 +93,7 @@ create_artifact_aom_claiomh_solais_effect = {
 
 # Fragarach (Sword of Nuada)
 create_artifact_aom_fragarach_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_fragarach_name
@@ -131,9 +123,7 @@ create_artifact_aom_fragarach_effect = {
 
 # Gáe Bulg (Scáthach's Spear)
 create_artifact_aom_gae_bulg_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_gae_bulg_name
@@ -163,9 +153,7 @@ create_artifact_aom_gae_bulg_effect = {
 
 # Caladbolg
 create_artifact_aom_caladbolg_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_caladbolg_name
@@ -195,9 +183,7 @@ create_artifact_aom_caladbolg_effect = {
 
 # Móralltach (the Great Fury)
 create_artifact_aom_moralltach_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_moralltach_name
@@ -227,9 +213,7 @@ create_artifact_aom_moralltach_effect = {
 
 # Beagalltach (the Little Fury)
 create_artifact_aom_beagalltach_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_beagalltach_name
@@ -259,9 +243,7 @@ create_artifact_aom_beagalltach_effect = {
 
 # Dubán (Cu Chulainn's Black Shield)
 create_artifact_aom_duban_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_duban_name
@@ -291,9 +273,7 @@ create_artifact_aom_duban_effect = {
 
 # Dyrnwyn (White Hilt)
 create_artifact_aom_dyrnwyn_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_dyrnwyn_name
@@ -326,9 +306,7 @@ create_artifact_aom_dyrnwyn_effect = {
 ############################
 # Uaithne (The Dagda's Harp)
 create_artifact_aom_uaithne_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_uaithne_name
@@ -358,9 +336,7 @@ create_artifact_aom_uaithne_effect = {
 
 # Horn Of Bran Galed
 create_artifact_aom_horn_of_bran_galed_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_horn_of_bran_galed_name
@@ -390,9 +366,7 @@ create_artifact_aom_horn_of_bran_galed_effect = {
 
 # Hamper Of Gwyddno
 create_artifact_aom_hamper_of_gwyddno_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_hamper_of_gwyddno_name
@@ -422,9 +396,7 @@ create_artifact_aom_hamper_of_gwyddno_effect = {
 
 # Pair Dadeni (Cauldron of Rebirth)
 create_artifact_aom_pair_dadeni_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_pair_dadeni_name
@@ -454,9 +426,7 @@ create_artifact_aom_pair_dadeni_effect = {
 
 # Cauldron Of Inspiration
 create_artifact_aom_cauldron_of_inspiration_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_cauldron_of_inspiration_name

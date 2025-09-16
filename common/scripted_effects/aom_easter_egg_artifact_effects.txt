@@ -4,7 +4,7 @@
 # Soul Edge (Soul Calibur)
 create_artifact_aom_soul_edge_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_soul_edge_name
 		description = aom_soul_edge_desc
@@ -54,7 +54,7 @@ create_artifact_aom_blackfyre_effect = {
 # One Ring (LotR)
 create_artifact_aom_one_ring_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_one_ring_name
 		description = aom_one_ring_desc
@@ -79,7 +79,7 @@ create_artifact_aom_one_ring_effect = {
 # Elder Wand (Harry Potter)
 create_artifact_aom_elder_wand_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_elder_wand_name
 		description = aom_elder_wand_desc

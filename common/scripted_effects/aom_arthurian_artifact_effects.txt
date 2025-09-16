@@ -3,9 +3,7 @@
 ############################
 # Excalibur (Caledfwlch)
 create_artifact_aom_excalibur_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
 		name = aom_excalibur_name
@@ -35,9 +33,7 @@ create_artifact_aom_excalibur_effect = {
 
 # Carnwennan (Arthur's Dagger)
 create_artifact_aom_carnwennan_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_carnwennan_name
@@ -67,9 +63,7 @@ create_artifact_aom_carnwennan_effect = {
 
 # Rhongomyniad (Arthur's Spear)
 create_artifact_aom_rhongomyniad_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_rhongomyniad_name
@@ -99,9 +93,7 @@ create_artifact_aom_rhongomyniad_effect = {
 
 # Pridwen (Arthur's Shield)
 create_artifact_aom_pridwen_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_pridwen_name
@@ -131,9 +123,7 @@ create_artifact_aom_pridwen_effect = {
 
 # Merlin's Staff
 create_artifact_aom_merlins_staff_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_merlins_staff_name
@@ -163,9 +153,7 @@ create_artifact_aom_merlins_staff_effect = {
 
 # Clarent (The Sword in the Stone)
 create_artifact_aom_clarent_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_clarent_name
@@ -195,9 +183,7 @@ create_artifact_aom_clarent_effect = {
 
 ## Secace (Sir Lancelot's Sword)
 create_artifact_aom_secace_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_secace_name
@@ -227,9 +213,7 @@ create_artifact_aom_secace_effect = {
 
 # Courechouse (King Ban's Sword)
 create_artifact_aom_courechouse_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_courechouse_name
@@ -259,9 +243,7 @@ create_artifact_aom_courechouse_effect = {
 
 # Galatine (Sir Gawain's Sword)
 create_artifact_aom_galatine_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_galatine_name
@@ -291,9 +273,7 @@ create_artifact_aom_galatine_effect = {
 
 # Sword Of The Red Hilt (Sir Galahad's Sword)
 create_artifact_aom_sword_of_the_red_hilt_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_sword_of_the_red_hilt_name
@@ -326,9 +306,7 @@ create_artifact_aom_sword_of_the_red_hilt_effect = {
 ############################
 # The Round Table
 create_artifact_aom_throne_round_table_effect = {
-	$OWNER$ = {
-		save_scope_as = owner
-	}
+	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
 	create_artifact = {
 		name = aom_throne_round_table_name
