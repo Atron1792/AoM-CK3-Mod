@@ -32,7 +32,6 @@ aom_greco_roman_artifacts.001 = {
 				}
 			}
 		}
-
 		# Cornucopia (Horn of Plenty)
 		while = {
 			count = 1
@@ -57,7 +56,6 @@ aom_greco_roman_artifacts.001 = {
 				}			
 			}
 		}
-
 		# Golden Fleece
 		while = {
 			count = 1
@@ -82,7 +80,6 @@ aom_greco_roman_artifacts.001 = {
 				}			
 			}
 		}
-
 		# Scale of Justice (Themis' Scale)
 		while = {
 			count = 1
@@ -107,7 +104,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Prometheus's Chains
 		while = {
 			count = 1
@@ -132,7 +128,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Medusa's Head
 		while = {
 			count = 1
@@ -157,7 +152,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Zeus' Throne
 		while = {
 			count = 1
@@ -208,7 +202,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Ambrosia (Nectar of the Gods)
 		while = {
 			count = 1
@@ -233,7 +226,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Apollo's Bow
 		while = {
 			count = 1
@@ -258,7 +250,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Caduceus (Hermes' Staff)
 		while = {
 			count = 1
@@ -283,7 +274,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Eros' Bow
 		while = {
 			count = 1
@@ -308,7 +298,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Apple of Discord
 		while = {
 			count = 1
@@ -333,7 +322,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Rod of Asclepius
 		while = {
 			count = 1
@@ -358,7 +346,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Poseidon's Trident
 		while = {
 			count = 1
@@ -383,7 +370,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Thyrsus (Staff of Dionysus)
 		while = {
 			count = 1
@@ -408,7 +394,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Talaria (Hermes's Winged Sandals)
 		while = {
 			count = 1
@@ -433,7 +418,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Zeus' Lightning Bolt
 		while = {
 			count = 1
@@ -458,7 +442,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Hades' Bident
 		while = {
 			count = 1
@@ -483,7 +466,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Helm of Darkness (Hades' Helm)
 		while = {
 			count = 1
@@ -508,7 +490,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Kronos' Scythe
 		while = {
 			count = 1
@@ -533,7 +514,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Zeus' Labrys (Zues' Axe)
 		while = {
 			count = 1
@@ -558,7 +538,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Artemis's Bow
 		while = {
 			count = 1
@@ -583,7 +562,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Panacea
 		while = {
 			count = 1
@@ -608,7 +586,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Bag of Wind
 		while = {
 			count = 1
@@ -633,7 +610,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Triton's Conch
 		while = {
 			count = 1
@@ -658,7 +634,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Nemean Lion Hide
 		while = {
 			count = 1
@@ -683,7 +658,6 @@ aom_greco_roman_artifacts.001 = {
 				}				
 			}
 		}
-
 		# Necklace of Harmonia
 		while = {
 			count = 1
@@ -769,7 +743,6 @@ aom_greco_roman_artifacts.002 = {
 				}				
 			}
 		}
-
 		# Shield of Achilleus
 		while = {
 			count = 1
@@ -794,7 +767,6 @@ aom_greco_roman_artifacts.002 = {
 				}				
 			}
 		}
-
 		# Spear of Achilles
 		while = {
 			count = 1
@@ -819,7 +791,6 @@ aom_greco_roman_artifacts.002 = {
 				}				
 			}
 		}
-
 		# Harpe (Perseus' Sword)
 		while = {
 			count = 1
@@ -844,7 +815,6 @@ aom_greco_roman_artifacts.002 = {
 				}				
 			}
 		}
-
 		# Eurytus' Bow (Odysseus' Bow)
 		while = {
 			count = 1

@@ -8,7 +8,7 @@ aom_mesopotamian_artifacts.001 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
-		# Tablets of Destinies
+		# Tablet of Destinies
         while = {
             count = 1
             random_ruler = {
@@ -19,7 +19,7 @@ aom_mesopotamian_artifacts.001 = {
                     }
                     NOT = { 
                         has_character_flag = aom_seeded_relic 
-                        any_artifact = { has_variable = aom_tablets_of_destinies } 
+                        any_artifact = { has_variable = aom_tablet_of_destinies } 
                     }
                     highest_held_title_tier >= tier_duchy
                     culture = {
@@ -29,7 +29,7 @@ aom_mesopotamian_artifacts.001 = {
                         }
                     }
                 }
-                create_artifact_aom_tablets_of_destinies_effect = { OWNER = this }
+                create_artifact_aom_tablet_of_destinies_effect = { OWNER = this }
                 add_character_flag = { 
                     flag = aom_seeded_relic 
                     days = 1 

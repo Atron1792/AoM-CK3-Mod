@@ -4,11 +4,7 @@
 # Soul Edge (Soul Calibur)
 aom_soul_edge_template = {
 	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-		}
-	}
+	can_benefit = {}
 	fallback = { prowess = 8 }
 	unique = yes
 }
@@ -16,11 +12,7 @@ aom_soul_edge_template = {
 # Blackfyre (AGOT)   
 aom_blackfyre_template = {
 	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-		}
-	}
+	can_benefit = {}
 	fallback = { prowess = 5 }
 	unique = yes
 }
@@ -28,11 +20,7 @@ aom_blackfyre_template = {
 # One Ring (LotR)
 aom_one_ring_template = {
 	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-		}
-	}
+	can_benefit = {}
 	fallback = { prowess = 2 }
 	unique = yes
 }
@@ -40,11 +28,7 @@ aom_one_ring_template = {
 # Elder Wand (Harry Potter)
 aom_elder_wand_template = {
 	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-		}
-	}
+	can_benefit = {}
 	fallback = { prowess = 1 }
 	unique = yes
 }
@@ -56,9 +40,6 @@ aom_elder_wand_template = {
 aom_lightsaber_template = {
 	can_equip = { always = yes }
 	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-		}
 	}
 	fallback = { prowess = 6 }
 	unique = yes
@@ -67,11 +48,7 @@ aom_lightsaber_template = {
 # Palantír (LotR)
 aom_palantir_template = {
 	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-		}
-	}
+	can_benefit = {}
 	fallback = { prowess = 1 }
 	unique = yes
 }

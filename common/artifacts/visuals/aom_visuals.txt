@@ -988,6 +988,13 @@ aom_marduks_net = {
 }
 
 # Court Artifacts
+# Tablet of Destinies
+aom_bull_of_heaven = {
+    icon = "mesopotamian/aom_tablet_of_destinies.dds"
+    pedestal = "tall"
+    asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+}
+
 # Bull of Heaven’s Horns
 aom_bull_of_heaven = {
     icon = "mesopotamian/aom_bull_of_heaven.dds"

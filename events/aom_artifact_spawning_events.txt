@@ -1,4 +1,5 @@
 ﻿namespace = aom_artifact_spawning
+
 # Spawn Norse Artifacts
 aom_artifact_spawning.1001 = {
 	type = character_event

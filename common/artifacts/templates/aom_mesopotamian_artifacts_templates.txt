@@ -64,8 +64,8 @@ aom_marduks_net_template = {
 ############################
 # Court Artifacts
 ############################
-# Tablets of Destinies
-aom_tablets_of_destinies_template = {
+# Tablet of Destinies
+aom_tablet_of_destinies_template = {
 	can_equip = { always = yes }
 	can_benefit = {
 		trigger_if = {

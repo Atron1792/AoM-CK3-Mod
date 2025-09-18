@@ -79,26 +79,26 @@ create_artifact_aom_marduks_net_effect = {
 ############################
 # Court Artifacts
 ############################
-# Tablets of Destinies
-create_artifact_aom_tablets_of_destinies_effect = {
+# Tablet of Destinies
+create_artifact_aom_tablet_of_destinies_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
 	create_artifact = {
-		name = aom_tablets_of_destinies_name
-		description = aom_tablets_of_destinies_desc
+		name = aom_tablet_of_destinies_name
+		description = aom_tablet_of_destinies_desc
 		type = book
-		visuals = aom_tablets_of_destinies
+		visuals = aom_tablet_of_destinies
 		wealth = scope:wealth
 		quality = scope:quality
-		template = aom_tablets_of_destinies_template
+		template = aom_tablet_of_destinies_template
 		history = { type = created_before_history }
-		modifier = aom_tablets_of_destinies_modifier
+		modifier = aom_tablet_of_destinies_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = aom_tablets_of_destinies
+		set_variable = aom_tablet_of_destinies
 		set_variable = aom_artifact
 		save_scope_as = epic
 	}

@@ -11,7 +11,16 @@ aom_debug_transfer_all_artifacts = {
 	effect = {
 		every_living_character = {
 			every_character_artifact = {
-				limit = { has_variable = aom_artifact }
+				limit = { 
+					OR = {
+						has_variable = aom_artifact
+						has_variable = aom_norse_artifact
+						has_variable = aom_greco_roman_artifact
+						has_variable = aom_finno_ugric_artifact
+						has_variable = aom_chinese_artifact
+						has_variable = aom_celtic_artifact
+					}
+				}
 				set_owner = ROOT
 			}
 		}

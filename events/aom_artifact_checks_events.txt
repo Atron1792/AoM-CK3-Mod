@@ -1,0 +1,22 @@
+﻿namespace = aom_artifact_checks
+
+# Generate Norse Artifacts
+aom_artifact_checks.1001 = {
+	type = character_event
+	title = aom_artifact_checks.1001.t
+	desc = aom_artifact_checks.1001.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		name = aom_artifact_checks.1001.option
+		random_character_artifact = {
+			limit = { has_variable = aom_pschent }
+			destroy_artifact = this
+		}
+		create_artifact_aom_hedjet_effect = { OWNER = this }
+		create_artifact_aom_deshret_effect = { OWNER = this }
+	}
+}

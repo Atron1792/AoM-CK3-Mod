@@ -758,14 +758,24 @@ aom_combine_white_and_red_crowns_decision = {
 				has_variable = aom_deshret
 			}
 		}
+		OR = {
+			has_title = title:k_egypt
+        	any_vassal = { has_title = title:k_egypt }
+		}
 	}
-	cost = {
-		prestige = 3000
-		renown = 100
-	}
+	cost = {}
 	effect = {
-		# TODO destroy aom_hedjet and aom_deshret
-		# TODO create aom_pschent
+		random_character_artifact = {
+			limit = { has_variable = aom_hedjet }
+			destroy_artifact = this
+		}
+		random_character_artifact = {
+			limit = { has_variable = aom_deshret }
+			destroy_artifact = this
+		}
+		create_artifact_aom_pschent_effect = { OWNER = this }
+		renown = 750
+		prestige = 1000
 	}
 	ai_potential = {
 		always = no
@@ -800,7 +810,32 @@ aom_convert_to_hellenism_decision = {
 		piety = 3000
 	}
 	effect = {
-		# TODO convert character and family to Hellenism
+		# scopes
+		faith = { save_scope_as = old_faith }
+		faith:hellenic_pagan = { save_scope_as = new_faith }
+
+		set_character_faith = scope:new_faith
+		every_consort = {
+			limit = {
+				is_ruler = no
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
+		every_close_or_extended_family_member = {
+			custom = every_close_or_extended_family_member_to_convert
+			limit = {
+				is_courtier_of = root
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
 	}
 	ai_potential = {
 		always = no
@@ -835,7 +870,32 @@ aom_convert_to_celtic_decision = {
 		piety = 3000
 	}
 	effect = {
-		# TODO convert character and family to Celtic
+		# scopes
+		faith = { save_scope_as = old_faith }
+		faith:celtic_pagan = { save_scope_as = new_faith }
+
+		set_character_faith = scope:new_faith
+		every_consort = {
+			limit = {
+				is_ruler = no
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
+		every_close_or_extended_family_member = {
+			custom = every_close_or_extended_family_member_to_convert
+			limit = {
+				is_courtier_of = root
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
 	}
 	ai_potential = {
 		always = no
@@ -870,7 +930,32 @@ aom_convert_to_norse_decision = {
 		piety = 3000
 	}
 	effect = {
-		# TODO convert character and family to norse
+		# scopes
+		faith = { save_scope_as = old_faith }
+		faith:norse_pagan = { save_scope_as = new_faith }
+
+		set_character_faith = scope:new_faith
+		every_consort = {
+			limit = {
+				is_ruler = no
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
+		every_close_or_extended_family_member = {
+			custom = every_close_or_extended_family_member_to_convert
+			limit = {
+				is_courtier_of = root
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
 	}
 	ai_potential = {
 		always = no
@@ -905,7 +990,32 @@ aom_convert_to_finno_ugric_decision = {
 		piety = 3000
 	}
 	effect = {
-		# TODO convert character and family to finno_ugric
+		# scopes
+		faith = { save_scope_as = old_faith }
+		faith:finno_ugric_pagan = { save_scope_as = new_faith }
+
+		set_character_faith = scope:new_faith
+		every_consort = {
+			limit = {
+				is_ruler = no
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
+		every_close_or_extended_family_member = {
+			custom = every_close_or_extended_family_member_to_convert
+			limit = {
+				is_courtier_of = root
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
 	}
 	ai_potential = {
 		always = no

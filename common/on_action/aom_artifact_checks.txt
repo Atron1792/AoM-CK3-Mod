@@ -1,0 +1,18 @@
+﻿aom_on_egypt_title_lost = {
+	trigger = {
+		AND = {
+            NOR = {
+                has_title = title:k_eqypt
+                any_vassal = { has_title = title:k_eqypt }
+		    }
+            any_character_artifact = {
+                OR = {
+                    has_variable = aom_pschent
+                }
+		    }
+        }
+	}
+	effect = {
+		trigger_event = aom_artifact_checks.1001
+	}
+}

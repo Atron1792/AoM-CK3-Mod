@@ -1,4 +1,7 @@
 ﻿on_game_start = {
+	on_actions = { aom_on_game_start }
+}
+aom_on_game_start = {
 	events = {
 		aom_game_rule.001
 		aom_game_rule.002
