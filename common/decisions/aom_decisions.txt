@@ -727,7 +727,7 @@ aom_gaze_into_mirror_of_nitocris_decision = {
 	}
 }
 
-# TODO: merge white and red crowns (egyptian)
+# Combine White and Red crowns (Egyptian)
 aom_combine_white_and_red_crowns_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -782,7 +782,7 @@ aom_combine_white_and_red_crowns_decision = {
 	}
 }
 
-# TODO: Convert to Hellenism
+# Convert to Hellenism
 aom_convert_to_hellenism_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -842,7 +842,7 @@ aom_convert_to_hellenism_decision = {
 	}
 }
 
-# TODO: Convert to Celtic
+# Convert to Celtic
 aom_convert_to_celtic_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -902,7 +902,7 @@ aom_convert_to_celtic_decision = {
 	}
 }
 
-# TODO: Convert to Norse
+# Convert to Norse
 aom_convert_to_norse_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -962,7 +962,7 @@ aom_convert_to_norse_decision = {
 	}
 }
 
-# TODO: Convert to Finno Ugric
+# Convert to Finno Ugric
 aom_convert_to_finno_ugric_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"

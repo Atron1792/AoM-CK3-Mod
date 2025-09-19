@@ -1,6 +1,6 @@
 ﻿namespace = aom_artifact_checks
 
-# Generate Norse Artifacts
+# Destroy Double Crown and make White and Red Crowns
 aom_artifact_checks.1001 = {
 	type = character_event
 	title = aom_artifact_checks.1001.t
