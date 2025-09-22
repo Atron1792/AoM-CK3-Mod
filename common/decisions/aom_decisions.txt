@@ -565,9 +565,7 @@ aom_read_necronomicon_decision = {
 		learning >= 15
 		custom_description = {
 			text = aom_has_read_necronomicon
-			NOT = {
-				has_character_flag = aom_has_read_necronomicon
-			}
+			NOT = { has_character_flag = aom_has_read_necronomicon }
 		}
 		custom_description = {
 			text = aom_has_necronomicon
@@ -762,6 +760,10 @@ aom_combine_white_and_red_crowns_decision = {
 			has_title = title:k_egypt
         	any_vassal = { has_title = title:k_egypt }
 		}
+		custom_description = {
+			text = aom_combined_white_and_red_crowns
+			NOT = { has_character_flag = aom_combined_white_and_red_crowns }
+		}
 	}
 	cost = {}
 	effect = {
@@ -774,8 +776,18 @@ aom_combine_white_and_red_crowns_decision = {
 			destroy_artifact = this
 		}
 		create_artifact_aom_pschent_effect = { OWNER = this }
-		renown = 750
 		prestige = 1000
+		if = {
+			limit = {
+				NOT = { has_character_flag = aom_combine_white_and_red_crowns_renown }
+			}
+			renown = 750
+			add_character_flag = { flag = aom_combine_white_and_red_crowns_renown }
+		}
+		add_character_flag = {
+			flag = aom_combined_white_and_red_crowns
+			years = 20
+		}
 	}
 	ai_potential = {
 		always = no

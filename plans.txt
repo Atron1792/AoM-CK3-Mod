@@ -53,6 +53,8 @@
     - Combine Hedjet and Deshret into Pschent
     - Convert to Hellenism (has Greco-Roman artifacts)
     - Convert to Celtic (has Celtic artifacts)
+    - Convert to Norse (has Norse artifacts)
+    - Convert to Finno Ugric (has Finno Ugric artifacts)
 
 Planned:
 - Artifact search

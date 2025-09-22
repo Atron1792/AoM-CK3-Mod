@@ -1,22 +1,54 @@
 ﻿namespace = aom_artifact_checks
 
 # Destroy Double Crown and make White and Red Crowns
-aom_artifact_checks.1001 = {
+aom_artifact_checks.0001 = {
 	type = character_event
-	title = aom_artifact_checks.1001.t
-	desc = aom_artifact_checks.1001.desc
+	title = aom_artifact_checks.0001.t
+	desc = aom_artifact_checks.0001.desc
 	theme = medicine
 	right_portrait = {
 		character = root
 		animation = thinking
 	}
 	option = {
-		name = aom_artifact_checks.1001.option
+		name = aom_artifact_checks.0001.option
 		random_character_artifact = {
 			limit = { has_variable = aom_pschent }
 			destroy_artifact = this
 		}
 		create_artifact_aom_hedjet_effect = { OWNER = this }
 		create_artifact_aom_deshret_effect = { OWNER = this }
+	}
+}
+
+# Lovecraftian Stress Gain
+aom_artifact_checks.0002 = {
+	type = character_event
+	title = aom_artifact_checks.0002.t
+	desc = aom_artifact_checks.0002.desc
+	theme = medicine
+	right_portrait = {
+		character = root
+		animation = thinking
+	}
+	# normal reaction
+	option = {
+		name = aom_artifact_checks.0002.option.1
+		add_stress = 40
+	}
+	# eccentric reaction
+	option = {
+		name = aom_artifact_checks.0002.option.2
+		add_stress = 20
+	}
+	# lunatic reaction
+	option = {
+		name = aom_artifact_checks.0002.option.3
+		add_stress = 10
+	}
+	# possessed reaction
+	option = {
+		name = aom_artifact_checks.0002.option.4
+		add_stress = -20
 	}
 }

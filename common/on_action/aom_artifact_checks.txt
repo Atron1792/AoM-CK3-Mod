@@ -13,6 +13,6 @@
         }
 	}
 	effect = {
-		trigger_event = aom_artifact_checks.1001
+		trigger_event = aom_artifact_checks.0001
 	}
 }
