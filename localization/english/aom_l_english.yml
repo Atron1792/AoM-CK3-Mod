@@ -627,7 +627,7 @@
   aom_sleg_name: "Sleg"
   aom_sleg_desc: "The mighty spear of Lugh, said to guarantee victory to its wielder."
 
-  # Lugh’s Sling
+  # Lugh's Sling
   aom_lughs_sling_name: "Lugh's Sling"
   aom_lughs_sling_desc: "A legendary sling used by the god Lugh, striking with the speed of light."
 
@@ -768,7 +768,7 @@
   aom_raskovnik_name: "Raskovnik"
   aom_raskovnik_desc: "A legendary herb that opens any lock and reveals hidden treasures."
 
-  # The Firebird’s Feather
+  # The Firebird's Feather
   aom_firebird_feather_name: "Firebird's Feather"
   aom_firebird_feather_desc: "A radiant plume from the mythical Firebird, glowing with an otherworldly light."
 
@@ -785,7 +785,7 @@
   aom_fern_flower_name: "Fern Flower"
   aom_fern_flower_desc: "A rare and magical bloom said to grant the finder health and prosperity."
 
-  # Baba Yaga’s Mortar and Pestle
+  # Baba Yaga's Mortar and Pestle
   aom_baba_yagas_mortar_name: "Baba Yaga's Mortar and Pestle"
   aom_baba_yagas_mortar_desc: "The enchanted flying vessel of the witch Baba Yaga, gliding through skies and secrets alike. #italic Surely this simple mortar and pestle isn't it?#!"
 
@@ -793,7 +793,7 @@
   # Inventory Artifacts
   # Necronomicon
   aom_necronomicon_name: "Necronomicon"
-  aom_necronomicon_desc: "A blasphemous tome of forbidden knowledge penned by Abdul 'the Mad Arab' Alhazred. "
+  aom_necronomicon_desc: "A blasphemous tome of forbidden knowledge penned by Abdul 'the Mad Arab' Alhazred."
 
   # Book Of Eibon 
   aom_book_of_eibon_name: "Book of Eibon"
@@ -831,3 +831,191 @@
   # The Mirror Of Nitocris
   aom_mirror_of_nitocris_name: "Mirror of Nitocris"
   aom_mirror_of_nitocris_desc: "An enchanted artifact once belonging to the Queen of the Black Pharaoh. Reflections seen in it are never truly your own."
+
+# Mesopotamian Artifacts
+  # Inventory Artifacts
+  # Sharur (Ninurta's Mace)
+  aom_sharur_name: "Sharur"
+  aom_sharur_desc: "The divine mace of Ninurta, said to speak and fly on its own, crushing the enemies of the gods."
+
+  # Imhullu (Marduk's Weapon)
+  aom_imhullu_name: "Imhullu"
+  aom_imhullu_desc: "The wind-born weapon wielded by Marduk to slay Tiamat and bring order to chaos."
+
+  # Marduk's Net
+  aom_marduks_net_name: "Marduk's Net"
+  aom_marduks_net_desc: "Woven with divine cunning, this net once bound the primordial dragon Tiamat."
+
+  # Court Artifacts
+  # Tablets of Destinies
+  aom_tablets_of_destinies_name: "Tablets of Destinies"
+  aom_tablets_of_destinies_desc: "These ancient tablets hold the decrees of the gods and the fate of all living things."
+
+  # Bull of Heaven's Horns
+  aom_bull_of_heaven_name: "Bull of Heaven's Horns"
+  aom_bull_of_heaven_desc: "Trophies from the slain Bull of Heaven, their power still reverberates with celestial rage."
+
+  # Lyre of Ur
+  aom_lyre_of_ur_name: "Lyre of Ur"
+  aom_lyre_of_ur_desc: "An instrument once played for kings and gods alike, singing of creation and conquest."
+
+  # Mul Zibanu (Shamash's Scales)
+  aom_mul_zibanu_name: "Mul Zibanu"
+  aom_mul_zibanu_desc: "The scales of justice belonging to Shamash, god of law and sunlight, said to weigh the truth itself."
+
+  # Ereshkigal's Throne
+  aom_throne_ereshkigal_name: "Ereshkigal's Throne"
+  aom_throne_ereshkigal_desc: "The dark throne of the underworld queen, where all must bow in death's domain."
+
+# Egyptian Artifacts
+  # Inventory Artifacts
+  # Book of Thoth
+  aom_book_of_thoth_name: "Book of Thoth"
+  aom_book_of_thoth_desc: "A tome of infinite wisdom and unspeakable power, said to contain the secrets of the gods."
+
+  # Spear of Ra
+  aom_spear_of_ra_name: "Spear of Ra"
+  aom_spear_of_ra_desc: "The solar weapon of the sun god, said to burn as bright as the midday sky."
+
+  # Knife of Isis
+  aom_knife_of_isis_name: "Knife of Isis"
+  aom_knife_of_isis_desc: "An enchanted blade used in sacred rites and divine vengeance alike."
+
+  # Scythe of Horus
+  aom_scythe_of_horus_name: "Scythe of Horus"
+  aom_scythe_of_horus_desc: "A weapon forged in the name of vengeance, curved like the falcon's flight."
+
+  # Eye of Horus
+  aom_eye_of_horus_name: "Eye of Horus"
+  aom_eye_of_horus_desc: "A powerful symbol of protection, healing, and royal legitimacy."
+
+  # Pschent (Double Crown of Egypt)
+  aom_pschent_name: "Pschent"
+  aom_pschent_desc: "The combined Red and White Crowns, symbolizing dominion over Upper and Lower Egypt."
+
+  # Hedjet (White Crown of Upper Egypt)
+  aom_hedjet_name: "Hedjet"
+  aom_hedjet_desc: "The regal headpiece of Upper Egypt, worn by pharaohs to assert their celestial rule."
+
+  # Deshret (Red Crown of Lower Egypt)
+  aom_deshret_name: "Deshret"
+  aom_deshret_desc: "The flame-shaped crown of Lower Egypt, linked to divine authority and the goddess Wadjet."
+
+  # Court Artifacts
+  # Neith's Loom
+  aom_neiths_loom_name: "Neith's Loom"
+  aom_neiths_loom_desc: "Said to weave the tapestry of life and death, threads spun by the creator goddess herself."
+
+  # Feather of Ma'at
+  aom_feather_of_maat_name: "Feather of Ma'at"
+  aom_feather_of_maat_desc: "A symbol of balance and cosmic justice, used to weigh souls in the afterlife."
+
+  # Anubis' Scales
+  aom_anubis_scales_name: "Anubis' Scales"
+  aom_anubis_scales_desc: "Used in the weighing of the heart ceremony—an instrument of judgment and eternal fate."
+
+# Chinese Artifacts
+  # Inventory Artifacts
+  # Pangu's Axe
+  aom_pangu_axe_name: "Pangu's Axe"
+  aom_pangu_axe_desc: "The mythic axe that split heaven and earth, wielded by the creator god Pangu."
+
+  # Ruyi Jingu Bang (Sun Wukong's Staff)
+  aom_ruyi_jingu_bang_name: "Ruyi Jingu Bang"
+  aom_ruyi_jingu_bang_desc: "The indestructible staff of Sun Wukong, capable of growing to colossal size or shrinking to a needle."
+
+  # Sun Wukong's Boots
+  aom_wukong_boots_name: "Sun Wukong's Boots"
+  aom_wukong_boots_desc: "Boots of the Monkey King that allow one to somersault across the skies and ride clouds."
+
+  # Peach of Immortality
+  aom_peach_of_immortality_name: "Peach of Immortality"
+  aom_peach_of_immortality_desc: "Ripened once every 3,000 years, these peaches grant eternal life to those who consume them."
+
+  # Xuan Yuan Sword
+  aom_xuan_yuan_sword_name: "Xuan Yuan Sword"
+  aom_xuan_yuan_sword_desc: "The sacred blade of the Yellow Emperor, symbol of justice and divine rule."
+
+  # Erlang Shen's Spear
+  aom_erlang_spear_name: "Erlang Shen's Spear"
+  aom_erlang_spear_desc: "The heavenly spear of Erlang Shen, capable of striking demons with unerring force."
+
+  # Kenkonken
+  aom_kenkonken_name: "Kenkonken"
+  aom_kenkonken_desc: "The flaming chakram of Nezha, a weapon of divine rebellion and dazzling agility."
+
+  # Qiankun Dai
+  aom_qiankun_dai_name: "Qiankun Dai"
+  aom_qiankun_dai_desc: "A cosmic pouch capable of holding an endless array of weapons and treasures, wielded by the boy-god Nezha."
+
+  # Sword of Goujian
+  aom_sword_of_goujian_name: "Sword of Goujian"
+  aom_sword_of_goujian_desc: "An ancient sword that defied time and corrosion, belonging to the legendary King Goujian of Yue."
+
+  # Green Dragon Crescent Blade (Guan Yu's Weapon)
+  aom_green_dragon_blade_name: "Green Dragon Crescent Blade"
+  aom_green_dragon_blade_desc: "The weapon of Guan Yu, General-Saint of Loyalty and Righteousness, said to weigh over 80 jin."
+
+  # Zhang Fei's Spear
+  aom_zhang_fei_spear_name: "Zhang Fei's Spear"
+  aom_zhang_fei_spear_desc: "The viper-tipped spear of the fierce and impulsive Zhang Fei, forged for battlefield fury."
+
+  # Hou Yi's Bow
+  aom_hou_yi_bow_name: "Hou Yi's Bow"
+  aom_hou_yi_bow_desc: "With this divine bow, Hou Yi shot down nine suns, saving the world from scorching ruin."
+
+  # Gan Jiang
+  aom_gan_jiang_name: "Gan Jiang"
+  aom_gan_jiang_desc: "One of two legendary swords forged by Gan Jiang and Mo Ye—tempered in suffering, veiled in sorrow."
+
+  # Mo Ye
+  aom_mo_ye_name: "Mo Ye"
+  aom_mo_ye_desc: "The twin to Gan Jiang, this blade symbolizes devotion and sacrifice beyond the forge."
+
+  # Mianguan
+  aom_mianguan_name: "Mianguan"
+  aom_mianguan_desc: "An imperial crown of ancient China, worn by sages and sovereigns who claimed the Mandate of Heaven."
+
+  # Court Artifacts
+  # Heirloom Seal of the Realm
+  aom_heirloom_seal_name: "Heirloom Seal of the Realm"
+  aom_heirloom_seal_desc: "Engraved with 'Having received the Mandate of Heaven, may the emperor lead a long and prosperous life.' The symbol of true imperial authority."
+
+  # Mirror of Retribution
+  aom_mirror_of_retribution_name: "Mirror of Retribution"
+  aom_mirror_of_retribution_desc: "A spiritual artifact said to reflect one's sins and reveal the crimes of the soul."
+
+  # Jade Books
+  aom_jade_books_name: "Jade Books"
+  aom_jade_books_desc: "Sacred texts carved in pure jade, preserving divine decrees and ancient rites of the heavens."
+
+  # Jiuding
+  aom_jiuding_name: "Jiuding"
+  aom_jiuding_desc: "The Nine Tripod Cauldrons—sacred relics of dynastic legitimacy once possessed by the Son of Heaven."
+
+# Easter Egg Artifacts
+  # Inventory Artifacts
+  # Soul Edge (Soul Calibur)
+  aom_soul_edge_name: "Soul Edge"
+  aom_soul_edge_desc: "A cursed blade of endless hunger, feeding on the souls of those it slays."
+
+  # Blackfyre (AGOT)  
+  aom_blackfyre_name: "Blackfyre"
+  aom_blackfyre_desc: "The ancestral Valyrian steel sword of House Targaryen, passed down to rebels and kings alike."
+
+  # One Ring (LotR)
+  aom_one_ring_name: "The One Ring"
+  aom_one_ring_desc: "Forged in secret by the Dark Lord, this ring binds all others to its will."
+
+  # Elder Wand (Harry Potter)
+  aom_elder_wand_name: "Elder Wand"
+  aom_elder_wand_desc: "The deathly hallow said to make its wielder unbeatable—if they survive long enough."
+
+  # Court Artifacts
+  # Lightsaber (Starwars)
+  aom_lightsaber_name: "Lightsaber"
+  aom_lightsaber_desc: "A weapon from a galaxy far, far away—elegant, luminous, and deadly."
+
+  # Palantír (LotR)
+  aom_palantir_name: "Palantír"
+  aom_palantir_desc: "A seeing-stone from ancient Middle-earth, allowing vision across vast distances—and into peril."

@@ -30,7 +30,7 @@ create_artifact_aom_necronomicon_effect = {
 			value = yes
 		}
 		set_variable = aom_necronomicon
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -58,7 +58,7 @@ create_artifact_aom_book_of_eibon_effect = {
 			value = yes
 		}
 		set_variable = aom_book_of_eibon
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -86,7 +86,7 @@ create_artifact_aom_deep_ones_tiara_effect = {
 			value = yes
 		}
 		set_variable = aom_deep_ones_tiara
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -114,7 +114,7 @@ create_artifact_aom_hound_amulet_effect = {
 			value = yes
 		}
 		set_variable = aom_hound_amulet
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -145,7 +145,7 @@ create_artifact_aom_shining_trapezohedron_effect = {
 			value = yes
 		}
 		set_variable = aom_shining_trapezohedron
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -173,7 +173,7 @@ create_artifact_aom_cthulhu_idol_effect = {
 			value = yes
 		}
 		set_variable = aom_cthulhu_idol
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -201,7 +201,7 @@ create_artifact_aom_sliver_key_effect = {
 			value = yes
 		}
 		set_variable = aom_sliver_key
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -235,7 +235,7 @@ create_artifact_aom_confessions_of_clithanus_effect = {
 			value = yes
 		}
 		set_variable = aom_confessions_of_clithanus
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -263,7 +263,7 @@ create_artifact_aom_pnakotic_manuscripts_effect = {
 			value = yes
 		}
 		set_variable = aom_pnakotic_manuscripts
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
@@ -291,7 +291,7 @@ create_artifact_aom_mirror_of_nitocris_effect = {
 			value = yes
 		}
 		set_variable = aom_mirror_of_nitocris
-		set_variable = aom_artifact
+		set_variable = aom_lovecraftian_artifact
 		save_scope_as = epic
 	}
 }
