@@ -358,6 +358,19 @@
   setting_aom_generate_easter_egg_artifacts_disabled: "#R Disabled#!"
   setting_aom_generate_easter_egg_artifacts_disabled_desc: "Easter Egg artifacts will not be generated or seeded."
 
+# Destroy Double Crown and make White and Red Crowns
+  aom_artifact_checks.0001.t: "The Crowns Divide"
+  aom_artifact_checks.0001.desc: "Without dominion over the full Nile, the power of the Double Crown begins to wane. The unity of Upper and Lower Egypt fractures, and the Pschent cannot be sustained. In its place, the Hedjet and Deshret reemerge, symbols of a once-divided land."
+  aom_artifact_checks.0001.option: "Let the crowns return to their origins"
+
+# Lovecraftian Stress Gain
+  aom_artifact_checks.0002.t: "The Madness Creeps In"
+  aom_artifact_checks.0002.desc: "Something has stirred in the corners of your mind. Words you do not remember reading. Whispers behind your thoughts. Shapes behind your eyes. There is no turning back now."
+  aom_artifact_checks.0002.option.1: "I must hold it together... I must..."
+  aom_artifact_checks.0002.option.2: "It's all a divine joke! Hah! Brilliant!"
+  aom_artifact_checks.0002.option.3: "The stars... they align, don't they? I see them. I see them!"
+  aom_artifact_checks.0002.option.4: "Yes... yes, the veil is thinning. This is good."
+
 # Generic Terms
   aom_event_option.next: "Next"
   aom_event_option.previous: "Previous"
