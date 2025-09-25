@@ -38,16 +38,25 @@ aom_artifact_checks.0002 = {
 	}
 	# eccentric reaction
 	option = {
+		trigger = {
+			has_trait = eccentric
+		}
 		name = aom_artifact_checks.0002.option.2
 		add_stress = 20
 	}
 	# lunatic reaction
 	option = {
+		trigger = {
+			has_trait = lunatic
+		}
 		name = aom_artifact_checks.0002.option.3
 		add_stress = 10
 	}
 	# possessed reaction
 	option = {
+		trigger = {
+			has_trait = possessed
+		}
 		name = aom_artifact_checks.0002.option.4
 		add_stress = -20
 	}

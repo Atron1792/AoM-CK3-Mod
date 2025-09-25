@@ -615,7 +615,7 @@ aom_read_necronomicon_decision = {
 		}
 		add_character_flag = {
 			flag = aom_has_read_necronomicon
-			years = 20
+			years = 10
 		}
 	}
 	ai_potential = {
@@ -717,7 +717,7 @@ aom_gaze_into_mirror_of_nitocris_decision = {
 		}
 		add_character_flag = {
 			flag = aom_has_gazed_into_mirror_of_nitocris
-			years = 15
+			years = 5
 		}
 	}
 	ai_potential = {
@@ -725,7 +725,7 @@ aom_gaze_into_mirror_of_nitocris_decision = {
 	}
 }
 
-# Combine White and Red crowns (Egyptian)
+# Combine White and Red Crowns (Egyptian)
 aom_combine_white_and_red_crowns_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -761,8 +761,8 @@ aom_combine_white_and_red_crowns_decision = {
         	any_vassal = { has_title = title:k_egypt }
 		}
 		custom_description = {
-			text = aom_combined_white_and_red_crowns
-			NOT = { has_character_flag = aom_combined_white_and_red_crowns }
+			text = aom_has_combined_white_and_red_crowns
+			NOT = { has_character_flag = aom_has_combined_white_and_red_crowns }
 		}
 	}
 	cost = {}
@@ -781,11 +781,11 @@ aom_combine_white_and_red_crowns_decision = {
 			limit = {
 				NOT = { has_character_flag = aom_combine_white_and_red_crowns_renown }
 			}
-			renown = 750
+			add_dynasty_prestige = 750
 			add_character_flag = { flag = aom_combine_white_and_red_crowns_renown }
 		}
 		add_character_flag = {
-			flag = aom_combined_white_and_red_crowns
+			flag = aom_has_combined_white_and_red_crowns
 			years = 20
 		}
 	}

@@ -55,6 +55,8 @@
     - Convert to Celtic (has Celtic artifacts)
     - Convert to Norse (has Norse artifacts)
     - Convert to Finno Ugric (has Finno Ugric artifacts)
+- Changed Gaze into the Mirror of Nitocris cooldown (From 15 to 5 years)
+- Changed Read the Necronomicon cooldown (From 20 to 10 years)
 
 Planned:
 - Artifact search

@@ -46,7 +46,19 @@
   aom_spawn_slavic_artifacts_tooltip: "Examples: Perun's Axe, Koschei's Needle, Baba Yaga's Mortar and Pestle"
 
   aom_spawn_lovecraftian_artifacts: "Open Lovecraftian Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Necronomicon, The Shining Trapezohedron, The Sliver Key "
+  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Necronomicon, The Shining Trapezohedron, The Sliver Key"
+
+  aom_spawn_lovecraftian_artifacts: "Open Mesopotamian Artifact Menu"
+  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Sharur, Tablets of Destinies, Ereshkigal's Throne"
+
+  aom_spawn_lovecraftian_artifacts: "Open Egyptian Artifact Menu"
+  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Book of Thoth, Hedjet, Feather of Ma'at"
+
+  aom_spawn_lovecraftian_artifacts: "Open Chinese Artifact Menu"
+  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Pangu's Axe, Hou Yi's Bow, Heirloom Seal of the Realm"
+
+  aom_spawn_lovecraftian_artifacts: "Open Easter Egg Artifact Menu"
+  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Blackfyre, Elder Wand, Palantír"
 
   aom_disable_artifact_spawning: "Disable the Artifact Spawning Menu"
   aom_disable_artifact_spawning_tooltip: "#R Warning:#! This disables the artifact spawning menu"
@@ -79,7 +91,7 @@
   aom_read_necronomicon_decision_tooltip: "You will risk your sanity to gain unnatural knowledge from the accursed tome."
   aom_read_necronomicon_decision_confirm: "Turn the page"
   aom_has_necronomicon: "You possess the dreaded Necronomicon"
-  aom_has_read_necronomicon: "You have not yet read the Necronomicon in the last 20 years"
+  aom_has_read_necronomicon: "You have not yet read the Necronomicon in the last 10 years"
 
 # Gaze into the Mirror of Nitocris
   aom_gaze_into_mirror_of_nitocris_decision: "Gaze into the Mirror of Nitocris"
@@ -87,8 +99,45 @@
   aom_gaze_into_mirror_of_nitocris_decision_tooltip: "Peer into the Mirror of Nitocris to uncover secrets... and perhaps awaken something within."
   aom_gaze_into_mirror_of_nitocris_decision_confirm: "Look within"
   aom_has_mirror_of_nitocris: "You possess the Mirror of Nitocris"
-  aom_has_gazed_into_mirror_of_nitocris: "You have not gazed into the Mirror of Nitocris in the last 15 years"
+  aom_has_gazed_into_mirror_of_nitocris: "You have not gazed into the Mirror of Nitocris in the last 5 years"
   aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "The mirror may reveal a hidden secret held by one of your rivals, vassals, or courtiers."
+
+# Combine White and Red Crowns (Egyptian)
+  aom_combine_white_and_red_crowns_decision: "Unite the Crowns of Egypt"
+  aom_combine_white_and_red_crowns_decision_desc: "With both the White Crown of Upper Egypt and the Red Crown of Lower Egypt in your possession, you can forge the Pschent—the Double Crown that symbolizes total dominion over the Nile and its people."
+  aom_combine_white_and_red_crowns_decision_tooltip: "Merge the White and Red Crowns into the Pschent."
+  aom_combine_white_and_red_crowns_decision_confirm: "Unite the Crowns"
+  aom_has_hedjet: "You possess Hedjet, the White Crown of Upper Egypt"
+  aom_has_deshret: "You possess Deshret, the Red Crown of Lower Egypt"
+  aom_has_combined_white_and_red_crowns: "You have not combined the White and Red Crowns in the last 20 years"
+
+# Convert to Hellenism
+  aom_convert_to_hellenism_decision: "Embrace Hellenism"
+  aom_convert_to_hellenism_decision_desc: "The divine relics of the Greco-Roman world whisper truths of forgotten gods. To walk the path of Plato, Apollo, and Jupiter is to reclaim the wisdom of antiquity."
+  aom_convert_to_hellenism_decision_tooltip: "Convert your faith to Hellenism if you hold a Greco-Roman artifact."
+  aom_convert_to_hellenism_decision_confirm: "Accept the Old Gods"
+  aom_has_greco_roman_artifact: "You possess a Greco-Roman artifact"
+
+# Convert to Celtic
+  aom_convert_to_celtic_decision: "Return to the Celtic Faith"
+  aom_convert_to_celtic_decision_desc: "The ancient spirits of the forests and stones stir once more. With sacred relics in your grasp, the path of the druids, the Morrigan, and forgotten kings opens to you."
+  aom_convert_to_celtic_decision_tooltip: "Convert your faith to Celtic Paganism if you hold a Celtic artifact."
+  aom_convert_to_celtic_decision_confirm: "Follow the Way of the Ancients"
+  aom_has_celtic_artifact: "You possess a Celtic artifact"
+
+# Convert to Norse
+  aom_convert_to_norse_decision: "Embrace the Old Norse Ways"
+  aom_convert_to_norse_decision_desc: "The runes crackle with divine energy. With relics tied to Odin, Thor, and Freyja in your hands, you may reclaim the fury and glory of the Old Norse faith."
+  aom_convert_to_norse_decision_tooltip: "Convert your faith to Norse Paganism if you hold a Norse artifact."
+  aom_convert_to_norse_decision_confirm: "Summon the Aesir"
+  aom_has_norse_artifact: "You possess a Norse artifact"
+
+# Convert to Finno Ugric
+  aom_convert_to_finno_ugric_decision: "Heed the Finno-Ugric Spirits"
+  aom_convert_to_finno_ugric_decision_desc: "From the snow-clad forests and ancient stone idols, voices of the old spirits call you. Possessing sacred items of the North, you are now able to follow the primal Finno-Ugric path once more."
+  aom_convert_to_finno_ugric_decision_tooltip: "Convert your faith to Finno-Ugric Paganism if you hold a Finno-Ugric artifact."
+  aom_convert_to_finno_ugric_decision_confirm: "Return to the Path of the Spirits"
+  aom_has_finno_ugric_artifact: "You possess a Finno-Ugric artifact"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Artifact Requirements"
@@ -243,6 +292,72 @@
   setting_aom_generate_lovecraftian_artifacts_disabled: "#R Disabled#!"
   setting_aom_generate_lovecraftian_artifacts_disabled_desc: "Lovecraftian artifacts will not be generated or seeded."
 
+# Mesopotamian Artifact Gamerule
+  rule_aom_generate_mesopotamian_artifacts: "Mesopotamian Artifact Generation"
+
+  setting_aom_generate_mesopotamian_artifacts_all: "#P All Artifacts#!"
+  setting_aom_generate_mesopotamian_artifacts_all_desc: "All Mesopotamian mythological artifacts will be seeded into the game."
+
+  setting_aom_generate_mesopotamian_artifacts_only_god: "#M Only God Artifacts#!"
+  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "Only illistrious artifacts associated with Mesopotamian myth will be seeded."
+
+  setting_aom_generate_mesopotamian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
+  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "All Mesopotamian artifacts except illistrious artifacs will be seeded."
+
+  setting_aom_generate_mesopotamian_artifacts_with_descision: "#V With Decision#!"
+  setting_aom_generate_mesopotamian_artifacts_with_descision_desc: "Mesopotamian artifacts are created only via a special decision."
+
+  setting_aom_generate_mesopotamian_artifacts_disabled: "#R Disabled#!"
+  setting_aom_generate_mesopotamian_artifacts_disabled_desc: "Mesopotamian artifacts will not be generated or seeded."
+
+# Egyptian Artifact Gamerule
+  rule_aom_generate_egyptian_artifacts: "Egyptian Artifact Generation"
+
+  setting_aom_generate_egyptian_artifacts_all: "#P All Artifacts#!"
+  setting_aom_generate_egyptian_artifacts_all_desc: "All Egyptian mythological artifacts will be seeded into the game."
+
+  setting_aom_generate_egyptian_artifacts_only_god: "#M Only God Artifacts#!"
+  setting_aom_generate_egyptian_artifacts_only_god_desc: "Only illistrious artifacts associated with Egyptian myth will be seeded."
+
+  setting_aom_generate_egyptian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
+  setting_aom_generate_egyptian_artifacts_only_legend_desc: "All Egyptian artifacts except illistrious artifacs will be seeded."
+
+  setting_aom_generate_egyptian_artifacts_with_descision: "#V With Decision#!"
+  setting_aom_generate_egyptian_artifacts_with_descision_desc: "Egyptian artifacts are created only via a special decision."
+
+  setting_aom_generate_egyptian_artifacts_disabled: "#R Disabled#!"
+  setting_aom_generate_egyptian_artifacts_disabled_desc: "Egyptian artifacts will not be generated or seeded."
+
+# Chinese Artifact Gamerule
+  rule_aom_generate_chinese_artifacts: "Chinese Artifact Generation"
+
+  setting_aom_generate_chinese_artifacts_all: "#P All Artifacts#!"
+  setting_aom_generate_chinese_artifacts_all_desc: "All Chinese mythological artifacts will be seeded into the game."
+
+  setting_aom_generate_chinese_artifacts_only_god: "#M Only God Artifacts#!"
+  setting_aom_generate_chinese_artifacts_only_god_desc: "Only illistrious artifacts associated with Chinese myth will be seeded."
+
+  setting_aom_generate_chinese_artifacts_only_legend: "#M Only Legendary Artifacts#!"
+  setting_aom_generate_chinese_artifacts_only_legend_desc: "All Chinese artifacts except illistrious artifacs will be seeded."
+
+  setting_aom_generate_chinese_artifacts_with_descision: "#V With Decision#!"
+  setting_aom_generate_chinese_artifacts_with_descision_desc: "Chinese artifacts are created only via a special decision."
+
+  setting_aom_generate_chinese_artifacts_disabled: "#R Disabled#!"
+  setting_aom_generate_chinese_artifacts_disabled_desc: "Chinese artifacts will not be generated or seeded."
+
+# Easter Egg Artifact Gamerule
+  rule_aom_generate_easter_egg_artifacts: "Easter Egg Artifact Generation"
+
+  setting_aom_generate_easter_egg_artifacts_all: "#P All Artifacts#!"
+  setting_aom_generate_easter_egg_artifacts_all_desc: "All Easter Egg artifacts will be seeded into the game."
+
+  setting_aom_generate_easter_egg_artifacts_with_descision: "#V With Decision#!"
+  setting_aom_generate_easter_egg_artifacts_with_descision_desc: "Easter Egg artifacts are created only via a special decision."
+
+  setting_aom_generate_easter_egg_artifacts_disabled: "#R Disabled#!"
+  setting_aom_generate_easter_egg_artifacts_disabled_desc: "Easter Egg artifacts will not be generated or seeded."
+
 # Generic Terms
   aom_event_option.next: "Next"
   aom_event_option.previous: "Previous"
@@ -257,6 +372,10 @@
   aom_artifact_spawning.1051.t: "Finno-Ugric Artifact Menu"
   aom_artifact_spawning.1061.t: "Slavic Artifact Menu"
   aom_artifact_spawning.1071.t: "Lovecraftian Artifact Menu"
+  aom_artifact_spawning.1081.t: "Mesopotamian Artifact Menu"
+  aom_artifact_spawning.1091.t: "Egyptian Artifact Menu"
+  aom_artifact_spawning.1101.t: "Chinese Artifact Menu"
+  aom_artifact_spawning.1111.t: "Easter Egg Artifact Menu"
   aom_artifact_spawning.desc: "Choose an Artifact to Spawn:"
 
   game_rule_category_aom: "Artifacts of Myth"
