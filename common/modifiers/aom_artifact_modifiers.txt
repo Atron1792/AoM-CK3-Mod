@@ -5,16 +5,16 @@
 # Gungnir (Odin’s Spear)
 aom_gungnir_modifier = {
 	prowess = 15
-	learning = 10
-	martial = 8
+	learning = 7
+	martial = 5
 	intrigue = 5
 	zealot_opinion = 10
 }
 
 # Mjolnir (Thor's Hammer)
 aom_mjolnir_modifier = {
-	prowess = 18
-	martial = 8
+	prowess = 17
+	martial = 7
 	different_faith_opinion = -10
 	zealot_opinion = 10
 }

@@ -45,18 +45,30 @@
 - Added button to disable artifact spawn decision
 
 1.8
-- Added Mesopotamian artifacts with gamerule control
-- Added Egyptian artifacts with gamerule control
-- Added Chinese artifacts with gamerule control
-- Added Easter Egg artifacts with gamerule control
-- Decisions tied to specific artifacts
-    - Combine Hedjet and Deshret into Pschent
-    - Convert to Hellenism (has Greco-Roman artifacts)
-    - Convert to Celtic (has Celtic artifacts)
-    - Convert to Norse (has Norse artifacts)
-    - Convert to Finno Ugric (has Finno Ugric artifacts)
-- Changed Gaze into the Mirror of Nitocris cooldown (From 15 to 5 years)
-- Changed Read the Necronomicon cooldown (From 20 to 10 years)
+- New Content
+    - Added Mesopotamian artifacts with gamerule control
+    - Added Egyptian artifacts with gamerule control
+    - Added Chinese artifacts with gamerule control
+    - Added Easter Egg artifacts with gamerule control
+    - Decisions tied to specific artifacts
+        - Combine Hedjet and Deshret into Pschent 
+        - Convert to Hellenism (has Greco-Roman artifacts)
+        - Convert to Celtic (has Celtic artifacts)
+        - Convert to Norse (has Norse artifacts)
+        - Convert to Finno Ugric (has Finno Ugric artifacts)
+    - Events tied to specific artifacts
+        - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
+        - Having a Lovecraftian artifact will cause stress event
+
+- Balance
+    - Changed Gaze into the Mirror of Nitocris cooldown (From 15 to 5 years)
+    - Changed Read the Necronomicon cooldown (From 20 to 10 years)
+    - Changed perk modifiers
+        - Read Necronomicon (slightly weaker)
+        - Gazed into the Mirror of Nitocris (slightly weaker)
+    - Changed artifact modifiers
+        - Gungnir's modifier (slightly weaker)
+        - Mjolnir's modifier (slightly weaker)
 
 Planned:
 - Artifact search
