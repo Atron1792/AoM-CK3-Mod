@@ -1,7 +1,9 @@
 ﻿version="1.8"
 tags={
 	"Alternative History"
+	"Decisions"
 	"Religion"
+	"Culture"
 }
 name="Artifacts of Myth"
 supported_version="1.17.*"
