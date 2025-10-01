@@ -5,7 +5,10 @@
 aom_soul_edge_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
-	fallback = { prowess = 8 }
+	fallback = { 
+		prowess = 10
+		 dread_baseline_add = 30
+	}
 	unique = yes
 }
 
@@ -13,7 +16,10 @@ aom_soul_edge_template = {
 aom_blackfyre_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
-	fallback = { prowess = 5 }
+	fallback = { 
+		prowess = 9
+		monthly_dynasty_prestige = 0.2
+	}
 	unique = yes
 }
 
@@ -21,7 +27,10 @@ aom_blackfyre_template = {
 aom_one_ring_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
-	fallback = { prowess = 2 }
+	fallback = { 
+		intrigue = 7
+		learning = 5
+	}
 	unique = yes
 }
 
@@ -29,7 +38,10 @@ aom_one_ring_template = {
 aom_elder_wand_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
-	fallback = { prowess = 1 }
+	fallback = { 
+		learning = 5
+		prowess = 2
+	}
 	unique = yes
 }
 
@@ -41,7 +53,10 @@ aom_lightsaber_template = {
 	can_equip = { always = yes }
 	can_benefit = {
 	}
-	fallback = { prowess = 6 }
+	fallback = { 
+		monthly_prestige = 0.75
+		monthly_dynasty_prestige = 0.25
+	}
 	unique = yes
 }
 
@@ -49,6 +64,9 @@ aom_lightsaber_template = {
 aom_palantir_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
-	fallback = { prowess = 1 }
+	fallback = { 
+		intrigue = 5
+		diplomatic_range_mult = 0.2
+	}
 	unique = yes
 }

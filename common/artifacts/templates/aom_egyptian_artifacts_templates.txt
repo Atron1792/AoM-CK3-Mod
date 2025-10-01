@@ -14,7 +14,7 @@ aom_book_of_thoth_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        learning = 7
     }
 	unique = yes
 }
@@ -32,7 +32,8 @@ aom_spear_of_ra_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        prowess = 10
+		monthly_prestige = 0.5
     }
 	unique = yes
 }
@@ -50,7 +51,8 @@ aom_knife_of_isis_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        prowess = 7
+		fertility = 0.1
     }
 	unique = yes
 }
@@ -68,7 +70,7 @@ aom_scythe_of_horus_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        prowess = 8
     }
 	unique = yes
 }

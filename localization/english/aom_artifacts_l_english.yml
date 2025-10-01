@@ -737,7 +737,7 @@
   # Court Artifacts
   # Lightsaber (Starwars)
   aom_lightsaber_name: "Lightsaber"
-  aom_lightsaber_desc: "A weapon from a galaxy far, far away—elegant, luminous, and deadly."
+  aom_lightsaber_desc: "A metal rod once hailed as an elegant weapon of a more civilized age, now little more than a gleaming relic."
 
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
