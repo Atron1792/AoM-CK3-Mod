@@ -19,6 +19,7 @@ aom_debug_transfer_all_artifacts = {
 						has_variable = aom_finno_ugric_artifact
 						has_variable = aom_chinese_artifact
 						has_variable = aom_celtic_artifact
+						has_variable = aom_lovecraftian_artifact
 					}
 				}
 				set_owner = ROOT

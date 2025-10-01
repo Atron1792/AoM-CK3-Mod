@@ -571,8 +571,8 @@
 
   # Court Artifacts
   # Tablets of Destinies
-  aom_tablets_of_destinies_name: "Tablets of Destinies"
-  aom_tablets_of_destinies_desc: "These ancient tablets hold the decrees of the gods and the fate of all living things."
+  aom_tablet_of_destinies_name: "Tablets of Destinies"
+  aom_tablet_of_destinies_desc: "These ancient tablets hold the decrees of the gods and the fate of all living things."
 
   # Bull of Heaven's Horns
   aom_bull_of_heaven_name: "Bull of Heaven's Horns"

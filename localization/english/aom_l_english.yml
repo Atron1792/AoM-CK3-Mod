@@ -48,17 +48,17 @@
   aom_spawn_lovecraftian_artifacts: "Open Lovecraftian Artifact Menu"
   aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Necronomicon, The Shining Trapezohedron, The Sliver Key"
 
-  aom_spawn_lovecraftian_artifacts: "Open Mesopotamian Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Sharur, Tablets of Destinies, Ereshkigal's Throne"
+  aom_spawn_mesopotamian_artifacts: "Open Mesopotamian Artifact Menu"
+  aom_spawn_mesopotamian_artifacts_tooltip: "Examples: Sharur, Tablets of Destinies, Ereshkigal's Throne"
 
-  aom_spawn_lovecraftian_artifacts: "Open Egyptian Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Book of Thoth, Hedjet, Feather of Ma'at"
+  aom_spawn_egyptian_artifacts: "Open Egyptian Artifact Menu"
+  aom_spawn_egyptian_artifacts_tooltip: "Examples: Book of Thoth, Hedjet, Feather of Ma'at"
 
-  aom_spawn_lovecraftian_artifacts: "Open Chinese Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Pangu's Axe, Hou Yi's Bow, Heirloom Seal of the Realm"
+  aom_spawn_chinese_artifacts: "Open Chinese Artifact Menu"
+  aom_spawn_chinese_artifacts_tooltip: "Examples: Pangu's Axe, Hou Yi's Bow, Heirloom Seal of the Realm"
 
-  aom_spawn_lovecraftian_artifacts: "Open Easter Egg Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Blackfyre, Elder Wand, Palantír"
+  aom_spawn_easter_egg_artifacts: "Open Easter Egg Artifact Menu"
+  aom_spawn_easter_egg_artifacts_tooltip: "Examples: Blackfyre, Elder Wand, Palantír"
 
   aom_disable_artifact_spawning: "Disable the Artifact Spawning Menu"
   aom_disable_artifact_spawning_tooltip: "#R Warning:#! This disables the artifact spawning menu"
@@ -104,7 +104,7 @@
 
 # Combine White and Red Crowns (Egyptian)
   aom_combine_white_and_red_crowns_decision: "Unite the Crowns of Egypt"
-  aom_combine_white_and_red_crowns_decision_desc: "With both the White Crown of Upper Egypt and the Red Crown of Lower Egypt in your possession, you can forge the Pschent—the Double Crown that symbolizes total dominion over the Nile and its people."
+  aom_combine_white_and_red_crowns_decision_desc: "With both the White Crown of Upper Egypt and the Red Crown of Lower Egypt in your possession, you can forge the Pschent, the Double Crown that symbolizes total dominion over the Nile and its people."
   aom_combine_white_and_red_crowns_decision_tooltip: "Merge the White and Red Crowns into the Pschent."
   aom_combine_white_and_red_crowns_decision_confirm: "Unite the Crowns"
   aom_has_hedjet: "You possess Hedjet, the White Crown of Upper Egypt"
@@ -118,12 +118,13 @@
   aom_convert_to_hellenism_decision_confirm: "Accept the Old Gods"
   aom_has_greco_roman_artifact: "You possess a Greco-Roman artifact"
 
-# Convert to Celtic
-  aom_convert_to_celtic_decision: "Return to the Celtic Faith"
-  aom_convert_to_celtic_decision_desc: "The ancient spirits of the forests and stones stir once more. With sacred relics in your grasp, the path of the druids, the Morrigan, and forgotten kings opens to you."
-  aom_convert_to_celtic_decision_tooltip: "Convert your faith to Celtic Paganism if you hold a Celtic artifact."
-  aom_convert_to_celtic_decision_confirm: "Follow the Way of the Ancients"
-  aom_has_celtic_artifact: "You possess a Celtic artifact"
+# DOESN'T EXIST (MIGHT ADD)
+# # Convert to Celtic
+  #   aom_convert_to_celtic_decision: "Return to the Celtic Faith"
+  #   aom_convert_to_celtic_decision_desc: "The ancient spirits of the forests and stones stir once more. With sacred relics in your grasp, the path of the druids, the Morrigan, and forgotten kings opens to you."
+  #   aom_convert_to_celtic_decision_tooltip: "Convert your faith to Celtic Paganism if you hold a Celtic artifact."
+  #   aom_convert_to_celtic_decision_confirm: "Follow the Way of the Ancients"
+  #   aom_has_celtic_artifact: "You possess a Celtic artifact"
 
 # Convert to Norse
   aom_convert_to_norse_decision: "Embrace the Old Norse Ways"
@@ -392,6 +393,10 @@
   aom_artifact_spawning.desc: "Choose an Artifact to Spawn:"
 
   game_rule_category_aom: "Artifacts of Myth"
+
+  every_close_or_extended_family_member_to_convert: "Every [close_family|E] or [extended_family|E] [character|E]"
+
+  culture_this_equal: "You are [ROOT.Culture.GetName|U] [culture|E]"
 
 # Perk Modifiers
   read_necronomicon_decision_learning_gain: "Read the Necronomicon"

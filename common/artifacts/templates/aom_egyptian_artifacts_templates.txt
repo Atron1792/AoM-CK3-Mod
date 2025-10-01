@@ -9,7 +9,7 @@ aom_book_of_thoth_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian 
 			}
 		}
 	}
@@ -27,7 +27,7 @@ aom_spear_of_ra_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -45,7 +45,7 @@ aom_knife_of_isis_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -63,7 +63,7 @@ aom_scythe_of_horus_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -81,7 +81,7 @@ aom_eye_of_horus_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -99,7 +99,7 @@ aom_pschent_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -117,7 +117,7 @@ aom_hedjet_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -135,7 +135,7 @@ aom_deshret_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -156,7 +156,7 @@ aom_neiths_loom_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -174,7 +174,7 @@ aom_feather_of_maat_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
@@ -192,7 +192,7 @@ aom_anubis_scales_template = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
 			OR = {
 				culture = { has_cultural_pillar = heritage_east_african }
-				scope:culture = culture:egyptian
+				root.culture = culture:egyptian
 			}
 		}
 	}
