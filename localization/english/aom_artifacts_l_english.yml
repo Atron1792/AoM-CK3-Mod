@@ -604,13 +604,13 @@
   aom_knife_of_isis_name: "Knife of Isis"
   aom_knife_of_isis_desc: "An enchanted blade used in sacred rites and divine vengeance alike."
 
-  # Scythe of Horus
-  aom_scythe_of_horus_name: "Scythe of Horus"
-  aom_scythe_of_horus_desc: "A weapon forged in the name of vengeance, curved like the falcon's flight."
-
   # Eye of Horus
   aom_eye_of_horus_name: "Eye of Horus"
   aom_eye_of_horus_desc: "A powerful symbol of protection, healing, and royal legitimacy."
+
+  # Was-sceptre
+  aom_was_sceptre_name: "Was-sceptre"
+  aom_was_sceptre_desc: "A scepter associated with divine authority and power, often held by gods and pharaohs alike. It projects both control and protection."
 
   # Pschent (Double Crown of Egypt)
   aom_pschent_name: "Pschent"

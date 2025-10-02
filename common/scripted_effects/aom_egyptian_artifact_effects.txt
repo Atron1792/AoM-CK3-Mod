@@ -76,31 +76,6 @@ create_artifact_aom_knife_of_isis_effect = {
 	}
 }
 
-# Scythe of Horus
-create_artifact_aom_scythe_of_horus_effect = {
-	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = aom_scythe_of_horus_name
-		description = aom_scythe_of_horus_desc
-		type = weapon_simple
-		visuals = aom_scythe_of_horus
-		wealth = scope:wealth
-		quality = scope:quality
-		template = aom_scythe_of_horus_template
-		history = { type = created_before_history }
-		modifier = aom_scythe_of_horus_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact = {
-		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = aom_scythe_of_horus
-		set_variable = aom_artifact
-		save_scope_as = epic
-	}
-}
-
 # Eye of Horus
 create_artifact_aom_eye_of_horus_effect = {
 	$OWNER$ = { save_scope_as = owner }
@@ -121,6 +96,31 @@ create_artifact_aom_eye_of_horus_effect = {
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = aom_eye_of_horus
+		set_variable = aom_artifact
+		save_scope_as = epic
+	}
+}
+
+# Was-sceptre
+create_artifact_aom_was_sceptre_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = aom_was_sceptre_name
+		description = aom_was_sceptre_desc
+		type = regalia_simple
+		visuals = aom_was_sceptre
+		wealth = scope:wealth
+		quality = scope:quality
+		template = aom_was_sceptre_template
+		history = { type = created_before_history }
+		modifier = aom_was_sceptre_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = aom_was_sceptre
 		set_variable = aom_artifact
 		save_scope_as = epic
 	}

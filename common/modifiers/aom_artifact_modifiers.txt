@@ -1154,15 +1154,15 @@ aom_knife_of_isis_modifier = {
     intrigue = 3
 }
 
-# Scythe of Horus
-aom_scythe_of_horus_modifier = {
-    martial = 2
-    dread_gain_mult = 0.25
-}
-
 # Eye of Horus
 aom_eye_of_horus_modifier = {
     health = 0.25
+}
+
+# Was-sceptre
+aom_was_sceptre_modifier = {
+    martial = 2
+    dread_gain_mult = 0.25
 }
 
 # Pschent (Double Crown of Egypt)

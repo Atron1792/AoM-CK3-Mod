@@ -1076,12 +1076,12 @@ aom_artifact_spawning.1091 = {
 		create_artifact_aom_knife_of_isis_effect = { OWNER = this }
 	}
 	option = {
-		name = aom_scythe_of_horus_name
-		create_artifact_aom_scythe_of_horus_effect = { OWNER = this }
-	}
-	option = {
 		name = aom_eye_of_horus_name
 		create_artifact_aom_eye_of_horus_effect = { OWNER = this }
+	}
+	option = {
+		name = aom_was_sceptre_name
+		create_artifact_aom_was_sceptre_effect = { OWNER = this }
 	}
 	option = {
 		name = aom_pschent_name

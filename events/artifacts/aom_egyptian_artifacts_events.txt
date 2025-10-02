@@ -165,32 +165,6 @@ aom_egyptian_artifacts.001 = {
                 }
             }
         }
-		# Scythe of Horus
-        while = {
-            count = 1
-            random_ruler = {
-                limit = {
-                    OR = { 
-                        has_government = tribal_government 
-                        has_government = feudal_government 
-                    }
-                    NOT = { 
-                        has_character_flag = aom_seeded_relic 
-                        any_artifact = { has_variable = aom_scythe_of_horus } 
-                    }
-                    highest_held_title_tier >= tier_county
-                    OR = {
-						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
-					}
-                }
-                create_artifact_aom_scythe_of_horus_effect = { OWNER = this }
-                add_character_flag = { 
-                    flag = aom_seeded_relic 
-                    days = 1 
-                }
-            }
-        }
 		# Eye of Horus
         while = {
             count = 1
@@ -277,6 +251,33 @@ aom_egyptian_artifacts.002 = {
 					}
                 }
                 create_artifact_aom_deshret_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
+        # Inventory Artifacts
+        # Was-sceptre
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_was_sceptre } 
+                    }
+                    highest_held_title_tier >= tier_county
+                    OR = {
+						culture = { has_cultural_pillar = heritage_east_african }
+						root.culture =  culture:egyptian
+					}
+                }
+                create_artifact_aom_was_sceptre_effect = { OWNER = this }
                 add_character_flag = { 
                     flag = aom_seeded_relic 
                     days = 1 

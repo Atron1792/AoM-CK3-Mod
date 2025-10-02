@@ -17,6 +17,8 @@ aom_sharur_template = {
 	}
 	fallback = {
 		prowess = 10
+		stewardship = 2
+		martial = 3
 	}
 	unique = yes
 }
@@ -35,8 +37,10 @@ aom_imhullu_template = {
 			}
 		}
 	}
-	fallback = { 
-        prowess = 6 
+	fallback = {
+		prowess = 10
+        diplomacy = 3
+		monthly_prestige = 0.5
     }
 	unique = yes
 }
@@ -56,7 +60,8 @@ aom_marduks_net_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        prowess = 5
+		stewardship = 3
     }
 	unique = yes
 }
@@ -159,7 +164,7 @@ aom_throne_ereshkigal_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        dread_gain_mult = 0.25
     }
 	unique = yes
 }

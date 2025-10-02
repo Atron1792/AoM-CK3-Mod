@@ -1044,16 +1044,16 @@ aom_knife_of_isis = {
     asset = ep1_western_dagger_01_a_portrait_entity
 }
 
-# Scythe of Horus
-aom_scythe_of_horus = {
-    icon = "egyptian/aom_scythe_of_horus.dds"
-    asset = ep1_western_spear_01_a_portrait_entity
-}
-
 # Eye of Horus
 aom_eye_of_horus = {
     icon = "egyptian/aom_eye_of_horus.dds"
     asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Was-sceptre
+aom_was_sceptre = {
+    icon = "egyptian/aom_was_sceptre.dds"
+    asset = ep1_western_spear_01_a_portrait_entity
 }
 
 # Pschent (Double Crown of Egypt)

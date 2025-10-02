@@ -15,6 +15,8 @@ aom_book_of_thoth_template = {
 	}
 	fallback = {
         learning = 7
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		clergy_opinion = 5
     }
 	unique = yes
 }
@@ -34,6 +36,8 @@ aom_spear_of_ra_template = {
 	fallback = {
         prowess = 10
 		monthly_prestige = 0.5
+		stewardship = 3
+		martial = 2
     }
 	unique = yes
 }
@@ -53,24 +57,7 @@ aom_knife_of_isis_template = {
 	fallback = {
         prowess = 7
 		fertility = 0.1
-    }
-	unique = yes
-}
-
-# Scythe of Horus
-aom_scythe_of_horus_template = {
-	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			OR = {
-				culture = { has_cultural_pillar = heritage_east_african }
-				root.culture = culture:egyptian
-			}
-		}
-	}
-	fallback = {
-        prowess = 8
+		negate_health_penalty_add = 0.25
     }
 	unique = yes
 }
@@ -88,7 +75,28 @@ aom_eye_of_horus_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+		negate_health_penalty_add = 0.2
+		monthly_dynasty_prestige = 0.15
+        enemy_hostile_scheme_success_chance_add = -5
+    }
+	unique = yes
+}
+
+# Was-sceptre
+aom_was_sceptre_template = {
+	can_equip = { always = yes }
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			OR = {
+				culture = { has_cultural_pillar = heritage_east_african }
+				root.culture = culture:egyptian
+			}
+		}
+	}
+	fallback = {
+        legitimacy_gain_mult = 0.1
+		monthly_prestige = 0.2
     }
 	unique = yes
 }
@@ -106,7 +114,10 @@ aom_pschent_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        legitimacy_gain_mult = 0.15
+		monthly_legitimacy_add = 1
+		diplomacy = 2
+		court_grandeur_baseline_add = 5
     }
 	unique = yes
 }
@@ -124,7 +135,8 @@ aom_hedjet_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        legitimacy_gain_mult = 0.1
+		diplomacy = 2
     }
 	unique = yes
 }
@@ -142,7 +154,8 @@ aom_deshret_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        legitimacy_gain_mult = 0.1
+		diplomacy = 2
     }
 	unique = yes
 }
@@ -163,7 +176,9 @@ aom_neiths_loom_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        retreat_losses = -0.1
+		learning = 3
+		martial = 2
     }
 	unique = yes
 }
@@ -181,7 +196,9 @@ aom_feather_of_maat_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        diplomacy = 2
+		parochial_opinion = 5
+		courtly_opinion = 5
     }
 	unique = yes
 }
@@ -199,7 +216,9 @@ aom_anubis_scales_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+		stewardship = 3
+        monthly_piety = 0.3
+		clergy_opinion = 5
     }
 	unique = yes
 }
