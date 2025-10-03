@@ -1120,12 +1120,6 @@ aom_lyre_of_ur_modifier = {
     court_grandeur_bonus = 3
 }
 
-# Mul Zibanu (Shamash's Scales)
-aom_mul_zibanu_modifier = {
-    learning = 2
-    tyranny_gain_mult = -0.3
-}
-
 # Ereshkigal's Throne
 aom_throne_ereshkigal_modifier = {
     dread_gain_mult = 0.5

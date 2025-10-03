@@ -1041,10 +1041,6 @@ aom_artifact_spawning.1081 = {
 		create_artifact_aom_lyre_of_ur_effect = { OWNER = this }
 	}
 	option = {
-		name = aom_mul_zibanu_name
-		create_artifact_aom_mul_zibanu_effect = { OWNER = this }
-	}
-	option = {
 		name = aom_throne_ereshkigal_name
 		create_artifact_aom_throne_ereshkigal_effect = { OWNER = this }
 	}

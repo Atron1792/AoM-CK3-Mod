@@ -64,34 +64,7 @@ aom_mesopotamian_artifacts.001 = {
                 }
             }
         }
-        # Mul Zibanu (Shamash's Scales)
-        while = {
-            count = 1
-            random_ruler = {
-                limit = {
-                    OR = { 
-                        has_government = tribal_government 
-                        has_government = feudal_government 
-                    }
-                    NOT = { 
-                        has_character_flag = aom_seeded_relic 
-                        any_artifact = { has_variable = aom_mul_zibanu } 
-                    }
-                    highest_held_title_tier >= tier_duchy
-                    culture = {
-                        OR = { 
-                            has_cultural_pillar = heritage_caucasian
-                            has_cultural_pillar = heritage_syriac
-                        }
-                    }
-                }
-                create_artifact_aom_mul_zibanu_effect = { OWNER = this }
-                add_character_flag = { 
-                    flag = aom_seeded_relic 
-                    days = 1 
-                }
-            }
-        }
+        
         # Ereshkigal's Throne
         while = {
             count = 1

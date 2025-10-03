@@ -582,10 +582,6 @@
   aom_lyre_of_ur_name: "Lyre of Ur"
   aom_lyre_of_ur_desc: "An instrument once played for kings and gods alike, singing of creation and conquest."
 
-  # Mul Zibanu (Shamash's Scales)
-  aom_mul_zibanu_name: "Mul Zibanu"
-  aom_mul_zibanu_desc: "The scales of justice belonging to Shamash, god of law and sunlight, said to weigh the truth itself."
-
   # Ereshkigal's Throne
   aom_throne_ereshkigal_name: "Ereshkigal's Throne"
   aom_throne_ereshkigal_desc: "The dark throne of the underworld queen, where all must bow in death's domain."

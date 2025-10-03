@@ -1009,13 +1009,6 @@ aom_lyre_of_ur = {
     asset = ep1_generic_king_davids_harp_entity
 }
 
-# Mul Zibanu (Shamash's Scales)
-aom_mul_zibanu = {
-    icon = "mesopotamian/aom_mul_zibanu.dds"
-    pedestal = "tall"
-    asset = ep1_mena_box_small_fancy_01_a_entity
-}
-
 # Ereshkigal's Throne
 aom_throne_ereshkigal = {
     icon = "mesopotamian/aom_throne_ereshkigal.dds"

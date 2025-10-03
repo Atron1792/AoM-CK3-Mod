@@ -129,26 +129,6 @@ aom_lyre_of_ur_template = {
 	unique = yes
 }
 
-# Mul Zibanu (Shamash's Scales)
-aom_mul_zibanu_template = {
-	can_equip = { always = yes }
-	can_benefit = {
-		trigger_if = {
-			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = {
-				OR = { 
-					has_cultural_pillar = heritage_caucasian
-					has_cultural_pillar = heritage_syriac
-				}
-			}
-		}
-	}
-	fallback = {
-        prowess = 4
-    }
-	unique = yes
-}
-
 # Ereshkigal's Throne
 aom_throne_ereshkigal_template = {
 	can_equip = { always = yes }

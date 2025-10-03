@@ -154,31 +154,6 @@ create_artifact_aom_lyre_of_ur_effect = {
 	}
 }
 
-# Mul Zibanu (Shamash's Scales)
-create_artifact_aom_mul_zibanu_effect = {
-	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_illustrious = yes
-	create_artifact = {
-		name = aom_mul_zibanu_name
-		description = aom_mul_zibanu_desc
-		type = sculpture_simple
-		visuals = aom_mul_zibanu
-		wealth = scope:wealth
-		quality = scope:quality
-		template = aom_mul_zibanu_template
-		history = { type = created_before_history }
-		modifier = aom_mul_zibanu_modifier
-		save_scope_as = newly_created_artifact
-		decaying = no
-	}
-	scope:newly_created_artifact = {
-		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = aom_mul_zibanu
-		set_variable = aom_artifact
-		save_scope_as = epic
-	}
-}
-
 # Ereshkigal's Throne
 create_artifact_aom_throne_ereshkigal_effect = {
 	$OWNER$ = { save_scope_as = owner }
