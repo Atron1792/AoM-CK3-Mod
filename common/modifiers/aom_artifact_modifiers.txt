@@ -1085,45 +1085,52 @@ aom_mirror_of_nitocris_modifier = {
 # Inventory Artifacts
 # Sharur (Ninurta's Mace)
 aom_sharur_modifier = {
-    martial = 4
-    knight_effectiveness_mult = 0.25
+    prowess = 13
+	stewardship = 4
+	martial = 5
 }
 
 # Imhullu (Marduk's Weapon)
 aom_imhullu_modifier = {
-    martial = 3
-    advantage = 5
+    prowess = 13
+    diplomacy = 5
+	monthly_prestige = 0.75
 }
 
 # Marduk’s Net
 aom_marduks_net_modifier = {
-	prowess = 5
+	prowess = 7
+	stewardship = 5
 }
 
 # Court Artifacts
 # Tablet of Destinies
 aom_tablet_of_destinies_modifier = {
-    learning = 4
-    monthly_piety = 0.4
-    stress_gain_mult = 0.75
+    learning = 7
+    monthly_piety = 0.7
 }
 
 # Bull of Heaven’s Horns
 aom_bull_of_heaven_modifier = {
-    prowess = 3
-    attraction_opinion = 10
+    monthly_prestige = 0.75
+	court_grandeur_baseline_add = 8
+	dread_baseline_add = 10
 }
 
 # Lyre of Ur
 aom_lyre_of_ur_modifier = {
     diplomacy = 3
-    court_grandeur_bonus = 3
+    court_grandeur_baseline_add = 5
+	monthly_prestige = 0.25
 }
 
 # Ereshkigal's Throne
 aom_throne_ereshkigal_modifier = {
-    dread_gain_mult = 0.5
-    natural_dread = 15
+    stewardship = 6
+	monthly_piety = 0.75
+	dread_gain_mult = 0.15
+	dread_baseline_add = 25
+	court_grandeur_baseline_add = 12
 }
 
 ############################
@@ -1132,67 +1139,82 @@ aom_throne_ereshkigal_modifier = {
 # Inventory Artifacts
 # Book of Thoth
 aom_book_of_thoth_modifier = {
-    learning = 5
-    lifestyle_experience_gain_mult = 0.15
+    learning = 9
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
+	clergy_opinion = 10
 }
 
 # Spear of Ra
 aom_spear_of_ra_modifier = {
-    martial = 3
-    prowess = 2
-    advantage = 5
+    prowess = 15
+	monthly_piety = 0.75
+	stewardship = 6
+	martial = 4
 }
 
 # Knife of Isis
 aom_knife_of_isis_modifier = {
-    intrigue = 3
+	prowess = 10
+	fertility = 0.2
+	negate_health_penalty_add = 0.5
 }
 
 # Eye of Horus
 aom_eye_of_horus_modifier = {
-    health = 0.25
+	negate_health_penalty_add = 0.5
+	monthly_dynasty_prestige = 0.25
+	enemy_hostile_scheme_success_chance_add = -10
 }
 
 # Was-sceptre
 aom_was_sceptre_modifier = {
-    martial = 2
-    dread_gain_mult = 0.25
+    legitimacy_gain_mult = 0.2
+	monthly_prestige = 0.5
+	monthly_piety = 0.25
 }
 
 # Pschent (Double Crown of Egypt)
 aom_pschent_modifier = {
-    diplomacy = 3
-    vassal_limit = 5
+	legitimacy_gain_mult = 0.25
+	monthly_legitimacy_add = 1
+	diplomacy = 3
+	vassal_limit = 5
 }
 
 # Hedjet (White Crown of Upper Egypt)
 aom_hedjet_modifier = {
-    piety = 1.0
-    monthly_control_growth = 0.15
+    legitimacy_gain_mult = 0.2
+	diplomacy = 2
 }
 
 # Deshret (Red Crown of Lower Egypt)
 aom_deshret_modifier = {
-    martial = 2
-    levy_reinforcement_rate = 0.1
+    legitimacy_gain_mult = 0.2
+	diplomacy = 2
 }
 
 # Court Artifacts
 # Neith’s Loom
 aom_neiths_loom_modifier = {
-    fertility = 0.2
-    court_grandeur_bonus = 2
+	learning = 6
+	martial = 4
+	court_grandeur_baseline_add = 10
+	retreat_losses = -0.1
 }
 
 # Feather of Ma’at
 aom_feather_of_maat_modifier = {
-    learning = 2
-    tyranny_gain_mult = -0.4
+	diplomacy = 3
+	parochial_opinion = 10
+	courtly_opinion = 10
+    tyranny_gain_mult = -0.3
 }
 
 # Anubis’ Scales
 aom_anubis_scales_modifier = {
-    dread_decay_mult = -0.5
+    stewardship = 5
+    monthly_piety = 0.5
+	clergy_opinion = 10
 }
 
 ############################
@@ -1201,117 +1223,129 @@ aom_anubis_scales_modifier = {
 # Inventory Artifacts
 # Pangu’s Axe
 aom_pangu_axe_modifier = {
-    martial = 4
-    stress_loss_mult = 0.2
+    prowess = 15
+	monthly_prestige = 0.75
+	monthly_piety = 0.5
+	court_grandeur_baseline_add = 10
 }
 
 # Ruyi Jingu Bang (Wukong’s Staff)
 aom_ruyi_jingu_bang_modifier = {
-    prowess = 5
-    scheme_resistance_mult = 0.2
+    prowess = 12
+	monthly_prestige = 0.75
 }
 
 # Sun Wukong’s Boots
 aom_wukong_boots_modifier = {
-    movement_speed = 0.2
-    hostile_scheme_success_chance_mult = 0.1
+    prowess = 5
+	character_travel_speed = 20
+	intrigue = 4
 }
 
 # Peach of Immortality
 aom_peach_of_immortality_modifier = {
-    health = 0.3
-    stress_gain_mult = -0.5
+    health = 0.75
+	epidemic_resistance = 15
+	fertility = 0.2
 }
 
 # Xuan Yuan Sword
 aom_xuan_yuan_sword_modifier = {
-    martial = 3
-    general_opinion = 10
+    prowess = 10
+	monthly_prestige = 0.5
+	tyranny_gain_mult = -0.15
 }
 
 # Erlang Shen's Spear
 aom_erlang_spear_modifier = {
-    martial = 2
-    prowess = 3
+    prowess = 8
+	martial = 3
 }
 
 # Kenkonken (Nezha's Chakram)
 aom_kenkonken_modifier = {
-    knight_effectiveness_mult = 0.2
-    prowess = 2
+    prowess = 9
+	martial = 4
 }
 
 # Qiankun Dai (Spatial Bag)
 aom_qiankun_dai_modifier = {
-    stewardship = 3
-    monthly_income = 2
+    stewardship = 5
+	supply_duration = 0.3
+	supply_limit_mult = 0.3
 }
 
 # Sword of Goujian
 aom_sword_of_goujian_modifier = {
-    martial = 2
-    prestige = 0.5
+    prowess = 7
+	monthly_prestige = 0.5
 }
 
 # Green Dragon Crescent Blade (Guan Yu's Weapon)
 aom_green_dragon_blade_modifier = {
-    martial = 4
-    knight_damage_mult = 0.25
+    prowess = 8
+	knight_effectiveness_mult = 0.2
 }
 
 # Zhang Fei's Spear
 aom_zhang_fei_spear_modifier = {
-    prowess = 4
-    dread_gain_mult = 0.25
+    prowess = 8
+	martial = 3
 }
 
 # Hou Yi’s Bow
 aom_hou_yi_bow_modifier = {
-    prowess = 2
-    hunt_success_chance_add = 0.25
+    prowess = 8
+	martial = 3
 }
 
 # Gan Jiang
 aom_gan_jiang_modifier = {
-    martial = 2
-    fertility = 0.1
+    prowess = 6
+	diplomacy = 1
 }
 
 # Mo Ye
 aom_mo_ye_modifier = {
-    diplomacy = 2
-    attraction_opinion = 10
+    prowess = 6
+	martial = 1
 }
 
 # Court Artifacts
 # Mianguan
 aom_mianguan_modifier = {
-    diplomacy = 4
-    vassal_opinion = 10
+    diplomacy = 5
+	monthly_prestige = 0.5
+	court_grandeur_baseline_add = 5
+    vassal_opinion = 5
 }
 
 # Heirloom Seal of the Realm
 aom_heirloom_seal_modifier = {
-    monthly_prestige = 1
-    realm_stability_mult = 0.1
+    stewardship = 7
+	monthly_dynasty_prestige = 0.25
+	monthly_prestige = 1
+	court_grandeur_baseline_add = 10
 }
 
 # Nieh-ching-t'ai (Mirror of Retribution)
 aom_mirror_of_retribution_modifier = {
-    intrigue = 2
-    scheme_power_mult = 0.25
+    intrigue = 6
+	enemy_hostile_scheme_success_chance_add = -10
 }
 
 # Jade Books
 aom_jade_books_modifier = {
-    learning = 3
-    renown = 0.5
+    learning = 7
+	development_growth = 0.1
+	monthly_piety = 0.5
 }
 
 # Jiuding (Nine Tripod Cauldrons)
 aom_jiuding_modifier = {
-    stewardship = 2
-    development_growth_mult = 0.2
+    monthly_county_control_growth_add = 0.2
+	levy_reinforcement_rate = 0.1
+	monthly_prestige = 0.5
 }
 
 ############################
@@ -1320,38 +1354,37 @@ aom_jiuding_modifier = {
 # Inventory Artifacts
 # Soul Edge (Soul Calibur)
 aom_soul_edge_modifier = {
-    martial = 5
-    stress_gain_mult = 1.0
-    dread_gain_mult = 0.5
+    prowess = 10
+	dread_baseline_add = 30
 }
 
 # Blackfyre (AGOT)
 aom_blackfyre_modifier = {
-    martial = 3
-    legitimacy_gain_mult = 0.2
+	prowess = 9
+	monthly_dynasty_prestige = 0.2
 }
 
 # One Ring (LotR)
 aom_one_ring_modifier = {
-    intrigue = 5
-    stress_gain_mult = 1.0
+	intrigue = 7
+	learning = 5
 }
 
 # Elder Wand (Harry Potter)
 aom_elder_wand_modifier = {
-    learning = 5
-    scheme_power_mult = 0.3
+	learning = 5
+	prowess = 2
 }
 
 # Court Artifacts
 # Lightsaber (Star Wars)
 aom_lightsaber_modifier = {
-    prowess = 6
-    knight_effectiveness_mult = 0.3
+	monthly_prestige = 0.75
+	monthly_dynasty_prestige = 0.25
 }
 
 # Palantír (LotR)
 aom_palantir_modifier = {
-    intrigue = 3
-    stress_gain_mult = 0.3
+	intrigue = 7
+	diplomatic_range_mult = 0.2
 }

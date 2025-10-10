@@ -1,15 +1,17 @@
 ﻿# On Losing Egypt
+yearly_global_pulse = { on_actions = { aom_on_egypt_title_lost } }
+
 aom_on_egypt_title_lost = {
 	trigger = {
 		AND = {
-            NOR = {
-                has_title = title:k_eqypt
-                any_vassal = { has_title = title:k_eqypt }
-		    }
             any_character_artifact = {
                 OR = {
                     has_variable = aom_pschent
                 }
+		    }
+            NOR = {
+                has_title = title:k_egypt
+                any_vassal = { has_title = title:k_egypt }
 		    }
         }
 	}
@@ -23,19 +25,9 @@ five_year_everyone_pulse = { on_actions = { aom_on_lovecraftian_stress_gain } }
 
 aom_on_lovecraftian_stress_gain = {
     trigger = {
-        is_ai = no
         any_character_artifact = { has_variable = aom_lovecraftian_artifact }
     }
-    random_events = {	
-		chance_to_happen = 50
-		chance_of_no_event = { 
-            value = 0
-			if = {
-				limit = { trigger_conditions = yes }
-				add = 10
-			}
-		}
-		100 = aom_artifact_checks.0002 	
-		100 = 0	
+    events = {	
+		aom_artifact_checks.0002 	
 	}
 }

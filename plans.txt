@@ -71,6 +71,7 @@
         - Mjolnir's modifier (slightly weaker)
 
 Planned:
+- Added Japanese artifacts with gamerule control
 - Artifact search
 - Cultural/religious artifact acquisition
 

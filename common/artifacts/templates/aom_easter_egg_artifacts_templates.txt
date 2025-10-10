@@ -7,7 +7,7 @@ aom_soul_edge_template = {
 	can_benefit = {}
 	fallback = { 
 		prowess = 10
-		 dread_baseline_add = 30
+		dread_baseline_add = 30
 	}
 	unique = yes
 }
@@ -65,7 +65,7 @@ aom_palantir_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
 	fallback = { 
-		intrigue = 5
+		intrigue = 7
 		diplomatic_range_mult = 0.2
 	}
 	unique = yes

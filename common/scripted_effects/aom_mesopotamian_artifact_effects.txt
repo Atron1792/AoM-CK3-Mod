@@ -132,7 +132,7 @@ create_artifact_aom_bull_of_heaven_effect = {
 # Lyre of Ur
 create_artifact_aom_lyre_of_ur_effect = {
 	$OWNER$ = { save_scope_as = owner }
-	set_artifact_rarity_famed = yes
+	set_artifact_rarity_masterwork = yes
 	create_artifact = {
 		name = aom_lyre_of_ur_name
 		description = aom_lyre_of_ur_desc

@@ -84,7 +84,8 @@ aom_tablet_of_destinies_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        learning = 4
+		monthly_piety = 0.4
     }
 	unique = yes
 }
@@ -104,7 +105,9 @@ aom_bull_of_heaven_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+		monthly_prestige = 0.5
+		court_grandeur_baseline_add = 3
+		dread_baseline_add = 5
     }
 	unique = yes
 }
@@ -124,7 +127,9 @@ aom_lyre_of_ur_template = {
 		}
 	}
 	fallback = {
-        prowess = 4
+        diplomacy = 1
+    	court_grandeur_baseline_add = 2
+		monthly_prestige = 0.1
     }
 	unique = yes
 }
@@ -144,7 +149,10 @@ aom_throne_ereshkigal_template = {
 		}
 	}
 	fallback = {
-        dread_gain_mult = 0.25
+		stewardship = 4
+		monthly_piety = 0.5
+    	dread_baseline_add = 15
+		court_grandeur_baseline_add = 8
     }
 	unique = yes
 }

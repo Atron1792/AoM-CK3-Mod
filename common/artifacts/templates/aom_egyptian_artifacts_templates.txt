@@ -35,7 +35,7 @@ aom_spear_of_ra_template = {
 	}
 	fallback = {
         prowess = 10
-		monthly_prestige = 0.5
+		monthly_prestige = 0.25
 		stewardship = 3
 		martial = 2
     }
@@ -115,9 +115,9 @@ aom_pschent_template = {
 	}
 	fallback = {
         legitimacy_gain_mult = 0.15
-		monthly_legitimacy_add = 1
+		monthly_legitimacy_add = 0.5
 		diplomacy = 2
-		court_grandeur_baseline_add = 5
+		vassal_limit = 3
     }
 	unique = yes
 }
@@ -176,9 +176,9 @@ aom_neiths_loom_template = {
 		}
 	}
 	fallback = {
-        retreat_losses = -0.1
 		learning = 3
 		martial = 2
+		court_grandeur_baseline_add = 5
     }
 	unique = yes
 }
@@ -198,7 +198,7 @@ aom_feather_of_maat_template = {
 	fallback = {
         diplomacy = 2
 		parochial_opinion = 5
-		courtly_opinion = 5
+		courtly_opinion = 5	
     }
 	unique = yes
 }
@@ -217,7 +217,7 @@ aom_anubis_scales_template = {
 	}
 	fallback = {
 		stewardship = 3
-        monthly_piety = 0.3
+        monthly_piety = 0.25
 		clergy_opinion = 5
     }
 	unique = yes

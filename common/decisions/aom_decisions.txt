@@ -42,7 +42,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_norse_artifacts
-			icon = "gfx/interface/icons/faith/norse.dds"
+			icon = "gfx/interface/icons/d_icons/norse.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -56,7 +56,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_greco_roman_artifacts
-			icon = "gfx/interface/icons/faith/greco_roman.dds"
+			icon = "gfx/interface/icons/d_icons/greco_roman.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -70,7 +70,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_abrahamic_artifacts
-			icon = "gfx/interface/icons/faith/abrahamic.dds"
+			icon = "gfx/interface/icons/d_icons/abrahamic.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -84,7 +84,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_celtic_artifacts
-			icon = "gfx/interface/icons/faith/celtic.dds"
+			icon = "gfx/interface/icons/d_icons/celtic.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -98,7 +98,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_arthurian_artifacts
-			icon = "gfx/interface/icons/faith/arthurian.dds"
+			icon = "gfx/interface/icons/d_icons/arthurian.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -112,7 +112,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_finno_ugric_artifacts
-			icon = "gfx/interface/icons/faith/finno_ugric.dds"
+			icon = "gfx/interface/icons/d_icons/finno_ugric.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -126,7 +126,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_slavic_artifacts
-			icon = "gfx/interface/icons/faith/slavic.dds"
+			icon = "gfx/interface/icons/d_icons/slavic.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -140,7 +140,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_lovecraftian_artifacts
-			icon = "gfx/interface/icons/faith/lovecraftian.dds"
+			icon = "gfx/interface/icons/d_icons/lovecraftian.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -154,7 +154,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_mesopotamian_artifacts
-			icon = "gfx/interface/icons/faith/mesopotamian.dds"
+			icon = "gfx/interface/icons/d_icons/mesopotamian.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -168,7 +168,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_egyptian_artifacts
-			icon = "gfx/interface/icons/faith/egyptian.dds"
+			icon = "gfx/interface/icons/d_icons/egyptian.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -182,7 +182,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_chinese_artifacts
-			icon = "gfx/interface/icons/faith/chinese.dds"
+			icon = "gfx/interface/icons/d_icons/chinese.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -196,7 +196,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_spawn_easter_egg_artifacts
-			icon = "gfx/interface/icons/faith/easter_egg.dds"
+			icon = "gfx/interface/icons/d_icons/easter_egg.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -210,7 +210,7 @@ aom_spawn_artifacts_decision = {
 				always = yes
 			}
 			localization = aom_disable_artifact_spawning
-			icon = "gfx/interface/icons/faith/artifact.dds"
+			icon = "gfx/interface/icons/d_icons/artifact.dds"
 			ai_chance = {
 				value = 100
 			}
@@ -807,7 +807,7 @@ aom_convert_to_hellenism_decision = {
 		any_character_artifact = {
 			has_variable = aom_greco_roman_artifact
 		}
-		NOT = { faith.religion = religion:hellenic_religion }
+		NOT = { faith.religion = faith:hellenic_pagan.religion }
 	}
 	is_valid = {
 		custom_description = {

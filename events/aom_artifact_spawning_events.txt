@@ -1093,7 +1093,7 @@ aom_artifact_spawning.1091 = {
 	}
 	option = {
 		name = aom_event_option.next
-		# trigger_event = aom_artifact_spawning.1092
+		trigger_event = aom_artifact_spawning.1092
 	}
 	option = {
 		name = aom_event_option.close

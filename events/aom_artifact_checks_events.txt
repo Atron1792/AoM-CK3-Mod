@@ -8,7 +8,7 @@ aom_artifact_checks.0001 = {
 	theme = medicine
 	right_portrait = {
 		character = root
-		animation = thinking
+		animation = shame
 	}
 	option = {
 		name = aom_artifact_checks.0001.option
@@ -18,6 +18,10 @@ aom_artifact_checks.0001 = {
 		}
 		create_artifact_aom_hedjet_effect = { OWNER = this }
 		create_artifact_aom_deshret_effect = { OWNER = this }
+
+		ai_chance = {
+			base = 1
+		}
 	}
 }
 
@@ -29,35 +33,32 @@ aom_artifact_checks.0002 = {
 	theme = medicine
 	right_portrait = {
 		character = root
-		animation = thinking
+		animation = stress
 	}
 	# normal reaction
 	option = {
-		name = aom_artifact_checks.0002.option.1
+		name = aom_artifact_checks.0002.a
 		add_stress = 40
 	}
 	# eccentric reaction
 	option = {
-		trigger = {
-			has_trait = eccentric
-		}
-		name = aom_artifact_checks.0002.option.2
+		name = aom_artifact_checks.0002.b
 		add_stress = 20
+		trigger = { has_trait = eccentric }
+		trait = eccentric
 	}
 	# lunatic reaction
 	option = {
-		trigger = {
-			has_trait = lunatic
-		}
-		name = aom_artifact_checks.0002.option.3
+		name = aom_artifact_checks.0002.c
 		add_stress = 10
+		trigger = { has_trait = lunatic }
+		trait = lunatic_1
 	}
 	# possessed reaction
 	option = {
-		trigger = {
-			has_trait = possessed
-		}
-		name = aom_artifact_checks.0002.option.4
+		name = aom_artifact_checks.0002.d
 		add_stress = -20
+		trigger = { has_trait = possessed }
+		trait = possessed_1
 	}
 }

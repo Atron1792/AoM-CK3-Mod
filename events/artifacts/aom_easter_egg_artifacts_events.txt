@@ -10,23 +10,27 @@ aom_easter_egg_artifacts.001 = {
 		# Court Artifacts
 		# Soul Edge (Soul Calibur)
 		while = {
-			count = 1
-			random_ruler = {
-				limit = {
-					NOT = {
-						has_character_flag = aom_seeded_relic
-						any_artifact = {
-							has_variable = aom_soul_edge
-						}
-					}
-				}
-				create_artifact_aom_soul_edge_effect = { OWNER = this }
-				add_character_flag = {
-					flag = aom_seeded_relic
-					days = 1
-				}
-			}
-		}
+            count = 1
+            random_ruler = {
+                limit = {
+                    OR = { 
+                        has_government = tribal_government 
+                        has_government = feudal_government 
+						has_government = administrative_government
+                    }
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_soul_edge } 
+                    }
+                    highest_held_title_tier >= tier_county
+                }
+                create_artifact_aom_soul_edge_effect = { OWNER = this }
+                add_character_flag = { 
+                    flag = aom_seeded_relic 
+                    days = 1 
+                }
+            }
+        }
 		# Blackfyre (AGOT)
 		while = {
 			count = 1

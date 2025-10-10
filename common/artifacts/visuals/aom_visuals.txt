@@ -989,7 +989,7 @@ aom_marduks_net = {
 
 # Court Artifacts
 # Tablet of Destinies
-aom_bull_of_heaven = {
+aom_tablet_of_destinies = {
     icon = "mesopotamian/aom_tablet_of_destinies.dds"
     pedestal = "tall"
     asset = fp3_artifact_persian_drinking_vessel_01_c_entity
@@ -1072,7 +1072,7 @@ aom_deshret = {
 aom_neiths_loom = {
     icon = "egyptian/aom_neiths_loom.dds"
     pedestal = "short"
-    asset = ep2_western_tun_barrel_01_a_entity
+	asset = ep1_mena_box_reliquary_01_a_entity
 }
 
 # Feather of Ma’at
@@ -1086,7 +1086,7 @@ aom_feather_of_maat = {
 aom_anubis_scales = {
     icon = "egyptian/aom_anubis_scales.dds"
     pedestal = "tall"
-    asset = ep1_mena_box_small_fancy_01_a_entity
+	asset = ep1_mena_box_small_fancy_01_a_entity
 }
 
 ############################
@@ -1120,7 +1120,7 @@ aom_peach_of_immortality = {
 # Xuan Yuan Sword
 aom_xuan_yuan_sword = {
     icon = "chinese/aom_xuan_yuan_sword.dds"
-    asset = ep1_western_sword_01_a_portrait_entity
+    asset = ep1_western_sword_01_b_portrait_entity
 }
 
 # Erlang Shen's Spear
@@ -1144,7 +1144,7 @@ aom_qiankun_dai = {
 # Sword of Goujian
 aom_sword_of_goujian = {
     icon = "chinese/aom_sword_of_goujian.dds"
-    asset = ep1_western_sword_01_a_portrait_entity
+    asset = ep1_western_sword_01_b_portrait_entity
 }
 
 # Green Dragon Crescent Blade (Guan Yu's Weapon)
@@ -1168,7 +1168,7 @@ aom_hou_yi_bow = {
 # Gan Jiang
 aom_gan_jiang = {
     icon = "chinese/aom_gan_jiang.dds"
-    asset = ep1_western_sword_01_a_portrait_entity
+    asset = ep1_western_sword_01_b_portrait_entity
 }
 
 # Mo Ye
@@ -1209,7 +1209,7 @@ aom_jade_books = {
 aom_jiuding = {
     icon = "chinese/aom_jiuding.dds"
     pedestal = "short"
-    asset = ep2_western_tun_barrel_01_a_entity
+	asset = ep1_mena_box_reliquary_01_a_entity
 }
 
 ############################
@@ -1244,12 +1244,13 @@ aom_elder_wand = {
 # Lightsaber (Starwars)
 aom_lightsaber = {
     icon = "easter_egg/aom_lightsaber.dds"
-    asset = ep1_western_sword_01_b_portrait_entity
+	pedestal = "tall"
+    asset = ep1_mena_box_small_basic_01_a_entity
 }
 
 # Palantír (LotR)
 aom_palantir = {
     icon = "easter_egg/aom_palantir.dds"
     pedestal = "tall"
-    asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+    asset = ep1_mena_box_small_basic_01_a_entity
 }
