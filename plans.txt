@@ -57,7 +57,6 @@
         - Convert to Norse (has Norse artifacts)
         - Convert to Finno Ugric (has Finno Ugric artifacts)
     - Events tied to specific artifacts
-        - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
         - Having a Lovecraftian artifact will cause stress event
 
 - Balance
@@ -72,6 +71,8 @@
 
 Planned:
 - Added Japanese artifacts with gamerule control
+- Events tied to specific artifacts
+    - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
 - Artifact search
 - Cultural/religious artifact acquisition
 

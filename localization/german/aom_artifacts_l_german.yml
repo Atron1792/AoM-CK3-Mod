@@ -1,0 +1,740 @@
+﻿l_german:
+# Norse Artifacts
+  # Inventory Artifacts
+  aom_gungnir_name: "Gungnir"
+  aom_gungnir_desc: "Speer Odins. Geschmiedet von Zwergenschmieden und vom Allvater selbst geführt, verfehlt Gungnir niemals sein Ziel. Er strahlt göttliche Macht aus und inspiriert Gelehrte und Krieger gleichermaßen."
+
+  aom_mjolnir_name: "Mjölnir"
+  aom_mjolnir_desc: "Donnerhammer. Der mächtige Hammer Thors, fähig, Berge zu zerschmettern und die Feinde der Götter mit einem Schlag zu vernichten."
+
+  aom_jarngreipr_name: "Járngreipr"
+  aom_jarngreipr_desc: "Eisenhandschuhe der Stärke. Diese eisernen Handschuhe verleihen dem Träger unermessliche Kraft und sind unerlässlich, um Mjölnir zu halten."
+
+  aom_megingjord_name: "Megingjörð"
+  aom_megingjord_desc: "Gürtel der Macht. Ein Gürtel, der die Stärke seines Trägers verdoppelt und ihn mit göttlicher Energie erfüllt."
+
+  aom_brisingamen_name: "Brísingamen"
+  aom_brisingamen_desc: "Freyjas Halskette. Diese legendäre Kette leuchtet mit ätherischer Schönheit und verstärkt die Ausstrahlung und Anziehungskraft ihrer Trägerin."
+
+  aom_draupnir_name: "Draupnir"
+  aom_draupnir_desc: "Ring des Wohlstands. Odins goldener Ring, der sich alle neun Nächte selbst vermehrt - ein Symbol unendlichen Reichtums und göttlicher Autorität."
+
+  aom_eldhrimnir_name: "Eldhrímnir"
+  aom_eldhrimnir_desc: "Kessel der Ewigkeit. Der verzauberte Kessel der Götter, in dem aus dem Eber Sæhrímnir endlose Nahrung zubereitet wird."
+
+  aom_andvaranaut_name: "Andvaranaut"
+  aom_andvaranaut_desc: "Der verfluchte Ring. Er schenkt Reichtum und Verderben zugleich, verstrickt in die tragische Geschichte von Gier und Rache."
+
+  aom_helm_of_awe_name: "Helm der Furcht"
+  aom_helm_of_awe_desc: "Ein furchteinflößendes Relikt, das Schrecken in alle Herzen pflanzt, die es erblicken, und seinem Träger übernatürliche Furcht einflößt."
+
+  aom_odrerir_name: "Óðrerir"
+  aom_odrerir_desc: "Met der Weisheit. Eines der drei heiligen Gefäße, die den Met der Dichtkunst enthalten und göttliche Inspiration verleihen."
+
+  aom_bodn_name: "Boðn"
+  aom_bodn_desc: "Met des Wissens. Ein Gefäß voller dichterischer Erkenntnis, das den Geist für Kreativität und Klarheit öffnet."
+
+  aom_son_name: "Són"
+  aom_son_desc: "Met der Beredsamkeit. Der letzte Kelch des Dichtermets - wer ihn trinkt, erlangt Sprachgewandtheit und geistige Brillanz."
+
+  aom_svalinn_name: "Svalinn"
+  aom_svalinn_desc: "Schild der Sonne. Ein mystischer Schild, der vor der Sonne steht, um die Welt vor dem Verbrennen zu bewahren, und seinen Träger vor Verwüstung schützt."
+
+  aom_gjallarhorn_name: "Gjallarhorn"
+  aom_gjallarhorn_desc: "Horn Heimdalls. Dieses göttliche Horn wird am Ende der Tage ertönen. Sein Echo warnt vor dem Untergang und weckt göttliche Wachsamkeit."
+
+  aom_gram_name: "Gram"
+  aom_gram_desc: "Sigurds Schwert. Eine von göttlichen Schmieden gefertigte Klinge, dazu bestimmt, Drachen zu erschlagen und Legenden zu formen."
+
+  aom_tyrfing_name: "Tyrfing"
+  aom_tyrfing_desc: "Verfluchte Klinge. Eine Waffe von unvergleichlicher Schärfe, die mit jedem Zug Tod bringt."
+
+  aom_skofnung_name: "Skofnung"
+  aom_skofnung_desc: "Klinge der Könige. In ihr ruhen die Geister uralter Herrscher, sie gebietet Respekt und Furcht zugleich."
+
+  aom_mistilteinn_name: "Mistilteinn"
+  aom_mistilteinn_desc: "Schwert der Zauberei. Durchdrungen von Runenmagie und Geheimnissen, flüstert es seinem Träger uralte Wahrheiten zu."
+
+  aom_laevateinn_name: "Lævateinn"
+  aom_laevateinn_desc: "Waffe Lokis. Ein chaotisches und feuriges Artefakt, dessen wahre Macht in Täuschung und Zerstörung liegt."
+
+  aom_hrotti_name: "Hrotti"
+  aom_hrotti_desc: "Drachenhort-Klinge. Aus dem Schatz eines Wyrms genommen, leuchtet diese Klinge mit Gier und Macht."
+
+  aom_hofud_name: "Höfuð"
+  aom_hofud_desc: "Heimdalls Schwert. Die Waffe des wachsamen Wächters, scharf genug, um selbst die Realität zu spalten."
+
+  aom_dainsleif_name: "Dáinsleif"
+  aom_dainsleif_desc: "Schwert der Toten. Einmal gezogen, muss es töten - ein verfluchtes Relikt ewiger Schlacht."
+
+  aom_tarnkappe_name: "Tarnkappe"
+  aom_tarnkappe_desc: "Mantel der Unsichtbarkeit. Gewährt dem Träger eine Tarnung jenseits menschlichen Verständnisses."
+
+  aom_fjadrhamr_name: "Fjaðrhamr"
+  aom_fjadrhamr_desc: "Gefiederter Mantel. Ein göttliches Gewand, das seinem Träger erlaubt, sich wie der Wind zu bewegen."
+
+  aom_sword_of_freyr_name: "Schwert des Freyr"
+  aom_sword_of_freyr_desc: "Selbstkämpfende Klinge. Geschmiedet von Zwergen, verteidigt dieses Schwert seinen Herrn ohne dessen Hand."
+
+  # Court Artifacts
+  aom_throne_hlidskjalf_name: "Hlidskjalf"
+  aom_throne_hlidskjalf_desc: "Odins Thron. Von diesem hohen Sitz aus beobachtet der Allvater alle Reiche. Seine Gegenwart gebietet Ehrfurcht und gewährt göttliche Einsicht den Würdigen."
+
+  aom_gleipnir_name: "Gleipnir"
+  aom_gleipnir_desc: "Fessel des Untiers. Eine seidene Kette, aus Unmöglichkeiten geschmiedet, stark genug, um selbst den monströsen Fenrir zu binden."
+
+  aom_mimirs_skull_name: "Mímirs Schädel"
+  aom_mimirs_skull_desc: "Der abgeschlagene Kopf des weisen Gottes, der noch immer Ratschläge aus dem Jenseits flüstert."
+
+  aom_bragis_harp_name: "Bragis Harfe"
+  aom_bragis_harp_desc: "Ein magisches Instrument, das Höfe bezaubert, Herzen bewegt und Größe inspiriert."
+
+# Greco-Roman Artifacts
+  # Inventory Artifacts
+  aom_achilles_armor_name: "Achilles' Rüstung"
+  aom_achilles_armor_desc: "Die göttliche Rüstung, die Hephaistos für Achilles schmiedete - sie verleiht unvergleichlichen Schutz und ewigen Ruhm."
+
+  aom_aegis_name: "Ägis"
+  aom_aegis_desc: "Der furchterregende Schild, den Zeus und Athene trugen; er sät Schrecken in den Herzen aller Feinde."
+
+  aom_ambrosia_name: "Ambrosia"
+  aom_ambrosia_desc: "Der göttliche Nektar der Unsterblichen, der denen, die davon kosten, ewiges Leben und Jugend schenkt."
+
+  aom_apollos_bow_name: "Apollons Bogen"
+  aom_apollos_bow_desc: "Ein Bogen, der mit der Stimme des Sonnengottes singt - er trifft mit göttlicher Präzision."
+
+  aom_caduceus_name: "Caduceus"
+  aom_caduceus_desc: "Hermes' Stab, von Schlangen umwunden und beflügelt; ein Symbol für Frieden, Handel und Diplomatie."
+
+  aom_eros_bow_name: "Eros' Bogen"
+  aom_eros_bow_desc: "Ein Bogen, dessen Pfeile Liebe und Verlangen entfachen - er bezaubert die Herzen von Sterblichen und Göttern."
+
+  aom_apple_of_discord_name: "Goldener Apfel des Zwists"
+  aom_apple_of_discord_desc: "Der Apfel mit der Inschrift ,der Schönsten' - Ursprung göttlicher Rivalitäten und menschlicher Kriege."
+
+  aom_rod_of_asclepius_name: "Stab des Asklepios"
+  aom_rod_of_asclepius_desc: "Symbol der Heilkunst, getragen vom göttlichen Arzt Asklepios - Bringer von Genesung und Leben."
+
+  aom_poseidons_trident_name: "Poseidons Dreizack"
+  aom_poseidons_trident_desc: "Von den Kyklopen geschmiedet - die Waffe des Meeresgottes, die Ozeane aufwühlt und die Erde erzittern lässt."
+
+  aom_shield_of_achilleus_name: "Schild des Achilleus"
+  aom_shield_of_achilleus_desc: "Ein Miniaturkosmos, von den Göttern für den größten Helden Griechenlands geschaffen."
+
+  aom_spear_of_achilles_name: "Speer des Achilles"
+  aom_spear_of_achilles_desc: "Eine unvergleichliche Waffe - im Gleichgewicht und in der Kraft, geschaffen, um Titanen und Helden zu fällen."
+
+  aom_thyrsus_name: "Thyrsos"
+  aom_thyrsus_desc: "Der heilige Stab des Dionysos, mit Efeu umwunden und mit einem Pinienzapfen gekrönt - Symbol der Ekstase."
+
+  aom_talaria_name: "Talaria"
+  aom_talaria_desc: "Die geflügelten Sandalen des Hermes, die ihrem Träger Geschwindigkeit und Anmut verleihen."
+
+  aom_zeus_lightning_bolt_name: "Zeus' Blitz"
+  aom_zeus_lightning_bolt_desc: "Von den Kyklopen geschmiedet - diese göttliche Waffe kanalisiert Donner und Blitz, Symbol des göttlichen Zorns."
+
+  aom_hades_bident_name: "Hades' Bident"
+  aom_hades_bident_desc: "Das düstere Gegenstück zu Zeus' Blitz - der Doppelspieß, mit dem Hades über die Unterwelt richtet."
+
+  aom_helm_of_darkness_name: "Helm der Finsternis"
+  aom_helm_of_darkness_desc: "Von den Kyklopen geschmiedet - Hades' unsichtbarer Helm hüllt den Träger in Schatten, unerkannt von Göttern und Menschen."
+
+  aom_harpe_name: "Harpe"
+  aom_harpe_desc: "Die Sichelklinge des Perseus, geschaffen, um Monster zu töten und das Schicksal zu durchtrennen."
+
+  aom_necklace_of_harmonia_name: "Harmonias Halskette"
+  aom_necklace_of_harmonia_desc: "Ein Geschenk, schön und verflucht zugleich - es bringt Tragödie denen, die es tragen."
+
+  aom_kronos_scythe_name: "Kronos' Sichel"
+  aom_kronos_scythe_desc: "Von Gaia geschmiedet - mit dieser uralten Sichel stürzte Kronos Uranos; sie hallt von Rebellion und Prophezeiung wider."
+
+  aom_zeus_labrys_name: "Zeus' Labrys"
+  aom_zeus_labrys_desc: "Eine gewaltige Doppelaxt, vom König der Götter geführt - sie spaltete seinen Kopf und gebar Athene."
+
+  aom_artemis_bow_name: "Artemis' Bogen"
+  aom_artemis_bow_desc: "Ein Bogen für die Göttin der Jagd, schnell, präzise und tödlich."
+
+  aom_eurytus_bow_name: "Eurytos' Bogen"
+  aom_eurytus_bow_desc: "Ein legendärer Bogen - einst Eigentum des Eurytos, später Odysseus' Prüfstein unübertroffener Treffsicherheit."
+
+  aom_panacea_name: "Panakeia"
+  aom_panacea_desc: "Benannt nach der Tochter des Asklepios - dieses sagenhafte Heilmittel soll alle Krankheiten kurieren."
+
+  aom_bag_of_wind_name: "Beutel der Winde"
+  aom_bag_of_wind_desc: "Die von Aiolos gebändigten Winde, in einem Sack versiegelt - sie gewähren schnelle Fahrt oder entfesseln Stürme."
+
+  aom_tritons_conch_name: "Tritons Muschel"
+  aom_tritons_conch_desc: "Die Muschel des Triton, Sohn Poseidons - ihr Klang gebietet den Wellen."
+
+  aom_nemean_lion_hide_name: "Fell des nemeischen Löwen"
+  aom_nemean_lion_hide_desc: "Vom unverwundbaren Löwen von Nemea gehäutet - diese Haut diente Herakles als Rüstung und Zeichen seines ersten Ruhms."
+
+  aom_girdle_of_hippolyta_name: "Gürtel der Hippolyta"
+  aom_girdle_of_hippolyta_desc: "Von Ares der Amazonenkönigin geschenkt - dieser Gürtel verkörpert göttliche Stärke und den unbeugsamen Geist der Weiblichkeit."
+
+  # Court Artifacts
+  aom_apollos_kithara_name: "Apollons Kithara"
+  aom_apollos_kithara_desc: "Die Leier Apollons, aus deren Saiten die Harmonie der Sphären entspringt."
+
+  aom_cornucopia_name: "Füllhorn"
+  aom_cornucopia_desc: "Das Horn des Überflusses - ewig sprudelnd vor Reichtum und Gaben."
+
+  aom_golden_fleece_name: "Goldenes Vlies"
+  aom_golden_fleece_desc: "Das leuchtende Fell, einst von einem Drachen bewacht - Ziel der Argonauten und Symbol göttlicher Gunst."
+
+  aom_scale_of_justice_name: "Waage der Gerechtigkeit"
+  aom_scale_of_justice_desc: "Die Waage der Themis - göttliches Werkzeug für Recht und Gleichgewicht."
+
+  aom_icarus_feather_name: "Ikarus' Feder"
+  aom_icarus_feather_desc: "Eine Feder aus den Flügeln, die der Sonne zu nahe kamen - Symbol von Ehrgeiz und Fall."
+
+  aom_prometheus_chains_name: "Prometheus' Ketten"
+  aom_prometheus_chains_desc: "Die Fesseln, die den Titanen banden, der den Menschen das Feuer brachte."
+
+  aom_medusas_head_name: "Medusas Kopf"
+  aom_medusas_head_desc: "Der abgeschlagene Kopf der Gorgone - ihr Blick versteinert noch immer."
+
+  aom_throne_zeus_name: "Zeus' Thron"
+  aom_throne_zeus_desc: "Der majestätische Sitz des Götterkönigs, erfüllt von göttlicher Autorität und Ehrfurcht."
+
+# Abrahamic Artifacts
+  # Inventory Artifacts (Christian)
+  # Conquest's Crown (Horsemen of the Apocalypse)
+  aom_conquests_crown_name: "Krone des Eroberers"
+  aom_conquests_crown_desc: "Die glorreiche Krone des apokalyptischen Reiters Eroberung - ein Symbol göttlicher Herrschaft und Siegesmacht."
+
+  # War's Greatsword (Horsemen of the Apocalypse)
+  aom_wars_greatsword_name: "Großschwert des Krieges"
+  aom_wars_greatsword_desc: "Ein gewaltiges Schwert, erfüllt vom Zorn des Reiters Krieg - geschmiedet für heilige Schlachten."
+
+  # Crown of Twelve Stars (Mary's Crown)
+  aom_crown_of_twelve_stars_name: "Krone der zwölf Sterne"
+  aom_crown_of_twelve_stars_desc: "Eine strahlende Krone, Sinnbild der himmlischen Königin Maria und ihres göttlichen Schutzes."
+
+  # Seamless Robe of Jesus
+  aom_seamless_robe_of_jesus_name: "Nahtloses Gewand Jesu"
+  aom_seamless_robe_of_jesus_desc: "Ein heiliges Gewand, getragen von Christus selbst - berühmt für sein makelloses Gewebe und seine Wunderkraft."
+
+  # Death's Scythe (Horsemen of the Apocalypse)
+  aom_deaths_scythe_name: "Sense des Todes"
+  aom_deaths_scythe_desc: "Vom apokalyptischen Reiter Tod geführt - diese unheilvolle Sense trennt die Seele vom Fleisch."
+
+  # Ascalon (Saint George's Sword)
+  aom_ascalon_name: "Ascalon"
+  aom_ascalon_desc: "Das legendäre Schwert des heiligen Georg, das den Drachen erschlug und Glauben in Stahl schmiedete."
+
+  # Bradamante's Lance
+  aom_bradamantes_lance_name: "Bradamantes Lanze"
+  aom_bradamantes_lance_desc: "Die Lanze einer christlichen Ritterin - schnell, gerecht und unerschütterlich im Glauben."
+
+  # Holy Lance (Spear of Longinus)
+  aom_holy_lance_name: "Heilige Lanze"
+  aom_holy_lance_desc: "Auch bekannt als die Lanze des Longinus - sie durchbohrte die Seite Christi am Kreuz. #italic Ist dies die echte?#!"
+
+  # Conquest's Bow (Horsemen of the Apocalypse)
+  aom_conquests_bow_name: "Bogen des Eroberers"
+  aom_conquests_bow_desc: "Der Bogen des apokalyptischen Reiters - Verkünder heiliger Kriege und göttlicher Siege."
+
+  # Seal of Solomon
+  aom_seal_of_solomon_name: "Siegel Salomos"
+  aom_seal_of_solomon_desc: "Ein mystischer Ring, der Herrschaft über Geister und Wissen jenseits menschlichen Verstandes verleiht."
+
+  # Court Artifacts (Christian)
+  # Famine's Scale (Horsemen of the Apocalypse)
+  aom_famines_scale_name: "Waage der Hungersnot"
+  aom_famines_scale_desc: "Vom Reiter Hungersnot geführt, um das Maß von Entbehrung und Überfluss über die Welt zu bestimmen."
+
+  # Piece of Noah's Ark
+  aom_piece_of_noahs_ark_name: "Fragment der Arche Noah"
+  aom_piece_of_noahs_ark_desc: "Ein heiliger Splitter aus dem Schiff, das die Fluten des göttlichen Gerichts überstand."
+
+  # Sudarium of Oviedo
+  aom_sudarium_of_oviedo_name: "Schweißtuch von Oviedo"
+  aom_sudarium_of_oviedo_desc: "Ein verehrtes Tuch, das das Gesicht Christi nach seinem Tod bedeckt haben soll."
+
+  # Holy Grail (Holy Chalice)
+  aom_holy_grail_name: "Heiliger Gral"
+  aom_holy_grail_desc: "Der Kelch des letzten Abendmahls, Träger göttlicher Wunder und ewiger Sehnsucht."
+
+  # Holy Prepuce
+  aom_holy_prepuce_name: "Heilige Vorhaut"
+  aom_holy_prepuce_desc: "Ein umstrittenes Relikt, das als die Vorhaut Christi selbst gilt - Quelle des Glaubens und der Zweifel."
+
+  # Book of Life
+  aom_book_of_life_name: "Buch des Lebens"
+  aom_book_of_life_desc: "Ein heiliges Buch, das die Namen der Geretteten enthält - verborgen vor jenen, die verdammt sind."
+
+  # Forbidden Fruit
+  aom_forbidden_fruit_name: "Verbotene Frucht"
+  aom_forbidden_fruit_desc: "Ein Überbleibsel der Versuchung aus Eden - es trägt den Nachhall der Ursünde in sich."
+
+  # Horn of Gabriel
+  aom_horn_of_gabriel_name: "Horn Gabriels"
+  aom_horn_of_gabriel_desc: "Wird am Ende der Tage erklingen, um die Auferstehung der Toten zu verkünden."
+
+  # Blood of Christ
+  aom_blood_of_christ_name: "Blut Christi"
+  aom_blood_of_christ_desc: "Göttliche Essenz, vergossen zur Erlösung der Menschheit - aufbewahrt in heiligen Gefäßen."
+
+  # Inventory Artifacts (Jewish)
+  # Moses' Staff
+  aom_moses_staff_name: "Stab des Mose"
+  aom_moses_staff_desc: "Der Stab, der das Rote Meer teilte und Wasser aus dem Felsen schlug."
+
+  # David's Sword
+  aom_davids_sword_name: "Schwert Davids"
+  aom_davids_sword_desc: "Die legendäre Klinge des Hirtenkönigs, mit der er Goliath besiegte."
+
+  # Coat of Many Colors (Joseph's Coat)
+  aom_coat_of_many_colors_name: "Mantel der vielen Farben"
+  aom_coat_of_many_colors_desc: "Ein Geschenk an Joseph, schimmernd vor göttlicher Gunst und prophetischen Träumen."
+
+  # Aaron's Rod (Moses' Brother's Staff)
+  aom_aarons_rod_name: "Stab Aarons"
+  aom_aarons_rod_desc: "Ein Symbol priesterlicher Autorität und göttlicher Wunderkraft."
+
+  # Solomon's Shamir
+  aom_solomons_shamir_name: "Salomos Schamir"
+  aom_solomons_shamir_desc: "Kein Werkzeug, sondern ein Wunder - wie Gottes Flüstern. Es schneidet Stein wie Papier, lautlos und rein."
+
+  # Greater Key of Solomon
+  aom_greater_key_of_solomon_name: "Großer Schlüssel Salomos"
+  aom_greater_key_of_solomon_desc: "Ein uraltes Buch göttlicher Rituale und himmlischer Weisheit - es offenbart die Geheimnisse von Himmel und Erde."
+
+  # Lesser Key of Solomon
+  aom_lesser_key_of_solomon_name: "Kleiner Schlüssel Salomos"
+  aom_lesser_key_of_solomon_desc: "Ein uraltes Buch göttlicher Rituale und himmlischer Weisheit - es offenbart die Geheimnisse von Himmel und Erde."
+
+  # Goliath's Sword
+  aom_goliaths_sword_name: "Schwert Goliaths"
+  aom_goliaths_sword_desc: "Die gewaltige Waffe des Philisterriesen - erbeutet von seinem Bezwinger David."
+
+  # Court Artifacts (Jewish)
+  # Ark of Bulrushes (Moses' Basket)
+  aom_ark_of_bulrushes_name: "Körbchen des Mose"
+  aom_ark_of_bulrushes_desc: "Das Schilfkörbchen, das den Säugling Mose durch die Wasser des Nils trug."
+
+  # Tablets of Stone (The 10 Commandments)
+  aom_tablets_of_stone_name: "Steintafeln"
+  aom_tablets_of_stone_desc: "Die göttlichen Gebote, Mose auf dem Berg Sinai überreicht."
+
+  # Joshua's Shofars
+  aom_joshuas_shofars_name: "Josuas Schofare"
+  aom_joshuas_shofars_desc: "Widderhörner, deren Klang die Mauern Jerichos durch Glauben und Klang niederstürzte."
+
+  # Leviathan's Hide
+  aom_leviathans_hide_name: "Haut des Leviathan"
+  aom_leviathans_hide_desc: "So hart wie Eisen - ein Fragment des großen Seeungeheuers, von Gott selbst besiegt."
+
+  # Throne of God (YHWH's Throne)
+  aom_throne_of_god_name: "Thron Gottes"
+  aom_throne_of_god_desc: "Der himmlische Sitz JHWHs - erweckt Furcht, Ehrfurcht und absolute Hingabe."
+
+  # Inventory Artifacts (Islamic)
+  # Zulfiqar (Ali ibn Abi Talib's Sword)
+  aom_zulfiqar_name: "Zulfiqar"
+  aom_zulfiqar_desc: "Das gespaltene Schwert Alis - ein Symbol islamischer Tapferkeit, Gerechtigkeit und Ehre."
+
+  # Sacred Cloak of the Prophet
+  aom_sacred_cloak_of_the_prophet_name: "Heiliger Mantel des Propheten"
+  aom_sacred_cloak_of_the_prophet_desc: "Ein gesegnetes Gewand, das einst vom Propheten Muhammad getragen wurde."
+
+  # Court Artifacts (Islamic)
+  # Key to the Kaaba
+  aom_key_to_the_kaaba_name: "Schlüssel der Kaaba"
+  aom_key_to_the_kaaba_desc: "Ein verehrtes Relikt, das den Eingang zum heiligsten Heiligtum des Islam bewacht."
+
+# Celtic Artifacts
+  # Inventory Artifacts
+  # Sleg (Spear of Lugh)
+  aom_sleg_name: "Sleg"
+  aom_sleg_desc: "Der mächtige Speer des Lugh, der seinem Träger in jeder Schlacht den Sieg verleiht."
+
+  # Lugh's Sling
+  aom_lughs_sling_name: "Lughs Schleuder"
+  aom_lughs_sling_desc: "Die legendäre Schleuder des Gottes Lugh, die mit der Geschwindigkeit des Lichts zuschlägt."
+
+  # Claíomh Solais (Sword of Light)
+  aom_claiomh_solais_name: "Claíomh Solais"
+  aom_claiomh_solais_desc: "Das Schwert des Lichts - brennend vor göttlicher Kraft, getragen von den Helden der Sagen."
+
+  # Fragarach (Sword of Nuada)
+  aom_fragarach_name: "Fragarach"
+  aom_fragarach_desc: "Nuadas windschneidendes Schwert, das Wahrheit erzwingt und jeden Schild durchdringt."
+
+  # Gáe Bulg (Scáthach's Spear)
+  aom_gae_bulg_name: "Gáe Bulg"
+  aom_gae_bulg_desc: "Der schreckliche Speer des Cú Chulainn, der von innen heraus zerreißt - ein Geschenk seiner Lehrmeisterin Scáthach."
+
+  # Caladbolg
+  aom_caladbolg_name: "Caladbolg"
+  aom_caladbolg_desc: "Eine mächtige Klinge, leuchtend wie ein Regenbogen, die Berge zu spalten vermag."
+
+  # Móralltach (the Great Fury)
+  aom_moralltach_name: "Móralltach"
+  aom_moralltach_desc: "Die Große Wut - ein Schwert des Gerichts, vom Meeresgott selbst geschenkt."
+
+  # Beagalltach (the Little Fury)
+  aom_beagalltach_name: "Beagalltach"
+  aom_beagalltach_desc: "Die Kleine Wut - Zwillingsschwert zu Móralltach, flink und tödlich wie eine Schlange."
+
+  # Dubán (Cu Chulainn's Black Shield)
+  aom_duban_name: "Dubán"
+  aom_duban_desc: "Der schwarze Schild des Cú Chulainn, eine düstere Ägis, erfüllt von alter Furcht und Magie."
+
+  # Dyrnwyn (White Hilt)
+  aom_dyrnwyn_name: "Dyrnwyn"
+  aom_dyrnwyn_desc: "Der Weiße Griff - entflammt in den Händen der Würdigen, ein Prüfstein für Adel und Mut."
+
+  # Court Artifacts
+  # Uaithne (The Dagda's Harp)
+  aom_uaithne_name: "Uaithne"
+  aom_uaithne_desc: "Die Harfe des Dagda, die Herzen zu Freude, Trauer oder Schlaf bewegt."
+
+  # Horn of Brân Galed
+  aom_horn_of_bran_galed_name: "Horn des Brân Galed"
+  aom_horn_of_bran_galed_desc: "Ein Horn, das jeden gewünschten Trank hervorbringt, rein oder berauschend."
+
+  # Hamper of Gwyddno Garanhir
+  aom_hamper_of_gwyddno_name: "Korb des Gwyddno Garanhir"
+  aom_hamper_of_gwyddno_desc: "Ein wundersamer Korb, der den Tugendhaften unerschöpfliche Nahrung schenkt."
+
+  # Pair Dadeni (Cauldron of Rebirth)
+  aom_pair_dadeni_name: "Pair Dadeni"
+  aom_pair_dadeni_desc: "Der Kessel der Wiedergeburt - einst genutzt, um gefallene Krieger in alter Zeit zum Leben zu erwecken."
+
+  # Cauldron of Inspiration
+  aom_cauldron_of_inspiration_name: "Kessel der Inspiration"
+  aom_cauldron_of_inspiration_desc: "Ein heiliges Gefäß, das dem Suchenden göttliche Weisheit und Eingebung schenkt."
+
+# Arthurian Artifacts
+  # Inventory Artifacts
+  # Excalibur (Caledfwlch)
+  aom_excalibur_name: "Excalibur"
+  aom_excalibur_desc: "Das wahre Excalibur - das legendäre Schwert des einstigen und zukünftigen Königs Arthur, überreicht von der Herrin des Sees."
+
+  # Carnwennan (Arthur's Dagger)
+  aom_carnwennan_name: "Carnwennan"
+  aom_carnwennan_desc: "Arthurs Dolch, der seinen Träger in Schatten hüllt und ihn für Feinde unsichtbar macht."
+
+  # Rhongomyniad (Arthur's Spear)
+  aom_rhongomyniad_name: "Rhongomyniad"
+  aom_rhongomyniad_desc: "Arthurs Speer - eine Waffe von unfehlbarer Genauigkeit und edler Tapferkeit."
+
+  # Pridwen (Arthur's Shield)
+  aom_pridwen_name: "Pridwen"
+  aom_pridwen_desc: "Ein strahlender Schild, geschmückt mit dem Wappen des Hauses Pendragon - Symbol königlicher Tugend und Schutz."
+
+  # Merlin's Staff
+  aom_merlins_staff_name: "Merlins Stab"
+  aom_merlins_staff_desc: "Der Stab des Zauberers Merlin - erfüllt von arkane Macht und uraltem Wissen."
+
+  # Clarent (The Sword in the Stone)
+  aom_clarent_name: "Clarent"
+  aom_clarent_desc: "Das Schwert im Stein - Symbol des rechtmäßigen Königtums über Avalon und Britannien."
+
+  # Secace (Sir Lancelot's Sword)
+  aom_secace_name: "Secace"
+  aom_secace_desc: "Das Schwert des Sir Lancelot - eines unvergleichlichen Ritters und tragischen Helden."
+
+  # Courechouse (King Ban's Sword)
+  aom_courechouse_name: "Courechouse"
+  aom_courechouse_desc: "Die Klinge von König Ban - geschmiedet für Loyalität, Ruhm und Vermächtnis."
+
+  # Galatine (Sir Gawain's Sword)
+  aom_galatine_name: "Galatine"
+  aom_galatine_desc: "Das Schwert des Sir Gawain - leuchtend wie die Sonne, Symbol von Ehre und Stärke."
+
+  # Sword Of The Red Hilt (Sir Galahad's Sword)
+  aom_sword_of_the_red_hilt_name: "Schwert des Roten Griffs"
+  aom_sword_of_the_red_hilt_desc: "Die heilige Klinge des Sir Galahad, des reinsten aller Ritter - gesegnet und makellos."
+
+  # Court Artifacts
+  # The Round Table
+  aom_throne_round_table_name: "Der Runde Tisch"
+  aom_throne_round_table_desc: "Der legendäre Tisch von Arthurs Hof - Symbol für Einheit, Gleichheit und ritterliche Tugend."
+
+# Finno-Ugric Artifacts
+  # Inventory Artifacts
+  # Ukonvasara (Hammer of Ukko)
+  aom_ukonvasara_name: "Ukonvasara"
+  aom_ukonvasara_desc: "Der donnernde Hammer des Himmelsgottes Ukko - erfüllt von göttlicher Energie und der Macht des Sturms."
+
+  # Tarnhelm
+  aom_tarnhelm_name: "Tarnhelm"
+  aom_tarnhelm_desc: "Ein magischer Helm, der seinem Träger Unsichtbarkeit und Gestaltwandlung gewährt."
+
+  # Kalevan Miekka
+  aom_kalevan_miekka_name: "Kalevan Miekka"
+  aom_kalevan_miekka_desc: "Das gewaltige Schwert des Riesen Kaleva, geschmiedet aus mythischem Erz und über Generationen weitergegeben."
+
+  # Court Artifacts
+  # Sampo
+  aom_sampo_name: "Sampo"
+  aom_sampo_desc: "Eine mystische Mühle, die Reichtum bringt und endlos Korn, Salz und Gold hervorbringt."
+
+  # Kantele (Magical Harp)
+  aom_kantele_name: "Kantele"
+  aom_kantele_desc: "Eine verzauberte Harfe, geschnitzt aus dem Kieferknochen eines gewaltigen Hechts - ihre Musik verzaubert alle, die sie hören."
+
+# Slavic Artifacts
+  # Inventory Artifacts
+  # Kladenets (Self-Swinging Sword)
+  aom_kladenets_name: "Kladenets"
+  aom_kladenets_desc: "Ein sich selbst schwingendes Schwert, das mit unfehlbarer Macht zuschlägt, sobald es gezogen wird."
+
+  # Perun's Axe
+  aom_peruns_axe_name: "Peruns Axt"
+  aom_peruns_axe_desc: "Die Waffe des Donnergottes Perun - sie spaltet Berge und ruft Stürme herab."
+
+  # Raskovnik (Magic Herb)
+  aom_raskovnik_name: "Raskovnik"
+  aom_raskovnik_desc: "Ein sagenumwobenes Kraut, das jedes Schloss öffnet und verborgene Schätze enthüllt."
+
+  # The Firebird's Feather
+  aom_firebird_feather_name: "Feder des Feuervogels"
+  aom_firebird_feather_desc: "Eine leuchtende Feder des mythischen Feuervogels - sie glüht in übernatürlichem Licht und Hoffnung."
+
+  # Court Artifacts
+  # Koschei's Needle
+  aom_koscheis_needle_name: "Koscheis Nadel"
+  aom_koscheis_needle_desc: "Das Geheimnis der Unsterblichkeit Koscheis, verborgen in geschachtelten magischen Gefäßen."
+
+  # Alatyr (Sacred Stone)
+  aom_alatyr_name: "Alatyr"
+  aom_alatyr_desc: "Der mythische Nabel der Welt - ein heiliger Stein göttlicher Weisheit und Frömmigkeit."
+
+  # Fern Flower
+  aom_fern_flower_name: "Farnblume"
+  aom_fern_flower_desc: "Eine seltene, magische Blüte, die dem Finder Gesundheit, Glück und Wohlstand schenkt."
+
+  # Baba Yaga's Mortar and Pestle
+  aom_baba_yagas_mortar_name: "Baba Yagas Mörser und Stößel"
+  aom_baba_yagas_mortar_desc: "Das verzauberte Fluggefäß der Hexe Baba Yaga - es gleitet durch Himmel und Geheimnisse gleichermaßen. #italic Sicherlich ist dies nicht der echte Mörser...?#!"
+
+# Lovecraftian Artifacts
+  # Inventory Artifacts
+  # Necronomicon
+  aom_necronomicon_name: "Necronomicon"
+  aom_necronomicon_desc: "Ein gotteslästerliches Buch verbotenen Wissens, verfasst von Abdul Alhazred, dem 'Wahnsinnigen Araber'."
+
+  # Book Of Eibon
+  aom_book_of_eibon_name: "Buch von Eibon"
+  aom_book_of_eibon_desc: "Ein uraltes Werk, das die arkanen Geheimnisse des Zauberers Eibon enthält - erfüllt von verbotenem Wissen aus Hyperborea."
+
+  # Deep One's Tiara
+  aom_deep_ones_tiara_name: "Tiara der Tiefen Wesen"
+  aom_deep_ones_tiara_desc: "Ein bizarrer, fremdartiger Kopfschmuck, gefertigt von den Tiefen Wesen. Sein Träger träumt von Unterwasserstädten und unheilvollen Gesängen."
+
+  # Hound Amulet
+  aom_hound_amulet_name: "Amulett des Hundes"
+  aom_hound_amulet_desc: "Ein Talisman, graviert mit dem abscheulichen Siegel der Kannibalenkulte von Leng. Sein Tragen ruft ein Gefühl des Grauens hervor - manche flüstern, es beschwöre etwas, das niemals genannt werden sollte."
+
+  # Court Artifacts
+  # The Shining Trapezohedron
+  aom_shining_trapezohedron_name: "Der Leuchtende Trapezoeder"
+  aom_shining_trapezohedron_desc: "Ein schwarzer, facettierter Kristall, der mit innerem Licht pulsiert. Wer in ihn blickt, kann mit Nyarlathotep selbst sprechen."
+
+  # Cthulhu Idol
+  aom_cthulhu_idol_name: "Cthulhu-Idol"
+  aom_cthulhu_idol_desc: "Eine groteske Statue des Großen Alten Cthulhu. Schon ihr Besitz verursacht unruhige Träume und flüsternde Stimmen in der Nacht."
+
+  # The Sliver Key
+  aom_sliver_key_name: "Der Silberne Schlüssel"
+  aom_sliver_key_desc: "Ein mystischer Schlüssel, der Portale zu den Traumlanden und jenseitigen Dimensionen öffnet. Er enthüllt Wege, die selbst erfahrenen Reisenden verborgen bleiben."
+
+  # Confessions of Clithanus
+  aom_confessions_of_clithanus_name: "Geständnisse des Clithanus"
+  aom_confessions_of_clithanus_desc: "Ein seltenes, gefährliches Manuskript, das von finsteren Riten und unaussprechlichen Kulten uralter Zeiten berichtet."
+
+  # Pnakotic Manuscripts
+  aom_pnakotic_manuscripts_name: "Pnakotische Manuskripte"
+  aom_pnakotic_manuscripts_desc: "Antediluvianische Texte, die das Wissen und Leben der Großen Rasse von Yith beschreiben. Ihre Entzifferung gefährdet den Verstand."
+
+  # The Mirror Of Nitocris
+  aom_mirror_of_nitocris_name: "Spiegel der Nitocris"
+  aom_mirror_of_nitocris_desc: "Ein verzaubertes Artefakt, das einst der Königin des Schwarzen Pharaos gehörte. Die Spiegelbilder darin sind niemals wirklich die eigenen."
+
+# Mesopotamian Artifacts
+  # Inventory Artifacts
+  # Sharur (Ninurta's Mace)
+  aom_sharur_name: "Sharur"
+  aom_sharur_desc: "Der göttliche Streitkolben des Ninurta, von dem gesagt wird, dass er spricht und fliegt, um die Feinde der Götter zu zerschmettern."
+
+  # Imhullu (Marduk's Weapon)
+  aom_imhullu_name: "Imhullu"
+  aom_imhullu_desc: "Die windgeborene Waffe des Gottes Marduk, mit der er Tiamat erschlug und Ordnung aus dem Chaos schuf."
+
+  # Marduk's Net
+  aom_marduks_net_name: "Marduks Netz"
+  aom_marduks_net_desc: "Mit göttlicher List gewebt - dieses Netz band einst den urzeitlichen Drachen Tiamat."
+
+  # Court Artifacts
+  # Tablets of Destinies
+  aom_tablet_of_destinies_name: "Tafeln des Schicksals"
+  aom_tablet_of_destinies_desc: "Diese uralten Tafeln enthalten die Dekrete der Götter und das Schicksal aller Lebewesen."
+
+  # Bull of Heaven's Horns
+  aom_bull_of_heaven_name: "Hörner des Himmelsstiers"
+  aom_bull_of_heaven_desc: "Trophäen des getöteten Himmelsstiers - ihre Macht hallt noch immer mit himmlischem Zorn nach."
+
+  # Lyre of Ur
+  aom_lyre_of_ur_name: "Leier von Ur"
+  aom_lyre_of_ur_desc: "Ein Instrument, das einst sowohl Königen als auch Göttern erklang - es singt von Schöpfung und Eroberung."
+
+  # Ereshkigal's Throne
+  aom_throne_ereshkigal_name: "Thron der Ereshkigal"
+  aom_throne_ereshkigal_desc: "Der dunkle Thron der Königin der Unterwelt, vor dem alle im Reich des Todes niederknien müssen."
+
+# Egyptian Artifacts
+  # Inventory Artifacts
+  # Book of Thoth
+  aom_book_of_thoth_name: "Buch des Thoth"
+  aom_book_of_thoth_desc: "Ein Buch unendlicher Weisheit und unaussprechlicher Macht, das angeblich die Geheimnisse der Götter enthält."
+
+  # Spear of Ra
+  aom_spear_of_ra_name: "Speer des Ra"
+  aom_spear_of_ra_desc: "Die Sonnenwaffe des Sonnengottes, die so hell brennt wie der Mittagshimmel."
+
+  # Knife of Isis
+  aom_knife_of_isis_name: "Messer der Isis"
+  aom_knife_of_isis_desc: "Eine verzauberte Klinge, die sowohl in heiligen Ritualen als auch in göttlicher Vergeltung verwendet wird."
+
+  # Eye of Horus
+  aom_eye_of_horus_name: "Auge des Horus"
+  aom_eye_of_horus_desc: "Ein mächtiges Symbol des Schutzes, der Heilung und der königlichen Legitimität."
+
+  # Was-sceptre
+  aom_was_sceptre_name: "Was-Zepter"
+  aom_was_sceptre_desc: "Ein Zepter, das mit göttlicher Autorität und Macht verbunden ist, oft von Göttern und Pharaonen getragen. Es strahlt Kontrolle und Schutz aus."
+
+  # Pschent (Double Crown of Egypt)
+  aom_pschent_name: "Pschent"
+  aom_pschent_desc: "Die vereinten Roten und Weißen Kronen, die die Herrschaft über Ober- und Unterägypten symbolisieren."
+
+  # Hedjet (White Crown of Upper Egypt)
+  aom_hedjet_name: "Hedjet"
+  aom_hedjet_desc: "Das königliche Kopfschmuckstück Oberägyptens, getragen von Pharaonen, um ihre himmlische Herrschaft zu verkünden."
+
+  # Deshret (Red Crown of Lower Egypt)
+  aom_deshret_name: "Deshret"
+  aom_deshret_desc: "Die flammenförmige Krone Unterägyptens, verbunden mit göttlicher Autorität und der Göttin Wadjet."
+
+  # Court Artifacts
+  # Neith's Loom
+  aom_neiths_loom_name: "Neiths Webstuhl"
+  aom_neiths_loom_desc: "Er soll das Gewebe von Leben und Tod spinnen - Fäden, die von der Schöpfergöttin selbst gesponnen wurden."
+
+  # Feather of Ma'at
+  aom_feather_of_maat_name: "Feder der Ma'at"
+  aom_feather_of_maat_desc: "Ein Symbol für Gleichgewicht und kosmische Gerechtigkeit, verwendet, um Seelen im Jenseits zu wiegen."
+
+  # Anubis' Scales
+  aom_anubis_scales_name: "Waage des Anubis"
+  aom_anubis_scales_desc: "Benutzt bei der Zeremonie des Wiegens des Herzens - ein Instrument des Gerichts und des ewigen Schicksals."
+
+# Chinese Artifacts
+  # Inventory Artifacts
+  # Pangu's Axe
+  aom_pangu_axe_name: "Pangus Axt"
+  aom_pangu_axe_desc: "Die mythische Axt, die Himmel und Erde trennte, geschwungen vom Schöpfergott Pangu."
+
+  # Ruyi Jingu Bang (Sun Wukong's Staff)
+  aom_ruyi_jingu_bang_name: "Ruyi Jingu Bang"
+  aom_ruyi_jingu_bang_desc: "Der unzerstörbare Stab von Sun Wukong, der sich auf kolossale Größe ausdehnen oder zu einer Nadel schrumpfen kann."
+
+  # Sun Wukong's Boots
+  aom_wukong_boots_name: "Stiefel des Sun Wukong"
+  aom_wukong_boots_desc: "Die Stiefel des Affenkönigs, die es ihrem Träger ermöglichen, über den Himmel zu springen und auf Wolken zu reiten."
+
+  # Peach of Immortality
+  aom_peach_of_immortality_name: "Pfirsich der Unsterblichkeit"
+  aom_peach_of_immortality_desc: "Nur alle 3000 Jahre gereift - diese Pfirsiche verleihen ewiges Leben jenen, die sie verzehren."
+
+  # Xuan Yuan Sword
+  aom_xuan_yuan_sword_name: "Xuan Yuan-Schwert"
+  aom_xuan_yuan_sword_desc: "Die heilige Klinge des Gelben Kaisers - Symbol der Gerechtigkeit und göttlichen Herrschaft."
+
+  # Erlang Shen's Spear
+  aom_erlang_spear_name: "Speer des Erlang Shen"
+  aom_erlang_spear_desc: "Der himmlische Speer des Erlang Shen, der Dämonen mit unfehlbarer Kraft durchbohrt."
+
+  # Kenkonken
+  aom_kenkonken_name: "Kenkonken"
+  aom_kenkonken_desc: "Der flammende Chakram des Nezha - eine Waffe göttlicher Rebellion und funkelnder Beweglichkeit."
+
+  # Qiankun Dai
+  aom_qiankun_dai_name: "Qiankun Dai"
+  aom_qiankun_dai_desc: "Ein kosmischer Beutel, der unzählige Waffen und Schätze enthält - getragen vom göttlichen Knaben Nezha."
+
+  # Sword of Goujian
+  aom_sword_of_goujian_name: "Schwert des Goujian"
+  aom_sword_of_goujian_desc: "Ein uraltes Schwert, das Zeit und Verfall trotzte - es gehörte dem legendären König Goujian von Yue."
+
+  # Green Dragon Crescent Blade (Guan Yu's Weapon)
+  aom_green_dragon_blade_name: "Grüne Drachensichelschneide"
+  aom_green_dragon_blade_desc: "Die Waffe des Guan Yu, Heiliger General der Loyalität und Rechtschaffenheit - sie soll über 80 Jin wiegen."
+
+  # Zhang Fei's Spear
+  aom_zhang_fei_spear_name: "Speer des Zhang Fei"
+  aom_zhang_fei_spear_desc: "Der viperngespitzte Speer des wilden Zhang Fei, geschmiedet für unbändige Schlachtwut."
+
+  # Hou Yi's Bow
+  aom_hou_yi_bow_name: "Bogen des Hou Yi"
+  aom_hou_yi_bow_desc: "Mit diesem göttlichen Bogen schoss Hou Yi neun Sonnen vom Himmel und rettete die Welt vor sengendem Untergang."
+
+  # Gan Jiang
+  aom_gan_jiang_name: "Gan Jiang"
+  aom_gan_jiang_desc: "Eine der beiden legendären Klingen, die von Gan Jiang und Mo Ye geschmiedet wurden - getränkt in Leid, umhüllt von Trauer."
+
+  # Mo Ye
+  aom_mo_ye_name: "Mo Ye"
+  aom_mo_ye_desc: "Die Zwillingsklinge zu Gan Jiang - sie steht für Hingabe und Opfer jenseits der Schmiedekunst."
+
+  # Mianguan
+  aom_mianguan_name: "Mianguan"
+  aom_mianguan_desc: "Eine kaiserliche Krone des alten China, getragen von Weisen und Herrschern mit dem Mandat des Himmels."
+
+  # Court Artifacts
+  # Heirloom Seal of the Realm
+  aom_heirloom_seal_name: "Kaiserliches Siegel des Reiches"
+  aom_heirloom_seal_desc: "Graviert mit den Worten: 'Nachdem das Mandat des Himmels empfangen wurde, möge der Kaiser ein langes und wohlhabendes Leben führen.' - Symbol wahrer kaiserlicher Autorität."
+
+  # Mirror of Retribution
+  aom_mirror_of_retribution_name: "Spiegel der Vergeltung"
+  aom_mirror_of_retribution_desc: "Ein spirituelles Artefakt, das die Sünden widerspiegelt und die Verbrechen der Seele offenbart."
+
+  # Jade Books
+  aom_jade_books_name: "Jadebücher"
+  aom_jade_books_desc: "Heilige Texte, in reiner Jade eingraviert - sie bewahren göttliche Dekrete und uralte himmlische Riten."
+
+  # Jiuding
+  aom_jiuding_name: "Jiuding"
+  aom_jiuding_desc: "Die Neun Dreibein-Kessel - heilige Relikte dynastischer Legitimität, einst im Besitz des Sohnes des Himmels."
+
+# Easter Egg Artifacts
+  # Inventory Artifacts
+  # Soul Edge (Soul Calibur)
+  aom_soul_edge_name: "Soul Edge"
+  aom_soul_edge_desc: "Ein verfluchtes Schwert unstillbaren Hungers, das sich von den Seelen seiner Opfer nährt."
+
+  # Blackfyre (AGOT)
+  aom_blackfyre_name: "Blackfyre"
+  aom_blackfyre_desc: "Das uralte valyrische Stahlschwert des Hauses Targaryen - von Rebellen und Königen gleichermaßen geführt."
+
+  # One Ring (LotR)
+  aom_one_ring_name: "Der Eine Ring"
+  aom_one_ring_desc: "Im Geheimen vom Dunklen Herrscher geschmiedet - dieser Ring bindet alle anderen an seinen Willen."
+
+  # Elder Wand (Harry Potter)
+  aom_elder_wand_name: "Elderstab"
+  aom_elder_wand_desc: "Das Heiligtum des Todes, das seinen Träger unbesiegbar machen soll - wenn er lange genug überlebt."
+
+  # Court Artifacts
+  # Lightsaber (Starwars)
+  aom_lightsaber_name: "Lichtschwert"
+  aom_lightsaber_desc: "Ein Metallstab, einst als elegante Waffe einer zivilisierteren Zeit gepriesen - nun nur noch ein schimmerndes Relikt."
+
+  # Palantír (LotR)
+  aom_palantir_name: "Palantír"
+  aom_palantir_desc: "Ein Sehstein aus dem alten Mittelerde, der Blicke über weite Entfernungen - und in die Gefahr - erlaubt."

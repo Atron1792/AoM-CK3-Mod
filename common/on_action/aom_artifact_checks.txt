@@ -1,24 +1,24 @@
-﻿# On Losing Egypt
-yearly_global_pulse = { on_actions = { aom_on_egypt_title_lost } }
+﻿# # On Losing Egypt
+# yearly_global_pulse = { on_actions = { aom_on_egypt_title_lost } }
 
-aom_on_egypt_title_lost = {
-	trigger = {
-		AND = {
-            any_character_artifact = {
-                OR = {
-                    has_variable = aom_pschent
-                }
-		    }
-            NOR = {
-                has_title = title:k_egypt
-                any_vassal = { has_title = title:k_egypt }
-		    }
-        }
-	}
-	events = {
-		aom_artifact_checks.0001
-	}
-}
+# aom_on_egypt_title_lost = {
+# 	trigger = {
+# 		AND = {
+#             any_character_artifact = {
+#                 OR = {
+#                     has_variable = aom_pschent
+#                 }
+# 		    }
+#             NOR = {
+#                 has_title = title:k_egypt
+#                 any_vassal = { has_title = title:k_egypt }
+# 		    }
+#         }
+# 	}
+# 	events = {
+# 		aom_artifact_checks.0001
+# 	}
+# }
 
 # Lovecraftian Stress Gain
 five_year_everyone_pulse = { on_actions = { aom_on_lovecraftian_stress_gain } }
