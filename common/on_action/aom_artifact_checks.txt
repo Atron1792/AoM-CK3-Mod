@@ -15,8 +15,8 @@ aom_on_egypt_title_lost = {
 		    }
         }
 	}
-	effect = {
-		trigger_event = aom_artifact_checks.0001
+	events = {
+		aom_artifact_checks.0001
 	}
 }
 

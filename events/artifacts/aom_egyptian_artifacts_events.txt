@@ -24,7 +24,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_duchy
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_neiths_loom_effect = { OWNER = this }
@@ -50,7 +50,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_duchy
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_feather_of_maat_effect = { OWNER = this }
@@ -76,7 +76,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_duchy
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_anubis_scales_effect = { OWNER = this }
@@ -103,7 +103,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_book_of_thoth_effect = { OWNER = this }
@@ -129,7 +129,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_spear_of_ra_effect = { OWNER = this }
@@ -155,7 +155,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_knife_of_isis_effect = { OWNER = this }
@@ -181,7 +181,7 @@ aom_egyptian_artifacts.001 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_eye_of_horus_effect = { OWNER = this }
@@ -221,7 +221,7 @@ aom_egyptian_artifacts.002 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_hedjet_effect = { OWNER = this }
@@ -247,7 +247,7 @@ aom_egyptian_artifacts.002 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_deshret_effect = { OWNER = this }
@@ -274,7 +274,7 @@ aom_egyptian_artifacts.002 = {
                     highest_held_title_tier >= tier_county
                     OR = {
 						culture = { has_cultural_pillar = heritage_east_african }
-						root.culture =  culture:egyptian
+						culture = culture:egyptian
 					}
                 }
                 create_artifact_aom_was_sceptre_effect = { OWNER = this }
