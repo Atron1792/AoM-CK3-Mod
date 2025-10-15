@@ -781,7 +781,7 @@ aom_combine_white_and_red_crowns_decision = {
 			limit = {
 				NOT = { has_character_flag = aom_combine_white_and_red_crowns_renown }
 			}
-			dynasty = { add_dynasty_prestige = 750 }
+			dynasty ?= { add_dynasty_prestige = 750 }
 			add_character_flag = { flag = aom_combine_white_and_red_crowns_renown }
 		}
 		add_character_flag = {
