@@ -291,19 +291,19 @@
 
   # Aaron's Rod (Moses' Brother's Staff)
   aom_aarons_rod_name: "Stab Aarons"
-  aom_aarons_rod_desc: "Ein Symbol priesterlicher Autorität und göttlicher Wunderkraft."
+  aom_aarons_rod_desc: "Der heilige Stab soll auf Gottes Befehl erblühen und Wunder wirken; ein Zeichen göttlicher Autorität und wundersamer Kraft."
 
   # Solomon's Shamir
   aom_solomons_shamir_name: "Salomos Schamir"
-  aom_solomons_shamir_desc: "Kein Werkzeug, sondern ein Wunder - wie Gottes Flüstern. Es schneidet Stein wie Papier, lautlos und rein."
+  aom_solomons_shamir_desc: "Es ist kein Werkzeug, sondern ein Wunder wie Gottes Flüstern. Es schneidet Stein wie Papier, lautlos und ungesehen."
 
   # Greater Key of Solomon
   aom_greater_key_of_solomon_name: "Großer Schlüssel Salomos"
-  aom_greater_key_of_solomon_desc: "Ein uraltes Buch göttlicher Rituale und himmlischer Weisheit - es offenbart die Geheimnisse von Himmel und Erde."
+  aom_greater_key_of_solomon_desc: "Ein Zauberbuch heiliger Weisheit, das die göttlichen Riten und himmlischen Mysterien beschreibt, die einst König Salomon selbst anvertraut wurden."
 
   # Lesser Key of Solomon
   aom_lesser_key_of_solomon_name: "Kleiner Schlüssel Salomos"
-  aom_lesser_key_of_solomon_desc: "Ein uraltes Buch göttlicher Rituale und himmlischer Weisheit - es offenbart die Geheimnisse von Himmel und Erde."
+  aom_lesser_key_of_solomon_desc: "Ein Kompendium arkaner Siegel und Beschwörungsrituale, die angeblich die Herrschaft über Geister verleihen, die durch Salomons Befehl gebunden sind."
 
   # Goliath's Sword
   aom_goliaths_sword_name: "Schwert Goliaths"
@@ -320,7 +320,7 @@
 
   # Joshua's Shofars
   aom_joshuas_shofars_name: "Josuas Schofare"
-  aom_joshuas_shofars_desc: "Widderhörner, deren Klang die Mauern Jerichos durch Glauben und Klang niederstürzte."
+  aom_joshuas_shofars_desc: "Ein Widderhorn wurde einst von Josua geblasen, was angeblich den Fall Jerichos signalisierte."
 
   # Leviathan's Hide
   aom_leviathans_hide_name: "Haut des Leviathan"
@@ -631,7 +631,7 @@
 
   # Anubis' Scales
   aom_anubis_scales_name: "Waage des Anubis"
-  aom_anubis_scales_desc: "Benutzt bei der Zeremonie des Wiegens des Herzens - ein Instrument des Gerichts und des ewigen Schicksals."
+  aom_anubis_scales_desc: "Wird bei der Zeremonie des Wiegens des Herzens verwendet, ein Instrument des Urteils und des ewigen Schicksals."
 
 # Chinese Artifacts
   # Inventory Artifacts
@@ -710,7 +710,7 @@
 
   # Jiuding
   aom_jiuding_name: "Jiuding"
-  aom_jiuding_desc: "Die Neun Dreibein-Kessel - heilige Relikte dynastischer Legitimität, einst im Besitz des Sohnes des Himmels."
+  aom_jiuding_desc: "Die neun dreibeinigen Kessel, heilige Reliquien dynastischer Legitimität, die einst im Besitz des Sohnes des Himmels waren."
 
 # Easter Egg Artifacts
   # Inventory Artifacts
@@ -728,13 +728,13 @@
 
   # Elder Wand (Harry Potter)
   aom_elder_wand_name: "Elderstab"
-  aom_elder_wand_desc: "Das Heiligtum des Todes, das seinen Träger unbesiegbar machen soll - wenn er lange genug überlebt."
+  aom_elder_wand_desc: "Es ist eines der Heiligtümer des Todes und soll seinen Träger unbesiegbar machen, wenn er lange genug überlebt."
 
   # Court Artifacts
-  # Lightsaber (Starwars)
+  # Lightsaber (Star Wars)
   aom_lightsaber_name: "Lichtschwert"
   aom_lightsaber_desc: "Ein Metallstab, einst als elegante Waffe einer zivilisierteren Zeit gepriesen - nun nur noch ein schimmerndes Relikt."
 
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
-  aom_palantir_desc: "Ein Sehstein aus dem alten Mittelerde, der Blicke über weite Entfernungen - und in die Gefahr - erlaubt."
+  aom_palantir_desc: "Ein Sehstein aus dem alten Mittelerde, der die Sicht über weite Entfernungen und in Gefahren hinein ermöglicht."

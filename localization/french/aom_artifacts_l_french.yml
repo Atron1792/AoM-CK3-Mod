@@ -291,19 +291,19 @@
 
   # Aaron's Rod (Moses' Brother's Staff)
   aom_aarons_rod_name: "Bâton d'Aaron"
-  aom_aarons_rod_desc: "Symbole de l'autorité sacerdotale et des miracles divins."
+  aom_aarons_rod_desc: "On dit que le bâton sacré fleurit sur ordre du Seigneur et accomplit des merveilles ; un signe d'autorité divine et de pouvoir miraculeux."
 
   # Solomon's Shamir
   aom_solomons_shamir_name: "Shamir de Salomon"
-  aom_solomons_shamir_desc: "Ce n'est pas un outil, mais une merveille — comme un murmure de Dieu. Il coupe la pierre comme du papier, silencieusement et sans trace."
+  aom_solomons_shamir_desc: "Ce n'est pas un outil, mais une merveille, comme le murmure de Dieu. Elle coupe la pierre comme du papier, silencieuse et invisible."
 
   # Greater Key of Solomon
   aom_greater_key_of_solomon_name: "Clavicule de Salomon (Grande Clé)"
-  aom_greater_key_of_solomon_desc: "Un ancien livre de rituels et de savoir divin, censé révéler les secrets du ciel et de la terre."
+  aom_greater_key_of_solomon_desc: "Un grimoire de sagesse sacrée, détaillant les rites divins et les mystères célestes autrefois confiés au roi Salomon lui-même."
 
   # Lesser Key of Solomon
   aom_lesser_key_of_solomon_name: "Petite Clé de Salomon"
-  aom_lesser_key_of_solomon_desc: "Un ancien livre de rituels et de connaissances occultes, révélant les mystères célestes et terrestres."
+  aom_lesser_key_of_solomon_desc: "Un recueil de sceaux arcaniques et de rituels d'invocation, censés conférer la maîtrise sur les esprits liés par le commandement de Salomon."
 
   # Goliath's Sword
   aom_goliaths_sword_name: "Épée de Goliath"
@@ -320,7 +320,7 @@
 
   # Joshua's Shofars
   aom_joshuas_shofars_name: "Shofars de Josué"
-  aom_joshuas_shofars_desc: "Des cornes de bélier qui firent tomber les murs de Jéricho par la foi et le son."
+  aom_joshuas_shofars_desc: "Les cornes de bélier qui ont fait tomber les murs de Jéricho par la foi et le son."
 
   # Leviathan's Hide
   aom_leviathans_hide_name: "Peau du Léviathan"
@@ -631,7 +631,7 @@
 
   # Anubis' Scales
   aom_anubis_scales_name: "Balances d'Anubis"
-  aom_anubis_scales_desc: "Employées lors de la pesée du cœur — instruments de jugement et de destinée éternelle."
+  aom_anubis_scales_desc: "Utilisé dans la cérémonie de la pesée du cœur, instrument de jugement et de destin éternel."
 
 # Chinese Artifacts
   # Inventory Artifacts
@@ -685,7 +685,7 @@
 
   # Gan Jiang
   aom_gan_jiang_name: "Gan Jiang"
-  aom_gan_jiang_desc: "L'une des deux épées légendaires forgées par Gan Jiang et Mo Ye — trempée dans la souffrance et voilée de chagrin."
+  aom_gan_jiang_desc: "L'une des deux épées légendaires forgées par Gan Jiang et Mo Ye, trempée dans la souffrance, voilée de chagrin."
 
   # Mo Ye
   aom_mo_ye_name: "Mo Ye"
@@ -710,7 +710,7 @@
 
   # Jiuding
   aom_jiuding_name: "Jiuding"
-  aom_jiuding_desc: "Les Neuf Chaudrons Tripodes — reliques sacrées de la légitimité dynastique autrefois détenues par le Fils du Ciel."
+  aom_jiuding_desc: "Les Neuf Chaudrons Trépieds, reliques sacrées de légitimité dynastique autrefois possédées par le Fils du Ciel."
 
 # Easter Egg Artifacts
   # Inventory Artifacts
@@ -728,14 +728,14 @@
 
   # Elder Wand (Harry Potter)
   aom_elder_wand_name: "Baguette de Sureau"
-  aom_elder_wand_desc: "La Relique de la Mort censée rendre son porteur invincible — s'il survit assez longtemps."
+  aom_elder_wand_desc: "L'une des Reliques de la Mort, on dit qu'elle rend son porteur imbattable s'il survit assez longtemps."
 
   # Court Artifacts
-  # Lightsaber (Starwars)
+  # Lightsaber (Star Wars)
   aom_lightsaber_name: "Sabre Laser"
   aom_lightsaber_desc: "Une tige de métal autrefois célébrée comme une arme élégante d'une époque plus civilisée, aujourd'hui simple relique étincelante."
 
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
-  aom_palantir_desc: "Une pierre de vision issue de l'ancienne Terre du Milieu, permettant de voir à travers de vastes distances — et vers le danger."
+  aom_palantir_desc: "Une pierre de vision de l'ancienne Terre du Milieu, permettant une vision sur de vastes distances et dans le péril."
 

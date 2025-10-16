@@ -48,7 +48,7 @@ aom_elder_wand_template = {
 ############################
 # Court Artifacts
 ############################
-# Lightsaber (Starwars)
+# Lightsaber (Star Wars)
 aom_lightsaber_template = {
 	can_equip = { always = yes }
 	can_benefit = {

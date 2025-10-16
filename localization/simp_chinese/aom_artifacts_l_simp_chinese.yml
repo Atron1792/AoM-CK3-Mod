@@ -1,740 +1,721 @@
 ﻿l_simp_chinese:
 # Norse Artifacts
   # Inventory Artifacts
-  aom_gungnir_name: "Gungnir"
-  aom_gungnir_desc: "Spear of Odin. Forged by dwarven smiths and wielded by the Allfather himself, Gungnir never misses its mark. It radiates divine power, inspiring great minds and warriors alike."
+  aom_gungnir_name: "冈格尼尔 (Gungnir)"
+  aom_gungnir_desc: "奥丁之枪。由矮人工匠所铸，由万神之父亲自持有，从不偏离目标。它散发着神圣的力量，激励着伟大的心灵与战士。"
 
-  aom_mjolnir_name: "Mjölnir"
-  aom_mjolnir_desc: "Hammer of Thunder. The mighty hammer of Thor, capable of leveling mountains and smiting the enemies of the gods with a single blow."
+  aom_mjolnir_name: "妙尔尼尔 (Mjölnir)"
+  aom_mjolnir_desc: "雷霆之锤。托尔的强大神器，能够夷平山岳，只需一击便可毁灭众神的敌人。"
 
-  aom_jarngreipr_name: "Járngreipr"
-  aom_jarngreipr_desc: "Gauntlets of Strength. These iron gloves allow the bearer to wield unimaginable power, essential for gripping Mjölnir itself."
+  aom_jarngreipr_name: "亚恩格雷普 (Járngreipr)"
+  aom_jarngreipr_desc: "力量之铁手套。赋予持有者无与伦比的力量，是掌握妙尔尼尔所必需之物。"
 
-  aom_megingjord_name: "Megingjörð"
-  aom_megingjord_desc: "Belt of Might. A belt that doubles the strength of the one who wears it, infusing them with divine vigor."
+  aom_megingjord_name: "梅金约德 (Megingjörð)"
+  aom_megingjord_desc: "力量之带。佩戴者的力量倍增，体内充盈神力与勇气。"
 
-  aom_brisingamen_name: "Brísingamen"
-  aom_brisingamen_desc: "Necklace of Freyja. This legendary necklace glows with ethereal beauty, enhancing the allure and influence of its wearer."
+  aom_brisingamen_name: "布里辛嘉曼 (Brísingamen)"
+  aom_brisingamen_desc: "芙蕾雅的项链。散发空灵之光的传说宝饰，使佩戴者更具魅力与影响力。"
 
-  aom_draupnir_name: "Draupnir"
-  aom_draupnir_desc: "Ring of Prosperity. Odin's golden ring that replicates itself every ninth night, a symbol of unending wealth and divine authority."
+  aom_draupnir_name: "德罗普尼尔 (Draupnir)"
+  aom_draupnir_desc: "繁荣之戒。奥丁的金戒，每九夜自我复制一次，象征无尽的财富与神权。"
 
-  aom_eldhrimnir_name: "Eldhrímnir"
-  aom_eldhrimnir_desc: "Cauldron of Eternity. The enchanted cauldron used by the gods to prepare endless sustenance from the boar Sæhrímnir."
+  aom_eldhrimnir_name: "埃尔兹赫里姆尼尔 (Eldhrímnir)"
+  aom_eldhrimnir_desc: "永恒之锅。众神用以烹煮神猪萨赫里姆尼尔的魔法锅，提供无尽的食物。"
 
-  aom_andvaranaut_name: "Andvaranaut"
-  aom_andvaranaut_desc: "The Cursed Ring. Bestower of riches and misfortune alike, this ring is bound to the tragic tale of greed and vengeance."
+  aom_andvaranaut_name: "安德瓦拉诺特 (Andvaranaut)"
+  aom_andvaranaut_desc: "被诅咒之戒。既赐财富又带厄运的宝物，与贪婪与复仇的悲剧相连。"
 
-  aom_helm_of_awe_name: "Helm of Awe"
-  aom_helm_of_awe_desc: "A fearsome relic said to strike terror into all who gaze upon it, empowering its wearer with supernatural dread."
+  aom_helm_of_awe_name: "敬畏头盔"
+  aom_helm_of_awe_desc: "传说中能令敌人心生恐惧的遗物，佩戴者散发超自然的威慑力。"
 
-  aom_odrerir_name: "Óðrerir"
-  aom_odrerir_desc: "Mead of Wisdom. One of the three sacred vessels containing the Mead of Poetry, granting divine inspiration and insight."
+  aom_odrerir_name: "欧德瑞里尔 (Óðrerir)"
+  aom_odrerir_desc: "智慧之蜜酒罐。装载诗歌之蜜的三大神器之一，赋予神启与灵感。"
 
-  aom_bodn_name: "Boðn"
-  aom_bodn_desc: "Mead of Knowledge. A vessel filled with the essence of poetic wisdom, opening the mind to creativity and clarity."
+  aom_bodn_name: "博恩 (Boðn)"
+  aom_bodn_desc: "知识之蜜酒罐。盛装诗意智慧的圣器，使人思维敏锐、灵光乍现。"
 
-  aom_son_name: "Són"
-  aom_son_desc: "Mead of Eloquence. The final goblet of the Mead of Poetry, its drink bestows the gift of speech and scholarly brilliance."
+  aom_son_name: "松 (Són)"
+  aom_son_desc: "雄辩之蜜酒杯。诗歌之蜜的最后一杯，饮之者得天赋口才与学识。"
 
-  aom_svalinn_name: "Svalinn"
-  aom_svalinn_desc: "Shield of the Sun. A mystical shield placed before the sun to prevent it from burning the world, it protects its bearer from devastation."
+  aom_svalinn_name: "斯瓦林 (Svalinn)"
+  aom_svalinn_desc: "太阳之盾。传说置于太阳之前以护世间免受灼烧，庇护持有者免遭毁灭。"
 
-  aom_gjallarhorn_name: "Gjallarhorn"
-  aom_gjallarhorn_desc: "Horn of Heimdallr. This divine horn will sound at the end of days. Its echo warns of approaching doom and awakens divine vigilance."
+  aom_gjallarhorn_name: "加拉尔号角 (Gjallarhorn)"
+  aom_gjallarhorn_desc: "海姆达尔之角。诸神黄昏时将响起，其回声预示末日来临与神明觉醒。"
 
-  aom_gram_name: "Gram"
-  aom_gram_desc: "Sigurd's Sword. A blade forged by divine smiths, destined to slay dragons and shape legends."
+  aom_gram_name: "格拉姆 (Gram)"
+  aom_gram_desc: "西格尔德之剑。由神匠铸造，命定屠龙，铸就传奇。"
 
-  aom_tyrfing_name: "Tyrfing"
-  aom_tyrfing_desc: "Cursed Blade. A weapon of unmatched sharpness that brings doom with every draw."
+  aom_tyrfing_name: "提尔锋 (Tyrfing)"
+  aom_tyrfing_desc: "被诅咒之刃。锋利无双，但每次出鞘必夺一命的宿命之剑。"
 
-  aom_skofnung_name: "Skofnung"
-  aom_skofnung_desc: "Blade of Kings. Said to contain the spirits of ancient rulers, it commands respect and fear."
+  aom_skofnung_name: "斯科夫农 (Skofnung)"
+  aom_skofnung_desc: "王之剑。蕴含古王之魂，令人敬畏与畏惧。"
 
-  aom_mistilteinn_name: "Mistilteinn"
-  aom_mistilteinn_desc: "Sword of Sorcery. Steeped in mystery and runic magic, this blade whispers secrets."
+  aom_mistilteinn_name: "米斯提尔特恩 (Mistilteinn)"
+  aom_mistilteinn_desc: "魔法之剑。充盈符文秘术与低语之力，仿佛在诉说古老秘密。"
 
-  aom_laevateinn_name: "Lævateinn"
-  aom_laevateinn_desc: "Weapon of Loki. A chaotic and fiery artifact, its true power lies in trickery and destruction."
+  aom_laevateinn_name: "莱瓦泰因 (Lævateinn)"
+  aom_laevateinn_desc: "洛基之武。混乱与火焰之器，其真正的力量在于欺诈与毁灭。"
 
-  aom_hrotti_name: "Hrotti"
-  aom_hrotti_desc: "Dragon Hoard Blade. Taken from a wyrm's treasure, this blade glows with greed and power."
+  aom_hrotti_name: "霍提 (Hrotti)"
+  aom_hrotti_desc: "龙藏之剑。从巨龙宝库中取出，剑身闪耀贪婪与力量之光。"
 
-  aom_hofud_name: "Hofuð"
-  aom_hofud_desc: "Heimdall's Sword. The vigilant guardian's weapon, sharp enough to part reality itself."
+  aom_hofud_name: "霍武德 (Hofuð)"
+  aom_hofud_desc: "海姆达尔之剑。警戒守卫者的武器，锋芒足以斩开现实。"
 
-  aom_dainsleif_name: "Dáinsleif"
-  aom_dainsleif_desc: "Sword of the Dead. Once drawn, it must kill. A cursed relic of eternal battle."
+  aom_dainsleif_name: "丹斯雷夫 (Dáinsleif)"
+  aom_dainsleif_desc: "亡者之剑。一旦出鞘，必见血；永恒战斗的诅咒遗物。"
 
-  aom_tarnkappe_name: "Tarnkappe"
-  aom_tarnkappe_desc: "Cloak of Invisibility. Grants the wearer stealth beyond mortal comprehension."
+  aom_tarnkappe_name: "塔恩卡普 (Tarnkappe)"
+  aom_tarnkappe_desc: "隐形斗篷。赋予佩戴者凡人无法察觉的潜行之力。"
 
-  aom_fjadrhamr_name: "Fjaðrhamr"
-  aom_fjadrhamr_desc: "Feathered Cloak. A divine garment that allows its bearer to move like the wind."
+  aom_fjadrhamr_name: "费雅德哈姆 (Fjaðrhamr)"
+  aom_fjadrhamr_desc: "羽翼斗篷。神祇之衣，使持有者如风般迅捷。"
 
-  aom_sword_of_freyr_name: "Sword of Freyr"
-  aom_sword_of_freyr_desc: "Blade that Fights Alone. Forged by dwarves, this sword defends its master without a hand."
+  aom_sword_of_freyr_name: "弗雷之剑"
+  aom_sword_of_freyr_desc: "能自行作战之刃。由矮人所铸，能在无人掌握时保卫主人。"
 
   # Court Artifacts
-  aom_throne_hlidskjalf_name: "Hlidskjalf"
-  aom_throne_hlidskjalf_desc: "Odin's Throne. From this high seat, the Allfather observes all realms. Its presence commands reverence and grants divine oversight to those worthy of its wisdom."
+  aom_throne_hlidskjalf_name: "赫利兹加尔夫王座 (Hlidskjalf)"
+  aom_throne_hlidskjalf_desc: "奥丁的王座。坐在此高座之上，万神之父可观诸界，威严与智慧并存。"
 
-  aom_gleipnir_name: "Gleipnir"
-  aom_gleipnir_desc: "Binding of the Beast. A silken chain forged from impossibilities, strong enough to hold even the monstrous Fenrir."
+  aom_gleipnir_name: "格莱普尼尔 (Gleipnir)"
+  aom_gleipnir_desc: "束缚巨兽之链。由不可能之物编织而成，坚不可摧，连芬里尔亦被其锁缚。"
 
-  aom_mimirs_skull_name: "Mímir's Skull"
-  aom_mimirs_skull_desc: "The severed head of the wise god, still whispering counsel from beyond."
+  aom_mimirs_skull_name: "密米尔之首 (Mímir's Skull)"
+  aom_mimirs_skull_desc: "智神密米尔被斩之首，仍在低语传授超越凡世的智慧。"
 
-  aom_bragis_harp_name: "Bragi's Harp"
-  aom_bragis_harp_desc: "A magical instrument that charms courts, stirs hearts, and inspires greatness."
+  aom_bragis_harp_name: "布拉基之琴"
+  aom_bragis_harp_desc: "迷人心魂的魔琴，能令宫廷感动、鼓舞与启迪。"
 
 # Greco-Roman Artifacts
   # Inventory Artifacts
-  aom_achilles_armor_name: "Achilles' Armor"
-  aom_achilles_armor_desc: "The divine armor forged by Hephaestus for Achilles, offering unmatched protection and glory."
+  aom_achilles_armor_name: "阿喀琉斯之甲"
+  aom_achilles_armor_desc: "赫淮斯托斯为阿喀琉斯所铸的神铠，赐予无与伦比的防护与荣光。"
 
-  aom_aegis_name: "Aegis"
-  aom_aegis_desc: "The fearsome shield associated with Zeus and Athena, instilling dread in the hearts of enemies."
+  aom_aegis_name: "埃癸斯 (Aegis)"
+  aom_aegis_desc: "宙斯与雅典娜所持的可怖之盾，令敌人心生恐惧、魂魄颤栗。"
 
-  aom_ambrosia_name: "Ambrosia"
-  aom_ambrosia_desc: "The divine nectar of the gods, said to grant immortality and eternal youth to those who partake."
+  aom_ambrosia_name: "仙馐 (Ambrosia)"
+  aom_ambrosia_desc: "诸神的甘露，饮之者可得不朽与永恒青春。"
 
-  aom_apollos_bow_name: "Apollo's Bow"
-  aom_apollos_bow_desc: "A bow that sings with the voice of the sun god, striking with divine precision."
+  aom_apollos_bow_name: "阿波罗之弓"
+  aom_apollos_bow_desc: "阳神之弓，弦音如日光之歌，射击精准无比。"
 
-  aom_caduceus_name: "Caduceus"
-  aom_caduceus_desc: "Hermes' staff, entwined with serpents, the winged rod is a symbol of peace, commerce, and diplomacy."
+  aom_caduceus_name: "赫尔墨斯之杖 (Caduceus)"
+  aom_caduceus_desc: "缠绕双蛇的翼杖，象征和平、商贸与外交。"
 
-  aom_eros_bow_name: "Eros' Bow"
-  aom_eros_bow_desc: "A bow whose arrows inspire love and desire, enchanting the hearts of mortals and gods."
+  aom_eros_bow_name: "厄洛斯之弓"
+  aom_eros_bow_desc: "射出的箭能唤起爱与欲，俘获神与凡人的心。"
 
-  aom_apple_of_discord_name: "Golden Apple of Discord"
-  aom_apple_of_discord_desc: "The apple inscribed 'to the fairest,' source of divine rivalry and mortal wars."
+  aom_apple_of_discord_name: "纷争金苹果"
+  aom_apple_of_discord_desc: "刻有'献给最美之人'的苹果，引发神祇纷争与人间战火。"
 
-  aom_rod_of_asclepius_name: "Rod of Asclepius"
-  aom_rod_of_asclepius_desc: "A symbol of medicine and healing, carried by the divine healer Asclepius."
+  aom_rod_of_asclepius_name: "阿斯克勒庇俄斯之杖"
+  aom_rod_of_asclepius_desc: "医神的象征之杖，代表治愈与生命的奇迹。"
 
-  aom_poseidons_trident_name: "Poseidon's Trident"
-  aom_poseidons_trident_desc: "Forged by the Cyclopes, this sea god's mighty weapon is capable of stirring the oceans and shattering the earth."
+  aom_poseidons_trident_name: "波塞冬三叉戟"
+  aom_poseidons_trident_desc: "独眼巨人所铸，能掀动海洋、震碎大地的神之武器。"
 
-  aom_shield_of_achilleus_name: "Shield of Achilleus"
-  aom_shield_of_achilleus_desc: "A cosmos in miniature, forged by the gods for the greatest warrior of Greece."
+  aom_shield_of_achilleus_name: "阿喀琉斯之盾"
+  aom_shield_of_achilleus_desc: "由众神锻造，蕴含整个宇宙缩影的盾牌。"
 
-  aom_spear_of_achilles_name: "Spear of Achilles"
-  aom_spear_of_achilles_desc: "A peerless weapon passed to Achilles, balanced to strike down giants and heroes."
+  aom_spear_of_achilles_name: "阿喀琉斯之矛"
+  aom_spear_of_achilles_desc: "传于英雄阿喀琉斯之手的无双之矛，能击倒巨人与勇士。"
 
-  aom_thyrsus_name: "Thyrsus"
-  aom_thyrsus_desc: "The sacred staff of Dionysus, wrapped in ivy and crowned with a pine cone."
+  aom_thyrsus_name: "狄俄尼索斯神杖 (Thyrsus)"
+  aom_thyrsus_desc: "缠以常春藤并饰松果的神杖，象征欢愉与神秘狂热。"
 
-  aom_talaria_name: "Talaria"
-  aom_talaria_desc: "The winged sandals of Hermes, bestowing speed and grace upon the wearer."
+  aom_talaria_name: "赫尔墨斯飞鞋 (Talaria)"
+  aom_talaria_desc: "长有羽翼的凉鞋，使佩戴者速度与优雅兼具。"
 
-  aom_zeus_lightning_bolt_name: "Zeus' Lightning Bolt"
-  aom_zeus_lightning_bolt_desc: "Forged by the Cyclopes, this divine weapon channels thunder and lightning, the ultimate symbol of Zeus' wrath."
+  aom_zeus_lightning_bolt_name: "宙斯雷霆"
+  aom_zeus_lightning_bolt_desc: "由独眼巨人所铸的神之武器，掌控雷电，象征宙斯的至高怒火。"
 
-  aom_hades_bident_name: "Hades' Bident"
-  aom_hades_bident_desc: "The grim counterpart to Zeus' bolt, this dark spear is Hades' tool to command and judge within the underworld."
+  aom_hades_bident_name: "哈迪斯双叉戟"
+  aom_hades_bident_desc: "宙斯雷霆的阴影映照，冥界之主的权杖，用以裁决亡魂。"
 
-  aom_helm_of_darkness_name: "Helm of Darkness"
-  aom_helm_of_darkness_desc: "Forged by the Cyclopes, this invisible helm of Hades cloaks the wearer in shadow, unseen by gods or mortals."
+  aom_helm_of_darkness_name: "冥王隐形头盔"
+  aom_helm_of_darkness_desc: "由独眼巨人所铸，使佩戴者隐于阴影，无神凡可见。"
 
-  aom_harpe_name: "Harpe"
-  aom_harpe_desc: "The sickle sword of Perseus, used to slay monsters and sever fate."
+  aom_harpe_name: "哈珀之剑 (Harpe)"
+  aom_harpe_desc: "珀尔修斯的镰形之剑，用以斩断命运与怪物。"
 
-  aom_necklace_of_harmonia_name: "Necklace of Harmonia"
-  aom_necklace_of_harmonia_desc: "A gift cursed with tragedy, beautiful and perilous in equal measure."
+  aom_necklace_of_harmonia_name: "哈摩尼亚项链"
+  aom_necklace_of_harmonia_desc: "美丽与悲剧并存的礼物，迷人却带诅咒。"
 
-  aom_kronos_scythe_name: "Kronos' Scythe"
-  aom_kronos_scythe_desc: "Forged by Gaia, this ancient scythe felled Uranus and echoes with the power of rebellion and prophecy."
+  aom_kronos_scythe_name: "克洛诺斯之镰"
+  aom_kronos_scythe_desc: "由盖亚所铸的古老镰刀，曾斩杀乌拉诺斯，回荡着叛逆与预言之力。"
 
-  aom_zeus_labrys_name: "Zeus' Labrys"
-  aom_zeus_labrys_desc: "A mighty double-headed axe wielded by the king of the gods, used to split Zeus' head and bring forth the birth of Athena."
+  aom_zeus_labrys_name: "宙斯双刃斧"
+  aom_zeus_labrys_desc: "众神之王的双头战斧，用以劈开自身之首诞生雅典娜。"
 
-  aom_artemis_bow_name: "Artemis's Bow"
-  aom_artemis_bow_desc: "A bow crafted for the goddess of the hunt, swift and deadly."
+  aom_artemis_bow_name: "阿尔忒弥斯之弓"
+  aom_artemis_bow_desc: "狩猎女神的弓，迅捷而致命。"
 
-  aom_eurytus_bow_name: "Eurytus' Bow"
-  aom_eurytus_bow_desc: "A legendary bow once owned by Eurytus and later passed to Odysseus, a symbol of unmatched mortal marksmanship."
+  aom_eurytus_bow_name: "欧律托斯之弓"
+  aom_eurytus_bow_desc: "传予奥德修斯的传奇之弓，象征凡人无双的射术。"
 
-  aom_panacea_name: "Panacea"
-  aom_panacea_desc: "Named after the daughter of Asclepius, this mythical remedy is said to cure all ailments, a marvel of divine alchemy."
+  aom_panacea_name: "万能药 (Panacea)"
+  aom_panacea_desc: "以医神之女命名的神奇灵药，据说能治愈世间一切疾患。"
 
-  aom_bag_of_wind_name: "Bag of Wind"
-  aom_bag_of_wind_desc: "The winds of Aeolus sealed in a sack, granting swift passage or tempest."
+  aom_bag_of_wind_name: "风袋"
+  aom_bag_of_wind_desc: "封存埃俄罗斯之风的袋子，可赐顺风或引狂暴风暴。"
 
-  aom_tritons_conch_name: "Triton's Conch"
-  aom_tritons_conch_desc: "The conch shell of Triton, son of Poseidon whose sound commands the waves."
+  aom_tritons_conch_name: "特里同海螺"
+  aom_tritons_conch_desc: "海神之子特里同的螺号，其音可召唤波涛与平息海浪。"
 
-  aom_nemean_lion_hide_name: "Nemean Lion Hide"
-  aom_nemean_lion_hide_desc: "Skinned from the invulnerable lion of Nemea, this pelt served as Heracles' armor and a badge of his first labour."
+  aom_nemean_lion_hide_name: "涅墨亚狮皮"
+  aom_nemean_lion_hide_desc: "赫拉克勒斯首项功绩所得的不死狮皮，成为他的铠甲与荣耀。"
 
-  aom_girdle_of_hippolyta_name: "Girdle of Hippolyta"
-  aom_girdle_of_hippolyta_desc: "Gifted by Ares to the Amazon queen, this belt embodies divine strength and the unyielding spirit of femininity."
+  aom_girdle_of_hippolyta_name: "希波吕忒腰带"
+  aom_girdle_of_hippolyta_desc: "战神阿瑞斯赠予亚马逊女王的圣带，象征神力与女性坚毅。"
 
   # Court Artifacts
-  aom_apollos_kithara_name: "Apollo's Kithara"
-  aom_apollos_kithara_desc: "The lyre of Apollo, from which sprung the harmony of the spheres."
+  aom_apollos_kithara_name: "阿波罗之琴"
+  aom_apollos_kithara_desc: "阿波罗的七弦琴，奏出天地和谐的乐音。"
 
-  aom_cornucopia_name: "Cornucopia"
-  aom_cornucopia_desc: "The horn of plenty, ever-brimming with bounty."
+  aom_cornucopia_name: "丰饶之角"
+  aom_cornucopia_desc: "永不枯竭的富饶之角，溢满丰收与祝福。"
 
-  aom_golden_fleece_name: "Golden Fleece"
-  aom_golden_fleece_desc: "The shining fleece guarded by a dragon, prize of Jason and the Argonauts."
+  aom_golden_fleece_name: "金羊毛"
+  aom_golden_fleece_desc: "由巨龙守护的闪耀羊毛，伊阿宋与阿尔戈英雄的传说之奖。"
 
-  aom_scale_of_justice_name: "Scale of Justice"
-  aom_scale_of_justice_desc: "The scales held by Themis, divine arbiter of law and fairness."
+  aom_scale_of_justice_name: "正义天平"
+  aom_scale_of_justice_desc: "忒弥斯所持的天平，象征法与公正的神圣裁度。"
 
-  aom_icarus_feather_name: "Icarus' Feather"
-  aom_icarus_feather_desc: "A feather from the wings that flew too close to the sun."
+  aom_icarus_feather_name: "伊卡洛斯之羽"
+  aom_icarus_feather_desc: "那双飞得太近太阳的翅膀上残留的羽毛。"
 
-  aom_prometheus_chains_name: "Prometheus's Chains"
-  aom_prometheus_chains_desc: "Shackles that bound the titan who gifted fire to mankind."
+  aom_prometheus_chains_name: "普罗米修斯之链"
+  aom_prometheus_chains_desc: "锁缚赐火于人类的泰坦的枷锁，充满牺牲与惩罚的象征。"
 
-  aom_medusas_head_name: "Medusa's Head"
-  aom_medusas_head_desc: "The severed head of a gorgon, still deadly with its petrifying gaze."
+  aom_medusas_head_name: "美杜莎之首"
+  aom_medusas_head_desc: "蛇发魔女的头颅，即使被斩下，仍能以凝视化人石。"
 
-  aom_throne_zeus_name: "Zeus' Throne"
-  aom_throne_zeus_desc: "The majestic seat of the king of the gods, radiating divine authority and awe."
+  aom_throne_zeus_name: "宙斯王座"
+  aom_throne_zeus_desc: "众神之王的威严宝座，闪耀着神圣权威与敬畏。"
 
 # Abrahamic Artifacts
   # Inventory Artifacts (Christian)
-  # Conquest's Crown (Horsemen of the Apocalypse)
-  aom_conquests_crown_name: "Conquest's Crown"
-  aom_conquests_crown_desc: "The glorious crown of the Horseman Conquest, an icon of divine dominion and victory."
+  aom_conquests_crown_name: "征服之冠"
+  aom_conquests_crown_desc: "启示录骑士征服者的荣耀王冠，象征神圣统治与胜利。"
 
-  # War's Greatsword (Horsemen of the Apocalypse)
-  aom_wars_greatsword_name: "War's Greatsword"
-  aom_wars_greatsword_desc: "A massive sword imbued with the fury of the Horseman War, forged for righteous battle."
+  aom_wars_greatsword_name: "战争巨剑"
+  aom_wars_greatsword_desc: "战骑士所持之怒刃，充盈正义之战的神圣愤怒。"
 
-  # Crown of Twelve Stars (Mary's Crown)
-  aom_crown_of_twelve_stars_name: "Crown of Twelve Stars"
-  aom_crown_of_twelve_stars_desc: "A radiant crown symbolizing the Virgin Mary's heavenly queenship."
+  aom_crown_of_twelve_stars_name: "十二星冠"
+  aom_crown_of_twelve_stars_desc: "象征圣母玛利亚天国女王身份的光辉之冠。"
 
-  # Seamless Robe of Jesus
-  aom_seamless_robe_of_jesus_name: "Seamless Robe of Jesus"
-  aom_seamless_robe_of_jesus_desc: "A relic of divine cloth worn by Jesus, known for its miraculous weave."
+  aom_seamless_robe_of_jesus_name: "耶稣无缝长袍"
+  aom_seamless_robe_of_jesus_desc: "由神圣织法制成的圣衣，传说为基督亲身所穿。"
 
-  # Death's Scythe (Horsemen of the Apocalypse)
-  aom_deaths_scythe_name: "Death's Scythe"
-  aom_deaths_scythe_desc: "Wielded by the Horseman Death, this chilling scythe severs the soul from flesh."
+  aom_deaths_scythe_name: "死亡之镰"
+  aom_deaths_scythe_desc: "死亡骑士所持之寒镰，可割裂灵魂与血肉。"
 
-  # Ascalon (Saint George's Sword)
-  aom_ascalon_name: "Ascalon"
-  aom_ascalon_desc: "Saint George's legendary sword, fabled to have slain a mighty dragon."
+  aom_ascalon_name: "阿斯卡隆 (Ascalon)"
+  aom_ascalon_desc: "圣乔治的传奇之剑，传说曾屠巨龙。"
 
-  # Bradamante's Lance
-  aom_bradamantes_lance_name: "Bradamante's Lance"
-  aom_bradamantes_lance_desc: "The lance of a Christian knight, swift and unwavering in its justice."
+  aom_bradamantes_lance_name: "布拉达曼特之枪"
+  aom_bradamantes_lance_desc: "信仰坚定的骑士之枪，公正而迅疾。"
 
-  # Holy Lance (Spear of Longinus)
-  aom_holy_lance_name: "Holy Lance"
-  aom_holy_lance_desc: "Also known as the Spear of Longinus, it pierced Christ's side during the crucifixion. #italic Is this the real one?#!"
+  aom_holy_lance_name: "圣枪 (Longinus之枪)"
+  aom_holy_lance_desc: "传说在十字架上刺穿基督肋旁的圣枪。#italic 这真的是那一柄吗？#!"
 
-  # Conquest's Bow (Horsemen of the Apocalypse)
-  aom_conquests_bow_name: "Conquest's Bow"
-  aom_conquests_bow_desc: "The bow of the apocalyptic rider, marking the start of holy conquest."
+  aom_conquests_bow_name: "征服之弓"
+  aom_conquests_bow_desc: "末日骑士征服者的神圣长弓，预示神意的胜利。"
 
-  # Seal of Solomon
-  aom_seal_of_solomon_name: "Seal of Solomon"
-  aom_seal_of_solomon_desc: "A mystical ring granting dominion over spirits and wisdom beyond mortal bounds."
+  aom_seal_of_solomon_name: "所罗门之印"
+  aom_seal_of_solomon_desc: "赋予驱役灵体与超凡智慧之戒，智慧与权能的象征。"
 
   # Court Artifacts (Christian)
-  # Famine's Scale (Horsemen of the Apocalypse)
-  aom_famines_scale_name: "Famine's Scale"
-  aom_famines_scale_desc: "Used by the Horseman Famine to measure hunger and scarcity across the land."
+  aom_famines_scale_name: "饥荒天平"
+  aom_famines_scale_desc: "饥荒骑士用以衡量大地贫瘠与饥饿的神具。"
 
-  # Piece of Noah's Ark
-  aom_piece_of_noahs_ark_name: "Piece of Noah's Ark"
-  aom_piece_of_noahs_ark_desc: "A sacred shard from the vessel that weathered the deluge of judgment."
+  aom_piece_of_noahs_ark_name: "诺亚方舟残片"
+  aom_piece_of_noahs_ark_desc: "来自拯救世人的神舟圣木碎片，承载审判与救赎。"
 
-  # Sudarium of Oviedo
-  aom_sudarium_of_oviedo_name: "Sudarium of Oviedo"
-  aom_sudarium_of_oviedo_desc: "A revered cloth believed to have covered Christ's face after his death."
+  aom_sudarium_of_oviedo_name: "奥维耶多圣帕"
+  aom_sudarium_of_oviedo_desc: "传说覆盖基督遗体面部的圣布，受信徒敬奉。"
 
-  # Holy Grail (Holy Chalice)
-  aom_holy_grail_name: "Holy Grail"
-  aom_holy_grail_desc: "The chalice from which Christ drank at the Last Supper, bearer of miracles."
+  aom_holy_grail_name: "圣杯"
+  aom_holy_grail_desc: "基督最后的晚餐所用之杯，承载奇迹与救赎之力。"
 
-  # Holy Prepuce
-  aom_holy_prepuce_name: "Holy Prepuce"
-  aom_holy_prepuce_desc: "A controversial relic claimed to be the foreskin of Christ himself."
+  aom_holy_prepuce_name: "神圣包皮"
+  aom_holy_prepuce_desc: "备受争议的遗物，据称是基督本人的包皮"
 
-  # Book of Life
-  aom_book_of_life_name: "Book of Life"
-  aom_book_of_life_desc: "A sacred tome said to contain the names of the saved, hidden from those damned."
+  aom_book_of_life_name: "生命之书"
+  aom_book_of_life_desc: "记载得救者之名的圣典，罪人无缘得见。"
 
-  # Forbidden Fruit
-  aom_forbidden_fruit_name: "Forbidden Fruit"
-  aom_forbidden_fruit_desc: "A remnant of Eden's temptation, carrying echoes of original sin."
+  aom_forbidden_fruit_name: "禁果"
+  aom_forbidden_fruit_desc: "伊甸园中诱惑的遗物，仍回荡着原罪的回声。"
 
-  # Horn of Gabriel
-  aom_horn_of_gabriel_name: "Horn of Gabriel"
-  aom_horn_of_gabriel_desc: "To be blown at the end of days, heralding the resurrection of the dead."
+  aom_horn_of_gabriel_name: "加百列号角"
+  aom_horn_of_gabriel_desc: "末日审判时将被吹响，宣告亡者复生。"
 
-  # Blood of Christ
-  aom_blood_of_christ_name: "Blood of Christ"
-  aom_blood_of_christ_desc: "Divine essence spilled for humanity's redemption, preserved in sacred vessels."
+  aom_blood_of_christ_name: "基督之血"
+  aom_blood_of_christ_desc: "为人类救赎而流的神圣血液，被珍藏于圣器之中。"
 
   # Inventory Artifacts (Jewish)
   # Moses' Staff
-  aom_moses_staff_name: "Moses' Staff"
-  aom_moses_staff_desc: "The staff that parted the Red Sea and struck water from stone."
+  aom_moses_staff_name: "摩西之杖"
+  aom_moses_staff_desc: "分开红海、击石出水的神杖，象征信仰与奇迹。"
 
   # David's Sword
-  aom_davids_sword_name: "David's Sword"
-  aom_davids_sword_desc: "The legendary blade of the shepherd king, victorious over Goliath."
+  aom_davids_sword_name: "大卫之剑"
+  aom_davids_sword_desc: "牧羊王大卫的传说之刃，曾斩巨人歌利亚。"
 
   # Coat of Many Colors (Joseph's Coat)
-  aom_coat_of_many_colors_name: "Coat of Many Colors"
-  aom_coat_of_many_colors_desc: "A gift to Joseph, vibrant with favor and prophetic dreams."
+  aom_coat_of_many_colors_name: "彩衣 (Joseph's Coat)"
+  aom_coat_of_many_colors_desc: "雅各赠予约瑟的彩衣，寓意恩宠与预言之梦。"
 
   # Aaron's Rod (Moses' Brother's Staff)
-  aom_aarons_rod_name: "Aaron's Rod"
-  aom_aarons_rod_desc: "A symbol of priestly authority and divine miracles."
+  aom_aarons_rod_name: "亚伦的杖"
+  aom_aarons_rod_desc: "据说这根神圣的权杖会在主的命令下绽放并创造奇迹；这是神圣权威和神奇力量的象征。"
 
   # Solomon's Shamir
-  aom_solomons_shamir_name: "Solomon's Shamir"
-  aom_solomons_shamir_desc: "It's not a tool, but a wonder—like God's whisper. It cuts stone like paper, silent and unseen."
+  aom_solomons_shamir_name: "所罗门的沙米尔 (Solomon's Shamir)"
+  aom_solomons_shamir_desc: "它并非工具，而是如同上帝低语般的奇迹。它切开石头如同切纸，悄无声息，无形无影。"
 
   # Greater Key of Solomon
-  aom_greater_key_of_solomon_name: "Greater Key of Solomon"
-  aom_greater_key_of_solomon_desc: "An ancient book of rituals and divine knowledge, said to reveal the secrets of heaven and earth."
+  aom_greater_key_of_solomon_name: "所罗门之钥"
+  aom_greater_key_of_solomon_desc: "这是一本充满神圣智慧的魔法书，详细记述了所罗门王本人曾经承接的神圣仪式和天体奥秘。"
 
-  # Lesser Key of Solomon
-  aom_lesser_key_of_solomon_name: "Lesser Key of Solomon"
-  aom_lesser_key_of_solomon_desc: "An ancient book of rituals and divine knowledge, said to reveal the secrets of heaven and earth."
+   # Lesser Key of Solomon
+  aom_lesser_key_of_solomon_name: "所罗门的小钥匙"
+  aom_lesser_key_of_solomon_desc: "一本神秘封印和召唤仪式的概要，据说可以控制所罗门命令所束缚的灵魂。"
 
   # Goliath's Sword
-  aom_goliaths_sword_name: "Goliath's Sword"
-  aom_goliaths_sword_desc: "The massive weapon of the Philistine champion, taken by his slayer David."
+  aom_goliaths_sword_name: "歌利亚之剑"
+  aom_goliaths_sword_desc: "非凡巨人的巨刃，后为其征服者大卫所得。"
 
   # Court Artifacts (Jewish)
   # Ark of Bulrushes (Moses' Basket)
-  aom_ark_of_bulrushes_name: "Ark of Bulrushes"
-  aom_ark_of_bulrushes_desc: "The basket that bore infant Moses through the Nile reeds."
+  aom_ark_of_bulrushes_name: "芦苇方舟"
+  aom_ark_of_bulrushes_desc: "载着婴儿摩西穿越尼罗河芦苇的篮子。"
 
   # Tablets of Stone (The 10 Commandments)
-  aom_tablets_of_stone_name: "Tablets of Stone"
-  aom_tablets_of_stone_desc: "The divine commandments handed to Moses atop Mount Sinai."
+  aom_tablets_of_stone_name: "碣"
+  aom_tablets_of_stone_desc: "在西奈山顶上交给摩西的神圣诫命。"
 
   # Joshua's Shofars
-  aom_joshuas_shofars_name: "Joshua's Shofars"
-  aom_joshuas_shofars_desc: "Ram's horns that brought down the walls of Jericho through faith and sound."
+  aom_joshuas_shofars_name: "约书亚的羊角号"
+  aom_joshuas_shofars_desc: "约书亚曾经吹响过一只公羊的号角，据说这标志着耶利哥城的陷落。"
 
   # Leviathan's Hide
-  aom_leviathans_hide_name: "Leviathan's Hide"
-  aom_leviathans_hide_desc: "Tough as iron, a fragment of the great sea beast slain by the divine."
+  aom_leviathans_hide_name: "利维坦之皮"
+  aom_leviathans_hide_desc: "源自巨海兽的鳞甲，坚若神铁，象征主的胜利。"
 
   # Throne of God (YHWH's Throne)
-  aom_throne_of_god_name: "Throne of God"
-  aom_throne_of_god_desc: "The celestial seat of YHWH, awe-inspiring and absolute."
+  aom_throne_of_god_name: "上帝的宝座"
+  aom_throne_of_god_desc: "至高无上的圣座，象征永恒威严与审判。"
 
   # Inventory Artifacts (Islamic)
   # Zulfiqar (Ali ibn Abi Talib's Sword)
-  aom_zulfiqar_name: "Zulfiqar"
-  aom_zulfiqar_desc: "The bifurcated sword of Ali, a symbol of Islamic valor and justice."
+  aom_zulfiqar_name: "祖尔菲卡尔 (Zulfiqar)"
+  aom_zulfiqar_desc: "阿里之双刃圣剑，象征伊斯兰的勇气与公正。"
 
   # Sacred Cloak of the Prophet
-  aom_sacred_cloak_of_the_prophet_name: "Sacred Cloak of the Prophet"
-  aom_sacred_cloak_of_the_prophet_desc: "A blessed garment once worn by the Prophet Muhammad."
+  aom_sacred_cloak_of_the_prophet_name: "先知的神圣斗篷"
+  aom_sacred_cloak_of_the_prophet_desc: "穆罕默德曾亲身穿戴的圣衣，充满祝福与敬畏。"
 
   # Court Artifacts (Islamic)
   # Key to the Kaaba
-  aom_key_to_the_kaaba_name: "Key to the Kaaba"
-  aom_key_to_the_kaaba_desc: "A revered relic guarding the door to Islam's holiest sanctuary."
+  aom_key_to_the_kaaba_name: "天房的钥匙"
+  aom_key_to_the_kaaba_desc: "守护伊斯兰教最神圣圣地大门的受人尊敬的遗物。"
 
 # Celtic Artifacts
   # Inventory Artifacts
   # Sleg (Spear of Lugh)
-  aom_sleg_name: "Sleg"
-  aom_sleg_desc: "The mighty spear of Lugh, said to guarantee victory to its wielder."
+  aom_sleg_name: "斯莱格 (Sleg)"
+  aom_sleg_desc: "卢赫之矛，据说持之必胜，神力不息。"
 
   # Lugh's Sling
-  aom_lughs_sling_name: "Lugh's Sling"
-  aom_lughs_sling_desc: "A legendary sling used by the god Lugh, striking with the speed of light."
+  aom_lughs_sling_name: "卢赫之投石索"
+  aom_lughs_sling_desc: "光神卢赫所用的传说武器，速度如闪电。"
 
   # Claíomh Solais (Sword of Light)
-  aom_claiomh_solais_name: "Claíomh Solais"
-  aom_claiomh_solais_desc: "The Sword of Light, blazing with divine fire, wielded by heroes of myth."
+  aom_claiomh_solais_name: "光之剑 (Claíomh Solais)"
+  aom_claiomh_solais_desc: "燃烧着神火的光之剑，英雄与神话的象征。"
 
   # Fragarach (Sword of Nuada)
-  aom_fragarach_name: "Fragarach"
-  aom_fragarach_desc: "Nuada's wind-cutting sword, said to compel truth and pierce any defense."
+  aom_fragarach_name: "真言之剑 (Fragarach)"
+  aom_fragarach_desc: "努阿达的破风之刃，能刺穿一切防御并逼人吐实。"
 
   # Gáe Bulg (Scáthach's Spear)
-  aom_gae_bulg_name: "Gáe Bulg"
-  aom_gae_bulg_desc: "A terrifying spear wielded by Cú Chulainn, that tears apart from within. Given to him by his teacher Scáthach."
+  aom_gae_bulg_name: "盖·布尔格 (Gáe Bulg)"
+  aom_gae_bulg_desc: "库丘林所持的恐怖长矛，能自体内撕裂敌人。"
 
   # Caladbolg
-  aom_caladbolg_name: "Caladbolg"
-  aom_caladbolg_desc: "A mighty blade likened to a rainbow, capable of cleaving hills."
+  aom_caladbolg_name: "卡拉德博尔格 (Caladbolg)"
+  aom_caladbolg_desc: "如虹般闪耀的巨剑，能劈裂丘岭。"
 
   # Móralltach (the Great Fury)
-  aom_moralltach_name: "Móralltach"
-  aom_moralltach_desc: "The Great Fury, a sword of judgment gifted by a sea god."
+  aom_beagalltach_name: "贝加尔塔赫 (Beagalltach)"
+  aom_beagalltach_desc: "“小怒”之剑，莫拉尔塔赫的双生刃，迅疾如蛇。"
 
   # Beagalltach (the Little Fury)
-  aom_beagalltach_name: "Beagalltach"
-  aom_beagalltach_desc: "The Little Fury, twin to Móralltach, swift and sharp as a viper."
+  aom_beagalltach_name: "贝加尔塔赫 (Beagalltach)"
+  aom_beagalltach_desc: "“小怒”之剑，莫拉尔塔赫的双生刃，迅疾如蛇。"
 
   # Dubán (Cu Chulainn's Black Shield)
-  aom_duban_name: "Dubán"
-  aom_duban_desc: "The black shield of Cú Chulainn, a dark aegis imbued with dread."
+  aom_duban_name: "杜班 (Dubán)"
+  aom_duban_desc: "库丘林的黑盾，蕴藏恐惧与死亡的气息。"
 
   # Dyrnwyn (White Hilt)
-  aom_dyrnwyn_name: "Dyrnwyn"
-  aom_dyrnwyn_desc: "The White-Hilt, aflame in the hands of the worthy, a test of nobility."
+  aom_dyrnwyn_name: "白柄剑 (Dyrnwyn)"
+  aom_dyrnwyn_desc: "唯有高贵者方可持之，焰光灼心的试炼之剑。
 
   # Court Artifacts
   # Uaithne (The Dagda's Harp)
-  aom_uaithne_name: "Uaithne"
-  aom_uaithne_desc: "The Dagda's Harp, capable of stirring hearts to joy, sorrow, or sleep."
+  aom_uaithne_name: "乌艾涅琴 (Uaithne)"
+  aom_uaithne_desc: "达格达之竖琴，能令听者喜、悲或沉睡。"
 
   # Horn of Brân Galed
-  aom_horn_of_bran_galed_name: "Horn of Brân Galed"
-  aom_horn_of_bran_galed_desc: "A horn that can provide any drink the bearer desires."
+  aom_horn_of_bran_galed_name: "布兰·加莱德之角"
+  aom_horn_of_bran_galed_desc: "赐予持有者任意饮品的神角。"
 
   # Hamper of Gwyddno Garanhir
-  aom_hamper_of_gwyddno_name: "Hamper of Gwyddno Garanhir"
-  aom_hamper_of_gwyddno_desc: "A mystical basket that provides food endlessly to those of virtue."
+  aom_hamper_of_gwyddno_name: "格威德诺之篮"
+  aom_hamper_of_gwyddno_desc: "只为正直之人源源不断赐予食物的神篮。"
 
   # Pair Dadeni (Cauldron of Rebirth)
-  aom_pair_dadeni_name: "Pair Dadeni"
-  aom_pair_dadeni_desc: "The Cauldron of Rebirth, used to revive fallen warriors in ancient legend."
+  aom_pair_dadeni_name: "佩尔·达德尼 (Pair Dadeni)"
+  aom_pair_dadeni_desc: "重生之锅，在古代传说中用于复活阵亡的战士。"
 
   # Cauldron of Inspiration
-  aom_cauldron_of_inspiration_name: "Cauldron of Inspiration"
-  aom_cauldron_of_inspiration_desc: "A vessel of divine insight, granting wisdom to the seeker."
+  aom_cauldron_of_inspiration_name: "灵感之锅"
+  aom_cauldron_of_inspiration_desc: "神圣洞察力的容器，为寻求者提供智慧。"
 
 # Arthurian Artifacts
   # Inventory Artifacts
   # Excalibur (Caledfwlch)
-  aom_excalibur_name: "Excalibur"
-  aom_excalibur_desc: "The real Excalibur, the legendary sword of the Once and Future King Arthur, given to him by the Lady of the Lake."
+  aom_excalibur_name: "神剑"
+  aom_excalibur_desc: "真正的王者之剑，是曾经的亚瑟王和未来的亚瑟王的传奇之剑，由湖中仙女赠予他。"
 
   # Carnwennan (Arthur's Dagger)
-  aom_carnwennan_name: "Carnwennan"
-  aom_carnwennan_desc: "Arthur's dagger, said to conceal its bearer in shadow."
+  aom_carnwennan_name: "卡文南 (Carnwennan)"
+  aom_carnwennan_desc: "亚瑟的匕首，据说可以将持有者隐藏在阴影中。"
 
   # Rhongomyniad (Arthur's Spear)
-  aom_rhongomyniad_name: "Rhongomyniad"
-  aom_rhongomyniad_desc: "Arthur's spear, a weapon of unfailing accuracy and valor."
+  aom_rhongomyniad_name: "伦戈米尼亚德 (Rhongomyniad)"
+  aom_rhongomyniad_desc: "亚瑟的长矛，一件精准无比、勇猛无比的武器。"
 
   # Pridwen (Arthur's Shield)
-  aom_pridwen_name: "Pridwen"
-  aom_pridwen_desc: "A radiant shield adorned with the sigil of House Pendragon."
+  aom_pridwen_name: "普里德温"
+  aom_pridwen_desc: "一面闪耀的盾牌，饰有潘德拉贡家族的徽章。"
 
   # Merlin's Staff
-  aom_merlins_staff_name: "Merlin's Staff"
-  aom_merlins_staff_desc: "The staff of the archmage Merlin, brimming with arcane might."
+  aom_merlins_staff_name: "梅林的权杖"
+  aom_merlins_staff_desc: "大法师梅林的权杖，蕴含着奥术之力。"
 
   # Clarent (The Sword in the Stone)
-  aom_clarent_name: "Clarent"
-  aom_clarent_desc: "The Sword in the Stone, a symbol of rightful kingship over Avalon."
+  aom_clarent_name: "克拉伦特"
+  aom_clarent_desc: "石中剑，象征着对阿瓦隆的合法王权。"
 
   # Secace (Sir Lancelot's Sword)
-  aom_secace_name: "Secace"
-  aom_secace_desc: "The sword of Sir Lancelot, a peerless knight and tragic hero."
+  aom_secace_name: "塞卡塞 (Secace)"
+  aom_secace_desc: "无与伦比的骑士和悲剧英雄兰斯洛特爵士的宝剑。"
 
   # Courechouse (King Ban's Sword)
-  aom_courechouse_name: "Courechouse"
-  aom_courechouse_desc: "The blade of King Ban, forged for loyalty and legacy."
+  aom_courechouse_name: "库雷豪斯 (Courechouse)"
+  aom_courechouse_desc: "班王之剑，为忠诚与传承而铸就。"
 
   # Galatine (Sir Gawain's Sword)
-  aom_galatine_name: "Galatine"
-  aom_galatine_desc: "Sir Gawain's sword, glowing with the power of the sun."
+  aom_galatine_name: "加拉丁 (Galatine)"
+  aom_galatine_desc: "高文爵士之剑，闪耀着太阳的力量。"
 
   # Sword Of The Red Hilt (Sir Galahad's Sword)
-  aom_sword_of_the_red_hilt_name: "Sword of the Red Hilt"
-  aom_sword_of_the_red_hilt_desc: "The sacred blade wielded by Sir Galahad, purest of knights."
+  aom_sword_of_the_red_hilt_name: "红柄之剑 (Sword of the Red Hilt)"
+  aom_sword_of_the_red_hilt_desc: "最纯洁的骑士，加拉哈德爵士所持的神圣之剑。"
 
   # Court Artifacts
   # The Round Table
-  aom_throne_round_table_name: "The Round Table"
-  aom_throne_round_table_desc: "The legendary table of Arthur's court, symbolizing unity and chivalry."
+  aom_throne_round_table_name: "圆桌会议"
+  aom_throne_round_table_desc: "亚瑟王宫廷中的传奇餐桌，象征着团结与骑士精神。"
 
 # Finno-Ugric Artifacts
   # Inventory Artifacts
   # Ukonvasara (Hammer of Ukko)
-  aom_ukonvasara_name: "Ukonvasara"
-  aom_ukonvasara_desc: "The thunderous hammer of Ukko, god of the sky, crackling with divine energy."
+  aom_ukonvasara_name: "乌孔瓦萨拉 (Ukonvasara)"
+  aom_ukonvasara_desc: "天空之神乌科的雷霆之锤，迸发出神圣的能量。"
 
   # Tarnhelm
-  aom_tarnhelm_name: "Tarnhelm"
-  aom_tarnhelm_desc: "A magical helmet that grants its wearer the power of invisibility and transformation."
+  aom_tarnhelm_name: "塔恩海姆 (Tarnhelm)"
+  aom_tarnhelm_desc: "一顶神奇的头盔，赋予佩戴者隐身和变形的力量。"
 
   # Kalevan Miekka
-  aom_kalevan_miekka_name: "Kalevan Miekka"
-  aom_kalevan_miekka_desc: "The massive sword of Kaleva, forged from mythical ore and passed down by giants."
+  aom_kalevan_miekka_name: "卡莱万·米耶卡 (Kalevan Miekka)"
+  aom_kalevan_miekka_desc: "卡莱瓦的巨剑，由神话中的矿石锻造而成，由巨人传承下来。"
 
   # Court Artifacts
   # Sampo
-  aom_sampo_name: "Sampo"
-  aom_sampo_desc: "A mystical mill that brings fortune, grinding out grain, salt, and gold endlessly."
+  aom_sampo_name: "桑普 (Sampo)"
+  aom_sampo_desc: "一座神秘的磨坊，带来财富，源源不断地磨出谷物、盐和黄金。"
 
   # Kantele (Magical Harp)
-  aom_kantele_name: "Kantele"
-  aom_kantele_desc: "A harp of enchantment carved from the jawbone of a great pike, able to charm all who hear it."
+  aom_kantele_name: "坎特莱 (Kantele)"
+  aom_kantele_desc: "一把用巨型长矛下颚骨雕刻而成的魔法竖琴，能够迷惑所有听到它的人。"
 
 # Slavic Artifacts
   # Inventory Artifacts
   # Kladenets (Self-Swinging Sword)
-  aom_kladenets_name: "Kladenets"
-  aom_kladenets_desc: "A self-wielding sword said to strike with unerring power once drawn."
+  aom_kladenets_name: "克拉德内茨 (Kladenets)"
+  aom_kladenets_desc: "一把自动挥舞的剑，据说一旦拔出，就能发出无比强大的攻击力。"
 
   # Perun's Axe
-  aom_peruns_axe_name: "Perun's Axe"
-  aom_peruns_axe_desc: "The weapon of the thunder god Perun, capable of sundering mountains and calling storms."
+  aom_peruns_axe_name: "佩伦之斧"
+  aom_peruns_axe_desc: "雷神佩伦的武器，能够劈山斩浪，召唤风暴。"
 
   # Raskovnik (Magic Herb)
-  aom_raskovnik_name: "Raskovnik"
-  aom_raskovnik_desc: "A legendary herb that opens any lock and reveals hidden treasures."
+  aom_raskovnik_name: "拉斯科夫尼克"
+  aom_raskovnik_desc: "一种传奇草药，可以打开任何锁，找到隐藏的宝藏。"
 
   # The Firebird's Feather
-  aom_firebird_feather_name: "Firebird's Feather"
-  aom_firebird_feather_desc: "A radiant plume from the mythical Firebird, glowing with an otherworldly light."
+  aom_firebird_feather_name: "火鸟的羽毛"
+  aom_firebird_feather_desc: "神话中的火鸟的光芒四射的羽毛，闪耀着超凡脱俗的光芒。"
 
   # Court Artifacts
   # Koschei's Needle
-  aom_koscheis_needle_name: "Koschei's Needle"
-  aom_koscheis_needle_desc: "The secret to Koschei the Deathless' immortality, hidden within nested magical defenses."
+  aom_koscheis_needle_name: "科舍伊之针 (Koschei's Needle)"
+  aom_koscheis_needle_desc: "不死者科斯切伊永生的秘密，隐藏在层层魔法防御之中。"
 
   # Alatyr (Sacred Stone)
-  aom_alatyr_name: "Alatyr"
-  aom_alatyr_desc: "The mythical navel of the world, a stone of divine knowledge and piety."
+  aom_alatyr_name: "阿拉泰尔 (Alatyr)"
+  aom_alatyr_desc: "神话中的世界中心，一块象征神圣知识和虔诚的石头。"
 
   # Fern Flower
-  aom_fern_flower_name: "Fern Flower"
-  aom_fern_flower_desc: "A rare and magical bloom said to grant the finder health and prosperity."
+  aom_fern_flower_name: "蕨花"
+  aom_fern_flower_desc: "一种稀有而神奇的花朵，据说能赐予发现者健康和繁荣。"
 
   # Baba Yaga's Mortar and Pestle
-  aom_baba_yagas_mortar_name: "Baba Yaga's Mortar and Pestle"
-  aom_baba_yagas_mortar_desc: "The enchanted flying vessel of the witch Baba Yaga, gliding through skies and secrets alike. #italic Surely this simple mortar and pestle isn't it?#!"
+  aom_baba_yagas_mortar_name: "芭芭雅嘎的研钵和研杵"
+  aom_baba_yagas_mortar_desc: "女巫芭芭雅嘎的魔法飞行器，在天空和秘密中滑翔。#italic 这玩意儿就是个简单的研钵和研杵吧？#!"
 
 # Lovecraftian Artifacts
   # Inventory Artifacts
   # Necronomicon
-  aom_necronomicon_name: "Necronomicon"
-  aom_necronomicon_desc: "A blasphemous tome of forbidden knowledge penned by Abdul 'the Mad Arab' Alhazred."
+  aom_necronomicon_name: "死灵之书"
+  aom_necronomicon_desc: "一本亵渎神明的禁忌知识之书，由阿卜杜勒·“疯狂的阿拉伯人”阿尔哈兹莱德撰写。"
 
   # Book Of Eibon
-  aom_book_of_eibon_name: "Book of Eibon"
-  aom_book_of_eibon_desc: "An ancient tome said to contain the arcane secrets of the sorcerer Eibon, filled with forbidden knowledge from Hyperborea."
+  aom_book_of_eibon_name: "艾波恩之书"
+  aom_book_of_eibon_desc: "一本古老的典籍，据说蕴含着巫师艾波恩的神秘秘密，充满了来自希珀波利亚的禁忌知识。
 
   # Deep One's Tiara
-  aom_deep_ones_tiara_name: "Deep One's Tiara"
-  aom_deep_ones_tiara_desc: "A bizarre and alien headdress, crafted by the Deep Ones. Wearing it invokes dreams of underwater cities and eldritch chants."
+  aom_deep_ones_tiara_name: "深海者的冠冕 (Deep One's Tiara)"
+  aom_deep_ones_tiara_desc: "一件由深渊者打造的奇异而奇异的头饰。佩戴它会唤起对水下城市的梦境和神秘的吟唱。"
 
   # Hound Amulet
-  aom_hound_amulet_name: "Hound Amulet"
-  aom_hound_amulet_desc: "A talisman etched with the abhorrent sigil of Leng's cannibal cults, its presence evokes a sense of dread, whispers from beyond hint it summons something that should not be named."
+  aom_hound_amulet_name: "猎犬护身符"
+  aom_hound_amulet_desc: "这件护身符上刻有冷原食人教派的恐怖印记，它的存在唤起了一种恐惧，来自远方的低语暗示着它召唤着某种不该被提及的东西。"
 
   # Court Artifacts
   # The Shining Trapezohedron
-  aom_shining_trapezohedron_name: "The Shining Trapezohedron"
-  aom_shining_trapezohedron_desc: "A black, faceted crystal that pulses with an inner light. Those who gaze into it may speak with Nyarlathotep."
+  aom_shining_trapezohedron_name: "闪亮的偏方三面体 (The Shining Trapezohedron)"
+  aom_shining_trapezohedron_desc: "一块黑色的多面水晶，内部闪烁着光芒。凝视它的人可以与奈亚拉托提普对话。"
 
   # Cthulhu Idol
-  aom_cthulhu_idol_name: "Cthulhu Idol"
-  aom_cthulhu_idol_desc: "A grotesque statue of the Great Old One, Cthulhu. Just possessing it causes unsettling dreams and whispers in the night."
+  aom_cthulhu_idol_name: "克苏鲁偶像"
+  aom_cthulhu_idol_desc: "一座怪诞的旧日支配者克苏鲁雕像。仅仅拥有它，就会引发令人不安的梦境，并在夜里发出低语。"
 
-  # The Sliver Key
-  aom_sliver_key_name: "The Silver Key"
-  aom_sliver_key_desc: "A mystical key said to unlock portals to the Dreamlands and dimensions beyond mortal comprehension. It reveals paths hidden from even the most seasoned traveler."
+  # The Silver Key
+  aom_sliver_key_name: "银钥匙"
+  aom_sliver_key_desc: "一把神秘的钥匙，据说可以打开通往梦境和凡人无法理解的维度的入口。它能揭示即使是最经验丰富的旅行者也难以发现的道路。"
 
   # Confessions of Clithanus
-  aom_confessions_of_clithanus_name: "Confessions of Clithanus"
-  aom_confessions_of_clithanus_desc: "A rare and dangerous manuscript recounting terrible rites and unspeakable worship by ancient cults."
+  aom_confessions_of_clithanus_name: "克利塔努斯的忏悔录 (Confessions of Clithanus)"
+  aom_confessions_of_clithanus_desc: "一份罕见而危险的手稿，记载了古代邪教的可怕仪式和难以言喻的崇拜。"
 
   # Pnakotic Manuscripts
-  aom_pnakotic_manuscripts_name: "Pnakotic Manuscripts"
-  aom_pnakotic_manuscripts_desc: "Antediluvian texts chronicling the lives and knowledge of the Great Race of Yith. Deciphering them risks one's sanity."
+  aom_pnakotic_manuscripts_name: "纳科特抄本 (Pnakotic Manuscripts)"
+  aom_pnakotic_manuscripts_desc: "记载伊斯伟大种族生活和知识的古老文献。解读这些文献可能会危及一个人的理智。"
 
   # The Mirror Of Nitocris
-  aom_mirror_of_nitocris_name: "Mirror of Nitocris"
-  aom_mirror_of_nitocris_desc: "An enchanted artifact once belonging to the Queen of the Black Pharaoh. Reflections seen in it are never truly your own."
+  aom_mirror_of_nitocris_name: "尼托克丽丝之镜"
+  aom_mirror_of_nitocris_desc: "一件曾属于黑法老女王的魔法神器。其中的倒影永远不会真正属于你。"
 
 # Mesopotamian Artifacts
   # Inventory Artifacts
   # Sharur (Ninurta's Mace)
-  aom_sharur_name: "Sharur"
-  aom_sharur_desc: "The divine mace of Ninurta, said to speak and fly on its own, crushing the enemies of the gods."
+  aom_sharur_name: "沙鲁尔 (Sharur)"
+  aom_sharur_desc: "尼努尔塔的神圣权杖，据说可以自行说话和飞行，粉碎诸神的敌人。"
 
   # Imhullu (Marduk's Weapon)
-  aom_imhullu_name: "Imhullu"
-  aom_imhullu_desc: "The wind-born weapon wielded by Marduk to slay Tiamat and bring order to chaos."
+  aom_imhullu_name: "伊姆胡鲁 (Imhullu)"
+  aom_imhullu_desc: "马尔杜克挥舞的风生武器，用来杀死提亚马特，并将秩序带入混沌。"
 
   # Marduk's Net
-  aom_marduks_net_name: "Marduk's Net"
-  aom_marduks_net_desc: "Woven with divine cunning, this net once bound the primordial dragon Tiamat."
+  aom_marduks_net_name: "马杜克之网 (Marduk's Net)"
+  aom_marduks_net_desc: "这张网以神圣的狡猾编织而成，曾束缚着原始巨龙提亚马特。"
 
   # Court Artifacts
   # Tablets of Destinies
-  aom_tablet_of_destinies_name: "Tablets of Destinies"
-  aom_tablet_of_destinies_desc: "These ancient tablets hold the decrees of the gods and the fate of all living things."
+  aom_tablet_of_destinies_name: "命运石板"
+  aom_tablet_of_destinies_desc: "这些古老的石板记载着诸神的法令和所有生灵的命运。"
 
   # Bull of Heaven's Horns
-  aom_bull_of_heaven_name: "Bull of Heaven's Horns"
-  aom_bull_of_heaven_desc: "Trophies from the slain Bull of Heaven, their power still reverberates with celestial rage."
+  aom_bull_of_heaven_name: "天牛之角 (Bull of Heaven's Horns)"
+  aom_bull_of_heaven_desc: "这是被击杀的天牛的战利品，其力量依然回荡着天界的愤怒。"
 
   # Lyre of Ur
-  aom_lyre_of_ur_name: "Lyre of Ur"
-  aom_lyre_of_ur_desc: "An instrument once played for kings and gods alike, singing of creation and conquest."
+  aom_lyre_of_ur_name: "乌尔七弦琴"
+  aom_lyre_of_ur_desc: "这件乐器曾为君王和众神所演奏，歌颂着创造与征服。"
 
   # Ereshkigal's Throne
-  aom_throne_ereshkigal_name: "Ereshkigal's Throne"
-  aom_throne_ereshkigal_desc: "The dark throne of the underworld queen, where all must bow in death's domain."
+  aom_throne_ereshkigal_name: "埃列什基伽勒的王座"
+  aom_throne_ereshkigal_desc: "冥界女王的黑暗王座，所有人都必须在死亡的领域屈服。"
 
 # Egyptian Artifacts
   # Inventory Artifacts
   # Book of Thoth
-  aom_book_of_thoth_name: "Book of Thoth"
-  aom_book_of_thoth_desc: "A tome of infinite wisdom and unspeakable power, said to contain the secrets of the gods."
+  aom_book_of_thoth_name: "托特之书"
+  aom_book_of_thoth_desc: "一本蕴含无限智慧和不可言喻力量的巨著，据说蕴藏着诸神的秘密。"
 
   # Spear of Ra
-  aom_spear_of_ra_name: "Spear of Ra"
-  aom_spear_of_ra_desc: "The solar weapon of the sun god, said to burn as bright as the midday sky."
+  aom_spear_of_ra_name: "拉之矛"
+  aom_spear_of_ra_desc: "太阳神的太阳武器，据说其光芒如正午的天空般明亮。"
 
   # Knife of Isis
-  aom_knife_of_isis_name: "Knife of Isis"
-  aom_knife_of_isis_desc: "An enchanted blade used in sacred rites and divine vengeance alike."
+  aom_knife_of_isis_name: "伊西斯之刀"
+  aom_knife_of_isis_desc: "一把用于神圣仪式和神圣复仇的魔法之刃。"
 
   # Eye of Horus
-  aom_eye_of_horus_name: "Eye of Horus"
-  aom_eye_of_horus_desc: "A powerful symbol of protection, healing, and royal legitimacy."
+  aom_eye_of_horus_name: "荷鲁斯之眼"
+  aom_eye_of_horus_desc: "象征着保护、治愈和王权的强大象征。"
 
   # Was-sceptre
-  aom_was_sceptre_name: "Was-sceptre"
-  aom_was_sceptre_desc: "A scepter associated with divine authority and power, often held by gods and pharaohs alike. It projects both control and protection."
+  aom_was_sceptre_name: "权杖 (Was-sceptre)"
+  aom_was_sceptre_desc: "一根与神圣权威和力量相关的权杖，通常由神和法老持有。它既象征着控制，也象征着保护。"
 
   # Pschent (Double Crown of Egypt)
-  aom_pschent_name: "Pschent"
-  aom_pschent_desc: "The combined Red and White Crowns, symbolizing dominion over Upper and Lower Egypt."
+  aom_pschent_name: "普先特 (Pschent)"
+  aom_pschent_desc: "红白相间的王冠，象征着对上下埃及的统治。"
 
   # Hedjet (White Crown of Upper Egypt)
-  aom_hedjet_name: "Hedjet"
-  aom_hedjet_desc: "The regal headpiece of Upper Egypt, worn by pharaohs to assert their celestial rule."
+  aom_hedjet_name: "赫杰特 (Hedjet)"
+  aom_hedjet_desc: "上埃及的王冠，法老佩戴以彰显其天国统治。"
 
   # Deshret (Red Crown of Lower Egypt)
-  aom_deshret_name: "Deshret"
-  aom_deshret_desc: "The flame-shaped crown of Lower Egypt, linked to divine authority and the goddess Wadjet."
+  aom_deshret_name: "德什雷特 (Deshret)"
+  aom_deshret_desc: "下埃及的火焰形王冠，象征着神权和女神瓦吉特。"
 
   # Court Artifacts
   # Neith's Loom
-  aom_neiths_loom_name: "Neith's Loom"
-  aom_neiths_loom_desc: "Said to weave the tapestry of life and death, threads spun by the creator goddess herself."
+  aom_neiths_loom_name: "奈斯的织布机 (Neith's Loom)" 
+  aom_neiths_loom_desc: "据说它编织着生命与死亡的织锦，其丝线由创世女神亲自纺出。"
 
   # Feather of Ma'at
-  aom_feather_of_maat_name: "Feather of Ma'at"
-  aom_feather_of_maat_desc: "A symbol of balance and cosmic justice, used to weigh souls in the afterlife."
+  aom_feather_of_maat_name: "玛特之羽"
+  aom_feather_of_maat_desc: "象征着平衡与宇宙正义，用于称量来世的灵魂。"
 
   # Anubis' Scales
-  aom_anubis_scales_name: "Anubis' Scales"
-  aom_anubis_scales_desc: "Used in the weighing of the heart ceremony—an instrument of judgment and eternal fate."
+  aom_anubis_scales_name: "阿努比斯的鳞片"
+  aom_anubis_scales_desc: "用于称量心脏仪式，是审判和永恒命运的工具。"
 
 # Chinese Artifacts
   # Inventory Artifacts
   # Pangu's Axe
-  aom_pangu_axe_name: "Pangu's Axe"
-  aom_pangu_axe_desc: "The mythic axe that split heaven and earth, wielded by the creator god Pangu."
+  aom_pangu_axe_name: "盘古斧"
+  aom_pangu_axe_desc: "神话中开天辟地的神斧，由创世神盘古所持。"
 
   # Ruyi Jingu Bang (Sun Wukong's Staff)
-  aom_ruyi_jingu_bang_name: "Ruyi Jingu Bang"
-  aom_ruyi_jingu_bang_desc: "The indestructible staff of Sun Wukong, capable of growing to colossal size or shrinking to a needle."
+  aom_ruyi_jingu_bang_name: "如意金箍棒"
+  aom_ruyi_jingu_bang_desc: "孙悟空的坚不可摧之杖，可以变大到巨大，也可以缩小到针尖。"
 
   # Sun Wukong's Boots
-  aom_wukong_boots_name: "Sun Wukong's Boots"
-  aom_wukong_boots_desc: "Boots of the Monkey King that allow one to somersault across the skies and ride clouds."
+  aom_wukong_boots_name: "孙悟空之靴"
+  aom_wukong_boots_desc: "孙悟空之靴，可翻腾腾空，腾云驾雾。"
 
   # Peach of Immortality
-  aom_peach_of_immortality_name: "Peach of Immortality"
-  aom_peach_of_immortality_desc: "Ripened once every 3,000 years, these peaches grant eternal life to those who consume them."
+  aom_peach_of_immortality_name: "长生不老桃"
+  aom_peach_of_immortality_desc: "此桃每三千年成熟一次，食用者可获得永生。"
 
   # Xuan Yuan Sword
-  aom_xuan_yuan_sword_name: "Xuan Yuan Sword"
-  aom_xuan_yuan_sword_desc: "The sacred blade of the Yellow Emperor, symbol of justice and divine rule."
+  aom_xuan_yuan_sword_name: "轩辕剑"
+  aom_xuan_yuan_sword_desc: "黄帝的圣剑，象征着正义与神圣统治。"
 
   # Erlang Shen's Spear
-  aom_erlang_spear_name: "Erlang Shen's Spear"
-  aom_erlang_spear_desc: "The heavenly spear of Erlang Shen, capable of striking demons with unerring force."
+  aom_erlang_spear_name: "二郎神枪"
+  aom_erlang_spear_desc: "二郎神的天枪，能够以精准的威力击杀恶魔。"
 
   # Kenkonken
-  aom_kenkonken_name: "Kenkonken"
-  aom_kenkonken_desc: "The flaming chakram of Nezha, a weapon of divine rebellion and dazzling agility."
+  aom_kenkonken_name: "肯康肯"
+  aom_kenkonken_desc: "哪吒的火焰轮轮，一种神圣叛逆和令人眼花缭乱的敏捷武器。"
 
   # Qiankun Dai
-  aom_qiankun_dai_name: "Qiankun Dai"
-  aom_qiankun_dai_desc: "A cosmic pouch capable of holding an endless array of weapons and treasures, wielded by the boy-god Nezha."
+  aom_qiankun_dai_name: "戴乾坤"
+  aom_qiankun_dai_desc: "一个宇宙袋，能够容纳无穷无尽的武器和宝藏，由童神哪吒所使用。"
 
   # Sword of Goujian
-  aom_sword_of_goujian_name: "Sword of Goujian"
-  aom_sword_of_goujian_desc: "An ancient sword that defied time and corrosion, belonging to the legendary King Goujian of Yue."
+  aom_sword_of_goujian_name: "勾践之剑"
+  aom_sword_of_goujian_desc: "一把抗拒时间和腐蚀的古剑，属于传说中的越王勾践。"
 
   # Green Dragon Crescent Blade (Guan Yu's Weapon)
-  aom_green_dragon_blade_name: "Green Dragon Crescent Blade"
-  aom_green_dragon_blade_desc: "The weapon of Guan Yu, General-Saint of Loyalty and Righteousness, said to weigh over 80 jin."
+  aom_green_dragon_blade_name: "青龙偃月刀"
+  aom_green_dragon_blade_desc: "忠义圣将关羽的武器，据说重达八十余斤。"
 
   # Zhang Fei's Spear
-  aom_zhang_fei_spear_name: "Zhang Fei's Spear"
-  aom_zhang_fei_spear_desc: "The viper-tipped spear of the fierce and impulsive Zhang Fei, forged for battlefield fury."
+  aom_zhang_fei_spear_name: "张飞枪"
+  aom_zhang_fei_spear_desc: "这把毒蛇尖枪是张飞为杀戮狂暴而打造的。"
 
   # Hou Yi's Bow
-  aom_hou_yi_bow_name: "Hou Yi's Bow"
-  aom_hou_yi_bow_desc: "With this divine bow, Hou Yi shot down nine suns, saving the world from scorching ruin."
+  aom_hou_yi_bow_name: "后羿弓"
+  aom_hou_yi_bow_desc: "后羿用这把神弓射下了九个太阳，拯救了人间免于灭亡。"
 
   # Gan Jiang
-  aom_gan_jiang_name: "Gan Jiang"
-  aom_gan_jiang_desc: "One of two legendary swords forged by Gan Jiang and Mo Ye—tempered in suffering, veiled in sorrow."
+  aom_gan_jiang_name: "干将"
+  aom_gan_jiang_desc: "干将与莫邪共同铸造的两把传奇宝剑之一，历经磨难，蕴藏着悲伤。"
 
   # Mo Ye
-  aom_mo_ye_name: "Mo Ye"
-  aom_mo_ye_desc: "The twin to Gan Jiang, this blade symbolizes devotion and sacrifice beyond the forge."
+  aom_mo_ye_name: "莫邪"
+  aom_mo_ye_desc: "这把剑与干将同为孪生兄弟，象征着超越锻造的奉献与牺牲。"
 
   # Mianguan
-  aom_mianguan_name: "Mianguan"
-  aom_mianguan_desc: "An imperial crown of ancient China, worn by sages and sovereigns who claimed the Mandate of Heaven."
+  aom_mianguan_name: "冕冠"
+  aom_mianguan_desc: "中国古代的皇冠，由奉天命的圣贤君主佩戴。"
 
   # Court Artifacts
   # Heirloom Seal of the Realm
-  aom_heirloom_seal_name: "Heirloom Seal of the Realm"
-  aom_heirloom_seal_desc: "Engraved with 'Having received the Mandate of Heaven, may the emperor lead a long and prosperous life.' The symbol of true imperial authority."
+  aom_heirloom_seal_name: "传世宝玺"
+  aom_heirloom_seal_desc: "镌刻‘承天命，祝君长寿’，象征真正的皇权。"
 
   # Mirror of Retribution
-  aom_mirror_of_retribution_name: "Mirror of Retribution"
-  aom_mirror_of_retribution_desc: "A spiritual artifact said to reflect one's sins and reveal the crimes of the soul."
+  aom_mirror_of_retribution_name: "报应镜"
+  aom_mirror_of_retribution_desc: "一件灵器，据说可以照见人的罪孽，揭露灵魂的罪恶。"
 
   # Jade Books
-  aom_jade_books_name: "Jade Books"
-  aom_jade_books_desc: "Sacred texts carved in pure jade, preserving divine decrees and ancient rites of the heavens."
+  aom_jade_books_name: "玉书"
+  aom_jade_books_desc: "用纯玉雕刻的圣典，保存着天上的圣旨和古老的仪式。"
 
   # Jiuding
-  aom_jiuding_name: "Jiuding"
-  aom_jiuding_desc: "The Nine Tripod Cauldrons—sacred relics of dynastic legitimacy once possessed by the Son of Heaven."
+  aom_jiuding_name: "九鼎"
+  aom_jiuding_desc: "九鼎，天子所持有的王朝正统圣物。"
 
 # Easter Egg Artifacts
   # Inventory Artifacts
   # Soul Edge (Soul Calibur)
-  aom_soul_edge_name: "Soul Edge"
-  aom_soul_edge_desc: "A cursed blade of endless hunger, feeding on the souls of those it slays."
+  aom_soul_edge_name: "灵魂之刃"
+  aom_soul_edge_desc: "一把诅咒之刃，无尽饥饿，吞噬其所杀之人的灵魂"
 
   # Blackfyre (AGOT)
-  aom_blackfyre_name: "Blackfyre"
-  aom_blackfyre_desc: "The ancestral Valyrian steel sword of House Targaryen, passed down to rebels and kings alike."
+  aom_blackfyre_name: "黑火"
+  aom_blackfyre_desc: "坦格利安家族的祖传瓦雷利亚钢剑，世代相传，无论是叛逆者还是君王。"
 
   # One Ring (LotR)
-  aom_one_ring_name: "The One Ring"
-  aom_one_ring_desc: "Forged in secret by the Dark Lord, this ring binds all others to its will."
+  aom_one_ring_name: "至尊魔戒"
+  aom_one_ring_desc: "这枚魔戒由黑魔王秘密铸造，将所有其他魔戒都束缚在其意志之下。"
 
   # Elder Wand (Harry Potter)
-  aom_elder_wand_name: "Elder Wand"
-  aom_elder_wand_desc: "The deathly hallow said to make its wielder unbeatable—if they survive long enough."
+  aom_elder_wand_name: "老魔杖"
+  aom_elder_wand_desc: "死亡圣器之一，据说只要持有者存活足够长的时间，就能使其无敌。"
 
   # Court Artifacts
-  # Lightsaber (Starwars)
-  aom_lightsaber_name: "Lightsaber"
-  aom_lightsaber_desc: "A metal rod once hailed as an elegant weapon of a more civilized age, now little more than a gleaming relic."
+  # Lightsaber (Star Wars)
+  aom_lightsaber_name: "光剑"
+  aom_lightsaber_desc: "一根金属棒，曾被誉为文明时代的优雅武器，如今却不过是闪闪发光的遗物。"
 
   # Palantír (LotR)
-  aom_palantir_name: "Palantír"
-  aom_palantir_desc: "A seeing-stone from ancient Middle-earth, allowing vision across vast distances—and into peril."
+  aom_palantir_name: "帕兰提尔"
+  aom_palantir_desc: "一块来自古代中土世界的透视石，能够洞察远方，洞察危险。"

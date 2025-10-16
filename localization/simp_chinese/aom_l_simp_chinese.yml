@@ -1,412 +1,400 @@
 ﻿l_simp_chinese:
 # Artifact Types
-  artifact_bow_simple: "Bow"
-  artifact_armor_simple: "Armor"
-  artifact_sculpture_simple: "Sculpture"
-  artifact_weapon_simple: "Weapon"
-  artifact_pedestal_simple: "Pedestal"
+  artifact_bow_simple: "弓"
+  artifact_armor_simple: "护甲"
+  artifact_sculpture_simple: "雕像"
+  artifact_weapon_simple: "武器"
+  artifact_pedestal_simple: "基座"
 
 # Debug Descisions
-  aom_debug_transfer_all_artifacts: "Summon the Artifacts of Myth"
-  aom_debug_transfer_all_artifacts_desc: "Call upon the power of ancient myths and summon all existing mythological artifacts to your inventory."
-  aom_debug_transfer_all_artifacts_tooltip: "All known mythological artifacts will be transferred to your possession."
-  aom_debug_transfer_all_artifacts_confirm: "Yes, bring them to me!"
+  aom_debug_transfer_all_artifacts: "召唤神话遗物"
+  aom_debug_transfer_all_artifacts_desc: "呼唤古代神话的力量，将所有神话遗物召至你的宝库。"
+  aom_debug_transfer_all_artifacts_tooltip: "所有已知的神话遗物将被转移至你的拥有。"
+  aom_debug_transfer_all_artifacts_confirm: "是的，把它们带给我！"
 
-  aom_debug_create_all_artifacts: "Create All Mythical Artifacts"
-  aom_debug_create_all_artifacts_desc: "Conjure every artifact of legend into existence, channeling divine craftsmanship."
-  aom_debug_create_all_artifacts_tooltip: "All legendary artifacts will be freshly created and added to your inventory."
-  aom_debug_create_all_artifacts_confirm: "Yes, create them all for me!"
+  aom_debug_create_all_artifacts: "创造所有神话遗物"
+  aom_debug_create_all_artifacts_desc: "召唤传说中的工匠之力，将每一件神话遗物化为现实。"
+  aom_debug_create_all_artifacts_tooltip: "所有传奇遗物将被重新铸造并添加至你的宝库。"
+  aom_debug_create_all_artifacts_confirm: "是的，为我全部铸造！"
 
 # Artifact Spawning Decisions
-  aom_spawn_artifacts_decision: "Spawn Artifacts of Myth"
-  aom_spawn_artifacts_decision_desc: "By the Power of Grayskull!"
-  aom_spawn_artifacts_decision_tooltip: "Open this menu to spawn various mythological artifacts."
-  aom_spawn_artifacts_decision_confirm: "Confirm"
-  aom_spawn_artifacts_decision_tt: "Open a decision to pick which artifact to spawn."
+  aom_spawn_artifacts_decision: "生成神话遗物"
+  aom_spawn_artifacts_decision_desc: "凭借格雷斯卡尔的力量！"
+  aom_spawn_artifacts_decision_tooltip: "开启此菜单以生成各种神话遗物。"
+  aom_spawn_artifacts_decision_confirm: "确认"
+  aom_spawn_artifacts_decision_tt: "打开一个菜单以选择要生成的遗物。"
 
-  aom_spawn_norse_artifacts: "Norse Artifacts"
-  aom_spawn_norse_artifacts_tooltip: "Examples: Mjölnir, Brisingamen, Gram"
+  aom_spawn_norse_artifacts: "北欧遗物"
+  aom_spawn_norse_artifacts_tooltip: "示例: 米约尔尼尔 (Mjölnir), 布里辛加曼 (Brisingamen), 格拉姆剑"
 
-  aom_spawn_greco_roman_artifacts: "Greco-Roman Artifacts"
-  aom_spawn_greco_roman_artifacts_tooltip: "Examples: Zeus' Lightning Bolt, Necklace of Harmonia, the Cornucopia"
+  aom_spawn_greco_roman_artifacts: "希腊-罗马遗物"
+  aom_spawn_greco_roman_artifacts_tooltip: "示例: 宙斯的雷霆, 和谐项链, 丰饶之角"
 
-  aom_spawn_abrahamic_artifacts: "Open Abrahamic Artifact Menu"
-  aom_spawn_abrahamic_artifacts_tooltip: "Examples: the Holy Lance, Zulfiqar, Moses' Staff"
+  aom_spawn_abrahamic_artifacts: "开启亚伯拉罕诸教遗物菜单"
+  aom_spawn_abrahamic_artifacts_tooltip: "示例: 圣枪, 祖尔菲卡尔 (Zulfiqar), 摩西的杖"
 
-  aom_spawn_celtic_artifacts: "Open Celtic Artifact Menu"
-  aom_spawn_celtic_artifacts_tooltip: "Examples: Lugh's Sling, Dubán, the Horn of Brân Galed"
+  aom_spawn_celtic_artifacts: "开启凯尔特遗物菜单"
+  aom_spawn_celtic_artifacts_tooltip: "示例: 卢格的投石索, 杜班 (Dubán), 布兰·加列德的号角"
 
-  aom_spawn_arthurian_artifacts: "Open Arthurian Artifact Menu"
-  aom_spawn_arthurian_artifacts_tooltip: "Examples: Excalibur, the Round Table, Secace"
+  aom_spawn_arthurian_artifacts: "开启亚瑟王遗物菜单"
+  aom_spawn_arthurian_artifacts_tooltip: "示例: 圣剑, 圆桌, 塞凯斯 (Secace)"
 
-  aom_spawn_finno_ugric_artifacts: "Open Finno-Ugric Artifact Menu"
-  aom_spawn_finno_ugric_artifacts_tooltip: "Examples: Ukonvasara, Tarnhelm, Sampo"
+  aom_spawn_finno_ugric_artifacts: "开启芬诺-乌戈尔遗物菜单"
+  aom_spawn_finno_ugric_artifacts_tooltip: "示例: 乌孔瓦萨拉 (Ukonvasara), 塔恩赫尔姆 (Tarnhelm), 桑波 (Sampo)"
 
-  aom_spawn_slavic_artifacts: "Open Slavic Artifact Menu"
-  aom_spawn_slavic_artifacts_tooltip: "Examples: Perun's Axe, Koschei's Needle, Baba Yaga's Mortar and Pestle"
+  aom_spawn_slavic_artifacts: "开启斯拉夫遗物菜单"
+  aom_spawn_slavic_artifacts_tooltip: "示例: 佩伦之斧, 科谢伊的针, 巴巴雅加的研钵与杵"
 
-  aom_spawn_lovecraftian_artifacts: "Open Lovecraftian Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Necronomicon, The Shining Trapezohedron, The Sliver Key"
+  aom_spawn_lovecraftian_artifacts: "开启洛夫克拉夫特遗物菜单"
+  aom_spawn_lovecraftian_artifacts_tooltip: "示例: 死灵之书, 闪耀的梯形晶石 (Shining Trapezohedron), 银钥匙 (Silver Key)"
 
-  aom_spawn_mesopotamian_artifacts: "Open Mesopotamian Artifact Menu"
-  aom_spawn_mesopotamian_artifacts_tooltip: "Examples: Sharur, Tablet of Destinies, Ereshkigal's Throne"
+  aom_spawn_mesopotamian_artifacts: "开启美索不达米亚遗物菜单"
+  aom_spawn_mesopotamian_artifacts_tooltip: "示例: 沙鲁尔 (Sharur), 命运之碑, 埃列什基伽勒之座"
 
-  aom_spawn_egyptian_artifacts: "Open Egyptian Artifact Menu"
-  aom_spawn_egyptian_artifacts_tooltip: "Examples: Book of Thoth, Hedjet, Feather of Ma'at"
+  aom_spawn_egyptian_artifacts: "开启埃及遗物菜单"
+  aom_spawn_egyptian_artifacts_tooltip: "示例: 托特之书, 白冠, 玛阿特之羽"
 
-  aom_spawn_chinese_artifacts: "Open Chinese Artifact Menu"
-  aom_spawn_chinese_artifacts_tooltip: "Examples: Pangu's Axe, Hou Yi's Bow, Heirloom Seal of the Realm"
+  aom_spawn_chinese_artifacts: "开启中华遗物菜单"
+  aom_spawn_chinese_artifacts_tooltip: "示例: 盘古之斧, 后羿之弓, 传国玺"
 
-  aom_spawn_easter_egg_artifacts: "Open Easter Egg Artifact Menu"
-  aom_spawn_easter_egg_artifacts_tooltip: "Examples: Blackfyre, Elder Wand, Palantír"
+  aom_spawn_easter_egg_artifacts: "开启彩蛋遗物菜单"
+  aom_spawn_easter_egg_artifacts_tooltip: "示例: 黑火剑, 老魔杖, 真知晶石"
 
-  aom_disable_artifact_spawning: "Disable the Artifact Spawning Menu"
-  aom_disable_artifact_spawning_tooltip: "#R Warning:#! This disables the artifact spawning menu"
+  aom_disable_artifact_spawning: "关闭遗物生成菜单"
+  aom_disable_artifact_spawning_tooltip: "#R 警告:#! 这将禁用遗物生成菜单"
 
 # Drink from the Holy Grail
-  aom_drink_from_holy_grail_decision: "Drink from the Holy Grail"
-  aom_drink_from_holy_grail_decision_desc: "The Holy Grail brims with divine power. To drink from it is to taste eternal grace. It is a once in a century opportunity."
-  aom_drink_from_holy_grail_decision_tooltip: "Drink from the Holy Grail and gain its miraculous benefits."
-  aom_drink_from_holy_grail_decision_confirm: "Drink"
-  aom_drink_from_holy_grail_decision_tt: "You will drink from the Holy Grail."
-  aom_drink_from_holy_grail_decision_effect_tt_1: "As a [GetPietyLevelName( '(int32)3' )], drinking will heal thy wounds."
-  aom_drink_from_holy_grail_decision_effect_tt_2: "As a [GetPietyLevelName( '(int32)4' )], drinking will heal thy wounds and rid thee of disease."
-  aom_drink_from_holy_grail_decision_effect_tt_3: "As a [GetPietyLevelName( '(int32)5' )], drinking will heal thy wounds, rid thee of disease forever, and heal thy deformities."
-  aom_has_holy_grail: "You possess the Holy Grail"
-  aom_has_drunk_from_holy_grail: "You have #bold not#! drank from the Holy Grail in the last 100 years"
+  aom_drink_from_holy_grail_decision: "饮下圣杯"
+  aom_drink_from_holy_grail_decision_desc: "圣杯盈满神圣之力。饮下它便能尝到永恒的恩典——这是一世纪仅有一次的机缘。"
+  aom_drink_from_holy_grail_decision_tooltip: "饮下圣杯，获得奇迹般的恩赐。"
+  aom_drink_from_holy_grail_decision_confirm: "饮下"
+  aom_drink_from_holy_grail_decision_tt: "你将饮下圣杯。"
+  aom_drink_from_holy_grail_decision_effect_tt_1: "若你为[GetPietyLevelName( '(int32)3' )]，饮下后将治愈伤口。"
+  aom_drink_from_holy_grail_decision_effect_tt_2: "若你为[GetPietyLevelName( '(int32)4' )]，饮下后将治愈伤口并祛除疾病。"
+  aom_drink_from_holy_grail_decision_effect_tt_3: "若你为[GetPietyLevelName( '(int32)5' )]，饮下后将治愈伤口，永远祛除疾病，并恢复畸形之身。"
+  aom_has_holy_grail: "你拥有圣杯"
+  aom_has_drunk_from_holy_grail: "你在过去100年中#bold 未#!饮下过圣杯"
 
 # Claim Britannia
-  aom_claim_britannia_decision: "Claim Britannia"
-  aom_claim_britannia_decision_desc: "By the right of Clarent, the sword in the stone, claim the sum kingdoms of Britannia. Revealing Excalibur will cause men to rise for the true king."
-  aom_claim_britannia_decision_tooltip: "Claim the sum kingdoms of Britannia."
-  aom_claim_britannia_decision_confirm: "Stake your claim"
-  aom_has_clarent: "You possess the Clarent, the Sword in the Stone"
-  aom_claim_britannia_decision_effect_tt: "Your martial skill determines how many elite soldiers #italic (Men-at-Arms)#! will answer your call, while your culture's advancement #italic (Cultural Era)#! shapes the size of the peasant levy that rallies to your banner"
+  aom_claim_britannia_decision: "宣称不列颠统治权"
+  aom_claim_britannia_decision_desc: "凭借克拉伦特 (Clarent)——石中剑之名，宣称不列颠诸国的统治权。揭示圣剑 (Excalibur)将令众人起义，为真正的王者而战。"
+  aom_claim_britannia_decision_tooltip: "宣称不列颠诸国的统治权。"
+  aom_claim_britannia_decision_confirm: "宣示王权"
+  aom_has_clarent: "你拥有克拉伦特 (Clarent)，石中之剑"
+  aom_claim_britannia_decision_effect_tt: "你的军事技能决定将有多少精锐士兵#italic (近卫军)#!响应你的召唤，而你的文化发展#italic (文化时代)#!决定农民徭役军的规模。"
 
-  britannia_claim_army: "The True King's Army for Britannia"
+  britannia_claim_army: "不列颠真王之军"
 
 # Read the Necronomicon
-  aom_read_necronomicon_decision: "Read the Necronomicon"
-  aom_read_necronomicon_decision_desc: "Delve into the forbidden knowledge bound in human skin and inked in madness. Who knows what truths lie beyond?"
-  aom_read_necronomicon_decision_tooltip: "You will risk your sanity to gain unnatural knowledge from the accursed tome."
-  aom_read_necronomicon_decision_confirm: "Turn the page"
-  aom_has_necronomicon: "You possess the dreaded Necronomicon"
-  aom_has_read_necronomicon: "You have not yet read the Necronomicon in the last 10 years"
+  aom_read_necronomicon_decision: "阅读死灵之书"
+  aom_read_necronomicon_decision_desc: "深入那本以人皮装订、以疯狂之墨书写的禁忌知识。谁能知道真相的代价是什么？"
+  aom_read_necronomicon_decision_tooltip: "你将冒着理智的风险，从这本被诅咒的典籍中获得不自然的知识。"
+  aom_read_necronomicon_decision_confirm: "翻开书页"
+  aom_has_necronomicon: "你拥有死灵之书"
+  aom_has_read_necronomicon: "你在过去10年中尚未阅读死灵之书"
 
 # Gaze into the Mirror of Nitocris
-  aom_gaze_into_mirror_of_nitocris_decision: "Gaze into the Mirror of Nitocris"
-  aom_gaze_into_mirror_of_nitocris_decision_desc: "The ancient mirror, said to reflect not the face, but the soul. What you see may change you forever."
-  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "Peer into the Mirror of Nitocris to uncover secrets... and perhaps awaken something within."
-  aom_gaze_into_mirror_of_nitocris_decision_confirm: "Look within"
-  aom_has_mirror_of_nitocris: "You possess the Mirror of Nitocris"
-  aom_has_gazed_into_mirror_of_nitocris: "You have not gazed into the Mirror of Nitocris in the last 5 years"
-  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "The mirror may reveal a hidden secret held by one of your rivals, vassals, or courtiers."
+  aom_gaze_into_mirror_of_nitocris_decision: "凝视尼托克丽丝之镜"
+  aom_gaze_into_mirror_of_nitocris_decision_desc: "这面古老的镜子据说映照的不是容颜，而是灵魂。你所见之物，或将永远改变你自己。"
+  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "凝视尼托克丽丝之镜，以揭示秘密……也许唤醒你心中的某种力量。"
+  aom_gaze_into_mirror_of_nitocris_decision_confirm: "向内凝视"
+  aom_has_mirror_of_nitocris: "你拥有尼托克丽丝之镜"
+  aom_has_gazed_into_mirror_of_nitocris: "你在过去5年中尚未凝视尼托克丽丝之镜"
+  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "镜子可能揭示你的一位敌人、封臣或廷臣所隐藏的秘密。"
 
 # Combine White and Red Crowns (Egyptian)
-  aom_combine_white_and_red_crowns_decision: "Unite the Crowns of Egypt"
-  aom_combine_white_and_red_crowns_decision_desc: "With both the White Crown of Upper Egypt and the Red Crown of Lower Egypt in your possession, you can forge the Pschent, the Double Crown that symbolizes total dominion over the Nile and its people."
-  aom_combine_white_and_red_crowns_decision_tooltip: "Merge the White and Red Crowns into the Pschent."
-  aom_combine_white_and_red_crowns_decision_confirm: "Unite the Crowns"
-  aom_has_hedjet: "You possess Hedjet, the White Crown of Upper Egypt"
-  aom_has_deshret: "You possess Deshret, the Red Crown of Lower Egypt"
-  aom_has_combined_white_and_red_crowns: "You have not combined the White and Red Crowns in the last 20 years"
+  aom_combine_white_and_red_crowns_decision: "合并上下埃及之冠"
+  aom_combine_white_and_red_crowns_decision_desc: "当你同时持有上埃及的白冠 (Hedjet)与下埃及的红冠 (Deshret)时，你便可铸造普谢恩特 (Pschent)——象征对尼罗河与其人民完全统治的双重王冠。"
+  aom_combine_white_and_red_crowns_decision_tooltip: "融合白冠与红冠，铸造普谢恩特。"
+  aom_combine_white_and_red_crowns_decision_confirm: "统一王冠"
+  aom_has_hedjet: "你拥有白冠 (Hedjet)——上埃及之冠"
+  aom_has_deshret: "你拥有红冠 (Deshret)——下埃及之冠"
+  aom_has_combined_white_and_red_crowns: "你在过去20年中尚未合并白冠与红冠"
 
 # Convert to Hellenism
-  aom_convert_to_hellenism_decision: "Embrace Hellenism"
-  aom_convert_to_hellenism_decision_desc: "The divine relics of the Greco-Roman world whisper truths of forgotten gods. To walk the path of Plato, Apollo, and Jupiter is to reclaim the wisdom of antiquity."
-  aom_convert_to_hellenism_decision_tooltip: "Convert your faith to Hellenism if you hold a Greco-Roman artifact."
-  aom_convert_to_hellenism_decision_confirm: "Accept the Old Gods"
-  aom_has_greco_roman_artifact: "You possess a Greco-Roman artifact"
-
-# DOESN'T EXIST (MIGHT ADD)
-## Convert to Celtic
-  # aom_convert_to_celtic_decision: "Return to the Celtic Faith"
-  # aom_convert_to_celtic_decision_desc: "The ancient spirits of the forests and stones stir once more. With sacred relics in your grasp, the path of the druids, the Morrigan, and forgotten kings opens to you."
-  # aom_convert_to_celtic_decision_tooltip: "Convert your faith to Celtic Paganism if you hold a Celtic artifact."
-  # aom_convert_to_celtic_decision_confirm: "Follow the Way of the Ancients"
-  # aom_has_celtic_artifact: "You possess a Celtic artifact"
+  aom_convert_to_hellenism_decision: "皈依希腊古信仰"
+  aom_convert_to_hellenism_decision_desc: "希腊-罗马的神圣遗物低语着被遗忘诸神的真理。追随柏拉图、阿波罗与朱庇特的足迹，即是重拾古代智慧之道。"
+  aom_convert_to_hellenism_decision_tooltip: "若你拥有希腊-罗马遗物，可改信希腊古信仰。"
+  aom_convert_to_hellenism_decision_confirm: "接受旧神"
+  aom_has_greco_roman_artifact: "你拥有一件希腊-罗马遗物"
 
 # Convert to Norse
-  aom_convert_to_norse_decision: "Embrace the Old Norse Ways"
-  aom_convert_to_norse_decision_desc: "The runes crackle with divine energy. With relics tied to Odin, Thor, and Freyja in your hands, you may reclaim the fury and glory of the Old Norse faith."
-  aom_convert_to_norse_decision_tooltip: "Convert your faith to Norse Paganism if you hold a Norse artifact."
-  aom_convert_to_norse_decision_confirm: "Summon the Aesir"
-  aom_has_norse_artifact: "You possess a Norse artifact"
+  aom_convert_to_norse_decision: "拥抱古老的北欧信仰"
+  aom_convert_to_norse_decision_desc: "符文闪烁着神圣的能量。手握与奥丁、索尔、芙蕾雅有关的遗物，你可再次唤醒昔日北欧的狂怒与荣耀。"
+  aom_convert_to_norse_decision_tooltip: "若你拥有北欧遗物，可改信北欧异教。"
+  aom_convert_to_norse_decision_confirm: "召唤阿萨诸神"
+  aom_has_norse_artifact: "你拥有一件北欧遗物"
 
 # Convert to Finno Ugric
-  aom_convert_to_finno_ugric_decision: "Heed the Finno-Ugric Spirits"
-  aom_convert_to_finno_ugric_decision_desc: "From the snow-clad forests and ancient stone idols, voices of the old spirits call you. Possessing sacred items of the North, you are now able to follow the primal Finno-Ugric path once more."
-  aom_convert_to_finno_ugric_decision_tooltip: "Convert your faith to Finno-Ugric Paganism if you hold a Finno-Ugric artifact."
-  aom_convert_to_finno_ugric_decision_confirm: "Return to the Path of the Spirits"
-  aom_has_finno_ugric_artifact: "You possess a Finno-Ugric artifact"
+  aom_convert_to_finno_ugric_decision: "聆听芬诺-乌戈尔诸灵的呼唤"
+  aom_convert_to_finno_ugric_decision_desc: "在冰雪覆盖的森林与古老的石像之间，古灵的低语再次响起。手握北方的神圣遗物，你得以重踏原初的芬诺-乌戈尔之路。"
+  aom_convert_to_finno_ugric_decision_tooltip: "若你拥有芬诺-乌戈尔遗物，可改信芬诺-乌戈尔异教。"
+  aom_convert_to_finno_ugric_decision_confirm: "回归灵之道"
+  aom_has_finno_ugric_artifact: "你拥有一件芬诺-乌戈尔遗物"
 
 # Artifact Requirements Gamerule
-  rule_aom_artifact_requirements: "Artifact Requirements"
+  rule_aom_artifact_requirements: "遗物使用条件"
 
-  setting_aom_artifact_requirements_enabled: "#P Enabled#!"
-  setting_aom_artifact_requirements_enabled_desc: "Characters will need to fufill certain requirements to fully utilize specific artifacts."
+  setting_aom_artifact_requirements_enabled: "#P 启用#!"
+  setting_aom_artifact_requirements_enabled_desc: "角色需满足特定条件方能充分发挥特定遗物的力量。"
 
-  setting_aom_artifact_requirements_disabled: "#R Disabled#!"
-  setting_aom_artifact_requirements_disabled_desc: "Characters will be able to fully utilize any artifact."
+  setting_aom_artifact_requirements_disabled: "#R 禁用#!"
+  setting_aom_artifact_requirements_disabled_desc: "角色可无条件使用所有遗物。"
 
 # Norse Artifact Gamerule
-  rule_aom_generate_norse_artifacts: "Norse Artifact Generation"
+  rule_aom_generate_norse_artifacts: "北欧遗物生成"
 
-  setting_aom_generate_norse_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_norse_artifacts_all_desc: "All Norse mythological artifacts will be seeded into the game."
+  setting_aom_generate_norse_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_norse_artifacts_all_desc: "所有北欧神话遗物将被放入游戏中。"
 
-  setting_aom_generate_norse_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_norse_artifacts_only_god_desc: "Only illistrious artifacts associated with Norse myth will be seeded."
+  setting_aom_generate_norse_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_norse_artifacts_only_god_desc: "仅与北欧诸神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_norse_artifacts_only_legend: "#M  Only Legendary Artifacts#!"
-  setting_aom_generate_norse_artifacts_only_legend_desc: "All Norse artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_norse_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_norse_artifacts_only_legend_desc: "除卓越遗物外，所有北欧传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_norse_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_norse_artifacts_with_descision_desc: "Norse artifacts are created only via a special decision."
+  setting_aom_generate_norse_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_norse_artifacts_with_descision_desc: "北欧遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_norse_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_norse_artifacts_disabled_desc: "Norse artifacts will not be generated or seeded."
+  setting_aom_generate_norse_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_norse_artifacts_disabled_desc: "北欧遗物将不会被生成或放入游戏。"
 
 # Greco-Roman Artifact Gamerule
-  rule_aom_generate_greco_roman_artifacts: "Greco-Roman Artifact Generation"
+  rule_aom_generate_greco_roman_artifacts: "希腊-罗马遗物生成"
 
-  setting_aom_generate_greco_roman_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_all_desc: "All Greco-Roman mythological artifacts will be seeded into the game."
+  setting_aom_generate_greco_roman_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_greco_roman_artifacts_all_desc: "所有希腊-罗马神话遗物将被放入游戏中。"
 
-  setting_aom_generate_greco_roman_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Only illistrious artifacts associated with Greco-Roman myth will be seeded."
+  setting_aom_generate_greco_roman_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_greco_roman_artifacts_only_god_desc: "仅与希腊-罗马诸神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_greco_roman_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "All Greco-Roman artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_greco_roman_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "除卓越遗物外，所有希腊-罗马传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_greco_roman_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "Greco-Roman artifacts are created only via a special decision."
+  setting_aom_generate_greco_roman_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "希腊-罗马遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_greco_roman_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_greco_roman_artifacts_disabled_desc: "Greco-Roman artifacts will not be generated or seeded."
+  setting_aom_generate_greco_roman_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_greco_roman_artifacts_disabled_desc: "希腊-罗马遗物将不会被生成或放入游戏。"
 
 # Abrahamic Artifact Gamerule
-  rule_aom_generate_abrahamic_artifacts: "Abrahamic Artifact Generation"
+  rule_aom_generate_abrahamic_artifacts: "亚伯拉罕诸教遗物生成"
 
-  setting_aom_generate_abrahamic_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_all_desc: "All Abrahamic mythological artifacts will be seeded into the game."
+  setting_aom_generate_abrahamic_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_abrahamic_artifacts_all_desc: "所有亚伯拉罕诸教的神话遗物将被放入游戏中。"
 
-  setting_aom_generate_abrahamic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Only illistrious artifacts associated with Abrahamic myth will be seeded."
+  setting_aom_generate_abrahamic_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_abrahamic_artifacts_only_god_desc: "仅与亚伯拉罕诸教神话相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_abrahamic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "All Abrahamic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_abrahamic_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "除卓越遗物外，所有亚伯拉罕诸教传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_abrahamic_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "Abrahamic artifacts are created only via a special decision."
+  setting_aom_generate_abrahamic_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "亚伯拉罕诸教遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_abrahamic_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_abrahamic_artifacts_disabled_desc: "Abrahamic artifacts will not be generated or seeded."
+  setting_aom_generate_abrahamic_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_abrahamic_artifacts_disabled_desc: "亚伯拉罕诸教遗物将不会被生成或放入游戏。"
 
 # Celtic Artifact Gamerule
-  rule_aom_generate_celtic_artifacts: "Celtic Artifact Generation"
+  rule_aom_generate_celtic_artifacts: "凯尔特遗物生成"
 
-  setting_aom_generate_celtic_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_celtic_artifacts_all_desc: "All Celtic mythological artifacts will be seeded into the game."
+  setting_aom_generate_celtic_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_celtic_artifacts_all_desc: "所有凯尔特神话遗物将被放入游戏中。"
 
-  setting_aom_generate_celtic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_celtic_artifacts_only_god_desc: "Only illistrious artifacts associated with Celtic myth will be seeded."
+  setting_aom_generate_celtic_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_celtic_artifacts_only_god_desc: "仅与凯尔特诸神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_celtic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_celtic_artifacts_only_legend_desc: "All Celtic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_celtic_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_celtic_artifacts_only_legend_desc: "除卓越遗物外，所有凯尔特传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_celtic_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_celtic_artifacts_with_descision_desc: "Celtic artifacts are created only via a special decision."
+  setting_aom_generate_celtic_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_celtic_artifacts_with_descision_desc: "凯尔特遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_celtic_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_celtic_artifacts_disabled_desc: "Celtic artifacts will not be generated or seeded."
+  setting_aom_generate_celtic_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_celtic_artifacts_disabled_desc: "凯尔特遗物将不会被生成或放入游戏。"
 
 # Arthurian Artifact Gamerule
-  rule_aom_generate_arthurian_artifacts: "Arthurian Artifact Generation"
+  rule_aom_generate_arthurian_artifacts: "亚瑟王遗物生成"
 
-  setting_aom_generate_arthurian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_all_desc: "All Arthurian mythological artifacts will be seeded into the game."
+  setting_aom_generate_arthurian_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_arthurian_artifacts_all_desc: "所有亚瑟王传说的神话遗物将被放入游戏中。"
 
-  setting_aom_generate_arthurian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_only_god_desc: "Only illistrious artifacts associated with Arthurian myth will be seeded."
+  setting_aom_generate_arthurian_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_arthurian_artifacts_only_god_desc: "仅与亚瑟王传说相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_arthurian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_only_legend_desc: "All Arthurian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_arthurian_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_arthurian_artifacts_only_legend_desc: "除卓越遗物外，所有亚瑟王传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_arthurian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_arthurian_artifacts_with_descision_desc: "Arthurian artifacts are created only via a special decision."
+  setting_aom_generate_arthurian_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_arthurian_artifacts_with_descision_desc: "亚瑟王遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_arthurian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_arthurian_artifacts_disabled_desc: "Arthurian artifacts will not be generated or seeded."
+  setting_aom_generate_arthurian_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_arthurian_artifacts_disabled_desc: "亚瑟王遗物将不会被生成或放入游戏。"
 
 # Finno-Ugric Artifact Gamerule
-  rule_aom_generate_finno_ugric_artifacts: "Finno-Ugric Artifact Generation"
+  rule_aom_generate_finno_ugric_artifacts: "芬诺-乌戈尔遗物生成"
 
-  setting_aom_generate_finno_ugric_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_all_desc: "All Finno-Ugric mythological artifacts will be seeded into the game."
+  setting_aom_generate_finno_ugric_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_finno_ugric_artifacts_all_desc: "所有芬诺-乌戈尔神话遗物将被放入游戏中。"
 
-  setting_aom_generate_finno_ugric_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Only illistrious artifacts associated with Finno-Ugric myth will be seeded."
+  setting_aom_generate_finno_ugric_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "仅与芬诺-乌戈尔神话相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "All Finno-Ugric artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "除卓越遗物外，所有芬诺-乌戈尔传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "Finno-Ugric artifacts are created only via a special decision."
+  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "芬诺-乌戈尔遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_finno_ugric_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "Finno-Ugric artifacts will not be generated or seeded."
+  setting_aom_generate_finno_ugric_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "芬诺-乌戈尔遗物将不会被生成或放入游戏。"
 
 # Slavic Artifact Gamerule
-  rule_aom_generate_slavic_artifacts: "Slavic Artifact Generation"
+  rule_aom_generate_slavic_artifacts: "斯拉夫遗物生成"
 
-  setting_aom_generate_slavic_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_slavic_artifacts_all_desc: "All Slavic mythological artifacts will be seeded into the game."
+  setting_aom_generate_slavic_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_slavic_artifacts_all_desc: "所有斯拉夫神话遗物将被放入游戏中。"
 
-  setting_aom_generate_slavic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_slavic_artifacts_only_god_desc: "Only illistrious artifacts associated with Slavic myth will be seeded."
+  setting_aom_generate_slavic_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_slavic_artifacts_only_god_desc: "仅与斯拉夫神话相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_slavic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_slavic_artifacts_only_legend_desc: "All Slavic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_slavic_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_slavic_artifacts_only_legend_desc: "除卓越遗物外，所有斯拉夫传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_slavic_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_slavic_artifacts_with_descision_desc: "Slavic artifacts are created only via a special decision."
+  setting_aom_generate_slavic_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_slavic_artifacts_with_descision_desc: "斯拉夫遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_slavic_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_slavic_artifacts_disabled_desc: "Slavic artifacts will not be generated or seeded."
+  setting_aom_generate_slavic_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_slavic_artifacts_disabled_desc: "斯拉夫遗物将不会被生成或放入游戏。"
 
 # Lovecraftian Artifact Gamerule
-  rule_aom_generate_lovecraftian_artifacts: "Lovecraftian Artifact Generation"
+  rule_aom_generate_lovecraftian_artifacts: "洛夫克拉夫特遗物生成"
 
-  setting_aom_generate_lovecraftian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_all_desc: "All Lovecraftian mythological artifacts will be seeded into the game."
+  setting_aom_generate_lovecraftian_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_lovecraftian_artifacts_all_desc: "所有洛夫克拉夫特神话遗物将被放入游戏中。"
 
-  setting_aom_generate_lovecraftian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Only illistrious artifacts associated with Lovecraftian myth will be seeded."
+  setting_aom_generate_lovecraftian_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "仅与旧日支配者或外神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "All Lovecraftian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "除卓越遗物外，所有洛夫克拉夫特传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "Lovecraftian artifacts are created only via a special decision."
+  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "洛夫克拉夫特遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_lovecraftian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "Lovecraftian artifacts will not be generated or seeded."
+  setting_aom_generate_lovecraftian_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "洛夫克拉夫特遗物将不会被生成或放入游戏。"
 
 # Mesopotamian Artifact Gamerule
-  rule_aom_generate_mesopotamian_artifacts: "Mesopotamian Artifact Generation"
+  rule_aom_generate_mesopotamian_artifacts: "美索不达米亚遗物生成"
 
-  setting_aom_generate_mesopotamian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_all_desc: "All Mesopotamian mythological artifacts will be seeded into the game."
+  setting_aom_generate_mesopotamian_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_mesopotamian_artifacts_all_desc: "所有美索不达米亚神话遗物将被放入游戏中。"
 
-  setting_aom_generate_mesopotamian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "Only illistrious artifacts associated with Mesopotamian myth will be seeded."
+  setting_aom_generate_mesopotamian_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "仅与美索不达米亚诸神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_mesopotamian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "All Mesopotamian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_mesopotamian_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "除卓越遗物外，所有美索不达米亚传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_mesopotamian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_mesopotamian_artifacts_with_descision_desc: "Mesopotamian artifacts are created only via a special decision."
+  setting_aom_generate_mesopotamian_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_mesopotamian_artifacts_with_descision_desc: "美索不达米亚遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_mesopotamian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_mesopotamian_artifacts_disabled_desc: "Mesopotamian artifacts will not be generated or seeded."
+  setting_aom_generate_mesopotamian_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_mesopotamian_artifacts_disabled_desc: "美索不达米亚遗物将不会被生成或放入游戏。"
 
 # Egyptian Artifact Gamerule
-  rule_aom_generate_egyptian_artifacts: "Egyptian Artifact Generation"
+  rule_aom_generate_egyptian_artifacts: "埃及遗物生成"
 
-  setting_aom_generate_egyptian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_all_desc: "All Egyptian mythological artifacts will be seeded into the game."
+  setting_aom_generate_egyptian_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_egyptian_artifacts_all_desc: "所有古埃及神话遗物将被放入游戏中。"
 
-  setting_aom_generate_egyptian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_only_god_desc: "Only illistrious artifacts associated with Egyptian myth will be seeded."
+  setting_aom_generate_egyptian_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_egyptian_artifacts_only_god_desc: "仅与埃及诸神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_egyptian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_only_legend_desc: "All Egyptian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_egyptian_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_egyptian_artifacts_only_legend_desc: "除卓越遗物外，所有埃及传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_egyptian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_egyptian_artifacts_with_descision_desc: "Egyptian artifacts are created only via a special decision."
+  setting_aom_generate_egyptian_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_egyptian_artifacts_with_descision_desc: "埃及遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_egyptian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_egyptian_artifacts_disabled_desc: "Egyptian artifacts will not be generated or seeded."
+  setting_aom_generate_egyptian_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_egyptian_artifacts_disabled_desc: "埃及遗物将不会被生成或放入游戏。"
 
 # Chinese Artifact Gamerule
-  rule_aom_generate_chinese_artifacts: "Chinese Artifact Generation"
+  rule_aom_generate_chinese_artifacts: "中国遗物生成"
 
-  setting_aom_generate_chinese_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_chinese_artifacts_all_desc: "All Chinese mythological artifacts will be seeded into the game."
+  setting_aom_generate_chinese_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_chinese_artifacts_all_desc: "所有中国神话遗物将被放入游戏中。"
 
-  setting_aom_generate_chinese_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_chinese_artifacts_only_god_desc: "Only illistrious artifacts associated with Chinese myth will be seeded."
+  setting_aom_generate_chinese_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_chinese_artifacts_only_god_desc: "仅与中国神话诸神相关的卓越遗物会被放入游戏中。"
 
-  setting_aom_generate_chinese_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_chinese_artifacts_only_legend_desc: "All Chinese artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_chinese_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_chinese_artifacts_only_legend_desc: "除卓越遗物外，所有中国传奇遗物将被放入游戏中。"
 
-  setting_aom_generate_chinese_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_chinese_artifacts_with_descision_desc: "Chinese artifacts are created only via a special decision."
+  setting_aom_generate_chinese_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_chinese_artifacts_with_descision_desc: "中国遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_chinese_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_chinese_artifacts_disabled_desc: "Chinese artifacts will not be generated or seeded."
+  setting_aom_generate_chinese_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_chinese_artifacts_disabled_desc: "中国遗物将不会被生成或放入游戏。"
 
 # Easter Egg Artifact Gamerule
-  rule_aom_generate_easter_egg_artifacts: "Easter Egg Artifact Generation"
+  rule_aom_generate_easter_egg_artifacts: "彩蛋遗物生成"
 
-  setting_aom_generate_easter_egg_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_easter_egg_artifacts_all_desc: "All Easter Egg artifacts will be seeded into the game."
+  setting_aom_generate_easter_egg_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_easter_egg_artifacts_all_desc: "所有彩蛋类遗物将被放入游戏中。"
 
-  setting_aom_generate_easter_egg_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_easter_egg_artifacts_with_descision_desc: "Easter Egg artifacts are created only via a special decision."
+  setting_aom_generate_easter_egg_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_easter_egg_artifacts_with_descision_desc: "彩蛋遗物仅能通过特殊决策生成。"
 
-  setting_aom_generate_easter_egg_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_easter_egg_artifacts_disabled_desc: "Easter Egg artifacts will not be generated or seeded."
-
-# # Destroy Double Crown and make White and Red Crowns
-  #   aom_artifact_checks.0001.t: "The Crowns Divide"
-  #   aom_artifact_checks.0001.desc: "Without dominion over the full Nile, the power of the Double Crown begins to wane. The unity of Upper and Lower Egypt fractures, and the Pschent cannot be sustained. In its place, the Hedjet and Deshret reemerge, symbols of a once-divided land."
-  #   aom_artifact_checks.0001.option: "Let the crowns return to their origins"
+  setting_aom_generate_easter_egg_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_easter_egg_artifacts_disabled_desc: "彩蛋遗物将不会被生成或放入游戏。"
 
 # Lovecraftian Stress Gain
-  aom_artifact_checks.0002.t: "The Madness Creeps In"
-  aom_artifact_checks.0002.desc: "Something has stirred in the corners of your mind. Words you do not remember reading. Whispers behind your thoughts. Shapes behind your eyes. There is no turning back now."
-  aom_artifact_checks.0002.a: "I must hold it together... I must..."
-  aom_artifact_checks.0002.b: "It's all a divine joke! Hah! Brilliant!"
-  aom_artifact_checks.0002.c: "The stars... they align, don't they? I see them. I see them!"
-  aom_artifact_checks.0002.d: "Yes... yes, the veil is thinning. This is good."
+  aom_artifact_checks.0002.t: "疯狂正在蔓延"
+  aom_artifact_checks.0002.desc: "你心灵的角落中似乎有什么苏醒了。那些你不记得读过的文字，那些在思绪后方低语的声音，那些在眼底闪烁的形影……如今，已无回头之路。"
+  aom_artifact_checks.0002.a: "我必须保持清醒……必须……"
+  aom_artifact_checks.0002.b: "哈哈！原来这一切都是神的玩笑！太精彩了！"
+  aom_artifact_checks.0002.c: "群星……它们在排列，对吗？我看见了，我看见了！"
+  aom_artifact_checks.0002.d: "是的……是的，帷幕正在变薄。这是好事。"
 
 # Generic Terms
-  aom_event_option.next: "Next"
-  aom_event_option.previous: "Previous"
-  aom_event_option.close: "Close"
-  SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "Choose Artifact Pantheon"
+  aom_event_option.next: "下一个"
+  aom_event_option.previous: "上一个"
+  aom_event_option.close: "关闭"
+  SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "选择神器万神殿"
 
-  aom_artifact_spawning.1001.t: "Norse Artifact Menu"
-  aom_artifact_spawning.1011.t: "Greco-Roman Artifact Menu"
-  aom_artifact_spawning.1021.t: "Abrahamic Artifact Menu"
-  aom_artifact_spawning.1031.t: "Celtic Artifact Menu"
-  aom_artifact_spawning.1041.t: "Arthurian Artifact Menu"
-  aom_artifact_spawning.1051.t: "Finno-Ugric Artifact Menu"
-  aom_artifact_spawning.1061.t: "Slavic Artifact Menu"
-  aom_artifact_spawning.1071.t: "Lovecraftian Artifact Menu"
-  aom_artifact_spawning.1081.t: "Mesopotamian Artifact Menu"
-  aom_artifact_spawning.1091.t: "Egyptian Artifact Menu"
-  aom_artifact_spawning.1101.t: "Chinese Artifact Menu"
-  aom_artifact_spawning.1111.t: "Easter Egg Artifact Menu"
-  aom_artifact_spawning.desc: "Choose an Artifact to Spawn:"
+  aom_artifact_spawning.1001.t: "北欧遗物菜单"
+  aom_artifact_spawning.1011.t: "希腊-罗马遗物菜单"
+  aom_artifact_spawning.1021.t: "亚伯拉罕诸教遗物菜单"
+  aom_artifact_spawning.1031.t: "凯尔特遗物菜单"
+  aom_artifact_spawning.1041.t: "亚瑟王遗物菜单"
+  aom_artifact_spawning.1051.t: "芬诺-乌戈尔遗物菜单"
+  aom_artifact_spawning.1061.t: "斯拉夫遗物菜单"
+  aom_artifact_spawning.1071.t: "洛夫克拉夫特遗物菜单"
+  aom_artifact_spawning.1081.t: "美索不达米亚遗物菜单"
+  aom_artifact_spawning.1091.t: "埃及遗物菜单"
+  aom_artifact_spawning.1101.t: "中国遗物菜单"
+  aom_artifact_spawning.1111.t: "彩蛋遗物菜单"
+  aom_artifact_spawning.desc: "选择要生成的遗物："
 
-  game_rule_category_aom: "Artifacts of Myth"
+  game_rule_category_aom: "神话遗物"
 
-  every_close_or_extended_family_member_to_convert: "Every [close_family|E] or [extended_family|E] [character|E]"
+  every_close_or_extended_family_member_to_convert: "每位[close_family|E]或[extended_family|E][character|E]"
 
 # Perk Modifiers
-  read_necronomicon_decision_learning_gain: "Read the Necronomicon"
-  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "Gazed into the Mirror of Nitocris"
+  read_necronomicon_decision_learning_gain: "阅读 死灵之书"
+  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "凝视尼托克丽丝之镜"
 
 # Flavour
-  dyn_Alhazred: "Alhazred"
-  dynn_Alhazred_motto: "That is not dead which can eternal lie, And with strange aeons even death may die."
-  Clithanus: "Clithanus"
+  dyn_Alhazred: "阿尔哈兹莱德 (Alhazred)"
+  dynn_Alhazred_motto: "那不死之物永远潜伏，当奇异的纪元来临，死亡亦将消逝。"
+  Clithanus: "克利萨努斯 (Clithanus)"
 
-  nick_the_mad_arab: "the Mad Arab"
-  nick_the_mad_arab_desc: "Alhazred claimed to have glimpsed the true masters of reality and vowed to seek them out, they called him mad for doing so."
+  nick_the_mad_arab: "疯阿拉伯人"
+  nick_the_mad_arab_desc: "阿尔哈兹莱德声称自己窥见了现实的真正主宰，并发誓要寻觅他们——人们因此称他为‘疯阿拉伯人’。"
 
-  nick_the_mad_monk: "the Mad Monk"
-  nick_the_mad_monk_desc: "After delving into the forbidden catacombs beneath Hydestall, Clithanus emerged a changed man; his fevered ravings earned him the name 'the Mad Monk' among those who dared listen."
+  nick_the_mad_monk: "疯僧"
+  nick_the_mad_monk_desc: "在深入海德斯塔尔下的禁忌墓穴后，克利萨努斯再度现身，但已变得截然不同；他那狂热的呢喃使人称他为‘疯僧’。"
+

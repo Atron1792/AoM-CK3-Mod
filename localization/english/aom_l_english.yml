@@ -156,10 +156,10 @@
   setting_aom_generate_norse_artifacts_all_desc: "All Norse mythological artifacts will be seeded into the game."
 
   setting_aom_generate_norse_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_norse_artifacts_only_god_desc: "Only illistrious artifacts associated with Norse myth will be seeded."
+  setting_aom_generate_norse_artifacts_only_god_desc: "Only illustrious artifacts associated with Norse myth will be seeded."
 
   setting_aom_generate_norse_artifacts_only_legend: "#M  Only Legendary Artifacts#!"
-  setting_aom_generate_norse_artifacts_only_legend_desc: "All Norse artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_norse_artifacts_only_legend_desc: "All Norse artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_norse_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_norse_artifacts_with_descision_desc: "Norse artifacts are created only via a special decision."
@@ -174,10 +174,10 @@
   setting_aom_generate_greco_roman_artifacts_all_desc: "All Greco-Roman mythological artifacts will be seeded into the game."
 
   setting_aom_generate_greco_roman_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Only illistrious artifacts associated with Greco-Roman myth will be seeded."
+  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Only illustrious artifacts associated with Greco-Roman myth will be seeded."
 
   setting_aom_generate_greco_roman_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "All Greco-Roman artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "All Greco-Roman artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_greco_roman_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_greco_roman_artifacts_with_descision_desc: "Greco-Roman artifacts are created only via a special decision."
@@ -192,10 +192,10 @@
   setting_aom_generate_abrahamic_artifacts_all_desc: "All Abrahamic mythological artifacts will be seeded into the game."
 
   setting_aom_generate_abrahamic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Only illistrious artifacts associated with Abrahamic myth will be seeded."
+  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Only illustrious artifacts associated with Abrahamic myth will be seeded."
 
   setting_aom_generate_abrahamic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "All Abrahamic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "All Abrahamic artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_abrahamic_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_abrahamic_artifacts_with_descision_desc: "Abrahamic artifacts are created only via a special decision."
@@ -210,10 +210,10 @@
   setting_aom_generate_celtic_artifacts_all_desc: "All Celtic mythological artifacts will be seeded into the game."
 
   setting_aom_generate_celtic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_celtic_artifacts_only_god_desc: "Only illistrious artifacts associated with Celtic myth will be seeded."
+  setting_aom_generate_celtic_artifacts_only_god_desc: "Only illustrious artifacts associated with Celtic myth will be seeded."
 
   setting_aom_generate_celtic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_celtic_artifacts_only_legend_desc: "All Celtic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_celtic_artifacts_only_legend_desc: "All Celtic artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_celtic_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_celtic_artifacts_with_descision_desc: "Celtic artifacts are created only via a special decision."
@@ -228,10 +228,10 @@
   setting_aom_generate_arthurian_artifacts_all_desc: "All Arthurian mythological artifacts will be seeded into the game."
 
   setting_aom_generate_arthurian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_only_god_desc: "Only illistrious artifacts associated with Arthurian myth will be seeded."
+  setting_aom_generate_arthurian_artifacts_only_god_desc: "Only illustrious artifacts associated with Arthurian myth will be seeded."
 
   setting_aom_generate_arthurian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_only_legend_desc: "All Arthurian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_arthurian_artifacts_only_legend_desc: "All Arthurian artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_arthurian_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_arthurian_artifacts_with_descision_desc: "Arthurian artifacts are created only via a special decision."
@@ -246,10 +246,10 @@
   setting_aom_generate_finno_ugric_artifacts_all_desc: "All Finno-Ugric mythological artifacts will be seeded into the game."
 
   setting_aom_generate_finno_ugric_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Only illistrious artifacts associated with Finno-Ugric myth will be seeded."
+  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Only illustrious artifacts associated with Finno-Ugric myth will be seeded."
 
   setting_aom_generate_finno_ugric_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "All Finno-Ugric artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "All Finno-Ugric artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_finno_ugric_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "Finno-Ugric artifacts are created only via a special decision."
@@ -264,10 +264,10 @@
   setting_aom_generate_slavic_artifacts_all_desc: "All Slavic mythological artifacts will be seeded into the game."
 
   setting_aom_generate_slavic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_slavic_artifacts_only_god_desc: "Only illistrious artifacts associated with Slavic myth will be seeded."
+  setting_aom_generate_slavic_artifacts_only_god_desc: "Only illustrious artifacts associated with Slavic myth will be seeded."
 
   setting_aom_generate_slavic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_slavic_artifacts_only_legend_desc: "All Slavic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_slavic_artifacts_only_legend_desc: "All Slavic artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_slavic_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_slavic_artifacts_with_descision_desc: "Slavic artifacts are created only via a special decision."
@@ -282,10 +282,10 @@
   setting_aom_generate_lovecraftian_artifacts_all_desc: "All Lovecraftian mythological artifacts will be seeded into the game."
 
   setting_aom_generate_lovecraftian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Only illistrious artifacts associated with Lovecraftian myth will be seeded."
+  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Only illustrious artifacts associated with Lovecraftian myth will be seeded."
 
   setting_aom_generate_lovecraftian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "All Lovecraftian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "All Lovecraftian artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_lovecraftian_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "Lovecraftian artifacts are created only via a special decision."
@@ -300,10 +300,10 @@
   setting_aom_generate_mesopotamian_artifacts_all_desc: "All Mesopotamian mythological artifacts will be seeded into the game."
 
   setting_aom_generate_mesopotamian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "Only illistrious artifacts associated with Mesopotamian myth will be seeded."
+  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "Only illustrious artifacts associated with Mesopotamian myth will be seeded."
 
   setting_aom_generate_mesopotamian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "All Mesopotamian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "All Mesopotamian artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_mesopotamian_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_mesopotamian_artifacts_with_descision_desc: "Mesopotamian artifacts are created only via a special decision."
@@ -318,10 +318,10 @@
   setting_aom_generate_egyptian_artifacts_all_desc: "All Egyptian mythological artifacts will be seeded into the game."
 
   setting_aom_generate_egyptian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_only_god_desc: "Only illistrious artifacts associated with Egyptian myth will be seeded."
+  setting_aom_generate_egyptian_artifacts_only_god_desc: "Only illustrious artifacts associated with Egyptian myth will be seeded."
 
   setting_aom_generate_egyptian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_only_legend_desc: "All Egyptian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_egyptian_artifacts_only_legend_desc: "All Egyptian artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_egyptian_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_egyptian_artifacts_with_descision_desc: "Egyptian artifacts are created only via a special decision."
@@ -336,10 +336,10 @@
   setting_aom_generate_chinese_artifacts_all_desc: "All Chinese mythological artifacts will be seeded into the game."
 
   setting_aom_generate_chinese_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_chinese_artifacts_only_god_desc: "Only illistrious artifacts associated with Chinese myth will be seeded."
+  setting_aom_generate_chinese_artifacts_only_god_desc: "Only illustrious artifacts associated with Chinese myth will be seeded."
 
   setting_aom_generate_chinese_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_chinese_artifacts_only_legend_desc: "All Chinese artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_chinese_artifacts_only_legend_desc: "All Chinese artifacts except illustrious artifacts will be seeded."
 
   setting_aom_generate_chinese_artifacts_with_descision: "#V With Decision#!"
   setting_aom_generate_chinese_artifacts_with_descision_desc: "Chinese artifacts are created only via a special decision."

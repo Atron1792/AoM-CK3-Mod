@@ -1,412 +1,399 @@
 ﻿l_spanish:
 # Artifact Types
-  artifact_bow_simple: "Bow"
-  artifact_armor_simple: "Armor"
-  artifact_sculpture_simple: "Sculpture"
-  artifact_weapon_simple: "Weapon"
+  artifact_bow_simple: "Arco"
+  artifact_armor_simple: "Armadura"
+  artifact_sculpture_simple: "Escultura"
+  artifact_weapon_simple: "Arma"
   artifact_pedestal_simple: "Pedestal"
 
-# Debug Descisions
-  aom_debug_transfer_all_artifacts: "Summon the Artifacts of Myth"
-  aom_debug_transfer_all_artifacts_desc: "Call upon the power of ancient myths and summon all existing mythological artifacts to your inventory."
-  aom_debug_transfer_all_artifacts_tooltip: "All known mythological artifacts will be transferred to your possession."
-  aom_debug_transfer_all_artifacts_confirm: "Yes, bring them to me!"
+# Debug Decisions
+  aom_debug_transfer_all_artifacts: "Invocar los Artefactos del Mito"
+  aom_debug_transfer_all_artifacts_desc: "Invoca el poder de los mitos antiguos y reúne todos los artefactos mitológicos existentes en tu inventario."
+  aom_debug_transfer_all_artifacts_tooltip: "Todos los artefactos mitológicos conocidos serán transferidos a tu posesión."
+  aom_debug_transfer_all_artifacts_confirm: "¡Sí, tráemelos!"
 
-  aom_debug_create_all_artifacts: "Create All Mythical Artifacts"
-  aom_debug_create_all_artifacts_desc: "Conjure every artifact of legend into existence, channeling divine craftsmanship."
-  aom_debug_create_all_artifacts_tooltip: "All legendary artifacts will be freshly created and added to your inventory."
-  aom_debug_create_all_artifacts_confirm: "Yes, create them all for me!"
+  aom_debug_create_all_artifacts: "Crear Todos los Artefactos Míticos"
+  aom_debug_create_all_artifacts_desc: "Conjura cada artefacto de leyenda a la existencia, canalizando la artesanía divina."
+  aom_debug_create_all_artifacts_tooltip: "Todos los artefactos legendarios serán creados y añadidos a tu inventario."
+  aom_debug_create_all_artifacts_confirm: "¡Sí, créalos todos para mí!"
 
 # Artifact Spawning Decisions
-  aom_spawn_artifacts_decision: "Spawn Artifacts of Myth"
-  aom_spawn_artifacts_decision_desc: "By the Power of Grayskull!"
-  aom_spawn_artifacts_decision_tooltip: "Open this menu to spawn various mythological artifacts."
-  aom_spawn_artifacts_decision_confirm: "Confirm"
-  aom_spawn_artifacts_decision_tt: "Open a decision to pick which artifact to spawn."
+  aom_spawn_artifacts_decision: "Generar Artefactos del Mito"
+  aom_spawn_artifacts_decision_desc: "¡Por el poder de Grayskull!"
+  aom_spawn_artifacts_decision_tooltip: "Abre este menú para generar varios artefactos mitológicos."
+  aom_spawn_artifacts_decision_confirm: "Confirmar"
+  aom_spawn_artifacts_decision_tt: "Abre un menú para elegir qué artefacto generar."
 
-  aom_spawn_norse_artifacts: "Norse Artifacts"
-  aom_spawn_norse_artifacts_tooltip: "Examples: Mjölnir, Brisingamen, Gram"
+  aom_spawn_norse_artifacts: "Artefactos Nórdicos"
+  aom_spawn_norse_artifacts_tooltip: "Ejemplos: Mjölnir, Brisingamen, Gram"
 
-  aom_spawn_greco_roman_artifacts: "Greco-Roman Artifacts"
-  aom_spawn_greco_roman_artifacts_tooltip: "Examples: Zeus' Lightning Bolt, Necklace of Harmonia, the Cornucopia"
+  aom_spawn_greco_roman_artifacts: "Artefactos Grecorromanos"
+  aom_spawn_greco_roman_artifacts_tooltip: "Ejemplos: Rayo de Zeus, Collar de Harmonía, Cornucopia"
 
-  aom_spawn_abrahamic_artifacts: "Open Abrahamic Artifact Menu"
-  aom_spawn_abrahamic_artifacts_tooltip: "Examples: the Holy Lance, Zulfiqar, Moses' Staff"
+  aom_spawn_abrahamic_artifacts: "Abrir Menú de Artefactos Abrahámicos"
+  aom_spawn_abrahamic_artifacts_tooltip: "Ejemplos: Lanza Sagrada, Zulfiqar, Bastón de Moisés"
 
-  aom_spawn_celtic_artifacts: "Open Celtic Artifact Menu"
-  aom_spawn_celtic_artifacts_tooltip: "Examples: Lugh's Sling, Dubán, the Horn of Brân Galed"
+  aom_spawn_celtic_artifacts: "Abrir Menú de Artefactos Celtas"
+  aom_spawn_celtic_artifacts_tooltip: "Ejemplos: Honda de Lugh, Dubán, Cuerno de Brân Galed"
 
-  aom_spawn_arthurian_artifacts: "Open Arthurian Artifact Menu"
-  aom_spawn_arthurian_artifacts_tooltip: "Examples: Excalibur, the Round Table, Secace"
+  aom_spawn_arthurian_artifacts: "Abrir Menú de Artefactos Artúricos"
+  aom_spawn_arthurian_artifacts_tooltip: "Ejemplos: Excalibur, la Mesa Redonda, Secace"
 
-  aom_spawn_finno_ugric_artifacts: "Open Finno-Ugric Artifact Menu"
-  aom_spawn_finno_ugric_artifacts_tooltip: "Examples: Ukonvasara, Tarnhelm, Sampo"
+  aom_spawn_finno_ugric_artifacts: "Abrir Menú de Artefactos Finno-Úgricos"
+  aom_spawn_finno_ugric_artifacts_tooltip: "Ejemplos: Ukonvasara, Tarnhelm, Sampo"
 
-  aom_spawn_slavic_artifacts: "Open Slavic Artifact Menu"
-  aom_spawn_slavic_artifacts_tooltip: "Examples: Perun's Axe, Koschei's Needle, Baba Yaga's Mortar and Pestle"
+  aom_spawn_slavic_artifacts: "Abrir Menú de Artefactos Eslavos"
+  aom_spawn_slavic_artifacts_tooltip: "Ejemplos: Hacha de Perun, Aguja de Koschei, Mortero de Baba Yaga"
 
-  aom_spawn_lovecraftian_artifacts: "Open Lovecraftian Artifact Menu"
-  aom_spawn_lovecraftian_artifacts_tooltip: "Examples: Necronomicon, The Shining Trapezohedron, The Sliver Key"
+  aom_spawn_lovecraftian_artifacts: "Abrir Menú de Artefactos Lovecraftianos"
+  aom_spawn_lovecraftian_artifacts_tooltip: "Ejemplos: Necronomicón, Trapezoedro Brillante, Llave de Plata"
 
-  aom_spawn_mesopotamian_artifacts: "Open Mesopotamian Artifact Menu"
-  aom_spawn_mesopotamian_artifacts_tooltip: "Examples: Sharur, Tablet of Destinies, Ereshkigal's Throne"
+  aom_spawn_mesopotamian_artifacts: "Abrir Menú de Artefactos Mesopotámicos"
+  aom_spawn_mesopotamian_artifacts_tooltip: "Ejemplos: Sharur, Tablas del Destino, Trono de Ereshkigal"
 
-  aom_spawn_egyptian_artifacts: "Open Egyptian Artifact Menu"
-  aom_spawn_egyptian_artifacts_tooltip: "Examples: Book of Thoth, Hedjet, Feather of Ma'at"
+  aom_spawn_egyptian_artifacts: "Abrir Menú de Artefactos Egipcios"
+  aom_spawn_egyptian_artifacts_tooltip: "Ejemplos: Libro de Thoth, Hedjet, Pluma de Ma'at"
 
-  aom_spawn_chinese_artifacts: "Open Chinese Artifact Menu"
-  aom_spawn_chinese_artifacts_tooltip: "Examples: Pangu's Axe, Hou Yi's Bow, Heirloom Seal of the Realm"
+  aom_spawn_chinese_artifacts: "Abrir Menú de Artefactos Chinos"
+  aom_spawn_chinese_artifacts_tooltip: "Ejemplos: Hacha de Pangu, Arco de Hou Yi, Sello Hereditario del Reino"
 
-  aom_spawn_easter_egg_artifacts: "Open Easter Egg Artifact Menu"
-  aom_spawn_easter_egg_artifacts_tooltip: "Examples: Blackfyre, Elder Wand, Palantír"
+  aom_spawn_easter_egg_artifacts: "Abrir Menú de Artefactos de Pascua"
+  aom_spawn_easter_egg_artifacts_tooltip: "Ejemplos: Blackfyre, Varita de Saúco, Palantír"
 
-  aom_disable_artifact_spawning: "Disable the Artifact Spawning Menu"
-  aom_disable_artifact_spawning_tooltip: "#R Warning:#! This disables the artifact spawning menu"
+  aom_disable_artifact_spawning: "Desactivar el Menú de Generación de Artefactos"
+  aom_disable_artifact_spawning_tooltip: "#R Advertencia:#! Esto desactiva el menú de generación de artefactos"
 
 # Drink from the Holy Grail
-  aom_drink_from_holy_grail_decision: "Drink from the Holy Grail"
-  aom_drink_from_holy_grail_decision_desc: "The Holy Grail brims with divine power. To drink from it is to taste eternal grace. It is a once in a century opportunity."
-  aom_drink_from_holy_grail_decision_tooltip: "Drink from the Holy Grail and gain its miraculous benefits."
-  aom_drink_from_holy_grail_decision_confirm: "Drink"
-  aom_drink_from_holy_grail_decision_tt: "You will drink from the Holy Grail."
-  aom_drink_from_holy_grail_decision_effect_tt_1: "As a [GetPietyLevelName( '(int32)3' )], drinking will heal thy wounds."
-  aom_drink_from_holy_grail_decision_effect_tt_2: "As a [GetPietyLevelName( '(int32)4' )], drinking will heal thy wounds and rid thee of disease."
-  aom_drink_from_holy_grail_decision_effect_tt_3: "As a [GetPietyLevelName( '(int32)5' )], drinking will heal thy wounds, rid thee of disease forever, and heal thy deformities."
-  aom_has_holy_grail: "You possess the Holy Grail"
-  aom_has_drunk_from_holy_grail: "You have #bold not#! drank from the Holy Grail in the last 100 years"
+  aom_drink_from_holy_grail_decision: "Beber del Santo Grial"
+  aom_drink_from_holy_grail_decision_desc: "El Santo Grial rebosa de poder divino. Beber de él es probar la gracia eterna. Es una oportunidad que solo ocurre una vez por siglo."
+  aom_drink_from_holy_grail_decision_tooltip: "Bebe del Santo Grial y obtén sus beneficios milagrosos."
+  aom_drink_from_holy_grail_decision_confirm: "Beber"
+  aom_drink_from_holy_grail_decision_tt: "Beberás del Santo Grial."
+  aom_drink_from_holy_grail_decision_effect_tt_1: "Como un [GetPietyLevelName( '(int32)3' )], beber curará tus heridas."
+  aom_drink_from_holy_grail_decision_effect_tt_2: "Como un [GetPietyLevelName( '(int32)4' )], beber curará tus heridas y te librará de la enfermedad."
+  aom_drink_from_holy_grail_decision_effect_tt_3: "Como un [GetPietyLevelName( '(int32)5' )], beber curará tus heridas, te librará de la enfermedad para siempre y sanará tus deformidades."
+  aom_has_holy_grail: "Posees el Santo Grial"
+  aom_has_drunk_from_holy_grail: "No has bebido del Santo Grial en los últimos 100 años"
 
 # Claim Britannia
-  aom_claim_britannia_decision: "Claim Britannia"
-  aom_claim_britannia_decision_desc: "By the right of Clarent, the sword in the stone, claim the sum kingdoms of Britannia. Revealing Excalibur will cause men to rise for the true king."
-  aom_claim_britannia_decision_tooltip: "Claim the sum kingdoms of Britannia."
-  aom_claim_britannia_decision_confirm: "Stake your claim"
-  aom_has_clarent: "You possess the Clarent, the Sword in the Stone"
-  aom_claim_britannia_decision_effect_tt: "Your martial skill determines how many elite soldiers #italic (Men-at-Arms)#! will answer your call, while your culture's advancement #italic (Cultural Era)#! shapes the size of the peasant levy that rallies to your banner"
+  aom_claim_britannia_decision: "Reclamar Britania"
+  aom_claim_britannia_decision_desc: "Por el derecho de Clarent, la espada en la piedra, reclama los reinos de Britania. Revelar a Excalibur hará que los hombres se alcen por el verdadero rey."
+  aom_claim_britannia_decision_tooltip: "Reclama los reinos de Britania."
+  aom_claim_britannia_decision_confirm: "Reclamar mi derecho"
+  aom_has_clarent: "Posees Clarent, la Espada en la Piedra"
+  aom_claim_britannia_decision_effect_tt: "Tu habilidad marcial determina cuántos soldados de élite #italic (Hombres de Armas)#! responderán a tu llamado, mientras que el avance de tu cultura #italic (Era Cultural)#! determina el tamaño de la leva campesina que se unirá a tu estandarte"
 
-  britannia_claim_army: "The True King's Army for Britannia"
+  britannia_claim_army: "El Ejército del Verdadero Rey de Britania"
 
 # Read the Necronomicon
-  aom_read_necronomicon_decision: "Read the Necronomicon"
-  aom_read_necronomicon_decision_desc: "Delve into the forbidden knowledge bound in human skin and inked in madness. Who knows what truths lie beyond?"
-  aom_read_necronomicon_decision_tooltip: "You will risk your sanity to gain unnatural knowledge from the accursed tome."
-  aom_read_necronomicon_decision_confirm: "Turn the page"
-  aom_has_necronomicon: "You possess the dreaded Necronomicon"
-  aom_has_read_necronomicon: "You have not yet read the Necronomicon in the last 10 years"
+  aom_read_necronomicon_decision: "Leer el Necronomicón"
+  aom_read_necronomicon_decision_desc: "Sumérgete en el conocimiento prohibido encuadernado en piel humana y escrito con tinta de locura. ¿Quién sabe qué verdades se ocultan más allá?"
+  aom_read_necronomicon_decision_tooltip: "Arriesgarás tu cordura para obtener conocimiento antinatural del tomo maldito."
+  aom_read_necronomicon_decision_confirm: "Pasar la página"
+  aom_has_necronomicon: "Posees el temido Necronomicón"
+  aom_has_read_necronomicon: "No has leído el Necronomicón en los últimos 10 años"
 
 # Gaze into the Mirror of Nitocris
-  aom_gaze_into_mirror_of_nitocris_decision: "Gaze into the Mirror of Nitocris"
-  aom_gaze_into_mirror_of_nitocris_decision_desc: "The ancient mirror, said to reflect not the face, but the soul. What you see may change you forever."
-  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "Peer into the Mirror of Nitocris to uncover secrets... and perhaps awaken something within."
-  aom_gaze_into_mirror_of_nitocris_decision_confirm: "Look within"
-  aom_has_mirror_of_nitocris: "You possess the Mirror of Nitocris"
-  aom_has_gazed_into_mirror_of_nitocris: "You have not gazed into the Mirror of Nitocris in the last 5 years"
-  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "The mirror may reveal a hidden secret held by one of your rivals, vassals, or courtiers."
+  aom_gaze_into_mirror_of_nitocris_decision: "Mirar en el Espejo de Nitocris"
+  aom_gaze_into_mirror_of_nitocris_decision_desc: "El antiguo espejo, del que se dice que refleja no el rostro, sino el alma. Lo que veas puede cambiarte para siempre."
+  aom_gaze_into_mirror_of_nitocris_decision_tooltip: "Contempla el Espejo de Nitocris para descubrir secretos... y quizás despertar algo en tu interior."
+  aom_gaze_into_mirror_of_nitocris_decision_confirm: "Mirar dentro"
+  aom_has_mirror_of_nitocris: "Posees el Espejo de Nitocris"
+  aom_has_gazed_into_mirror_of_nitocris: "No has mirado en el Espejo de Nitocris en los últimos 5 años"
+  aom_gaze_into_mirror_of_nitocris_decision_effect_tt: "El espejo puede revelar un secreto oculto de uno de tus rivales, vasallos o cortesanos."
 
 # Combine White and Red Crowns (Egyptian)
-  aom_combine_white_and_red_crowns_decision: "Unite the Crowns of Egypt"
-  aom_combine_white_and_red_crowns_decision_desc: "With both the White Crown of Upper Egypt and the Red Crown of Lower Egypt in your possession, you can forge the Pschent, the Double Crown that symbolizes total dominion over the Nile and its people."
-  aom_combine_white_and_red_crowns_decision_tooltip: "Merge the White and Red Crowns into the Pschent."
-  aom_combine_white_and_red_crowns_decision_confirm: "Unite the Crowns"
-  aom_has_hedjet: "You possess Hedjet, the White Crown of Upper Egypt"
-  aom_has_deshret: "You possess Deshret, the Red Crown of Lower Egypt"
-  aom_has_combined_white_and_red_crowns: "You have not combined the White and Red Crowns in the last 20 years"
+  aom_combine_white_and_red_crowns_decision: "Unir las Coronas de Egipto"
+  aom_combine_white_and_red_crowns_decision_desc: "Con ambas coronas, la Blanca del Alto Egipto y la Roja del Bajo Egipto, en tu posesión, puedes forjar el Pschent, la Doble Corona que simboliza el dominio total sobre el Nilo y su pueblo."
+  aom_combine_white_and_red_crowns_decision_tooltip: "Fusiona la Corona Blanca y la Roja en el Pschent."
+  aom_combine_white_and_red_crowns_decision_confirm: "Unir las Coronas"
+  aom_has_hedjet: "Posees la Hedjet, la Corona Blanca del Alto Egipto"
+  aom_has_deshret: "Posees la Deshret, la Corona Roja del Bajo Egipto"
+  aom_has_combined_white_and_red_crowns: "No has combinado las Coronas Blanca y Roja en los últimos 20 años"
 
 # Convert to Hellenism
-  aom_convert_to_hellenism_decision: "Embrace Hellenism"
-  aom_convert_to_hellenism_decision_desc: "The divine relics of the Greco-Roman world whisper truths of forgotten gods. To walk the path of Plato, Apollo, and Jupiter is to reclaim the wisdom of antiquity."
-  aom_convert_to_hellenism_decision_tooltip: "Convert your faith to Hellenism if you hold a Greco-Roman artifact."
-  aom_convert_to_hellenism_decision_confirm: "Accept the Old Gods"
-  aom_has_greco_roman_artifact: "You possess a Greco-Roman artifact"
-
-# DOESN'T EXIST (MIGHT ADD)
-## Convert to Celtic
-  # aom_convert_to_celtic_decision: "Return to the Celtic Faith"
-  # aom_convert_to_celtic_decision_desc: "The ancient spirits of the forests and stones stir once more. With sacred relics in your grasp, the path of the druids, the Morrigan, and forgotten kings opens to you."
-  # aom_convert_to_celtic_decision_tooltip: "Convert your faith to Celtic Paganism if you hold a Celtic artifact."
-  # aom_convert_to_celtic_decision_confirm: "Follow the Way of the Ancients"
-  # aom_has_celtic_artifact: "You possess a Celtic artifact"
+  aom_convert_to_hellenism_decision: "Abrazar el Helenismo"
+  aom_convert_to_hellenism_decision_desc: "Las reliquias divinas del mundo grecorromano susurran verdades de dioses olvidados. Caminar el sendero de Platón, Apolo y Júpiter es reclamar la sabiduría de la antigüedad."
+  aom_convert_to_hellenism_decision_tooltip: "Convierte tu fe al Helenismo si posees un artefacto grecorromano."
+  aom_convert_to_hellenism_decision_confirm: "Aceptar a los Antiguos Dioses"
+  aom_has_greco_roman_artifact: "Posees un artefacto grecorromano"
 
 # Convert to Norse
-  aom_convert_to_norse_decision: "Embrace the Old Norse Ways"
-  aom_convert_to_norse_decision_desc: "The runes crackle with divine energy. With relics tied to Odin, Thor, and Freyja in your hands, you may reclaim the fury and glory of the Old Norse faith."
-  aom_convert_to_norse_decision_tooltip: "Convert your faith to Norse Paganism if you hold a Norse artifact."
-  aom_convert_to_norse_decision_confirm: "Summon the Aesir"
-  aom_has_norse_artifact: "You possess a Norse artifact"
+  aom_convert_to_norse_decision: "Abrazar las Viejas Costumbres Nórdicas"
+  aom_convert_to_norse_decision_desc: "Las runas crepitan con energía divina. Con reliquias vinculadas a Odín, Thor y Freyja en tus manos, puedes reclamar la furia y la gloria de la antigua fe nórdica."
+  aom_convert_to_norse_decision_tooltip: "Convierte tu fe al Paganismo Nórdico si posees un artefacto nórdico."
+  aom_convert_to_norse_decision_confirm: "Invocar a los Æsir"
+  aom_has_norse_artifact: "Posees un artefacto nórdico"
 
 # Convert to Finno Ugric
-  aom_convert_to_finno_ugric_decision: "Heed the Finno-Ugric Spirits"
-  aom_convert_to_finno_ugric_decision_desc: "From the snow-clad forests and ancient stone idols, voices of the old spirits call you. Possessing sacred items of the North, you are now able to follow the primal Finno-Ugric path once more."
-  aom_convert_to_finno_ugric_decision_tooltip: "Convert your faith to Finno-Ugric Paganism if you hold a Finno-Ugric artifact."
-  aom_convert_to_finno_ugric_decision_confirm: "Return to the Path of the Spirits"
-  aom_has_finno_ugric_artifact: "You possess a Finno-Ugric artifact"
+  aom_convert_to_finno_ugric_decision: "Escuchar a los Espíritus Finno-Úgricos"
+  aom_convert_to_finno_ugric_decision_desc: "Desde los bosques cubiertos de nieve y los antiguos ídolos de piedra, las voces de los viejos espíritus te llaman. Poseyendo los objetos sagrados del Norte, puedes volver a seguir el camino primitivo Finno-Úgrico."
+  aom_convert_to_finno_ugric_decision_tooltip: "Convierte tu fe al Paganismo Finno-Úgrico si posees un artefacto de ese origen."
+  aom_convert_to_finno_ugric_decision_confirm: "Regresar al Camino de los Espíritus"
+  aom_has_finno_ugric_artifact: "Posees un artefacto Finno-Úgrico"
 
 # Artifact Requirements Gamerule
-  rule_aom_artifact_requirements: "Artifact Requirements"
+  rule_aom_artifact_requirements: "Requisitos de Artefactos"
 
-  setting_aom_artifact_requirements_enabled: "#P Enabled#!"
-  setting_aom_artifact_requirements_enabled_desc: "Characters will need to fufill certain requirements to fully utilize specific artifacts."
+  setting_aom_artifact_requirements_enabled: "#P Activado#!"
+  setting_aom_artifact_requirements_enabled_desc: "Los personajes deberán cumplir ciertos requisitos para utilizar plenamente artefactos específicos."
 
-  setting_aom_artifact_requirements_disabled: "#R Disabled#!"
-  setting_aom_artifact_requirements_disabled_desc: "Characters will be able to fully utilize any artifact."
+  setting_aom_artifact_requirements_disabled: "#R Desactivado#!"
+  setting_aom_artifact_requirements_disabled_desc: "Los personajes podrán utilizar libremente cualquier artefacto."
 
 # Norse Artifact Gamerule
-  rule_aom_generate_norse_artifacts: "Norse Artifact Generation"
+  rule_aom_generate_norse_artifacts: "Generación de Artefactos Nórdicos"
 
-  setting_aom_generate_norse_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_norse_artifacts_all_desc: "All Norse mythological artifacts will be seeded into the game."
+  setting_aom_generate_norse_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_norse_artifacts_all_desc: "Todos los artefactos mitológicos nórdicos serán distribuidos en el juego."
 
-  setting_aom_generate_norse_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_norse_artifacts_only_god_desc: "Only illistrious artifacts associated with Norse myth will be seeded."
+  setting_aom_generate_norse_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_norse_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos nórdicos serán distribuidos."
 
-  setting_aom_generate_norse_artifacts_only_legend: "#M  Only Legendary Artifacts#!"
-  setting_aom_generate_norse_artifacts_only_legend_desc: "All Norse artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_norse_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_norse_artifacts_only_legend_desc: "Todos los artefactos nórdicos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_norse_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_norse_artifacts_with_descision_desc: "Norse artifacts are created only via a special decision."
+  setting_aom_generate_norse_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_norse_artifacts_with_descision_desc: "Los artefactos nórdicos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_norse_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_norse_artifacts_disabled_desc: "Norse artifacts will not be generated or seeded."
+  setting_aom_generate_norse_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_norse_artifacts_disabled_desc: "Los artefactos nórdicos no serán creados ni distribuidos."
 
 # Greco-Roman Artifact Gamerule
-  rule_aom_generate_greco_roman_artifacts: "Greco-Roman Artifact Generation"
+  rule_aom_generate_greco_roman_artifacts: "Generación de Artefactos Grecorromanos"
 
-  setting_aom_generate_greco_roman_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_all_desc: "All Greco-Roman mythological artifacts will be seeded into the game."
+  setting_aom_generate_greco_roman_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_greco_roman_artifacts_all_desc: "Todos los artefactos mitológicos grecorromanos serán distribuidos en el juego."
 
-  setting_aom_generate_greco_roman_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Only illistrious artifacts associated with Greco-Roman myth will be seeded."
+  setting_aom_generate_greco_roman_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_greco_roman_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos grecorromanos serán distribuidos."
 
-  setting_aom_generate_greco_roman_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "All Greco-Roman artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_greco_roman_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_greco_roman_artifacts_only_legend_desc: "Todos los artefactos grecorromanos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_greco_roman_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "Greco-Roman artifacts are created only via a special decision."
+  setting_aom_generate_greco_roman_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_greco_roman_artifacts_with_descision_desc: "Los artefactos grecorromanos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_greco_roman_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_greco_roman_artifacts_disabled_desc: "Greco-Roman artifacts will not be generated or seeded."
+  setting_aom_generate_greco_roman_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_greco_roman_artifacts_disabled_desc: "Los artefactos grecorromanos no serán creados ni distribuidos."
 
 # Abrahamic Artifact Gamerule
-  rule_aom_generate_abrahamic_artifacts: "Abrahamic Artifact Generation"
+  rule_aom_generate_abrahamic_artifacts: "Generación de Artefactos Abrahámicos"
 
-  setting_aom_generate_abrahamic_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_all_desc: "All Abrahamic mythological artifacts will be seeded into the game."
+  setting_aom_generate_abrahamic_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_abrahamic_artifacts_all_desc: "Todos los artefactos mitológicos abrahámicos serán distribuidos en el juego."
 
-  setting_aom_generate_abrahamic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Only illistrious artifacts associated with Abrahamic myth will be seeded."
+  setting_aom_generate_abrahamic_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_abrahamic_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos abrahámicos serán distribuidos."
 
-  setting_aom_generate_abrahamic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "All Abrahamic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_abrahamic_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_abrahamic_artifacts_only_legend_desc: "Todos los artefactos abrahámicos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_abrahamic_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "Abrahamic artifacts are created only via a special decision."
+  setting_aom_generate_abrahamic_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_abrahamic_artifacts_with_descision_desc: "Los artefactos abrahámicos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_abrahamic_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_abrahamic_artifacts_disabled_desc: "Abrahamic artifacts will not be generated or seeded."
+  setting_aom_generate_abrahamic_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_abrahamic_artifacts_disabled_desc: "Los artefactos abrahámicos no serán creados ni distribuidos."
 
 # Celtic Artifact Gamerule
-  rule_aom_generate_celtic_artifacts: "Celtic Artifact Generation"
+  rule_aom_generate_celtic_artifacts: "Generación de Artefactos Celtas"
 
-  setting_aom_generate_celtic_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_celtic_artifacts_all_desc: "All Celtic mythological artifacts will be seeded into the game."
+  setting_aom_generate_celtic_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_celtic_artifacts_all_desc: "Todos los artefactos mitológicos celtas serán distribuidos en el juego."
 
-  setting_aom_generate_celtic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_celtic_artifacts_only_god_desc: "Only illistrious artifacts associated with Celtic myth will be seeded."
+  setting_aom_generate_celtic_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_celtic_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos celtas serán distribuidos."
 
-  setting_aom_generate_celtic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_celtic_artifacts_only_legend_desc: "All Celtic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_celtic_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_celtic_artifacts_only_legend_desc: "Todos los artefactos celtas, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_celtic_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_celtic_artifacts_with_descision_desc: "Celtic artifacts are created only via a special decision."
+  setting_aom_generate_celtic_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_celtic_artifacts_with_descision_desc: "Los artefactos celtas solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_celtic_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_celtic_artifacts_disabled_desc: "Celtic artifacts will not be generated or seeded."
+  setting_aom_generate_celtic_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_celtic_artifacts_disabled_desc: "Los artefactos celtas no serán creados ni distribuidos."
 
 # Arthurian Artifact Gamerule
-  rule_aom_generate_arthurian_artifacts: "Arthurian Artifact Generation"
+  rule_aom_generate_arthurian_artifacts: "Generación de Artefactos Artúricos"
 
-  setting_aom_generate_arthurian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_all_desc: "All Arthurian mythological artifacts will be seeded into the game."
+  setting_aom_generate_arthurian_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_arthurian_artifacts_all_desc: "Todos los artefactos mitológicos artúricos serán distribuidos en el juego."
 
-  setting_aom_generate_arthurian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_only_god_desc: "Only illistrious artifacts associated with Arthurian myth will be seeded."
+  setting_aom_generate_arthurian_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_arthurian_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos artúricos serán distribuidos."
 
-  setting_aom_generate_arthurian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_arthurian_artifacts_only_legend_desc: "All Arthurian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_arthurian_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_arthurian_artifacts_only_legend_desc: "Todos los artefactos artúricos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_arthurian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_arthurian_artifacts_with_descision_desc: "Arthurian artifacts are created only via a special decision."
+  setting_aom_generate_arthurian_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_arthurian_artifacts_with_descision_desc: "Los artefactos artúricos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_arthurian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_arthurian_artifacts_disabled_desc: "Arthurian artifacts will not be generated or seeded."
+  setting_aom_generate_arthurian_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_arthurian_artifacts_disabled_desc: "Los artefactos artúricos no serán creados ni distribuidos."
 
 # Finno-Ugric Artifact Gamerule
-  rule_aom_generate_finno_ugric_artifacts: "Finno-Ugric Artifact Generation"
+  rule_aom_generate_finno_ugric_artifacts: "Generación de Artefactos Finno-Úgricos"
 
-  setting_aom_generate_finno_ugric_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_all_desc: "All Finno-Ugric mythological artifacts will be seeded into the game."
+  setting_aom_generate_finno_ugric_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_finno_ugric_artifacts_all_desc: "Todos los artefactos mitológicos finno-úgricos serán distribuidos en el juego."
 
-  setting_aom_generate_finno_ugric_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Only illistrious artifacts associated with Finno-Ugric myth will be seeded."
+  setting_aom_generate_finno_ugric_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_finno_ugric_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos finno-úgricos serán distribuidos."
 
-  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "All Finno-Ugric artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_finno_ugric_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_finno_ugric_artifacts_only_legend_desc: "Todos los artefactos finno-úgricos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "Finno-Ugric artifacts are created only via a special decision."
+  setting_aom_generate_finno_ugric_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_finno_ugric_artifacts_with_descision_desc: "Los artefactos finno-úgricos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_finno_ugric_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "Finno-Ugric artifacts will not be generated or seeded."
+  setting_aom_generate_finno_ugric_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_finno_ugric_artifacts_disabled_desc: "Los artefactos finno-úgricos no serán creados ni distribuidos."
 
 # Slavic Artifact Gamerule
-  rule_aom_generate_slavic_artifacts: "Slavic Artifact Generation"
+  rule_aom_generate_slavic_artifacts: "Generación de Artefactos Eslavos"
 
-  setting_aom_generate_slavic_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_slavic_artifacts_all_desc: "All Slavic mythological artifacts will be seeded into the game."
+  setting_aom_generate_slavic_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_slavic_artifacts_all_desc: "Todos los artefactos mitológicos eslavos serán distribuidos en el juego."
 
-  setting_aom_generate_slavic_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_slavic_artifacts_only_god_desc: "Only illistrious artifacts associated with Slavic myth will be seeded."
+  setting_aom_generate_slavic_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_slavic_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos eslavos serán distribuidos."
 
-  setting_aom_generate_slavic_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_slavic_artifacts_only_legend_desc: "All Slavic artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_slavic_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_slavic_artifacts_only_legend_desc: "Todos los artefactos eslavos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_slavic_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_slavic_artifacts_with_descision_desc: "Slavic artifacts are created only via a special decision."
+  setting_aom_generate_slavic_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_slavic_artifacts_with_descision_desc: "Los artefactos eslavos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_slavic_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_slavic_artifacts_disabled_desc: "Slavic artifacts will not be generated or seeded."
+  setting_aom_generate_slavic_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_slavic_artifacts_disabled_desc: "Los artefactos eslavos no serán creados ni distribuidos."
 
 # Lovecraftian Artifact Gamerule
-  rule_aom_generate_lovecraftian_artifacts: "Lovecraftian Artifact Generation"
+  rule_aom_generate_lovecraftian_artifacts: "Generación de Artefactos Lovecraftianos"
 
-  setting_aom_generate_lovecraftian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_all_desc: "All Lovecraftian mythological artifacts will be seeded into the game."
+  setting_aom_generate_lovecraftian_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_lovecraftian_artifacts_all_desc: "Todos los artefactos mitológicos lovecraftianos serán distribuidos en el juego."
 
-  setting_aom_generate_lovecraftian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Only illistrious artifacts associated with Lovecraftian myth will be seeded."
+  setting_aom_generate_lovecraftian_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_lovecraftian_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos lovecraftianos serán distribuidos."
 
-  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "All Lovecraftian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_lovecraftian_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_lovecraftian_artifacts_only_legend_desc: "Todos los artefactos lovecraftianos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "Lovecraftian artifacts are created only via a special decision."
+  setting_aom_generate_lovecraftian_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_lovecraftian_artifacts_with_descision_desc: "Los artefactos lovecraftianos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_lovecraftian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "Lovecraftian artifacts will not be generated or seeded."
+  setting_aom_generate_lovecraftian_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_lovecraftian_artifacts_disabled_desc: "Los artefactos lovecraftianos no serán creados ni distribuidos."
 
 # Mesopotamian Artifact Gamerule
-  rule_aom_generate_mesopotamian_artifacts: "Mesopotamian Artifact Generation"
+  rule_aom_generate_mesopotamian_artifacts: "Generación de Artefactos Mesopotámicos"
 
-  setting_aom_generate_mesopotamian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_all_desc: "All Mesopotamian mythological artifacts will be seeded into the game."
+  setting_aom_generate_mesopotamian_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_mesopotamian_artifacts_all_desc: "Todos los artefactos mitológicos mesopotámicos serán distribuidos en el juego."
 
-  setting_aom_generate_mesopotamian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "Only illistrious artifacts associated with Mesopotamian myth will be seeded."
+  setting_aom_generate_mesopotamian_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_mesopotamian_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos mesopotámicos serán distribuidos."
 
-  setting_aom_generate_mesopotamian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "All Mesopotamian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_mesopotamian_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_mesopotamian_artifacts_only_legend_desc: "Todos los artefactos mesopotámicos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_mesopotamian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_mesopotamian_artifacts_with_descision_desc: "Mesopotamian artifacts are created only via a special decision."
+  setting_aom_generate_mesopotamian_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_mesopotamian_artifacts_with_descision_desc: "Los artefactos mesopotámicos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_mesopotamian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_mesopotamian_artifacts_disabled_desc: "Mesopotamian artifacts will not be generated or seeded."
+  setting_aom_generate_mesopotamian_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_mesopotamian_artifacts_disabled_desc: "Los artefactos mesopotámicos no serán creados ni distribuidos."
 
 # Egyptian Artifact Gamerule
-  rule_aom_generate_egyptian_artifacts: "Egyptian Artifact Generation"
+  rule_aom_generate_egyptian_artifacts: "Generación de Artefactos Egipcios"
 
-  setting_aom_generate_egyptian_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_all_desc: "All Egyptian mythological artifacts will be seeded into the game."
+  setting_aom_generate_egyptian_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_egyptian_artifacts_all_desc: "Todos los artefactos mitológicos egipcios serán distribuidos en el juego."
 
-  setting_aom_generate_egyptian_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_only_god_desc: "Only illistrious artifacts associated with Egyptian myth will be seeded."
+  setting_aom_generate_egyptian_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_egyptian_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos egipcios serán distribuidos."
 
-  setting_aom_generate_egyptian_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_egyptian_artifacts_only_legend_desc: "All Egyptian artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_egyptian_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_egyptian_artifacts_only_legend_desc: "Todos los artefactos egipcios, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_egyptian_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_egyptian_artifacts_with_descision_desc: "Egyptian artifacts are created only via a special decision."
+  setting_aom_generate_egyptian_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_egyptian_artifacts_with_descision_desc: "Los artefactos egipcios solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_egyptian_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_egyptian_artifacts_disabled_desc: "Egyptian artifacts will not be generated or seeded."
+  setting_aom_generate_egyptian_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_egyptian_artifacts_disabled_desc: "Los artefactos egipcios no serán creados ni distribuidos."
 
 # Chinese Artifact Gamerule
-  rule_aom_generate_chinese_artifacts: "Chinese Artifact Generation"
+  rule_aom_generate_chinese_artifacts: "Generación de Artefactos Chinos"
 
-  setting_aom_generate_chinese_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_chinese_artifacts_all_desc: "All Chinese mythological artifacts will be seeded into the game."
+  setting_aom_generate_chinese_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_chinese_artifacts_all_desc: "Todos los artefactos mitológicos chinos serán distribuidos en el juego."
 
-  setting_aom_generate_chinese_artifacts_only_god: "#M Only God Artifacts#!"
-  setting_aom_generate_chinese_artifacts_only_god_desc: "Only illistrious artifacts associated with Chinese myth will be seeded."
+  setting_aom_generate_chinese_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_chinese_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con los mitos chinos serán distribuidos."
 
-  setting_aom_generate_chinese_artifacts_only_legend: "#M Only Legendary Artifacts#!"
-  setting_aom_generate_chinese_artifacts_only_legend_desc: "All Chinese artifacts except illistrious artifacs will be seeded."
+  setting_aom_generate_chinese_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_chinese_artifacts_only_legend_desc: "Todos los artefactos chinos, excepto los ilustres, serán distribuidos."
 
-  setting_aom_generate_chinese_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_chinese_artifacts_with_descision_desc: "Chinese artifacts are created only via a special decision."
+  setting_aom_generate_chinese_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_chinese_artifacts_with_descision_desc: "Los artefactos chinos solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_chinese_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_chinese_artifacts_disabled_desc: "Chinese artifacts will not be generated or seeded."
+  setting_aom_generate_chinese_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_chinese_artifacts_disabled_desc: "Los artefactos chinos no serán creados ni distribuidos."
 
 # Easter Egg Artifact Gamerule
-  rule_aom_generate_easter_egg_artifacts: "Easter Egg Artifact Generation"
+  rule_aom_generate_easter_egg_artifacts: "Generación de Artefactos de Pascua"
 
-  setting_aom_generate_easter_egg_artifacts_all: "#P All Artifacts#!"
-  setting_aom_generate_easter_egg_artifacts_all_desc: "All Easter Egg artifacts will be seeded into the game."
+  setting_aom_generate_easter_egg_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_easter_egg_artifacts_all_desc: "Todos los artefactos de Pascua serán distribuidos en el juego."
 
-  setting_aom_generate_easter_egg_artifacts_with_descision: "#V With Decision#!"
-  setting_aom_generate_easter_egg_artifacts_with_descision_desc: "Easter Egg artifacts are created only via a special decision."
+  setting_aom_generate_easter_egg_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_easter_egg_artifacts_with_descision_desc: "Los artefactos de Pascua solo pueden ser creados mediante una decisión especial."
 
-  setting_aom_generate_easter_egg_artifacts_disabled: "#R Disabled#!"
-  setting_aom_generate_easter_egg_artifacts_disabled_desc: "Easter Egg artifacts will not be generated or seeded."
-
-# # Destroy Double Crown and make White and Red Crowns
-  #   aom_artifact_checks.0001.t: "The Crowns Divide"
-  #   aom_artifact_checks.0001.desc: "Without dominion over the full Nile, the power of the Double Crown begins to wane. The unity of Upper and Lower Egypt fractures, and the Pschent cannot be sustained. In its place, the Hedjet and Deshret reemerge, symbols of a once-divided land."
-  #   aom_artifact_checks.0001.option: "Let the crowns return to their origins"
+  setting_aom_generate_easter_egg_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_easter_egg_artifacts_disabled_desc: "Los artefactos de Pascua no serán creados ni distribuidos."
 
 # Lovecraftian Stress Gain
-  aom_artifact_checks.0002.t: "The Madness Creeps In"
-  aom_artifact_checks.0002.desc: "Something has stirred in the corners of your mind. Words you do not remember reading. Whispers behind your thoughts. Shapes behind your eyes. There is no turning back now."
-  aom_artifact_checks.0002.a: "I must hold it together... I must..."
-  aom_artifact_checks.0002.b: "It's all a divine joke! Hah! Brilliant!"
-  aom_artifact_checks.0002.c: "The stars... they align, don't they? I see them. I see them!"
-  aom_artifact_checks.0002.d: "Yes... yes, the veil is thinning. This is good."
+  aom_artifact_checks.0002.t: "La Locura Se Acerca"
+  aom_artifact_checks.0002.desc: "Algo se ha agitado en los rincones de tu mente. Palabras que no recuerdas haber leído. Susurros tras tus pensamientos. Formas detrás de tus ojos. No hay vuelta atrás ahora."
+  aom_artifact_checks.0002.a: "Debo mantenerme firme... debo..."
+  aom_artifact_checks.0002.b: "¡Todo es una broma divina! ¡Ja! ¡Brillante!"
+  aom_artifact_checks.0002.c: "Las estrellas... se alinean, ¿verdad? ¡Las veo! ¡Las veo!"
+  aom_artifact_checks.0002.d: "Sí... sí, el velo se adelgaza. Esto es bueno."
 
 # Generic Terms
-  aom_event_option.next: "Next"
-  aom_event_option.previous: "Previous"
-  aom_event_option.close: "Close"
-  SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "Choose Artifact Pantheon"
+  aom_event_option.next: "Siguiente"
+  aom_event_option.previous: "Anterior"
+  aom_event_option.close: "Cerrar"
+  SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "Elegir Panteón de Artefactos"
 
-  aom_artifact_spawning.1001.t: "Norse Artifact Menu"
-  aom_artifact_spawning.1011.t: "Greco-Roman Artifact Menu"
-  aom_artifact_spawning.1021.t: "Abrahamic Artifact Menu"
-  aom_artifact_spawning.1031.t: "Celtic Artifact Menu"
-  aom_artifact_spawning.1041.t: "Arthurian Artifact Menu"
-  aom_artifact_spawning.1051.t: "Finno-Ugric Artifact Menu"
-  aom_artifact_spawning.1061.t: "Slavic Artifact Menu"
-  aom_artifact_spawning.1071.t: "Lovecraftian Artifact Menu"
-  aom_artifact_spawning.1081.t: "Mesopotamian Artifact Menu"
-  aom_artifact_spawning.1091.t: "Egyptian Artifact Menu"
-  aom_artifact_spawning.1101.t: "Chinese Artifact Menu"
-  aom_artifact_spawning.1111.t: "Easter Egg Artifact Menu"
-  aom_artifact_spawning.desc: "Choose an Artifact to Spawn:"
+  aom_artifact_spawning.1001.t: "Menú de Artefactos Nórdicos"
+  aom_artifact_spawning.1011.t: "Menú de Artefactos Grecorromanos"
+  aom_artifact_spawning.1021.t: "Menú de Artefactos Abrahámicos"
+  aom_artifact_spawning.1031.t: "Menú de Artefactos Celtas"
+  aom_artifact_spawning.1041.t: "Menú de Artefactos Artúricos"
+  aom_artifact_spawning.1051.t: "Menú de Artefactos Finno-Úgricos"
+  aom_artifact_spawning.1061.t: "Menú de Artefactos Eslavos"
+  aom_artifact_spawning.1071.t: "Menú de Artefactos Lovecraftianos"
+  aom_artifact_spawning.1081.t: "Menú de Artefactos Mesopotámicos"
+  aom_artifact_spawning.1091.t: "Menú de Artefactos Egipcios"
+  aom_artifact_spawning.1101.t: "Menú de Artefactos Chinos"
+  aom_artifact_spawning.1111.t: "Menú de Artefactos de Pascua"
+  aom_artifact_spawning.desc: "Elige un Artefacto para Generar:"
 
-  game_rule_category_aom: "Artifacts of Myth"
+  game_rule_category_aom: "Artefactos del Mito"
 
-  every_close_or_extended_family_member_to_convert: "Every [close_family|E] or [extended_family|E] [character|E]"
+  every_close_or_extended_family_member_to_convert: "Cada [close_family|E] o [extended_family|E] [character|E]"
 
 # Perk Modifiers
-  read_necronomicon_decision_learning_gain: "Read the Necronomicon"
-  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "Gazed into the Mirror of Nitocris"
+  read_necronomicon_decision_learning_gain: "Leyó el Necronomicón"
+  gaze_into_mirror_of_nitocris_decision_intrigue_gain: "Miró en el Espejo de Nitocris"
 
 # Flavour
   dyn_Alhazred: "Alhazred"
-  dynn_Alhazred_motto: "That is not dead which can eternal lie, And with strange aeons even death may die."
+  dynn_Alhazred_motto: "Lo que no está muerto puede yacer eternamente, y con extraños eones incluso la muerte puede morir."
   Clithanus: "Clithanus"
 
-  nick_the_mad_arab: "the Mad Arab"
-  nick_the_mad_arab_desc: "Alhazred claimed to have glimpsed the true masters of reality and vowed to seek them out, they called him mad for doing so."
+  nick_the_mad_arab: "el Árabe Loco"
+  nick_the_mad_arab_desc: "Alhazred afirmó haber vislumbrado a los verdaderos maestros de la realidad y juró buscarlos; lo llamaron loco por hacerlo."
 
-  nick_the_mad_monk: "the Mad Monk"
-  nick_the_mad_monk_desc: "After delving into the forbidden catacombs beneath Hydestall, Clithanus emerged a changed man; his fevered ravings earned him the name 'the Mad Monk' among those who dared listen."
+  nick_the_mad_monk: "el Monje Loco"
+  nick_the_mad_monk_desc: "Tras adentrarse en las catacumbas prohibidas bajo Hydestall, Clithanus emergió como un hombre cambiado; sus febriles delirios le valieron el nombre de 'el Monje Loco' entre quienes se atrevieron a escuchar."

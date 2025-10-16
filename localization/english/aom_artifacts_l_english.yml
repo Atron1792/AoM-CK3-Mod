@@ -291,19 +291,19 @@
 
   # Aaron's Rod (Moses' Brother's Staff)
   aom_aarons_rod_name: "Aaron's Rod"
-  aom_aarons_rod_desc: "A symbol of priestly authority and divine miracles."
+  aom_aarons_rod_desc: "The sacred staff said to blossom at the Lord's command and work wonders; a sign of divine authority and miraculous power."
 
   # Solomon's Shamir
   aom_solomons_shamir_name: "Solomon's Shamir"
-  aom_solomons_shamir_desc: "It's not a tool, but a wonder—like God's whisper. It cuts stone like paper, silent and unseen."
+  aom_solomons_shamir_desc: "It's not a tool, but a wonder like God's whisper. It cuts stone like paper, silent and unseen."
 
   # Greater Key of Solomon
   aom_greater_key_of_solomon_name: "Greater Key of Solomon"
-  aom_greater_key_of_solomon_desc: "An ancient book of rituals and divine knowledge, said to reveal the secrets of heaven and earth."
+  aom_greater_key_of_solomon_desc: "A grimoire of sacred wisdom, detailing the divine rites and celestial mysteries once entrusted to King Solomon himself."
 
   # Lesser Key of Solomon
   aom_lesser_key_of_solomon_name: "Lesser Key of Solomon"
-  aom_lesser_key_of_solomon_desc: "An ancient book of rituals and divine knowledge, said to reveal the secrets of heaven and earth."
+  aom_lesser_key_of_solomon_desc: "A compendium of arcane seals and summoning rituals, said to grant mastery over spirits bound by Solomon's command."
 
   # Goliath's Sword
   aom_goliaths_sword_name: "Goliath's Sword"
@@ -320,7 +320,7 @@
 
   # Joshua's Shofars
   aom_joshuas_shofars_name: "Joshua's Shofars"
-  aom_joshuas_shofars_desc: "Ram's horns that brought down the walls of Jericho through faith and sound."
+  aom_joshuas_shofars_desc: "A ram's horn once sounded by Joshua, said to have signaled the fall of Jericho."
 
   # Leviathan's Hide
   aom_leviathans_hide_name: "Leviathan's Hide"
@@ -631,7 +631,7 @@
 
   # Anubis' Scales
   aom_anubis_scales_name: "Anubis' Scales"
-  aom_anubis_scales_desc: "Used in the weighing of the heart ceremony—an instrument of judgment and eternal fate."
+  aom_anubis_scales_desc: "Used in the weighing of the heart ceremony, an instrument of judgment and eternal fate."
 
 # Chinese Artifacts
   # Inventory Artifacts
@@ -685,7 +685,7 @@
 
   # Gan Jiang
   aom_gan_jiang_name: "Gan Jiang"
-  aom_gan_jiang_desc: "One of two legendary swords forged by Gan Jiang and Mo Ye—tempered in suffering, veiled in sorrow."
+  aom_gan_jiang_desc: "One of two legendary swords forged by Gan Jiang and Mo Ye, tempered in suffering, veiled in sorrow."
 
   # Mo Ye
   aom_mo_ye_name: "Mo Ye"
@@ -710,7 +710,7 @@
 
   # Jiuding
   aom_jiuding_name: "Jiuding"
-  aom_jiuding_desc: "The Nine Tripod Cauldrons—sacred relics of dynastic legitimacy once possessed by the Son of Heaven."
+  aom_jiuding_desc: "The Nine Tripod Cauldrons, sacred relics of dynastic legitimacy once possessed by the Son of Heaven."
 
 # Easter Egg Artifacts
   # Inventory Artifacts
@@ -728,13 +728,13 @@
 
   # Elder Wand (Harry Potter)
   aom_elder_wand_name: "Elder Wand"
-  aom_elder_wand_desc: "The deathly hallow said to make its wielder unbeatable—if they survive long enough."
+  aom_elder_wand_desc: "One of the Deathly Hallows, it said to make its wielder unbeatable if they survive long enough."
 
   # Court Artifacts
-  # Lightsaber (Starwars)
+  # Lightsaber (Star Wars)
   aom_lightsaber_name: "Lightsaber"
   aom_lightsaber_desc: "A metal rod once hailed as an elegant weapon of a more civilized age, now little more than a gleaming relic."
 
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
-  aom_palantir_desc: "A seeing-stone from ancient Middle-earth, allowing vision across vast distances—and into peril."
+  aom_palantir_desc: "A seeing-stone from ancient Middle-earth, allowing vision across vast distances, and into peril."
