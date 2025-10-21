@@ -312,7 +312,7 @@ aom_drink_from_holy_grail_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	}
-	decision_group_type = decisions
+	decision_group_type = major
 	desc = aom_drink_from_holy_grail_decision_desc
 	ai_goal = no
 	ai_check_interval = 0
@@ -376,7 +376,9 @@ aom_drink_from_holy_grail_decision = {
 			remove_trait = lunatic_genetic
 			remove_trait = possessed_1
 			remove_trait = possessed_genetic
+
 			add_character_flag = immune_to_disease
+
 			remove_trait = ill
 			remove_trait = pneumonic
 			remove_trait = great_pox
@@ -404,6 +406,7 @@ aom_drink_from_holy_grail_decision = {
 			remove_trait = eunuch_1
 			remove_trait = beardless_eunuch
 			remove_trait = blind
+			remove_trait = incapable
 		}
 		else_if = {
 			limit = {
@@ -436,6 +439,7 @@ aom_drink_from_holy_grail_decision = {
 			remove_trait = eunuch_1
 			remove_trait = beardless_eunuch
 			remove_trait = blind
+			remove_trait = incapable
 		}
 		else_if = {
 			limit = {
@@ -468,7 +472,7 @@ aom_claim_britannia_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
 	}
-	decision_group_type = decisions
+	decision_group_type = major
 	desc = aom_claim_britannia_decision_desc
 	ai_goal = no
 	ai_check_interval = 0
@@ -730,7 +734,7 @@ aom_combine_white_and_red_crowns_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
 	}
-	decision_group_type = decisions
+	decision_group_type = major
 	desc = aom_combine_white_and_red_crowns_decision_desc
 	ai_goal = no
 	ai_check_interval = 0
