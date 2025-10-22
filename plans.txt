@@ -81,6 +81,7 @@
 - Balance
     - Actually updated Gungnir's modifier (slightly weaker)
     - Actually updated Mjolnir's modifier (slightly weaker)
+    - Easter egg artifacts (slightly stronger)
 
 Planned:
 - Added Japanese artifacts with gamerule control
