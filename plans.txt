@@ -84,9 +84,12 @@
     - Easter egg artifacts (slightly stronger)
 
 1.8.3
-    - Fix
-        - Actually updated Easter egg artifacts (slightly stronger) 
+- Fix
+    - Actually updated Easter egg artifacts (slightly stronger) 
 
+1.8.4
+- Fix
+    - Combine White and Red Crowns decision prestige fix
 
 Planned:
 - Added Shinto (Japanese) artifacts with gamerule control
