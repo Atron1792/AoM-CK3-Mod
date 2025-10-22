@@ -780,7 +780,7 @@ aom_combine_white_and_red_crowns_decision = {
 			destroy_artifact = this
 		}
 		create_artifact_aom_pschent_effect = { OWNER = this }
-		prestige = 1000
+		add_prestige = 1500
 		if = {
 			limit = {
 				NOT = { has_character_flag = aom_combine_white_and_red_crowns_renown }
