@@ -13,6 +13,7 @@ aom_gungnir_template = {
 		}
 	}
 	fallback = {
+		learning = 3
 		prowess = 10
 		monthly_prestige = 0.5
 		court_grandeur_baseline_add = 3

@@ -13,7 +13,7 @@ aom_gungnir_modifier = {
 
 # Mjolnir (Thor's Hammer)
 aom_mjolnir_modifier = {
-	prowess = 17
+	prowess = 15
 	martial = 7
 	different_faith_opinion = -10
 	zealot_opinion = 10

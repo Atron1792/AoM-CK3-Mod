@@ -77,6 +77,11 @@
     - Chinese artifact spawning
     - Artifact visuals
 
+1.8.2
+- Balance
+    - Actually updated Gungnir's modifier (slightly weaker)
+    - Actually updated Mjolnir's modifier (slightly weaker)
+
 Planned:
 - Added Japanese artifacts with gamerule control
 - Events tied to specific artifacts
