@@ -26,6 +26,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -54,6 +55,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -84,6 +86,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -112,6 +115,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -140,6 +144,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -168,6 +173,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -196,6 +202,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -224,6 +231,7 @@ aom_chinese_artifacts.001 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -263,6 +271,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -291,6 +300,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -321,6 +331,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -349,6 +360,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -377,6 +389,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -405,6 +418,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -433,6 +447,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -461,6 +476,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -489,6 +505,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -517,6 +534,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }
@@ -545,6 +563,7 @@ aom_chinese_artifacts.002 = {
 				        OR = { 
 					        has_cultural_pillar = heritage_chinese
 					        has_cultural_pillar = heritage_qiangic
+                            has_cultural_pillar = heritage_tibetan
 				        }
 				    }
                 }

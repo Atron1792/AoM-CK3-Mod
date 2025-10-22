@@ -991,15 +991,14 @@ aom_marduks_net = {
 # Tablet of Destinies
 aom_tablet_of_destinies = {
     icon = "mesopotamian/aom_tablet_of_destinies.dds"
-    pedestal = "tall"
-    asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+	support_type = "lectern"
+	asset = ep1_mena_book_verybig_01_a_entity
 }
 
 # Bull of Heaven’s Horns
 aom_bull_of_heaven = {
     icon = "mesopotamian/aom_bull_of_heaven.dds"
-    pedestal = "tall"
-    asset = fp3_artifact_persian_drinking_vessel_01_c_entity
+    asset = ep1_generic_trophy_aurochs_01_a_entity
 }
 
 # Lyre of Ur
@@ -1187,8 +1186,8 @@ aom_mianguan = {
 # Heirloom Seal of the Realm
 aom_heirloom_seal = {
     icon = "chinese/aom_heirloom_seal.dds"
-    pedestal = "short"
-    asset = ep1_mena_box_reliquary_01_a_entity
+    pedestal = "tall"
+    asset = ep1_mena_box_small_fancy_01_a_entity
 }
 
 # Mirror of Retribution

@@ -70,6 +70,13 @@
         - Gungnir's modifier (slightly weaker)
         - Mjolnir's modifier (slightly weaker)
 
+1.8.1
+- Fixes
+    - Icon size fix
+    - Mesopotamian artifact spawning
+    - Chinese artifact spawning
+    - Artifact visuals
+
 Planned:
 - Added Japanese artifacts with gamerule control
 - Events tied to specific artifacts

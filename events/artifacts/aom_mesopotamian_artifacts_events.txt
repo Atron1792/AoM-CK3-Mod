@@ -26,6 +26,7 @@ aom_mesopotamian_artifacts.001 = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
@@ -54,6 +55,7 @@ aom_mesopotamian_artifacts.001 = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
@@ -83,6 +85,7 @@ aom_mesopotamian_artifacts.001 = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
@@ -113,6 +116,7 @@ aom_mesopotamian_artifacts.001 = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
@@ -141,6 +145,7 @@ aom_mesopotamian_artifacts.001 = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
@@ -169,6 +174,7 @@ aom_mesopotamian_artifacts.001 = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
@@ -203,11 +209,12 @@ aom_mesopotamian_artifacts.002 = {
                         has_character_flag = aom_seeded_relic 
                         any_artifact = { has_variable = aom_lyre_of_ur } 
                     }
-                    highest_held_title_tier >= tier_duchy
+                    highest_held_title_tier >= tier_county
                     culture = {
                         OR = { 
                             has_cultural_pillar = heritage_caucasian
                             has_cultural_pillar = heritage_syriac
+                            has_cultural_pillar = heritage_iranian
                         }
                     }
                 }
