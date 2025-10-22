@@ -40,8 +40,9 @@ aom_elder_wand_template = {
 	can_equip = { always = yes }
 	can_benefit = {}
 	fallback = { 
-		learning = 7
-		prowess = 3
+		learning = 3
+		martial = 5
+		prowess = 7
 	}
 	unique = yes
 }

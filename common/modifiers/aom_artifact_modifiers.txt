@@ -1354,13 +1354,13 @@ aom_jiuding_modifier = {
 # Inventory Artifacts
 # Soul Edge (Soul Calibur)
 aom_soul_edge_modifier = {
-    prowess = 10
+    prowess = 15
 	dread_baseline_add = 30
 }
 
 # Blackfyre (AGOT)
 aom_blackfyre_modifier = {
-	prowess = 9
+	prowess = 11
 	monthly_dynasty_prestige = 0.2
 }
 
@@ -1368,12 +1368,14 @@ aom_blackfyre_modifier = {
 aom_one_ring_modifier = {
 	intrigue = 7
 	learning = 5
+	dread_baseline_add = 15
 }
 
 # Elder Wand (Harry Potter)
 aom_elder_wand_modifier = {
-	learning = 5
-	prowess = 2
+	learning = 3
+	martial = 5
+	prowess = 7
 }
 
 # Court Artifacts
@@ -1386,5 +1388,5 @@ aom_lightsaber_modifier = {
 # Palantír (LotR)
 aom_palantir_modifier = {
 	intrigue = 7
-	diplomatic_range_mult = 0.2
+	diplomatic_range_mult = 1
 }
