@@ -83,8 +83,15 @@
     - Actually updated Mjolnir's modifier (slightly weaker)
     - Easter egg artifacts (slightly stronger)
 
+1.8.3
+    - Fix
+        - Actually updated Easter egg artifacts (slightly stronger) 
+
+
 Planned:
-- Added Japanese artifacts with gamerule control
+- Added Shinto (Japanese) artifacts with gamerule control
+- Added Hindu (Indian) artifacts with gamerule control
+- Added Tengri (Mongol) artifacts with gamerule control
 - Events tied to specific artifacts
     - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
 - Artifact search
