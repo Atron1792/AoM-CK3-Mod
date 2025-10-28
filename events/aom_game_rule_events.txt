@@ -250,3 +250,66 @@ aom_game_rule.012 = {
 		}
 	}
 }
+
+# Generate Shinto Artifacts
+aom_game_rule.013 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_shinto_artifacts_all }
+			trigger_event = aom_shinto_artifacts.001
+			trigger_event = aom_shinto_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_shinto_artifacts_only_god }
+			trigger_event = aom_shinto_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_shinto_artifacts_only_legend }
+			trigger_event = aom_shinto_artifacts.002
+		}
+	}
+}
+
+# Generate Hindu Artifacts
+aom_game_rule.014 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_hindu_artifacts_all }
+			trigger_event = aom_hindu_artifacts.001
+			trigger_event = aom_hindu_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_hindu_artifacts_only_god }
+			trigger_event = aom_hindu_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_hindu_artifacts_only_legend }
+			trigger_event = aom_hindu_artifacts.002
+		}
+	}
+}
+
+# Generate Tengri Artifacts
+aom_game_rule.015 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_generate_tengri_artifacts_all }
+			trigger_event = aom_tengri_artifacts.001
+			trigger_event = aom_tengri_artifacts.002
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_tengri_artifacts_only_god }
+			trigger_event = aom_tengri_artifacts.001
+		}
+		if = {
+			limit = { has_game_rule = aom_generate_tengri_artifacts_only_legend }
+			trigger_event = aom_tengri_artifacts.002
+		}
+	}
+}

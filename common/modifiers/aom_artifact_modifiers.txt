@@ -1390,3 +1390,24 @@ aom_palantir_modifier = {
 	intrigue = 7
 	diplomatic_range_mult = 1
 }
+
+############################
+# Shinto Artifacts
+############################
+# Inventory Artifacts
+
+# Court Artifacts
+
+############################
+# Hindu Artifacts
+############################
+# Inventory Artifacts
+
+# Court Artifacts
+
+############################
+# Tengri Artifacts
+############################
+# Inventory Artifacts
+
+# Court Artifacts

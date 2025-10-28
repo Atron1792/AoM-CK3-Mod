@@ -1212,6 +1212,27 @@ aom_jiuding = {
 }
 
 ############################
+# Shinto Artifacts
+############################
+# Inventory Artifacts
+
+# Court Artifacts
+
+############################
+# Hindu Artifacts
+############################
+# Inventory Artifacts
+
+# Court Artifacts
+
+############################
+# Tengri Artifacts
+############################
+# Inventory Artifacts
+
+# Court Artifacts
+
+############################
 # Easter Egg Artifacts
 ############################
 # Inventory Artifacts

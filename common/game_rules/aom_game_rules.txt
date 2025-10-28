@@ -161,3 +161,42 @@ aom_generate_easter_egg_artifacts = {
 	aom_generate_easter_egg_artifacts_with_descision = {}
 	aom_generate_easter_egg_artifacts_disabled = {}
 }
+
+# Generate Shinto Artifacts
+aom_generate_shinto_artifacts = {
+	categories = { aom }
+
+	default = aom_generate_shinto_artifacts_all
+
+	aom_generate_shinto_artifacts_all = {}
+	aom_generate_shinto_artifacts_only_god = {}
+	aom_generate_shinto_artifacts_only_legend = {}
+	aom_generate_shinto_artifacts_with_descision = {}
+	aom_generate_shinto_artifacts_disabled = {}
+}
+
+# Generate Hindu Artifacts
+aom_generate_hindu_artifacts = {
+	categories = { aom }
+
+	default = aom_generate_hindu_artifacts_all
+
+	aom_generate_hindu_artifacts_all = {}
+	aom_generate_hindu_artifacts_only_god = {}
+	aom_generate_hindu_artifacts_only_legend = {}
+	aom_generate_hindu_artifacts_with_descision = {}
+	aom_generate_hindu_artifacts_disabled = {}
+}
+
+# Generate Tengri Artifacts
+aom_generate_tengri_artifacts = {
+	categories = { aom }
+
+	default = aom_generate_tengri_artifacts_all
+
+	aom_generate_tengri_artifacts_all = {}
+	aom_generate_tengri_artifacts_only_god = {}
+	aom_generate_tengri_artifacts_only_legend = {}
+	aom_generate_tengri_artifacts_with_descision = {}
+	aom_generate_tengri_artifacts_disabled = {}
+}
