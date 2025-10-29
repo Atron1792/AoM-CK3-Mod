@@ -91,6 +91,9 @@
 - Fix
     - Combine White and Red Crowns decision prestige fix
 
+1.8.5
+- Supported Version is now 1.18.*
+
 Planned:
 - Added Shinto (Japanese) artifacts with gamerule control
 - Added Hindu (Indian) artifacts with gamerule control

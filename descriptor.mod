@@ -1,4 +1,4 @@
-﻿version="1.8"
+﻿version="1.8.5"
 tags={
 	"Alternative History"
 	"Decisions"
@@ -6,5 +6,5 @@ tags={
 	"Culture"
 }
 name="Artifacts of Myth"
-supported_version="1.17.*"
+supported_version="1.18.*"
 remote_file_id="3481270592"
