@@ -101,6 +101,15 @@ Planned:
 - Events tied to specific artifacts
     - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
 - Artifact search
+    use search & trade artifact mod, i dont want to make my own version it will just be worst
+
 - Cultural/religious artifact acquisition
+    decision event 
+        to choose which council member to send to search (gives negative to council job)
+    or court position (bonus if traveller, etc)    
+        choose what type (cultural or religious) of artifact you want to find 
+        events with skill based options, then either prestige or peity cost to claim artifact
+            claim gives war option
+            can also buy artifact with gold (easier if artifact is not in use)
 
 - custom models?
