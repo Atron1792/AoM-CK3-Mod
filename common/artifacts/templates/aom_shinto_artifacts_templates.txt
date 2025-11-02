@@ -1,7 +1,22 @@
 ﻿############################
 # Inventory Artifacts
 ############################
+# Ame-no-Nuboko (Heavenly Jeweled Spear)
+ 
+# Uchide no kozuchi (Magic Hammer)
 
+# 3 Legendary Spears
+# Nihongo
+
+# Otegine
+
+# Tonbokiri
 ############################
 # Court Artifacts
 ############################
+# Three Sacred Treasures
+# Kusanagi no Tsurugi
+
+# Yata no Kagami
+
+# Yasakani no Magatama
