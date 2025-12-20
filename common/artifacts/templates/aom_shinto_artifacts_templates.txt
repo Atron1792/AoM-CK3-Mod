@@ -2,21 +2,148 @@
 # Inventory Artifacts
 ############################
 # Ame-no-Nuboko (Heavenly Jeweled Spear)
- 
+aom_ame_no_nuboko_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
+
 # Uchide no kozuchi (Magic Hammer)
+aom_uchide_no_kozuchi_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
 
-# 3 Legendary Spears
-# Nihongo
+# Nihongo (3 Legendary Spears)
+aom_nihongo_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
 
-# Otegine
+# Otegine (3 Legendary Spears)
+aom_otegine_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
 
-# Tonbokiri
+# Tonbokiri (3 Legendary Spears)
+aom_tonbokiri_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
+
 ############################
 # Court Artifacts
 ############################
-# Three Sacred Treasures
-# Kusanagi no Tsurugi
+# Kusanagi no Tsurugi (Three Sacred Treasures)
+aom_kusanagi_no_tsurugi_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
 
-# Yata no Kagami
+# Yata no Kagami (Three Sacred Treasures)
+aom_yata_no_kagami_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
 
-# Yasakani no Magatama
+# Yasakani no Magatama (Three Sacred Treasures)
+aom_yasakani_no_magatama_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+    		limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 8
+		martial = 2
+	}
+	unique = yes
+}
