@@ -1,7 +1,205 @@
 ﻿############################
 # Inventory Artifacts
 ############################
+# Ame-no-Nuboko (Heavenly Jeweled Spear)
+create_artifact_aom_ame_no_nuboko_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_ame_no_nuboko_name
+        description = aom_ame_no_nuboko_desc
+        type = weapon_simple
+        visuals = aom_ame_no_nuboko
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_ame_no_nuboko_template
+        history = { type = created_before_history }
+        modifier = aom_ame_no_nuboko_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_ame_no_nuboko
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Uchide no kozuchi (Magic Hammer)
+create_artifact_aom_uchide_no_kozuchi_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_uchide_no_kozuchi_name
+        description = aom_uchide_no_kozuchi_desc
+        type = weapon_simple
+        visuals = aom_uchide_no_kozuchi
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_uchide_no_kozuchi_template
+        history = { type = created_before_history }
+        modifier = aom_uchide_no_kozuchi_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_uchide_no_kozuchi
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Nihongo (3 Legendary Spears)
+create_artifact_aom_nihongo_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_nihongo_name
+        description = aom_nihongo_desc
+        type = weapon_simple
+        visuals = aom_nihongo
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_nihongo_template
+        history = { type = created_before_history }
+        modifier = aom_nihongo_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_nihongo
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Otegine (3 Legendary Spears)
+create_artifact_aom_otegine_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_otegine_name
+        description = aom_otegine_desc
+        type = weapon_simple
+        visuals = aom_otegine
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_otegine_template
+        history = { type = created_before_history }
+        modifier = aom_otegine_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_otegine
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Tonbokiri (3 Legendary Spears)
+create_artifact_aom_tonbokiri_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_tonbokiri_name
+        description = aom_tonbokiri_desc
+        type = weapon_simple
+        visuals = aom_tonbokiri
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_tonbokiri_template
+        history = { type = created_before_history }
+        modifier = aom_tonbokiri_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_tonbokiri
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
 
 ############################
 # Court Artifacts
 ############################
+# Kusanagi no Tsurugi (Three Sacred Treasures)
+create_artifact_aom_kusanagi_no_tsurugi_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_kusanagi_no_tsurugi_name
+        description = aom_kusanagi_no_tsurugi_desc
+        type = pedestal_simple
+        visuals = aom_kusanagi_no_tsurugi
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_kusanagi_no_tsurugi_template
+        history = { type = created_before_history }
+        modifier = aom_kusanagi_no_tsurugi_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_kusanagi_no_tsurugi
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Yata no Kagami (Three Sacred Treasures)
+create_artifact_aom_yata_no_kagami_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_yata_no_kagami_name
+        description = aom_yata_no_kagami_desc
+        type = pedestal_simple
+        visuals = aom_yata_no_kagami
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_yata_no_kagami_template
+        history = { type = created_before_history }
+        modifier = aom_yata_no_kagami_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_yata_no_kagami
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Yasakani no Magatama (Three Sacred Treasures)
+create_artifact_aom_yasakani_no_magatama_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_yasakani_no_magatama_name
+        description = aom_yasakani_no_magatama_desc
+        type = pedestal_simple
+        visuals = aom_yasakani_no_magatama
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_yasakani_no_magatama_template
+        history = { type = created_before_history }
+        modifier = aom_yasakani_no_magatama_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_yasakani_no_magatama
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}

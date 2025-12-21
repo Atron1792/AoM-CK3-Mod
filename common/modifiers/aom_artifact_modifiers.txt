@@ -1396,21 +1396,53 @@ aom_palantir_modifier = {
 ############################
 # Inventory Artifacts
 # Ame-no-Nuboko (Heavenly Jeweled Spear)
- 
+aom_ame_no_nuboko_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
 # Uchide no kozuchi (Magic Hammer)
+aom_uchide_no_kozuchi_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 # Nihongo (3 Legendary Spears)
+aom_nihongo_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 # Otegine (3 Legendary Spears)
+aom_otegine_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 # Tonbokiri (3 Legendary Spears)
+aom_tonbokiri_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 # Court Artifacts
 # Kusanagi no Tsurugi (Three Sacred Treasures)
+aom_kusanagi_no_tsurugi_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 # Yata no Kagami (Three Sacred Treasures)
+aom_yata_no_kagami_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 # Yasakani no Magatama (Three Sacred Treasures)
+aom_yasakani_no_magatama_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
 
 ############################
 # Hindu Artifacts

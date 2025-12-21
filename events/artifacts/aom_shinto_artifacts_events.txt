@@ -1,23 +1,4 @@
 ﻿namespace = aom_shinto_artifacts
-
-# Inventory Artifacts
-# Ame-no-Nuboko (Heavenly Jeweled Spear)
- 
-# Uchide no kozuchi (Magic Hammer)
-
-# Nihongo (3 Legendary Spears)
-
-# Otegine (3 Legendary Spears)
-
-# Tonbokiri (3 Legendary Spears)
-
-# Court Artifacts
-# Kusanagi no Tsurugi (Three Sacred Treasures)
-
-# Yata no Kagami (Three Sacred Treasures)
-
-# Yasakani no Magatama (Three Sacred Treasures)
-
 ############################
 # Generate God Tier Artifacts
 ############################
@@ -28,7 +9,9 @@ aom_shinto_artifacts.001 = {
 		# Court Artifacts
 
 		# Inventory Artifacts
-		
+		# Ame-no-Nuboko (Heavenly Jeweled Spear)
+ 
+		# Uchide no kozuchi (Magic Hammer)
 	}
 }
 		
@@ -40,8 +23,17 @@ aom_shinto_artifacts.002 = {
 	hidden = yes
 	immediate = {
 		# Court Artifacts
+		# Kusanagi no Tsurugi (Three Sacred Treasures)
+
+		# Yata no Kagami (Three Sacred Treasures)
+
+		# Yasakani no Magatama (Three Sacred Treasures)
 
 		# Inventory Artifacts
-		
+		# Nihongo (3 Legendary Spears)
+
+		# Otegine (3 Legendary Spears)
+
+		# Tonbokiri (3 Legendary Spears)
 	}
 }
