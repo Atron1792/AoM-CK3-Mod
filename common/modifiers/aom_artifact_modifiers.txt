@@ -1425,6 +1425,48 @@ aom_tonbokiri_modifier = {
 	diplomatic_range_mult = 1
 }
 
+# Dōjigiri (Demon Child Slayer) - Tenka-Goken (Five Great Swords)
+aom_dojigiri_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Onimaru (Demon Circle) - Tenka-Goken (Five Great Swords)
+aom_onimaru_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Mikazuki (Crescent Moon) - Tenka-Goken (Five Great Swords)
+aom_mikazuki_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Ōtenta (Great Denta) - Tenka-Goken (Five Great Swords)
+aom_otenta_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Juzumaru (Rosary) - Tenka-Goken (Five Great Swords)
+aom_juzumaru_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Sugari No Ontachi 
+aom_sugari_no_ontachi_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Ame-no-Ohabari (Heaven-Point-Blade-Extended)
+aom_ame_no_ohabari_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
 # Court Artifacts
 # Kusanagi no Tsurugi (Three Sacred Treasures)
 aom_kusanagi_no_tsurugi_modifier = {
@@ -1440,6 +1482,30 @@ aom_yata_no_kagami_modifier = {
 
 # Yasakani no Magatama (Three Sacred Treasures)
 aom_yasakani_no_magatama_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Kojiki (Records of Ancient Matters)
+aom_kojiki_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Nihon Shoki (The Chronicles of Japan)
+aom_nihon_shoki_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Tamatebako
+aom_tamatebako_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Seven-Branched Sword
+aom_seven_branched_sword_modifier = {
 	intrigue = 7
 	diplomatic_range_mult = 1
 }

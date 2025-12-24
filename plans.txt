@@ -98,6 +98,7 @@ Planned:
 - Added Shinto (Japanese) artifacts with gamerule control
 - Added Hindu (Indian) artifacts with gamerule control
 - Added Tengri (Mongol) artifacts with gamerule control
+- Added Musok (Korean) artifacts with gamerule control
 - Events tied to specific artifacts
     - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
 - Artifact search

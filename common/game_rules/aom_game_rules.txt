@@ -162,18 +162,18 @@ aom_generate_easter_egg_artifacts = {
 	aom_generate_easter_egg_artifacts_disabled = {}
 }
 
-# # Generate Shinto Artifacts
-# aom_generate_shinto_artifacts = {
-# 	categories = { aom }
+# Generate Shinto Artifacts
+aom_generate_shinto_artifacts = {
+	categories = { aom }
 
-# 	default = aom_generate_shinto_artifacts_all
+	default = aom_generate_shinto_artifacts_all
 
-# 	aom_generate_shinto_artifacts_all = {}
-# 	aom_generate_shinto_artifacts_only_god = {}
-# 	aom_generate_shinto_artifacts_only_legend = {}
-# 	aom_generate_shinto_artifacts_with_descision = {}
-# 	aom_generate_shinto_artifacts_disabled = {}
-# }
+	aom_generate_shinto_artifacts_all = {}
+	aom_generate_shinto_artifacts_only_god = {}
+	aom_generate_shinto_artifacts_only_legend = {}
+	aom_generate_shinto_artifacts_with_descision = {}
+	aom_generate_shinto_artifacts_disabled = {}
+}
 
 # # Generate Hindu Artifacts
 # aom_generate_hindu_artifacts = {

@@ -126,6 +126,181 @@ create_artifact_aom_tonbokiri_effect = {
     }
 }
 
+# Dōjigiri (Demon Child Slayer) - Tenka-Goken (Five Great Swords)
+create_artifact_aom_dojigiri_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_dojigiri_name
+        description = aom_dojigiri_desc
+        type = weapon_simple
+        visuals = aom_dojigiri
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_dojigiri_template
+        history = { type = created_before_history }
+        modifier = aom_dojigiri_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_dojigiri
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Onimaru (Demon Circle) - Tenka-Goken (Five Great Swords)
+create_artifact_aom_onimaru_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_onimaru_name
+        description = aom_onimaru_desc
+        type = weapon_simple
+        visuals = aom_onimaru
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_onimaru_template
+        history = { type = created_before_history }
+        modifier = aom_onimaru_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_onimaru
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Mikazuki (Crescent Moon) - Tenka-Goken (Five Great Swords)
+create_artifact_aom_mikazuki_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_mikazuki_name
+        description = aom_mikazuki_desc
+        type = weapon_simple
+        visuals = aom_mikazuki
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_mikazuki_template
+        history = { type = created_before_history }
+        modifier = aom_mikazuki_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_mikazuki
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Ōtenta (Great Denta) - Tenka-Goken (Five Great Swords)
+create_artifact_aom_otenta_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_otenta_name
+        description = aom_otenta_desc
+        type = weapon_simple
+        visuals = aom_otenta
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_otenta_template
+        history = { type = created_before_history }
+        modifier = aom_otenta_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_otenta
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Juzumaru (Rosary) - Tenka-Goken (Five Great Swords)
+create_artifact_aom_juzumaru_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_juzumaru_name
+        description = aom_juzumaru_desc
+        type = weapon_simple
+        visuals = aom_juzumaru
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_juzumaru_template
+        history = { type = created_before_history }
+        modifier = aom_juzumaru_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_juzumaru
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Sugari No Ontachi 
+create_artifact_aom_sugari_no_ontachi_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_sugari_no_ontachi_name
+        description = aom_sugari_no_ontachi_desc
+        type = weapon_simple
+        visuals = aom_sugari_no_ontachi
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_sugari_no_ontachi_template
+        history = { type = created_before_history }
+        modifier = aom_sugari_no_ontachi_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_sugari_no_ontachi
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Ame-no-Ohabari (Heaven-Point-Blade-Extended)
+create_artifact_aom_ame_no_ohabari_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_ame_no_ohabari_name
+        description = aom_ame_no_ohabari_desc
+        type = weapon_simple
+        visuals = aom_ame_no_ohabari
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_ame_no_ohabari_template
+        history = { type = created_before_history }
+        modifier = aom_ame_no_ohabari_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_ame_no_ohabari
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
 ############################
 # Court Artifacts
 ############################
@@ -199,6 +374,106 @@ create_artifact_aom_yasakani_no_magatama_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_yasakani_no_magatama
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Kojiki (Records of Ancient Matters)
+create_artifact_aom_kojiki_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_kojiki_name
+        description = aom_kojiki_desc
+        type = court_book_simple
+        visuals = aom_kojiki
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_kojiki_template
+        history = { type = created_before_history }
+        modifier = aom_kojiki_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_kojiki
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Nihon Shoki (The Chronicles of Japan)
+create_artifact_aom_nihon_shoki_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_nihon_shoki_name
+        description = aom_nihon_shoki_desc
+        type = court_book_simple
+        visuals = aom_nihon_shoki
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_nihon_shoki_template
+        history = { type = created_before_history }
+        modifier = aom_nihon_shoki_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_nihon_shoki
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Tamatebako
+create_artifact_aom_tamatebako_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_tamatebako_name
+        description = aom_tamatebako_desc
+        type = chest_simple
+        visuals = aom_tamatebako
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_tamatebako_template
+        history = { type = created_before_history }
+        modifier = aom_tamatebako_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_tamatebako
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Seven-Branched Sword
+create_artifact_aom_seven_branched_sword_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_famed = yes
+    create_artifact = {
+        name = aom_seven_branched_sword_name
+        description = aom_seven_branched_sword_desc
+        type = weapon_simple
+        visuals = aom_seven_branched_sword
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_seven_branched_sword_template
+        history = { type = created_before_history }
+        modifier = aom_seven_branched_sword_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_seven_branched_sword
         set_variable = aom_artifact
         save_scope_as = epic
     }

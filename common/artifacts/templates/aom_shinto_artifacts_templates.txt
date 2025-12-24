@@ -91,6 +91,132 @@ aom_tonbokiri_template = {
 	unique = yes
 }
 
+# Dōjigiri (Demon Child Slayer) - Tenka-Goken (Five Great Swords)
+aom_dojigiri_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 1
+	}
+	unique = yes
+}
+
+# Onimaru (Demon Circle) - Tenka-Goken (Five Great Swords)
+aom_onimaru_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 1
+	}
+	unique = yes
+}
+
+# Mikazuki (Crescent Moon) - Tenka-Goken (Five Great Swords)
+aom_mikazuki_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 1
+	}
+	unique = yes
+}
+
+# Ōtenta (Great Denta) - Tenka-Goken (Five Great Swords)
+aom_otenta_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 1
+	}
+	unique = yes
+}
+
+# Juzumaru (Rosary) - Tenka-Goken (Five Great Swords)
+aom_juzumaru_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 9
+		martial = 1
+	}
+	unique = yes
+}
+
+# Sugari No Ontachi 
+aom_sugari_no_ontachi_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 7
+		martial = 3
+	}
+	unique = yes
+}
+
+# Ame-no-Ohabari (Heaven-Point-Blade-Extended)
+aom_ame_no_ohabari_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 7
+		martial = 3
+	}
+	unique = yes
+}
+
 ############################
 # Court Artifacts
 ############################
@@ -144,6 +270,79 @@ aom_yasakani_no_magatama_template = {
 	fallback = {
 		prowess = 8
 		martial = 2
+	}
+	unique = yes
+}
+
+# Kojiki (Records of Ancient Matters)
+aom_kojiki_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 4
+	}
+	unique = yes
+}
+
+# Nihon Shoki (The Chronicles of Japan)
+aom_nihon_shoki_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 4
+	}
+	unique = yes
+}
+
+# Tamatebako
+aom_tamatebako_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 4
+	}
+	unique = yes
+}
+
+# Seven-Branched Sword
+aom_seven_branched_sword_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_japanese
+					has_cultural_pillar = heritage_korean
+				}
+			}
+		}
+	}
+	fallback = {
+		prowess = 4
 	}
 	unique = yes
 }
