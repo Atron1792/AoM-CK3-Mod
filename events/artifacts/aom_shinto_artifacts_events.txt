@@ -27,6 +27,46 @@ aom_shinto_artifacts.001 = {
 			}
 		}
 
+        # Raijin's Drum
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_raijins_drum }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = { has_cultural_pillar = heritage_japanese }
+                }
+                create_artifact_aom_raijins_drum_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # Fūjin's Windbag
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_fujins_windbag }
+                    }
+                    highest_held_title_tier >= tier_duchy
+                    culture = { has_cultural_pillar = heritage_japanese }
+                }
+                create_artifact_aom_fujins_windbag_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
 		# Inventory Artifacts
 		# Ame-no-Nuboko (Heavenly Jeweled Spear)
         while = {
@@ -87,6 +127,66 @@ aom_shinto_artifacts.001 = {
                 }
             }
         }
+
+        # Hirutama (Ebbing Jewel) - Tide Jewels
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_hirutama }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_japanese }
+                }
+                create_artifact_aom_hirutama_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # Mitsutama (Flowing Jewel) - Tide Jewels
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_mitsutama }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_japanese }
+                }
+                create_artifact_aom_mitsutama_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
+
+        # Kinshikyū (Emperor Jimmu's Bow)
+        while = {
+            count = 1
+            random_ruler = {
+                limit = {
+                    NOT = { 
+                        has_character_flag = aom_seeded_relic 
+                        any_artifact = { has_variable = aom_kinshikyu }
+                    }
+                    highest_held_title_tier >= tier_county
+                    culture = { has_cultural_pillar = heritage_japanese }
+                }
+                create_artifact_aom_kinshikyu_effect = { OWNER = this }
+                add_character_flag = {
+                    flag = aom_seeded_relic
+                    days = 1
+                }
+            }
+        }
 	}
 }
 		
@@ -118,7 +218,7 @@ aom_shinto_artifacts.002 = {
 			}
 		}
 
-		# Yata no Kagami (Three Sacred Treasures)\
+		# Yata no Kagami (Three Sacred Treasures)
         while = {
             count = 1
             random_ruler = {

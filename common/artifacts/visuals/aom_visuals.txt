@@ -1330,6 +1330,24 @@ aom_ame_no_ohabari = {
 	asset = ep1_western_sword_01_b_portrait_entity
 }
 
+# Hirutama (Ebbing Jewel) - Tide Jewels
+aom_hirutama = {
+	icon = "shinto/aom_hirutama.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Mitsutama (Flowing Jewel) - Tide Jewels
+aom_mitsutama = {
+	icon = "shinto/aom_mitsutama.dds"
+	asset = ep1_generic_jewelry_01_a_entity
+}
+
+# Kinshikyū (Emperor Jimmu's Bow)
+aom_kinshikyu = {
+	icon = "shinto/aom_kinshikyu.dds"
+	asset = ep2_mediterranean_bow_01_a_portrait_entity
+}
+
 # Court Artifacts
 # Kusanagi no Tsurugi (Three Sacred Treasures)
 aom_kusanagi_no_tsurugi = {
@@ -1376,6 +1394,20 @@ aom_tamatebako = {
 # Seven-Branched Sword
 aom_seven_branched_sword = {
 	icon = "shinto/aom_seven_branched_sword.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+# Raijin's Drum
+aom_raijins_drum = {
+	icon = "shinto/aom_raijins_drum.dds"
+	pedestal = "tall"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
+# Fūjin's Windbag
+aom_fujins_windbag = {
+	icon = "shinto/aom_fujins_windbag.dds"
 	pedestal = "tall"
 	asset = ep1_mena_box_small_basic_01_a_entity
 }

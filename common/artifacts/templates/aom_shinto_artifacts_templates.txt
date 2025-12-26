@@ -217,6 +217,61 @@ aom_ame_no_ohabari_template = {
 	unique = yes
 }
 
+# Hirutama (Ebbing Jewel) - Tide Jewels
+aom_hirutama_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 6
+		diplomacy = 4
+	}
+	unique = yes
+}
+
+# Mitsutama (Flowing Jewel) - Tide Jewels
+aom_mitsutama_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+
+		}
+	}
+	fallback = {
+		prowess = 6
+		diplomacy = 4
+	}
+	unique = yes
+}
+
+# Kinshikyū (Emperor Jimmu's Bow)
+aom_kinshikyu_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 7
+		diplomacy = 1
+	}
+	unique = yes
+}
+
 ############################
 # Court Artifacts
 ############################
@@ -346,3 +401,7 @@ aom_seven_branched_sword_template = {
 	}
 	unique = yes
 }
+
+# Raijin's Drum
+
+# Fūjin's Windbag

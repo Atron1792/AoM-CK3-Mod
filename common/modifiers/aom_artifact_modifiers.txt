@@ -1467,6 +1467,24 @@ aom_ame_no_ohabari_modifier = {
 	diplomatic_range_mult = 1
 }
 
+# Hirutama (Ebbing Jewel) - Tide Jewels
+aom_hirutama_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Mitsutama (Flowing Jewel) - Tide Jewels
+aom_mitsutama_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Kinshikyū (Emperor Jimmu's Bow)
+aom_kinshikyu_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
 # Court Artifacts
 # Kusanagi no Tsurugi (Three Sacred Treasures)
 aom_kusanagi_no_tsurugi_modifier = {
@@ -1506,6 +1524,18 @@ aom_tamatebako_modifier = {
 
 # Seven-Branched Sword
 aom_seven_branched_sword_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Raijin's Drum
+aom_raijins_drum_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
+# Fūjin's Windbag
+aom_fujins_windbag_modifier = {
 	intrigue = 7
 	diplomatic_range_mult = 1
 }

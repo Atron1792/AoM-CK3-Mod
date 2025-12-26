@@ -301,6 +301,81 @@ create_artifact_aom_ame_no_ohabari_effect = {
     }
 }
 
+# Hirutama (Ebbing Jewel) - Tide Jewels
+create_artifact_aom_hirutama_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_hirutama_name
+        description = aom_hirutama_desc
+        type = miscellaneous
+        visuals = aom_hirutama
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_hirutama_template
+        history = { type = created_before_history }
+        modifier = aom_hirutama_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_hirutama
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Mitsutama (Flowing Jewel) - Tide Jewels
+create_artifact_aom_mitsutama_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_mitsutama_name
+        description = aom_mitsutama_desc
+        type = miscellaneous
+        visuals = aom_mitsutama
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_mitsutama_template
+        history = { type = created_before_history }
+        modifier = aom_mitsutama_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_mitsutama
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Kinshikyū (Emperor Jimmu's Bow)
+create_artifact_aom_kinshikyu_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_kinshikyu_name
+        description = aom_kinshikyu_desc
+        type = bow_simple
+        visuals = aom_kinshikyu
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_kinshikyu_template
+        history = { type = created_before_history }
+        modifier = aom_kinshikyu_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_kinshikyu
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
 ############################
 # Court Artifacts
 ############################
@@ -311,7 +386,7 @@ create_artifact_aom_kusanagi_no_tsurugi_effect = {
     create_artifact = {
         name = aom_kusanagi_no_tsurugi_name
         description = aom_kusanagi_no_tsurugi_desc
-        type = pedestal_simple
+        type = weapon_simple
         visuals = aom_kusanagi_no_tsurugi
         wealth = scope:wealth
         quality = scope:quality
@@ -386,7 +461,7 @@ create_artifact_aom_kojiki_effect = {
     create_artifact = {
         name = aom_kojiki_name
         description = aom_kojiki_desc
-        type = court_book_simple
+        type = book
         visuals = aom_kojiki
         wealth = scope:wealth
         quality = scope:quality
@@ -411,7 +486,7 @@ create_artifact_aom_nihon_shoki_effect = {
     create_artifact = {
         name = aom_nihon_shoki_name
         description = aom_nihon_shoki_desc
-        type = court_book_simple
+        type = book
         visuals = aom_nihon_shoki
         wealth = scope:wealth
         quality = scope:quality
@@ -436,7 +511,7 @@ create_artifact_aom_tamatebako_effect = {
     create_artifact = {
         name = aom_tamatebako_name
         description = aom_tamatebako_desc
-        type = chest_simple
+        type = pedestal_simple
         visuals = aom_tamatebako
         wealth = scope:wealth
         quality = scope:quality
@@ -474,6 +549,56 @@ create_artifact_aom_seven_branched_sword_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_seven_branched_sword
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Raijin's Drum
+create_artifact_aom_raijins_drum_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_raijins_drum_name
+        description = aom_raijins_drum_desc
+        type = sculpture_simple
+        visuals = aom_raijins_drum
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_raijins_drum_template
+        history = { type = created_before_history }
+        modifier = aom_raijins_drum_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_raijins_drum
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}
+
+# Fūjin's Windbag
+create_artifact_aom_fujins_windbag_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_fujins_windbag_name
+        description = aom_fujins_windbag_desc
+        type = sculpture_simple
+        visuals = aom_fujins_windbag
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_fujins_windbag_template
+        history = { type = created_before_history }
+        modifier = aom_fujins_windbag_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_fujins_windbag
         set_variable = aom_artifact
         save_scope_as = epic
     }
