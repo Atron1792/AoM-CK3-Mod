@@ -163,7 +163,7 @@ aom_deshret_template = {
 ############################
 # Court Artifacts
 ############################
-# Neith’s Loom
+# Neith's Loom
 aom_neiths_loom_template = {
 	can_equip = { always = yes }
 	can_benefit = {
@@ -183,7 +183,7 @@ aom_neiths_loom_template = {
 	unique = yes
 }
 
-# Feather of Ma’at
+# Feather of Ma'at
 aom_feather_of_maat_template = {
 	can_equip = { always = yes }
 	can_benefit = {
@@ -203,7 +203,7 @@ aom_feather_of_maat_template = {
 	unique = yes
 }
 
-# Anubis’ Scales
+# Anubis' Scales
 aom_anubis_scales_template = {
 	can_equip = { always = yes }
 	can_benefit = {

@@ -1,7 +1,7 @@
 ﻿############################
 # Inventory Artifacts
 ############################
-# Gungnir (Odin’s Spear)
+# Gungnir (Odin's Spear)
 aom_gungnir_template = {
 	can_equip = {
 		always = yes
@@ -21,7 +21,7 @@ aom_gungnir_template = {
 	unique = yes
 }
 
-# Mjölnir (Thor’s Hammer)
+# Mjölnir (Thor's Hammer)
 aom_mjolnir_template = {
 	can_equip = {
 		always = yes
@@ -40,7 +40,7 @@ aom_mjolnir_template = {
 	unique = yes
 }
 
-# Járngreipr (Thor’s Gauntlet)
+# Járngreipr (Thor's Gauntlet)
 aom_jarngreipr_template = {
 	can_equip = {
 		always = yes
@@ -58,7 +58,7 @@ aom_jarngreipr_template = {
 	unique = yes
 }
 
-# Megingjörð (Thor’s Belt)
+# Megingjörð (Thor's Belt)
 aom_megingjord_template = {
 	can_equip = {
 		always = yes
@@ -76,7 +76,7 @@ aom_megingjord_template = {
 	unique = yes
 }
 
-# Brísingamen (Freyja’s Necklace)
+# Brísingamen (Freyja's Necklace)
 aom_brisingamen_template = {
 	can_equip = {
 		always = yes
@@ -94,7 +94,7 @@ aom_brisingamen_template = {
 	unique = yes
 }
 
-# Draupnir (Odin’s Ring)
+# Draupnir (Odin's Ring)
 aom_draupnir_template = {
 	can_equip = {
 		always = yes
@@ -168,7 +168,7 @@ aom_svalinn_template = {
 	unique = yes
 }
 
-# Gram (Sigurd’s Sword)
+# Gram (Sigurd's Sword)
 aom_gram_template = {
 	can_equip = {
 		always = yes
@@ -278,7 +278,7 @@ aom_hrotti_template = {
 	unique = yes
 }
 
-# Hǫfuð (Heimdall’s Sword)
+# Hǫfuð (Heimdall's Sword)
 aom_hofud_template = {
 	can_equip = {
 		always = yes
@@ -498,7 +498,7 @@ aom_gjallarhorn_template = {
 	unique = yes
 }
 
-# Mímir’s Skull
+# Mímir's Skull
 aom_mimirs_skull_template = {
 	can_equip = {
 		always = yes
@@ -516,7 +516,7 @@ aom_mimirs_skull_template = {
 	unique = yes
 }
 
-# Bragi’s Harp
+# Bragi's Harp
 aom_bragis_harp_template = {
 	can_equip = {
 		always = yes

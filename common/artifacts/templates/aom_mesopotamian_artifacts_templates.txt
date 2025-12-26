@@ -45,7 +45,7 @@ aom_imhullu_template = {
 	unique = yes
 }
 
-# Marduk’s Net
+# Marduk's Net
 aom_marduks_net_template = {
 	can_equip = { always = yes }
 	can_benefit = {
@@ -90,7 +90,7 @@ aom_tablet_of_destinies_template = {
 	unique = yes
 }
 
-# Bull of Heaven’s Horns
+# Bull of Heaven's Horns
 aom_bull_of_heaven_template = {
 	can_equip = { always = yes }
 	can_benefit = {

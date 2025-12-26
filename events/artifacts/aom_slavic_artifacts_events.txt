@@ -57,7 +57,7 @@ aom_slavic_artifacts.001 = {
             }
         }
 
-        # Baba Yaga’s Mortar and Pestle
+        # Baba Yaga's Mortar and Pestle
         while = {
             count = 1
             random_ruler = {
@@ -156,7 +156,7 @@ aom_slavic_artifacts.001 = {
             }
         }
 
-        # The Firebird’s Feather
+        # The Firebird's Feather
         while = {
             count = 1
             random_ruler = {

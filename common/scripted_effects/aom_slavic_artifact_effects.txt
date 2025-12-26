@@ -76,7 +76,7 @@ create_artifact_aom_raskovnik_effect = {
     }
 }
 
-# The Firebird’s Feather
+# The Firebird's Feather
 create_artifact_aom_firebird_feather_effect = {
     $OWNER$ = { save_scope_as = owner }
     set_artifact_rarity_illustrious = yes
@@ -179,7 +179,7 @@ create_artifact_aom_fern_flower_effect = {
     }
 }
 
-# Baba Yaga’s Mortar and Pestle
+# Baba Yaga's Mortar and Pestle
 create_artifact_aom_baba_yagas_mortar_effect = {
     $OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes

@@ -68,7 +68,7 @@ aom_chinese_artifacts.001 = {
         }
 
 		# Inventory Artifacts
-		# Pangu’s Axe
+		# Pangu's Axe
         while = {
             count = 1
             random_ruler = {
@@ -97,7 +97,7 @@ aom_chinese_artifacts.001 = {
                 }
             }
         }
-        # Ruyi Jingu Bang (Sun Wukong’s Staff)
+        # Ruyi Jingu Bang (Sun Wukong's Staff)
         while = {
             count = 1
             random_ruler = {
@@ -126,7 +126,7 @@ aom_chinese_artifacts.001 = {
                 }
             }
         }
-        # Sun Wukong’s Boots
+        # Sun Wukong's Boots
         while = {
             count = 1
             random_ruler = {
@@ -458,7 +458,7 @@ aom_chinese_artifacts.002 = {
                 }
             }
         }
-        # Hou Yi’s Bow
+        # Hou Yi's Bow
         while = {
             count = 1
             random_ruler = {

@@ -2,7 +2,7 @@
 # Norse Artifacts
 ############################
 # Inventory Artifacts
-# Gungnir (Odin’s Spear)
+# Gungnir (Odin's Spear)
 aom_gungnir_modifier = {
 	prowess = 15
 	learning = 7
@@ -19,7 +19,7 @@ aom_mjolnir_modifier = {
 	zealot_opinion = 10
 }
 
-# Járngreipr (Thor’s Gauntlet)
+# Járngreipr (Thor's Gauntlet)
 aom_jarngreipr_modifier = {
 	prowess = 10
 	martial = 5
@@ -27,7 +27,7 @@ aom_jarngreipr_modifier = {
 	zealot_opinion = 6
 }
 
-# Megingjörð (Thor’s Belt)
+# Megingjörð (Thor's Belt)
 aom_megingjord_modifier = {
 	prowess = 8
 	health = 1
@@ -36,7 +36,7 @@ aom_megingjord_modifier = {
 	zealot_opinion = 6
 }
 
-# Brísingamen (Freyja’s Necklace)
+# Brísingamen (Freyja's Necklace)
 aom_brisingamen_modifier = {
 	personal_scheme_phase_duration_add = -20
 	attraction_opinion = 25
@@ -44,7 +44,7 @@ aom_brisingamen_modifier = {
 	general_opinion = 15
 }
 
-# Draupnir (Odin’s Gold Ring)
+# Draupnir (Odin's Gold Ring)
 aom_draupnir_modifier = {
 	stewardship = 8
 	monthly_income_mult = 0.15
@@ -77,7 +77,7 @@ aom_svalinn_modifier = {
 	defender_advantage = 5
 }
 
-# Gram (Sigurd’s Sword)
+# Gram (Sigurd's Sword)
 aom_gram_modifier = {
 	prowess = 10
 	martial = 3
@@ -119,7 +119,7 @@ aom_hrotti_modifier = {
 	monthly_prestige = 0.5
 }
 
-# Hǫfuð (Heimdall’s Sword)
+# Hǫfuð (Heimdall's Sword)
 aom_hofud_modifier = {
 	prowess = 11
 	martial = 4
@@ -208,14 +208,14 @@ aom_gjallarhorn_modifier = {
 	enemy_hostile_scheme_success_chance_add = -10
 }
 
-# Mímir’s Skull
+# Mímir's Skull
 aom_mimirs_skull_modifier = {
 	learning = 12
 	monthly_piety = 0.6
 	learn_language_scheme_phase_duration_add = -20
 }
 
-# Bragi’s Harp
+# Bragi's Harp
 aom_bragis_harp_modifier = {
 	diplomacy = 8
 	monthly_prestige = 0.5
@@ -723,7 +723,7 @@ aom_sleg_modifier = {
 	monthly_prestige = 0.4
 }
 
-# Lugh’s Sling
+# Lugh's Sling
 aom_lughs_sling_modifier = {
 	prowess = 10
 	martial = 3
@@ -967,7 +967,7 @@ aom_raskovnik_modifier = {
 	owned_hostile_scheme_success_chance_add = 15
 }
 
-# The Firebird’s Feather
+# The Firebird's Feather
 aom_firebird_feather_modifier = {
 	monthly_prestige = 0.75
 	diplomacy = 3
@@ -995,7 +995,7 @@ aom_fern_flower_modifier = {
 	health = 0.2
 }
 
-# Baba Yaga’s Mortar and Pestle
+# Baba Yaga's Mortar and Pestle
 aom_baba_yagas_mortar_modifier = {
 	intrigue = 4
 	learning = 3
@@ -1097,7 +1097,7 @@ aom_imhullu_modifier = {
 	monthly_prestige = 0.75
 }
 
-# Marduk’s Net
+# Marduk's Net
 aom_marduks_net_modifier = {
 	prowess = 7
 	stewardship = 5
@@ -1110,7 +1110,7 @@ aom_tablet_of_destinies_modifier = {
     monthly_piety = 0.7
 }
 
-# Bull of Heaven’s Horns
+# Bull of Heaven's Horns
 aom_bull_of_heaven_modifier = {
     monthly_prestige = 0.75
 	court_grandeur_baseline_add = 8
@@ -1194,7 +1194,7 @@ aom_deshret_modifier = {
 }
 
 # Court Artifacts
-# Neith’s Loom
+# Neith's Loom
 aom_neiths_loom_modifier = {
 	learning = 6
 	martial = 4
@@ -1202,7 +1202,7 @@ aom_neiths_loom_modifier = {
 	retreat_losses = -0.1
 }
 
-# Feather of Ma’at
+# Feather of Ma'at
 aom_feather_of_maat_modifier = {
 	diplomacy = 3
 	parochial_opinion = 10
@@ -1210,7 +1210,7 @@ aom_feather_of_maat_modifier = {
     tyranny_gain_mult = -0.3
 }
 
-# Anubis’ Scales
+# Anubis' Scales
 aom_anubis_scales_modifier = {
     stewardship = 5
     monthly_piety = 0.5
@@ -1221,7 +1221,7 @@ aom_anubis_scales_modifier = {
 # Chinese Artifacts
 ############################
 # Inventory Artifacts
-# Pangu’s Axe
+# Pangu's Axe
 aom_pangu_axe_modifier = {
     prowess = 15
 	monthly_prestige = 0.75
@@ -1229,13 +1229,13 @@ aom_pangu_axe_modifier = {
 	court_grandeur_baseline_add = 10
 }
 
-# Ruyi Jingu Bang (Wukong’s Staff)
+# Ruyi Jingu Bang (Wukong's Staff)
 aom_ruyi_jingu_bang_modifier = {
     prowess = 12
 	monthly_prestige = 0.75
 }
 
-# Sun Wukong’s Boots
+# Sun Wukong's Boots
 aom_wukong_boots_modifier = {
     prowess = 5
 	character_travel_speed = 20
@@ -1293,7 +1293,7 @@ aom_zhang_fei_spear_modifier = {
 	martial = 3
 }
 
-# Hou Yi’s Bow
+# Hou Yi's Bow
 aom_hou_yi_bow_modifier = {
     prowess = 8
 	martial = 3

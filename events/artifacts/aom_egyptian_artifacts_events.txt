@@ -34,7 +34,7 @@ aom_egyptian_artifacts.001 = {
                 }
             }
         }
-		# Feather of Ma’at
+		# Feather of Ma'at
         while = {
             count = 1
             random_ruler = {
@@ -60,7 +60,7 @@ aom_egyptian_artifacts.001 = {
                 }
             }
         }
-		# Anubis’ Scales
+		# Anubis' Scales
         while = {
             count = 1
             random_ruler = {

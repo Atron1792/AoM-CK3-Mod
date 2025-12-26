@@ -1,7 +1,7 @@
 ﻿############################
 # Inventory Artifacts
 ############################
-# Pangu’s Axe
+# Pangu's Axe
 aom_pangu_axe_template = {
 	can_equip = {
 		always = yes
@@ -27,7 +27,7 @@ aom_pangu_axe_template = {
 	unique = yes
 }
 
-# Ruyi Jingu Bang (Sun Wukong’s Staff)
+# Ruyi Jingu Bang (Sun Wukong's Staff)
 aom_ruyi_jingu_bang_template = {
 	can_equip = {
 		always = yes
@@ -52,7 +52,7 @@ aom_ruyi_jingu_bang_template = {
 	unique = yes
 }
 
-# Sun Wukong’s Boots
+# Sun Wukong's Boots
 aom_wukong_boots_template = {
 	can_equip = {
 		always = yes
@@ -281,7 +281,7 @@ aom_zhang_fei_spear_template = {
 	unique = yes
 }
 
-# Hou Yi’s Bow
+# Hou Yi's Bow
 aom_hou_yi_bow_template = {
 	can_equip = {
 		always = yes

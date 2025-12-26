@@ -55,7 +55,7 @@ aom_raskovnik_template = {
 	unique = yes
 }
 
-# The Firebird’s Feather
+# The Firebird's Feather
 aom_firebird_feather_template = {
 	can_equip = {
 		always = yes
@@ -121,7 +121,7 @@ aom_fern_flower_template = {
 	unique = yes
 }
 
-# Baba Yaga’s Mortar and Pestle
+# Baba Yaga's Mortar and Pestle
 aom_baba_yagas_mortar_template = {
 	can_benefit = {
 		trigger_if = {

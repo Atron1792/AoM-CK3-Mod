@@ -316,7 +316,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Mímir’s Skull
+		# Mímir's Skull
 		while = {
 			count = 1
 			random_ruler = {
@@ -360,7 +360,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Bragi’s Harp
+		# Bragi's Harp
 		while = {
 			count = 1
 			random_ruler = {
@@ -405,7 +405,7 @@ aom_norse_artifacts.001 = {
 		}
 
 		# Inventory Artifacts
-		# Gungnir (Odin’s Spear)
+		# Gungnir (Odin's Spear)
 		while = {
 			count = 1
 			random_ruler = {
@@ -449,7 +449,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Mjölnir (Thor’s Hammer)
+		# Mjölnir (Thor's Hammer)
 		while = {
 			count = 1
 			random_ruler = {
@@ -493,7 +493,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Járngreipr (Thor’s Gauntlet)
+		# Járngreipr (Thor's Gauntlet)
 		while = {
 			count = 1
 			random_ruler = {
@@ -537,7 +537,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 			
-		# Megingjörð (Thor’s Belt)
+		# Megingjörð (Thor's Belt)
 		while = {
 			count = 1
 			random_ruler = {
@@ -581,7 +581,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Brísingamen (Freyja’s Necklace)
+		# Brísingamen (Freyja's Necklace)
 		while = {
 			count = 1
 			random_ruler = {
@@ -625,7 +625,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Draupnir (Odin’s Ring)
+		# Draupnir (Odin's Ring)
 		while = {
 			count = 1
 			random_ruler = {
@@ -845,7 +845,7 @@ aom_norse_artifacts.001 = {
 			}
 		}
 
-		# Hǫfuð (Heimdall’s Sword)
+		# Hǫfuð (Heimdall's Sword)
 		while = {
 			count = 1
 			random_ruler = {
@@ -1031,7 +1031,7 @@ aom_norse_artifacts.002 = {
 	hidden = yes
 	immediate = {
 		# Inventory Artifacts
-		# Gram (Sigurd’s Sword)
+		# Gram (Sigurd's Sword)
 		while = {
 			count = 1
 			random_ruler = {

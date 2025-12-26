@@ -1,7 +1,7 @@
 ﻿############################
 # Inventory Artifacts
 ############################
-# Gungnir (Odin’s Spear)
+# Gungnir (Odin's Spear)
 create_artifact_aom_gungnir_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -29,7 +29,7 @@ create_artifact_aom_gungnir_effect = {
 	}
 }
 
-# Mjölnir (Thor’s Hammer)
+# Mjölnir (Thor's Hammer)
 create_artifact_aom_mjolnir_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -57,7 +57,7 @@ create_artifact_aom_mjolnir_effect = {
 	}
 }
 
-# Járngreipr (Thor’s Gauntlet)
+# Járngreipr (Thor's Gauntlet)
 create_artifact_aom_jarngreipr_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -85,7 +85,7 @@ create_artifact_aom_jarngreipr_effect = {
 	}
 }
 
-# Megingjörð (Thor’s Belt)
+# Megingjörð (Thor's Belt)
 create_artifact_aom_megingjord_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -113,7 +113,7 @@ create_artifact_aom_megingjord_effect = {
 	}
 }
 
-# Brísingamen (Freyja’s Necklace)
+# Brísingamen (Freyja's Necklace)
 create_artifact_aom_brisingamen_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -141,7 +141,7 @@ create_artifact_aom_brisingamen_effect = {
 	}
 }
 
-# Draupnir (Odin’s Ring)
+# Draupnir (Odin's Ring)
 create_artifact_aom_draupnir_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -253,7 +253,7 @@ create_artifact_aom_svalinn_effect = {
 	}
 }
 
-# Gram (Sigurd’s Sword)
+# Gram (Sigurd's Sword)
 create_artifact_aom_gram_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes
@@ -421,7 +421,7 @@ create_artifact_aom_hrotti_effect = {
 	}
 }
 
-# Hǫfuð (Heimdall’s Sword)
+# Hǫfuð (Heimdall's Sword)
 create_artifact_aom_hofud_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -760,7 +760,7 @@ create_artifact_aom_gjallarhorn_effect = {
 	}
 }
 
-# Mímir’s Skull
+# Mímir's Skull
 create_artifact_aom_mimirs_skull_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -788,7 +788,7 @@ create_artifact_aom_mimirs_skull_effect = {
 	}
 }
 
-# Bragi’s Harp
+# Bragi's Harp
 create_artifact_aom_bragis_harp_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes

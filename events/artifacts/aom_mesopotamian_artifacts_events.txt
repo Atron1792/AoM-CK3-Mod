@@ -37,7 +37,7 @@ aom_mesopotamian_artifacts.001 = {
                 }
             }
         }
-        # Bull of Heaven’s Horns
+        # Bull of Heaven's Horns
         while = {
             count = 1
             random_ruler = {
@@ -156,7 +156,7 @@ aom_mesopotamian_artifacts.001 = {
                 }
             }
         }
-        # Marduk’s Net
+        # Marduk's Net
         while = {
             count = 1
             random_ruler = {

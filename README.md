@@ -31,7 +31,7 @@ Artifacts of Myth adds powerful, myth-inspired relics to your game, each with po
 
 Inspired by *More Unique Artifacts* and the many great CK2 artifact mods.
 
-The art is generated using ChatGPT’s image tools, with editing by me.
+The art is generated using ChatGPT's image tools, with editing by me.
 
 French, German, Russian, Simplified Chinese, and Spanish localization is machine-translated through Google Translate and ChatGPT.
 

@@ -1,7 +1,7 @@
 ﻿############################
 # Inventory Artifacts
 ############################
-# Pangu’s Axe
+# Pangu's Axe
 create_artifact_aom_pangu_axe_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -26,7 +26,7 @@ create_artifact_aom_pangu_axe_effect = {
 	}
 }
 
-# Ruyi Jingu Bang (Sun Wukong’s Staff)
+# Ruyi Jingu Bang (Sun Wukong's Staff)
 create_artifact_aom_ruyi_jingu_bang_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -51,7 +51,7 @@ create_artifact_aom_ruyi_jingu_bang_effect = {
 	}
 }
 
-# Sun Wukong’s Boots
+# Sun Wukong's Boots
 create_artifact_aom_wukong_boots_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -276,7 +276,7 @@ create_artifact_aom_zhang_fei_spear_effect = {
 	}
 }
 
-# Hou Yi’s Bow
+# Hou Yi's Bow
 create_artifact_aom_hou_yi_bow_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_famed = yes

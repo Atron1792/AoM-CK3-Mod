@@ -229,7 +229,7 @@ create_artifact_aom_neiths_loom_effect = {
 	}
 }
 
-# Feather of Ma’at
+# Feather of Ma'at
 create_artifact_aom_feather_of_maat_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -254,7 +254,7 @@ create_artifact_aom_feather_of_maat_effect = {
 	}
 }
 
-# Anubis’ Scales
+# Anubis' Scales
 create_artifact_aom_anubis_scales_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes

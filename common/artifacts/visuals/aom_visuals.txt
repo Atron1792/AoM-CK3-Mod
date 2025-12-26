@@ -2,37 +2,37 @@
 # Norse Artifacts
 ############################
 # Inventory Artifacts
-# Gungnir (Odin’s Spear)
+# Gungnir (Odin's Spear)
 aom_gungnir = {
 	icon = "norse/aom_gungnir.dds"
 	asset = ep1_western_spear_01_a_portrait_entity
 }
 
-# Mjölnir (Thor’s Hammer)
+# Mjölnir (Thor's Hammer)
 aom_mjolnir = {
 	icon = "norse/aom_mjolnir.dds"
 	asset = ep1_western_mace_01_a_portrait_entity
 }
 
-# Járngreipr (Thor’s Gauntlets)
+# Járngreipr (Thor's Gauntlets)
 aom_jarngreipr = {
 	icon = "norse/aom_jarngreipr.dds"
 	asset = ep1_generic_animal_hide_small_01_a_entity
 }
 
-# Megingjörð (Thor’s Belt)
+# Megingjörð (Thor's Belt)
 aom_megingjord = {
 	icon = "norse/aom_megingjord.dds"
 	asset = ep1_generic_animal_hide_small_01_a_entity
 }
 
-# Brísingamen (Freyja’s Necklace)
+# Brísingamen (Freyja's Necklace)
 aom_brisingamen = {
 	icon = "norse/aom_brisingamen.dds"
 	asset = ep1_generic_jewelry_01_a_entity
 }
 
-# Draupnir (Odin’s Ring)
+# Draupnir (Odin's Ring)
 aom_draupnir = {
 	icon = "norse/aom_draupnir.dds"
 	asset = ep1_generic_jewelry_01_a_entity
@@ -56,7 +56,7 @@ aom_svalinn = {
 	asset = ep1_mena_shield_01_a_entity
 }
 
-# Gram (Sigurd’s Sword)
+# Gram (Sigurd's Sword)
 aom_gram = {
 	icon = "norse/aom_gram.dds"
 	asset = ep1_western_sword_01_b_portrait_entity
@@ -92,7 +92,7 @@ aom_hrotti = {
 	asset = ep1_western_sword_01_b_portrait_entity
 }
 
-# Hǫfuð (Heimdall’s Sword)
+# Hǫfuð (Heimdall's Sword)
 aom_hofud = {
 	icon = "norse/aom_hofuo.dds"
 	asset = ep1_western_sword_01_a_portrait_entity
@@ -170,14 +170,14 @@ aom_gjallarhorn = {
 	asset = fp3_artifact_persian_drinking_vessel_01_c_entity
 }
 
-# Mímir’s Skull
+# Mímir's Skull
 aom_mimirs_skull = {
 	icon = "norse/aom_mimirs_skull.dds"
 	pedestal = "tall_pillow"
 	asset = ep1_trophy_human_01_entity
 }
 
-# Bragi’s Harp
+# Bragi's Harp
 aom_bragis_harp = {
 	icon = "norse/aom_bragis_harp.dds"
 	support_type = "tall"
@@ -645,7 +645,7 @@ aom_sleg = {
 	asset = ep1_western_spear_01_a_portrait_entity
 }
 
-# Lugh’s Sling
+# Lugh's Sling
 aom_lughs_sling = {
 	icon = "celtic/aom_lughs_sling.dds"
 	asset = ep1_western_spear_01_a_portrait_entity
@@ -863,7 +863,7 @@ aom_raskovnik = {
 	asset = ep1_generic_jewelry_01_a_entity
 }
 
-# The Firebird’s Feather
+# The Firebird's Feather
 aom_firebird_feather = {
 	icon = "slavic/aom_firebird_feather.dds"
 	asset = ep1_generic_animal_hide_small_01_a_entity
@@ -891,7 +891,7 @@ aom_fern_flower = {
 	asset = ep1_mena_box_small_basic_01_a_entity
 }
 
-# Baba Yaga’s Mortar and Pestle
+# Baba Yaga's Mortar and Pestle
 aom_baba_yagas_mortar = {
 	icon = "slavic/aom_baba_yagas_mortar.dds"
 	pedestal = "tall"
@@ -981,7 +981,7 @@ aom_imhullu = {
     asset = ep1_western_spear_01_a_portrait_entity
 }
 
-# Marduk’s Net
+# Marduk's Net
 aom_marduks_net = {
     icon = "mesopotamian/aom_marduks_net.dds"
     asset = ep1_generic_jewelry_01_a_entity
@@ -995,7 +995,7 @@ aom_tablet_of_destinies = {
 	asset = ep1_mena_book_verybig_01_a_entity
 }
 
-# Bull of Heaven’s Horns
+# Bull of Heaven's Horns
 aom_bull_of_heaven = {
     icon = "mesopotamian/aom_bull_of_heaven.dds"
     asset = ep1_generic_trophy_aurochs_01_a_entity
@@ -1074,14 +1074,14 @@ aom_neiths_loom = {
 	asset = ep1_mena_box_reliquary_01_a_entity
 }
 
-# Feather of Ma’at
+# Feather of Ma'at
 aom_feather_of_maat = {
     icon = "egyptian/aom_feather_of_maat.dds"
     pedestal = "tall"
     asset = ep1_mena_box_small_fancy_01_a_entity
 }
 
-# Anubis’ Scales
+# Anubis' Scales
 aom_anubis_scales = {
     icon = "egyptian/aom_anubis_scales.dds"
     pedestal = "tall"
@@ -1092,19 +1092,19 @@ aom_anubis_scales = {
 # Chinese Artifacts
 ############################
 # Inventory Artifacts
-# Pangu’s Axe
+# Pangu's Axe
 aom_pangu_axe = {
     icon = "chinese/aom_pangu_axe.dds"
     asset = ep1_western_axe_01_a_portrait_entity
 }
 
-# Ruyi Jingu Bang (Sun Wukong’s Staff)
+# Ruyi Jingu Bang (Sun Wukong's Staff)
 aom_ruyi_jingu_bang = {
     icon = "chinese/aom_ruyi_jingu_bang.dds"
     asset = ep1_western_spear_01_a_portrait_entity
 }
 
-# Sun Wukong’s Boots
+# Sun Wukong's Boots
 aom_wukong_boots = {
     icon = "chinese/aom_wukong_boots.dds"
     asset = ep1_generic_jewelry_01_a_entity
@@ -1158,7 +1158,7 @@ aom_zhang_fei_spear = {
     asset = ep1_western_spear_01_a_portrait_entity
 }
 
-# Hou Yi’s Bow
+# Hou Yi's Bow
 aom_hou_yi_bow = {
     icon = "chinese/aom_hou_yi_bow.dds"
     asset = ep2_mediterranean_bow_01_a_portrait_entity
@@ -1401,14 +1401,14 @@ aom_seven_branched_sword = {
 # Raijin's Drum
 aom_raijins_drum = {
 	icon = "shinto/aom_raijins_drum.dds"
-	pedestal = "tall"
+	pedestal = "short"
 	asset = ep1_mena_box_small_basic_01_a_entity
 }
 
 # Fūjin's Windbag
 aom_fujins_windbag = {
 	icon = "shinto/aom_fujins_windbag.dds"
-	pedestal = "tall"
+	pedestal = "short"
 	asset = ep1_mena_box_small_basic_01_a_entity
 }
 

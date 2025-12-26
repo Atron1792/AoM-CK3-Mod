@@ -51,7 +51,7 @@ create_artifact_aom_imhullu_effect = {
 	}
 }
 
-# Marduk’s Net
+# Marduk's Net
 create_artifact_aom_marduks_net_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes
@@ -104,7 +104,7 @@ create_artifact_aom_tablet_of_destinies_effect = {
 	}
 }
 
-# Bull of Heaven’s Horns
+# Bull of Heaven's Horns
 create_artifact_aom_bull_of_heaven_effect = {
 	$OWNER$ = { save_scope_as = owner }
 	set_artifact_rarity_illustrious = yes

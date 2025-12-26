@@ -22,7 +22,7 @@ aom_sleg_template = {
 	unique = yes
 }
 
-# Lugh’s Sling
+# Lugh's Sling
 aom_lughs_sling_template = {
 	can_equip = { always = yes }
 	can_benefit = {
