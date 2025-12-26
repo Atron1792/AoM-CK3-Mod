@@ -1412,6 +1412,13 @@ aom_fujins_windbag = {
 	asset = ep1_mena_box_small_basic_01_a_entity
 }
 
+# Yamata no Orochi’s Scale
+aom_yamata_no_orochi_scale = {
+	icon = "shinto/aom_yamata_no_orochi_scale.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_mena_box_small_basic_01_a_entity
+}
+
 ############################
 # Hindu Artifacts
 ############################

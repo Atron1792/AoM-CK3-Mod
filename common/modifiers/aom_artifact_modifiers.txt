@@ -1540,6 +1540,12 @@ aom_fujins_windbag_modifier = {
 	diplomatic_range_mult = 1
 }
 
+# Yamata no Orochi’s Scale
+aom_yamata_no_orochi_scale_modifier = {
+	intrigue = 7
+	diplomatic_range_mult = 1
+}
+
 ############################
 # Hindu Artifacts
 ############################

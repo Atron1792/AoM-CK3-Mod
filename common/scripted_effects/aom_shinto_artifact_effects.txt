@@ -603,3 +603,28 @@ create_artifact_aom_fujins_windbag_effect = {
         save_scope_as = epic
     }
 }
+
+# Yamata no Orochi’s Scale
+create_artifact_aom_yamata_no_orochi_scale_effect = {
+    $OWNER$ = { save_scope_as = owner }
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = aom_yamata_no_orochi_scale_name
+        description = aom_yamata_no_orochi_scale_desc
+        type = miscellaneous
+        visuals = aom_yamata_no_orochi_scale
+        wealth = scope:wealth
+        quality = scope:quality
+        template = aom_yamata_no_orochi_scale_template
+        history = { type = created_before_history }
+        modifier = aom_yamata_no_orochi_scale_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = aom_yamata_no_orochi_scale
+        set_variable = aom_artifact
+        save_scope_as = epic
+    }
+}

@@ -403,5 +403,55 @@ aom_seven_branched_sword_template = {
 }
 
 # Raijin's Drums
+aom_raijins_drums_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 5
+		stewardship = 3
+	}
+	unique = yes
+}
 
 # Fūjin's Windbag
+aom_fujins_windbag_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 5
+		stewardship = 3
+	}
+	unique = yes
+}
+
+# Yamata no Orochi’s Scale
+aom_yamata_no_orochi_scale_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		trigger_if = {
+			limit = { has_game_rule = aom_artifact_requirements_enabled }
+			culture = { has_cultural_pillar = heritage_japanese }
+		}
+	}
+	fallback = {
+		prowess = 6
+		stewardship = 2
+	}
+	unique = yes
+}
