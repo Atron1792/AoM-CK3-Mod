@@ -27,19 +27,19 @@ aom_shinto_artifacts.001 = {
 			}
 		}
 
-        # Raijin's Drum
+        # Raijin's Drums
         while = {
             count = 1
             random_ruler = {
                 limit = {
                     NOT = { 
                         has_character_flag = aom_seeded_relic 
-                        any_artifact = { has_variable = aom_raijins_drum }
+                        any_artifact = { has_variable = aom_raijins_drums }
                     }
                     highest_held_title_tier >= tier_duchy
                     culture = { has_cultural_pillar = heritage_japanese }
                 }
-                create_artifact_aom_raijins_drum_effect = { OWNER = this }
+                create_artifact_aom_raijins_drums_effect = { OWNER = this }
                 add_character_flag = {
                     flag = aom_seeded_relic
                     days = 1

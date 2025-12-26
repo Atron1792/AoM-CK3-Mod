@@ -1398,9 +1398,9 @@ aom_seven_branched_sword = {
 	asset = ep1_mena_box_small_basic_01_a_entity
 }
 
-# Raijin's Drum
-aom_raijins_drum = {
-	icon = "shinto/aom_raijins_drum.dds"
+# Raijin's Drums
+aom_raijins_drums = {
+	icon = "shinto/aom_raijins_drums.dds"
 	pedestal = "short"
 	asset = ep1_mena_box_small_basic_01_a_entity
 }

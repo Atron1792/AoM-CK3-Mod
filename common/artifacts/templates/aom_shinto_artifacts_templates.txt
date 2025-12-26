@@ -402,6 +402,6 @@ aom_seven_branched_sword_template = {
 	unique = yes
 }
 
-# Raijin's Drum
+# Raijin's Drums
 
 # Fūjin's Windbag

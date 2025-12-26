@@ -554,26 +554,26 @@ create_artifact_aom_seven_branched_sword_effect = {
     }
 }
 
-# Raijin's Drum
-create_artifact_aom_raijins_drum_effect = {
+# Raijin's Drums
+create_artifact_aom_raijins_drums_effect = {
     $OWNER$ = { save_scope_as = owner }
     set_artifact_rarity_illustrious = yes
     create_artifact = {
-        name = aom_raijins_drum_name
-        description = aom_raijins_drum_desc
+        name = aom_raijins_drums_name
+        description = aom_raijins_drums_desc
         type = sculpture_simple
-        visuals = aom_raijins_drum
+        visuals = aom_raijins_drums
         wealth = scope:wealth
         quality = scope:quality
-        template = aom_raijins_drum_template
+        template = aom_raijins_drums_template
         history = { type = created_before_history }
-        modifier = aom_raijins_drum_modifier
+        modifier = aom_raijins_drums_modifier
         save_scope_as = newly_created_artifact
         decaying = no
     }
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
-        set_variable = aom_raijins_drum
+        set_variable = aom_raijins_drums
         set_variable = aom_artifact
         save_scope_as = epic
     }
