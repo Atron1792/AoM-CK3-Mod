@@ -738,3 +738,81 @@
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
   aom_palantir_desc: "A seeing-stone from ancient Middle-earth, allowing vision across vast distances, and into peril."
+
+# Shinto Artifacts
+  # Inventory Artifacts
+  aom_ame_no_nuboko_name: "Ame-no-Nuboko"
+  aom_ame_no_nuboko_desc: "The Heavenly Jeweled Spear used by Izanagi and Izanami to stir the primordial sea and create the islands of Japan."
+
+  aom_uchide_no_kozuchi_name: "Uchide no Kozuchi"
+  aom_uchide_no_kozuchi_desc: "The Magic Hammer of the gods, capable of producing whatever the wielder desires."
+
+  aom_nihongo_name: "Nihongo"
+  aom_nihongo_desc: "One of the Three Legendary Spears, a sacred weapon of divine origin."
+
+  aom_otegine_name: "Otegine"
+  aom_otegine_desc: "One of the Three Legendary Spears, forged in the age of gods."
+
+  aom_tonbokiri_name: "Tonbokiri"
+  aom_tonbokiri_desc: "The Dragonfly Cutter, one of the Three Legendary Spears said to slay demons with a single thrust."
+
+  aom_dojigiri_name: "Dōjigiri"
+  aom_dojigiri_desc: "The Demon Child Slayer, one of the Five Great Swords, renowned for its supernatural sharpness."
+
+  aom_onimaru_name: "Onimaru"
+  aom_onimaru_desc: "The Demon Circle, one of the Five Great Swords, said to protect against evil spirits."
+
+  aom_mikazuki_name: "Mikazuki"
+  aom_mikazuki_desc: "The Crescent Moon, one of the Five Great Swords with a distinctive curved blade."
+
+  aom_otenta_name: "Ōtenta"
+  aom_otenta_desc: "The Great Denta, one of the Five Great Swords of legendary craftsmanship."
+
+  aom_juzumaru_name: "Juzumaru"
+  aom_juzumaru_desc: "The Rosary, one of the Five Great Swords, bearing marks like prayer beads."
+
+  aom_sugari_no_ontachi_name: "Sugari no Ontachi"
+  aom_sugari_no_ontachi_desc: "An ancient tachi blade, honored as a national treasure of Japan."
+
+  aom_ame_no_ohabari_name: "Ame-no-Ohabari"
+  aom_ame_no_ohabari_desc: "The Heaven-Point-Blade-Extended, a divine blade wielded by Izanagi to cleanse the underworld."
+
+  aom_hirutama_name: "Hirutama"
+  aom_hirutama_desc: "The Ebbing Jewel, one of the Two Tide Jewels used to control the tides."
+
+  aom_mitsutama_name: "Mitsutama"
+  aom_mitsutama_desc: "The Flowing Jewel, one of the Two Tide Jewels complementing the Hirutama."
+
+  aom_kinshikyu_name: "Kinshikyū"
+  aom_kinshikyu_desc: "The Emperor Jimmu's Bow, the divine bow of Japan's legendary first emperor."
+
+  # Court Artifacts
+  aom_kusanagi_no_tsurugi_name: "Kusanagi no Tsurugi"
+  aom_kusanagi_no_tsurugi_desc: "The Grass-Cutting Sword, one of the Three Sacred Treasures of Japan, pulled from a serpent's tail."
+
+  aom_yata_no_kagami_name: "Yata no Kagami"
+  aom_yata_no_kagami_desc: "The Sacred Mirror, one of the Three Sacred Treasures, said to reflect the true nature of all things."
+
+  aom_yasakani_no_magatama_name: "Yasakani no Magatama"
+  aom_yasakani_no_magatama_desc: "The Sacred Jewel, one of the Three Sacred Treasures, a symbol of imperial authority and divine blessing."
+
+  aom_kojiki_name: "Kojiki"
+  aom_kojiki_desc: "The Records of Ancient Matters, Japan's oldest historical text detailing the creation myths and the age of gods."
+
+  aom_nihon_shoki_name: "Nihon Shoki"
+  aom_nihon_shoki_desc: "The Chronicles of Japan, a comprehensive historical record of the imperial line and divine descent."
+
+  aom_tamatebako_name: "Tamatebako"
+  aom_tamatebako_desc: "The Jeweled Box given to Emperor Jimmu by his grandmother, said to contain treasures beyond measure."
+
+  aom_seven_branched_sword_name: "Seven-Branched Sword"
+  aom_seven_branched_sword_desc: "A ceremonial blade shared between Japanese and Korean traditions, symbolizing diplomatic ties and divine craftsmanship."
+
+  aom_raijins_drums_name: "Raijin's Drums"
+  aom_raijins_drums_desc: "The thunderous drums of Raijin, the god of thunder, said to summon storms and divine will."
+
+  aom_fujins_windbag_name: "Fūjin's Windbag"
+  aom_fujins_windbag_desc: "The wind bag of Fūjin, the god of wind, containing gales that can reshape the land."
+
+  aom_yamata_no_orochi_scale_name: "Yamata no Orochi's Scale"
+  aom_yamata_no_orochi_scale_desc: "A scale from the eight-headed serpent slain by Susanoo, imbued with ancient and terrible power."

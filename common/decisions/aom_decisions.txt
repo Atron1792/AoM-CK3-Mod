@@ -1038,3 +1038,63 @@ aom_convert_to_finno_ugric_decision = {
 		always = no
 	}
 }
+
+# Convert to Shinto
+aom_convert_to_shinto_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = decisions
+	desc = aom_convert_to_shinto_decision_desc
+	ai_goal = no
+	ai_check_interval = 0
+	is_shown = {
+		any_character_artifact = {
+			has_variable = aom_shinto_artifact
+		}
+		NOT = { faith.religion = religion:eastern_religion }
+	}
+	is_valid = {
+		custom_description = {
+			text = aom_has_shinto_artifact
+			any_character_artifact = {
+				has_variable = aom_shinto_artifact
+			}
+		}
+		NOT = { has_trait = zealous }
+	}
+	cost = {
+		piety = 3000
+	}
+	effect = {
+		# scopes
+		faith = { save_scope_as = old_faith }
+		faith:shinto_pagan = { save_scope_as = new_faith }
+
+		set_character_faith = scope:new_faith
+		every_consort = {
+			limit = {
+				is_ruler = no
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
+		every_close_or_extended_family_member = {
+			custom = every_close_or_extended_family_member_to_convert
+			limit = {
+				is_courtier_of = root
+				NOR = {
+					scope:old_faith = scope:new_faith
+					has_trait = zealous
+				}
+			}
+			set_character_faith = scope:new_faith
+		}
+	}
+	ai_potential = {
+		always = no
+	}
+}

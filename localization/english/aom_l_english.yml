@@ -140,6 +140,13 @@
   aom_convert_to_finno_ugric_decision_confirm: "Return to the Path of the Spirits"
   aom_has_finno_ugric_artifact: "You possess a Finno-Ugric artifact"
 
+# Convert to Shinto
+  aom_convert_to_shinto_decision: "Embrace Shinto"
+  aom_convert_to_shinto_decision_desc: "The kami spirits whisper through the wind and sacred groves. With relics of the Far East in your possession, you may walk the path of Shinto once more, honoring the ancient spirits and celestial harmony."
+  aom_convert_to_shinto_decision_tooltip: "Convert your faith to Shinto if you hold a Shinto artifact."
+  aom_convert_to_shinto_decision_confirm: "Commune with the Kami"
+  aom_has_shinto_artifact: "You possess a Shinto artifact"
+
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Artifact Requirements"
 
@@ -359,6 +366,24 @@
   setting_aom_generate_easter_egg_artifacts_disabled: "#R Disabled#!"
   setting_aom_generate_easter_egg_artifacts_disabled_desc: "Easter Egg artifacts will not be generated or seeded."
 
+# Shinto Artifact Gamerule
+  rule_aom_generate_shinto_artifacts: "Shinto Artifact Generation"
+
+  setting_aom_generate_shinto_artifacts_all: "#P All Artifacts#!"
+  setting_aom_generate_shinto_artifacts_all_desc: "All Shinto mythological artifacts will be seeded into the game."
+
+  setting_aom_generate_shinto_artifacts_only_god: "#M Only God Artifacts#!"
+  setting_aom_generate_shinto_artifacts_only_god_desc: "Only illustrious artifacts associated with Shinto myth will be seeded."
+
+  setting_aom_generate_shinto_artifacts_only_legend: "#M Only Legendary Artifacts#!"
+  setting_aom_generate_shinto_artifacts_only_legend_desc: "All Shinto artifacts except illustrious artifacts will be seeded."
+
+  setting_aom_generate_shinto_artifacts_with_descision: "#V With Decision#!"
+  setting_aom_generate_shinto_artifacts_with_descision_desc: "Shinto artifacts are created only via a special decision."
+
+  setting_aom_generate_shinto_artifacts_disabled: "#R Disabled#!"
+  setting_aom_generate_shinto_artifacts_disabled_desc: "Shinto artifacts will not be generated or seeded."
+
 # # Destroy Double Crown and make White and Red Crowns
   #   aom_artifact_checks.0001.t: "The Crowns Divide"
   #   aom_artifact_checks.0001.desc: "Without dominion over the full Nile, the power of the Double Crown begins to wane. The unity of Upper and Lower Egypt fractures, and the Pschent cannot be sustained. In its place, the Hedjet and Deshret reemerge, symbols of a once-divided land."
@@ -390,6 +415,7 @@
   aom_artifact_spawning.1091.t: "Egyptian Artifact Menu"
   aom_artifact_spawning.1101.t: "Chinese Artifact Menu"
   aom_artifact_spawning.1111.t: "Easter Egg Artifact Menu"
+  aom_artifact_spawning.1121.t: "Shinto Artifact Menu"
   aom_artifact_spawning.desc: "Choose an Artifact to Spawn:"
 
   game_rule_category_aom: "Artifacts of Myth"
