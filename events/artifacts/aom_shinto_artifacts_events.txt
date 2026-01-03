@@ -17,7 +17,7 @@ aom_shinto_artifacts.001 = {
 						any_artifact = { has_variable = aom_tamatebako }
 					}
 					highest_held_title_tier >= tier_duchy
-					culture = { has_cultural_pillar = heritage_japanese }
+					culture = { has_cultural_pillar = heritage_japonic }
 				}
 				create_artifact_aom_tamatebako_effect = { OWNER = this }
 				add_character_flag = {
@@ -37,7 +37,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_raijins_drums }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_raijins_drums_effect = { OWNER = this }
                 add_character_flag = {
@@ -57,7 +57,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_fujins_windbag }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_fujins_windbag_effect = { OWNER = this }
                 add_character_flag = {
@@ -77,7 +77,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_yamata_no_orochi_scale }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_yamata_no_orochi_scale_effect = { OWNER = this }
                 add_character_flag = {
@@ -98,7 +98,7 @@ aom_shinto_artifacts.001 = {
 						any_artifact = { has_variable = aom_ame_no_nuboko }
 					}
 					highest_held_title_tier >= tier_county
-					culture = { has_cultural_pillar = heritage_japanese }
+					culture = { has_cultural_pillar = heritage_japonic }
 				}
 				create_artifact_aom_ame_no_nuboko_effect = { OWNER = this }
 				add_character_flag = {
@@ -118,7 +118,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_uchide_no_kozuchi }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_uchide_no_kozuchi_effect = { OWNER = this }
                 add_character_flag = {
@@ -138,7 +138,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_ame_no_ohabari }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_ame_no_ohabari_effect = { OWNER = this }
                 add_character_flag = {
@@ -158,7 +158,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_hirutama }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_hirutama_effect = { OWNER = this }
                 add_character_flag = {
@@ -178,7 +178,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_mitsutama }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_mitsutama_effect = { OWNER = this }
                 add_character_flag = {
@@ -198,7 +198,7 @@ aom_shinto_artifacts.001 = {
                         any_artifact = { has_variable = aom_kinshikyu }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_kinshikyu_effect = { OWNER = this }
                 add_character_flag = {
@@ -228,7 +228,7 @@ aom_shinto_artifacts.002 = {
 						any_artifact = { has_variable = aom_kusanagi_no_tsurugi }
 					}
 					highest_held_title_tier >= tier_duchy
-					culture = { has_cultural_pillar = heritage_japanese }
+					culture = { has_cultural_pillar = heritage_japonic }
 				}
 				create_artifact_aom_kusanagi_no_tsurugi_effect = { OWNER = this }
 				add_character_flag = {
@@ -248,7 +248,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_yata_no_kagami }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_yata_no_kagami_effect = { OWNER = this }
                 add_character_flag = {
@@ -268,7 +268,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_yasakani_no_magatama }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_yasakani_no_magatama_effect = { OWNER = this }
                 add_character_flag = {
@@ -288,7 +288,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_kojiki }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_kojiki_effect = { OWNER = this }
                 add_character_flag = {
@@ -308,7 +308,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_nihon_shoki }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_nihon_shoki_effect = { OWNER = this }
                 add_character_flag = {
@@ -328,7 +328,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_seven_branched_sword }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_seven_branched_sword_effect = { OWNER = this }
                 add_character_flag = {
@@ -349,7 +349,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_nihongo }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_nihongo_effect = { OWNER = this }
                 add_character_flag = {
@@ -369,7 +369,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_otegine }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_otegine_effect = { OWNER = this }
                 add_character_flag = {
@@ -389,7 +389,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_tonbokiri }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_tonbokiri_effect = { OWNER = this }
                 add_character_flag = {
@@ -409,7 +409,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_dojigiri }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_dojigiri_effect = { OWNER = this }
                 add_character_flag = {
@@ -429,7 +429,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_onimaru }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_onimaru_effect = { OWNER = this }
                 add_character_flag = {
@@ -449,7 +449,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_mikazuki }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_mikazuki_effect = { OWNER = this }
                 add_character_flag = {
@@ -469,7 +469,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_otenta }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_otenta_effect = { OWNER = this }
                 add_character_flag = {
@@ -489,7 +489,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_juzumaru }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_juzumaru_effect = { OWNER = this }
                 add_character_flag = {
@@ -509,7 +509,7 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_sugari_no_ontachi }
                     }
                     highest_held_title_tier >= tier_county
-                    culture = { has_cultural_pillar = heritage_japanese }
+                    culture = { has_cultural_pillar = heritage_japonic }
                 }
                 create_artifact_aom_sugari_no_ontachi_effect = { OWNER = this }
                 add_character_flag = {

@@ -21,7 +21,7 @@ create_artifact_aom_ame_no_nuboko_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_ame_no_nuboko
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -46,7 +46,7 @@ create_artifact_aom_uchide_no_kozuchi_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_uchide_no_kozuchi
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -71,7 +71,7 @@ create_artifact_aom_nihongo_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_nihongo
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -96,7 +96,7 @@ create_artifact_aom_otegine_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_otegine
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -121,7 +121,7 @@ create_artifact_aom_tonbokiri_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_tonbokiri
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -146,7 +146,7 @@ create_artifact_aom_dojigiri_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_dojigiri
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -171,7 +171,7 @@ create_artifact_aom_onimaru_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_onimaru
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -196,7 +196,7 @@ create_artifact_aom_mikazuki_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_mikazuki
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -221,7 +221,7 @@ create_artifact_aom_otenta_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_otenta
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -246,7 +246,7 @@ create_artifact_aom_juzumaru_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_juzumaru
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -271,7 +271,7 @@ create_artifact_aom_sugari_no_ontachi_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_sugari_no_ontachi
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -296,7 +296,7 @@ create_artifact_aom_ame_no_ohabari_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_ame_no_ohabari
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -321,7 +321,7 @@ create_artifact_aom_hirutama_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_hirutama
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -346,7 +346,7 @@ create_artifact_aom_mitsutama_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_mitsutama
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -371,7 +371,7 @@ create_artifact_aom_kinshikyu_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_kinshikyu
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -399,7 +399,7 @@ create_artifact_aom_kusanagi_no_tsurugi_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_kusanagi_no_tsurugi
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -424,7 +424,7 @@ create_artifact_aom_yata_no_kagami_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_yata_no_kagami
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -449,7 +449,7 @@ create_artifact_aom_yasakani_no_magatama_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_yasakani_no_magatama
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -474,7 +474,7 @@ create_artifact_aom_kojiki_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_kojiki
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -499,7 +499,7 @@ create_artifact_aom_nihon_shoki_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_nihon_shoki
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -524,7 +524,7 @@ create_artifact_aom_tamatebako_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_tamatebako
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -549,7 +549,7 @@ create_artifact_aom_seven_branched_sword_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_seven_branched_sword
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -574,7 +574,7 @@ create_artifact_aom_raijins_drums_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_raijins_drums
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -599,7 +599,7 @@ create_artifact_aom_fujins_windbag_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_fujins_windbag
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }
@@ -624,7 +624,7 @@ create_artifact_aom_yamata_no_orochi_scale_effect = {
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = aom_yamata_no_orochi_scale
-        set_variable = aom_artifact
+        set_variable = aom_shinto_artifact
         save_scope_as = epic
     }
 }

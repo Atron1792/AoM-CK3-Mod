@@ -14,7 +14,7 @@ aom_on_game_start = {
 		aom_game_rule.010
 		aom_game_rule.011
 		aom_game_rule.012
-		# aom_game_rule.013
+		aom_game_rule.013
 		# aom_game_rule.014
 		# aom_game_rule.015
 	}

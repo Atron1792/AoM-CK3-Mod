@@ -9,7 +9,7 @@ aom_ame_no_nuboko_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -27,7 +27,7 @@ aom_uchide_no_kozuchi_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -45,7 +45,7 @@ aom_nihongo_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -63,7 +63,7 @@ aom_otegine_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -81,7 +81,7 @@ aom_tonbokiri_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -99,7 +99,7 @@ aom_dojigiri_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -117,7 +117,7 @@ aom_onimaru_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -135,7 +135,7 @@ aom_mikazuki_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -153,7 +153,7 @@ aom_otenta_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -171,7 +171,7 @@ aom_juzumaru_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -189,7 +189,7 @@ aom_sugari_no_ontachi_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -207,7 +207,7 @@ aom_ame_no_ohabari_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -225,7 +225,7 @@ aom_hirutama_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -243,7 +243,7 @@ aom_mitsutama_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 
 		}
 	}
@@ -262,7 +262,7 @@ aom_kinshikyu_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -283,7 +283,7 @@ aom_kusanagi_no_tsurugi_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -301,7 +301,7 @@ aom_yata_no_kagami_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -319,7 +319,7 @@ aom_yasakani_no_magatama_template = {
 	can_benefit = {
 		trigger_if = {
     		limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -337,7 +337,7 @@ aom_kojiki_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -354,7 +354,7 @@ aom_nihon_shoki_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -371,7 +371,7 @@ aom_tamatebako_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -388,12 +388,7 @@ aom_seven_branched_sword_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = {
-				OR = {
-					has_cultural_pillar = heritage_japanese
-					has_cultural_pillar = heritage_korean
-				}
-			}
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -410,7 +405,7 @@ aom_raijins_drums_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -428,7 +423,7 @@ aom_fujins_windbag_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {
@@ -446,7 +441,7 @@ aom_yamata_no_orochi_scale_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japanese }
+			culture = { has_cultural_pillar = heritage_japonic }
 		}
 	}
 	fallback = {

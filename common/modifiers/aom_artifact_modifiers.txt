@@ -1549,7 +1549,6 @@ aom_tamatebako_modifier = {
 aom_seven_branched_sword_modifier = {
     diplomacy = 3
     monthly_prestige = 0.4
-    same_faith_opinion = 10
 }
 
 # Raijin's Drums

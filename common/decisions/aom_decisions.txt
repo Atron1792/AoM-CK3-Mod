@@ -1069,7 +1069,7 @@ aom_convert_to_shinto_decision = {
 	effect = {
 		# scopes
 		faith = { save_scope_as = old_faith }
-		faith:shinto_pagan = { save_scope_as = new_faith }
+		faith:shinto = { save_scope_as = new_faith }
 
 		set_character_faith = scope:new_faith
 		every_consort = {
