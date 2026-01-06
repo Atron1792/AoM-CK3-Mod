@@ -88,7 +88,7 @@ aom_shinto_artifacts.001 = {
         }
 
 		# Inventory Artifacts
-		# Ame-no-Nuboko (Heavenly Jeweled Spear)
+		# Ame-no-Nuboko (Heavenly Jewelled Spear)
         while = {
 			count = 1
 			random_ruler = {

@@ -1,7 +1,7 @@
 ﻿############################
 # Inventory Artifacts
 ############################
-# Ame-no-Nuboko (Heavenly Jeweled Spear)
+# Ame-no-Nuboko (Heavenly Jewelled Spear)
 aom_ame_no_nuboko_template = {
 	can_equip = {
 		always = yes
@@ -13,8 +13,9 @@ aom_ame_no_nuboko_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		prowess = 9
+		marital = 2
+		monthly_prestige = 0.25
 	}
 	unique = yes
 }
@@ -31,8 +32,8 @@ aom_uchide_no_kozuchi_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		stewardship = 3
+		monthly_income_mult = 0.1
 	}
 	unique = yes
 }
@@ -49,8 +50,9 @@ aom_nihongo_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		prowess = 7
+		marital = 2
+		monthly_prestige = 0.15
 	}
 	unique = yes
 }
@@ -67,8 +69,9 @@ aom_otegine_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		prowess = 7
+		marital = 2
+		monthly_prestige = 0.15
 	}
 	unique = yes
 }
@@ -86,7 +89,8 @@ aom_tonbokiri_template = {
 	}
 	fallback = {
 		prowess = 8
-		martial = 2
+		marital = 2
+		monthly_prestige = 0.15
 	}
 	unique = yes
 }
@@ -103,8 +107,9 @@ aom_dojigiri_template = {
 		}
 	}
 	fallback = {
-		prowess = 9
-		martial = 1
+		prowess = 8
+		marital = 2
+		dread_baseline_add = 6
 	}
 	unique = yes
 }
@@ -121,8 +126,9 @@ aom_onimaru_template = {
 		}
 	}
 	fallback = {
-		prowess = 9
-		martial = 1
+		prowess = 6
+		intrigue = 2
+		dread_gain_mult = 0.08
 	}
 	unique = yes
 }
@@ -139,8 +145,9 @@ aom_mikazuki_template = {
 		}
 	}
 	fallback = {
-		prowess = 9
-		martial = 1
+		prowess = 6
+		marital = 2
+		monthly_prestige = 0.2
 	}
 	unique = yes
 }
@@ -157,8 +164,9 @@ aom_otenta_template = {
 		}
 	}
 	fallback = {
-		prowess = 9
-		martial = 1
+		prowess = 7
+		marital = 1
+		defender_advantage = 3
 	}
 	unique = yes
 }
@@ -175,8 +183,9 @@ aom_juzumaru_template = {
 		}
 	}
 	fallback = {
-		prowess = 9
-		martial = 1
+		prowess = 6
+		learning = 2
+		monthly_piety = 0.2
 	}
 	unique = yes
 }
@@ -193,8 +202,9 @@ aom_sugari_no_ontachi_template = {
 		}
 	}
 	fallback = {
-		prowess = 7
-		martial = 3
+		prowess = 5
+		intrigue = 2
+		owned_hostile_scheme_success_chance_add = 4
 	}
 	unique = yes
 }
@@ -211,8 +221,9 @@ aom_ame_no_ohabari_template = {
 		}
 	}
 	fallback = {
-		prowess = 7
-		martial = 3
+		prowess = 8
+		martial = 2
+		dread_baseline_add = 8
 	}
 	unique = yes
 }
@@ -229,8 +240,9 @@ aom_hirutama_template = {
 		}
 	}
 	fallback = {
-		prowess = 6
-		diplomacy = 4
+		diplomacy = 3
+		attraction_opinion = 5
+		monthly_prestige = 0.1
 	}
 	unique = yes
 }
@@ -248,8 +260,9 @@ aom_mitsutama_template = {
 		}
 	}
 	fallback = {
-		prowess = 6
-		diplomacy = 4
+		diplomacy = 3
+		attraction_opinion = 5
+		monthly_prestige = 0.1
 	}
 	unique = yes
 }
@@ -266,8 +279,9 @@ aom_kinshikyu_template = {
 		}
 	}
 	fallback = {
-		prowess = 7
-		diplomacy = 1
+		prowess = 8
+		marital = 2
+		monthly_prestige = 0.25
 	}
 	unique = yes
 }
@@ -287,8 +301,9 @@ aom_kusanagi_no_tsurugi_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		marital = 2
+		monthly_prestige = 0.4
+		knight_effectiveness_mult = 0.08
 	}
 	unique = yes
 }
@@ -305,8 +320,9 @@ aom_yata_no_kagami_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		diplomacy = 3
+		learning = 2
+		monthly_prestige = 0.3
 	}
 	unique = yes
 }
@@ -323,8 +339,9 @@ aom_yasakani_no_magatama_template = {
 		}
 	}
 	fallback = {
-		prowess = 8
-		martial = 2
+		diplomacy = 3
+		attraction_opinion = 8
+		fertility = 0.1
 	}
 	unique = yes
 }
@@ -341,7 +358,9 @@ aom_kojiki_template = {
 		}
 	}
 	fallback = {
-		prowess = 4
+		learning = 3
+		development_growth = 0.05
+		same_culture_opinion = 4
 	}
 	unique = yes
 }
@@ -358,7 +377,9 @@ aom_nihon_shoki_template = {
 		}
 	}
 	fallback = {
-		prowess = 4
+		learning = 4
+		monthly_piety = 0.25
+		monthly_dynasty_prestige = 0.025
 	}
 	unique = yes
 }
@@ -375,7 +396,9 @@ aom_tamatebako_template = {
 		}
 	}
 	fallback = {
-		prowess = 4
+		monthly_piety = 0.3
+		fertility = 0.1
+		health = 0.25
 	}
 	unique = yes
 }
@@ -392,7 +415,9 @@ aom_seven_branched_sword_template = {
 		}
 	}
 	fallback = {
-		prowess = 4
+		diplomacy = 2
+		monthly_prestige = 0.2
+		diplomatic_range_mult = 0.1
 	}
 	unique = yes
 }
@@ -409,8 +434,9 @@ aom_raijins_drums_template = {
 		}
 	}
 	fallback = {
-		prowess = 5
-		stewardship = 3
+		marital = 3
+		dread_gain_mult = 0.1
+		monthly_prestige = 0.2
 	}
 	unique = yes
 }
@@ -427,8 +453,9 @@ aom_fujins_windbag_template = {
 		}
 	}
 	fallback = {
-		prowess = 5
-		stewardship = 3
+		character_travel_speed = 12
+		monthly_prestige = 0.15
+		diplomatic_range_mult = 0.1
 	}
 	unique = yes
 }
@@ -445,8 +472,9 @@ aom_yamata_no_orochi_scale_template = {
 		}
 	}
 	fallback = {
-		prowess = 6
-		stewardship = 2
+		dread_baseline_add = 10
+		dread_gain_mult = 0.1
+		monthly_prestige = 0.2
 	}
 	unique = yes
 }

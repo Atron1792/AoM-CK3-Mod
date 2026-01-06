@@ -1,7 +1,7 @@
 ﻿############################
 # Inventory Artifacts
 ############################
-# Ame-no-Nuboko (Heavenly Jeweled Spear)
+# Ame-no-Nuboko (Heavenly Jewelled Spear)
 create_artifact_aom_ame_no_nuboko_effect = {
     $OWNER$ = { save_scope_as = owner }
     set_artifact_rarity_illustrious = yes
