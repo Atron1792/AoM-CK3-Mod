@@ -6,7 +6,7 @@
   artifact_weapon_simple: "武器"
   artifact_pedestal_simple: "基座"
 
-# Debug Descisions
+# Debug Decisions
   aom_debug_transfer_all_artifacts: "召唤神话遗物"
   aom_debug_transfer_all_artifacts_desc: "呼唤古代神话的力量，将所有神话遗物召至你的宝库。"
   aom_debug_transfer_all_artifacts_tooltip: "所有已知的神话遗物将被转移至你的拥有。"
@@ -59,6 +59,9 @@
 
   aom_spawn_easter_egg_artifacts: "开启彩蛋遗物菜单"
   aom_spawn_easter_egg_artifacts_tooltip: "示例: 黑火剑, 老魔杖, 真知晶石"
+
+  aom_spawn_shinto_egg_artifacts: "开启神道教蛋形遗物菜单"
+  aom_spawn_shinto_egg_artifacts_tooltip: "示例: 雨之怒、草薙剑、鬼丸"
 
   aom_disable_artifact_spawning: "关闭遗物生成菜单"
   aom_disable_artifact_spawning_tooltip: "#R 警告:#! 这将禁用遗物生成菜单"
@@ -131,6 +134,13 @@
   aom_convert_to_finno_ugric_decision_tooltip: "若你拥有芬诺-乌戈尔遗物，可改信芬诺-乌戈尔异教。"
   aom_convert_to_finno_ugric_decision_confirm: "回归灵之道"
   aom_has_finno_ugric_artifact: "你拥有一件芬诺-乌戈尔遗物"
+
+# Convert to Shinto
+  aom_convert_to_shinto_decision: "拥抱神道教"
+  aom_convert_to_shinto_decision_desc: "神灵之魂在风中低语，在神圣的树林里回响。当你拥有远东的圣物时，你可以再次踏上神道教的道路，尊崇古老的神灵与天体和谐。"
+  aom_convert_to_shinto_decision_tooltip: "如果你拥有神道教的遗物，可以改信神道教。"
+  aom_convert_to_shinto_decision_confirm: "与神灵交流"
+  aom_has_shinto_artifact: "你拥有神道教的遗物"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "遗物使用条件"
@@ -351,6 +361,24 @@
   setting_aom_generate_easter_egg_artifacts_disabled: "#R 禁用#!"
   setting_aom_generate_easter_egg_artifacts_disabled_desc: "彩蛋遗物将不会被生成或放入游戏。"
 
+# Shinto Artifact Gamerule
+  rule_aom_generate_shinto_artifacts: "神道遗物生成"
+
+  setting_aom_generate_shinto_artifacts_all: "#P 所有遗物#!"
+  setting_aom_generate_shinto_artifacts_all_desc: "所有神道神话遗物将被放入游戏中。"
+
+  setting_aom_generate_shinto_artifacts_only_god: "#M 仅神级遗物#!"
+  setting_aom_generate_shinto_artifacts_only_god_desc: "仅与神道神话相关的卓越遗物会被放入游戏中。"
+
+  setting_aom_generate_shinto_artifacts_only_legend: "#M 仅传奇遗物#!"
+  setting_aom_generate_shinto_artifacts_only_legend_desc: "除卓越遗物外，所有神道传奇遗物将被放入游戏中。"
+
+  setting_aom_generate_shinto_artifacts_with_descision: "#V 通过决策生成#!"
+  setting_aom_generate_shinto_artifacts_with_descision_desc: "神道遗物仅能通过特殊决策生成。"
+
+  setting_aom_generate_shinto_artifacts_disabled: "#R 禁用#!"
+  setting_aom_generate_shinto_artifacts_disabled_desc: "神道遗物将不会被生成或放入游戏。"
+
 # Lovecraftian Stress Gain
   aom_artifact_checks.0002.t: "疯狂正在蔓延"
   aom_artifact_checks.0002.desc: "你心灵的角落中似乎有什么苏醒了。那些你不记得读过的文字，那些在思绪后方低语的声音，那些在眼底闪烁的形影……如今，已无回头之路。"
@@ -377,6 +405,7 @@
   aom_artifact_spawning.1091.t: "埃及遗物菜单"
   aom_artifact_spawning.1101.t: "中国遗物菜单"
   aom_artifact_spawning.1111.t: "彩蛋遗物菜单"
+  aom_artifact_spawning.1121.t: "神道遗物菜单"
   aom_artifact_spawning.desc: "选择要生成的遗物："
 
   game_rule_category_aom: "神话遗物"

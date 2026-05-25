@@ -719,3 +719,81 @@
   # Palantír (LotR)
   aom_palantir_name: "帕兰提尔"
   aom_palantir_desc: "一块来自古代中土世界的透视石，能够洞察远方，洞察危险。"
+
+# Shinto Artifacts
+  # Inventory Artifacts
+  aom_ame_no_nuboko_name: "天之蹴钗"
+  aom_ame_no_nuboko_desc: "伊邪那岐和伊邪那美用来搅动原始之海、创造日本列岛的天界宝石之枪。"
+
+  aom_uchide_no_kozuchi_name: "内出之小槌"
+  aom_uchide_no_kozuchi_desc: "神之魔法锤，能够创造持有者想要的一切。"
+
+  aom_nihongo_name: "日本"
+  aom_nihongo_desc: "三大传说之枪之一，神圣的武器。"
+
+  aom_otegine_name: "大手金"
+  aom_otegine_desc: "三大传说之枪之一，锻造于神之时代。"
+
+  aom_tonbokiri_name: "蜻蜓切"
+  aom_tonbokiri_desc: "蜻蜓切，传说中的三大神枪之一，据说能一击斩杀恶魔。"
+
+  aom_dojigiri_name: "童子切"
+  aom_dojigiri_desc: "斩鬼童，五大名剑之一，以其超凡的锋利度而闻名。"
+
+  aom_onimaru_name: "鬼丸"
+  aom_onimaru_desc: "鬼之环，五大名剑之一，据说能抵御邪灵。"
+
+  aom_mikazuki_name: "三日月"
+  aom_mikazuki_desc: "新月，五大名剑之一，拥有独特的弧形剑刃。"
+
+  aom_otenta_name: "Ōtenta"
+  aom_otenta_desc: "伟大的丹太刀，传说中工艺精湛的五大名刀之一。"
+
+  aom_juzumaru_name: "重丸"
+  aom_juzumaru_desc: "念珠太刀，五大名刀之一，刀身刻有类似念珠的纹路。"
+
+  aom_sugari_no_ontachi_name: "紧紧抓住的声音"
+  aom_sugari_no_ontachi_desc: "一把古老的太刀，被尊为日本国宝。"
+
+  aom_ame_no_ohabari_name: "下雨 - 无叶"
+  aom_ame_no_ohabari_desc: "天尖刀-延伸，伊邪那岐用来净化冥界的圣剑。"
+
+  aom_hirutama_name: "行间"
+  aom_hirutama_desc: "潮汐宝珠，两件潮汐宝珠之一，用于控制潮汐。"
+
+  aom_mitsutama_name: "蜂蜜球"
+  aom_mitsutama_desc: "潮汐宝珠，两件潮汐宝珠之一，用于控制潮汐。"
+
+  aom_kinshikyu_name: "锦丝九"
+  aom_kinshikyu_desc: "神武天皇之弓，日本传说中的第一位天皇的神弓。"
+
+  # Court Artifacts
+  aom_kusanagi_no_tsurugi_name: "草薙剑"
+  aom_kusanagi_no_tsurugi_desc: "草薙剑，日本三大神器之一，拔自蛇尾。"
+
+  aom_yata_no_kagami_name: "八咫镜"
+  aom_yata_no_kagami_desc: "八咫镜，日本三大神器之一，据说能映照万物本性。"
+
+  aom_yasakani_no_magatama_name: "八尺琼勾玉"
+  aom_yasakani_no_magatama_desc: "八尺琼勾玉，日本三大神器之一，象征皇权与神明庇佑。"
+
+  aom_kojiki_name: "古事记"
+  aom_kojiki_desc: "古事记，日本现存最古老的史书，记载了创世神话和神明时代。"
+
+  aom_nihon_shoki_name: "日本书纪"
+  aom_nihon_shoki_desc: "日本书纪，一部详尽记载皇室血统和神性传承的历史记录。"
+
+  aom_tamatebako_name: "玉手箱"
+  aom_tamatebako_desc: "神武天皇的祖母赠予他的珠宝盒，据说内藏无比珍贵的宝物。"
+
+  aom_seven_branched_sword_name: "七枝剑"
+  aom_seven_branched_sword_desc: "日本和韩国共同拥有的礼仪用刀，象征着两国的友好关系和精湛的工艺。"
+
+  aom_raijins_drums_name: "雷神的鼓"
+  aom_raijins_drums_desc: "雷神雷霆万钧的鼓，据说能召唤风暴和神意。"
+
+  aom_fujins_windbag_name: "风神的风袋"
+  aom_fujins_windbag_desc: "风神风神的风袋，内含能改变大地的狂风。"
+
+  aom_yamata_no_orochi_scale_name: "八岐大蛇的鳞片"
+  aom_yamata_no_orochi_scale_desc: "须佐之男斩杀的八岐大蛇的鳞片，蕴含着古老而可怕的力量。"

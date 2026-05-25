@@ -738,3 +738,81 @@
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
   aom_palantir_desc: "Una piedra vidente de la antigua Tierra Media, que permite ver a través de vastas distancias… y hacia el peligro."
+
+# Shinto Artifacts
+  # Inventory Artifacts
+  aom_ame_no_nuboko_name: "Ame-no-Nuboko"
+  aom_ame_no_nuboko_desc: "La Lanza Celestial Joyada utilizada por Izanagi e Izanami para agitar el mar primordial y crear las islas de Japón."
+
+  aom_uchide_no_kozuchi_name: "Uchide no Kozuchi"
+  aom_uchide_no_kozuchi_desc: "El Martillo Mágico de los dioses, capaz de producir cualquier cosa que su portador desee."
+
+  aom_nihongo_name: "Nihongo"
+  aom_nihongo_desc: "Una de las Tres Lanzas Legendarias, un arma sagrada de origen divino."
+
+  aom_otegine_name: "Otegine"
+  aom_otegine_desc: "Una de las Tres Lanzas Legendarias, forjada en la era de los dioses."
+
+  aom_tonbokiri_name: "Tonbokiri"
+  aom_tonbokiri_desc: "La Cortadora de Libélulas, una de las Tres Lanzas Legendarias, que se dice que mata demonios de un solo golpe."
+
+  aom_dojigiri_name: "Dōjigiri"
+  aom_dojigiri_desc: "La Matademonios, una de las Cinco Grandes Espadas, famosa por su filo sobrenatural."
+
+  aom_onimaru_name: "Onimaru"
+  aom_onimaru_desc: "El Círculo Demoníaco, una de las Cinco Grandes Espadas, que se dice que protege contra los espíritus malignos."
+
+  aom_mikazuki_name: "Mikazuki"
+  aom_mikazuki_desc: "La Luna Creciente, una de las Cinco Grandes Espadas con una distintiva hoja curva."
+
+  aom_otenta_name: "Ōtenta"
+  aom_otenta_desc: "La Gran Denta, una de las Cinco Grandes Espadas de legendaria artesanía."
+
+  aom_juzumaru_name: "Juzumaru"
+  aom_juzumaru_desc: "El Rosario, una de las Cinco Grandes Espadas, con marcas que recuerdan a un rosario."
+
+  aom_sugari_no_ontachi_name: "Sugari no Ontachi"
+  aom_sugari_no_ontachi_desc: "Una antigua espada tachi, venerada como tesoro nacional de Japón."
+
+  aom_ame_no_ohabari_name: "Ame-no-Ohabari"
+  aom_ame_no_ohabari_desc: "La Espada Extendida Punta Celestial, una espada divina empuñada por Izanagi para purificar el inframundo."
+
+  aom_hirutama_name: "Hirutama"
+  aom_hirutama_desc: "La Joya de la Marea Menguante, una de las Dos Joyas de la Marea utilizadas para controlar las mareas."
+
+  aom_mitsutama_name: "Mitsutama"
+  aom_mitsutama_desc: "La Joya del Flujo, una de las Dos Joyas de la Marea utilizadas para controlar las mareas."
+
+  aom_kinshikyu_name: "Kinshikyū"
+  aom_kinshikyu_desc: "El Arco del Emperador Jimmu, el arco divino del legendario primer emperador de Japón."
+
+  # Court Artifacts
+  aom_kusanagi_no_tsurugi_name: "Kusanagi no Tsurugi"
+  aom_kusanagi_no_tsurugi_desc: "La Espada Cortahierbas, uno de los Tres Tesoros Sagrados de Japón, extraída de la cola de una serpiente."
+
+  aom_yata_no_kagami_name: "Yata no Kagami"
+  aom_yata_no_kagami_desc: "El Espejo Sagrado, uno de los Tres Tesoros Sagrados, que se dice que refleja la verdadera naturaleza de todas las cosas."
+
+  aom_yasakani_no_magatama_name: "Yasakani no Magatama"
+  aom_yasakani_no_magatama_desc: "La Joya Sagrada, uno de los Tres Tesoros Sagrados, símbolo de la autoridad imperial y la bendición divina."
+
+  aom_kojiki_name: "Kojiki"
+  aom_kojiki_desc: "Las Crónicas de Asuntos Antiguos, el texto histórico más antiguo de Japón que detalla los mitos de la creación y la era de los dioses."
+
+  aom_nihon_shoki_name: "Nihon Shoki"
+  aom_nihon_shoki_desc: "Las Crónicas de Japón, un registro histórico exhaustivo de la línea imperial y el linaje divino."
+
+  aom_tamatebako_name: "Tamatebako"
+  aom_tamatebako_desc: "El cofre enjoyado que la abuela del emperador Jimmu le regaló, que se dice que contiene tesoros incalculables."
+
+  aom_seven_branched_sword_name: "Espada de siete ramas"
+  aom_seven_branched_sword_desc: "Una espada ceremonial compartida entre las tradiciones japonesa y coreana, que simboliza los lazos diplomáticos y la artesanía divina."
+
+  aom_raijins_drums_name: "Tambores de Raijin"
+  aom_raijins_drums_desc: "Los atronadores tambores de Raijin, el dios del trueno, que se dice que invocan tormentas y la voluntad divina."
+
+  aom_fujins_windbag_name: "Bolsa de viento de Fūjin"
+  aom_fujins_windbag_desc: "La bolsa de viento de Fūjin, el dios del viento, que contiene vendavales capaces de transformar la tierra." 
+
+  aom_yamata_no_orochi_scale_name: "Escala de Yamata no Orochi" 
+  aom_yamata_no_orochi_scale_desc: "Una escama de la serpiente de ocho cabezas asesinada por Susanoo, imbuida de un poder antiguo y terrible."

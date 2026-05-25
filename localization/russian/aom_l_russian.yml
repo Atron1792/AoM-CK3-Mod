@@ -60,6 +60,9 @@
   aom_spawn_easter_egg_artifacts: "Открыть Меню Пасхальных Артефактов"
   aom_spawn_easter_egg_artifacts_tooltip: "Примеры: Блэкфайр, Бузинная Палочка, Палантир"
 
+  aom_spawn_shinto_egg_artifacts: "Открыть Меню Шинто Яичных Артефактов"
+  aom_spawn_shinto_egg_artifacts_tooltip: "Примеры: Ame-no-Nuboko, Kusanagi no Tsurugi, Onimaru"
+
   aom_disable_artifact_spawning: "Отключить Меню Призыва Артефактов"
   aom_disable_artifact_spawning_tooltip: "#R Внимание:#! Это отключит меню создания артефактов"
 
@@ -131,6 +134,13 @@
   aom_convert_to_finno_ugric_decision_tooltip: "Обрати свою веру в финно-угорское язычество, если ты владеешь финно-угорским артефактом."
   aom_convert_to_finno_ugric_decision_confirm: "Вернуться к Пути Духов"
   aom_has_finno_ugric_artifact: "У тебя есть финно-угорский артефакт"
+
+# Convert to Shinto
+  aom_convert_to_shinto_decision: "Принять Синто"
+  aom_convert_to_shinto_decision_desc: "Духи ками шепчутся через ветер и священные рощи. С реликвиями Восточного Края в твоей власти, ты можешь снова пойти путём Синто, почтитая древних духов и небесное гармонию."
+  aom_convert_to_shinto_decision_tooltip: "Преврати свою веру в Синто, если ты владеешь артефактом Синто."
+  aom_convert_to_shinto_decision_confirm: "Общаться с Ками"
+  aom_has_shinto_artifact: "У тебя есть артефакт Синто"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Требования к Артефактам"
@@ -351,6 +361,24 @@
   setting_aom_generate_easter_egg_artifacts_disabled: "#R Отключено#!"
   setting_aom_generate_easter_egg_artifacts_disabled_desc: "Пасхальные артефакты не будут создаваться или добавляться."
 
+# Shinto Artifact Gamerule
+  rule_aom_generate_shinto_artifacts: "Создание Артефактов Синто"
+
+  setting_aom_generate_shinto_artifacts_all: "#P Все Артефакты#!"
+  setting_aom_generate_shinto_artifacts_all_desc: "Все артефакты Синто будут добавлены в игру."
+
+  setting_aom_generate_shinto_artifacts_only_god: "#M Только Божественные Артефакты#!"
+  setting_aom_generate_shinto_artifacts_only_god_desc: "Будут добавлены только знаменитые артефакты, связанные с синтоистскими богами и героями."
+
+  setting_aom_generate_shinto_artifacts_only_legend: "#M Только Легендарные Артефакты#!"
+  setting_aom_generate_shinto_artifacts_only_legend_desc: "Все артефакты Синто, кроме божественных, будут добавлены."
+
+  setting_aom_generate_shinto_artifacts_with_descision: "#V Через Решение#!"
+  setting_aom_generate_shinto_artifacts_with_descision_desc: "Артефакты Синто создаются только через особое решение."
+
+  setting_aom_generate_shinto_artifacts_disabled: "#R Отключено#!"
+  setting_aom_generate_shinto_artifacts_disabled_desc: "Артефакты Синто не будут создаваться или добавляться."
+
 # Lovecraftian Stress Gain
   aom_artifact_checks.0002.t: "Безумие Подступает"
   aom_artifact_checks.0002.desc: "Что-то шевелится в глубинах твоего разума. Слова, которых ты не помнишь. Шёпоты за мыслями. Тени за глазами. Пути назад уже нет."
@@ -377,6 +405,7 @@
   aom_artifact_spawning.1091.t: "Меню Египетских Артефактов"
   aom_artifact_spawning.1101.t: "Меню Китайских Артефактов"
   aom_artifact_spawning.1111.t: "Меню Пасхальных Артефактов"
+  aom_artifact_spawning.1121.t: "Меню Артефактов Синто"
   aom_artifact_spawning.desc: "Выберите Артефакт для Создания:"
 
   game_rule_category_aom: "Артефакты Мифа"

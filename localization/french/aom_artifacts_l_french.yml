@@ -739,3 +739,80 @@
   aom_palantir_name: "Palantír"
   aom_palantir_desc: "Une pierre de vision de l'ancienne Terre du Milieu, permettant une vision sur de vastes distances et dans le péril."
 
+# Shinto Artifacts
+  # Inventory Artifacts
+  aom_ame_no_nuboko_name: "Ame-no-Nuboko"
+  aom_ame_no_nuboko_desc: "La Lance Céleste Ornée de Joyaux utilisée par Izanagi et Izanami pour agiter la mer primordiale et créer les îles du Japon."
+
+  aom_uchide_no_kozuchi_name: "Uchide no Kozuchi"
+  aom_uchide_no_kozuchi_desc: "Le Marteau Magique des dieux, capable de produire tout ce que son utilisateur désire."
+
+  aom_nihongo_name: "Nihongo"
+  aom_nihongo_desc: "L'une des Trois Lances Légendaires, une arme sacrée d'origine divine."
+
+  aom_otegine_name: "Otegine"
+  aom_otegine_desc: "L'une des Trois Lances Légendaires, forgée à l'âge des dieux."
+
+  aom_tonbokiri_name: "Tonbokiri"
+  aom_tonbokiri_desc: "La Lame Libellule, l'une des Trois Lances Légendaires, réputée pour terrasser les démons d'un seul coup."
+
+  aom_dojigiri_name: "Dōjigiri"
+  aom_dojigiri_desc: "L'Épée Tueuse d'Enfants Démons, l'une des Cinq Grandes Épées, célèbre pour son tranchant surnaturel."
+
+  aom_onimaru_name: "Onimaru"
+  aom_onimaru_desc: "Le Cercle Démoniaque, l'une des Cinq Grandes Épées, réputée pour protéger des mauvais esprits."
+
+  aom_mikazuki_name: "Mikazuki"
+  aom_mikazuki_desc: "Le Croissant de Lune, l'une des Cinq Grandes Épées à la lame incurvée caractéristique."
+
+  aom_otenta_name: "Ōtenta"
+  aom_otenta_desc: "La Grande Denta, l'une des Cinq Grandes Épées, d'une facture légendaire."
+
+  aom_juzumaru_name: "Juzumaru"
+  aom_juzumaru_desc: "Le Rosaire, l'une des Cinq Grandes Épées, orné de marques semblables à un chapelet."
+
+  aom_sugari_no_ontachi_name: "Sugari no Ontachi"
+  aom_sugari_no_ontachi_desc: "Un tachi ancien, considéré comme trésor national du Japon."
+
+  aom_ame_no_ohabari_name: "Ame-no-Ohabari"
+  aom_ame_no_ohabari_desc: "La Lame de la Pointe Céleste Étendue, une lame divine maniée par Izanagi pour purifier le monde souterrain."
+
+  aom_hirutama_name: "Hirutama"
+  aom_hirutama_desc: "Le Joyau du Reflux, l'un des Deux Joyaux des Marées utilisés pour contrôler les marées."
+
+  aom_mitsutama_name: "Mitsutama"
+  aom_mitsutama_desc: "Le Joyau du Flux, l'un des Deux Joyaux des Marées utilisés pour contrôler les marées."
+
+  aom_kinshikyu_name: "Kinshikyū"
+  aom_kinshikyu_desc: "L'Arc de l'Empereur Jimmu, l'arc divin du légendaire premier empereur du Japon."
+
+  # Court Artifacts
+  aom_kusanagi_no_tsurugi_name: "Kusanagi no Tsurugi"
+  aom_kusanagi_no_tsurugi_desc: "TL'Épée Coupe-Herbe, l'un des Trois Trésors Sacrés du Japon, extraite de la queue d'un serpent."
+
+  aom_yata_no_kagami_name: "Yata no Kagami"
+  aom_yata_no_kagami_desc: "Le Miroir Sacré, l'un des Trois Trésors Sacrés, censé refléter la véritable nature de toute chose."
+
+  aom_yasakani_no_magatama_name: "Yasakani no Magatama"
+  aom_yasakani_no_magatama_desc: "Le Joyau Sacré, l'un des Trois Trésors Sacrés, symbole de l'autorité impériale et de la bénédiction divine."
+
+  aom_kojiki_name: "Kojiki"
+  aom_kojiki_desc: "Les Chroniques des Temps Anciens, le plus ancien texte historique du Japon, relatant les mythes de la création et l'âge des dieux."
+
+  aom_nihon_shoki_name: "Nihon Shoki"
+  aom_nihon_shoki_desc: "Les Chroniques du Japon, un récit historique complet de la lignée impériale et de la descendance divine."
+
+  aom_tamatebako_name: "Tamatebako"
+  aom_tamatebako_desc: "Le coffret à joyaux offert à l'empereur Jimmu par sa grand-mère, censé contenir des trésors inestimables."
+
+  aom_seven_branched_sword_name: "Seven-Branched Sword"
+  aom_seven_branched_sword_desc: "Une lame cérémonielle commune aux traditions japonaise et coréenne, symbolisant les liens diplomatiques et le savoir-faire divin."
+
+  aom_raijins_drums_name: "Raijin's Drums"
+  aom_raijins_drums_desc: "Les tambours tonitruants de Raijin, dieu du tonnerre, censés invoquer les tempêtes et la volonté divine."
+
+  aom_fujins_windbag_name: "Fūjin's Windbag"
+  aom_fujins_windbag_desc: "Le sac à vent de Fūjin, dieu du vent, contenant des tempêtes capables de remodeler le paysage."
+
+  aom_yamata_no_orochi_scale_name: "Yamata no Orochi's Scale"
+  aom_yamata_no_orochi_scale_desc: "Une écaille du serpent à huit têtes terrassé par Susanoo, imprégnée d'un pouvoir ancien et terrible."

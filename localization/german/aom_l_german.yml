@@ -60,6 +60,9 @@
   aom_spawn_easter_egg_artifacts: "Oster-Artefakte öffnen"
   aom_spawn_easter_egg_artifacts_tooltip: "Beispiele: Blackfyre, Elderstab, Palantír"
 
+  aom_spawn_shinto_egg_artifacts: "Shinto-Egg-Artefakte öffnen"
+  aom_spawn_shinto_egg_artifacts_tooltip: "Beispiele: Ame-no-Nuboko, Kusanagi no Tsurugi, Onimaru"
+
   aom_disable_artifact_spawning: "Artefakt-Erstellungsmenü deaktivieren"
   aom_disable_artifact_spawning_tooltip: "#R Warnung:#! Dadurch wird das Menü zur Artefakt-Erstellung deaktiviert."
 
@@ -131,6 +134,13 @@
   aom_convert_to_finno_ugric_decision_tooltip: "Bekehr dich zum finno-ugrischen Heidentum, wenn du ein finno-ugrisches Artefakt besitzt."
   aom_convert_to_finno_ugric_decision_confirm: "Zum Weg der Geister zurückkehren"
   aom_has_finno_ugric_artifact: "Du besitzt ein finno-ugrisches Artefakt"
+
+# Convert to Shinto
+  aom_convert_to_shinto_decision: "Schließe dich dem Shintoismus an"
+  aom_convert_to_shinto_decision_desc: "Die Kami-Geister flüstern durch den Wind und die heiligen Haine. Mit Reliquien aus Fernost in deinem Besitz kannst du den Pfad des Shintoismus erneut beschreiten und die alten Geister und die himmlische Harmonie ehren."
+  aom_convert_to_shinto_decision_tooltip: "Konvertiere zum Shintoismus, wenn du ein Shinto-Artefakt besitzt."
+  aom_convert_to_shinto_decision_confirm: "Tritt in Kontakt mit den Kami"
+  aom_has_shinto_artifact: "Du besitzt ein Shinto-Artefakt"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Artefaktanforderungen"
@@ -351,6 +361,24 @@
   setting_aom_generate_easter_egg_artifacts_disabled: "#R Deaktiviert#!"
   setting_aom_generate_easter_egg_artifacts_disabled_desc: "Easter-Egg-Artefakte werden nicht erzeugt oder platziert."
 
+# Shinto Artifact Gamerule
+  rule_aom_generate_shinto_artifacts: "Shinto Artifact Generation"
+
+  setting_aom_generate_shinto_artifacts_all: "#P Alle Artefakte#!"
+  setting_aom_generate_shinto_artifacts_all_desc: "Alle Artefakte der Shinto-Mythologie werden ins Spiel eingefügt."
+
+  setting_aom_generate_shinto_artifacts_only_god: "#M Nur Götterartefakte#!"
+  setting_aom_generate_shinto_artifacts_only_god_desc: "Nur bedeutende Artefakte der Shinto-Mythologie werden eingefügt."
+
+  setting_aom_generate_shinto_artifacts_only_legend: "#M Nur legendäre Artefakte#!"
+  setting_aom_generate_shinto_artifacts_only_legend_desc: "Alle Shinto-Artefakte außer den berühmten Artefakten werden generiert."
+
+  setting_aom_generate_shinto_artifacts_with_descision: "#V Durch Entscheidung#!"
+  setting_aom_generate_shinto_artifacts_with_descision_desc: "Shinto-Artefakte werden nur durch eine spezielle Entscheidung erstellt."
+
+  setting_aom_generate_shinto_artifacts_disabled: "#R Deaktiviert#!"
+  setting_aom_generate_shinto_artifacts_disabled_desc: "Shinto-Artefakte werden weder generiert noch generiert."
+
 # Lovecraftian Stress Gain
   aom_artifact_checks.0002.t: "Der Wahnsinn schleicht sich ein"
   aom_artifact_checks.0002.desc: "Etwas regt sich in den Schatten deines Geistes. Worte, die du dich nicht erinnerst gelesen zu haben. Flüstern hinter deinen Gedanken. Formen hinter deinen Augen. Es gibt jetzt kein Zurück mehr."
@@ -365,19 +393,20 @@
   aom_event_option.close: "Schließen"
   SPAWN_ARTIFACTS_DECISION_NEXT_STEP_BUTTON: "Artefakt-Pantheon wählen"
 
-  aom_artifact_spawning.1001.t: "Nordisches Artefakt-Menü"
-  aom_artifact_spawning.1011.t: "Griechisch-Römisches Artefakt-Menü"
-  aom_artifact_spawning.1021.t: "Abrahamitisches Artefakt-Menü"
-  aom_artifact_spawning.1031.t: "Keltisches Artefakt-Menü"
-  aom_artifact_spawning.1041.t: "Artus-Artefakt-Menü"
-  aom_artifact_spawning.1051.t: "Finno-Ugrisches Artefakt-Menü"
-  aom_artifact_spawning.1061.t: "Slawisches Artefakt-Menü"
-  aom_artifact_spawning.1071.t: "Lovecraft-Artefakt-Menü"
-  aom_artifact_spawning.1081.t: "Mesopotamisches Artefakt-Menü"
-  aom_artifact_spawning.1091.t: "Ägyptisches Artefakt-Menü"
-  aom_artifact_spawning.1101.t: "Chinesisches Artefakt-Menü"
-  aom_artifact_spawning.1111.t: "Easter-Egg-Artefakt-Menü"
-  aom_artifact_spawning.desc: "Wähle ein Artefakt zum Erschaffen:"
+  aom_artifact_spawning.1001.t: "Nordisches Artefaktmenü"
+  aom_artifact_spawning.1011.t: "Griechisch-Römisches Artefaktmenü"
+  aom_artifact_spawning.1021.t: "Abrahamitisches Artefaktmenü"
+  aom_artifact_spawning.1031.t: "Keltisches Artefaktmenü"
+  aom_artifact_spawning.1041.t: "Artus-Artefaktmenü"
+  aom_artifact_spawning.1051.t: "Finno-Ugrisches Artefaktmenü"
+  aom_artifact_spawning.1061.t: "Slawisches Artefaktmenü"
+  aom_artifact_spawning.1071.t: "Lovecraftsches Artefaktmenü"
+  aom_artifact_spawning.1081.t: "Mesopotamisches Artefaktmenü"
+  aom_artifact_spawning.1091.t: "Ägyptisches Artefaktmenü"
+  aom_artifact_spawning.1101.t: "Chinesisches Artefaktmenü"
+  aom_artifact_spawning.1111.t: "Easter-Egg-Artefaktmenü"
+  aom_artifact_spawning.1121.t: "Shinto-Artefaktmenü"
+  aom_artifact_spawning.desc: "Wähle ein Artefakt zum Erscheinen aus:"
 
   game_rule_category_aom: "Artefakte der Mythen"
 

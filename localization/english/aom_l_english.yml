@@ -6,7 +6,7 @@
   artifact_weapon_simple: "Weapon"
   artifact_pedestal_simple: "Pedestal"
 
-# Debug Descisions
+# Debug Decisions
   aom_debug_transfer_all_artifacts: "Summon the Artifacts of Myth"
   aom_debug_transfer_all_artifacts_desc: "Call upon the power of ancient myths and summon all existing mythological artifacts to your inventory."
   aom_debug_transfer_all_artifacts_tooltip: "All known mythological artifacts will be transferred to your possession."
@@ -59,6 +59,9 @@
 
   aom_spawn_easter_egg_artifacts: "Open Easter Egg Artifact Menu"
   aom_spawn_easter_egg_artifacts_tooltip: "Examples: Blackfyre, Elder Wand, Palantír"
+
+  aom_spawn_shinto_egg_artifacts: "Open Shinto Egg Artifact Menu"
+  aom_spawn_shinto_egg_artifacts_tooltip: "Examples: Ame-no-Nuboko, Kusanagi no Tsurugi, Onimaru"
 
   aom_disable_artifact_spawning: "Disable the Artifact Spawning Menu"
   aom_disable_artifact_spawning_tooltip: "#R Warning:#! This disables the artifact spawning menu"

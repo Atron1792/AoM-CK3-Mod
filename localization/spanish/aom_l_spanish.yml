@@ -60,6 +60,9 @@
   aom_spawn_easter_egg_artifacts: "Abrir Menú de Artefactos de Pascua"
   aom_spawn_easter_egg_artifacts_tooltip: "Ejemplos: Blackfyre, Varita de Saúco, Palantír"
 
+  aom_spawn_shinto_egg_artifacts: "Abrir Menú de Artefactos de Huevo Shinto"
+  aom_spawn_shinto_egg_artifacts_tooltip: "Ejemplos: Ame-no-Nuboko, Kusanagi no Tsurugi, Onimaru"
+
   aom_disable_artifact_spawning: "Desactivar el Menú de Generación de Artefactos"
   aom_disable_artifact_spawning_tooltip: "#R Advertencia:#! Esto desactiva el menú de generación de artefactos"
 
@@ -131,6 +134,13 @@
   aom_convert_to_finno_ugric_decision_tooltip: "Convierte tu fe al Paganismo Finno-Úgrico si posees un artefacto de ese origen."
   aom_convert_to_finno_ugric_decision_confirm: "Regresar al Camino de los Espíritus"
   aom_has_finno_ugric_artifact: "Posees un artefacto Finno-Úgrico"
+
+# Convert to Shinto
+  aom_convert_to_shinto_decision: "Abraza el sintoísmo"
+  aom_convert_to_shinto_decision_desc: "Los espíritus kami susurran a través del viento y los bosques sagrados. Con reliquias del Lejano Oriente en tu poder, puedes recorrer el camino del sintoísmo una vez más, honrando a los espíritus ancestrales y la armonía celestial."
+  aom_convert_to_shinto_decision_tooltip: "Convierte tu fe al sintoísmo si posees un artefacto sintoísta."
+  aom_convert_to_shinto_decision_confirm: "Comunicarse con los Kami"
+  aom_has_shinto_artifact: "Posees un artefacto shinto"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Requisitos de Artefactos"
@@ -351,6 +361,24 @@
   setting_aom_generate_easter_egg_artifacts_disabled: "#R Desactivado#!"
   setting_aom_generate_easter_egg_artifacts_disabled_desc: "Los artefactos de Pascua no serán creados ni distribuidos."
 
+# Shinto Artifact Gamerule
+  rule_aom_generate_shinto_artifacts: "Generación de Artefactos Shinto"
+
+  setting_aom_generate_shinto_artifacts_all: "#P Todos los Artefactos#!"
+  setting_aom_generate_shinto_artifacts_all_desc: "Todos los artefactos mitológicos shinto serán distribuidos en el juego."
+
+  setting_aom_generate_shinto_artifacts_only_god: "#M Solo Artefactos Divinos#!"
+  setting_aom_generate_shinto_artifacts_only_god_desc: "Solo los artefactos ilustres asociados con el mito shinto serán distribuidos."
+
+  setting_aom_generate_shinto_artifacts_only_legend: "#M Solo Artefactos Legendarios#!"
+  setting_aom_generate_shinto_artifacts_only_legend_desc: "Todos los artefactos shinto, excepto los ilustres, serán distribuidos."
+
+  setting_aom_generate_shinto_artifacts_with_descision: "#V Con Decisión#!"
+  setting_aom_generate_shinto_artifacts_with_descision_desc: "Los artefactos shinto solo pueden ser creados mediante una decisión especial."
+
+  setting_aom_generate_shinto_artifacts_disabled: "#R Desactivado#!"
+  setting_aom_generate_shinto_artifacts_disabled_desc: "Los artefactos shinto no serán creados ni distribuidos."
+
 # Lovecraftian Stress Gain
   aom_artifact_checks.0002.t: "La Locura Se Acerca"
   aom_artifact_checks.0002.desc: "Algo se ha agitado en los rincones de tu mente. Palabras que no recuerdas haber leído. Susurros tras tus pensamientos. Formas detrás de tus ojos. No hay vuelta atrás ahora."
@@ -377,6 +405,7 @@
   aom_artifact_spawning.1091.t: "Menú de Artefactos Egipcios"
   aom_artifact_spawning.1101.t: "Menú de Artefactos Chinos"
   aom_artifact_spawning.1111.t: "Menú de Artefactos de Pascua"
+  aom_artifact_spawning.1121.t: "Menú de Artefactos Shinto"
   aom_artifact_spawning.desc: "Elige un Artefacto para Generar:"
 
   game_rule_category_aom: "Artefactos del Mito"

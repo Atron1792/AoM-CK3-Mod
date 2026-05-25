@@ -6,7 +6,7 @@
   artifact_weapon_simple: "Arme"
   artifact_pedestal_simple: "Piédestal"
 
-# Debug Descisions
+# Debug Decisions
   aom_debug_transfer_all_artifacts: "Invoquer les Artéfacts du Mythe"
   aom_debug_transfer_all_artifacts_desc: "Invoquez le pouvoir des anciens mythes et faites apparaître tous les artéfacts mythologiques existants dans votre inventaire."
   aom_debug_transfer_all_artifacts_tooltip: "Tous les artéfacts mythologiques connus seront transférés en votre possession."
@@ -59,6 +59,9 @@
 
   aom_spawn_easter_egg_artifacts: "Ouvrir le Menu des Artéfacts Secrets"
   aom_spawn_easter_egg_artifacts_tooltip: "Exemples: Blackfyre, Baguette de Sureau, Palantír"
+
+  aom_spawn_shinto_egg_artifacts: "Ouvrir le Menu des Artéfacts Secrets Shinto"
+  aom_spawn_shinto_egg_artifacts_tooltip: "Exemples: Ame-no-Nuboko, Kusanagi no Tsurugi, Onimaru"
 
   aom_disable_artifact_spawning: "Désactiver le Menu d'Apparition des Artéfacts"
   aom_disable_artifact_spawning_tooltip: "#R Avertissement:#! Cela désactive le menu d'apparition des artéfacts"
@@ -131,6 +134,13 @@
   aom_convert_to_finno_ugric_decision_tooltip: "Convertissez votre foi au Paganisme Finno-Ougrien si vous détenez un artéfact finno-ougrien."
   aom_convert_to_finno_ugric_decision_confirm: "Revenir sur la Voie des Esprits"
   aom_has_finno_ugric_artifact: "Vous possédez un artéfact finno-ougrien"
+
+# Convert to Shinto
+  aom_convert_to_shinto_decision: "Adoptez le shintoïsme"
+  aom_convert_to_shinto_decision_desc: "Les esprits kami murmurent à travers le vent et les bosquets sacrés. Grâce aux reliques d'Extrême-Orient que vous possédez, vous pouvez renouer avec le shintoïsme, en honorant les esprits anciens et l'harmonie céleste."
+  aom_convert_to_shinto_decision_tooltip: "Convertissez-vous au shintoïsme si vous possédez un artefact shintoïste."
+  aom_convert_to_shinto_decision_confirm: "Communiquez avec les kami"
+  aom_has_shinto_artifact: "Vous possédez un artefact shintoïste"
 
 # Artifact Requirements Gamerule
   rule_aom_artifact_requirements: "Conditions d'Utilisation des Artéfacts"
@@ -339,6 +349,24 @@
   setting_aom_generate_chinese_artifacts_disabled: "#R Désactivé#!"
   setting_aom_generate_chinese_artifacts_disabled_desc: "Les artéfacts chinois ne seront pas générés ou intégrés."
 
+# Shinto Artifact Gamerule
+  rule_aom_generate_shinto_artifacts: "Génération des Artéfacts Shinto"
+
+  setting_aom_generate_shinto_artifacts_all: "#P Tous les Artéfacts#!"
+  setting_aom_generate_shinto_artifacts_all_desc: "Tous les artéfacts mythologiques shinto seront intégrés dans le jeu."
+
+  setting_aom_generate_shinto_artifacts_only_god: "#M Uniquement les Artéfacts Divins#!"
+  setting_aom_generate_shinto_artifacts_only_god_desc: "Seuls les artéfacts illustres associés à la mythologie shinto seront intégrés."
+
+  setting_aom_generate_shinto_artifacts_only_legend: "#M Uniquement les Artéfacts Légendaires#!"
+  setting_aom_generate_shinto_artifacts_only_legend_desc: "Tous les artéfacts shinto, excepté les artéfacts illustres, seront intégrés."
+
+  setting_aom_generate_shinto_artifacts_with_descision: "#V Avec Décision#!"
+  setting_aom_generate_shinto_artifacts_with_descision_desc: "Les artéfacts shinto sont créés uniquement via une décision spéciale."
+
+  setting_aom_generate_shinto_artifacts_disabled: "#R Désactivé#!"
+  setting_aom_generate_shinto_artifacts_disabled_desc: "Les artéfacts shinto ne seront pas générés ou intégrés."
+
 # Lovecraftian Stress Gain
   aom_artifact_checks.0002.t: "La Folie S'insinue"
   aom_artifact_checks.0002.desc: "Quelque chose s'est réveillé dans les recoins de votre esprit. Des mots que vous ne vous souvenez pas avoir lus. Des murmures derrière vos pensées. Des formes derrière vos yeux. Il n'y a plus de retour possible."
@@ -365,6 +393,7 @@
   aom_artifact_spawning.1091.t: "Menu des Artéfacts Égyptiens"
   aom_artifact_spawning.1101.t: "Menu des Artéfacts Chinois"
   aom_artifact_spawning.1111.t: "Menu des Artéfacts Secrets"
+  aom_artifact_spawning.1121.t: "Menu des Artéfacts Shinto"
   aom_artifact_spawning.desc: "Choisissez un Artéfact à faire apparaître:"
 
   game_rule_category_aom: "Artéfacts du Mythe"

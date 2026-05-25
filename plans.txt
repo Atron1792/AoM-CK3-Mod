@@ -94,16 +94,20 @@
 1.8.5
 - Supported Version is now 1.18.*
 
+1.9
+- New Content
+    - Added Shinto (Japanese) artifacts with gamerule control
+- Fixes
+    - Supported Version is now 1.19.*
+    - Updated the Sacred Cloak of the Prophet icon
+    - Updated the Crown of Twelve Stars icon
+       
 Planned:
-- Added Shinto (Japanese) artifacts with gamerule control
 - Added Hindu (Indian) artifacts with gamerule control
 - Added Tengri (Mongol) artifacts with gamerule control
 - Added Musok (Korean) artifacts with gamerule control
 - Events tied to specific artifacts
     - Pschent will break apart into Hedjet and Deshret (if character or vassal doesn't control Egypt)
-- Artifact search
-    use search & trade artifact mod, i dont want to make my own version it will just be worst
-
 - Cultural/religious artifact acquisition
     court position (bonus if traveller, etc)  
         choose what type (cultural or religious) of artifact you want to find   
@@ -113,3 +117,7 @@ Planned:
             can also buy artifact with gold (easier if artifact is not in use)
 
 - custom models?
+
+Won't Add:
+- Artifact search | Reason: exists in base game now
+    use search & trade artifact mod, i dont want to make my own version it will just be worst

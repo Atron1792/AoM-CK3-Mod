@@ -738,3 +738,81 @@
   # Palantír (LotR)
   aom_palantir_name: "Palantír"
   aom_palantir_desc: "Ein Sehstein aus dem alten Mittelerde, der die Sicht über weite Entfernungen und in Gefahren hinein ermöglicht."
+
+# Shinto Artifacts
+  # Inventory Artifacts
+  aom_ame_no_nuboko_name: "Ame-no-Nuboko"
+  aom_ame_no_nuboko_desc: "Der himmlische Juwelenspeer, mit dem Izanagi und Izanami das Urmeer aufwühlten und die Inseln Japans erschufen."
+
+  aom_uchide_no_kozuchi_name: "Uchide no Kozuchi"
+  aom_uchide_no_kozuchi_desc: "Der magische Hammer der Götter, der alles erschaffen kann, was sein Träger wünscht."
+
+  aom_nihongo_name: "Nihongo"
+  aom_nihongo_desc: "Einer der drei legendären Speere, eine heilige Waffe göttlichen Ursprungs."
+
+  aom_otegine_name: "Otegine"
+  aom_otegine_desc: "Einer der drei legendären Speere, geschmiedet im Zeitalter der Götter."
+
+  aom_tonbokiri_name: "Tonbokiri"
+  aom_tonbokiri_desc: "Der Libellenschneider, einer der drei legendären Speere, der Dämonen mit einem einzigen Stoß töten soll."
+
+  aom_dojigiri_name: "Dōjigiri"
+  aom_dojigiri_desc: "Der Dämonenkind-Töter, eines der fünf großen Schwerter, berühmt für seine übernatürliche Schärfe."
+
+  aom_onimaru_name: "Onimaru"
+  aom_onimaru_desc: "Der Dämonenkreis, eines der fünf großen Schwerter, das vor bösen Geistern schützen soll."
+
+  aom_mikazuki_name: "Mikazuki"
+  aom_mikazuki_desc: "Der Halbmond, eines der fünf großen Schwerter mit einer unverwechselbar gebogenen Klinge."
+
+  aom_otenta_name: "Ōtenta"
+  aom_otenta_desc: "Das Große Denta, eines der Fünf Großen Schwerter von legendärer Handwerkskunst."
+
+  aom_juzumaru_name: "Juzumaru"
+  aom_juzumaru_desc: "Der Rosenkranz, eines der Fünf Großen Schwerter, mit Markierungen wie Gebetsperlen."
+
+  aom_sugari_no_ontachi_name: "Sugari no Ontachi"
+  aom_sugari_no_ontachi_desc: "Eine uralte Tachi-Klinge, die als Nationalschatz Japans verehrt wird."
+
+  aom_ame_no_ohabari_name: "Ame-no-Ohabari"
+  aom_ame_no_ohabari_desc: "Die Himmelsspitzenklinge, eine göttliche Klinge, die von Izanagi zur Reinigung der Unterwelt geführt wurde."
+
+  aom_hirutama_name: "Hirutama"
+  aom_hirutama_desc: "Das Ebbejuwel, eines der beiden Gezeitenjuwelen, mit denen die Gezeiten kontrolliert werden."
+
+  aom_mitsutama_name: "Mitsutama"
+  aom_mitsutama_desc: "Das Fließende Juwel, eines der beiden Gezeitenjuwelen, die das Hirutama ergänzen."
+
+  aom_kinshikyu_name: "Kinshikyū"
+  aom_kinshikyu_desc: "Der Bogen von Kaiser Jimmu, der göttliche Bogen des legendären ersten Kaisers von Japan."
+
+  # Court Artifacts
+  aom_kusanagi_no_tsurugi_name: "Kusanagi no Tsurugi"
+  aom_kusanagi_no_tsurugi_desc: "Das Grasschneidende Schwert, eines der drei heiligen Schätze Japans, aus dem Schwanz einer Schlange gezogen."
+
+  aom_yata_no_kagami_name: "Yata no Kagami"
+  aom_yata_no_kagami_desc: "Der Heilige Spiegel, einer der Drei Heiligen Schätze, der die wahre Natur aller Dinge widerspiegeln soll."
+
+  aom_yasakani_no_magatama_name: "Yasakani no Magatama"
+  aom_yasakani_no_magatama_desc: "Das Heilige Juwel, einer der Drei Heiligen Schätze, ein Symbol kaiserlicher Autorität und göttlichen Segens."
+
+  aom_kojiki_name: "Kojiki"
+  aom_kojiki_desc: "Die Aufzeichnungen alter Begebenheiten, Japans ältester historischer Text, der die Schöpfungsmythen und das Zeitalter der Götter beschreibt."
+
+  aom_nihon_shoki_name: "Nihon Shoki"
+  aom_nihon_shoki_desc: "Die Chroniken Japans, eine umfassende historische Aufzeichnung der kaiserlichen Linie und ihrer göttlichen Abstammung."
+
+  aom_tamatebako_name: "Tamatebako"
+  aom_tamatebako_desc: "Die Juwelenschatulle, die Kaiser Jimmu von seiner Großmutter erhielt und die unermessliche Schätze enthalten soll."
+
+  aom_seven_branched_sword_name: "Siebenarmiges Schwert"
+  aom_seven_branched_sword_desc: "Eine zeremonielle Klinge, die in der japanischen und koreanischen Tradition gleichermaßen verwendet wird und diplomatische Beziehungen sowie göttliche Handwerkskunst symbolisiert."
+
+  aom_raijins_drums_name: "Raijins Trommeln"
+  aom_raijins_drums_desc: "Die donnernden Trommeln von Raijin, dem Donnergott, die Stürme und göttlichen Willen heraufbeschwören sollen."
+
+  aom_fujins_windbag_name: "Fūjins Windbeutel"
+  aom_fujins_windbag_desc: "Der Windbeutel von Fūjin, dem Windgott, enthält Stürme, die das Land formen können."
+
+  aom_yamata_no_orochi_scale_name: "Yamata no Orochis Schuppe"
+  aom_yamata_no_orochi_scale_desc: "Eine Schuppe der achtköpfigen Schlange, die von Susanoo getötet wurde, erfüllt von uralter und schrecklicher Macht."

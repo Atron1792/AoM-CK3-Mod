@@ -1,4 +1,4 @@
-version="1.8.5"
+version="1.9"
 tags={
 	"Alternative History"
 	"Decisions"
@@ -6,6 +6,6 @@ tags={
 	"Culture"
 }
 name="Artifacts of Myth"
-supported_version="1.18.*"
+supported_version="1.19.*"
 path="D:/Users/atron/Documents/Paradox Interactive/Crusader Kings III/mod/Artifacts of Myth"
 remote_file_id="3481270592"
