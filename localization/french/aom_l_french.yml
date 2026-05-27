@@ -349,6 +349,18 @@
   setting_aom_generate_chinese_artifacts_disabled: "#R Désactivé#!"
   setting_aom_generate_chinese_artifacts_disabled_desc: "Les artéfacts chinois ne seront pas générés ou intégrés."
 
+# Easter Egg Artifact Gamerule
+  rule_aom_generate_easter_egg_artifacts: "Génération d'artefacts Easter Egg"
+
+  setting_aom_generate_easter_egg_artifacts_all: "#P Tous les artefacts#!"
+  setting_aom_generate_easter_egg_artifacts_all_desc: "Tous les artefacts Easter Egg seront intégrés au jeu."
+
+  setting_aom_generate_easter_egg_artifacts_with_descision: "#V Avec décision#!"
+  setting_aom_generate_easter_egg_artifacts_with_descision_desc: "Les artefacts Easter Egg sont créés uniquement via une décision spéciale."
+
+  setting_aom_generate_easter_egg_artifacts_disabled: "#R Désactivé#!"
+  setting_aom_generate_easter_egg_artifacts_disabled_desc: "Les artefacts Easter Egg ne seront ni générés ni distribués."
+
 # Shinto Artifact Gamerule
   rule_aom_generate_shinto_artifacts: "Génération des Artéfacts Shinto"
 

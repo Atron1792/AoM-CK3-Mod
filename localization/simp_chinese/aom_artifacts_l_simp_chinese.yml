@@ -352,8 +352,8 @@
   aom_caladbolg_desc: "如虹般闪耀的巨剑，能劈裂丘岭。"
 
   # Móralltach (the Great Fury)
-  aom_beagalltach_name: "贝加尔塔赫 (Beagalltach)"
-  aom_beagalltach_desc: "“小怒”之剑，莫拉尔塔赫的双生刃，迅疾如蛇。"
+  aom_moralltach_name: "莫拉尔塔赫 (Móralltach)"
+  aom_moralltach_desc: "伟大的愤怒，一把由海神赐予的审判之剑。"
 
   # Beagalltach (the Little Fury)
   aom_beagalltach_name: "贝加尔塔赫 (Beagalltach)"
