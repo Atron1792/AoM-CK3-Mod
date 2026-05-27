@@ -365,7 +365,7 @@
 
   # Dyrnwyn (White Hilt)
   aom_dyrnwyn_name: "白柄剑 (Dyrnwyn)"
-  aom_dyrnwyn_desc: "唯有高贵者方可持之，焰光灼心的试炼之剑。
+  aom_dyrnwyn_desc: "唯有高贵者方可持之，焰光灼心的试炼之剑。"
 
   # Court Artifacts
   # Uaithne (The Dagda's Harp)
@@ -501,7 +501,7 @@
 
   # Book Of Eibon
   aom_book_of_eibon_name: "艾波恩之书"
-  aom_book_of_eibon_desc: "一本古老的典籍，据说蕴含着巫师艾波恩的神秘秘密，充满了来自希珀波利亚的禁忌知识。
+  aom_book_of_eibon_desc: "一本古老的典籍，据说蕴含着巫师艾波恩的神秘秘密，充满了来自希珀波利亚的禁忌知识。"
 
   # Deep One's Tiara
   aom_deep_ones_tiara_name: "深海者的冠冕 (Deep One's Tiara)"

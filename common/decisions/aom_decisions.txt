@@ -1052,7 +1052,7 @@ aom_convert_to_shinto_decision = {
 		any_character_artifact = {
 			has_variable = aom_shinto_artifact
 		}
-		NOT = { faith.religion = religion:eastern_religion }
+		NOT = { faith.religion = religion:shintoism_religion }
 	}
 	is_valid = {
 		custom_description = {

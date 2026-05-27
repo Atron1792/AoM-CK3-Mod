@@ -14,7 +14,7 @@ aom_ame_no_nuboko_template = {
 	}
 	fallback = {
 		prowess = 9
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.25
 	}
 	unique = yes
@@ -51,7 +51,7 @@ aom_nihongo_template = {
 	}
 	fallback = {
 		prowess = 7
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.15
 	}
 	unique = yes
@@ -70,7 +70,7 @@ aom_otegine_template = {
 	}
 	fallback = {
 		prowess = 7
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.15
 	}
 	unique = yes
@@ -89,7 +89,7 @@ aom_tonbokiri_template = {
 	}
 	fallback = {
 		prowess = 8
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.15
 	}
 	unique = yes
@@ -108,7 +108,7 @@ aom_dojigiri_template = {
 	}
 	fallback = {
 		prowess = 8
-		marital = 2
+		martial = 2
 		dread_baseline_add = 6
 	}
 	unique = yes
@@ -146,7 +146,7 @@ aom_mikazuki_template = {
 	}
 	fallback = {
 		prowess = 6
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.2
 	}
 	unique = yes
@@ -165,7 +165,7 @@ aom_otenta_template = {
 	}
 	fallback = {
 		prowess = 7
-		marital = 1
+		martial = 1
 		defender_advantage = 3
 	}
 	unique = yes
@@ -280,7 +280,7 @@ aom_kinshikyu_template = {
 	}
 	fallback = {
 		prowess = 8
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.25
 	}
 	unique = yes
@@ -301,7 +301,7 @@ aom_kusanagi_no_tsurugi_template = {
 		}
 	}
 	fallback = {
-		marital = 2
+		martial = 2
 		monthly_prestige = 0.4
 		knight_effectiveness_mult = 0.08
 	}
@@ -434,7 +434,7 @@ aom_raijins_drums_template = {
 		}
 	}
 	fallback = {
-		marital = 3
+		martial = 3
 		dread_gain_mult = 0.1
 		monthly_prestige = 0.2
 	}

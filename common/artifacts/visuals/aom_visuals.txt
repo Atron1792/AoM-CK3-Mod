@@ -1353,12 +1353,12 @@ aom_kinshikyu = {
 aom_kusanagi_no_tsurugi = {
     icon = "shinto/aom_kusanagi_no_tsurugi.dds"
     pedestal = "tall"
-    asset = ep1_mena_box_small_basic_01_a_entity
+    asset = tgp_japanese_sword_03_entity
 }
 
 # Yata no Kagami (Three Sacred Treasures)
 aom_yata_no_kagami  = {
-    icon = "shinto/aom_yata_no_kagami .dds"
+    icon = "shinto/aom_yata_no_kagami.dds"
     pedestal = "tall"
     asset = ep1_mena_box_small_basic_01_a_entity
 }
@@ -1395,21 +1395,21 @@ aom_tamatebako = {
 aom_seven_branched_sword = {
 	icon = "shinto/aom_seven_branched_sword.dds"
 	pedestal = "tall"
-	asset = ep1_mena_box_small_basic_01_a_entity
+	asset = tgp_japanese_sword_03_entity
 }
 
 # Raijin's Drums
 aom_raijins_drums = {
 	icon = "shinto/aom_raijins_drums.dds"
 	pedestal = "short"
-	asset = ep1_mena_box_small_basic_01_a_entity
+	asset = ep1_mena_box_reliquary_01_a_entity
 }
 
 # Fūjin's Windbag
 aom_fujins_windbag = {
 	icon = "shinto/aom_fujins_windbag.dds"
 	pedestal = "short"
-	asset = ep1_mena_box_small_basic_01_a_entity
+	asset = ep1_mena_box_reliquary_01_a_entity
 }
 
 # Yamata no Orochi’s Scale
