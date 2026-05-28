@@ -1397,138 +1397,111 @@ aom_palantir_modifier = {
 # Inventory Artifacts
 # Ame-no-Nuboko (Heavenly Jewelled Spear)
 aom_ame_no_nuboko_modifier = {
-    prowess = 11
-    martial = 4
-    monthly_prestige = 0.5
-    development_growth = 0.12
-    build_speed = -0.10
+	prowess = 15
+	martial = 5
+	monthly_prestige = 0.6
+	development_growth = 0.15
+	build_speed = -0.10
 }
 
 # Uchide no kozuchi (Magic Hammer)
 aom_uchide_no_kozuchi_modifier = {
-    stewardship = 6
-    monthly_income_mult = 0.2
-    monthly_income = 3
-    domain_limit = 2
-    vassal_tax_contribution_mult = 0.08
+	stewardship = 8
+	monthly_income_mult = 0.25
+	monthly_income = 4
+	domain_limit = 1
+	vassal_tax_contribution_mult = 0.10
 }
 
 # Nihongo (3 Legendary Spears)
 aom_nihongo_modifier = {
-    prowess = 9
-    martial = 3
-    monthly_prestige = 0.3
-    knight_effectiveness_mult = 0.1
+	prowess = 8
+	martial = 3
 }
 
 # Otegine (3 Legendary Spears)
 aom_otegine_modifier = {
-    prowess = 9
-    martial = 3
-    monthly_prestige = 0.3
-    defender_advantage = 3
-    controlled_province_advantage = 3
+	prowess = 8
+	defender_advantage = 3
 }
 
 # Tonbokiri (3 Legendary Spears)
 aom_tonbokiri_modifier = {
-    prowess = 10
-    martial = 3
-    monthly_prestige = 0.3
-    skirmishers_damage_mult = 0.12
+	prowess = 9
+	martial = 3
 }
 
 # Dōjigiri (Demon Child Slayer) - Tenka-Goken (Five Great Swords)
 aom_dojigiri_modifier = {
-    prowess = 10
-    martial = 4
-    dread_baseline_add = 12
-    different_faith_opinion = -10
-    monthly_piety = 0.20
+	prowess = 9
+	dread_baseline_add = 10
 }
 
 # Onimaru (Demon Circle) - Tenka-Goken (Five Great Swords)
 aom_onimaru_modifier = {
-    prowess = 8
-    intrigue = 3
-    dread_gain_mult = 0.15
-    enemy_hostile_scheme_success_chance_add = -12
-    owned_scheme_secrecy_add = 8
+	prowess = 7
+	intrigue = 3
 }
 
 # Mikazuki (Crescent Moon) - Tenka-Goken (Five Great Swords)
 aom_mikazuki_modifier = {
-    prowess = 8
-    martial = 3
-    monthly_prestige = 0.4
-    attraction_opinion = 8
-    same_culture_opinion = 8
+	prowess = 7
+	martial = 3
 }
 
 # Ōtenta (Great Denta) - Tenka-Goken (Five Great Swords)
 aom_otenta_modifier = {
-    prowess = 9
-    martial = 2
-    defender_advantage = 6
-    controlled_province_advantage = 4
+	prowess = 8
+	defender_advantage = 5
 }
 
 # Juzumaru (Rosary) - Tenka-Goken (Five Great Swords)
 aom_juzumaru_modifier = {
-    prowess = 8
-    learning = 3
-    monthly_piety = 0.4
-    same_faith_opinion = 8
-    clergy_opinion = 10
+	prowess = 7
+	learning = 3
 }
 
 # Sugari No Ontachi 
 aom_sugari_no_ontachi_modifier = {
-    prowess = 7
-    intrigue = 4
-    owned_hostile_scheme_success_chance_add = 8
-    owned_scheme_secrecy_add = 7
+	prowess = 6
+	intrigue = 3
 }
 
 # Ame-no-Ohabari (Heaven-Point-Blade-Extended)
 aom_ame_no_ohabari_modifier = {
-    prowess = 10
-    martial = 3
-    dread_baseline_add = 15
-    dread_gain_mult = 0.1
-    monthly_piety = 0.3
+	prowess = 13
+	martial = 4
+	dread_baseline_add = 20
+	monthly_piety = 0.5
 }
 
 # Hirutama (Ebbing Jewel) - Tide Jewels
 aom_hirutama_modifier = {
-    diplomacy = 5
-    attraction_opinion = 10
-    monthly_prestige = 0.2
-    embarkation_cost_mult = -0.15
+	stewardship = 4
+	attraction_opinion = 10
+	embarkation_cost_mult = -0.15
 }
 
 # Mitsutama (Flowing Jewel) - Tide Jewels
 aom_mitsutama_modifier = {
-    diplomacy = 5
-    attraction_opinion = 10
-    monthly_prestige = 0.2
-    naval_movement_speed_mult = 0.15
+	diplomacy = 4
+	attraction_opinion = 10
+	naval_movement_speed_mult = 0.20
 }
 
 # Kinshikyū (Emperor Jimmu's Bow)
 aom_kinshikyu_modifier = {
-    prowess = 9
-    martial = 3
-    monthly_prestige = 0.5
-    legitimacy_gain_mult = 0.1
-    same_culture_opinion = 10
+	prowess = 12
+	martial = 4
+	monthly_prestige = 0.5
+	legitimacy_gain_mult = 0.15
+	same_culture_opinion = 10
 }
 
 # Court Artifacts
 # Kusanagi no Tsurugi (Three Sacred Treasures)
 aom_kusanagi_no_tsurugi_modifier = {
     martial = 4
-    monthly_prestige = 0.8
     knight_effectiveness_mult = 0.15
     court_grandeur_baseline_add = 10
     legitimacy_gain_mult = 0.15
@@ -1537,85 +1510,75 @@ aom_kusanagi_no_tsurugi_modifier = {
 
 # Yata no Kagami (Three Sacred Treasures)
 aom_yata_no_kagami_modifier = {
-    diplomacy = 6
-    learning = 3
-    monthly_prestige = 0.60
-    court_grandeur_baseline_add = 15
-    same_faith_opinion = 15
-    enemy_hostile_scheme_success_chance_add = -12
+	diplomacy = 7
+	learning = 4
+	court_grandeur_baseline_add = 15
+	same_faith_opinion = 10
+	enemy_hostile_scheme_success_chance_add = -10
 }
 
 # Yasakani no Magatama (Three Sacred Treasures)
 aom_yasakani_no_magatama_modifier = {
-    diplomacy = 5
-    attraction_opinion = 15
-    fertility = 0.2
-    health = 0.25
-    court_grandeur_baseline_add = 12
-    general_opinion = 5
+	diplomacy = 6
+	fertility = 0.25
+	health = 0.40
+	court_grandeur_baseline_add = 15
+	general_opinion = 10
 }
 
 # Kojiki (Records of Ancient Matters)
 aom_kojiki_modifier = {
-    learning = 6
-    development_growth = 0.1
-    monthly_learning_lifestyle_xp_gain_mult = 0.15
-    learn_language_scheme_phase_duration_add = -12
-    same_culture_opinion = 8
+	learning = 5
+	development_growth = 0.10
 }
 
 # Nihon Shoki (The Chronicles of Japan)
 aom_nihon_shoki_modifier = {
-    learning = 7
-    monthly_piety = 0.5
-    monthly_learning_lifestyle_xp_gain_mult = 0.15
-    monthly_dynasty_prestige = 0.05
-    legitimacy_gain_mult = 0.1
+	learning = 6
+	monthly_piety = 0.4
 }
 
 # Tamatebako
 aom_tamatebako_modifier = {
-    monthly_piety = 0.6
-    fertility = 0.2
-    health = 0.5
-    life_expectancy = 5
-    court_grandeur_baseline_add = 8
-    attraction_opinion = 10
+	monthly_piety = 0.75
+	fertility = 0.2
+	health = 0.5
+	life_expectancy = 5
+	court_grandeur_baseline_add = 10
+	attraction_opinion = 15
 }
 
 # Seven-Branched Sword
 aom_seven_branched_sword_modifier = {
-    diplomacy = 4
-    monthly_prestige = 0.4
-    diplomatic_range_mult = 0.2
-    different_culture_opinion = 8
+	diplomacy = 4
+	monthly_prestige = 0.5
+	diplomatic_range_mult = 0.1
 }
 
 # Raijin's Drums
 aom_raijins_drums_modifier = {
-    martial = 5
-    dread_gain_mult = 0.15
-    court_grandeur_baseline_add = 10
-    monthly_prestige = 0.4
-    levy_reinforcement_rate = 0.1
+	martial = 6
+	dread_gain_mult = 0.2
+	court_grandeur_baseline_add = 10
+	monthly_prestige = 0.4
+	levy_reinforcement_rate = 0.1
 }
 
 # Fūjin's Windbag
 aom_fujins_windbag_modifier = {
-    character_travel_speed = 25
-    character_travel_speed_mult = 0.25
-    monthly_prestige = 0.3
-    movement_speed = 0.1
-    diplomatic_range_mult = 0.2
+	character_travel_speed = 20
+	monthly_piety = 0.4
+	movement_speed = 0.1
+	diplomatic_range_mult = 0.2
 }
 
 # Yamata no Orochi's Scale
 aom_yamata_no_orochi_scale_modifier = {
-    dread_baseline_add = 20
-    dread_gain_mult = 0.2
-    monthly_prestige = 0.4
-    enemy_hostile_scheme_success_chance_add = -10
-    tyranny_loss_mult = -0.15
+	dread_baseline_add = 25
+	dread_gain_mult = 0.25
+	monthly_prestige = 0.5
+	enemy_hostile_scheme_success_chance_add = -10
+	tyranny_loss_mult = -0.1
 }
 
 ############################
