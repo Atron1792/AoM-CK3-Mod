@@ -8,14 +8,9 @@
 
 # Debug Decisions
   aom_debug_transfer_all_artifacts: "召唤神话遗物"
-  aom_debug_transfer_all_artifacts_desc: "呼唤古代神话的力量，将所有神话遗物召至你的宝库。"
+  aom_debug_transfer_all_artifacts_desc: "文物存在年份计数器： [GetGlobalVariable('aom_artifact_existence_year_counter').GetValue]"
   aom_debug_transfer_all_artifacts_tooltip: "所有已知的神话遗物将被转移至你的拥有。"
   aom_debug_transfer_all_artifacts_confirm: "是的，把它们带给我！"
-
-  aom_debug_create_all_artifacts: "创造所有神话遗物"
-  aom_debug_create_all_artifacts_desc: "召唤传说中的工匠之力，将每一件神话遗物化为现实。"
-  aom_debug_create_all_artifacts_tooltip: "所有传奇遗物将被重新铸造并添加至你的宝库。"
-  aom_debug_create_all_artifacts_confirm: "是的，为我全部铸造！"
 
 # Artifact Spawning Decisions
   aom_spawn_artifacts_decision: "生成神话遗物"

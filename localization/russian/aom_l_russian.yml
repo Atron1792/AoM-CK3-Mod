@@ -8,14 +8,9 @@
 
 # Debug Decisions
   aom_debug_transfer_all_artifacts: "Призвать Артефакты Мифа"
-  aom_debug_transfer_all_artifacts_desc: "Призови силу древних мифов и собери все существующие мифические артефакты в свой инвентарь."
+  aom_debug_transfer_all_artifacts_desc: "Счетчик лет существования артефактов: [GetGlobalVariable('aom_artifact_existence_year_counter').GetValue]"
   aom_debug_transfer_all_artifacts_tooltip: "Все известные мифические артефакты будут переданы вам."
   aom_debug_transfer_all_artifacts_confirm: "Да, принеси их мне!"
-
-  aom_debug_create_all_artifacts: "Создать Все Мифические Артефакты"
-  aom_debug_create_all_artifacts_desc: "Материализуй каждый легендарный артефакт, направляя божественное мастерство."
-  aom_debug_create_all_artifacts_tooltip: "Все легендарные артефакты будут созданы и добавлены в ваш инвентарь."
-  aom_debug_create_all_artifacts_confirm: "Да, создай их всех!"
 
 # Artifact Spawning Decisions
   aom_spawn_artifacts_decision: "Призвать Артефакты Мифа"

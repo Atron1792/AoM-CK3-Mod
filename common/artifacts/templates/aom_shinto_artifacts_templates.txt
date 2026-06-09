@@ -35,9 +35,9 @@ aom_uchide_no_kozuchi_template = {
 	}
 	fallback = {
 		stewardship = 6
-		monthly_income_mult = 0.2
+		monthly_income_mult = 0.15
 		monthly_income = 3
-		vassal_tax_contribution_mult = 0.05
+		monthly_influence = 0.4
 	}
 	unique = yes
 }
@@ -56,7 +56,6 @@ aom_nihongo_template = {
 	fallback = {
 		prowess = 6
 		martial = 2
-		knight_effectiveness_mult = 0.05
 	}
 	unique = yes
 }
@@ -75,7 +74,6 @@ aom_otegine_template = {
 	fallback = {
 		prowess = 6
 		defender_advantage = 2
-		controlled_province_advantage = 2
 	}
 	unique = yes
 }
@@ -94,7 +92,6 @@ aom_tonbokiri_template = {
 	fallback = {
 		prowess = 6
 		martial = 2
-		skirmishers_damage_mult = 0.05
 	}
 	unique = yes
 }
@@ -111,7 +108,7 @@ aom_dojigiri_template = {
 		}
 	}
 	fallback = {
-		prowess = 6
+		prowess = 7
 		dread_baseline_add = 7
 	}
 	unique = yes
@@ -129,7 +126,7 @@ aom_onimaru_template = {
 		}
 	}
 	fallback = {
-		prowess = 5
+		prowess = 6
 		intrigue = 2
 	}
 	unique = yes
@@ -147,7 +144,7 @@ aom_mikazuki_template = {
 		}
 	}
 	fallback = {
-		prowess = 5
+		prowess = 6
 		martial = 2
 	}
 	unique = yes
@@ -183,7 +180,7 @@ aom_juzumaru_template = {
 		}
 	}
 	fallback = {
-		prowess = 5
+		prowess = 6
 		learning = 2
 	}
 	unique = yes
@@ -201,7 +198,7 @@ aom_sugari_no_ontachi_template = {
 		}
 	}
 	fallback = {
-		prowess = 4
+		prowess = 6
 		intrigue = 2
 	}
 	unique = yes
@@ -342,7 +339,7 @@ aom_yasakani_no_magatama_template = {
 	fallback = {
 		diplomacy = 4
 		court_grandeur_baseline_add = 10
-		general_opinion = 5
+		monthly_influence = 0.5
 	}
 	unique = yes
 }
@@ -359,8 +356,9 @@ aom_kojiki_template = {
 		}
 	}
 	fallback = {
-		learning = 3
+		learning = 2
 		development_growth = 0.05
+		monthly_influence = 0.25
 	}
 	unique = yes
 }
@@ -395,10 +393,9 @@ aom_tamatebako_template = {
 		}
 	}
 	fallback = {
-		fertility = 0.1
 		health = 0.25
 		court_grandeur_baseline_add = 5
-		attraction_opinion = 10
+		monthly_influence = 0.5
 	}
 	unique = yes
 }
@@ -411,12 +408,17 @@ aom_seven_branched_sword_template = {
 	can_benefit = {
 		trigger_if = {
 			limit = { has_game_rule = aom_artifact_requirements_enabled }
-			culture = { has_cultural_pillar = heritage_japonic }
+			culture = {
+				OR = { 
+					has_cultural_pillar = heritage_japonic
+					has_cultural_pillar = heritage_korean
+				}
+			}
 		}
 	}
 	fallback = {
 		diplomacy = 2
-		monthly_prestige = 0.25
+		diplomatic_range_mult = 0.1
 	}
 	unique = yes
 }
@@ -436,7 +438,7 @@ aom_raijins_drums_template = {
 		martial = 4
 		dread_gain_mult = 0.1
 		court_grandeur_baseline_add = 5
-		monthly_prestige = 0.2
+		monthly_influence = 0.25
 	}
 	unique = yes
 }
@@ -472,8 +474,8 @@ aom_yamata_no_orochi_scale_template = {
 		}
 	}
 	fallback = {
-		dread_baseline_add = 18
-		dread_gain_mult = 0.2
+		dread_baseline_add = 15
+		dread_gain_mult = 0.1
 		monthly_prestige = 0.35
 		tyranny_loss_mult = -0.2
 	}

@@ -8,14 +8,9 @@
 
 # Debug Decisions
   aom_debug_transfer_all_artifacts: "Invocar los Artefactos del Mito"
-  aom_debug_transfer_all_artifacts_desc: "Invoca el poder de los mitos antiguos y reúne todos los artefactos mitológicos existentes en tu inventario."
+  aom_debug_transfer_all_artifacts_desc: "Contador de años de existencia del artefacto: [GetGlobalVariable('aom_artifact_existence_year_counter').GetValue]"
   aom_debug_transfer_all_artifacts_tooltip: "Todos los artefactos mitológicos conocidos serán transferidos a tu posesión."
   aom_debug_transfer_all_artifacts_confirm: "¡Sí, tráemelos!"
-
-  aom_debug_create_all_artifacts: "Crear Todos los Artefactos Míticos"
-  aom_debug_create_all_artifacts_desc: "Conjura cada artefacto de leyenda a la existencia, canalizando la artesanía divina."
-  aom_debug_create_all_artifacts_tooltip: "Todos los artefactos legendarios serán creados y añadidos a tu inventario."
-  aom_debug_create_all_artifacts_confirm: "¡Sí, créalos todos para mí!"
 
 # Artifact Spawning Decisions
   aom_spawn_artifacts_decision: "Generar Artefactos del Mito"

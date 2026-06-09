@@ -8,14 +8,9 @@
 
 # Debug Decisions
   aom_debug_transfer_all_artifacts: "Summon the Artifacts of Myth"
-  aom_debug_transfer_all_artifacts_desc: "Call upon the power of ancient myths and summon all existing mythological artifacts to your inventory."
+  aom_debug_transfer_all_artifacts_desc: "Artifact Existence Year Counter: [GetGlobalVariable('aom_artifact_existence_year_counter').GetValue]"
   aom_debug_transfer_all_artifacts_tooltip: "All known mythological artifacts will be transferred to your possession."
   aom_debug_transfer_all_artifacts_confirm: "Yes, bring them to me!"
-
-  aom_debug_create_all_artifacts: "Create All Mythical Artifacts"
-  aom_debug_create_all_artifacts_desc: "Conjure every artifact of legend into existence, channeling divine craftsmanship."
-  aom_debug_create_all_artifacts_tooltip: "All legendary artifacts will be freshly created and added to your inventory."
-  aom_debug_create_all_artifacts_confirm: "Yes, create them all for me!"
 
 # Artifact Spawning Decisions
   aom_spawn_artifacts_decision: "Spawn Artifacts of Myth"

@@ -1,6 +1,8 @@
-﻿# # On Losing Egypt
-# yearly_global_pulse = { on_actions = { aom_on_egypt_title_lost } }
+﻿# Vanila Game Checks
+yearly_global_pulse = { on_actions = {aom_artifact_existence_check} }
+five_year_everyone_pulse = { on_actions = {aom_on_lovecraftian_stress_gain} }
 
+# # On Losing Egypt
 # aom_on_egypt_title_lost = {
 # 	trigger = {
 # 		AND = {
@@ -20,9 +22,8 @@
 # 	}
 # }
 
-# Lovecraftian Stress Gain
-five_year_everyone_pulse = { on_actions = { aom_on_lovecraftian_stress_gain } }
 
+# Lovecraftian Stress Gain
 aom_on_lovecraftian_stress_gain = {
     trigger = {
         any_character_artifact = { has_variable = aom_lovecraftian_artifact }
@@ -30,4 +31,11 @@ aom_on_lovecraftian_stress_gain = {
     events = {	
 		aom_artifact_checks.0002 	
 	}
+}
+
+# Artifact Existence Check 
+aom_artifact_existence_check = {
+    events = {
+		aom_artifact_checks.0003
+    }
 }

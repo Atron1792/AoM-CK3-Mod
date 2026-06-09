@@ -8,14 +8,9 @@
 
 # Debug Decisions
   aom_debug_transfer_all_artifacts: "Beschwöre die Artefakte der Mythen"
-  aom_debug_transfer_all_artifacts_desc: "Rufe die Macht uralter Mythen an und lasse alle existierenden mythologischen Artefakte in dein Inventar gelangen."
+  aom_debug_transfer_all_artifacts_desc: "Zähler für das Existenzjahr von Artefakten: [GetGlobalVariable('aom_artifact_existence_year_counter').GetValue]"
   aom_debug_transfer_all_artifacts_tooltip: "Alle bekannten mythologischen Artefakte werden in deinen Besitz übertragen."
   aom_debug_transfer_all_artifacts_confirm: "Ja, bring sie mir!"
-
-  aom_debug_create_all_artifacts: "Erschaffe alle mythischen Artefakte"
-  aom_debug_create_all_artifacts_desc: "Beschwöre jedes Artefakt der Legenden und kanalisieren göttliche Handwerkskunst."
-  aom_debug_create_all_artifacts_tooltip: "Alle legendären Artefakte werden neu erschaffen und deinem Inventar hinzugefügt."
-  aom_debug_create_all_artifacts_confirm: "Ja, erschaffe sie alle für mich!"
 
 # Artifact Spawning Decisions
   aom_spawn_artifacts_decision: "Artefakte der Mythen erschaffen"
