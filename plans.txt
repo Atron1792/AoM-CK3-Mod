@@ -97,6 +97,7 @@
 1.9
 - New Content
     - Added Shinto (Japanese) artifacts with gamerule control
+    - Added Artifact Existence Check which reseeds missing artifacts every 5 years
 - Fixes
     - Supported Version is now 1.19.*
     - Updated the Sacred Cloak of the Prophet icon

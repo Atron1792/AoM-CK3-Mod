@@ -328,7 +328,12 @@ aom_shinto_artifacts.002 = {
                         any_artifact = { has_variable = aom_seven_branched_sword }
                     }
                     highest_held_title_tier >= tier_duchy
-                    culture = { has_cultural_pillar = heritage_japonic }
+                    culture = {
+				        OR = { 
+					        has_cultural_pillar = heritage_japonic
+					        has_cultural_pillar = heritage_korean
+				        }
+				    }
                 }
                 create_artifact_aom_seven_branched_sword_effect = { OWNER = this }
                 add_character_flag = {
