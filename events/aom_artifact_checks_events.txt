@@ -39,6 +39,7 @@ aom_artifact_checks.0002 = {
 	option = {
 		name = aom_artifact_checks.0002.a
 		add_stress = 40
+		ai_chance = { base = 10 }
 	}
 	# eccentric reaction
 	option = {
@@ -46,6 +47,7 @@ aom_artifact_checks.0002 = {
 		add_stress = 20
 		trigger = { has_trait = eccentric }
 		trait = eccentric
+		ai_chance = { base = 25 }
 	}
 	# lunatic reaction
 	option = {
@@ -53,6 +55,7 @@ aom_artifact_checks.0002 = {
 		add_stress = 10
 		trigger = { has_trait = lunatic }
 		trait = lunatic_1
+		ai_chance = { base = 50 }
 	}
 	# possessed reaction
 	option = {
@@ -60,6 +63,7 @@ aom_artifact_checks.0002 = {
 		add_stress = -20
 		trigger = { has_trait = possessed }
 		trait = possessed_1
+		ai_chance = { base = 100 }
 	}
 }
 
@@ -69,9 +73,7 @@ aom_artifact_checks.0003 = {
 	hidden = yes
 	immediate = {
 		if = {
-			limit = {
-				NOT = { exists = global_var:aom_artifact_existence_year_counter }
-			}
+			limit = { NOT = { exists = global_var:aom_artifact_existence_year_counter } }
 			set_global_variable = {
 				name = aom_artifact_existence_year_counter
 				value = 0
@@ -84,9 +86,7 @@ aom_artifact_checks.0003 = {
 		}
 
 		if = {
-			limit = {
-				global_var:aom_artifact_existence_year_counter >= 5
-			}
+			limit = { global_var:aom_artifact_existence_year_counter >= 5 }
 			set_global_variable = {
 				name = aom_artifact_existence_year_counter
 				value = 0
@@ -94,15 +94,10 @@ aom_artifact_checks.0003 = {
 
 			# Norse
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_norse_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_norse_artifacts_all }
 				trigger_event = aom_norse_artifacts.001
 				trigger_event = aom_norse_artifacts.002
 			}
-			# Greco-Roman
 			if = {
 				limit = { has_game_rule = aom_generate_norse_artifacts_only_god }
 				trigger_event = aom_norse_artifacts.001
@@ -114,11 +109,7 @@ aom_artifact_checks.0003 = {
 
 			# Greco-Roman
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_greco_roman_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_greco_roman_artifacts_all }
 				trigger_event = aom_greco_roman_artifacts.001
 				trigger_event = aom_greco_roman_artifacts.002
 			}
@@ -133,11 +124,7 @@ aom_artifact_checks.0003 = {
 
 			# Abrahamic
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_abrahamic_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_abrahamic_artifacts_all }
 				trigger_event = aom_abrahamic_artifacts.001
 				trigger_event = aom_abrahamic_artifacts.002
 				trigger_event = aom_abrahamic_artifacts.003
@@ -160,11 +147,7 @@ aom_artifact_checks.0003 = {
 
 			# Celtic
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_celtic_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_celtic_artifacts_all }
 				trigger_event = aom_celtic_artifacts.001
 				trigger_event = aom_celtic_artifacts.002
 			}
@@ -179,11 +162,7 @@ aom_artifact_checks.0003 = {
 
 			# Arthurian
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_arthurian_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_arthurian_artifacts_all }
 				trigger_event = aom_arthurian_artifacts.001
 				trigger_event = aom_arthurian_artifacts.002
 			}
@@ -198,11 +177,7 @@ aom_artifact_checks.0003 = {
 
 			# Finno-Ugric
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_finno_ugric_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_finno_ugric_artifacts_all }
 				trigger_event = aom_finno_ugric_artifacts.001
 				trigger_event = aom_finno_ugric_artifacts.002
 			}
@@ -217,11 +192,7 @@ aom_artifact_checks.0003 = {
 
 			# Lovecraftian
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_lovecraftian_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_lovecraftian_artifacts_all }
 				trigger_event = aom_lovecraftian_artifacts.001
 				trigger_event = aom_lovecraftian_artifacts.002
 			}
@@ -236,11 +207,7 @@ aom_artifact_checks.0003 = {
 
 			# Slavic
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_slavic_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_slavic_artifacts_all }
 				trigger_event = aom_slavic_artifacts.001
 				trigger_event = aom_slavic_artifacts.002
 			}
@@ -255,11 +222,7 @@ aom_artifact_checks.0003 = {
 
 			# Mesopotamian
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_mesopotamian_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_mesopotamian_artifacts_all }
 				trigger_event = aom_mesopotamian_artifacts.001
 				trigger_event = aom_mesopotamian_artifacts.002
 			}
@@ -274,11 +237,7 @@ aom_artifact_checks.0003 = {
 
 			# Egyptian
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_egyptian_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_egyptian_artifacts_all }
 				trigger_event = aom_egyptian_artifacts.001
 				trigger_event = aom_egyptian_artifacts.002
 			}
@@ -293,11 +252,7 @@ aom_artifact_checks.0003 = {
 
 			# Chinese
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_chinese_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_chinese_artifacts_all }
 				trigger_event = aom_chinese_artifacts.001
 				trigger_event = aom_chinese_artifacts.002
 			}
@@ -312,21 +267,13 @@ aom_artifact_checks.0003 = {
 
 			# Easter Egg
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_easter_egg_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_easter_egg_artifacts_all }
 				trigger_event = aom_easter_egg_artifacts.001
 			}
 
 			# Shinto
 			if = {
-				limit = {
-					OR = {
-						has_game_rule = aom_generate_shinto_artifacts_all
-					}
-				}
+				limit = { has_game_rule = aom_generate_shinto_artifacts_all }
 				trigger_event = aom_shinto_artifacts.001
 				trigger_event = aom_shinto_artifacts.002
 			}

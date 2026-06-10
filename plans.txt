@@ -102,6 +102,10 @@
     - Supported Version is now 1.19.*
     - Updated the Sacred Cloak of the Prophet icon
     - Updated the Crown of Twelve Stars icon
+
+1.9.1
+- Fixes
+    - Shinto spawning via decision was missing. oops
        
 Planned:
 - Added Hindu (Indian) artifacts with gamerule control
