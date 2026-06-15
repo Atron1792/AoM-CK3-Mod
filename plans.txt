@@ -106,6 +106,10 @@
 1.9.1
 - Fixes
     - Shinto spawning via decision was missing. oops
+
+1.9.2
+- Fixes
+    - Added Reseed Missing Artifacts gamerule
        
 Planned:
 - Added Hindu (Indian) artifacts with gamerule control

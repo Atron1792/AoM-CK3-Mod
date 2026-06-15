@@ -1,5 +1,42 @@
 ﻿namespace = aom_game_rule
 
+# Reseed Artifacts
+aom_game_rule.100 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		if = {
+			limit = { has_game_rule = aom_reseed_missing_artifacts_5_years }
+			set_global_variable = {
+				name = aom_reseed_missing_artifacts_gamerule_count
+				value = 5
+			}
+			set_global_variable = {
+				name = aom_reseed_missing_artifacts_year_count
+				value = 0
+			}
+		}
+		if = {
+			limit = { has_game_rule = aom_reseed_missing_artifacts_10_years }
+			set_global_variable = {
+				name = aom_reseed_missing_artifacts_gamerule_count
+				value = 10
+			}
+			set_global_variable = {
+				name = aom_reseed_missing_artifacts_year_count
+				value = 0
+			}
+		}
+		if = {
+			limit = { has_game_rule = aom_reseed_missing_artifacts_disabled }
+			set_global_variable = {
+				name = aom_reseed_missing_artifacts_gamerule_count
+				value = -1
+			}
+		}
+	}
+}
+
 # Generate Norse Artifacts
 aom_game_rule.001 = {
 	scope = none

@@ -2,6 +2,7 @@
 
 aom_on_game_start = {
 	events = {
+		aom_game_rule.100
 		aom_game_rule.001
 		aom_game_rule.002
 		aom_game_rule.003

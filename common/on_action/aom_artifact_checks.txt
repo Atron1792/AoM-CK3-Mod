@@ -1,5 +1,5 @@
 ﻿# Vanila Game Checks
-yearly_global_pulse = { on_actions = {aom_artifact_existence_check} }
+yearly_global_pulse = { on_actions = {aom_reseed_missing_artifacts_check} }
 five_year_everyone_pulse = { on_actions = {aom_on_lovecraftian_stress_gain} }
 
 # # On Losing Egypt
@@ -33,8 +33,8 @@ aom_on_lovecraftian_stress_gain = {
 	}
 }
 
-# Artifact Existence Check 
-aom_artifact_existence_check = {
+# Reseed Missing Artifacts 
+aom_reseed_missing_artifacts_check = {
     events = {
 		aom_artifact_checks.0003
     }

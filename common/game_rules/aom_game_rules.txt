@@ -8,6 +8,17 @@ aom_artifact_requirements = {
 	aom_artifact_requirements_disabled = {}
 }
 
+# Reseed Missing Artifacts 
+aom_reseed_missing_artifacts = {
+	categories = { aom }
+
+	default = aom_reseed_missing_artifacts_5_years
+
+	aom_reseed_missing_artifacts_5_years = {}
+	aom_reseed_missing_artifacts_10_years = {}
+	aom_reseed_missing_artifacts_disabled = {}
+}
+
 # Generate Norse Artifacts
 aom_generate_norse_artifacts = {
 	categories = { aom }

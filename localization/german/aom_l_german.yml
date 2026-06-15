@@ -8,7 +8,7 @@
 
 # Debug Decisions
   aom_debug_transfer_all_artifacts: "Beschwöre die Artefakte der Mythen"
-  aom_debug_transfer_all_artifacts_desc: "Zähler für das Existenzjahr von Artefakten: [GetGlobalVariable('aom_artifact_existence_year_counter').GetValue]"
+  aom_debug_transfer_all_artifacts_desc: "Zähler für das Existenzjahr von Artefakten: [GetGlobalVariable('aom_reseed_missing_artifacts_year_count').GetValue]"
   aom_debug_transfer_all_artifacts_tooltip: "Alle bekannten mythologischen Artefakte werden in deinen Besitz übertragen."
   aom_debug_transfer_all_artifacts_confirm: "Ja, bring sie mir!"
 
@@ -145,6 +145,18 @@
 
   setting_aom_artifact_requirements_disabled: "#R Deaktiviert#!"
   setting_aom_artifact_requirements_disabled_desc: "Charaktere können alle Artefakte uneingeschränkt nutzen."
+
+# Reseed Missing Artifacts Gamerule
+  rule_aom_reseed_missing_artifacts: "Reseed Missing Artifacts"
+  
+  setting_aom_reseed_missing_artifacts_5_years: "#P Every 5 Years#!"
+  setting_aom_reseed_missing_artifacts_5_years_desc: "Artifacts will respawn with their respective characters every 5 years. "
+
+  setting_aom_reseed_missing_artifacts_10_years: "#M Every 10 Years#!"
+  setting_aom_reseed_missing_artifacts_10_years_desc: "Artifacts will respawn with their respective characters every 10 years. "
+
+  setting_aom_reseed_missing_artifacts_disabled: "#R Disabled#!"
+  setting_aom_reseed_missing_artifacts_disabled_desc: "Artifacts will #R NOT#! respawn with their respective characters. "
 
 # Norse Artifact Gamerule
   rule_aom_generate_norse_artifacts: "Nordische Artefakt-Erzeugung"

@@ -9,9 +9,9 @@ aom_debug_transfer_all_artifacts = {
 	is_valid_showing_failures_only = { is_available_adult_or_is_commanding = yes }
 	ai_check_interval = 0
 	effect = {
-		set_global_variable = {
-			name = aom_artifact_existence_year_counter
-			value = 5
+		change_global_variable = {
+			name = aom_reseed_missing_artifacts_year_count
+			add = 5
 		}
 		every_living_character = {
 			limit = {
