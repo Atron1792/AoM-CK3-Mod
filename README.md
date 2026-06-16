@@ -5,7 +5,7 @@ Artifacts of Myth adds powerful, myth-inspired relics to your game, each with po
 ## Last Major Updates: 1.9
 - Added Shinto (Japanese) artifacts with gamerule control
 - Supported Version is now 1.19.*
-- Added Reseed Missing Artifacts which reseeds missing artifacts every 5 years
+- Added Reseed Missing Artifacts with gamerule control which reseeds missing artifacts every 5 years by default but can be changed to 10 years or disabled
 
 ## Artifact Spawn Conditions
 - **Norse** artifacts will spawn with Asatru rulers, and if none of those exist, then North Germanic rulers  
