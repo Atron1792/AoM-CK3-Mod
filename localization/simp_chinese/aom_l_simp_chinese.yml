@@ -147,16 +147,16 @@
   setting_aom_artifact_requirements_disabled_desc: "角色可无条件使用所有遗物。"
 
 # Reseed Missing Artifacts Gamerule
-  rule_aom_reseed_missing_artifacts: "Reseed Missing Artifacts"
+  rule_aom_reseed_missing_artifacts: "重新生成缺失的神器"
   
-  setting_aom_reseed_missing_artifacts_5_years: "#P Every 5 Years#!"
-  setting_aom_reseed_missing_artifacts_5_years_desc: "Artifacts will respawn with their respective characters every 5 years. "
+  setting_aom_reseed_missing_artifacts_5_years: "#P 每 5 年一次#!"
+  setting_aom_reseed_missing_artifacts_5_years_desc: "神器将每 5 年随其对应的角色重新生成。"
 
-  setting_aom_reseed_missing_artifacts_10_years: "#M Every 10 Years#!"
-  setting_aom_reseed_missing_artifacts_10_years_desc: "Artifacts will respawn with their respective characters every 10 years. "
+  setting_aom_reseed_missing_artifacts_10_years: "#M 每 10 年一次##!"
+  setting_aom_reseed_missing_artifacts_10_years_desc: "神器将每 10 年随其对应的角色重新生成。"
 
-  setting_aom_reseed_missing_artifacts_disabled: "#R Disabled#!"
-  setting_aom_reseed_missing_artifacts_disabled_desc: "Artifacts will #R NOT#! respawn with their respective characters. "
+  setting_aom_reseed_missing_artifacts_disabled: "#R 已禁用#!"
+  setting_aom_reseed_missing_artifacts_disabled_desc: "神器将 #R 不会#! 随其对应的角色一起重生。"
 
 # Norse Artifact Gamerule
   rule_aom_generate_norse_artifacts: "北欧遗物生成"

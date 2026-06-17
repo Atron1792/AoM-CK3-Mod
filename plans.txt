@@ -110,6 +110,10 @@
 1.9.2
 - Fixes
     - Added Reseed Missing Artifacts gamerule
+
+1.9.3
+- Fixes
+    - Localization for Reseed Missing Artifacts gamerule was missing. oops
        
 Planned:
 - Added Hindu (Indian) artifacts with gamerule control

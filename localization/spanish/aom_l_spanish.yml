@@ -147,16 +147,16 @@
   setting_aom_artifact_requirements_disabled_desc: "Los personajes podrán utilizar libremente cualquier artefacto."
 
 # Reseed Missing Artifacts Gamerule
-  rule_aom_reseed_missing_artifacts: "Reseed Missing Artifacts"
+  rule_aom_reseed_missing_artifacts: "Regenerar Artefactos Perdidos"
   
-  setting_aom_reseed_missing_artifacts_5_years: "#P Every 5 Years#!"
-  setting_aom_reseed_missing_artifacts_5_years_desc: "Artifacts will respawn with their respective characters every 5 years. "
+  setting_aom_reseed_missing_artifacts_5_years: "#P Cada 5 Años#!"
+  setting_aom_reseed_missing_artifacts_5_years_desc: "Los artefactos reaparecerán con sus respectivos personajes cada 5 años."
 
-  setting_aom_reseed_missing_artifacts_10_years: "#M Every 10 Years#!"
-  setting_aom_reseed_missing_artifacts_10_years_desc: "Artifacts will respawn with their respective characters every 10 years. "
+  setting_aom_reseed_missing_artifacts_10_years: "#M Cada 10 Años#!"
+  setting_aom_reseed_missing_artifacts_10_years_desc: "Los artefactos reaparecerán con sus respectivos personajes cada 10 años."
 
-  setting_aom_reseed_missing_artifacts_disabled: "#R Disabled#!"
-  setting_aom_reseed_missing_artifacts_disabled_desc: "Artifacts will #R NOT#! respawn with their respective characters. "
+  setting_aom_reseed_missing_artifacts_disabled: "#R Deshabilitado#!"
+  setting_aom_reseed_missing_artifacts_disabled_desc: "Los artefactos #R NO#! reaparecerán con sus respectivos personajes."
 
 # Norse Artifact Gamerule
   rule_aom_generate_norse_artifacts: "Generación de Artefactos Nórdicos"
